@@ -211,6 +211,59 @@
         "full_width": true
       }
     },
+    "1630481312618443be": {
+      "type": "multicolumn",
+      "blocks": {
+        "1630481312618443be-0": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image4.value }}",
+            "title": "{{ product.metafields.my_fields.headline4.value }}",
+            "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }}<\/p>"
+          }
+        },
+        "1630481312618443be-1": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image5.value }}",
+            "title": "{{ product.metafields.my_fields.headline5.value }}",
+            "text": "<p>{{ product.metafields.my_fields.paragraph5 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630481312618443be-0",
+        "1630481312618443be-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1630481421e796daa8": {
+      "type": "rich-text",
+      "blocks": {
+        "1630481421e796daa8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.disclaimer.value }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630481421e796daa8-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "1630478115c8b3b3a3": {
       "type": "rich-text",
       "blocks": {
@@ -291,6 +344,8 @@
     "16304808721de675e9",
     "1630480406d555e02f",
     "163048088405749c6c",
+    "1630481312618443be",
+    "1630481421e796daa8",
     "1630478115c8b3b3a3",
     "16304791534fed3483"
   ]
