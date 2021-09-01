@@ -92,10 +92,37 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1630478115c8b3b3a3": {
+      "type": "rich-text",
+      "blocks": {
+        "80cd6ca2-48ae-420d-9f0f-5c514287c6fa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Product Specifications",
+            "heading_size": "h1"
+          }
+        },
+        "1630478115c8b3b3a3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Brightness: {{ product.metafields.my_fields.lumens.value }} Lumens<br\/>Wattage Use: {{ product.metafields.my_fields.wattage.value }} Watts at full brightness<br\/>Wattage on Standby: Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/>Voltage Range: xxx<br\/>Color Temperature: {{ product.metafields.my_fields.cct_min.value }}K to {{ product.metafields.my_fields.cct_max.value }}K<br\/>Beam Angle: {{ product.metafields.my_fields.beam_angle.value }}°<br\/>Dimming : Software dimming {{ product.metafields.my_fields.dimming.value }}<br\/>Wi-Fi Router Requirement: {{ product.metafields.my_fields.wifi_router.value }} standards compliant<br\/>Security: {{ product.metafields.my_fields.security.value }}<br\/>Product Dimensions: {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "80cd6ca2-48ae-420d-9f0f-5c514287c6fa",
+        "1630478115c8b3b3a3-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "1630478115c8b3b3a3"
   ]
 }
