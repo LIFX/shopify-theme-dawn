@@ -94,6 +94,123 @@
         "show_rating": false
       }
     },
+    "1630480562e9e25adf": {
+      "type": "image-banner",
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image1.value }}",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "163048078976328266": {
+      "type": "rich-text",
+      "blocks": {
+        "163048078976328266-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline1.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "163048078976328266-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163048078976328266-0",
+        "163048078976328266-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1630480420c461029e": {
+      "type": "image-banner",
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image2.value }}",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16304808721de675e9": {
+      "type": "rich-text",
+      "blocks": {
+        "16304808721de675e9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline2.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "16304808721de675e9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.{{ product.metafields.my_fields.paragraph2 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16304808721de675e9-0",
+        "16304808721de675e9-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1630480406d555e02f": {
+      "type": "image-banner",
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image3.value }}",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "163048088405749c6c": {
+      "type": "rich-text",
+      "blocks": {
+        "163048088405749c6c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline3.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "163048088405749c6c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163048088405749c6c-0",
+        "163048088405749c6c-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "1630478115c8b3b3a3": {
       "type": "rich-text",
       "blocks": {
@@ -163,54 +280,18 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "1630480420c461029e": {
-      "type": "image-banner",
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image2.value }}",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "1630480406d555e02f": {
-      "type": "image-banner",
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image3.value }}",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": false,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "1630480562e9e25adf": {
-      "type": "image-banner",
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image1.value }}",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "1630478115c8b3b3a3",
-    "16304791534fed3483",
+    "1630480562e9e25adf",
+    "163048078976328266",
     "1630480420c461029e",
+    "16304808721de675e9",
     "1630480406d555e02f",
-    "1630480562e9e25adf"
+    "163048088405749c6c",
+    "1630478115c8b3b3a3",
+    "16304791534fed3483"
   ]
 }
