@@ -126,7 +126,7 @@
         "16304791534fed3483-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7_Diagram_1.png",
+            "image": "{{ product.metafields.my_fields.clean_tile1.value }}",
             "title": "",
             "text": ""
           }
@@ -134,7 +134,7 @@
         "16304791534fed3483-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7_Diagram_2.png",
+            "image": "{{ product.metafields.my_fields.clean_tile2.value }}",
             "title": "",
             "text": ""
           }
@@ -142,7 +142,7 @@
         "16304791534fed3483-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7_Diagram_3.png",
+            "image": "{{ product.metafields.my_fields.clean_tile3.value }}",
             "title": "",
             "text": ""
           }
