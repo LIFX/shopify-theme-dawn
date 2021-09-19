@@ -82,6 +82,16 @@
         "enable_video_looping": false
       }
     },
+    "1632093479ad04876a": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "cover_image": "shopify:\/\/shop_images\/1_LIFX_Clean_Module0_Header_2.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -338,6 +348,7 @@
   },
   "order": [
     "main",
+    "1632093479ad04876a",
     "product-recommendations",
     "1630480562e9e25adf",
     "163048078976328266",
