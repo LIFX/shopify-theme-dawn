@@ -85,9 +85,9 @@
     "1632093479ad04876a": {
       "type": "video",
       "settings": {
-        "heading": "",
+        "heading": "{{ product.title }}",
         "cover_image": "shopify:\/\/shop_images\/1_LIFX_Clean_Module0_Header_2.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "",
         "description": "",
         "full_width": false
       }
