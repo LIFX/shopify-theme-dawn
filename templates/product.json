@@ -80,6 +80,12 @@
             "page": "{{ product.metafields.my_fields.eprel_labels.value }}",
             "icon": "leaf"
           }
+        },
+        "5e3f423c-7aa2-4b43-be2a-0f55d6432439": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div>\n<strong>Bulk Order<\/strong>\n<p>Renovating, new build or corporate gifting? Contact us for a quote.<\/p><\/div>\n<a style=\"width:100%\" class=\"typeform-share button\" href=\"https:\/\/form.typeform.com\/to\/cEeRiRGz?typeform-medium=embed-snippet\" data-mode=\"popup\" data-size=\"50\" target=\"_blank\">Bulk enquiry <\/a>\n<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm_share\", b=\"https:\/\/embed.typeform.com\/\"; if(!gi.call(d,id)){ js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() <\/script>\n<\/div>"
+          }
         }
       },
       "block_order": [
@@ -94,7 +100,8 @@
         "description",
         "share",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
-        "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5"
+        "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
+        "5e3f423c-7aa2-4b43-be2a-0f55d6432439"
       ],
       "settings": {
         "enable_sticky_info": true,
