@@ -285,32 +285,6 @@
         "full_width": true
       }
     },
-    "1630478115c8b3b3a3": {
-      "type": "rich-text",
-      "blocks": {
-        "80cd6ca2-48ae-420d-9f0f-5c514287c6fa": {
-          "type": "heading",
-          "settings": {
-            "heading": "Product Specifications",
-            "heading_size": "h1"
-          }
-        },
-        "1630478115c8b3b3a3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Brightness:<\/strong> {{ product.metafields.my_fields.lumens.value }} Lumens<br\/><strong>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }} Watts at full brightness<br\/><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }} Watts<br\/><strong>Voltage Range:<\/strong> {{ product.metafields.my_fields.voltage.value }}<br\/><strong>Color Temperature:<\/strong> {{ product.metafields.my_fields.cct_min.value }}K to {{ product.metafields.my_fields.cct_max.value }}K<br\/><strong>Beam Angle:<\/strong> {{ product.metafields.my_fields.beam_angle.value }}°<br\/><strong>Dimming:<\/strong> Software dimming {{ product.metafields.my_fields.dimming.value }}<br\/><strong>Wi-Fi Router Requirement:<\/strong> {{ product.metafields.my_fields.wifi_router.value }} standards compliant<br\/><strong>Security:<\/strong> {{ product.metafields.my_fields.security.value }}<br\/><strong>Product Dimensions:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "80cd6ca2-48ae-420d-9f0f-5c514287c6fa",
-        "1630478115c8b3b3a3-1"
-      ],
-      "settings": {
-        "color_scheme": "inverse",
-        "full_width": true
-      }
-    },
     "16304791534fed3483": {
       "type": "multicolumn",
       "blocks": {
@@ -367,7 +341,6 @@
     "163048088405749c6c",
     "1630481312618443be",
     "1630481421e796daa8",
-    "1630478115c8b3b3a3",
     "16304791534fed3483"
   ]
 }
