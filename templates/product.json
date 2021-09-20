@@ -77,7 +77,7 @@
           "settings": {
             "heading": "Energy Labels",
             "content": "",
-            "page": "lifx-colour-eprel",
+            "page": "{{ product.metafields.my_fields.eprel_labels.value }}",
             "icon": "leaf"
           }
         }
