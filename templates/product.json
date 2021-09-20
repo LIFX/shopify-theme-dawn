@@ -81,6 +81,15 @@
             "icon": "leaf"
           }
         },
+        "76f2877b-9463-4ca3-a71e-982cd31af6da": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Bulk Order Enquiry",
+            "content": "",
+            "page": "bulk-order-enquiry",
+            "icon": "box"
+          }
+        },
         "5e3f423c-7aa2-4b43-be2a-0f55d6432439": {
           "type": "custom_liquid",
           "settings": {
@@ -101,6 +110,7 @@
         "share",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
+        "76f2877b-9463-4ca3-a71e-982cd31af6da",
         "5e3f423c-7aa2-4b43-be2a-0f55d6432439"
       ],
       "settings": {
