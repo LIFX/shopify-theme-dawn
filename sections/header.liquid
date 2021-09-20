@@ -110,11 +110,15 @@
                                 </button>
                                 <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                   {%- for childlink in link.links -%}
-                                    <li>
+                                    <li> 
                                       {%- if childlink.links == blank -%}
-                                        <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                      
+                                      
+        
+ 										<a href="{% if request.host == 'lifxshop.eu' %}{{ childlink.url }}{% else %}/collections/clearance-products-eu{% endif %}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                           {{ childlink.title | escape }}
                                         </a>
+
                                       {%- else -%}
                                         <details>
                                           <summary class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
@@ -354,11 +358,8 @@
                       {%- for childlink in link.links -%}
                         <li>
                           {%- if childlink.links == blank -%}
-
-
-
                             <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                           {{ request.host }}  {{ childlink.title | escape }}
+                              {{ childlink.title | escape }}
                             </a>
                           {%- else -%}
                             <details>
