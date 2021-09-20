@@ -170,6 +170,22 @@
         "show_text_below": true
       }
     },
+    "1632107311c762a72c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Clearance Highlights",
+        "collection": "clearance-products-eu",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
     "163210701498163fc8": {
       "type": "newsletter",
       "blocks": {
@@ -200,22 +216,6 @@
         "color_scheme": "inverse",
         "full_width": true
       }
-    },
-    "1632107311c762a72c": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Clearance Highlights",
-        "collection": "clearance-products-eu",
-        "products_to_show": 4,
-        "show_view_all": false,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": true,
-        "show_rating": false
-      }
     }
   },
   "order": [
@@ -224,7 +224,7 @@
     "1632105380b547d9e8",
     "16321053092b5575b3",
     "16321069914eb48980",
-    "163210701498163fc8",
-    "1632107311c762a72c"
+    "1632107311c762a72c",
+    "163210701498163fc8"
   ]
 }
