@@ -19,7 +19,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Get 10% off your first order with coupon code: TENOFF",
+              "text": "Get 10% off your first order: TENOFF",
               "color_scheme": "inverse",
               "link": ""
             }
