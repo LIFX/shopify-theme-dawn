@@ -274,24 +274,6 @@
         "swipe_on_mobile": false
       }
     },
-    "1630481421e796daa8": {
-      "type": "rich-text",
-      "blocks": {
-        "1630481421e796daa8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.disclaimer.value }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1630481421e796daa8-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "16304791534fed3483": {
       "type": "multicolumn",
       "blocks": {
@@ -333,7 +315,25 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
+      }
+    },
+    "1630481421e796daa8": {
+      "type": "rich-text",
+      "blocks": {
+        "1630481421e796daa8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.disclaimer.value }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630481421e796daa8-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     }
   },
@@ -347,7 +347,7 @@
     "1630480406d555e02f",
     "163048088405749c6c",
     "1630481312618443be",
-    "1630481421e796daa8",
-    "16304791534fed3483"
+    "16304791534fed3483",
+    "1630481421e796daa8"
   ]
 }
