@@ -1,13 +1,47 @@
 {
   "sections": {
-    "video": {
-      "type": "video",
+    "1632116257dff5145e": {
+      "type": "image-banner",
+      "blocks": {
+        "1632116257dff5145e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Same old home, new light.",
+            "heading_size": "medium"
+          }
+        },
+        "1632116257dff5145e-1": {
+          "type": "text",
+          "settings": {
+            "text": "Tired of looking at the same four walls, day in and day out?"
+          }
+        },
+        "1632116257dff5145e-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Browse the range",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1632116257dff5145e-0",
+        "1632116257dff5145e-1",
+        "1632116257dff5145e-2"
+      ],
       "settings": {
-        "heading": "",
-        "cover_image": "shopify:\/\/shop_images\/LIFX-Homepage-1_-AUS-SameOldHome-optimised.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=R651EM1dHgk",
-        "description": "These lights will change your life",
-        "full_width": true
+        "image": "shopify:\/\/shop_images\/LIFX-Homepage-1_-AUS-SameOldHome-optimised.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "1632104744140161e0": {
@@ -219,7 +253,7 @@
     }
   },
   "order": [
-    "video",
+    "1632116257dff5145e",
     "1632104744140161e0",
     "1632105380b547d9e8",
     "16321053092b5575b3",
