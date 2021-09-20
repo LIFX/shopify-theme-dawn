@@ -251,75 +251,6 @@
         "show_view_all": false
       }
     },
-    "16321053092b5575b3": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "16321053092b5575b3-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "16321053092b5575b3-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "16321053092b5575b3-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "16321053092b5575b3-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "16321053092b5575b3-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "16321053092b5575b3-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "16321053092b5575b3-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "16321053092b5575b3-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "16321053092b5575b3-0",
-        "16321053092b5575b3-1",
-        "16321053092b5575b3-2",
-        "16321053092b5575b3-3",
-        "16321053092b5575b3-4",
-        "16321053092b5575b3-5",
-        "16321053092b5575b3-6",
-        "16321053092b5575b3-7"
-      ],
-      "settings": {
-        "product": "",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false
-      }
-    },
     "1632105330e63ab5c4": {
       "type": "featured-collection",
       "disabled": true,
@@ -383,6 +314,7 @@
       "blocks": {
         "1632105380b547d9e8-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "LIFX Clean",
             "heading_size": "medium"
@@ -390,12 +322,14 @@
         },
         "1632105380b547d9e8-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "The world's first antibacterial, germicidal smart light bulb. Orders are now open."
           }
         },
         "1632105380b547d9e8-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Buy Now",
             "button_link_1": "shopify:\/\/products\/clean-a60",
@@ -421,6 +355,74 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "16321053092b5575b3": {
+      "type": "featured-product",
+      "blocks": {
+        "16321053092b5575b3-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16321053092b5575b3-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16321053092b5575b3-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16321053092b5575b3-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16321053092b5575b3-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16321053092b5575b3-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16321053092b5575b3-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16321053092b5575b3-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16321053092b5575b3-0",
+        "16321053092b5575b3-1",
+        "16321053092b5575b3-2",
+        "16321053092b5575b3-3",
+        "16321053092b5575b3-4",
+        "16321053092b5575b3-5",
+        "16321053092b5575b3-6",
+        "16321053092b5575b3-7"
+      ],
+      "settings": {
+        "product": "clean-a60",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
     }
   },
   "order": [
@@ -432,9 +434,9 @@
     "collage",
     "multi_column",
     "1632105282eb5e3e5d",
-    "16321053092b5575b3",
     "1632105330e63ab5c4",
     "16321053370c4590d9",
-    "1632105380b547d9e8"
+    "1632105380b547d9e8",
+    "16321053092b5575b3"
   ]
 }
