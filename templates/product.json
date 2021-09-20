@@ -62,6 +62,24 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "88e15617-7a01-4dae-92e8-6e255e65fba0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "content": "<p><strong>Brightness:<\/strong> {{ product.metafields.my_fields.lumens.value }} Lumens<br\/><strong>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }} Watts at full brightness<br\/><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }} Watts<br\/><strong>Voltage Range:<\/strong> {{ product.metafields.my_fields.voltage.value }}<br\/><strong>Color Temperature:<\/strong> {{ product.metafields.my_fields.cct_min.value }}K to {{ product.metafields.my_fields.cct_max.value }}K<br\/><strong>Beam Angle:<\/strong> {{ product.metafields.my_fields.beam_angle.value }}°<br\/><strong>Dimming:<\/strong> Software dimming {{ product.metafields.my_fields.dimming.value }}<br\/><strong>Wi-Fi Router Requirement:<\/strong> {{ product.metafields.my_fields.wifi_router.value }} standards compliant<br\/><strong>Security:<\/strong> {{ product.metafields.my_fields.security.value }}<br\/><strong>Product Dimensions:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "leaf"
+          }
+        },
+        "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Energy Labels",
+            "content": "",
+            "page": "",
+            "icon": "ruler"
+          }
         }
       },
       "block_order": [
@@ -74,7 +92,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "88e15617-7a01-4dae-92e8-6e255e65fba0",
+        "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -177,7 +197,7 @@
       "type": "image-banner",
       "settings": {
         "image": "{{ product.metafields.my_fields.image3.value }}",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "show_text_box": false,
         "image_overlay_opacity": 0,
