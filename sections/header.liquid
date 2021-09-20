@@ -116,7 +116,7 @@
                                       
         
  										<a href="{% if request.host == 'lifxshop.eu' %}{{ childlink.url }}{% else %}/collections/clearance-products-eu{% endif %}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                          {{ childlink.title | escape }}
+                                          test {{ childlink.title | escape }}
                                         </a>
 
                                       {%- else -%}
