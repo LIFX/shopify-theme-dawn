@@ -114,7 +114,7 @@
                                       {%- if childlink.links == blank -%}
                                         <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                           {{ childlink.title | escape }}
-                                        </a> CL
+                                        </a>
                                       {%- else -%}
                                         <details>
                                           <summary class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
