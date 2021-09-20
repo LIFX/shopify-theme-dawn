@@ -110,15 +110,11 @@
                                 </button>
                                 <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                   {%- for childlink in link.links -%}
-                                    <li> 
+                                    <li>
                                       {%- if childlink.links == blank -%}
-                                      
-                                      
-        
- 										<a href="{% if request.host == 'lifxshop.eu' %}{{ childlink.url }}{% else %}/collections/clearance-products-eu{% endif %}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                          test {{ childlink.title | escape }}
-                                        </a>
-
+                                        <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                          {{ childlink.title | escape }}
+                                        </a> CL
                                       {%- else -%}
                                         <details>
                                           <summary class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
