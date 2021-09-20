@@ -1,0 +1,353 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.lumens.value }} Lumens",
+            "text_style": "uppercase"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "88e15617-7a01-4dae-92e8-6e255e65fba0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "content": "<p>Brightness: {{ product.metafields.my_fields.lumens.value }} Lumens<br\/>CRI: {{ product.metafields.my_fields.cri.value }}<br\/>Wattage Use: {{ product.metafields.my_fields.wattage.value }}W at full brightness<br\/>Wattage Equivalent: {{ product.metafields.my_fields.wattage_equivalent.value }}W Incandescent<br\/>Wattage on Standby: Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/>Voltage Range: {{ product.metafields.my_fields.voltage.value }}<br\/>Color Temperature: {{ product.metafields.my_fields.cct_min.value }}K to {{ product.metafields.my_fields.cct_max.value }}K<br\/>Beam Angle: {{ product.metafields.my_fields.beam_angle.value }}°<br\/>Dimming: Software dimming {{ product.metafields.my_fields.dimming.value }}<br\/>Wi-Fi Router: {{ product.metafields.my_fields.wifi_router.value }}<br\/>Security: {{ product.metafields.my_fields.security.value }}<br\/>Product Dimensions: {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Energy Labels",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.eprel_labels.value }}",
+            "icon": "leaf"
+          }
+        },
+        "5e3f423c-7aa2-4b43-be2a-0f55d6432439": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div>\n<strong>Bulk Order<\/strong>\n<p>Renovating, new build or corporate gifting? Contact us for a quote.<\/p><\/div>\n<a style=\"width:100%\" class=\"typeform-share button\" href=\"https:\/\/form.typeform.com\/to\/cEeRiRGz?typeform-medium=embed-snippet\" data-mode=\"popup\" data-size=\"50\" target=\"_blank\">Bulk enquiry <\/a>\n<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm_share\", b=\"https:\/\/embed.typeform.com\/\"; if(!gi.call(d,id)){ js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() <\/script>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share",
+        "88e15617-7a01-4dae-92e8-6e255e65fba0",
+        "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
+        "5e3f423c-7aa2-4b43-be2a-0f55d6432439"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": true,
+        "enable_video_looping": true
+      }
+    },
+    "1630480562e9e25adf": {
+      "type": "image-banner",
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image1.value }}",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "163048078976328266": {
+      "type": "rich-text",
+      "blocks": {
+        "163048078976328266-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline1.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "163048078976328266-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163048078976328266-0",
+        "163048078976328266-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1630480420c461029e": {
+      "type": "image-banner",
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image2.value }}",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16304808721de675e9": {
+      "type": "rich-text",
+      "blocks": {
+        "16304808721de675e9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline2.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "16304808721de675e9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.{{ product.metafields.my_fields.paragraph2 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16304808721de675e9-0",
+        "16304808721de675e9-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1630480406d555e02f": {
+      "type": "image-banner",
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image3.value }}",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "163048088405749c6c": {
+      "type": "rich-text",
+      "blocks": {
+        "163048088405749c6c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline3.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "163048088405749c6c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163048088405749c6c-0",
+        "163048088405749c6c-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1630481312618443be": {
+      "type": "multicolumn",
+      "blocks": {
+        "1630481312618443be-0": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image4.value }}",
+            "title": "{{ product.metafields.my_fields.headline4.value }}",
+            "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }}<\/p>"
+          }
+        },
+        "1630481312618443be-1": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image5.value }}",
+            "title": "{{ product.metafields.my_fields.headline5.value }}",
+            "text": "<p>{{ product.metafields.my_fields.paragraph5 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630481312618443be-0",
+        "1630481312618443be-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16304791534fed3483": {
+      "type": "multicolumn",
+      "blocks": {
+        "16304791534fed3483-0": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.clean_tile1.value }}",
+            "title": "",
+            "text": ""
+          }
+        },
+        "16304791534fed3483-1": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.clean_tile2.value }}",
+            "title": "",
+            "text": ""
+          }
+        },
+        "16304791534fed3483-2": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.clean_tile3.value }}",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16304791534fed3483-0",
+        "16304791534fed3483-1",
+        "16304791534fed3483-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "1630481421e796daa8": {
+      "type": "rich-text",
+      "blocks": {
+        "1630481421e796daa8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.disclaimer.value }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630481421e796daa8-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1630480562e9e25adf",
+    "163048078976328266",
+    "product-recommendations",
+    "1630480420c461029e",
+    "16304808721de675e9",
+    "1630480406d555e02f",
+    "163048088405749c6c",
+    "1630481312618443be",
+    "16304791534fed3483",
+    "1630481421e796daa8"
+  ]
+}
