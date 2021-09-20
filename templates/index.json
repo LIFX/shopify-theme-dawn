@@ -409,18 +409,141 @@
     },
     "1632105330e63ab5c4": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Clearance",
         "collection": "clearance-products-eu",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": false,
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
+      }
+    },
+    "163210688018784b02": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "163210688018784b02-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "163210688018784b02-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "163210688018784b02-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "163210688018784b02-0",
+        "163210688018784b02-1",
+        "163210688018784b02-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "1632106965240151ff": {
+      "type": "multicolumn",
+      "blocks": {
+        "1632106965240151ff-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1632106965240151ff-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1632106965240151ff-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1632106965240151ff-0",
+        "1632106965240151ff-1",
+        "1632106965240151ff-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16321069914eb48980": {
+      "type": "image-banner",
+      "blocks": {
+        "16321069914eb48980-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clearance Sale",
+            "heading_size": "medium"
+          }
+        },
+        "16321069914eb48980-1": {
+          "type": "text",
+          "settings": {
+            "text": "Huge discounts across the LIFX Mini range. Till stocks last."
+          }
+        },
+        "16321069914eb48980-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/clearance-products-eu",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16321069914eb48980-0",
+        "16321069914eb48980-1",
+        "16321069914eb48980-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/minis-website-hero-1440x650_1080x_2b0494f2-ab50-49d2-af56-9f16de0726d8.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -436,6 +559,9 @@
     "16321053370c4590d9",
     "1632105380b547d9e8",
     "16321053092b5575b3",
-    "1632105330e63ab5c4"
+    "1632105330e63ab5c4",
+    "163210688018784b02",
+    "1632106965240151ff",
+    "16321069914eb48980"
   ]
 }
