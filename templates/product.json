@@ -273,24 +273,6 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "1630481421e796daa8": {
-      "type": "rich-text",
-      "blocks": {
-        "1630481421e796daa8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.disclaimer.value }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1630481421e796daa8-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
     }
   },
   "order": [
@@ -302,7 +284,6 @@
     "16304808721de675e9",
     "1630480406d555e02f",
     "163048088405749c6c",
-    "1630481312618443be",
-    "1630481421e796daa8"
+    "1630481312618443be"
   ]
 }
