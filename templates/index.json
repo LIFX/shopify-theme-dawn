@@ -1,7 +1,18 @@
 {
   "sections": {
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/LIFX-Homepage-5__AU-FathersDay.jpg",
+        "video_url": "",
+        "description": "",
+        "full_width": true
+      }
+    },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -127,15 +138,6 @@
         "mobile_layout": "collage"
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "",
-        "description": "",
-        "full_width": false
-      }
-    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -182,11 +184,11 @@
     }
   },
   "order": [
+    "video",
     "image_banner",
     "rich_text",
     "featured_products",
     "collage",
-    "video",
     "multi_column"
   ]
 }
