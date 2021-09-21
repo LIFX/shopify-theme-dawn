@@ -263,22 +263,14 @@
     "163048088405749c6c": {
       "type": "rich-text",
       "blocks": {
-        "163048088405749c6c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.headline3.value }}",
-            "heading_size": "h1"
-          }
-        },
         "163048088405749c6c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
+            "text": "<p>{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
           }
         }
       },
       "block_order": [
-        "163048088405749c6c-0",
         "163048088405749c6c-1"
       ],
       "settings": {
