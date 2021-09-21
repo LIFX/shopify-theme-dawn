@@ -79,6 +79,51 @@
         "layout": "image_first"
       }
     },
+    "16321870964a1d4c89": {
+      "type": "image-banner",
+      "blocks": {
+        "16321870964a1d4c89-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "From White to Warm",
+            "heading_size": "medium"
+          }
+        },
+        "16321870964a1d4c89-1": {
+          "type": "text",
+          "settings": {
+            "text": "Get started with a beautiful 2700K LIFX White. Or expand your kelvin range with cool to warm whites with the LIFX White to Warm."
+          }
+        },
+        "16321870964a1d4c89-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "White",
+            "button_link_1": "shopify:\/\/products\/lifx-white",
+            "button_style_secondary_1": false,
+            "button_label_2": "White to Warm",
+            "button_link_2": "shopify:\/\/products\/lifx-white-to-warm",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16321870964a1d4c89-0",
+        "16321870964a1d4c89-1",
+        "16321870964a1d4c89-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_RelaxingEvening.jpg",
+        "image_2": "shopify:\/\/shop_images\/2_Good-morning-sunshine.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1632105380b547d9e8": {
       "type": "image-banner",
       "settings": {
@@ -255,6 +300,7 @@
   "order": [
     "1632116257dff5145e",
     "1632104744140161e0",
+    "16321870964a1d4c89",
     "1632105380b547d9e8",
     "16321053092b5575b3",
     "16321069914eb48980",
