@@ -373,7 +373,7 @@
         "163220494975f849ec-1": {
           "type": "text",
           "settings": {
-            "text": "<p>For further information about the new app, including FAQ's, tips, guides and more, click here<\/p>"
+            "text": "<p>For further information about the new app, including FAQ's, tips, guides and more, <a href=\"https:\/\/support.lifx.com\/categories\/lifx-app-SyPjZdjU_\" title=\"https:\/\/support.lifx.com\/categories\/lifx-app-SyPjZdjU_\">click here<\/a><\/p>"
           }
         },
         "163220494975f849ec-2": {
