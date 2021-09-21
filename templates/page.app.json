@@ -13,10 +13,44 @@
         "description": "",
         "full_width": true
       }
+    },
+    "16322046288e9c3461": {
+      "type": "rich-text",
+      "blocks": {
+        "16322046288e9c3461-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "App 4 is here",
+            "heading_size": "h1"
+          }
+        },
+        "16322046288e9c3461-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The view from here is better. We've made it to basecamp on a longer journey to 'Peak App'. We want you to like it more, but need it less, by reducing the number of steps to get where you're going. <\/p><p><\/p><p>We want to shift focus up, from your phone to your home.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16322046288e9c3461-0",
+        "16322046288e9c3461-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16322046322b0c4f94": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div align=\"center\"> \n<div style=\"text-align:center; margin:auto\">\n            \n<p>Download the LIFX app and get connected.<\/p>\n\n<a target=\"_blank\" href=\"https:\/\/itunes.apple.com\/us\/app\/lifx\/id657758311?mt=8\">\n  <img class=\"\" style=\"height:60px; margin: 5px 7px; text-align:center;\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0263\/7873\/1625\/files\/5a902db97f96951c82922874.png?1464\"><\/a>\n<a target=\"_blank\" href=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx\">\n          <img class=\"\" style=\"height:60px; margin:5px 7px; text-align:center;\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0263\/7873\/1625\/files\/google-play-badge-300x89.png?1468\"><\/a>\n            \n      <\/div>\n  \t<\/div>"
+      }
     }
   },
   "order": [
     "main",
-    "163220456184dd6e3f"
+    "163220456184dd6e3f",
+    "16322046288e9c3461",
+    "16322046322b0c4f94"
   ]
 }
