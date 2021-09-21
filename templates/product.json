@@ -284,13 +284,13 @@
         "16321895063b55d15b-0": {
           "type": "heading",
           "settings": {
-            "heading": "Hands on"
+            "heading": "{{ product.metafields.my_fields.headline5.value }}"
           }
         },
         "16321895063b55d15b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The app is simple. But advanced when you need it to be.<\/p>"
+            "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }}<\/p>"
           }
         }
       },
@@ -299,7 +299,7 @@
         "16321895063b55d15b-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/5_COLOR_A19_App.jpg",
+        "image": "{{ product.metafields.my_fields.image4.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -311,13 +311,13 @@
         "1632189680ad62966a-0": {
           "type": "heading",
           "settings": {
-            "heading": "...or hands free"
+            "heading": "{{ product.metafields.my_fields.headline5.value }}"
           }
         },
         "1632189680ad62966a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Forget the app and use your voice, schedules, or assistant routines to control your lights while you relax.<\/p>"
+            "text": "<p>{{ product.metafields.my_fields.paragraph5 | metafield_tag }}<\/p>"
           }
         }
       },
@@ -326,7 +326,7 @@
         "1632189680ad62966a-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/6_Voice_COLOR_A19_NIGHTVISION_Voice.jpg",
+        "image": "{{ product.metafields.my_fields.image5.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
