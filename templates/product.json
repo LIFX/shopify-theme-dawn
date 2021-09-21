@@ -284,7 +284,7 @@
         "16321895063b55d15b-0": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.metafields.my_fields.headline5.value }}"
+            "heading": "{{ product.metafields.my_fields.headline4.value }}"
           }
         },
         "16321895063b55d15b-1": {
