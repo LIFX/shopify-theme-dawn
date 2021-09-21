@@ -4,9 +4,19 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "163220456184dd6e3f": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "163220456184dd6e3f"
   ]
 }
