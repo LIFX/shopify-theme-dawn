@@ -146,7 +146,7 @@
         "0b588ae7-6094-49d9-bd12-049185c9c644"
       ],
       "settings": {
-        "heading": "Hands on or hands free",
+        "heading": "{{ product.metafields.my_fields.headline1.value }}",
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
