@@ -112,6 +112,45 @@
         "enable_video_looping": true
       }
     },
+    "163218778740ff4558": {
+      "type": "collage",
+      "blocks": {
+        "c74a3e1e-a33e-448d-9ae5-ab09df21104c": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image1.value }}",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "df5e456c-0086-4bfd-8cdf-66f5872f4615": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image2.value }}",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "0b588ae7-6094-49d9-bd12-049185c9c644": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image3.value }}",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "c74a3e1e-a33e-448d-9ae5-ab09df21104c",
+        "df5e456c-0086-4bfd-8cdf-66f5872f4615",
+        "0b588ae7-6094-49d9-bd12-049185c9c644"
+      ],
+      "settings": {
+        "heading": "Hands on or hands free",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
     "1630480562e9e25adf": {
       "type": "image-banner",
       "settings": {
@@ -276,49 +315,11 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "163218778740ff4558": {
-      "type": "collage",
-      "blocks": {
-        "c74a3e1e-a33e-448d-9ae5-ab09df21104c": {
-          "type": "image",
-          "settings": {
-            "image": "{{ product.metafields.my_fields.image1.value }}",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "df5e456c-0086-4bfd-8cdf-66f5872f4615": {
-          "type": "image",
-          "settings": {
-            "image": "{{ product.metafields.my_fields.image2.value }}",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "0b588ae7-6094-49d9-bd12-049185c9c644": {
-          "type": "image",
-          "settings": {
-            "image": "{{ product.metafields.my_fields.image3.value }}",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "c74a3e1e-a33e-448d-9ae5-ab09df21104c",
-        "df5e456c-0086-4bfd-8cdf-66f5872f4615",
-        "0b588ae7-6094-49d9-bd12-049185c9c644"
-      ],
-      "settings": {
-        "heading": "Hands on or hands free",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
     }
   },
   "order": [
     "main",
+    "163218778740ff4558",
     "1630480562e9e25adf",
     "163048078976328266",
     "product-recommendations",
@@ -326,7 +327,6 @@
     "16304808721de675e9",
     "1630480406d555e02f",
     "163048088405749c6c",
-    "1630481312618443be",
-    "163218778740ff4558"
+    "1630481312618443be"
   ]
 }
