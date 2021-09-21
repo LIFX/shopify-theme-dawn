@@ -320,6 +320,22 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "163218873495d70544": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Clearance Stock",
+        "collection": "clearance-products-eu",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
@@ -332,6 +348,7 @@
     "16304808721de675e9",
     "1630480406d555e02f",
     "163048088405749c6c",
-    "1630481312618443be"
+    "1630481312618443be",
+    "163218873495d70544"
   ]
 }
