@@ -146,9 +146,35 @@
         "0b588ae7-6094-49d9-bd12-049185c9c644"
       ],
       "settings": {
-        "heading": "{{ product.metafields.my_fields.headline1.value }}",
+        "heading": "",
         "desktop_layout": "left",
         "mobile_layout": "collage"
+      }
+    },
+    "1632375097cddb24cb": {
+      "type": "rich-text",
+      "blocks": {
+        "1632375097cddb24cb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline1.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "1632375097cddb24cb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1632375097cddb24cb-0",
+        "1632375097cddb24cb-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": false
       }
     },
     "1632374284a540207b": {
@@ -194,7 +220,7 @@
         "163048088405749c6c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
+            "text": "<p>{{ product.metafields.my_fields.paragraph2 | metafield_tag }}<\/p>"
           }
         }
       },
@@ -277,6 +303,7 @@
   "order": [
     "main",
     "163218778740ff4558",
+    "1632375097cddb24cb",
     "1632374284a540207b",
     "163048088405749c6c",
     "16321895063b55d15b",
