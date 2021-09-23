@@ -183,7 +183,7 @@
         "bb8e6301-49ac-4fd6-8457-c6e5323c39f9": {
           "type": "image",
           "settings": {
-            "image": "{{ product.metafields.my_fields.image6.value }}",
+            "image": "{{ product.metafields.my_fields.image4.value }}",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -191,7 +191,7 @@
         "a429c15e-7e32-454f-b135-8f4f3b932209": {
           "type": "image",
           "settings": {
-            "image": "{{ product.metafields.my_fields.image7.value }}",
+            "image": "{{ product.metafields.my_fields.image5.value }}",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -254,7 +254,7 @@
         "163237510090a3f7bb-1"
       ],
       "settings": {
-        "image": "{{ product.metafields.my_fields.image3.value }}",
+        "image": "{{ product.metafields.my_fields.image6.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -281,7 +281,7 @@
         "16321895063b55d15b-1"
       ],
       "settings": {
-        "image": "{{ product.metafields.my_fields.image4.value }}",
+        "image": "{{ product.metafields.my_fields.image7.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -308,7 +308,7 @@
         "1632189680ad62966a-1"
       ],
       "settings": {
-        "image": "{{ product.metafields.my_fields.image5.value }}",
+        "image": "{{ product.metafields.my_fields.image8.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
