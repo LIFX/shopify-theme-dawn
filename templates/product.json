@@ -184,6 +184,13 @@
     "163048088405749c6c": {
       "type": "rich-text",
       "blocks": {
+        "a06feda4-a693-46f5-b920-d4dc8e897969": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline2.value }}",
+            "heading_size": "h1"
+          }
+        },
         "163048088405749c6c-1": {
           "type": "text",
           "settings": {
@@ -192,6 +199,7 @@
         }
       },
       "block_order": [
+        "a06feda4-a693-46f5-b920-d4dc8e897969",
         "163048088405749c6c-1"
       ],
       "settings": {
