@@ -176,7 +176,7 @@
         "a429c15e-7e32-454f-b135-8f4f3b932209"
       ],
       "settings": {
-        "heading": "{{ product.metafields.my_fields.headline2.value }}",
+        "heading": "",
         "desktop_layout": "right",
         "mobile_layout": "collage"
       }
