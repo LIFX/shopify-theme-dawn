@@ -212,7 +212,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/clearance-products-eu",
+            "button_link_1": "shopify:\/\/collections\/clearance-products",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -240,7 +240,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Clearance Highlights",
-        "collection": "clearance-products-eu",
+        "collection": "clearance-products",
         "products_to_show": 4,
         "show_view_all": false,
         "swipe_on_mobile": true,
