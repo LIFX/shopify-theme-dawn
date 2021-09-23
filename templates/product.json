@@ -245,7 +245,7 @@
         "163237510090a3f7bb-1": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p>{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
           }
         }
       },
@@ -254,6 +254,7 @@
         "163237510090a3f7bb-1"
       ],
       "settings": {
+        "image": "{{ product.metafields.my_fields.image3.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
