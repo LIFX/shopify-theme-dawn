@@ -20,6 +20,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Get 10% off your first order: TENOFF",
               "color_scheme": "inverse",
