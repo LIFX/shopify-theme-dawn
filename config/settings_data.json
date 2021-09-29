@@ -20,9 +20,8 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Get 10% off your first order: TENOFF",
+              "text": "Get 15% off your first order with Code:SHINY",
               "color_scheme": "inverse",
               "link": ""
             }
