@@ -10,6 +10,7 @@
       "type": "video",
       "settings": {
         "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/5_COLOR_A19_App.jpg",
         "video_url": "https:\/\/youtu.be\/9vDosw-Aukc",
         "description": "App 4 is here",
         "full_width": true
