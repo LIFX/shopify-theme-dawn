@@ -92,6 +92,7 @@
       "type": "video",
       "settings": {
         "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/LIFX_Brand_Video_Cover.jpg",
         "video_url": "https:\/\/vimeo.com\/506875468",
         "description": "LIFX Brand",
         "full_width": false
