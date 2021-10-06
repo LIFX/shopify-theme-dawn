@@ -34,6 +34,12 @@
           "settings": {
           }
         },
+        "22da0f11-6df9-414c-a017-98d68bb2801a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"AMZ_UK\" style=\"display:none\">\n\n{%assign amazon_affiliate = product.metafields.my_fields.amazon_affiliate %}\n\n\n{% if collection.handle != 'shop-the-app' %}\n\n  {% if amazon_affiliate %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\">Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate }}\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n\n{% endif %}\n\n<\/div>\n\n<div id=\"AMZ_DE\" style=\"display:none\">..<\/div>\n\n\n<script type=\"text\/javascript\">\nif(location.hostname == \"lifxshop.co.uk\") {\ndocument.getElementById(\"AMZ_UK\").style.display = \"\";\n}\n<\/script>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -67,7 +73,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Specifications",
-            "content": "<p>Brightness: {{ product.metafields.my_fields.lumens.value }} Lumens<br\/>CRI: {{ product.metafields.my_fields.cri.value }}<br\/>Wattage Use: {{ product.metafields.my_fields.wattage.value }}W at full brightness<br\/>Wattage Equivalent: {{ product.metafields.my_fields.wattage_equivalent.value }}W Incandescent<br\/>Wattage on Standby: Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/>Voltage Range: {{ product.metafields.my_fields.voltage.value }}<br\/>Color Temperature: {{ product.metafields.my_fields.cct_min.value }}K to {{ product.metafields.my_fields.cct_max.value }}K<br\/>Beam Angle: {{ product.metafields.my_fields.beam_angle.value }}°<br\/>Dimming: Software dimming {{ product.metafields.my_fields.dimming.value }}<br\/>Wi-Fi Router: {{ product.metafields.my_fields.wifi_router.value }}<br\/>Security: {{ product.metafields.my_fields.security.value }}<br\/>Product Dimensions: {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
+            "content": "",
             "page": "",
             "icon": "question_mark"
           }
@@ -97,6 +103,7 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "price",
+        "22da0f11-6df9-414c-a017-98d68bb2801a",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
