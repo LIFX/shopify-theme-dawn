@@ -89,6 +89,12 @@
             "page": "bulk-order-enquiry",
             "icon": "box"
           }
+        },
+        "f1da6ca5-9156-4723-9a4d-fdfca828c5a6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%assign amazon_affiliate = product.metafields.my_fields.amazon_affiliate %}\n\n\n{% if collection.handle != 'shop-the-app' %}\n\n\n  {% if amazon_affiliate %}\n  <label class=\"lumenSubtitle\" style=\"font-weight:100;padding-top:10px;\">Available at:<\/label>\n  <label class=\"lumenSubtitle\">\n    <a href=\"{{ amazon_affiliate }}\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span style=\"font-weight:100;text-decoration:underline\">Amazon<\/span>\n    <\/a>\n    <span style=\"color:#FF6172\">\n     {{ current_variant.price | money }}\n    <\/span>\n  <\/label>\n  {% endif %}\n\n\n\n{% endif %}"
+          }
         }
       },
       "block_order": [
@@ -104,7 +110,8 @@
         "share",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
-        "76f2877b-9463-4ca3-a71e-982cd31af6da"
+        "76f2877b-9463-4ca3-a71e-982cd31af6da",
+        "f1da6ca5-9156-4723-9a4d-fdfca828c5a6"
       ],
       "settings": {
         "enable_sticky_info": true,
