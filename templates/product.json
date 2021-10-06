@@ -34,6 +34,12 @@
           "settings": {
           }
         },
+        "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -97,6 +103,7 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "price",
+        "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
