@@ -10,14 +10,6 @@
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
-<script type="text/javascript">
-$(document).ready(function () {
-    if (window.location.href.indexOf(".co.uk") != -1) {
-        $("#AMZ_DE").hide();
-    }
-}
-</script>
-
 {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
 {%- if first_3d_model -%}
   {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
