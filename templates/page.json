@@ -5,6 +5,12 @@
       "settings": {
       }
     },
+    "1634009357594df509": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/forms.monday.com\/forms\/embed\/6541bebc6d587dc3161cf292916456c0?r=use1\" style=\"width:100%;height:1800px;\"><\/iframe>"
+      }
+    },
     "16334058807ca0819c": {
       "type": "image-banner",
       "blocks": {
@@ -216,6 +222,7 @@
     },
     "16334080895f5005a3": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "16334080895f5005a3-0": {
           "type": "heading",
@@ -263,6 +270,7 @@
     },
     "16334082045bc2fe32": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16334082045bc2fe32-0": {
           "type": "heading",
@@ -299,6 +307,7 @@
   },
   "order": [
     "main",
+    "1634009357594df509",
     "16334058807ca0819c",
     "1633407681eb12d13c",
     "163340773903c2322b",
