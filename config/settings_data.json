@@ -62,11 +62,27 @@
               "heading": "Heading",
               "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
+          },
+          "e7fcbe44-c8f6-490c-88bb-5426d0e6a650": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer-menu-2"
+            }
+          },
+          "170eb06c-252a-4f45-943a-d42b5bd5106e": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer-menu-3"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "e7fcbe44-c8f6-490c-88bb-5426d0e6a650",
+          "170eb06c-252a-4f45-943a-d42b5bd5106e"
         ],
         "settings": {
           "color_scheme": "background-1",
