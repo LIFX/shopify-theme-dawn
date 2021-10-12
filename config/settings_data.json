@@ -51,7 +51,7 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Site links",
               "menu": "footer"
             }
           },
@@ -66,14 +66,14 @@
           "e7fcbe44-c8f6-490c-88bb-5426d0e6a650": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Policy Links",
               "menu": "footer-menu-2"
             }
           },
           "170eb06c-252a-4f45-943a-d42b5bd5106e": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Contact Links",
               "menu": "footer-menu-3"
             }
           }
