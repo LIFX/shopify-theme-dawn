@@ -216,7 +216,6 @@
     },
     "16334080895f5005a3": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "16334080895f5005a3-0": {
           "type": "heading",
@@ -252,7 +251,7 @@
         "16334080895f5005a3-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/6_LIFX_Where_We_Work_1.png",
+        "image": "shopify:\/\/shop_images\/6_LIFX_Where_We_Work_1_017dcc73-bbbc-4806-8a4b-0c0d61e616d2.png",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "show_text_box": true,
@@ -264,7 +263,6 @@
     },
     "16334082045bc2fe32": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "16334082045bc2fe32-0": {
           "type": "heading",
