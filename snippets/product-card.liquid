@@ -1,3 +1,5 @@
+{%assign amazon_affiliate = product.metafields.my_fields.amazon_affiliate %}
+
 {% comment %}
     Renders a product card
 
@@ -17,7 +19,13 @@
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
 <div class="card-wrapper">
+
+{% if product.vendor == "Amazon" %}
+  <a href="{{ amazon_affiliate }}" class="mobile_external" target="_blank">
+  {% else %}
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
+{% endif %}
+
     <span class="visually-hidden">{{ product_card_product.title | escape }}</span>
 
     <div class="card card--product{% if product_card_product.featured_media == nil %} card--text-only card--soft{% endif %}{% if product_card_product.featured_media != nil and show_image_outline %} card--outline{% endif %}" tabindex="-1">
