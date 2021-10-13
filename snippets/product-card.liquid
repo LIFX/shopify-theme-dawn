@@ -15,8 +15,8 @@
 {% endcomment %}
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
-
-<div class="card-wrapper AMZ_UK" {% if product_card_product.vendor == "Amazon" %}style="none"{% endif %}>
+<div class"AMZ_UK" {% if product_card_product.vendor == "Amazon" %}style="none"{% endif %}>
+<div class="card-wrapper">
 
 {% if product_card_product.vendor == "Amazon" %}
    <a href="https://www.amazon.co.uk/gp/search?ie=UTF8&tag=lifxuk-21&linkCode=ur2&linkId=c349bcd3c20f2581d9f2ba06860861f4&camp=1634&creative=6738&index=aps&keywords=lifx echo device bundles" class="full-unstyled-link mobile_external" target="_blank">
@@ -131,7 +131,7 @@
     </div>
   </a>
 </div>
-
+</div>
 
 <script type="text/javascript">
 if(location.hostname == "lifxshop.co.uk"){ document.getElementById("AMZ_UK").style.display = "";
