@@ -15,7 +15,7 @@
 {% endcomment %}
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
-<div class"AMZ_UK" {% if product_card_product.vendor == "Amazon" %}style="none"{% endif %}>
+<div class"AMZ_UK" {% if product_card_product.vendor == "Amazon" %}style="display:none"{% endif %}>
 <div class="card-wrapper">
 
 {% if product_card_product.vendor == "Amazon" %}
