@@ -1,4 +1,4 @@
-{%assign amazon_affiliate = product.metafields.my_fields.amazon_affiliate %}
+{%assign product_card_product.amazon_affiliate = product.metafields.my_fields.amazon_affiliate %}
 
 {% comment %}
     Renders a product card
@@ -21,7 +21,7 @@
 <div class="card-wrapper">
 
 {% if product_card_product.vendor == "Amazon" %}
-   <a href="{{ amazon_affiliate }}" class="full-unstyled-link mobile_external" target="_blank">
+   <a href="{{ product_card_product.amazon_affiliate }}" class="full-unstyled-link mobile_external" target="_blank">
    {% else %}
    <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
 {% endif %}
