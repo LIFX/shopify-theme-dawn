@@ -20,9 +20,11 @@
 
 <div class="card-wrapper">
 
-
-  <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link {{ product_card_product.vendor }}">
-
+{% if product_card_product.vendor == "Amazon" }}
+   <a href="{{ amazon_affiliate }}" class="full-unstyled-link mobile_external" target="_blank">
+   {% else %}
+   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
+{% endif %}
 
     <span class="visually-hidden">{{ product_card_product.title | escape }}</span>
 
