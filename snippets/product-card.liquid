@@ -23,7 +23,7 @@
 {% if product.vendor == "Amazon" %}
   <a href="{{ amazon_affiliate }}" class="mobile_external" target="_blank">
   {% else %}
-  <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
+  <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link {{product.vendor}}">
 {% endif %}
 
     <span class="visually-hidden">{{ product_card_product.title | escape }}</span>
