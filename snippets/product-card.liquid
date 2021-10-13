@@ -15,7 +15,7 @@
 {% endcomment %}
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
-{% if product_card_product.vendor == "Amazon" %}<div class="AMZ_UK" style="display:none">{% endif %}
+{% if product_card_product.vendor == "Amazon" %}<div id="AMZ_UK" style="display:none">{% endif %}
 <div class="card-wrapper">
 
 {% if product_card_product.vendor == "Amazon" %}
@@ -139,3 +139,4 @@ if(location.hostname == "lifxshop.co.uk"){ document.getElementById("AMZ_UK").sty
 } else if (location.hostname == "lifxshop.fr") { document.getElementById("AMZ_FR").style.display = "";
 }
 </script>
+
