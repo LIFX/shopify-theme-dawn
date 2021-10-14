@@ -16,11 +16,9 @@
 
 {%- if media.media_type == 'image' -%}
   
-{% if image.alt contains "winner7" %} 
-<a href="/cart">
-{% endif %}
 
-    <img
+<a href="/cart">
+ <img
     srcset="{%- if media.preview_image.width >= 550 -%}{{ media.preview_image | img_url: '550x' }} 550w,{%- endif -%}
             {%- if media.preview_image.width >= 1100 -%}{{ media.preview_image | img_url: '1100x' }} 1100w,{%- endif -%}
             {%- if media.preview_image.width >= 1445 -%}{{ media.preview_image | img_url: '1445x' }} 1445w,{%- endif -%}
@@ -38,10 +36,9 @@
     height="{{ 1100 | divided_by: media.preview_image.aspect_ratio | ceil }}"
     data-media-id="{{ media.id }}"
     {% if variant_image %}class="product__media-item--variant"{% endif %}
-  kav >
-{% if image.alt contains "winner7" %} 
+   >
 </a>
-{% endif %}
+
 {%- else -%}
   {%- if media.media_type == 'model' -%}
     <div class="product-media-modal__model" data-media-id="{{ media.id }}">
@@ -69,7 +66,7 @@
         width="576"
         height="{{ 576 | divided_by: media.preview_image.aspect_ratio }}"
         alt="{{ media.preview_image.alt | escape }}"
-     kav2 >
+      >
     </button>
     <template>
       {%- case media.media_type -%}
