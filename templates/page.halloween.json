@@ -216,45 +216,112 @@
         "full_width": true
       }
     },
-    "1634182417af2b7ac5": {
-      "type": "multicolumn",
+    "1634184099dcca86a6": {
+      "type": "rich-text",
       "blocks": {
-        "1634182417af2b7ac5-0": {
-          "type": "column",
+        "1634184099dcca86a6-0": {
+          "type": "heading",
           "settings": {
-            "title": "Entry requirements",
+            "heading": "Entry requirements",
+            "heading_size": "h2"
+          }
+        },
+        "1634184099dcca86a6-1": {
+          "type": "text",
+          "settings": {
             "text": "<p>1. Like our post<br\/>2. Follow us on Instagram<br\/>3. Tag a friend on this post<br\/>4. Share our post<\/p>"
           }
         },
-        "1634182417af2b7ac5-1": {
-          "type": "column",
+        "1634184099dcca86a6-2": {
+          "type": "button",
+          "disabled": true,
           "settings": {
-            "title": "The winner will receive",
-            "text": "<p>1. 250$ Amazon gift card <br\/>2. Lightstrip 2m<br\/>3. Two Lightstrip Extension<br\/>4. Two LIFX Color<br\/>5. Two LIFX Clean <br\/>6. LIFX Candle White to Warm <\/p>"
-          }
-        },
-        "1634182417af2b7ac5-2": {
-          "type": "column",
-          "settings": {
-            "title": "Terms and conditions",
-            "text": "<p>1. Entry is open to <strong>all regions.<br\/><\/strong>2. Promotion commences 17\/10\/2021 and final entries close on 30\/10\/2021 11:59pm PST.<br\/>3. The Prize is a bundle valued at $650 USD.<br\/>4. The winner will be notified via our Instagram stories and through a DM on the night of 31\/10\/2021 PST.<\/p>"
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "1634182417af2b7ac5-0",
-        "1634182417af2b7ac5-1",
-        "1634182417af2b7ac5-2"
+        "1634184099dcca86a6-0",
+        "1634184099dcca86a6-1",
+        "1634184099dcca86a6-2"
       ],
       "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1634184151c0a8a3b9": {
+      "type": "rich-text",
+      "blocks": {
+        "1634184151c0a8a3b9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The winner will receive",
+            "heading_size": "h2"
+          }
+        },
+        "1634184151c0a8a3b9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. 250$ Amazon gift card <br\/>2. Lightstrip 2m<br\/>3. Two Lightstrip Extension<br\/>4. Two LIFX Color<br\/>5. Two LIFX Clean <br\/>6. LIFX Candle White to Warm <\/p>"
+          }
+        },
+        "1634184151c0a8a3b9-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1634184151c0a8a3b9-0",
+        "1634184151c0a8a3b9-1",
+        "1634184151c0a8a3b9-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1634184048b23d9ffd": {
+      "type": "rich-text",
+      "blocks": {
+        "1634184048b23d9ffd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Terms and conditions",
+            "heading_size": "h2"
+          }
+        },
+        "1634184048b23d9ffd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. Entry is open to <strong>all regions.<br\/><\/strong>2. Promotion commences 17\/10\/2021 and final entries close on 30\/10\/2021 11:59pm PST.<br\/>3. The Prize is a bundle valued at $650 USD.<br\/>4. The winner will be notified via our Instagram stories and through a DM on the night of 31\/10\/2021 PST.<\/p>"
+          }
+        },
+        "1634184048b23d9ffd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1634184048b23d9ffd-0",
+        "1634184048b23d9ffd-1",
+        "1634184048b23d9ffd-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     }
   },
@@ -265,6 +332,8 @@
     "1634181941c1382540",
     "1634182082d858ad3f",
     "163418241258b6fef2",
-    "1634182417af2b7ac5"
+    "1634184099dcca86a6",
+    "1634184151c0a8a3b9",
+    "1634184048b23d9ffd"
   ]
 }
