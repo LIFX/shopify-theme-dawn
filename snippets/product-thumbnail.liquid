@@ -73,7 +73,31 @@
 
   <div class="product__media media media--transparent" style="padding-top: {{ 1 | divided_by: media.preview_image.aspect_ratio | times: 100 }}%;">
      {% if media.preview_image.alt contains "winner1" %} 
- 	<a href="/cart/40519921696964:1?discount=CZAGTJYC14NF">
+ 	<a href="/cart/40519921696964:1?discount=855TYPMNF8K8">
+     {% elsif media.preview_image.alt contains "winner2" %} 
+ 	<a href="/cart/xxxxxxx:1?discount=CZAGTJYC14NF">
+     {% elsif media.preview_image.alt contains "winner3" %} 
+ 	<a href="/cart/xxxxxxx:1?discount=85MR7MF3JF92">
+     {% elsif media.preview_image.alt contains "winner4" %} 
+ 	<a href="/cart/xxxxxxx:1?discount=H1JATVSHD6GK">
+     {% elsif media.preview_image.alt contains "winner5" %} 
+ 	<a href="/cart/xxxxxxx:1?discount=C9PSTAQ5N2F1">
+     {% elsif media.preview_image.alt contains "winner6" %} 
+ 	<a href="/cart/xxxxxxx:1?discount=YRH1BT3QJBPH">
+     {% elsif media.preview_image.alt contains "winner7" %} 
+ 	<a href="/cart/xxxxxxx:1?discount=F8HE3J2XE93F">
+     {% elsif media.preview_image.alt contains "winner8" %} 
+ 	<a href="/cart/xxxxxxx:1?discount=64TKFYG5ATKN">
+     {% elsif media.preview_image.alt contains "winner9" %} 
+ 	<a href="/cart/xxxxxxx:1?discount=R2FVP9B8M94G">
+     {% elsif media.preview_image.alt contains "winner10" %} 
+ 	<a href="/cart/xxxxxxx:1?discount=FQ8DHRERC9MX">
+     {% elsif media.preview_image.alt contains "winner11" %} 
+ 	<a href="/cart/xxxxxxx:1?discount=ZK5WWGN04HTZ">
+     {% elsif media.preview_image.alt contains "winner12" %} 
+ 	<a href="/cart/xxxxxxx:1?discount=8D4X67C75C4Z">
+     {% elsif media.preview_image.alt contains "winner13" %} 
+ 	<a href="/cart/xxxxxxx:1?discount=SPB8FMGD1ETT">
     {% endif %}
     <img
       srcset="{% if media.preview_image.width >= 288 %}{{ media.preview_image | img_url: '288x' }} 288w,{% endif %}
