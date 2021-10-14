@@ -16,7 +16,7 @@
 
 {%- if media.media_type == 'image' -%}
   
-{% if product.tag == "winner1" %}
+{% if image.alt contains "winner7" %} 
 <a href="/cart">
 {% endif %}
 
@@ -39,7 +39,7 @@
     data-media-id="{{ media.id }}"
     {% if variant_image %}class="product__media-item--variant"{% endif %}
   >
-{% if product.tag == "winner1" %}
+{% if image.alt contains "winner7" %} 
 </a>
 {% endif %}
 {%- else -%}
