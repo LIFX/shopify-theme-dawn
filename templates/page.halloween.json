@@ -85,7 +85,7 @@
         "1634181900fc872964-2"
       ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "full_width": true
       }
     },
@@ -212,7 +212,7 @@
         "163418241258b6fef2-2"
       ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "full_width": true
       }
     },
@@ -251,7 +251,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
