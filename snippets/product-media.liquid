@@ -17,7 +17,7 @@
 {%- if media.media_type == 'image' -%}
   
 
- <img class="test"
+ <img
     srcset="{%- if media.preview_image.width >= 550 -%}{{ media.preview_image | img_url: '550x' }} 550w,{%- endif -%}
             {%- if media.preview_image.width >= 1100 -%}{{ media.preview_image | img_url: '1100x' }} 1100w,{%- endif -%}
             {%- if media.preview_image.width >= 1445 -%}{{ media.preview_image | img_url: '1445x' }} 1445w,{%- endif -%}
