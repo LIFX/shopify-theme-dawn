@@ -127,7 +127,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
@@ -170,7 +170,7 @@
         "1634182082d858ad3f-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Landing_Page_Calendar.png",
+        "image": "shopify:\/\/shop_images\/Landing_Page_Calendar_1.png",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "show_text_box": false,
