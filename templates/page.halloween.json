@@ -133,35 +133,8 @@
         "swipe_on_mobile": false
       }
     },
-    "1634185942b534e6c0": {
-      "type": "multicolumn",
-      "blocks": {
-        "1634185942b534e6c0-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Landing_Page_Calendar_1.png",
-            "title": "The social post giveaway",
-            "text": "<p>Win our Halloween giveaway valued at $650 USD!!<br\/><br\/>To celebrate Maria’s return to rest at the end of our 13 day witch hunt, we’ll have a final sweepstakes giveaway on Halloween Day. To be eligible for this giveaway you’ll need to complete the entry requirements by October 30th 11:59pm PST on our giveaway social post.<br\/><br\/>This giveaway is open to all regions and the winner will be announced the night of Oct 31st PST. <br\/><br\/>This competition is in no way sponsored, endorsed or administered by, or associated with Instagram.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1634185942b534e6c0-0"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
     "1634182082d858ad3f": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "1634182082d858ad3f-0": {
           "type": "heading",
@@ -209,7 +182,6 @@
     },
     "163418241258b6fef2": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "163418241258b6fef2-0": {
           "type": "heading",
@@ -246,7 +218,6 @@
     },
     "1634184099dcca86a6": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1634184099dcca86a6-0": {
           "type": "heading",
@@ -283,7 +254,6 @@
     },
     "1634184151c0a8a3b9": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1634184151c0a8a3b9-0": {
           "type": "heading",
@@ -320,7 +290,6 @@
     },
     "1634184048b23d9ffd": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1634184048b23d9ffd-0": {
           "type": "heading",
@@ -354,47 +323,6 @@
         "color_scheme": "background-1",
         "full_width": true
       }
-    },
-    "1634186018d30492ad": {
-      "type": "multicolumn",
-      "blocks": {
-        "1634186018d30492ad-1": {
-          "type": "column",
-          "settings": {
-            "title": "The winner will receive",
-            "text": "<p>1. 250$ Amazon gift card <br\/>2. Lightstrip 2m<br\/>3. Two Lightstrip Extension<br\/>4. Two LIFX Color<br\/>5. Two LIFX Clean <br\/>6. LIFX Candle White to Warm <\/p>"
-          }
-        },
-        "1634186018d30492ad-2": {
-          "type": "column",
-          "settings": {
-            "title": "Entry requirements",
-            "text": "<p>1. Like our post<br\/>2. Follow us on Instagram<br\/>3. Tag a friend on this post<br\/>4. Share our post<\/p>"
-          }
-        },
-        "b562f567-3576-48d0-99aa-875d8f79aeab": {
-          "type": "column",
-          "settings": {
-            "title": "Terms and conditions",
-            "text": "<p>1. Entry is open to <strong>all regions.<br\/><\/strong>2. Promotion commences 17\/10\/2021 and final entries close on 30\/10\/2021 11:59pm PST.<br\/>3. The Prize is a bundle valued at $650 USD.<br\/>4. The winner will be notified via our Instagram stories and through a DM on the night of 31\/10\/2021 PST.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1634186018d30492ad-1",
-        "1634186018d30492ad-2",
-        "b562f567-3576-48d0-99aa-875d8f79aeab"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
     }
   },
   "order": [
@@ -402,12 +330,10 @@
     "1634181700d11daefa",
     "1634181900fc872964",
     "1634181941c1382540",
-    "1634185942b534e6c0",
     "1634182082d858ad3f",
     "163418241258b6fef2",
     "1634184099dcca86a6",
     "1634184151c0a8a3b9",
-    "1634184048b23d9ffd",
-    "1634186018d30492ad"
+    "1634184048b23d9ffd"
   ]
 }
