@@ -55,6 +55,42 @@
         "show_text_below": true
       }
     },
+    "1634272858fde070af": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1634272858fde070af-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Win over 100 prizes across 13 days."
+          }
+        },
+        "1634272858fde070af-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re celebrating Halloween with a digital hunt. Join for a chance to win, if you dare.<\/p>"
+          }
+        },
+        "1634272858fde070af-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/halloween-witch-hunt"
+          }
+        }
+      },
+      "block_order": [
+        "1634272858fde070af-0",
+        "1634272858fde070af-1",
+        "1634272858fde070af-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Home_Page_Module.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
     "1634272844a70d2ca1": {
       "type": "image-banner",
       "disabled": true,
@@ -350,6 +386,7 @@
   "order": [
     "1633390137d8a400d0",
     "1632116257dff5145e",
+    "1634272858fde070af",
     "1634272844a70d2ca1",
     "1632104744140161e0",
     "16321870964a1d4c89",
