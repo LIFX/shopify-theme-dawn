@@ -100,14 +100,6 @@
             "text": "<p>Every day, from October 18th through October 30th, Maria will enter a new part of our site. It’s your job to find her as quickly as you can.<br\/><br\/>The first three people (per region) to find Maria will win a free prize vin their shopping carts. <br\/><br\/>Once you find Maria, <span style=\"text-decoration:underline\"><strong>make sure to click on her.<\/strong><\/span> You’ll know you’re one of the winners if, after clicking on her, you’re taken to your cart and see a free prize. <br\/><br\/>To help with your hunt, we’ll release clues daily on our Instagram Story.<br\/><br\/>Check back daily for clues posted at the following times:<br\/><br\/>AUS – 10:30am AEST<br\/>US – 5:30pm PST<br\/>UK – 1:30am BST<br\/>EU – 2:30am CEST<\/p>"
           }
         },
-        "1634181941c1382540-1": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
         "1634181941c1382540-2": {
           "type": "column",
           "settings": {
@@ -119,7 +111,6 @@
       },
       "block_order": [
         "1634181941c1382540-0",
-        "1634181941c1382540-1",
         "1634181941c1382540-2"
       ],
       "settings": {
