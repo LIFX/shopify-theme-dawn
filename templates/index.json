@@ -92,7 +92,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Home_Page_Banner_eu_c03c43ae-7189-43d5-a0e5-6a30aa1c5c40.png",
         "adapt_height_first_image": true,
-        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_position": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
