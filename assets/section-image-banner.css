@@ -136,7 +136,8 @@
   position: relative;
   width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  padding-left:60px;
   z-index: 2;
 }
 
