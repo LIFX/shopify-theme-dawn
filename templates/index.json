@@ -329,6 +329,7 @@
     },
     "1632107311c762a72c": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Clearance Highlights",
         "collection": "clearance-products",
