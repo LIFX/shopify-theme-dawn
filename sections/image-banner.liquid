@@ -76,6 +76,10 @@
       >
     </div>
   {%- endif -%}
+
+	  {% if media.preview_image.alt contains "winner11" %} 
+ 	  <a href="/cart/40294949781700:1?discount=ZK5WWGN04HTZ">
+      {% endif %}
   <div class="banner__content banner__content--{{ section.settings.desktop_text_box_position }} page-width">
     <div class="banner__box color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
@@ -101,6 +105,9 @@
       {%- endfor -%}
     </div>
   </div>
+{% if media.preview_image.alt contains "winner11" %} 
+  </a>
+{% endif %}
 </div>
 
 {% schema %}
