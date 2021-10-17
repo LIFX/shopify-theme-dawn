@@ -13,6 +13,7 @@
     },
     "1632116257dff5145e": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "1632116257dff5145e-0": {
           "type": "heading",
@@ -57,7 +58,6 @@
     },
     "1634272844a70d2ca1": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "1634272844a70d2ca1-0": {
           "type": "heading",
@@ -90,7 +90,7 @@
         "1634272844a70d2ca1-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Home_Page_Banner_eu_c03c43ae-7189-43d5-a0e5-6a30aa1c5c40.png",
+        "image": "shopify:\/\/shop_images\/Home_Page_Banner_eu_cbfaf09f-020d-479a-bb23-ebe90a4fe681.png",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "show_text_box": true,
@@ -102,7 +102,6 @@
     },
     "1634272858fde070af": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1634272858fde070af-0": {
           "type": "heading",
@@ -131,41 +130,6 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Home_Page_Module.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "1632104744140161e0": {
-      "type": "image-with-text",
-      "blocks": {
-        "1632104744140161e0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Lightstrip Color Zones"
-          }
-        },
-        "1632104744140161e0-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Multiple colours all at once. Experience the effect our Polychrome™ Lightstrip can have on your home. Extend up to 10m with additional 1m extensions.<\/p>"
-          }
-        },
-        "1632104744140161e0-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/collections\/lightstrips"
-          }
-        }
-      },
-      "block_order": [
-        "1632104744140161e0-0",
-        "1632104744140161e0-1",
-        "1632104744140161e0-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/00_LIFX_Lightstrip_2m_EU_1080x_fef8c4c2-80c0-4f58-bb70-1cd26972224f.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -328,6 +292,41 @@
         "show_text_below": true
       }
     },
+    "1632104744140161e0": {
+      "type": "image-with-text",
+      "blocks": {
+        "1632104744140161e0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lightstrip Color Zones"
+          }
+        },
+        "1632104744140161e0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Multiple colours all at once. Experience the effect our Polychrome™ Lightstrip can have on your home. Extend up to 10m with additional 1m extensions.<\/p>"
+          }
+        },
+        "1632104744140161e0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/collections\/lightstrips"
+          }
+        }
+      },
+      "block_order": [
+        "1632104744140161e0-0",
+        "1632104744140161e0-1",
+        "1632104744140161e0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/00_LIFX_Lightstrip_2m_EU_1080x_fef8c4c2-80c0-4f58-bb70-1cd26972224f.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
     "1632107311c762a72c": {
       "type": "featured-collection",
       "settings": {
@@ -388,10 +387,10 @@
     "1632116257dff5145e",
     "1634272844a70d2ca1",
     "1634272858fde070af",
-    "1632104744140161e0",
     "16321870964a1d4c89",
     "16321053092b5575b3",
     "16321069914eb48980",
+    "1632104744140161e0",
     "1632107311c762a72c",
     "163210701498163fc8",
     "163425881397e06c0a"
