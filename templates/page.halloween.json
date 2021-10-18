@@ -46,6 +46,7 @@
         "image": "shopify:\/\/shop_images\/Landing_page_banner_2.jpg",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
         "show_text_box": false,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
@@ -97,7 +98,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Landing_Page_Image_1.png",
             "title": "How to play",
-            "text": "<p>Every day, from October 18th through October 30th, Maria will enter a new part of our site. It’s your job to find her as quickly as you can.<br\/><br\/>The first three people (per region) to find Maria will win a free prize vin their shopping carts. <br\/><br\/>Once you find Maria, <span style=\"text-decoration:underline\"><strong>make sure to click on her.<\/strong><\/span> You’ll know you’re one of the winners if, after clicking on her, you’re taken to your cart and see a free prize. <br\/><br\/>To help with your hunt, we’ll release clues daily on our Instagram Story.<br\/><br\/>Check back daily for clues posted at the following times:<br\/><br\/>AUS – 10:30am AEST<br\/>US – 5:30pm PST<br\/>UK – 1:30am BST<br\/>EU – 2:30am CEST<\/p>"
+            "text": "<p>Every day, from October 18th through October 30th, Maria will enter a new part of our site. It’s your job to find her as quickly as you can.<br\/><br\/>The first three people (per region) to find Maria will win a free prize vin their shopping carts. <br\/><br\/>Once you find Maria, <span style=\"text-decoration:underline\"><strong>make sure to click on her.<\/strong><\/span> You’ll know you’re one of the winners if, after clicking on her, you’re taken to your cart and see a free prize. <br\/><br\/>To help with your hunt, we’ll release clues daily on our Instagram Story.<br\/><br\/>Check back daily for clues posted at the following times:<br\/><br\/>AUS – 11:30am AEST<br\/>US – 5:30pm PST<br\/>UK – 1:30am BST<br\/>EU – 2:30am CEST<\/p>"
           }
         },
         "1634181941c1382540-2": {
@@ -165,6 +166,7 @@
         "image": "shopify:\/\/shop_images\/Calendar_v3.jpg",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
         "show_text_box": false,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
