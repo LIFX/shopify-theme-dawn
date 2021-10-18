@@ -171,7 +171,14 @@
     padding-bottom: 5rem;
     padding-top: 5rem;
   }
-
+.banner__align--left {
+  justify-content: center;
+  padding-left:0px;
+}
+.banner__align--right {
+  justify-content: center;
+  padding-left:0px;
+}
   .banner__content--center {
     align-items: center;
   }
