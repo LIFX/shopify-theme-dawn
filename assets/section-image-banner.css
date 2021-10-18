@@ -130,7 +130,16 @@
   width: 100%;
 }
 
-.banner__content {
+.banner__content--center {
+  padding: 0;
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.banner__content--left {
   padding: 0;
   display: flex;
   position: relative;
@@ -140,11 +149,20 @@
   padding-left:60px;
   z-index: 2;
 }
+.banner__content--right {
+  padding: 0;
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+  padding-left:60px;
+  z-index: 2;
+}
 
 @media screen and (max-width: 749px) {
   .banner--mobile-bottom:not(.banner--stacked) .banner__content {
     order: 2;
-    padding-left:0px;
   }
 }
 
