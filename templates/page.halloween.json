@@ -98,7 +98,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Landing_Page_Image_1.png",
             "title": "How to play",
-            "text": "<p>Every day, from October 18th through October 30th, Maria will enter a new part of our site. It’s your job to find her as quickly as you can.<br\/><br\/>The first three people (per region) to find Maria will win a free prize vin their shopping carts. <br\/><br\/>Once you find Maria, <span style=\"text-decoration:underline\"><strong>make sure to click on her.<\/strong><\/span> You’ll know you’re one of the winners if, after clicking on her, you’re taken to your cart and see a free prize. <br\/><br\/>To help with your hunt, we’ll release clues daily on our Instagram Story.<br\/><br\/>Check back daily for clues posted at the following times:<br\/><br\/>AUS – 11:30am AEST<br\/>US – 5:30pm PST<br\/>UK – 1:30am BST<br\/>EU – 2:30am CEST<\/p>"
+            "text": "<p>Every day, from October 18th through October 30th, Maria will enter a new part of our site. It’s your job to find her as quickly as you can.<br\/><br\/>The first three people (per region) to find Maria, click on her, and complete checkout will win the free prize in their shopping cart. <br\/><br\/>Once you find Maria, <span style=\"text-decoration:underline\"><strong>make sure to click on her.<\/strong><\/span> You’ll then be taken to your cart and see a free prize. Make sure to complete and ship your order before anyone else gets there first!<br\/><br\/>To help with your hunt, we’ll release clues daily on our Instagram Story.<br\/><br\/>Check back daily for clues posted at the following times:<br\/><br\/>AUS – 11:30am AEST<br\/>US – 5:30pm PST<br\/>UK – 1:30am BST<br\/>EU – 2:30am CEST<\/p>"
           }
         },
         "1634181941c1382540-2": {
@@ -106,7 +106,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Landing_Page_Image_2.png",
             "title": "Terms and conditions",
-            "text": "<p>Regions are split as follows – AUS, US, UK\/EU.<br\/><br\/>We will award three winners per region, for a total of nine prizes given away per day. <br\/><br\/>Competition starts 18\/10\/2021 and ends 30\/10\/2021.<br\/><br\/>Should a hidden witch not be found all three times by three different players on the day of release, it will remain active and available to be claimed until competition closure on 30\/10\/2021.<br\/><br\/>A single individual may not win more than one prize per day! Duplicate prizes to the same recipient will be cancelled.  <\/p>"
+            "text": "<p>Regions are split as follows – AUS, US, UK\/EU.<br\/><br\/>We will award three winners per region, for a total of nine prizes given away per day. <br\/><br\/>Competition starts 18\/10\/2021 and ends 30\/10\/2021.<br\/><br\/>Should a hidden witch not be found all three times by three different players on the day of release, it will remain active and available to be claimed until competition closure on 30\/10\/2021.<br\/><br\/>A single individual may not win more than one prize per day! Duplicate prizes to the same recipient will be cancelled.<br\/><br\/><strong>ELIGIBILITY:<\/strong> Participants must be 18 years of age or over to enter. Employees of LIFX, their immediate families and companies associated with this promotion are ineligible to enter.<br\/><br\/>Rules of the competition are created at our discretion and subject to change.<\/p>"
           }
         }
       },
@@ -317,6 +317,41 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "16345340235157d969": {
+      "type": "rich-text",
+      "blocks": {
+        "16345340235157d969-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "16345340235157d969-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16345340235157d969-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16345340235157d969-0",
+        "16345340235157d969-1",
+        "16345340235157d969-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -328,6 +363,7 @@
     "163418241258b6fef2",
     "1634184099dcca86a6",
     "1634184151c0a8a3b9",
-    "1634184048b23d9ffd"
+    "1634184048b23d9ffd",
+    "16345340235157d969"
   ]
 }
