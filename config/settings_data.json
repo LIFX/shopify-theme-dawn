@@ -14,6 +14,7 @@
     "social_youtube_link": "https:\/\/www.youtube.com\/c\/LifxCo",
     "predictive_search_enabled": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
