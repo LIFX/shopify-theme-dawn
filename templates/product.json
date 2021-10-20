@@ -242,6 +242,7 @@
     },
     "163237510090a3f7bb": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "163237510090a3f7bb-0": {
           "type": "heading",
@@ -269,6 +270,7 @@
     },
     "16321895063b55d15b": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "16321895063b55d15b-0": {
           "type": "heading",
@@ -296,6 +298,7 @@
     },
     "1632189680ad62966a": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1632189680ad62966a-0": {
           "type": "heading",
