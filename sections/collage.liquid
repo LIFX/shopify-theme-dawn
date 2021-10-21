@@ -23,13 +23,7 @@
           <div class="collage-card color-{{ block.settings.color_scheme }}{% if focus_card_left %} collage-card--left{% elsif focus_card_right %} collage-card--right{% endif %}" {{ block.shopify_attributes }}>
             <div class="collage-content collage-card__image-wrapper media media--transparent{% if block.settings.image_padding %} collage-card-spacing{% endif %}">
               {%- if block.settings.image != blank -%}
-            
-			{% if block.settings.image.alt == 'winner3' %}
-			<a href="/cart/40294953320644:1?discount=85MR7MF3JF92">
-			{% elsif block.settings.image.alt == 'winner5' %}
-			<a href="/cart/40294941130948:1?discount=C9PSTAQ5N2F1">
-			{% endif %}
-               <img
+                <img
                   srcset="{%- if block.settings.image.width >= 550 -%}{{ block.settings.image | img_url: '550x' }} 550w,{%- endif -%}
                     {%- if block.settings.image.width >= 720 -%}{{ block.settings.image | img_url: '720x' }} 720w,{%- endif -%}
                     {%- if block.settings.image.width >= 990 -%}{{ block.settings.image | img_url: '990x' }} 990w,{%- endif -%}
@@ -45,11 +39,6 @@
                   height="{{ block.settings.image.height }}"
                   class="collage-card__image"
                 >
-              {% if block.settings.image.alt == 'winner3' %}
-              </a>
-			{% elsif block.settings.image.alt == 'winner5' %}
-			</a>
-			{% endif %}
               {%- else -%}
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder collage-card__image' }}
               {%- endif -%}
