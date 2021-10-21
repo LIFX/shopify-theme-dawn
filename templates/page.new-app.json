@@ -6,419 +6,43 @@
       "settings": {
       }
     },
-    "163220456184dd6e3f": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "cover_image": "shopify:\/\/shop_images\/5_COLOR_A19_App.jpg",
-        "video_url": "https:\/\/youtu.be\/9vDosw-Aukc",
-        "description": "App 4 is here",
-        "full_width": true
-      }
-    },
-    "16322046288e9c3461": {
-      "type": "rich-text",
-      "blocks": {
-        "16322046288e9c3461-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "App 4 is here",
-            "heading_size": "h1"
-          }
-        },
-        "16322046288e9c3461-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The view from here is better. We've made it to basecamp on a longer journey to 'Peak App'. We want you to like it more, but need it less, by reducing the number of steps to get where you're going. <\/p><p><\/p><p>We want to shift focus up, from your phone to your home.<br\/><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16322046288e9c3461-0",
-        "16322046288e9c3461-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "16322046322b0c4f94": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div align=\"center\"> \n<div style=\"text-align:center; margin:auto\">\n            \n<p>Download the LIFX app and get connected.<\/p>\n\n<a target=\"_blank\" href=\"https:\/\/itunes.apple.com\/us\/app\/lifx\/id657758311?mt=8\">\n  <img class=\"\" style=\"height:60px; margin: 5px 7px; text-align:center;\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0263\/7873\/1625\/files\/5a902db97f96951c82922874.png?1464\"><\/a>\n<a target=\"_blank\" href=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx\">\n          <img class=\"\" style=\"height:60px; margin:5px 7px; text-align:center;\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0263\/7873\/1625\/files\/google-play-badge-300x89.png?1468\"><\/a>\n            \n      <\/div>\n  \t<\/div>"
       }
     },
-    "1632204669fbf7d41f": {
-      "type": "image-banner",
-      "blocks": {
-        "1632204669fbf7d41f-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "1632204669fbf7d41f-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "1632204669fbf7d41f-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1632204669fbf7d41f-0",
-        "1632204669fbf7d41f-1",
-        "1632204669fbf7d41f-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/1._NAVIGATION_B_2808x_fe49f8a8-850a-4e38-9bdf-3dcc897b42ce.png",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "163220478844c01557": {
-      "type": "rich-text",
-      "blocks": {
-        "163220478844c01557-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Swipe, swipe",
-            "heading_size": "h1"
-          }
-        },
-        "163220478844c01557-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Within the Home screen, you'll be able to access and control all the lights in a location from the Dashboard. From here, swipe left to access Scenes and Effects, and swipe right to see your Schedules and Day & Dusk.<\/p>"
-          }
-        },
-        "163220478844c01557-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "163220478844c01557-0",
-        "163220478844c01557-1",
-        "163220478844c01557-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "16322047914718355e": {
+    "163479076457abcba1": {
       "type": "image-with-text",
       "blocks": {
-        "16322047914718355e-0": {
+        "163479076457abcba1-0": {
           "type": "heading",
           "settings": {
-            "heading": "New Dashboard"
+            "heading": "Image with text"
           }
         },
-        "16322047914718355e-1": {
+        "163479076457abcba1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Offering easy shortcuts for your thumb, the Dashboard allows you to control a whole group via the slider, or expand to view individual lights you can tap on and off.<\/p><p><\/p>"
-          }
-        },
-        "16322047914718355e-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
       "block_order": [
-        "16322047914718355e-0",
-        "16322047914718355e-1",
-        "16322047914718355e-2"
+        "163479076457abcba1-0",
+        "163479076457abcba1-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2.-Dashboard-OPTIMISED_1080x_79ccefcc-be4f-4a93-ae08-0fa113f9e19b.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
-      }
-    },
-    "16322048184d0bb94c": {
-      "type": "image-with-text",
-      "blocks": {
-        "16322048184d0bb94c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Personalisation"
-          }
-        },
-        "16322048184d0bb94c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Tap into Group Settings to choose an illustration to match, or even better, pick a photo that really shows the mood of the space. Why not use a photo of every room lit up? (But we get it. Some of you will have multiple pictures of your cat. Or goldfish. You just do you).<\/p>"
-          }
-        },
-        "16322048184d0bb94c-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16322048184d0bb94c-0",
-        "16322048184d0bb94c-1",
-        "16322048184d0bb94c-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/3.Personalization_1080x_8c5a9a0e-3998-49d2-9ad3-314ad4ac4ca0.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first"
-      }
-    },
-    "1632204835a9b2a54d": {
-      "type": "image-banner",
-      "blocks": {
-        "1632204835a9b2a54d-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "1632204835a9b2a54d-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "1632204835a9b2a54d-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1632204835a9b2a54d-0",
-        "1632204835a9b2a54d-1",
-        "1632204835a9b2a54d-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/4._Favourites_Easy_Access_UK_EU_AU_1500x_1338e7d6-35f2-49c8-b510-efa36481ae2b.png",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "163220486375dc9b96": {
-      "type": "image-with-text",
-      "blocks": {
-        "163220486375dc9b96-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Scheduling"
-          }
-        },
-        "163220486375dc9b96-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Schedules, including Day & Dusk, are now all in one place. The scroll down view makes it easier to see what you've set and for when.<\/p>"
-          }
-        },
-        "163220486375dc9b96-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "163220486375dc9b96-0",
-        "163220486375dc9b96-1",
-        "163220486375dc9b96-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/5._Scheduling_1080x_78764798-c38c-4fac-9f83-e8c1de973689.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first"
-      }
-    },
-    "1632204878aade2349": {
-      "type": "image-with-text",
-      "blocks": {
-        "1632204878aade2349-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Scenes & Effects"
-          }
-        },
-        "1632204878aade2349-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>LIFX Effects are showstoppers. Flame, Flicker or Move, you can now start with the effect and target the exact lights you want. Find them grouped under the scenes you've created & saved to set the mood. A single tap will activate what you've programmed.<\/p>"
-          }
-        },
-        "1632204878aade2349-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1632204878aade2349-0",
-        "1632204878aade2349-1",
-        "1632204878aade2349-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/6._Scenes_Effects_1080x_8686c618-9487-4e0f-9a28-5d2556b9d703.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "163220490233584c1e": {
-      "type": "image-banner",
-      "blocks": {
-        "163220490233584c1e-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "163220490233584c1e-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "163220490233584c1e-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "163220490233584c1e-0",
-        "163220490233584c1e-1",
-        "163220490233584c1e-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/7._Discover_Tab_C_1500x_353341a4-abb3-4ee2-9df6-e15e3af2a6ff.png",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "163220494975f849ec": {
-      "type": "rich-text",
-      "blocks": {
-        "163220494975f849ec-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Support",
-            "heading_size": "h1"
-          }
-        },
-        "163220494975f849ec-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>For further information about the new app, including FAQ's, tips, guides and more, <a href=\"https:\/\/support.lifx.com\/categories\/lifx-app-SyPjZdjU_\" title=\"https:\/\/support.lifx.com\/categories\/lifx-app-SyPjZdjU_\">click here<\/a><\/p>"
-          }
-        },
-        "163220494975f849ec-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "163220494975f849ec-0",
-        "163220494975f849ec-1",
-        "163220494975f849ec-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
       }
     }
   },
   "order": [
     "main",
-    "163220456184dd6e3f",
-    "16322046288e9c3461",
     "16322046322b0c4f94",
-    "1632204669fbf7d41f",
-    "163220478844c01557",
-    "16322047914718355e",
-    "16322048184d0bb94c",
-    "1632204835a9b2a54d",
-    "163220486375dc9b96",
-    "1632204878aade2349",
-    "163220490233584c1e",
-    "163220494975f849ec"
+    "163479076457abcba1"
   ]
 }
