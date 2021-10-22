@@ -265,7 +265,33 @@
     "collection_template": {
       "title": "コレクション",
       "empty": "商品が見つかりません",
+<<<<<<< HEAD
       "use_fewer_filters_html": "絞り込みの数を減らす、または<a class=\"{{ class }}\" href=\"{{ link }}\">すべてクリア<\/a>"
+=======
+      "apply": "適用する",
+      "clear": "クリア",
+      "clear_all": "すべてクリア",
+      "from": "から",
+      "filter_and_sort": "絞り込みと並び替え",
+      "filter_by_label": "絞り込み:",
+      "filter_button": "絞り込む",
+      "max_price": "最高価格は{{ price }}です",
+      "reset": "リセット",
+      "to": "まで",
+      "use_fewer_filters_html": "絞り込みの数を減らす、または<a class=\"{{ class }}\" href=\"{{ link }}\">すべてクリア<\/a>",
+      "product_count": {
+        "one": "{{ count }}個の商品の{{ product_count }}",
+        "other": "{{ count }}個の商品の{{ product_count }}"
+      },
+      "filters_selected": {
+        "one": "{{ count }}個を選択済み",
+        "other": "{{ count }}個を選択済み"
+      },
+      "product_count_simple": {
+        "one": "{{ count }}個の商品",
+        "other": "{{ count }}個の商品"
+      }
+>>>>>>> lifx-production
     },
     "video": {
       "load_video": "動画を読み込む: {{ description }}"

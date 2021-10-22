@@ -44,7 +44,10 @@ if (!customElements.get('product-form')) {
         .finally(() => {
           submitButton.classList.remove('loading');
           submitButton.removeAttribute('aria-disabled');
+<<<<<<< HEAD
           this.querySelector('.loading-overlay__spinner').classList.add('hidden');
+=======
+>>>>>>> lifx-production
         });
     }
 

@@ -272,6 +272,19 @@
     "collection_template": {
       "title": "Kolekcija",
       "empty": "Nije pronađen nijedan proizvod",
+<<<<<<< HEAD
+=======
+      "apply": "Primijeni",
+      "clear": "Očisti",
+      "clear_all": "Očisti sve",
+      "from": "Od",
+      "filter_and_sort": "Filtriraj i razvrstaj",
+      "filter_by_label": "Filtriraj:",
+      "filter_button": "Filtriraj",
+      "max_price": "Najveća cijena iznosi {{ price }}",
+      "reset": "Resetiraj",
+      "to": "Do",
+>>>>>>> lifx-production
       "use_fewer_filters_html": "Upotrijebite manje filtara ili <a class=\"{{ class }}\" href=\"{{ link }}\">očistite sve<\/a>",
       "product_count": {
         "few": "{{ product_count }} od {{ count }} proizvoda"

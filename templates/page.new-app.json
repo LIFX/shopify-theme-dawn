@@ -1,0 +1,48 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16322046322b0c4f94": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div align=\"center\"> \n<div style=\"text-align:center; margin:auto\">\n            \n<p>Download the LIFX app and get connected.<\/p>\n\n<a target=\"_blank\" href=\"https:\/\/itunes.apple.com\/us\/app\/lifx\/id657758311?mt=8\">\n  <img class=\"\" style=\"height:60px; margin: 5px 7px; text-align:center;\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0263\/7873\/1625\/files\/5a902db97f96951c82922874.png?1464\"><\/a>\n<a target=\"_blank\" href=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx\">\n          <img class=\"\" style=\"height:60px; margin:5px 7px; text-align:center;\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0263\/7873\/1625\/files\/google-play-badge-300x89.png?1468\"><\/a>\n            \n      <\/div>\n  \t<\/div>"
+      }
+    },
+    "163479076457abcba1": {
+      "type": "image-with-text",
+      "blocks": {
+        "163479076457abcba1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "163479076457abcba1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163479076457abcba1-0",
+        "163479076457abcba1-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16322046322b0c4f94",
+    "163479076457abcba1"
+  ]
+}

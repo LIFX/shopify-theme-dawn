@@ -265,7 +265,29 @@
     "collection_template": {
       "title": "Coleção",
       "empty": "Nenhum produto encontrado",
+<<<<<<< HEAD
       "use_fewer_filters_html": "Usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">limpar tudo<\/a>"
+=======
+      "apply": "Aplicar",
+      "clear": "Limpar",
+      "clear_all": "Limpar tudo",
+      "from": "De",
+      "filter_and_sort": "Filtrar e ordenar",
+      "filter_by_label": "Filtrar:",
+      "filter_button": "Filtrar",
+      "max_price": "O preço mais alto é {{ price }}",
+      "reset": "Repor",
+      "to": "Até",
+      "use_fewer_filters_html": "Usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">limpar tudo<\/a>",
+      "filters_selected": {
+        "one": "{{ count }} selecionada",
+        "other": "{{ count }} selecionada"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} produto",
+        "other": "{{ count }} produtos"
+      }
+>>>>>>> lifx-production
     },
     "video": {
       "load_video": "Carregar vídeo: {{ description }}"

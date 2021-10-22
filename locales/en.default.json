@@ -262,6 +262,10 @@
     "collection_template": {
       "empty": "No products found",
       "title": "Collection",
+<<<<<<< HEAD
+=======
+      "to": "To",
+>>>>>>> lifx-production
       "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all<\/a>"
     },
     "video": {
@@ -395,6 +399,13 @@
       "expired": "Expired",
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "order_summary": {
+        "cart_does_not_meet_discount_requirements_notice": "Oops you weren't fast enough! This code has expired, try again later."
+      }
     }
   }
 }

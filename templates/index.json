@@ -1,19 +1,40 @@
 {
   "sections": {
+<<<<<<< HEAD
     "image_banner": {
+=======
+    "1633390137d8a400d0": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/LIFX-Homepage-1_-AUS-SameOldHome-optimised.jpg",
+        "video_url": "https:\/\/youtu.be\/T68BmQ7b1Fs",
+        "description": "",
+        "full_width": true
+      }
+    },
+    "1632116257dff5145e": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
-        "heading": {
+        "1632116257dff5145e-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Same old home, new light.",
             "heading_size": "medium"
           }
         },
-        "button": {
+        "1632116257dff5145e-1": {
+          "type": "text",
+          "settings": {
+            "text": "Tired of looking at the same four walls, day in and day out?"
+          }
+        },
+        "1632116257dff5145e-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Browse the range",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -23,6 +44,100 @@
         }
       },
       "block_order": [
+        "1632116257dff5145e-0",
+        "1632116257dff5145e-1",
+        "1632116257dff5145e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX-Homepage-1_-AUS-SameOldHome-optimised.jpg",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1634272844a70d2ca1": {
+>>>>>>> lifx-production
+      "type": "image-banner",
+      "blocks": {
+        "1634272844a70d2ca1-0": {
+          "type": "heading",
+          "settings": {
+<<<<<<< HEAD
+            "heading": "Talk about your brand",
+=======
+            "heading": "Use lights so smart it’s spooky.",
+>>>>>>> lifx-production
+            "heading_size": "medium"
+          }
+        },
+        "1634272844a70d2ca1-1": {
+          "type": "text",
+          "settings": {
+            "text": "For frightening effects, haunted schedules, creepy colours and more."
+          }
+        },
+        "1634272844a70d2ca1-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+<<<<<<< HEAD
+=======
+          }
+        }
+      },
+      "block_order": [
+        "1634272844a70d2ca1-0",
+        "1634272844a70d2ca1-1",
+        "1634272844a70d2ca1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Home_Page_Banner_eu_cbfaf09f-020d-479a-bb23-ebe90a4fe681.png",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "left",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1634272858fde070af": {
+      "type": "image-with-text",
+      "blocks": {
+        "1634272858fde070af-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Win over 100 prizes across 13 days."
+          }
+        },
+        "1634272858fde070af-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re celebrating Halloween with a digital hunt. Join for a chance to win, if you dare.<\/p>"
+          }
+        },
+        "1634272858fde070af-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/halloween-witch-hunt"
+>>>>>>> lifx-production
+          }
+        }
+      },
+      "block_order": [
+<<<<<<< HEAD
         "heading",
         "button"
       ],
@@ -34,11 +149,23 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
+=======
+        "1634272858fde070af-0",
+        "1634272858fde070af-1",
+        "1634272858fde070af-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Home_Page_Module.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+>>>>>>> lifx-production
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "16321870964a1d4c89": {
+      "type": "image-banner",
       "blocks": {
+<<<<<<< HEAD
         "heading": {
           "type": "heading",
           "settings": {
@@ -58,10 +185,35 @@
             "button_label": "Button label",
             "button_link": "",
             "button_style_secondary": false
+=======
+        "16321870964a1d4c89-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "From White to Warm",
+            "heading_size": "medium"
+          }
+        },
+        "16321870964a1d4c89-1": {
+          "type": "text",
+          "settings": {
+            "text": "Get started with a beautiful 2700K LIFX White. Or expand your kelvin range with cool to warm whites with the LIFX White to Warm."
+          }
+        },
+        "16321870964a1d4c89-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "White",
+            "button_link_1": "shopify:\/\/products\/lifx-white",
+            "button_style_secondary_1": false,
+            "button_label_2": "White to Warm",
+            "button_link_2": "shopify:\/\/products\/lifx-white-to-warm",
+            "button_style_secondary_2": false
+>>>>>>> lifx-production
           }
         }
       },
       "block_order": [
+<<<<<<< HEAD
         "heading",
         "text",
         "button"
@@ -69,11 +221,128 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
+=======
+        "16321870964a1d4c89-0",
+        "16321870964a1d4c89-1",
+        "16321870964a1d4c89-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_RelaxingEvening.jpg",
+        "image_2": "shopify:\/\/shop_images\/2_Good-morning-sunshine.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+>>>>>>> lifx-production
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
+    "16321053092b5575b3": {
+      "type": "featured-product",
+      "blocks": {
+        "16321053092b5575b3-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16321053092b5575b3-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16321053092b5575b3-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16321053092b5575b3-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16321053092b5575b3-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16321053092b5575b3-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16321053092b5575b3-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16321053092b5575b3-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16321053092b5575b3-0",
+        "16321053092b5575b3-1",
+        "16321053092b5575b3-2",
+        "16321053092b5575b3-3",
+        "16321053092b5575b3-4",
+        "16321053092b5575b3-5",
+        "16321053092b5575b3-6",
+        "16321053092b5575b3-7"
+      ],
       "settings": {
+        "product": "clean-a60",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "16321069914eb48980": {
+      "type": "image-banner",
+      "blocks": {
+        "16321069914eb48980-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clearance Sale",
+            "heading_size": "medium"
+          }
+        },
+        "16321069914eb48980-1": {
+          "type": "text",
+          "settings": {
+            "text": "Huge discounts across our older generation products. Till stocks last."
+          }
+        },
+        "16321069914eb48980-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/clearance-products",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16321069914eb48980-0",
+        "16321069914eb48980-1",
+        "16321069914eb48980-2"
+      ],
+      "settings": {
+<<<<<<< HEAD
         "title": "Featured products",
         "collection": "all",
         "products_to_show": 4,
@@ -85,11 +354,23 @@
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
+=======
+        "image": "shopify:\/\/shop_images\/minis-website-hero-1440x650_1080x_2b0494f2-ab50-49d2-af56-9f16de0726d8.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+>>>>>>> lifx-production
       }
     },
-    "collage": {
-      "type": "collage",
+    "1632104744140161e0": {
+      "type": "image-with-text",
       "blocks": {
+<<<<<<< HEAD
         "video": {
           "type": "video",
           "settings": {
@@ -113,10 +394,30 @@
             "collection": "",
             "image_padding": false,
             "color_scheme": "background-1"
+=======
+        "1632104744140161e0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lightstrip Color Zones"
+          }
+        },
+        "1632104744140161e0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Multiple colours all at once. Experience the effect our Polychrome™ Lightstrip can have on your home. Extend up to 10m with additional 1m extensions.<\/p>"
+          }
+        },
+        "1632104744140161e0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/collections\/lightstrips"
+>>>>>>> lifx-production
           }
         }
       },
       "block_order": [
+<<<<<<< HEAD
         "video",
         "product",
         "collection"
@@ -134,11 +435,40 @@
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false
+=======
+        "1632104744140161e0-0",
+        "1632104744140161e0-1",
+        "1632104744140161e0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/00_LIFX_Lightstrip_2m_EU_1080x_fef8c4c2-80c0-4f58-bb70-1cd26972224f.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     },
-    "multi_column": {
-      "type": "multicolumn",
+    "1632107311c762a72c": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Clearance Highlights",
+        "collection": "clearance-products",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+>>>>>>> lifx-production
+      }
+    },
+    "163210701498163fc8": {
+      "type": "newsletter",
       "blocks": {
+<<<<<<< HEAD
         "column1": {
           "type": "column",
           "settings": {
@@ -158,10 +488,28 @@
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review. PAUL<\/p>"
+=======
+        "163210701498163fc8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "163210701498163fc8-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "163210701498163fc8-2": {
+          "type": "email_form",
+          "settings": {
+>>>>>>> lifx-production
           }
         }
       },
       "block_order": [
+<<<<<<< HEAD
         "column1",
         "column2",
         "column3"
@@ -175,15 +523,36 @@
         "button_label": "Button label",
         "button_link": "",
         "swipe_on_mobile": false
+=======
+        "163210701498163fc8-0",
+        "163210701498163fc8-1",
+        "163210701498163fc8-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
+    "163425881397e06c0a": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div id=\"shopify-section-16261098162a388779\" class=\"shopify-section\"><style>\n    .pdp-marquee {\n      background-color:#121216;\n      color: #EB7BDD\n    }\n    \n    .pdp-marquee__ellipse {\n        color: #EB7BDD \n    }\n.pdp-marquee {\n  background-color:#121216;\n  padding: 16px 0;\n  color: #fff;\n  font-style: normal;\n  font-weight: normal;\n  font-size: 16px;\n  line-height: 24px;\n  letter-spacing: 0.12em;\n  text-transform: uppercase;\n  overflow: hidden;\n  white-space: nowrap; }\n  @media screen and (min-width: 750px) {\n    .pdp-marquee {\n      font-size: 20px;\n      line-height: 28px;\n      padding: 24px 0; } }\n  .pdp-marquee__ellipse {\n    display: inline-block;\n    margin: 5px 24px; }\n  .pdp-marquee .marq-1 {\n    display: inline-block;\n    -webkit-animation: marquee 20s linear infinite;\n            animation: marquee 20s linear infinite; }\n  .pdp-marquee .marq-2 {\n    display: inline-block;\n    -webkit-animation: marquee2 20s linear infinite;\n            animation: marquee2 20s linear infinite;\n    -webkit-animation-delay: 10s;\n            animation-delay: 10s; }\n\n.scroll {\n  width: 100%;\n  display: flex;\n  background: #121216; }\n  .scroll div {\n    color: #EB7BDD;\n    background: #121216;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 16px;\n    line-height: 24px;\n    letter-spacing: 0.12em;\n    text-transform: uppercase;\n    white-space: nowrap;\n    -webkit-animation: scroll1 30s linear infinite;\n            animation: scroll1 30s linear infinite;\n    -webkit-animation-delay: -40s;\n            animation-delay: -40s;\n    padding: 24px 0; }\n    .scroll div:nth-child(2) {\n      -webkit-animation: scroll2 30s linear infinite;\n              animation: scroll2 30s linear infinite;\n      -webkit-animation-delay: -25s;\n              animation-delay: -25s; }\n    .scroll div span {\n      font-weight: 100; }\n  .scroll:nth-child(even) div {\n    animation-direction: reverse; }\n    .scroll:nth-child(even) div:nth-child(2) {\n      animation-direction: reverse; }\n\n.scroll.text-1 {\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }\n\n@-webkit-keyframes scroll1 {\n  0% {\n    transform: translate(100%); }\n  100% {\n    transform: translate(-100%); } }\n\n@keyframes scroll1 {\n  0% {\n    transform: translate(100%); }\n  100% {\n    transform: translate(-100%); } }\n\n@-webkit-keyframes scroll2 {\n  0% {\n    transform: translate(0); }\n  100% {\n    transform: translate(-200%); } }\n\n@keyframes scroll2 {\n  0% {\n    transform: translate(0); }\n  100% {\n    transform: translate(-200%); } }\n<\/style>\n\n<div class=\"scroll text-1\">\n  <div>\n    \n      <span class=\"pdp-marquee__text\">get the lights from bed when you’re comfy<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n    \n      <span class=\"pdp-marquee__text\">flash the bat signal when you need help<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n    \n      <span class=\"pdp-marquee__text\">get the party going<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n    \n      <span class=\"pdp-marquee__text\">become a bedtime story master<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n     \n  <\/div>\n  <div>\n    \n      <span class=\"pdp-marquee__text\">get the lights from bed when you’re comfy<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n    \n      <span class=\"pdp-marquee__text\">flash the bat signal when you need help<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n    \n      <span class=\"pdp-marquee__text\">get the party going<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n    \n      <span class=\"pdp-marquee__text\">become a bedtime story master<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p>\n     \n  <\/div>\n<\/div>\n\n<\/div>"
+>>>>>>> lifx-production
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_products",
-    "collage",
-    "video",
-    "multi_column"
+    "1633390137d8a400d0",
+    "1632116257dff5145e",
+    "1634272844a70d2ca1",
+    "1634272858fde070af",
+    "16321870964a1d4c89",
+    "16321053092b5575b3",
+    "16321069914eb48980",
+    "1632104744140161e0",
+    "1632107311c762a72c",
+    "163210701498163fc8",
+    "163425881397e06c0a"
   ]
 }

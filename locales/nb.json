@@ -265,7 +265,29 @@
     "collection_template": {
       "title": "Samling",
       "empty": "Ingen produkter funnet",
+<<<<<<< HEAD
       "use_fewer_filters_html": "Bruk færre filtre eller <a class=\"{{ class }}\" href=\"{{ link }}\">tøm alle<\/a>"
+=======
+      "apply": "Bruk",
+      "clear": "Fjern",
+      "clear_all": "Fjern alle",
+      "from": "Fra",
+      "filter_and_sort": "Filtrer og sorter",
+      "filter_by_label": "Filter:",
+      "filter_button": "Filter",
+      "max_price": "Den høyeste prisen er {{ price }}",
+      "reset": "Tilbakestill",
+      "to": "Til",
+      "use_fewer_filters_html": "Bruk færre filtre eller <a class=\"{{ class }}\" href=\"{{ link }}\">tøm alle<\/a>",
+      "filters_selected": {
+        "one": "{{ count }} valgt",
+        "other": "{{ count }} valgt"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} produkt",
+        "other": "{{ count }} produkter"
+      }
+>>>>>>> lifx-production
     },
     "video": {
       "load_video": "Last inn video: {{ description }}"

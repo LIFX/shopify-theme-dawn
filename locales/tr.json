@@ -264,8 +264,37 @@
     },
     "collection_template": {
       "title": "Koleksiyon",
+<<<<<<< HEAD
       "empty": "Ürün bulunamadı",
       "use_fewer_filters_html": "Daha az filtre kullan veya <a class=\"{{ class }}\" href=\"{{ link }}\">tümünü temizle<\/a>"
+=======
+      "sort_by_label": "Sıralama ölçütü:",
+      "sort_button": "Sırala",
+      "product_count": {
+        "one": "{{ count }}\/{{ product_count }} ürün",
+        "other": "{{ count }}\/{{ product_count }} ürün"
+      },
+      "empty": "Ürün bulunamadı",
+      "apply": "Uygula",
+      "clear": "Temizle",
+      "clear_all": "Tümünü temizle",
+      "from": "En düşük",
+      "filter_and_sort": "Filtrele ve sırala",
+      "filter_by_label": "Filtre:",
+      "filter_button": "Filtrele",
+      "max_price": "En yüksek fiyat: {{ price }}",
+      "reset": "Sıfırla",
+      "to": "En yüksek",
+      "use_fewer_filters_html": "Daha az filtre kullan veya <a class=\"{{ class }}\" href=\"{{ link }}\">tümünü temizle<\/a>",
+      "filters_selected": {
+        "one": "{{ count }} seçildi",
+        "other": "{{ count }} seçildi"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} ürün",
+        "other": "{{ count }} ürün"
+      }
+>>>>>>> lifx-production
     },
     "video": {
       "load_video": "Videoyu yükle: {{ description }}"

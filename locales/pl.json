@@ -279,6 +279,19 @@
     "collection_template": {
       "title": "Kolekcja",
       "empty": "Nie znaleziono produktów",
+<<<<<<< HEAD
+=======
+      "apply": "Zastosuj",
+      "clear": "Wyczyść",
+      "clear_all": "Wyczyść wszystko",
+      "from": "Od",
+      "filter_and_sort": "Filtrowanie i sortowanie",
+      "filter_by_label": "Filtr:",
+      "filter_button": "Filtr",
+      "max_price": "Najwyższa cena to {{ price }}",
+      "reset": "Zresetuj",
+      "to": "Do",
+>>>>>>> lifx-production
       "use_fewer_filters_html": "Użyj mniejszej ilości filtrów lub <a class=\"{{ class }}\" href=\"{{ link }}\">Wyczyść wszystko<\/a>",
       "product_count": {
         "few": "{{ product_count }} z {{ count }} produktów",

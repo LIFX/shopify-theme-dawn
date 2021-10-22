@@ -39,7 +39,8 @@
             {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
           {% endif %}">
           {%- for product in collection.products -%}
-            <li class="grid__item">
+            
+                 <li class="grid__item" {% if product.vendor == "Amazon" %} id="AMZ_UK" style="display:none"{% endif %}>
               {% render 'product-card',
                 product_card_product: product,
                 media_size: section.settings.image_ratio,
@@ -50,8 +51,14 @@
                 show_rating: section.settings.show_rating
               %}
             </li>
+         
           {%- endfor -%}
         </ul>
+        
+        <script type="text/javascript">
+if(location.hostname == "lifxshop.co.uk"){ document.getElementById("AMZ_UK").style.display = "";
+}
+</script>
 
         {%- if paginate.pages > 1 -%}
           {% render 'pagination', paginate: paginate, anchor: '' %}
@@ -60,6 +67,9 @@
     {%- endif -%}
   {%- endpaginate -%}
 </div>
+
+
+
 
 {% schema %}
 {

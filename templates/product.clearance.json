@@ -34,10 +34,16 @@
           "settings": {
           }
         },
-        "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf": {
+        "f1da6ca5-9156-4723-9a4d-fdfca828c5a6": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%assign amazon_affiliate = product.metafields.my_fields.amazon_affiliate %} {%assign amazon_affiliate_fr = product.metafields.my_fields.fr_amazon_affiliate %} {%assign amazon_affiliate_de = product.metafields.my_fields.de_amazon_affiliate %}  <div id=\"AMZ_UK\" style=\"display:none\">\n  {% if amazon_affiliate %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\"> Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate }}\" class=\"mobile_external\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n<\/div>\n\n<div id=\"AMZ_DE\" style=\"display:none\"> \n  {% if amazon_affiliate_de %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\">Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate_de }}\" class=\"mobile_external\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n <\/div>  \n<div id=\"AMZ_FR\" style=\"display:none\"> \n  {% if amazon_affiliate_fr %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\">Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate_fr }}\" class=\"mobile_external\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n  <\/div>\n     \n<script type=\"text\/javascript\">\nif(location.hostname == \"lifxshop.co.uk\"){ document.getElementById(\"AMZ_UK\").style.display = \"\";\n} else if (location.hostname == \"lifxshop.de\") { document.getElementById(\"AMZ_DE\").style.display = \"\";\n} else if (location.hostname == \"lifxshop.fr\") { document.getElementById(\"AMZ_FR\").style.display = \"\";\n}\n<\/script>"
+            "custom_liquid": "{%assign amazon_affiliate = product.metafields.my_fields.amazon_affiliate %} {%assign amazon_affiliate_fr = product.metafields.my_fields.fr_amazon_affiliate %} {%assign amazon_affiliate_de = product.metafields.my_fields.de_amazon_affiliate %}  <div id=\"AMZ_UK\" style=\"display:none\">\n  {% if amazon_affiliate %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\">Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate }}\" class=\"mobile_external\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n<\/div>\n\n<div id=\"AMZ_DE\" style=\"display:none\"> \n  {% if amazon_affiliate_de %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\">Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate_de }}\" class=\"mobile_external\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n <\/div>  \n<div id=\"AMZ_FR\" style=\"display:none\"> \n  {% if amazon_affiliate_fr %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\">Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate_fr }}\" class=\"mobile_external\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n  <\/div>\n     \n<script type=\"text\/javascript\">\nif(location.hostname == \"lifxshop.co.uk\"){ document.getElementById(\"AMZ_UK\").style.display = \"\";\n} else if (location.hostname == \"lifxshop.de\") { document.getElementById(\"AMZ_DE\").style.display = \"\";\n} else if (location.hostname == \"lifxshop.fr\") { document.getElementById(\"AMZ_FR\").style.display = \"\";\n}\n<\/script>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
           }
         },
         "variant_picker": {
@@ -49,12 +55,6 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
           }
         },
         "description": {
@@ -103,10 +103,10 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "price",
-        "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf",
+        "f1da6ca5-9156-4723-9a4d-fdfca828c5a6",
+        "buy_buttons",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "description",
         "share",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
@@ -121,6 +121,7 @@
     },
     "163218778740ff4558": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "c74a3e1e-a33e-448d-9ae5-ab09df21104c": {
           "type": "image",
@@ -141,7 +142,7 @@
         "0b588ae7-6094-49d9-bd12-049185c9c644": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_BEAM_VOICE.jpg",
+            "image": "{{ product.metafields.my_fields.image3.value }}",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -160,6 +161,7 @@
     },
     "1632375097cddb24cb": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1632375097cddb24cb-0": {
           "type": "heading",
@@ -186,6 +188,7 @@
     },
     "1632374284a540207b": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "bb8e6301-49ac-4fd6-8457-c6e5323c39f9": {
           "type": "image",
@@ -216,6 +219,7 @@
     },
     "163048088405749c6c": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "a06feda4-a693-46f5-b920-d4dc8e897969": {
           "type": "heading",
@@ -281,7 +285,7 @@
         "16321895063b55d15b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }} <\/p>"
+            "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }}<\/p>"
           }
         }
       },

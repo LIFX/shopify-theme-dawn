@@ -272,6 +272,19 @@
     "collection_template": {
       "title": "Colecție",
       "empty": "Nu s-au găsit produse",
+<<<<<<< HEAD
+=======
+      "apply": "Aplicați",
+      "clear": "Goliți",
+      "clear_all": "Goliți tot",
+      "from": "De la",
+      "filter_and_sort": "Filtrați și sortați",
+      "filter_by_label": "Filtrează:",
+      "filter_button": "Filtrați",
+      "max_price": "Cel mai mare preț este {{ price }}",
+      "reset": "Resetare",
+      "to": "Către",
+>>>>>>> lifx-production
       "use_fewer_filters_html": "Utilizați mai puține filtre sau <a class=\"{{ class }}\" href=\"{{ link }}\">goliți tot<\/a>",
       "product_count": {
         "few": "{{ product_count }} din {{ count }} produse"

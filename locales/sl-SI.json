@@ -283,6 +283,19 @@
         "two": "{{ product_count }} od toliko izdelkov: {{ count }}"
       },
       "empty": "Ni najdenih izdelkov",
+<<<<<<< HEAD
+=======
+      "apply": "Uporabi",
+      "clear": "Počisti",
+      "clear_all": "Počisti vse",
+      "from": "Od",
+      "filter_and_sort": "Filtriranje in razvrščanje",
+      "filter_by_label": "Filtriraj:",
+      "filter_button": "Filtriraj",
+      "max_price": "Najvišja cena je {{ price }}",
+      "reset": "Ponastavi",
+      "to": "Do",
+>>>>>>> lifx-production
       "use_fewer_filters_html": "Uporabite manj filtrov ali <a class=\"{{ class }}\" href=\"{{ link }}\">počistite vse<\/a>",
       "filters_selected": {
         "few": "Št. izbranih: {{ count }}",

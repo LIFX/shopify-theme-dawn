@@ -1,6 +1,10 @@
 .rich-text {
   margin: auto;
+<<<<<<< HEAD
   text-align: center;
+=======
+  text-align: left;
+>>>>>>> lifx-production
 }
 
 .rich-text.rich-text--full-width {
@@ -35,6 +39,7 @@
 }
 
 @media screen and (min-width: 750px) {
+<<<<<<< HEAD
   .rich-text:not(.rich-text--full-width),
   .rich-text--full-width.color-background-1 {
     margin-top: calc(5rem + var(--page-width-margin));
@@ -46,6 +51,8 @@
     padding-bottom: calc(5rem + var(--page-width-margin));
   }
 
+=======
+>>>>>>> lifx-production
   .rich-text__blocks {
     max-width: 50rem;
   }

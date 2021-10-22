@@ -828,6 +828,18 @@
           },
           "label": "Desktop text position"
         },
+        "desktop_box_alignment": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Desktop Box alignment"
+        },
         "show_text_box": {
           "label": "Show text box on desktop"
         },
@@ -1075,6 +1087,7 @@
         },
         "paragraph": {
           "content": "Change excerpts by editing your blog posts. [Learn more](https:\/\/help.shopify.com\/en\/manual\/online-store\/blogs\/writing-blogs#display-an-excerpt-from-a-blog-post)"
+<<<<<<< HEAD
         },
         "layout": {
           "label": "Layout on large screens",
@@ -1100,6 +1113,8 @@
             "label": "Large"
           },
           "info": "For best results, use an image with a 2:3 aspect ratio. [Learn more](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+=======
+>>>>>>> lifx-production
         }
       }
     },

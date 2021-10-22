@@ -265,7 +265,33 @@
     "collection_template": {
       "title": "Bộ sưu tập",
       "empty": "Không tìm thấy sản phẩm",
+<<<<<<< HEAD
       "use_fewer_filters_html": "Sử dụng ít bộ lọc hơn hoặc <a class=\"{{ class }}\" href=\"{{ link }}\">xóa tất cả<\/a>"
+=======
+      "apply": "Áp dụng",
+      "clear": "Xóa",
+      "clear_all": "Xóa tất cả",
+      "from": "Từ",
+      "filter_and_sort": "Lọc và sắp xếp",
+      "filter_by_label": "Bộ lọc:",
+      "filter_button": "Lọc",
+      "max_price": "Giá cao nhất là {{ price }}",
+      "reset": "Đặt lại",
+      "to": "Đến",
+      "use_fewer_filters_html": "Sử dụng ít bộ lọc hơn hoặc <a class=\"{{ class }}\" href=\"{{ link }}\">xóa tất cả<\/a>",
+      "product_count": {
+        "one": "{{ product_count }}\/{{ count }} sản phẩm",
+        "other": "{{ product_count }}\/{{ count }} sản phẩm"
+      },
+      "filters_selected": {
+        "one": "Đã chọn {{ count }}",
+        "other": "Đã chọn {{ count }}"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} sản phẩm",
+        "other": "{{ count }} sản phẩm"
+      }
+>>>>>>> lifx-production
     },
     "video": {
       "load_video": "Tải video: {{ description }}"

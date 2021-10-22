@@ -1,0 +1,407 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1634181700d11daefa": {
+      "type": "image-banner",
+      "blocks": {
+        "1634181700d11daefa-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "1634181700d11daefa-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1634181700d11daefa-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1634181700d11daefa-0",
+        "1634181700d11daefa-1",
+        "1634181700d11daefa-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Landing_page_banner_2.jpg",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1634181900fc872964": {
+      "type": "rich-text",
+      "blocks": {
+        "1634181900fc872964-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The story behind the hunt",
+            "heading_size": "h1"
+          }
+        },
+        "1634181900fc872964-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The year is 1692. The air is cold and dark clouds stain the sky as Maria’s limp body hangs from the tree in the center of town. Just hours ago, her fellow townsfolk cheered voraciously as the housemaid was accused of witchcraft and sentenced to death. They cackled and jeered at the sight of her horror, but in the end it was Maria who had the last laugh. In her final moments, before the noose took hold, she cursed the town, vowing to haunt its residents for all eternity. <br\/><br\/>Fast forward to present time. Maria still wanders the earth, bound by the curse she tied to the town. But now that her accusers are long deceased and the town abandoned, she searches for her coven in hopes of regaining a sense of belonging. <br\/><br\/>Tales of magic lights spark her curiosity. Could this be her beloved coven? <br\/><br\/>She has now wandered into the twisted webbing of LIFX.com, where she searches through magic light after magic light in hopes of reunion. Alas, we have nothing for her here. Instead, all we can do is help Maria by ending her era of horror and haunting.<br\/><br\/>To do this, Maria must be found in a new spot every day for 13 days. Only then will she return to rest in her rotting grave. Over the next 13 days, we’ll release clues on our Instagram Story that’ll guide you to where you can find Maria across our site.<\/p>"
+          }
+        },
+        "1634181900fc872964-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1634181900fc872964-0",
+        "1634181900fc872964-1",
+        "1634181900fc872964-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "163478309640a461c5": {
+      "type": "rich-text",
+      "blocks": {
+        "163478309640a461c5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What's New",
+            "heading_size": "h1"
+          }
+        },
+        "163478309640a461c5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1\/ This competition is no longer split by region. Nine winners will be selected at random daily. <br\/><br\/>2\/ You no longer need to click on Maria to get the discount code. To enter the daily draw, screenshot her and email the image to halloween@lifx.co.<br\/><br\/>3\/ This competition is no longer speed-based. You will have 12 hours from the release of the clue to find Maria and email us.<br\/><br\/>4\/ You can only win once, and will not be entered into the random draw again after winning. (Note: This does not impact your eligibility to win the Instagram Giveaway Prize. You will still be eligible.)<\/p>"
+          }
+        },
+        "163478309640a461c5-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "163478309640a461c5-0",
+        "163478309640a461c5-1",
+        "163478309640a461c5-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1634181941c1382540": {
+      "type": "multicolumn",
+      "blocks": {
+        "1634181941c1382540-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Landing_Page_Image_1.png",
+            "title": "How to play – NEW RULES",
+            "text": "<p>Every day, from October 18th through October 30th, Maria will enter a new part of our site. It’s your job to find her.<br\/><br\/>Once you find Maria, screenshot her and email the image to: <strong>halloween@lifx.co<br\/><br\/><\/strong>To help with your hunt, we’ll release clues daily on our Instagram Story.<br\/><br\/>Each day, you will have 12 hours from the time of the clue posting to find Maria and email her image to us.<br\/><br\/>We will have a random sweepstakes draw to 9 winners from the entrants.<br\/><br\/>Check back daily for clues posted at the following times to be initially released at:<br\/><br\/>AUS – 11:30am - 11:30pm AEDT<br\/>US – 5:30pm - 5:30am PST<br\/>UK – 1:30am - 1:30pm BST<br\/>EU – 2:30am - 2:30pm CEST<\/p>"
+          }
+        },
+        "1634181941c1382540-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Landing_Page_Image_2.png",
+            "title": "Terms and conditions",
+            "text": "<p>We will award nine random winners, for a total of nine prizes given away per day. <br\/><br\/>Competition starts 18\/10\/2021 and ends 30\/10\/2021.<br\/><br\/>Should a hidden witch not be found all three times by three different players on the day of release, it will remain active and available to be claimed until competition closure on 30\/10\/2021.<br\/><br\/><strong>A single individual may not win more than one prize total<\/strong>! Duplicate prizes to the same recipient will be cancelled.<br\/><br\/><strong>ELIGIBILITY:<\/strong> Participants must be 18 years of age or over to enter. Employees of LIFX, their immediate families and companies associated with this promotion are ineligible to enter.<br\/><br\/><strong>ELIGIBILITY:<\/strong> To receive a prize, you must be living in a region that we currently ship to.<br\/><br\/>Rules of the competition are created at our discretion and subject to change.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1634181941c1382540-0",
+        "1634181941c1382540-2"
+      ],
+      "settings": {
+        "title": "The rules of the hunt",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1634182082d858ad3f": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1634182082d858ad3f-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "1634182082d858ad3f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1634182082d858ad3f-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1634182082d858ad3f-0",
+        "1634182082d858ad3f-1",
+        "1634182082d858ad3f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Calendar_v3.jpg",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "163418241258b6fef2": {
+      "type": "rich-text",
+      "blocks": {
+        "163418241258b6fef2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The social post giveaway",
+            "heading_size": "h1"
+          }
+        },
+        "163418241258b6fef2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Win our Halloween giveaway valued at $650 USD!!<br\/><br\/>To celebrate Maria’s return to rest at the end of our 13 day witch hunt, we’ll have a final sweepstakes giveaway on Halloween Day. To be eligible for this giveaway you’ll need to complete the entry requirements by October 30th 11:59pm PST on our giveaway social post.<br\/><br\/>This giveaway is open to all regions and the winner will be announced the night of Oct 31st PST. <br\/><br\/>This competition is in no way sponsored, endorsed or administered by, or associated with Instagram.<\/p>"
+          }
+        },
+        "163418241258b6fef2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "163418241258b6fef2-0",
+        "163418241258b6fef2-1",
+        "163418241258b6fef2-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1634184099dcca86a6": {
+      "type": "rich-text",
+      "blocks": {
+        "1634184099dcca86a6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Entry requirements",
+            "heading_size": "h2"
+          }
+        },
+        "1634184099dcca86a6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. Like our post<br\/>2. Follow us on Instagram<br\/>3. Tag a friend on this post<br\/>4. Share our post<\/p>"
+          }
+        },
+        "1634184099dcca86a6-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1634184099dcca86a6-0",
+        "1634184099dcca86a6-1",
+        "1634184099dcca86a6-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1634184151c0a8a3b9": {
+      "type": "rich-text",
+      "blocks": {
+        "1634184151c0a8a3b9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The winner will receive",
+            "heading_size": "h2"
+          }
+        },
+        "1634184151c0a8a3b9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. 250$ Amazon gift card <br\/>2. Lightstrip 2m<br\/>3. Two Lightstrip Extension<br\/>4. Two LIFX Color<br\/>5. Two LIFX Clean <br\/>6. LIFX Candle White to Warm <\/p>"
+          }
+        },
+        "1634184151c0a8a3b9-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1634184151c0a8a3b9-0",
+        "1634184151c0a8a3b9-1",
+        "1634184151c0a8a3b9-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1634184048b23d9ffd": {
+      "type": "rich-text",
+      "blocks": {
+        "1634184048b23d9ffd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Terms and conditions",
+            "heading_size": "h2"
+          }
+        },
+        "1634184048b23d9ffd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. Entry is open to <strong>all regions.<br\/><\/strong>2. Promotion commences 17\/10\/2021 and final entries close on 30\/10\/2021 11:59pm PST.<br\/>3. The Prize is a bundle valued at $650 USD.<br\/>4. The winner will be notified via our Instagram stories and through a DM on the night of 31\/10\/2021 PST.<\/p>"
+          }
+        },
+        "1634184048b23d9ffd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1634184048b23d9ffd-0",
+        "1634184048b23d9ffd-1",
+        "1634184048b23d9ffd-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16345340235157d969": {
+      "type": "rich-text",
+      "blocks": {
+        "16345340235157d969-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQs",
+            "heading_size": "h1"
+          }
+        },
+        "16345340235157d969-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>How will I know if I win?<\/strong><\/em><br\/>You will know if you win if, after clicking the hidden witch Maria, you are taken to your shopping cart immediately and see a free item (at $0.00 cost) in your checkout list, and are able to complete your shipment. Make sure to complete the order and ship your free prize to yourself as other people can still play and win until you’ve secured your order. <br\/><br\/><em><strong>How will I know if I don’t win? <\/strong><\/em><br\/>If you’re not one of the three quickest people to (1) find the hidden witch, (2) click on her and (3) check out with your free prize by completing your order, you will see the message <strong>“Oops you weren't fast enough! This code has expired, try again later.” And\/or you won't be able to complete your order for free. <\/strong>Make sure to play again on the following days as you always have the chance to win in the future. <br\/><br\/><em><strong>What if I think I win but I don’t see anything free in my cart?<\/strong><\/em><em><br\/><\/em>If you don’t have a free item in your cart, or your item cannot be processed that means you haven’t won the prize on said day. Make sure to play again on the following day as you always have the chance to win in the future. <br\/><br\/><em><strong>If I win, how long do I get to keep the free item in my cart?<\/strong><\/em><strong> <\/strong><br\/>The first three people to click on the witch and <span style=\"text-decoration:underline\"><strong>fully check out by completing with the free prize in their shopping cart <\/strong><\/span>will receive the free item.<strong> <\/strong>That means there’s no time to lose! Hurry and complete the order before the chance is gone for the day. <br\/><br\/><em><strong>If I win, can I shop around on the site and still have the free item in my cart once I’m finished?<\/strong><\/em><strong> <\/strong><br\/>Unfortunately no, someone may beat you to it and check out with the free prize before you. <strong>We recommend finishing the competition by fully checking out with the free prize first, <\/strong>and then return to browsing our site at your leisure. <br\/><br\/><em><strong>Can I go back and win more than one free prize in the same day? <\/strong><\/em><br\/>No. Only one prize per person (of the first three people per region) can be won per day. Any duplicate orders to the same individual will be cancelled. <br\/><br\/><em><strong>Can I win again if I’ve already won on a previous day? <\/strong><\/em><br\/>Absolutely! Feel free to play every day for 13 total prizes. <\/p>"
+          }
+        },
+        "16345340235157d969-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16345340235157d969-0",
+        "16345340235157d969-1",
+        "16345340235157d969-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1634181700d11daefa",
+    "1634181900fc872964",
+    "163478309640a461c5",
+    "1634181941c1382540",
+    "1634182082d858ad3f",
+    "163418241258b6fef2",
+    "1634184099dcca86a6",
+    "1634184151c0a8a3b9",
+    "1634184048b23d9ffd",
+    "16345340235157d969"
+  ]
+}

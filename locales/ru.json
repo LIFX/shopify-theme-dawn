@@ -283,6 +283,19 @@
         "many": "{{ product_count }} из {{ count }} прод."
       },
       "empty": "Продукты не найдены",
+<<<<<<< HEAD
+=======
+      "apply": "Добавить",
+      "clear": "Удалить",
+      "clear_all": "Удалить все",
+      "from": "От",
+      "filter_and_sort": "Фильтр и сортировка",
+      "filter_by_label": "Фильтр:",
+      "filter_button": "Фильтровать",
+      "max_price": "Максимальная цена: {{ price }}",
+      "reset": "Сбросить",
+      "to": "До",
+>>>>>>> lifx-production
       "use_fewer_filters_html": "Используйте меньше фильтров или <a class=\"{{ class }}\" href=\"{{ link }}\">удалите фильтры<\/a>",
       "filters_selected": {
         "few": "Выбрано: {{ count }}",

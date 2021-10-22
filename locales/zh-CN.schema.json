@@ -939,10 +939,14 @@
               "options__3": {
                 "label": "中"
               },
+<<<<<<< HEAD
               "info": "若要获得最佳效果，请使用纵横比为 16:9 的图片。[了解详细信息](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)",
               "options__4": {
                 "label": "大"
               }
+=======
+              "info": "若要获得最佳效果，请使用纵横比为 16:9 的图片。[了解详细信息](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+>>>>>>> lifx-production
             }
           },
           "name": "配图"

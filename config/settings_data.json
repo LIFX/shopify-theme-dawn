@@ -7,8 +7,19 @@
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#FFFFFF",
     "colors_background_2": "#F3F3F3",
+<<<<<<< HEAD
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
+=======
+    "type_header_font": "avenir_next_n7",
+    "type_body_font": "avenir_next_n5",
+    "social_facebook_link": "https:\/\/www.facebook.com\/lifxlabs",
+    "social_instagram_link": "https:\/\/www.instagram.com\/lifx\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/c\/LifxCo",
+    "predictive_search_enabled": false,
+    "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/favicon_331514dd-42ef-40b6-ad13-cdddbf54e944.png",
+>>>>>>> lifx-production
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -16,7 +27,13 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
+<<<<<<< HEAD
               "color_scheme": "background-1"
+=======
+              "text": "Get 15% off your first order with Code:SHINY",
+              "color_scheme": "inverse",
+              "link": ""
+>>>>>>> lifx-production
             }
           }
         },
@@ -25,8 +42,77 @@
         ],
         "settings": {
         }
+<<<<<<< HEAD
       }
     }
+=======
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/lifx_logo.png",
+          "logo_width": 150,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Site links",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
+          },
+          "e7fcbe44-c8f6-490c-88bb-5426d0e6a650": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Policy Links",
+              "menu": "footer-menu-2"
+            }
+          },
+          "170eb06c-252a-4f45-943a-d42b5bd5106e": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Contact Links",
+              "menu": "footer-menu-3"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "e7fcbe44-c8f6-490c-88bb-5426d0e6a650",
+          "170eb06c-252a-4f45-943a-d42b5bd5106e"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": false,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": false,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+>>>>>>> lifx-production
   },
   "presets": {
     "Default": {

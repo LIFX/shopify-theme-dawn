@@ -264,8 +264,37 @@
     },
     "collection_template": {
       "title": "Kokoelma",
+<<<<<<< HEAD
       "empty": "Tuotteita ei löytynyt",
       "use_fewer_filters_html": "Käytä vähemmän suodattimia tai <a class=\"{{ class }}\" href=\"{{ link }}\">tyhjennä kaikki<\/a>"
+=======
+      "sort_by_label": "Lajittele:",
+      "sort_button": "Lajittele",
+      "product_count": {
+        "one": "{{ product_count }}\/{{ count }} tuotetta",
+        "other": "{{ product_count }}\/{{ count }} tuotetta"
+      },
+      "empty": "Tuotteita ei löytynyt",
+      "apply": "Käytä",
+      "clear": "Tyhjennä",
+      "clear_all": "Tyhjennä kaikki",
+      "from": "Hinnasta",
+      "filter_and_sort": "Suodatus ja lajittelu",
+      "filter_by_label": "Suodatin:",
+      "filter_button": "Suodatin",
+      "filters_selected": {
+        "one": "{{ count }} valittu",
+        "other": "{{ count }} valittu"
+      },
+      "max_price": "Korkein hinta on {{ price }}",
+      "reset": "Palauta",
+      "to": "Hintaan",
+      "use_fewer_filters_html": "Käytä vähemmän suodattimia tai <a class=\"{{ class }}\" href=\"{{ link }}\">tyhjennä kaikki<\/a>",
+      "product_count_simple": {
+        "one": "{{ count }} tuote",
+        "other": "{{ count }} tuotetta"
+      }
+>>>>>>> lifx-production
     },
     "video": {
       "load_video": "Lataa video: {{ description }}"

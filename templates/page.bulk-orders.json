@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "1634015383475331ac": {
+      "type": "image-with-text",
+      "blocks": {
+        "1634015383475331ac-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Planning a big project?"
+          }
+        },
+        "1634015383475331ac-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. Looking to become a LIFX reseller? We'd also love to hear from you and consider your application.<\/p><p>LIFX can provide competitive quotes on custom orders over €500 across our whole range of products.<\/p><p>Simply fill out the form below with your details and one of our dedicated staff will be in contact.<\/p>"
+          }
+        },
+        "1634015383475331ac-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1634015383475331ac-0",
+        "1634015383475331ac-1",
+        "1634015383475331ac-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX-Site_Aug_AUS-BulkDeals_Optimised_3024x_68a752d7-8c82-4925-a655-ef0e4f6e5e1b.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16340133676b29fbf5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/forms.monday.com\/forms\/embed\/6541bebc6d587dc3161cf292916456c0?r=use1\" style=\"width:100%;height:1800px;\"><\/iframe>"
+      }
+    },
+    "16334058807ca0819c": {
+      "type": "image-banner",
+      "blocks": {
+        "16334058807ca0819c-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "16334058807ca0819c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "16334058807ca0819c-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16334058807ca0819c-0",
+        "16334058807ca0819c-1",
+        "16334058807ca0819c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_LIFX_Header_Image_grid_2.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "1634015383475331ac",
+    "main",
+    "16340133676b29fbf5",
+    "16334058807ca0819c"
+  ]
+}

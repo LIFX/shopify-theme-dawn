@@ -279,6 +279,19 @@
     "collection_template": {
       "title": "Kolekce",
       "empty": "Nenalezeny žádné produkty",
+<<<<<<< HEAD
+=======
+      "apply": "Použít",
+      "clear": "Vymazat",
+      "clear_all": "Vymazat vše",
+      "from": "Od",
+      "filter_and_sort": "Filtrování a řazení",
+      "filter_by_label": "Filtrovat:",
+      "filter_button": "Filtrovat",
+      "max_price": "Nejvyšší cena je {{ price }}",
+      "reset": "Obnovit",
+      "to": "Do",
+>>>>>>> lifx-production
       "use_fewer_filters_html": "Můžete použít méně filtrů nebo <a class=\"{{ class }}\" href=\"{{ link }}\">vymazat vše<\/a>.",
       "product_count": {
         "few": "{{ product_count }} z {{ count }} produktů",

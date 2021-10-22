@@ -265,7 +265,33 @@
     "collection_template": {
       "title": "คอลเลกชัน",
       "empty": "ไม่พบสินค้า",
+<<<<<<< HEAD
       "use_fewer_filters_html": "ใช้ตัวกรองให้น้อยลง หรือ<a class=\"{{ class }}\" href=\"{{ link }}\">ล้างทั้งหมด<\/a>"
+=======
+      "apply": "นำไปใช้",
+      "clear": "ล้าง",
+      "clear_all": "ล้างทั้งหมด",
+      "from": "จาก",
+      "filter_and_sort": "กรองและจัดเรียง",
+      "filter_by_label": "ตัวกรอง:",
+      "filter_button": "ตัวกรอง",
+      "max_price": "ราคาสูงสุดคือ {{ price }}",
+      "reset": "รีเซ็ต",
+      "to": "ถึง",
+      "use_fewer_filters_html": "ใช้ตัวกรองให้น้อยลง หรือ<a class=\"{{ class }}\" href=\"{{ link }}\">ล้างทั้งหมด<\/a>",
+      "product_count": {
+        "one": "{{ product_count }} ของสินค้า {{ count }} รายการ",
+        "other": "{{ product_count }} ของสินค้า {{ count }} รายการ"
+      },
+      "filters_selected": {
+        "one": "เลือกแล้ว {{ count }} รายการ",
+        "other": "เลือกแล้ว {{ count }} รายการ"
+      },
+      "product_count_simple": {
+        "one": "สินค้า {{ count }} รายการ",
+        "other": "สินค้า {{ count }} รายการ"
+      }
+>>>>>>> lifx-production
     },
     "video": {
       "load_video": "โหลดวิดีโอ: {{ description }}"

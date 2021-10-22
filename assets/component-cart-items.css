@@ -32,6 +32,13 @@
   .cart-item__image {
     max-width: 100%;
   }
+<<<<<<< HEAD
+=======
+}
+
+.js .cart-item__image {
+  cursor: pointer;
+>>>>>>> lifx-production
 }
 
 .cart-item__details {
