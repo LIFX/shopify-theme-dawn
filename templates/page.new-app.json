@@ -8,6 +8,7 @@
     },
     "1634858666b50158f2": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "cover_image": "shopify:\/\/shop_images\/Your-Home-Your-Way_-AnimationStillFrame.jpg",
@@ -18,7 +19,6 @@
     },
     "16348565164f751234": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Your-Home-Your-Way_-AnimationStillFrame.jpg",
         "adapt_height_first_image": true,
