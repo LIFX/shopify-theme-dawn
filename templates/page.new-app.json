@@ -206,6 +206,122 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1635115148606de747": {
+      "type": "image-with-text",
+      "blocks": {
+        "1635115148606de747-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Game-changing shades of white."
+          }
+        },
+        "1635115148606de747-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cool science fact: the shade of white your light emits can have a huge effect on your mind and body. By using bright, blue-white light you can boost your focus, performance and productivity. Or by using dim, amber-white light you can support better sleep hygiene. Cool LIFX fact: our lights can emit both of those shades and everything in between, in a single bulb. That’s a game changer.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635115148606de747-0",
+        "1635115148606de747-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX-App---Tunable-white.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "16351154958d0b28bd": {
+      "type": "image-with-text",
+      "blocks": {
+        "16351154958d0b28bd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Healthier light for your body and mind."
+          }
+        },
+        "16351154958d0b28bd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Improve your day-to-day as well as your long-term health by using our Scheduling and Tuneable White features to align with your circadian rhythm (also known as your internal clock). Poor circadian rhythm can lead to memory loss, mood swings, weight gain and more. But by scheduling your lights to transition like the sun, from whites to warms, you can keep your body and mind on track.<\/p>"
+          }
+        },
+        "16351154958d0b28bd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Tell me more",
+            "button_link": "https:\/\/www.lifx.com.au\/blogs\/learn\/circadian-rhythm-how-switching-your-lights-can-improve-your-sleep-routine"
+          }
+        }
+      },
+      "block_order": [
+        "16351154958d0b28bd-0",
+        "16351154958d0b28bd-1",
+        "16351154958d0b28bd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_Blog_Circadian_Rhythm_Square_cbda7bbc-b31c-42cd-aad0-3e0f278b2fd5.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1635115562c7f528cb": {
+      "type": "image-with-text",
+      "blocks": {
+        "1635115562c7f528cb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smart lights with even smarter features."
+          }
+        },
+        "1635115562c7f528cb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe light should do more than just illuminate. So we’ve gotten inventive and created lights that do so much more. Like LIFX Clean, which can be scheduled to emit HEV wavelengths and eliminate bacteria in your home. Or LIFX Nightvision, which can be set to emit infrared wavelengths that boost your security camera’s ability to see in the dark. Smart, right?<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635115562c7f528cb-0",
+        "1635115562c7f528cb-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX-App---Special-Features.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "163511569468ba9aa7": {
+      "type": "image-with-text",
+      "blocks": {
+        "163511569468ba9aa7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Personalise your me-time, you deserve it."
+          }
+        },
+        "163511569468ba9aa7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Read a book in lighting that's gentle on your eyes. Take a bubble bath with your favourite colour splashed on the walls. Do yoga in relaxing, rich ambers. Almost all LIFX lights have a rainbow of colours and a massive range of whites to choose from. Your “me-time” just got personal.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163511569468ba9aa7-0",
+        "163511569468ba9aa7-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_Color_LiveInColor-AppPage-HR-Square.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -219,6 +335,10 @@
     "163485758112729f51",
     "163485770961c0f1e8",
     "1634857822679276a9",
-    "16348580971fd09f3c"
+    "16348580971fd09f3c",
+    "1635115148606de747",
+    "16351154958d0b28bd",
+    "1635115562c7f528cb",
+    "163511569468ba9aa7"
   ]
 }
