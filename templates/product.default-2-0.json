@@ -206,8 +206,8 @@
         "1635140721de88e6b8-1"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
+        "color_scheme": "inverse",
+        "full_width": false
       }
     },
     "1632374284a540207b": {
@@ -253,8 +253,8 @@
         "163048088405749c6c-1"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
+        "color_scheme": "inverse",
+        "full_width": false
       }
     },
     "163237510090a3f7bb": {
