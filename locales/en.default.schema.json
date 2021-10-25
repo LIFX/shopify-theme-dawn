@@ -1011,6 +1011,17 @@
           }
         }
       },
+      "popup": {
+        "name": "Pop-up",
+        "settings": {
+          "link_label": {
+            "label": "Link label"
+          },
+          "page": {
+            "label": "Page"
+          }
+        }
+      },
       "presets": {
         "name": "Image with text"
       }
