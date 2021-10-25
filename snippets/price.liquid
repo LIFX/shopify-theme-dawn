@@ -11,10 +11,15 @@
     {% render 'price', product: product %}
 {% endcomment %}
 {%- liquid
- 
-  assign compare_at_price = variant.compare_at_price
-  assign price = product.variant.price | default: 2999
-  assign available = variant.available | default: false
+  if use_variant
+    assign target = product.selected_or_first_available_variant
+  else
+    assign target = product
+  endif
+
+  assign compare_at_price = target.compare_at_price
+  assign price = target.price | default: 1999
+  assign available = target.available | default: false
   assign money_price = price | money
   if settings.currency_code_enabled
     assign money_price = price | money_with_currency
@@ -43,7 +48,7 @@
       </dt>
       <dd {% if show_badges == false %}class="price__last"{% endif %}>
         <span class="price-item price-item--regular">
-          {% if product.vendor == "Amazon" %}View on Amazon{% else %}{{ money_price }}{% endif %}
+          {{ money_price }}
         </span>
       </dd>
     </div>
