@@ -142,7 +142,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/01_LIFX_Colour_Annotated_UKAU_1100x_2f58cca7-8604-4128-8886-211c49caca83.jpg",
         "height": "adapt",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "layout": "image_first"
       }
     },
