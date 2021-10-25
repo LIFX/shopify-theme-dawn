@@ -8,12 +8,14 @@
     - price_class: {String} Adds a price class to the price element (optional)
 
     Usage:
-    {% render 'price', product: product %}
+    {% render 'price', product: use_variant %}
 {% endcomment %}
 {%- liquid
-
-    assign target = variant.product
-  
+  if use_variant
+    assign target = product.selected_or_first_available_variant
+  else
+    assign target = product
+  endif
 
   assign compare_at_price = target.compare_at_price
   assign price = target.price | default: 1999
