@@ -1009,16 +1009,16 @@
               "label": "Button link"
             }
           }
-        }
-      },
-      "popup": {
-        "name": "Pop-up",
-        "settings": {
-          "link_label": {
-            "label": "Link label"
-          },
-          "page": {
-            "label": "Page"
+        },
+        "popup": {
+          "name": "Pop-up",
+          "settings": {
+            "link_label": {
+              "label": "Link label"
+            },
+            "page": {
+              "label": "Page"
+            }
           }
         }
       },
