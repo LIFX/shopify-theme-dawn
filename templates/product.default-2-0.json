@@ -171,7 +171,7 @@
           "settings": {
             "image": "{{ product.metafields.my_fields.image1.value }}",
             "image_padding": false,
-            "color_scheme": "accent-1"
+            "color_scheme": "background-1"
           }
         }
       },
@@ -218,7 +218,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/6_Voice_2376x_a4b72659-e0db-495c-8053-fc1c315b754d.jpg",
             "image_padding": false,
-            "color_scheme": "accent-1"
+            "color_scheme": "background-1"
           }
         }
       },
