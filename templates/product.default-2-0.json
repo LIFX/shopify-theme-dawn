@@ -235,11 +235,11 @@
         "1635139699342ea047-2"
       ],
       "settings": {
-        "title": "",
+        "title": "Plays well with others",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "column_alignment": "left",
-        "background_style": "none",
+        "background_style": "secondary",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
