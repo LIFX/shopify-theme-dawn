@@ -131,7 +131,7 @@
         "163514216916abed30-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Don't let its size fool you. The LIFX Colour 1000 lumens is a serious heavy weight. Brighter than most of the competitors and with more vivid colours.<\/p>"
+            "text": "<p>A compact smart light that packs a serious 1000 lumen punch. The LIFX Colour features billions of colours as well as a huge cool-to-warm range of whites. And for anyone who loves an upgrade, take advantage of endless integration options.<\/p>"
           }
         }
       },
@@ -144,6 +144,33 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
+      }
+    },
+    "163520046949622558": {
+      "type": "image-with-text",
+      "blocks": {
+        "163520046949622558-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline1.value }}"
+          }
+        },
+        "163520046949622558-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163520046949622558-0",
+        "163520046949622558-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/06_LIFX_White_Easy_Set_Up_1680x_2cfe11ce-348f-4727-a51c-4316956f3ce7.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
       }
     },
     "1635139699342ea047": {
@@ -300,6 +327,7 @@
   "order": [
     "main",
     "163514216916abed30",
+    "163520046949622558",
     "1635139699342ea047",
     "163218778740ff4558",
     "1635140721de88e6b8",
