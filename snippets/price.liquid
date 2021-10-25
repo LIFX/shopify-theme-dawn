@@ -11,15 +11,10 @@
     {% render 'price', product: product %}
 {% endcomment %}
 {%- liquid
-  if use_variant
-    assign target = product.selected_or_first_available_variant
-  else
-    assign target = product
-  endif
-
-  assign compare_at_price = target.compare_at_price
-  assign price = target.price | default: 1999
-  assign available = target.available | default: false
+ 
+  assign compare_at_price = variant.compare_at_price
+  assign price = variant.price | default: 1999
+  assign available = variant.available | default: false
   assign money_price = price | money
   if settings.currency_code_enabled
     assign money_price = price | money_with_currency
