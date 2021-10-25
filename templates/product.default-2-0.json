@@ -119,6 +119,33 @@
         "enable_video_looping": true
       }
     },
+    "163514216916abed30": {
+      "type": "image-with-text",
+      "blocks": {
+        "163514216916abed30-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet LIFX Colour"
+          }
+        },
+        "163514216916abed30-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don't let its size fool you. The LIFX Colour 1000 lumens is a serious heavy weight. Brighter than most of the competitors and with more vivid colours.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163514216916abed30-0",
+        "163514216916abed30-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/01_LIFX_Colour_Annotated_UKAU_1100x_2f58cca7-8604-4128-8886-211c49caca83.jpg",
+        "height": "adapt",
+        "color_scheme": "inverse",
+        "layout": "image_first"
+      }
+    },
     "1635139699342ea047": {
       "type": "multicolumn",
       "blocks": {
@@ -257,90 +284,6 @@
         "full_width": false
       }
     },
-    "163237510090a3f7bb": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "163237510090a3f7bb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.headline3.value }}"
-          }
-        },
-        "163237510090a3f7bb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "163237510090a3f7bb-0",
-        "163237510090a3f7bb-1"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image6.value }}",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first"
-      }
-    },
-    "16321895063b55d15b": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "16321895063b55d15b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.headline4.value }}"
-          }
-        },
-        "16321895063b55d15b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }} <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16321895063b55d15b-0",
-        "16321895063b55d15b-1"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image7.value }}",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "1632189680ad62966a": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1632189680ad62966a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.headline5.value }}"
-          }
-        },
-        "1632189680ad62966a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph5 | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1632189680ad62966a-0",
-        "1632189680ad62966a-1"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image8.value }}",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first"
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -356,14 +299,12 @@
   },
   "order": [
     "main",
+    "163514216916abed30",
     "1635139699342ea047",
     "163218778740ff4558",
     "1635140721de88e6b8",
     "1632374284a540207b",
     "163048088405749c6c",
-    "163237510090a3f7bb",
-    "16321895063b55d15b",
-    "1632189680ad62966a",
     "product-recommendations"
   ]
 }
