@@ -174,6 +174,33 @@
         "layout": "text_first"
       }
     },
+    "16352007448c39f051": {
+      "type": "image-with-text",
+      "blocks": {
+        "16352007448c39f051-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline3.value }}"
+          }
+        },
+        "16352007448c39f051-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16352007448c39f051-0",
+        "16352007448c39f051-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/02_LIFX_Colour_Schedule_StoryTime_424335a8-1705-420e-a42f-fe47334cd9d7.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
     "1635139699342ea047": {
       "type": "multicolumn",
       "blocks": {
@@ -212,7 +239,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
@@ -220,6 +247,7 @@
     },
     "163218778740ff4558": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "c74a3e1e-a33e-448d-9ae5-ab09df21104c": {
           "type": "image",
@@ -241,6 +269,7 @@
     },
     "1635140721de88e6b8": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1635140721de88e6b8-0": {
           "type": "heading",
@@ -267,6 +296,7 @@
     },
     "1632374284a540207b": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "bb8e6301-49ac-4fd6-8457-c6e5323c39f9": {
           "type": "image",
@@ -288,6 +318,7 @@
     },
     "163048088405749c6c": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "a06feda4-a693-46f5-b920-d4dc8e897969": {
           "type": "heading",
@@ -323,45 +354,18 @@
         "show_vendor": false,
         "show_rating": false
       }
-    },
-    "16352007448c39f051": {
-      "type": "image-with-text",
-      "blocks": {
-        "16352007448c39f051-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.headline3.value }}"
-          }
-        },
-        "16352007448c39f051-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16352007448c39f051-0",
-        "16352007448c39f051-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/02_LIFX_Colour_Schedule_StoryTime_424335a8-1705-420e-a42f-fe47334cd9d7.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
     }
   },
   "order": [
     "main",
     "163514216916abed30",
     "163520046949622558",
+    "16352007448c39f051",
     "1635139699342ea047",
     "163218778740ff4558",
     "1635140721de88e6b8",
     "1632374284a540207b",
     "163048088405749c6c",
-    "product-recommendations",
-    "16352007448c39f051"
+    "product-recommendations"
   ]
 }
