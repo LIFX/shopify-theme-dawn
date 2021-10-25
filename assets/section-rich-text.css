@@ -25,12 +25,12 @@
 
 .rich-text:not(.rich-text--full-width),
 .rich-text--full-width.color-background-1 {
-  margin-top: 5rem;
+  margin-top: 0px;
   margin-bottom: 5rem;
 }
 
 .rich-text:not(.color-background-1) {
-  padding-top: 0px;
+  padding-top: 0px!important;
   padding-bottom: 5rem;
 }
 
