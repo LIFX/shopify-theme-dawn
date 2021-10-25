@@ -127,7 +127,7 @@
           "settings": {
             "image": "{{ product.metafields.my_fields.image1.value }}",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "accent-1"
           }
         },
         "df5e456c-0086-4bfd-8cdf-66f5872f4615": {
@@ -337,6 +337,50 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1635139699342ea047": {
+      "type": "multicolumn",
+      "blocks": {
+        "1635139699342ea047-0": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image4.value }}",
+            "title": "{{ product.metafields.my_fields.headline1.value }}",
+            "text": "<p>{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
+          }
+        },
+        "1635139699342ea047-1": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image2.value }}",
+            "title": "{{ product.metafields.my_fields.headline2.value }}",
+            "text": "<p>{{ product.metafields.my_fields.paragraph2 | metafield_tag }}<\/p>"
+          }
+        },
+        "1635139699342ea047-2": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image6.value }}",
+            "title": "{{ product.metafields.my_fields.headline3.value }}",
+            "text": "<p>{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635139699342ea047-0",
+        "1635139699342ea047-1",
+        "1635139699342ea047-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
@@ -348,6 +392,7 @@
     "163237510090a3f7bb",
     "16321895063b55d15b",
     "1632189680ad62966a",
-    "product-recommendations"
+    "product-recommendations",
+    "1635139699342ea047"
   ]
 }
