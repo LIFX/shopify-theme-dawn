@@ -170,6 +170,24 @@
           "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
         }
       ]
+    },
+    {
+      "type": "popup",
+      "name": "t:sections.image-with-text.blocks.popup.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Pop-up link text",
+          "label": "t:sections.image-with-text.blocks.popup.settings.link_label.label"
+        },
+        {
+          "id": "page",
+          "type": "page",
+          "label": "t:sections.image-with-text.blocks.popup.settings.page.label"
+        }
+      ]
     }
   ],
   "presets": [
@@ -184,6 +202,9 @@
         },
         {
           "type": "button"
+        },
+	    {
+          "type": "popup"
         }
       ]
     }
