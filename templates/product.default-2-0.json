@@ -131,14 +131,21 @@
         },
         "163514216916abed30-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>A compact smart light that packs a serious 1000 lumen punch. The LIFX Colour features billions of colours as well as a huge cool-to-warm range of whites. And for anyone who loves an upgrade, take advantage of endless integration options.<\/p>"
+          }
+        },
+        "83666262-12a5-4bde-9230-62a154bbed59": {
+          "type": "description",
+          "settings": {
           }
         }
       },
       "block_order": [
         "163514216916abed30-0",
-        "163514216916abed30-1"
+        "163514216916abed30-1",
+        "83666262-12a5-4bde-9230-62a154bbed59"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/01_LIFX_Colour_Annotated_UKAU_1100x_2f58cca7-8604-4128-8886-211c49caca83.jpg",
