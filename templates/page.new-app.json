@@ -322,6 +322,33 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "1635286726666c2b0c": {
+      "type": "image-with-text",
+      "blocks": {
+        "1635286726666c2b0c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Paint, animate, create."
+          }
+        },
+        "1635286726666c2b0c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Why chose one colour when you can use our unique Polychrome tech to paint your LIFX coloured lights in an array of hues. Transform your space as each individual colour works together to create an ombre effect in a single light. Then animate the colours to create movement effects like waves or candle light flickers. What will you create?<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635286726666c2b0c-0",
+        "1635286726666c2b0c-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX-App---Polychrome-02.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
@@ -339,6 +366,7 @@
     "1635115148606de747",
     "16351154958d0b28bd",
     "1635115562c7f528cb",
-    "163511569468ba9aa7"
+    "163511569468ba9aa7",
+    "1635286726666c2b0c"
   ]
 }
