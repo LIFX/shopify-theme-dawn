@@ -1022,6 +1022,9 @@
           }
         }
       },
+      "description": {
+        "name": "Description"
+      },
       "presets": {
         "name": "Image with text"
       }
