@@ -43,11 +43,9 @@
                 </a>
 		      {%- endif -%}
             {%- when 'popup' -%}
-              {%- if block.settings.popup_label != blank -%}
-                <a{% if block.settings.popup_link != blank %} href="{{ block.settings.popup_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"{% if block.settings.popup_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
-                  {{ block.settings.popup_label | escape }}
-                </a>
-		      {%- endif -%}
+              <h2 class="image-with-text__heading h1" {{ block.shopify_attributes }}>
+                {{ block.settings.popup_label | escape }}
+              </h2>
           {%- endcase -%}
         {%- endfor -%}
 
