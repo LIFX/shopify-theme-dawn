@@ -137,26 +137,18 @@
         "163514216916abed30-0": {
           "type": "heading",
           "settings": {
-            "heading": "Meet LIFX Colour"
+            "heading": "Meet {{ product.vendor }} {{ product.title }}"
           }
         },
         "83666262-12a5-4bde-9230-62a154bbed59": {
           "type": "description",
           "settings": {
           }
-        },
-        "b53561c2-6379-4927-83f0-8e777a673d61": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "163514216916abed30-0",
-        "83666262-12a5-4bde-9230-62a154bbed59",
-        "b53561c2-6379-4927-83f0-8e777a673d61"
+        "83666262-12a5-4bde-9230-62a154bbed59"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/01_LIFX_Colour_Annotated_UKAU_1100x_2f58cca7-8604-4128-8886-211c49caca83.jpg",
