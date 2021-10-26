@@ -102,8 +102,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Bulk Order Enquiry",
-            "content": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <a href=\"\/pages\/bulk-order-enquiry\" title=\"Bulk Order Enquiry\">Enquire today.<\/a><\/p>",
-            "page": "",
+            "content": "",
+            "page": "bulk-order-enquiry",
             "icon": "box"
           }
         }
@@ -137,7 +137,7 @@
         "163514216916abed30-0": {
           "type": "heading",
           "settings": {
-            "heading": "Meet {{ product.vendor }} {{ product.title }}"
+            "heading": "Meet LIFX Colour"
           }
         },
         "83666262-12a5-4bde-9230-62a154bbed59": {
