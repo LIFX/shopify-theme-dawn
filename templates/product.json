@@ -89,19 +89,11 @@
         },
         "76f2877b-9463-4ca3-a71e-982cd31af6da": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Bulk Order Enquiry",
-            "content": "",
-            "page": "bulk-order-enquiry",
+            "content": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <a href=\"\/pages\/bulk-order-enquiry\" title=\"Bulk Order Enquiry\">Enquire today<\/a> <\/p>",
+            "page": "",
             "icon": "box"
-          }
-        },
-        "64c0ab6f-b56f-4a2d-9062-8df0fdccf4df": {
-          "type": "popup",
-          "settings": {
-            "text": "Bulk Order Enquiry",
-            "page": "bulk-order-enquiry"
           }
         }
       },
@@ -119,8 +111,7 @@
         "share",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
-        "76f2877b-9463-4ca3-a71e-982cd31af6da",
-        "64c0ab6f-b56f-4a2d-9062-8df0fdccf4df"
+        "76f2877b-9463-4ca3-a71e-982cd31af6da"
       ],
       "settings": {
         "enable_sticky_info": true,
