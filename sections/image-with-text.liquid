@@ -42,9 +42,11 @@
                   {{ block.settings.button_label | escape }}
                 </a>
 		      {%- endif -%}
-            {%- when 'popup' -%}
+       {%- endcase -%}
+        {%- endfor -%}
 
-
+{% assign popups = section.blocks | where: "type", "popup" %}
+  {%- for block in popups -%}
     <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal" {{ block.shopify_attributes }}>
       <div role="dialog" aria-label="{{ block.settings.text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
         <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
@@ -54,11 +56,7 @@
         </div>
       </div>
     </modal-dialog>
-
-
-
-          {%- endcase -%}
-        {%- endfor -%}
+  {%- endfor -%}
 
 
       </div>
