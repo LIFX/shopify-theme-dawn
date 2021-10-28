@@ -219,6 +219,7 @@ $(window).scroll(function(e){
               </details>
             </div>
           {%- when 'quantity_selector' -%}
+		<div class="mainBuyButton">
             <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
               <label class="form__label" for="Quantity-{{ section.id }}">
                 {{ 'products.product.quantity.label' | t }}
@@ -243,6 +244,7 @@ $(window).scroll(function(e){
                 </button>
               </quantity-input>
             </div>
+      </div>
           {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
@@ -362,6 +364,7 @@ $(window).scroll(function(e){
               </div>
             </noscript>
           {%- when 'buy_buttons' -%}
+		<div class="mainBuyButton">
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
                 <div class="product-form__error-message-wrapper" role="alert" hidden>
@@ -424,7 +427,7 @@ $(window).scroll(function(e){
                 </template>
               </pickup-availability>
             </div>
-
+          </div>
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}

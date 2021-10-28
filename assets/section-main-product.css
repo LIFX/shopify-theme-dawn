@@ -11,6 +11,10 @@
     border-top-style: solid;
     border-top-width: thin;
 }
+@media screen and (min-width: 736px) {
+.mainBuyButton{
+	display:none
+}
 }
 .product {
   margin: 0;
