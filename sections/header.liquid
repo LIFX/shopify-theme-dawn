@@ -523,7 +523,14 @@
     </div>
  <div class="product__info-wrapper grid__item">
 
-<quantity-input class="quantity">
+<div class="product__info-wrapper grid__item" style="
+    padding-top: 4rem;
+">
+
+<quantity-input class="quantity" style="
+    /* margin: 0px; */
+    float: left;
+">
                 <button class="quantity__button no-js-hidden" name="minus" type="button">
                   <span class="visually-hidden">Decrease quantity for Colour A60</span>
                   <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-minus" fill="none" viewBox="0 0 10 2">
@@ -541,8 +548,8 @@
                 </button>
               </quantity-input>
 
-<div class="product-form__buttons">
-<button type="submit" name="add" class="product-form__submit button button--full-width" style="margin-top: 30px;">Add to cart</button>
+<div class="product-form__buttons" style="/* display: flex; */float: left;/* position: absolute; */">
+<button type="submit" name="add" class="product-form__submit button button--full-width" style="/* margin-top: 30px; */">Add to cart | {{ price }}</button>
     </div></div>
     </div>
 </section>
