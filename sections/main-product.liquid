@@ -21,7 +21,7 @@
 
 <script>
 $(window).scroll(function(e){ 
-  var $el = $('.fixedElement'); 
+  var $el = $('.fixedBuyButton'); 
   var isPositionFixed = ($el.css('position') == 'fixed');
   if ($(this).scrollTop() > 200 && !isPositionFixed){ 
     $el.css({'position': 'fixed', 'top': '0px'}); 
@@ -33,7 +33,7 @@ $(window).scroll(function(e){
 </script>
 
 {% if product %}
-<div class="fixedElement page-width" style="position:fixed;background: #fff;width: -webkit-fill-available;max-height: 118px; width:100%; z-index:3">
+<div class="fixedBuyButton page-width" style="position:fixed;background: #fff;width: -webkit-fill-available;max-height: 118px; width:100%; z-index:3">
 <div class="product grid grid--1-col grid--2-col-tablet">
  <div class="grid__item product__media-wrapper">
      <h1 style="float: left;">
