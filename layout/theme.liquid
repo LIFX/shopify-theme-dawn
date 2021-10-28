@@ -130,6 +130,8 @@
     {% section 'announcement-bar' %}
     {% section 'header' %}
 
+    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+
 {% if product.handle contains "lightstrip" %}
 <div class="ProductInfo-{{ section.id }} topBuyButton topBuyButtonHide page-width" style="box-shadow: 0 1px 15px 0 rgb(0 0 0 / 10%);display: none;grid-template-columns: auto auto;">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
@@ -204,7 +206,6 @@
 </div>
 {% endif %}
 
-    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
 
