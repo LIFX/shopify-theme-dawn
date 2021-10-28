@@ -33,7 +33,7 @@ $(window).scroll(function(e){
 </script>
 
 {% if product %}
-<section class="fixedBuyButton page-width" >
+<div class="fixedBuyButton page-width" >
 
 	<div style="padding-top: 2rem; padding-bottom: 2rem;display: grid;grid-template-columns: 1fr 2fr;">
 		<quantity-input class="quantity" style="float: left;">
@@ -57,7 +57,7 @@ $(window).scroll(function(e){
 <button type="submit" name="add" class="product-form__submit button button--full-width" style="/* margin-top: 30px; */">Add to cart | {{ product.price | money }}</button>
     
     </div>
-</section>
+</div>
 {% endif %}
 
 <section class="page-width">
