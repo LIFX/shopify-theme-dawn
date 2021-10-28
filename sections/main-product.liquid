@@ -18,6 +18,18 @@ $(document).ready(function () {
 }
 </script>
 
+<script type="text/javascript">
+
+var initTopPosition= $('#bottomBuyButton').offset().top;   
+$(window).scroll(function(){
+    if($(window).scrollTop() > initTopPosition)
+        $('#bottomBuyButton').css({'position':'fixed','top':'0px'});
+    else
+        $('#bottomBuyButton').css({'position':'absolute','top':initTopPosition+'px'});
+});
+</script>
+
+
 {% if product.handle contains "lightstrip" %}
 <div class="ProductInfo-{{ section.id }} bottomBuyButton bottomBuyButtonHide page-width" style="display: grid;grid-template-columns: auto auto;">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
