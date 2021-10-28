@@ -12,6 +12,11 @@
     border-top-width: thin;
 }
 }
+@media screen and (min-width: 736px) {
+.bottomBuyButtonHide {
+	display:none;
+}
+}
 @media screen and (max-width: 735px) {
 .mainBuyButton{
 	display:none;
