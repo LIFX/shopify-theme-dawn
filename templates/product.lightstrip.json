@@ -5,7 +5,6 @@
       "blocks": {
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -13,13 +12,11 @@
         },
         "title": {
           "type": "title",
-          "disabled": true,
           "settings": {
           }
         },
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.my_fields.lumens.value }} {{ product.metafields.my_fields.subtitle_lumens.value }}",
             "text_style": "uppercase"
@@ -27,7 +24,6 @@
         },
         "subtitle": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
@@ -35,7 +31,6 @@
         },
         "price": {
           "type": "price",
-          "disabled": true,
           "settings": {
           }
         },
