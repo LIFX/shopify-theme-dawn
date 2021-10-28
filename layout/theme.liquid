@@ -135,7 +135,10 @@
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
 	<div style="padding-top: 2rem; padding-bottom: 2rem;">
-
+<p class="product__text caption-with-letter-spacing">{{ product.vendor }}</p>
+<h1 class="product__title">
+              {{ product.title }}
+            </h1>
                     <quantity-input class="quantity" style="width:12rem">
                 <button class="quantity__button no-js-hidden" name="minus" type="button">
                   <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
