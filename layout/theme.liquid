@@ -131,7 +131,7 @@
     {% section 'header' %}
 
 {% if product.handle contains "lightstrip" %}
-<div class="ProductInfo-{{ section.id }} topBuyButton topBuyButtonHide page-width" style="box-shadow: 0 1px 15px 0 rgb(0 0 0 / 10%);display: none;grid-template-columns: auto auto;">
+<div class="ProductInfo-{{ section.id }} topBuyButton topBuyButtonHide page-width" style="box-shadow: 0 1px 15px 0 rgb(0 0 0 / 10%);display: none;grid-template-columns: auto auto auto;">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
 	<div style="padding-top: 2rem; padding-bottom: 2rem;">
@@ -139,6 +139,8 @@
 <h1 class="product__title">
               {{ product.title }}
             </h1>
+</div>
+<div style="padding-top: 2rem; padding-bottom: 2rem;">
                     <quantity-input class="quantity" style="width:12rem">
                 <button class="quantity__button no-js-hidden" name="minus" type="button">
                   <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
