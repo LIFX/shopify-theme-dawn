@@ -250,7 +250,7 @@
     {%- endif -%}
 
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
-    <!--  <details-modal class="header__search">
+      <details-modal class="header__search">
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
@@ -321,7 +321,7 @@
             </div>
           </div>
         </details>
-      </details-modal>-->
+      </details-modal>
     {%- endif -%}
 
     {%- if request.page_type == 'index' -%}
@@ -362,12 +362,9 @@
                       {%- for childlink in link.links -%}
                         <li>
                           {%- if childlink.links == blank -%}
-  
-
-                                  <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                   {{ childlink.title | escape }}
-                                  </a>
-
+                            <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                              {{ childlink.title | escape }}
+                            </a>
                           {%- else -%}
                             <details>
                               <summary class="header__menu-item link link--text list-menu__item focus-inset caption-large">
@@ -402,7 +399,7 @@
     {%- endif -%}
 
     <div class="header__icons">
-     <!-- <details-modal class="header__search">
+      <details-modal class="header__search">
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
@@ -473,7 +470,7 @@
             </div>
           </div>
         </details>
-      </details-modal>-->
+      </details-modal>
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
@@ -511,47 +508,6 @@
     </div>
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
-
-
-{% if product %}
-<section style="position: absolute;background: #fff;width: -webkit-fill-available;max-height: 118px; bottom:0; width:100%" class="page-width">
-<div class="product grid grid--1-col grid--2-col-tablet">
- <div class="grid__item product__media-wrapper">
-     <h1 style="float: left;">
-             {{ product.title }}
-            </h1>
-    </div>
- <div class="product__info-wrapper grid__item">
-
-<div style="padding-top: 4rem;">
-
-<quantity-input class="quantity" style="
-    float: left;
-">
-                <button class="quantity__button no-js-hidden" name="minus" type="button">
-                  <span class="visually-hidden">Decrease quantity for Colour A60</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-minus" fill="none" viewBox="0 0 10 2">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor">
-</path></svg>
-
-                </button>
-                <input class="quantity__input" type="number" name="quantity" id="Quantity-template--14992845832388__main" min="1" value="1" form="product-form-template--14992845832388__main">
-                <button class="quantity__button no-js-hidden" name="plus" type="button">
-                  <span class="visually-hidden">Increase quantity for Colour A60</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" fill="none" viewBox="0 0 10 10">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
-</path></svg>
-
-                </button>
-              </quantity-input>
-
-<div class="product-form__buttons" style="/float: left;max-height: 45px;overflow: hidden">
-<button type="submit" name="add" class="product-form__submit button button--full-width" style="/* margin-top: 30px; */">Add to cart | {{ product.price | money }}</button>
-    </div></div>
-    </div>
-</section>
-{% endif %}
-
 
 {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
 
