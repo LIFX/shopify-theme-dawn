@@ -1,8 +1,22 @@
-div.stickyNav {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-      }
+@media screen and (min-width: 735px) {
+.topBuyButton {
+	position:fixed;
+  	background: #fff;
+  	width: -webkit-fill-available;
+  	max-height: 118px;
+	bottom:0px;
+  	width:100%; 
+  	z-index:3;
+    border-top: #e4e4e9;
+    border-top-style: solid;
+    border-top-width: thin;
+}
+}
+@media screen and (max-width: 736px) {
+.topBuyButtonHide {
+	display:none!important;
+}
+}
 @media screen and (max-width: 735px) {
 .bottomBuyButton {
 	position:fixed;
