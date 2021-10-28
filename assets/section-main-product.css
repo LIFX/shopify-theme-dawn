@@ -11,9 +11,11 @@
     border-top-style: solid;
     border-top-width: thin;
 }
+}
 @media screen and (min-width: 736px) {
 .bottomBuyButton {
 	display:none;
+}
 }
 @media screen and (min-width: 736px) {
 .mainBuyButton{
