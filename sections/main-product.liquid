@@ -34,8 +34,7 @@ $(window).scroll(function(e){
 
 {% if product %}
 
-<div class="product__info-wrapper grid__item fixedBuyButton page-width" style="display: grid;grid-template-columns: 1fr 2fr;">
-      <div id="ProductInfo-{{ section.id }}">
+<div class="ProductInfo-{{ section.id }} grid__item fixedBuyButton page-width" style="display: grid;grid-template-columns: 1fr 2fr;">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
 	<div style="padding-top: 2rem; padding-bottom: 2rem;">
@@ -105,7 +104,6 @@ $(window).scroll(function(e){
 
 
 </div>
-  </div>
 </div>
 {% endif %}
 
