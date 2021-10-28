@@ -1,0 +1,356 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.lumens.value }} {{ product.metafields.my_fields.subtitle_lumens.value }}",
+            "text_style": "uppercase"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "f1da6ca5-9156-4723-9a4d-fdfca828c5a6": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{%assign amazon_affiliate = product.metafields.my_fields.amazon_affiliate %} {%assign amazon_affiliate_fr = product.metafields.my_fields.fr_amazon_affiliate %} {%assign amazon_affiliate_de = product.metafields.my_fields.de_amazon_affiliate %}  <div id=\"AMZ_UK\" style=\"display:none\">\n  {% if amazon_affiliate %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\">Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate }}\" class=\"mobile_external\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n<\/div>\n\n<div id=\"AMZ_DE\" style=\"display:none\"> \n  {% if amazon_affiliate_de %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\">Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate_de }}\" class=\"mobile_external\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n <\/div>  \n<div id=\"AMZ_FR\" style=\"display:none\"> \n  {% if amazon_affiliate_fr %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\">Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate_fr }}\" class=\"mobile_external\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n  <\/div>\n     \n<script type=\"text\/javascript\">\nif(location.hostname == \"lifxshop.co.uk\"){ document.getElementById(\"AMZ_UK\").style.display = \"\";\n} else if (location.hostname == \"lifxshop.de\") { document.getElementById(\"AMZ_DE\").style.display = \"\";\n} else if (location.hostname == \"lifxshop.fr\") { document.getElementById(\"AMZ_FR\").style.display = \"\";\n}\n<\/script>"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "88e15617-7a01-4dae-92e8-6e255e65fba0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "content": "<p><strong>Brightness:<\/strong> {{ product.metafields.my_fields.lumens.value }} Lumens<br\/><strong>CRI:<\/strong> {{ product.metafields.my_fields.cri.value }}<br\/><strong>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }}W at full brightness<br\/><strong>Wattage Equivalent: <\/strong>{{ product.metafields.my_fields.wattage_equivalent.value }}W Incandescent<br\/><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/><strong>Voltage Range:<\/strong> AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature:<\/strong> {{ product.metafields.my_fields.cct_min.value }}K to {{ product.metafields.my_fields.cct_max.value }}K<br\/><strong>Beam Angle:<\/strong> {{ product.metafields.my_fields.beam_angle.value }}°<br\/><strong>Dimming:<\/strong> Software dimming 1% -100%<br\/><strong>Wi-Fi Router:<\/strong> 802.11b,g,n standards compliant<br\/><strong>Security:<\/strong> WPA, WPA2<br\/><strong>Dimensions:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Energy Labels",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.eprel_labels.value }}",
+            "icon": "leaf"
+          }
+        },
+        "76f2877b-9463-4ca3-a71e-982cd31af6da": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Bulk Order Enquiry",
+            "content": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <a href=\"\/pages\/bulk-order-enquiry\" title=\"Bulk Order Enquiry\">Enquire today<\/a> <\/p>",
+            "page": "",
+            "icon": "box"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
+        "subtitle",
+        "price",
+        "f1da6ca5-9156-4723-9a4d-fdfca828c5a6",
+        "quantity_selector",
+        "buy_buttons",
+        "variant_picker",
+        "description",
+        "share",
+        "88e15617-7a01-4dae-92e8-6e255e65fba0",
+        "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
+        "76f2877b-9463-4ca3-a71e-982cd31af6da"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": true,
+        "enable_video_looping": true
+      }
+    },
+    "163218778740ff4558": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "c74a3e1e-a33e-448d-9ae5-ab09df21104c": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image1.value }}",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "df5e456c-0086-4bfd-8cdf-66f5872f4615": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image2.value }}",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "0b588ae7-6094-49d9-bd12-049185c9c644": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image3.value }}",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "c74a3e1e-a33e-448d-9ae5-ab09df21104c",
+        "df5e456c-0086-4bfd-8cdf-66f5872f4615",
+        "0b588ae7-6094-49d9-bd12-049185c9c644"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1632375097cddb24cb": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1632375097cddb24cb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline1.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "1632375097cddb24cb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1632375097cddb24cb-0",
+        "1632375097cddb24cb-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": false
+      }
+    },
+    "1632374284a540207b": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "bb8e6301-49ac-4fd6-8457-c6e5323c39f9": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image4.value }}",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "a429c15e-7e32-454f-b135-8f4f3b932209": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image5.value }}",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "bb8e6301-49ac-4fd6-8457-c6e5323c39f9",
+        "a429c15e-7e32-454f-b135-8f4f3b932209"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "right",
+        "mobile_layout": "collage"
+      }
+    },
+    "163048088405749c6c": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "a06feda4-a693-46f5-b920-d4dc8e897969": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline2.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "163048088405749c6c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph2 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a06feda4-a693-46f5-b920-d4dc8e897969",
+        "163048088405749c6c-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "163237510090a3f7bb": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "163237510090a3f7bb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline3.value }}"
+          }
+        },
+        "163237510090a3f7bb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163237510090a3f7bb-0",
+        "163237510090a3f7bb-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image6.value }}",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "16321895063b55d15b": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "16321895063b55d15b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline4.value }}"
+          }
+        },
+        "16321895063b55d15b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16321895063b55d15b-0",
+        "16321895063b55d15b-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image7.value }}",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1632189680ad62966a": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1632189680ad62966a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline5.value }}"
+          }
+        },
+        "1632189680ad62966a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph5 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1632189680ad62966a-0",
+        "1632189680ad62966a-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image8.value }}",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163218778740ff4558",
+    "1632375097cddb24cb",
+    "1632374284a540207b",
+    "163048088405749c6c",
+    "163237510090a3f7bb",
+    "16321895063b55d15b",
+    "1632189680ad62966a",
+    "product-recommendations"
+  ]
+}
