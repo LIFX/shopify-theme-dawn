@@ -102,8 +102,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Bulk Order Enquiry",
-            "content": "",
-            "page": "bulk-order-enquiry",
+            "content": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <a href=\"\/pages\/bulk-order-enquiry\" title=\"Bulk Order Enquiry\">Enquire today<\/a> <\/p>",
+            "page": "",
             "icon": "box"
           }
         }
