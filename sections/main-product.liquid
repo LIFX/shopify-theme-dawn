@@ -61,7 +61,7 @@ $(document).ready(function () {
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                   <div class="product-form__buttons" style="float: left;max-height: 45px;padding-top: 2rem; padding-bottom: 2rem;">
-                    <button style="padding-left: 5rem;padding-right: 5rem;"
+                    <button style="padding-left: 2.5rem;padding-right: 2.5rem;"
                       type="submit"
                       name="add"
                       class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
