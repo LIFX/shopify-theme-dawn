@@ -1,4 +1,4 @@
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 735px) {
 .bottomBuyButton {
 	position:fixed;
   	background: #fff;
@@ -12,7 +12,7 @@
     border-top-width: thin;
 }
 }
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 735px) {
 .mainBuyButton{
 	display:none;
 }
