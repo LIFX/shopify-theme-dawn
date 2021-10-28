@@ -19,7 +19,7 @@ $(document).ready(function () {
 </script>
 
 {% if product.handle contains "candle-color" %}
-<div class="ProductInfo-{{ section.id }} topBuyButton topBuyButtonHide page-width" style="display: none;grid-template-columns: auto auto;">
+<div class="ProductInfo-{{ section.id }} topBuyButton topBuyButtonHide page-width" style="box-shadow: 0 1px 15px 0 rgb(0 0 0 / 10%);display: none;grid-template-columns: auto auto;">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
 	<div style="padding-top: 2rem; padding-bottom: 2rem;">
