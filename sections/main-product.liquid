@@ -33,7 +33,7 @@ $(window).scroll(function(e){
 </script>
 
 {% if product %}
-
+<div class="bottomBuyButtonHide">
 <div class="ProductInfo-{{ section.id }} bottomBuyButton page-width" style="display: grid;grid-template-columns: auto auto;">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
@@ -104,6 +104,7 @@ $(window).scroll(function(e){
 
 
 </div>
+  </div>
 </div>
 {% endif %}
 
