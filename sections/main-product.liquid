@@ -32,7 +32,7 @@ $(window).scroll(function(e){
 });
 </script>
 
-{% if product %}
+{% if product.handle contains "lightstrip" %}
 <div class="ProductInfo-{{ section.id }} bottomBuyButton bottomBuyButtonHide page-width" style="display: grid;grid-template-columns: auto auto;">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
