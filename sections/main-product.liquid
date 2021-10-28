@@ -33,7 +33,7 @@ $(window).scroll(function(e){
 </script>
 
 {% if product %}
-<section class="fixedElement page-width" style="position:fixed;background: #fff;width: -webkit-fill-available;max-height: 118px; width:100%; z-index:3">
+<div class="fixedElement page-width" style="position:fixed;background: #fff;width: -webkit-fill-available;max-height: 118px; width:100%; z-index:3">
 <div class="product grid grid--1-col grid--2-col-tablet">
  <div class="grid__item product__media-wrapper">
      <h1 style="float: left;">
@@ -68,7 +68,7 @@ $(window).scroll(function(e){
 <button type="submit" name="add" class="product-form__submit button button--full-width" style="/* margin-top: 30px; */">Add to cart | {{ product.price | money }}</button>
     </div></div>
     </div>
-</section>
+</div>
 {% endif %}
 
 <section class="page-width">
