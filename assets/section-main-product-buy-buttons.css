@@ -1,3 +1,11 @@
+.hideButts {
+    opacity:0;
+    left:-100%;
+}
+.showButts {
+    opacity:1;
+    left:0;
+}
 @media screen and (min-width: 735px) {
 .topBuyButton {
 	position: -webkit-sticky;
@@ -42,12 +50,4 @@
 	display:none;
 }
 }
-}
-.hideButts {
-    opacity:0;
-    left:-100%;
-}
-.showButts {
-    opacity:1;
-    left:0;
 }
