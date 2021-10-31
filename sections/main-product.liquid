@@ -22,7 +22,7 @@ $(document).ready(function () {
 
 
 {% if product.handle contains "lightstrip" %}
-{% include "buy-buttons" %}
+{% include "buy-buttons-bottom" %}
 {% endif %}
 
 {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
