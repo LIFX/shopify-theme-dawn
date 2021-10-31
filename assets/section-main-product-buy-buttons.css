@@ -1,8 +1,8 @@
-.hideButts {
+.hide {
     opacity:0;
     left:-100%;
 }
-.showButts {
+.show {
     opacity:1;
     left:0;
 }
