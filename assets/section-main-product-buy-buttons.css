@@ -42,3 +42,12 @@
 	display:none;
 }
 }
+}
+.hideButts {
+    opacity:0;
+    left:-100%;
+}
+.showButts {
+    opacity:1;
+    left:0;
+}
