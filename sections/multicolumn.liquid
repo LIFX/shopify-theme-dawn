@@ -57,24 +57,14 @@
                   
                 </div>
               
-				<div class="media">
-                    <img
-                      srcset="{%- if block.settings.workswith.width >= 275 -%}{{ block.settings.workswith | img_url: '275x' }} 275w,{%- endif -%}
-                        {%- if block.settings.workswith.width >= 550 -%}{{ block.settings.workswith | img_url: '550x' }} 550w,{%- endif -%}
-                        {%- if block.settings.workswith.width >= 710 -%}{{ block.settings.workswith | img_url: '710x' }} 710w,{%- endif -%}
-                        {%- if block.settings.workswith.width >= 1420 -%}{{ block.settings.workswith | img_url: '1420x' }} 1420w,{%- endif -%}"
-                      src="{{ block.settings.workswith | img_url: '550x' }}"
-                      sizes="(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
-                        (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
-                        calc(100vw - 30px)"
-                      alt="{{ block.settings.workswith.alt }}"
-                      height="{{ block.settings.workswith.height }}"
-                      width="{{ block.settings.workswith.width }}"
-                      loading="lazy"
-                    >
-                  </div>
+			
+                    
+                 
               {%- endif -%}
               <div class="multicolumn-card__info">
+					<img src="{{ block.settings.workswith | img_url: '550x' }}"
+                      alt="{{ block.settings.workswith.alt }}"
+                      height="40px" loading="lazy" >
                 {%- if block.settings.title != blank -%}
                   <h3>{{ block.settings.title | escape }}</h3>
                 {%- endif -%}
