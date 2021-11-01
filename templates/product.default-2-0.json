@@ -137,7 +137,7 @@
         "163514216916abed30-0": {
           "type": "heading",
           "settings": {
-            "heading": "Meet LIFX Colour"
+            "heading": "Meet {{ product.vendor }} {{ product.title }}"
           }
         },
         "83666262-12a5-4bde-9230-62a154bbed59": {
