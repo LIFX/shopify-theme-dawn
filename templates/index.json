@@ -94,7 +94,7 @@
         "image": "shopify:\/\/shop_images\/Home_Page_Banner_eu_cbfaf09f-020d-479a-bb23-ebe90a4fe681.png",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
-        "desktop_box_alignment": "left",
+        "desktop_box_alignment": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
@@ -245,7 +245,7 @@
         "16321053092b5575b3-7"
       ],
       "settings": {
-        "product": "clean-a60",
+        "product": "clean-a60-e27",
         "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false
