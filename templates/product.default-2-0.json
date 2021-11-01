@@ -34,15 +34,6 @@
           "settings": {
           }
         },
-        "cc97d592-9b20-4527-a8a5-12629e27c6cc": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Available at Amazon",
-            "content": "",
-            "page": "amazon-colour-1000-links",
-            "icon": "price_tag"
-          }
-        },
         "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf": {
           "type": "custom_liquid",
           "disabled": true,
@@ -65,6 +56,15 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
+          }
+        },
+        "cc97d592-9b20-4527-a8a5-12629e27c6cc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Available at Amazon",
+            "content": "",
+            "page": "amazon-colour-1000-links",
+            "icon": "price_tag"
           }
         },
         "description": {
@@ -114,11 +114,11 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "price",
-        "cc97d592-9b20-4527-a8a5-12629e27c6cc",
         "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "cc97d592-9b20-4527-a8a5-12629e27c6cc",
         "description",
         "share",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
