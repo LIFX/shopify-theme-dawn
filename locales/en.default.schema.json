@@ -1641,6 +1641,9 @@
             "image": {
               "label": "Image"
             },
+            "workswith": {
+              "label": "Works with logo"
+            },
             "title": {
               "label": "Heading"
             },
