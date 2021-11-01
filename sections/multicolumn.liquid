@@ -53,12 +53,12 @@
                     >
                   </div>
 
-				<div class="media media--transparent">
+				<div class="media">
                     <img
-                      srcset="{%- if block.settings.image.workswith >= 275 -%}{{ block.settings.workswith | img_url: '275x' }} 275w,{%- endif -%}
-                        {%- if block.settings.image.workswith >= 550 -%}{{ block.settings.workswith | img_url: '550x' }} 550w,{%- endif -%}
-                        {%- if block.settings.image.workswith >= 710 -%}{{ block.settings.workswith | img_url: '710x' }} 710w,{%- endif -%}
-                        {%- if block.settings.image.workswith >= 1420 -%}{{ block.settings.workswith | img_url: '1420x' }} 1420w,{%- endif -%}"
+                      srcset="{%- if block.settings.workswith.width >= 275 -%}{{ block.settings.workswith | img_url: '275x' }} 275w,{%- endif -%}
+                        {%- if block.settings.workswith.width >= 550 -%}{{ block.settings.workswith | img_url: '550x' }} 550w,{%- endif -%}
+                        {%- if block.settings.workswith.width >= 710 -%}{{ block.settings.workswith | img_url: '710x' }} 710w,{%- endif -%}
+                        {%- if block.settings.workswith.width >= 1420 -%}{{ block.settings.workswith | img_url: '1420x' }} 1420w,{%- endif -%}"
                       src="{{ block.settings.workswith | img_url: '550x' }}"
                       sizes="(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
                         (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
