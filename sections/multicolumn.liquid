@@ -62,9 +62,11 @@
                  
               {%- endif -%}
               <div class="multicolumn-card__info">
-					<img src="{{ block.settings.workswith | img_url: '550x' }}"
+				{%- if block.settings.workswith != blank -%}
+                <img src="{{ block.settings.workswith | img_url: '550x' }}"
                       alt="{{ block.settings.workswith.alt }}"
                       height="40px" loading="lazy" >
+                {%- endif -%}
                 {%- if block.settings.title != blank -%}
                   <h3>{{ block.settings.title | escape }}</h3>
                 {%- endif -%}
