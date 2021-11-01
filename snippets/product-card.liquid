@@ -15,16 +15,12 @@
 {% endcomment %}
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
-
-
+{% if product_card_product.vendor == "Amazon" %}<div id="AMZ_UK" style="display:none">{% endif %}
+<div class="card-wrapper">
 
 {% if product_card_product.vendor == "Amazon" %}
- <div class="card-wrapper">
-
-  <a href="https://www.amazon.co.uk/gp/search?ie=UTF8&tag=lifxuk-21&linkCode=ur2&linkId=c349bcd3c20f2581d9f2ba06860861f4&camp=1634&creative=6738&index=aps&keywords=lifx%20echo%20device%20bundles" class="mobile_external" target="_blank">
+   <a href="https://www.amazon.co.uk/gp/search?ie=UTF8&tag=lifxuk-21&linkCode=ur2&linkId=c349bcd3c20f2581d9f2ba06860861f4&camp=1634&creative=6738&index=aps&keywords=lifx echo device bundles" class="full-unstyled-link mobile_external" target="_blank">
    {% else %}
-
-<div class="card-wrapper">
    <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
 {% endif %}
 
@@ -133,13 +129,14 @@
         {% render 'price', product: product_card_product, price_class: '' %}
       </div>
     </div>
-{% if product_card_product.vendor == "Amazon" %}
-
-</div>
-  </a>
-  {% else %}
-
   </a>
 </div>
-{% endif %}
+{% if product_card_product.vendor == "Amazon" %}</div>{% endif %}
+
+<script type="text/javascript">
+if(location.hostname == "lifxshop.co.uk"){ document.getElementById("AMZ_UK").style.display = "";
+} else if (location.hostname == "lifxshop.de") { document.getElementById("AMZ_DE").style.display = "";
+} else if (location.hostname == "lifxshop.fr") { document.getElementById("AMZ_FR").style.display = "";
+}
+</script>
 
