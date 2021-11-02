@@ -217,25 +217,28 @@
         "1635139699342ea047-0": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.my_fields.image4.value }}",
-            "title": "{{ product.metafields.my_fields.headline1.value }}",
-            "text": "<p>{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
+            "image": "shopify:\/\/shop_images\/hey_google.jpg",
+            "workswith": "shopify:\/\/shop_images\/WorksWith_Badge_with_border_HeyGoogle_horizontal_CMYK_color_EN-US.png",
+            "title": "",
+            "text": "<p>Ask Google to control smart devices in your home. No matter where you are, get things done – whenever you want.<br\/><br\/>\"Hey Google, dim the living room lights and turn on Netflix.\"<\/p>"
           }
         },
         "1635139699342ea047-1": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.my_fields.image2.value }}",
-            "title": "{{ product.metafields.my_fields.headline2.value }}",
-            "text": "<p>{{ product.metafields.my_fields.paragraph2 | metafield_tag }}<\/p>"
+            "image": "shopify:\/\/shop_images\/Echo-Dot-with-clock_-Glacier-White_-Bedroom.jpg",
+            "workswith": "shopify:\/\/shop_images\/Amazon_Alexa_Works_With_RGB.png",
+            "title": "",
+            "text": "<p>LIFX works with Amazon Alexa products to control your lights with your voice. No need to unlock your phone and open the app.<br\/><br\/>\"Alexa... Set the living room to warm white.”<\/p>"
           }
         },
         "1635139699342ea047-2": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.my_fields.image6.value }}",
-            "title": "{{ product.metafields.my_fields.headline3.value }}",
-            "text": "<p>{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
+            "image": "shopify:\/\/shop_images\/07_LIFX-GU10-Kitchen-c1.jpg",
+            "workswith": "shopify:\/\/shop_images\/png_version.png",
+            "title": "",
+            "text": "<p>Turn your iPhone into a universal remote for your smart home with Apple HomeKit.<br\/><br\/>Say \"Siri, I'm home,\" and have HomeKit unlock your door and set your LIFX lighting to your favourite scene.<\/p>"
           }
         }
       },
