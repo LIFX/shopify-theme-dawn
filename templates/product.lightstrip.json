@@ -123,6 +123,22 @@
         "enable_video_looping": true
       }
     },
+    "1635891409e1f35cee": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Lightstrip Collection",
+        "collection": "lightstrips",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": true,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
     "163218778740ff4558": {
       "type": "collage",
       "disabled": true,
@@ -347,6 +363,7 @@
   },
   "order": [
     "main",
+    "1635891409e1f35cee",
     "163218778740ff4558",
     "1632375097cddb24cb",
     "1632374284a540207b",
