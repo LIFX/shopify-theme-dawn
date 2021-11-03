@@ -811,10 +811,10 @@
       "name": "Image banner Interactive",
       "settings": {
         "image": {
-          "label": "First image"
+          "label": "First banner"
         },
         "image_2": {
-          "label": "Second image"
+          "label": "Second banner"
         },
         "desktop_text_box_position": {
           "options__1": {
