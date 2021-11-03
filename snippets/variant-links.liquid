@@ -125,29 +125,13 @@ background-color:#000
 
 {% elsif product.metafields.my_fields.product_family == "Clean" %}
 
-  {% if product.handle != "lifx-clean-a60-e27" %}
-  <a href="/products/lifx-clean-a60-e27"><p class="productFamily" >E27 1-Pack</p></a>
-  {% endif %}
-
-  {% if product.handle != "lifx-clean-a60-e27-2-pack" %}
-  <a href="/products/lifx-clean-a60-e27-2-pack"><p class="productFamily" >E27 2-Pack</p></a>
-  {% endif %}
-
-  {% if product.handle != "lifx-clean-a60-b22" %}
-  <a href="/products/lifx-clean-a60-b22"><p class="productFamily" >B22 1-Pack</p></a>
-  {% endif %}
-
-  {% if product.handle != "lifx-clean-a60-b22-2-pack" %}
-  <a href="/products/lifx-clean-a60-b22-2-pack"><p class="productFamily" >B22 2-Pack</p></a>
-  {% endif %}
-
 {%- assign activeHandle = product.handle -%}
 
 {% for product in collections.clean.products %}
   {% if activeHandle != product.handle %}
       <a href="{{ product.url }}">
         {% for variant in product.variants %}
-        <p class="productFamily" style="display:none">{{ variant.option1 }}</p>
+        <p class="productFamily">{{ variant.option1 }}</p>
         {% endfor %}
       </a>
   {% endif %}
