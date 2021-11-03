@@ -144,7 +144,9 @@ background-color:#000
 
 {% for product in collections.clean.products %}
 	{% for variant in product.variants %}
+	<a href="{{ product.url }}">
   	<p class="productFamily" style="display:none">{{ variant.option1 }}</p>
+    </a>
 	{% endfor %}
 {% endfor %}
 
