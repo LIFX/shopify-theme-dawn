@@ -129,7 +129,7 @@ background-color:#000
 
 {% for product in collections.clean.products %}
   {% if activeHandle != product.handle %}
-      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}soldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}</a>
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}disabled{% endif %}" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
