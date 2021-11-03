@@ -93,7 +93,7 @@
     "163590918753d5399d": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<a href=\"https:\/\/lifxshop.co.uk\/pages\/works-with\">works-with-hey-google<\/a>"
+        "custom_liquid": "<a href=\"https:\/\/lifxshop.co.uk\/pages\/works-with\" works-with-hey-google<\/a>"
       }
     },
     "1635908146560c6256": {
