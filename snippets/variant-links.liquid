@@ -17,6 +17,10 @@ margin-right:6px;
 color: #FFF;
 background-color:#000
 }
+.variantSoldOut{
+cursor: not-allowed;
+opacity: .5;
+}
 </style>
 
 {% if product.metafields.my_fields.product_family == "Colour" %}
@@ -129,7 +133,7 @@ background-color:#000
 
 {% for product in collections.clean.products %}
   {% if activeHandle != product.handle %}
-      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}disabled{% endif %}" >{{ variant.option1 }}</p>{% endfor %}</a>
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
