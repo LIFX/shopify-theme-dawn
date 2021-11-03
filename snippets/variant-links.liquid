@@ -129,11 +129,7 @@ background-color:#000
 
 {% for product in collections.clean.products %}
   {% if activeHandle != product.handle %}
-      <a href="{{ product.url }}">
-        {% for variant in product.variants %}
-        <p class="productFamily">{{ variant.option1 }}</p>
-        {% endfor %}
-      </a>
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily">{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
