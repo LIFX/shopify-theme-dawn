@@ -145,7 +145,7 @@
         "163514216916abed30-0": {
           "type": "heading",
           "settings": {
-            "heading": "Meet {{ product.vendor }} {{ product.title }}"
+            "heading": "Meet {{ product.vendor }} {{ product.metafields.my_fields.product_family.value }}"
           }
         },
         "83666262-12a5-4bde-9230-62a154bbed59": {
