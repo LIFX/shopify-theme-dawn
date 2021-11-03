@@ -369,23 +369,23 @@
         "16359077004de0bcdd-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Designer Lighting",
             "heading_size": "medium"
           }
         },
         "16359077004de0bcdd-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
+            "text": "Set the right lighting for any occasion. Create presets of your favourites to use as the mood suits."
           }
         },
         "16359077004de0bcdd-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "Dinner Party",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "Saturday Breakfast",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
