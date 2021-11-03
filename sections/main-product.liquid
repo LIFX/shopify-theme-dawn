@@ -134,7 +134,7 @@ $(document).ready(function () {
               </details>
             </div>
           {%- when 'quantity_selector' -%}
-<div {% if product.handle contains "lightstrip" %}class="mainBuyButton" {% endif %}>
+<div class="mainBuyButton">
             <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
               <label class="form__label" for="Quantity-{{ section.id }}">
                 {{ 'products.product.quantity.label' | t }}
@@ -279,7 +279,7 @@ $(document).ready(function () {
               </div>
             </noscript>
           {%- when 'buy_buttons' -%}
-<div {% if product.handle contains "lightstrip" %}class="mainBuyButton" {% endif %}>
+<div class="mainBuyButton">
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
                 <div class="product-form__error-message-wrapper" role="alert" hidden>
