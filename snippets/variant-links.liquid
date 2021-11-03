@@ -144,7 +144,7 @@ background-color:#000
 {%- assign activeHandle == {{ product.handle }} -%}
 
 {% for product in collections.clean.products %}
-  {% if activeHandle != {{ product.handle }} %}
+  {% if activeHandle != product.handle %}
       <a href="{{ product.url }}">
         {% for variant in product.variants %}
         <p class="productFamily" style="display:none">{{ variant.option1 }}</p>
