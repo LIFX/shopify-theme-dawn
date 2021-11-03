@@ -37,4 +37,22 @@ background-color:#000
   <a href="/products/lifx-colour-b22-2-pack"><p class="productFamily" >B22 2-Pack</p></a>
   {% endif %}
 
+{% elsif product.metafields.my_fields.product_family == "Colour A60" %}
+
+  {% if product.handle != "lifx-colour-a60-e27" %}
+  <a href="/products/lifx-colour-a60-e27"><p class="productFamily" >E27 1-Pack</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-colour-e27-a60-2-pack" %}
+  <a href="/products/lifx-colour-a60-e27-2-pack"><p class="productFamily" >E27 2-Pack</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-colour-a60-b22" %}
+  <a href="/products/lifx-colour-a60-b22"><p class="productFamily" >B22 1-Pack</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-colour-b22-a60-2-pack" %}
+  <a href="/products/lifx-colour-a60-b22-2-pack"><p class="productFamily" >B22 2-Pack</p></a>
+  {% endif %}
+
 {% endif %}
