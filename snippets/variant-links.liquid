@@ -23,6 +23,8 @@ opacity: .5;
 }
 </style>
 
+{%- assign activeHandle = product.handle -%}
+
 {% if product.metafields.my_fields.product_family == "Colour" %}
 
   {% if product.handle != "lifx-colour-e27" %}
@@ -111,25 +113,13 @@ opacity: .5;
 
 {% elsif product.metafields.my_fields.product_family == "Nightvision" %}
 
-  {% if product.handle != "lifx-nightvision-a60-e27" %}
-  <a href="/products/lifx-nightvision-a60-e27"><p class="productFamily" >E27 1-Pack</p></a>
+{% for product in collections.nightvision.products %}
+  {% if activeHandle != product.handle %}
+      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
   {% endif %}
-
-  {% if product.handle != "lifx-nightvision-a60-e27-2-pack" %}
-  <a href="/products/lifx-nightvision-a60-e27-2-pack"><p class="productFamily" >E27 2-Pack</p></a>
-  {% endif %}
-
-  {% if product.handle != "lifx-nightvision-a60-b22" %}
-  <a href="/products/lifx-nightvision-a60-b22"><p class="productFamily" >B22 1-Pack</p></a>
-  {% endif %}
-
-  {% if product.handle != "lifx-nightvision-a60-b22-2-pack" %}
-  <a href="/products/lifx-nightvision-a60-b22-2-pack"><p class="productFamily" >B22 2-Pack</p></a>
-  {% endif %}
+{% endfor %}
 
 {% elsif product.metafields.my_fields.product_family == "Clean" %}
-
-{%- assign activeHandle = product.handle -%}
 
 {% for product in collections.clean.products %}
   {% if activeHandle != product.handle %}
