@@ -47,6 +47,12 @@
             "picker_type": "button"
           }
         },
+        "855ad892-8e71-400d-9280-f8bc7696049f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.productFamily {\nborder: 1px solid;\nborder-radius: 50px;\ncolor: #000;\ndisplay: inline-block;\nmargin-top: 5px;\npadding: 10px 20px 10px 20px;\nfont-size: 1.4rem;\nletter-spacing: .1rem;\nline-height: 1;\ntext-align: center;\n}\n.productFamily:hover{\ncolor: #FFF;\nbackground-color:#000\n}\n<\/style>\n\n<legend class=\"form__label\">Also available in:<\/legend>\n\n<a href=\"\/products\/lifx-colour-e27-2-pack\"><p class=\"productFamily\" >E27 2-Pack<\/p><\/a>\n<a href=\"\/products\/lifx-colour-b22\"><p class=\"productFamily\" >B22<\/p><\/a>\n<a href=\"\/products\/lifx-colour-b22-2-pack\"><p class=\"productFamily\" >B22 2-Pack<\/p><\/a>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -116,6 +122,7 @@
         "price",
         "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf",
         "variant_picker",
+        "855ad892-8e71-400d-9280-f8bc7696049f",
         "quantity_selector",
         "buy_buttons",
         "cc97d592-9b20-4527-a8a5-12629e27c6cc",
