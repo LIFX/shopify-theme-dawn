@@ -141,6 +141,13 @@ background-color:#000
   <a href="/products/lifx-clean-a60-b22-2-pack"><p class="productFamily" >B22 2-Pack</p></a>
   {% endif %}
 
+<!-- if collections.frontpage.products contains 4 products -->
+{% for product in collections.clean.products %}
+
+  <p class="productFamily" style="display:none">{{ product.variant }}</p>
+{% endfor %}
+
+
 {% elsif product.metafields.my_fields.product_family == "Lightstrip" %}
 
   {% if product.handle != "lifx-lightstrip-2m" %}
