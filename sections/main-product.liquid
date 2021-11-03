@@ -220,7 +220,11 @@ $(document).ready(function () {
                             {{ value }}
                           </label>
                         {%- endfor -%}
-       			{% include "variant-links" %}                 
+{% if product.handle == "lifx-colour-e27-2-pack" or product.handle == "lifx-colour-b22-2-pack" or product.handle == "lifx-colour-b22" or product.handle == "lifx-colour-e27" %}
+       {% include "variant-links" %}                 
+{% endif %}
+
+
                       </fieldset>
                   {%- endfor -%}
                   <script type="application/json">
