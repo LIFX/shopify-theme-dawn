@@ -18,6 +18,7 @@ function button1() {
     z.style.color  = "black";
 	z.style.cursor  = "pointer";
   document.getElementById("button1").setAttribute("onclick","");
+  document.getElementById("button2").setAttribute("onclick","button2()");
 
 }
 function button2() {
@@ -35,6 +36,8 @@ function button2() {
     z.style.background  = "white";
     z.style.color  = "black";
 	z.style.cursor  = "pointer";
+  document.getElementById("button1").setAttribute("onclick","button1()");
+  document.getElementById("button2").setAttribute("onclick","");
 
 }
 </script>
@@ -146,7 +149,7 @@ function button2() {
                 <button id="button1" style="background:white;color:black;cursor:pointer" onclick="button1()" class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_1 | escape }}</button>
               {%- endif -%}
               {%- if block.settings.button_label_2 != blank -%}
-                <button id="button2" style="background:black;color:white;cursor:revert" onclick="button2()" class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</button>
+                <button id="button2" style="background:black;color:white;cursor:revert" onclick="" class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</button>
               {%- endif -%}
             </div>
         {%- endcase -%}
