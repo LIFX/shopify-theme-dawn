@@ -267,6 +267,46 @@
         "swipe_on_mobile": false
       }
     },
+    "16359041219d05cf7f": {
+      "type": "collage",
+      "blocks": {
+        "16359041219d05cf7f-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/WHITE-WHEEL-TOUR-_KELVINS_-HD720P_2.jpg",
+            "video_url": "https:\/\/youtu.be\/Ka3PzXyktHc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "e09ecd8f-3a0e-499e-95bf-0dae8081c7ba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LIFX_Color_LiveInColor-AppPage-HR-Square.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "16359041219d05cf7f-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "lightbulbs",
+            "image_padding": false,
+            "color_scheme": "accent-1"
+          }
+        }
+      },
+      "block_order": [
+        "16359041219d05cf7f-0",
+        "e09ecd8f-3a0e-499e-95bf-0dae8081c7ba",
+        "16359041219d05cf7f-2"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
     "1635892427a2cdb2bc": {
       "type": "multicolumn",
       "blocks": {
@@ -330,6 +370,7 @@
     "163520046949622558",
     "16352007448c39f051",
     "1635139699342ea047",
+    "16359041219d05cf7f",
     "1635892427a2cdb2bc",
     "product-recommendations"
   ]
