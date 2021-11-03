@@ -7,7 +7,7 @@
   	min-height: 118px;
 	top:0;
   	width:100%; 
-  	z-index:2;
+  	z-index:3;
 }
 }
 @media screen and (max-width: 736px) {
@@ -23,7 +23,7 @@
   	max-height: 118px;
 	bottom:0px;
   	width:100%; 
-  	z-index:2;
+  	z-index:3;
     border-top: #e4e4e9;
     border-top-style: solid;
     border-top-width: thin;
