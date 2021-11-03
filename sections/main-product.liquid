@@ -21,9 +21,9 @@ $(document).ready(function () {
 
 
 
-{% if product.handle contains "lightstrip" %}
+
 {% include "buy-buttons-bottom" %}
-{% endif %}
+
 
 {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
 {%- if first_3d_model -%}
