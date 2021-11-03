@@ -141,13 +141,16 @@ background-color:#000
   <a href="/products/lifx-clean-a60-b22-2-pack"><p class="productFamily" >B22 2-Pack</p></a>
   {% endif %}
 
+{%- assign activeHandle == {{ product.handle }} -%}
 
 {% for product in collections.clean.products %}
-	<a href="{{ product.url }}">
-      {% for variant in product.variants %}
-      <p class="productFamily" style="display:none">{{ variant.option1 }}</p>
-      {% endfor %}
-	</a>
+  {% if activeHandle != {{ product.handle }} %}
+      <a href="{{ product.url }}">
+        {% for variant in product.variants %}
+        <p class="productFamily" style="display:none">{{ variant.option1 }}</p>
+        {% endfor %}
+      </a>
+  {% endif %}
 {% endfor %}
 
 
