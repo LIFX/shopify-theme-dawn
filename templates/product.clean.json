@@ -48,13 +48,11 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true
           }
@@ -116,7 +114,7 @@
         "eee0247a-38ac-4f69-8b25-2d7750d2a20f"
       ],
       "settings": {
-        "enable_sticky_info": false,
+        "enable_sticky_info": true,
         "hide_variants": true,
         "enable_video_looping": true
       }
