@@ -142,7 +142,7 @@ background-color:#000
   {% endif %}
 
 <!-- if collections.frontpage.products contains 4 products -->
-{% for product in collections.clean.products %}
+{% for variant in collections.clean.products %}
 
   <p class="productFamily" style="display:none">{{ variant.option1 }}</p>
 {% endfor %}
