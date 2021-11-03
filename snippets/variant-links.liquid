@@ -73,6 +73,20 @@ background-color:#000
   <a href="/products/lifx-white-b22-2-pack"><p class="productFamily" >B22 2-Pack</p></a>
   {% endif %}
 
+{% elsif product.metafields.my_fields.product_family == "Candle Colour" or product.metafields.my_fields.product_family == "Candle White to Warm"%}
+
+  {% if product.handle != "lifx-candle-color-e14" %}
+  <a href="/products/lifx-candle-color-e14"><p class="productFamily" >E14 Colour</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-candle-color-b15" %}
+  <a href="/products/lifx-candle-color-b15"><p class="productFamily" >B15 Colour</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-candle-white-to-warm-e14" %}
+  <a href="/products/lifx-candle-white-to-warm-e14"><p class="productFamily" >E14 White to Warm</p></a>
+  {% endif %}
+
 {% elsif product.metafields.my_fields.product_family == "Colour A60" %}
 
   {% if product.handle != "lifx-colour-a60-e27" %}
