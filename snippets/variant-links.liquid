@@ -141,10 +141,11 @@ background-color:#000
   <a href="/products/lifx-clean-a60-b22-2-pack"><p class="productFamily" >B22 2-Pack</p></a>
   {% endif %}
 
-<!-- if collections.frontpage.products contains 4 products -->
-{% for variant in collections.clean.products %}
 
-  <p class="productFamily" style="display:none">{{ variant.option1 }}</p>
+{% for product in collections.clean.products %}
+	{% for variant in product.variants %}
+  	<p class="productFamily" style="display:none">{{ variant.option1 }}</p>
+	{% endfor %}
 {% endfor %}
 
 
