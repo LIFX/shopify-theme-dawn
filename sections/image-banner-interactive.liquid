@@ -29,10 +29,10 @@
   }
 {%- endstyle -%}
 	  
-<div id="Banner-{{ section.id }}" class="banner{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
+<div id="Banner-{{ section.id }}" class="banner{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
 
         {%- if section.settings.image != blank -%}
-    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}">
      
       <img
         srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image | img_url: '375x' }} 375w,{%- endif -%}
@@ -52,7 +52,7 @@
         {% if section.settings.image_2 != blank %}class="banner__media-image-half"{% endif %}
       >
 
-    </div>
+    
 
   {%- if section.settings.image_2 != blank -%}
 <img
@@ -72,8 +72,10 @@
         height="{{ section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio }}"
         {% if section.settings.image != blank %}class="banner__media-image-half"{% endif %}
       >
-    </div>
+
   {%- endif -%}
+
+</div>
   {%- elsif section.settings.image_2 == blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
       {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
