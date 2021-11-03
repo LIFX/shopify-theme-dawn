@@ -114,7 +114,7 @@
         "76f2877b-9463-4ca3-a71e-982cd31af6da"
       ],
       "settings": {
-        "enable_sticky_info": false,
+        "enable_sticky_info": true,
         "hide_variants": true,
         "enable_video_looping": true
       }
