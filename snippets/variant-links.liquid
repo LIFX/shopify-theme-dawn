@@ -130,16 +130,10 @@ opacity: .5;
 
 {% elsif product.metafields.my_fields.product_family == "Lightstrip" %}
 
-  {% if product.handle != "lifx-lightstrip-2m" %}
-  <a href="/products/lifx-lightstrip-2m"><p class="productFamily" >2m Kit</p></a>
+{% for product in collections.lightstrip.products %}
+  {% if activeHandle != product.handle %}
+      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
   {% endif %}
-
-  {% if product.handle != "lifx-lightstrip-1m" %}
-  <a href="/products/lifx-lightstrip-1m"><p class="productFamily" >1m Kit</p></a>
-  {% endif %}
-
-  {% if product.handle != "lifx-lightstrip-extension-1m" %}
-  <a href="/products/lifx-lightstrip-extension-1m"><p class="productFamily" >1m Extension</p></a>
-  {% endif %}
+{% endfor %}
 
 {% endif %}
