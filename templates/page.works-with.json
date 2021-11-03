@@ -90,12 +90,6 @@
         "layout": "text_first"
       }
     },
-    "163590918753d5399d": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<a href=\"https:\/\/lifxshop.co.uk\/pages\/works-with\" works-with-hey-google<\/a>"
-      }
-    },
     "1635908146560c6256": {
       "type": "image-with-text",
       "blocks": {
@@ -143,7 +137,6 @@
     "main",
     "16359026349ad9de84",
     "1635908034277ae3ed",
-    "163590918753d5399d",
     "1635908146560c6256"
   ]
 }
