@@ -55,4 +55,18 @@ background-color:#000
   <a href="/products/lifx-colour-a60-b22-2-pack"><p class="productFamily" >B22 2-Pack</p></a>
   {% endif %}
 
+{% elsif product.metafields.my_fields.product_family == "Lightstrip" %}
+
+  {% if product.handle != "lifx-lightstrip-2m" %}
+  <a href="/products/lifx-lightstrip-2m"><p class="productFamily" >2m Kit</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-lightstrip-1m" %}
+  <a href="/products/lifx-lightstrip-1m"><p class="productFamily" >1m Kit</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-lightstrip-extension-1m" %}
+  <a href="/products/lifx-lightstrip-extension-1m"><p class="productFamily" >1m Extension</p></a>
+  {% endif %}
+
 {% endif %}
