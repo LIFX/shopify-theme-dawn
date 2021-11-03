@@ -144,10 +144,10 @@ function button2() {
       
             <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_link_1 != blank and block.settings.button_label_2 != blank and block.settings.button_link_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
               {%- if block.settings.button_label_1 != blank -%}
-                <button id="button1" style="background:white;color:black" onclick="button1()" class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_1 | escape }}</button>
+                <button id="button1" style="background:white;color:black;cursor:pointer" onclick="button1()" class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_1 | escape }}</button>
               {%- endif -%}
               {%- if block.settings.button_label_2 != blank -%}
-                <button id="button2" style="background:black;color:white" onclick="" class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</button>
+                <button id="button2" style="background:black;color:white;cursor:revert" onclick="" class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</button>
               {%- endif -%}
             </div>
         {%- endcase -%}
