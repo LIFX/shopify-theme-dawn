@@ -382,10 +382,10 @@
         "16359077004de0bcdd-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Dinner Party",
+            "button_label_1": "Saturday Breakfast",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Saturday Breakfast",
+            "button_label_2": "Dinner Party",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
