@@ -137,7 +137,7 @@ function button2() {
                 <button id="button1" onclick="button1()" class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_1 | escape }}</button>
               {%- endif -%}
               {%- if block.settings.button_label_2 != blank -%}
-                <button onclick="roomChange2()" class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</button>
+                <button id="button2" onclick="roomChange2()" class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</button>
               {%- endif -%}
             </div>
         {%- endcase -%}
