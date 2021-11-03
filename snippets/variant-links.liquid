@@ -37,6 +37,42 @@ background-color:#000
   <a href="/products/lifx-colour-b22-2-pack"><p class="productFamily" >B22 2-Pack</p></a>
   {% endif %}
 
+{% elsif product.metafields.my_fields.product_family == "White to Warm" %}
+
+  {% if product.handle != "lifx-white-to-warm-e27" %}
+  <a href="/products/lifx-white-to-warm-e27"><p class="productFamily" >E27 1-Pack</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-white-to-warm-e27-2-pack" %}
+  <a href="/products/lifx-white-to-warm-e27-2-pack"><p class="productFamily" >E27 2-Pack</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-white-to-warm-b22" %}
+  <a href="/products/lifx-white-to-warm-b22"><p class="productFamily" >B22 1-Pack</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-white-to-warm-b22-2-pack" %}
+  <a href="/products/lifx-white-to-warm-b22-2-pack"><p class="productFamily" >B22 2-Pack</p></a>
+  {% endif %}
+
+{% elsif product.metafields.my_fields.product_family == "White" %}
+
+  {% if product.handle != "lifx-white-e27" %}
+  <a href="/products/lifx-white-e27"><p class="productFamily" >E27 1-Pack</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-white-e27-2-pack" %}
+  <a href="/products/lifx-white-e27-2-pack"><p class="productFamily" >E27 2-Pack</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-white-b22" %}
+  <a href="/products/lifx-white-b22"><p class="productFamily" >B22 1-Pack</p></a>
+  {% endif %}
+
+  {% if product.handle != "lifx-white-b22-2-pack" %}
+  <a href="/products/lifx-white-b22-2-pack"><p class="productFamily" >B22 2-Pack</p></a>
+  {% endif %}
+
 {% elsif product.metafields.my_fields.product_family == "Colour A60" %}
 
   {% if product.handle != "lifx-colour-a60-e27" %}
