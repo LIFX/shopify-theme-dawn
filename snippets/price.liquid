@@ -89,7 +89,7 @@
       </dd>
     </small>
   </dl>
-  {% if product.available and product.template %}
+  {% if product.available and product.template != blank %}
     <span class="badge" aria-hidden="true">
       &#128994; In stock
     </span>
