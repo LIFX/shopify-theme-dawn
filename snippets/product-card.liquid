@@ -19,7 +19,8 @@
 <div class="card-wrapper">
 
 {% if product_card_product.vendor == "Amazon" %}
- {% else %}
+   <a href="https://www.amazon.co.uk/gp/search?ie=UTF8&tag=lifxuk-21&linkCode=ur2&linkId=c349bcd3c20f2581d9f2ba06860861f4&camp=1634&creative=6738&index=aps&keywords=lifx echo device bundles" class="full-unstyled-link mobile_external" target="_blank">
+   {% else %}
    <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
 {% endif %}
 
@@ -37,11 +38,9 @@
           -%}
 
           <div{% if add_image_padding %} class="card__media-full-spacer"{% endif %}>
-            
-
- <div class="media media--transparent media--{{ media_size }} media--hover-effect" {% if media_size == 'adapt' and product_card_product.featured_media %} style="padding-bottom: {{ 1 | divided_by: featured_media_aspect_ratio | times: 100 }}%;"{% endif %}>
-             
-            
+            <div class="media media--transparent media--{{ media_size }} media--hover-effect"
+              {% if media_size == 'adapt' and product_card_product.featured_media %} style="padding-bottom: {{ 1 | divided_by: featured_media_aspect_ratio | times: 100 }}%;"{% endif %}
+            >
               <img
                 srcset="{%- if product_card_product.featured_media.width >= 165 -%}{{ product_card_product.featured_media | img_url: '165x' }} 165w,{%- endif -%}
                   {%- if product_card_product.featured_media.width >= 360 -%}{{ product_card_product.featured_media | img_url: '360x' }} 360w,{%- endif -%}
@@ -74,12 +73,8 @@
                 width="{{ product_card_product.media[1].width }}"
                 height="{{ product_card_product.media[1].height }}"
                 >
-          
-
               {%- endif -%}
             </div>
-
-            
           </div>
         {%- else -%}
           <div class="card__content"><h2 class="card__text h3">{{ product_card_product.title }}</h2></div>
