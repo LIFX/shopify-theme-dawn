@@ -72,7 +72,8 @@ function button2() {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
 {%- endstyle -%}
-	  
+
+{% if section.settings.image != blank %}	  
 <div id="Banner-{{ section.id }}" class="banner{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
 
         {%- if section.settings.image != blank -%}
@@ -156,7 +157,7 @@ function button2() {
   </div>
 
 </div>
-
+{% endif %}
 {% schema %}
 {
   "name": "t:sections.image-banner-interactive.name",
