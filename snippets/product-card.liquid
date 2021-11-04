@@ -19,7 +19,7 @@
 <div class="card-wrapper">
 
 {% if product_card_product.vendor == "Amazon" %}
-   <a href="https://amzn.to/3bI7a7w" class="full-unstyled-link mobile_external" target="_blank">
+   <a href="https://amzn.to/3bI7a7w" class="mobile_external" target="_blank">
    {% else %}
    <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
 {% endif %}
