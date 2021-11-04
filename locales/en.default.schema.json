@@ -1994,7 +1994,7 @@
       }
     },
     "videoAutoLoop": {
-      "name": "videoAutoLoop",
+      "name": "VideoAutoLoop",
       "settings": {
         "heading": {
           "label": "Heading"
@@ -2020,7 +2020,7 @@
         }
       },
       "presets": {
-        "name": "videoAutoLoop"
+        "name": "VideoAutoLoop"
       }
     }
   }
