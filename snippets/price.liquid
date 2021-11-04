@@ -42,18 +42,19 @@
         - div.price__sale: Displayed when a variant is a sale
         - div.price__availability: Displayed when the product is sold out
     {%- endcomment -%}
-    {% if product.vendor == "Amazon" %}<a href="https://www.amazon.co.uk/gp/search?ie=UTF8&tag=lifxuk-21&linkCode=ur2&linkId=c349bcd3c20f2581d9f2ba06860861f4&camp=1634&creative=6738&index=aps&keywords=lifx echo device bundles" class="mobile_external" target="_blank">{% endif %}
 	<div class="price__regular">
       <dt>
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
       </dt>
       <dd {% if show_badges == false %}class="price__last"{% endif %}>
-        <span class="price-item price-item--regular">
+        {% if product.vendor == "Amazon" %}<a href="https://www.amazon.co.uk/gp/search?ie=UTF8&tag=lifxuk-21&linkCode=ur2&linkId=c349bcd3c20f2581d9f2ba06860861f4&camp=1634&creative=6738&index=aps&keywords=lifx echo device bundles" class="mobile_external" target="_blank">{% endif %}
+		<span class="price-item price-item--regular">
           {% if product.vendor == "Amazon" %}View on Amazon{% else %}{{ money_price }}{% endif %}
         </span>
+       {% if product.vendor == "Amazon" %}</a>{% endif %}
       </dd>
     </div>
-{% if product.vendor == "Amazon" %}</a>{% endif %}
+
     <div class="price__sale">
       <dt class="price__compare">
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
