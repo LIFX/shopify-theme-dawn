@@ -2020,7 +2020,7 @@
         }
       },
       "presets": {
-        "name": "Video2"
+        "name": "videoAutoLoop"
       }
     }
   }
