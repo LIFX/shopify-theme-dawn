@@ -172,13 +172,13 @@
         "163520046949622558-0": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.metafields.my_fields.headline1.value }}"
+            "heading": "{{ product.metafields.my_fields.headline2.value }}"
           }
         },
         "163520046949622558-1": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
+            "text": "<p>{{ product.metafields.my_fields.paragraph2 | metafield_tag }}<\/p>"
           }
         }
       },
