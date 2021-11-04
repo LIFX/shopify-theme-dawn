@@ -8,7 +8,7 @@
 
 
 <video muted autoplay playsinline loop style="width: -webkit-fill-available;">
-    <source src="https://hosted.lifx.co/videos/1_Meet_LIFX_Clean_Video_US.mp4" type="video/mp4">
+    <source src="{{ section.settings.video }}" type="video/mp4" alt="{{ 'sections.video.load_video' | t: description: section.settings.description | escape }}">
 </video>
 </div>
 
