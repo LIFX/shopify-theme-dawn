@@ -233,7 +233,7 @@
         "163591479253a6c41d-1": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }}<\/p>"
           }
         },
         "163591479253a6c41d-2": {
