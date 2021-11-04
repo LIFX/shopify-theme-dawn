@@ -1,6 +1,7 @@
 {{ 'video-section.css' | asset_url | stylesheet_tag }}
 {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
+{% if section.settings.video != blank %}
 <div class="video-section{% unless section.settings.full_width %} page-width{% endunless %}">
   <div{% if section.settings.full_width %} class="page-width"{% endif %}>
     <h2 class="title">{{ section.settings.heading }}</h2>
@@ -11,7 +12,7 @@
     <source src="{{ section.settings.video }}" type="video/mp4" alt="{{ 'sections.video.load_video' | t: description: section.settings.description | escape }}">
 </video>
 </div>
-
+{% endif %}
 {% schema %}
 {
   "name": "t:sections.videoAutoLoop.name",
