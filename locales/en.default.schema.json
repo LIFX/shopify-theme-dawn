@@ -1993,7 +1993,7 @@
         "name": "Video"
       }
     },
-    "video2": {
+    "videoAutoLoop": {
       "name": "Video2",
       "settings": {
         "heading": {
