@@ -90,10 +90,11 @@
     </small>
   </dl>
   {% if product.available %}
-    <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">
+    <span class="badge color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">
       &#128994; In stock
     </span>
   {% endif %}
+
   {%- if show_badges -%}
     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">
       {{ 'products.product.on_sale' | t }}
