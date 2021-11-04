@@ -254,8 +254,8 @@
         "163591479253a6c41d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/07_LIFX-GU10-Kitchen-c1_1100x_bee05b08-c7d2-4cae-a81c-0bbfd0927439.jpg",
-        "image_2": "shopify:\/\/shop_images\/07_LIFX-GU10-Kitchen-c1_1100x_bc7c09c7-63cb-4913-986e-d21e03ee286c.jpg",
+        "image": "{{ product.metafields.my_fields.image4.value }}",
+        "image_2": "{{ product.metafields.my_fields.image5.value }}",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
