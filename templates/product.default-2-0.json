@@ -47,15 +47,15 @@
             "picker_type": "button"
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
           }
         },
         "buy_buttons": {
@@ -116,8 +116,8 @@
         "price",
         "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf",
         "variant_picker",
-        "855ad892-8e71-400d-9280-f8bc7696049f",
         "quantity_selector",
+        "855ad892-8e71-400d-9280-f8bc7696049f",
         "buy_buttons",
         "cc97d592-9b20-4527-a8a5-12629e27c6cc",
         "description",
