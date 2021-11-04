@@ -265,41 +265,25 @@
         "1636000353893885f5-0": {
           "type": "heading",
           "settings": {
-            "heading": "Heading"
+            "heading": "{{ product.metafields.my_fields.headline6.value }}"
           }
         },
         "1636000353893885f5-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1636000353893885f5-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "1636000353893885f5-3": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": ""
+            "text": "<p>{{ product.metafields.my_fields.paragraph6 | metafield_tag }}<\/p>"
           }
         }
       },
       "block_order": [
         "1636000353893885f5-0",
-        "1636000353893885f5-1",
-        "1636000353893885f5-2",
-        "1636000353893885f5-3"
+        "1636000353893885f5-1"
       ],
       "settings": {
         "image": "{{ product.metafields.my_fields.image6.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "text_first"
       }
     },
     "1635139699342ea047": {
