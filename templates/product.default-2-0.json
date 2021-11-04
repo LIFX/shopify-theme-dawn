@@ -286,6 +286,41 @@
         "layout": "text_first"
       }
     },
+    "16360008950381c4a6": {
+      "type": "multicolumn",
+      "blocks": {
+        "16360008950381c4a6-0": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image7.value }}",
+            "title": "{{ product.metafields.my_fields.headline7.value }}",
+            "text": "<p>{{ product.metafields.my_fields.paragraph7 | metafield_tag }}<\/p>"
+          }
+        },
+        "16360008950381c4a6-1": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image8.value }}",
+            "title": "{{ product.metafields.my_fields.headline8.value }}",
+            "text": "<p>{{ product.metafields.my_fields.paragraph8 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16360008950381c4a6-0",
+        "16360008950381c4a6-1"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "1635139699342ea047": {
       "type": "multicolumn",
       "blocks": {
@@ -437,6 +472,7 @@
     "16352007448c39f051",
     "163591479253a6c41d",
     "1636000353893885f5",
+    "16360008950381c4a6",
     "1635139699342ea047",
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
