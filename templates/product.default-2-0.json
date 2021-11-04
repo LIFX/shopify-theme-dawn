@@ -132,6 +132,14 @@
         "enable_video_looping": true
       }
     },
+    "16360050346d3b64a8": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "{{ product.metafields.my_fields.video1.value }}",
+        "description": "{{ product.vendor }} {{ product.title }}"
+      }
+    },
     "163514216916abed30": {
       "type": "image-with-text",
       "blocks": {
@@ -467,6 +475,7 @@
   },
   "order": [
     "main",
+    "16360050346d3b64a8",
     "163514216916abed30",
     "163520046949622558",
     "16352007448c39f051",
