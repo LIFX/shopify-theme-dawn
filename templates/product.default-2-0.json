@@ -214,7 +214,7 @@
         "16352007448c39f051-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/02_LIFX_Colour_Schedule_StoryTime_424335a8-1705-420e-a42f-fe47334cd9d7.jpg",
+        "image": "{{ product.metafields.my_fields.image3.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
