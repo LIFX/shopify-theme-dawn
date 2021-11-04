@@ -89,11 +89,7 @@
       </dd>
     </small>
   </dl>
-  {% if product.available and template contains "product" %}
-    <span class="badge" aria-hidden="true">
-      &#128994; In stock
-    </span>
-  {% endif %}
+
 
   {%- if show_badges -%}
     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">
