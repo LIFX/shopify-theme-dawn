@@ -67,6 +67,7 @@
         },
         "cc97d592-9b20-4527-a8a5-12629e27c6cc": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Available at Amazon",
             "content": "",
@@ -78,13 +79,6 @@
           "type": "description",
           "disabled": true,
           "settings": {
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
           }
         },
         "88e15617-7a01-4dae-92e8-6e255e65fba0": {
@@ -128,7 +122,6 @@
         "buy_buttons",
         "cc97d592-9b20-4527-a8a5-12629e27c6cc",
         "description",
-        "share",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
         "76f2877b-9463-4ca3-a71e-982cd31af6da"
