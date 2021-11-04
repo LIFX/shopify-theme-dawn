@@ -319,7 +319,7 @@
         "16360008950381c4a6-1"
       ],
       "settings": {
-        "title": "{{ product.metafields.my_fields.headline9.value }}",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
