@@ -1994,7 +1994,7 @@
       }
     },
     "videoAutoLoop": {
-      "name": "Video2",
+      "name": "videoAutoLoop",
       "settings": {
         "heading": {
           "label": "Heading"
