@@ -145,21 +145,22 @@
         "163514216916abed30-0": {
           "type": "heading",
           "settings": {
-            "heading": "Meet {{ product.vendor }} {{ product.metafields.my_fields.product_family.value }}"
+            "heading": "{{ product.metafields.my_fields.headline1.value }}"
           }
         },
-        "83666262-12a5-4bde-9230-62a154bbed59": {
-          "type": "description",
+        "a2c0573f-6c35-4b00-b26c-831499d35180": {
+          "type": "text",
           "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
           }
         }
       },
       "block_order": [
         "163514216916abed30-0",
-        "83666262-12a5-4bde-9230-62a154bbed59"
+        "a2c0573f-6c35-4b00-b26c-831499d35180"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/01_LIFX_Colour_Annotated_UKAU_1100x_2f58cca7-8604-4128-8886-211c49caca83.jpg",
+        "image": "{{ product.metafields.my_fields.image1.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -186,7 +187,7 @@
         "163520046949622558-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/06_LIFX_White_Easy_Set_Up_1680x_2cfe11ce-348f-4727-a51c-4316956f3ce7.jpg",
+        "image": "{{ product.metafields.my_fields.image2.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
