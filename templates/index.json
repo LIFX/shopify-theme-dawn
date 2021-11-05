@@ -201,20 +201,12 @@
             "button_label": "Shop LIFX Clean",
             "button_link": "shopify:\/\/collections\/clean"
           }
-        },
-        "16360916891de3101c-3": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "16360916891de3101c-0",
         "16360916891de3101c-1",
-        "16360916891de3101c-2",
-        "16360916891de3101c-3"
+        "16360916891de3101c-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX_Homepage_CLEAN_Module-01.png",
