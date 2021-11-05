@@ -217,6 +217,7 @@
     },
     "16321069914eb48980": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "16321069914eb48980-0": {
           "type": "heading",
@@ -262,6 +263,7 @@
     },
     "1632104744140161e0": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1632104744140161e0-0": {
           "type": "heading",
@@ -297,16 +299,15 @@
     },
     "1632107311c762a72c": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Clearance Highlights",
-        "collection": "clearance-products",
+        "title": "",
+        "collection": "homepage",
         "products_to_show": 4,
         "show_view_all": false,
         "swipe_on_mobile": true,
         "image_ratio": "adapt",
         "show_secondary_image": false,
-        "add_image_padding": false,
+        "add_image_padding": true,
         "show_image_outline": true,
         "show_vendor": true,
         "show_rating": false
