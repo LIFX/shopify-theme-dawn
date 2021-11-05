@@ -299,7 +299,7 @@
       "settings": {
         "heading": "",
         "video": "{{ product.metafields.my_fields.video2.value }}",
-        "description": "",
+        "description": "{{ product.vendor }} {{ product.title }} Product Video",
         "full_width": false
       }
     },
