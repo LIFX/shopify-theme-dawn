@@ -136,7 +136,8 @@
       "settings": {
         "heading": "",
         "video": "{{ product.metafields.my_fields.video1.value }}",
-        "description": "{{ product.vendor }} {{ product.title }}"
+        "description": "{{ product.vendor }} {{ product.title }}",
+        "full_width": false
       }
     },
     "163514216916abed30": {
@@ -291,6 +292,15 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
+      }
+    },
+    "1636083188021f8436": {
+      "type": "video2",
+      "settings": {
+        "heading": "Video",
+        "video": "{{ product.metafields.my_fields.video2.value }}",
+        "description": "",
+        "full_width": false
       }
     },
     "16360008950381c4a6": {
@@ -480,6 +490,7 @@
     "16352007448c39f051",
     "163591479253a6c41d",
     "1636000353893885f5",
+    "1636083188021f8436",
     "16360008950381c4a6",
     "1635139699342ea047",
     "16359041219d05cf7f",

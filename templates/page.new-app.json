@@ -349,6 +349,15 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
+    },
+    "16360829359b370cf1": {
+      "type": "video2",
+      "settings": {
+        "heading": "Video",
+        "video": "",
+        "description": "",
+        "full_width": false
+      }
     }
   },
   "order": [
@@ -367,6 +376,7 @@
     "16351154958d0b28bd",
     "1635115562c7f528cb",
     "163511569468ba9aa7",
-    "1635286726666c2b0c"
+    "1635286726666c2b0c",
+    "16360829359b370cf1"
   ]
 }
