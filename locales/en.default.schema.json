@@ -2006,6 +2006,9 @@
         "description": {
           "label": "Video alt text",
           "info": "Describe the video to make it accessible for customers using screen readers."
+        },
+        "full_width": {
+          "label": "Make section full width"
         }
       },
       "presets": {
