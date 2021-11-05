@@ -297,7 +297,7 @@
     "1636083188021f8436": {
       "type": "video2",
       "settings": {
-        "heading": "Video",
+        "heading": "",
         "video": "{{ product.metafields.my_fields.video2.value }}",
         "description": "",
         "full_width": false
