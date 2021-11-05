@@ -88,10 +88,10 @@
         "1632116257dff5145e-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX-Homepage-1_-AUS-SameOldHome-optimised.jpg",
+        "image": "shopify:\/\/shop_images\/LIFX_Homepage_EYES_Module-01.jpg",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
+        "desktop_box_alignment": "left",
         "show_text_box": true,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
@@ -106,20 +106,20 @@
         "1634272858fde070af-0": {
           "type": "heading",
           "settings": {
-            "heading": "Win over 100 prizes across 13 days."
+            "heading": "Easier on the eyes."
           }
         },
         "1634272858fde070af-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We’re celebrating Halloween with a digital hunt. Join for a chance to win, if you dare.<\/p>"
+            "text": "<p>From your desk to your workshop (and even your bedroom), better lighting can help you reduce eye strain, tiredness and even make it easier to fall asleep. Brighten up those dark spaces and start harnessing the power of light.<\/p>"
           }
         },
         "1634272858fde070af-2": {
           "type": "button",
           "settings": {
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/pages\/halloween-witch-hunt"
+            "button_label": "Shop the range",
+            "button_link": "shopify:\/\/collections"
           }
         }
       },
