@@ -5,18 +5,7 @@
       "settings": {
         "heading": "",
         "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/lifx_low.mp4?v=1620198850",
-        "description": "Meet LIFX",
-        "full_width": true
-      }
-    },
-    "1633390137d8a400d0": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "cover_image": "shopify:\/\/shop_images\/LIFX-Homepage-1_-AUS-SameOldHome-optimised.jpg",
-        "video_url": "https:\/\/youtu.be\/T68BmQ7b1Fs",
-        "description": "",
+        "description": "Just another smart light?",
         "full_width": true
       }
     },
@@ -399,7 +388,6 @@
   },
   "order": [
     "16360812376e144b22",
-    "1633390137d8a400d0",
     "1632116257dff5145e",
     "1634272844a70d2ca1",
     "1634272858fde070af",
