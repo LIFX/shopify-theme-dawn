@@ -2,14 +2,14 @@
 {% if product.metafields.my_fields.amazon_affiliate != blank %}
 <div class="affiliatesBadge" style="display:none">
   <p class="product__text caption-with-letter-spacing">Available at:</p>
-    <span class="product__text caption-with-letter-spacing"><a href="{{ product.metafields.my_fields.amazon_affiliate }}">
+    <span class="product__text caption-with-letter-spacing"><a href="{{ product.metafields.my_fields.amazon_affiliate }}" class="affiliateLink">
       <img src="https://cdn.shopify.com/s/files/1/0219/0638/t/21/assets/favicon_amazon.ico?v=1629853280" class="affiliateLogo">AMAZON UK</span></a>
 {% if product.metafields.my_fields.de_amazon_affiliate != blank %}
-    <span class="product__text caption-with-letter-spacing"><a href="{{ product.metafields.my_fields.de_amazon_affiliate }}">
+    <span class="product__text caption-with-letter-spacing"><a href="{{ product.metafields.my_fields.de_amazon_affiliate }}" class="affiliateLink">
       <img src="https://cdn.shopify.com/s/files/1/0219/0638/t/21/assets/favicon_amazon.ico?v=1629853280" class="affiliateLogo">AMAZON DE</span></a>
 {% endif %}
 {% if product.metafields.my_fields.fr_amazon_affiliate != blank %}
-    <span class="product__text caption-with-letter-spacing"><a href="{{ product.metafields.my_fields.fr_amazon_affiliate }}">
+    <span class="product__text caption-with-letter-spacing"><a href="{{ product.metafields.my_fields.fr_amazon_affiliate }}" class="affiliateLink">
       <img src="https://cdn.shopify.com/s/files/1/0219/0638/t/21/assets/favicon_amazon.ico?v=1629853280" class="affiliateLogo">AMAZON FR</span></a>   
 {% endif %}
 </div>
