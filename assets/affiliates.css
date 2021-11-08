@@ -22,4 +22,5 @@
 .affiliateLogo {
 	vertical-align: text-bottom;
 	margin-right: 3px;
+	max-width:16px;
 }
