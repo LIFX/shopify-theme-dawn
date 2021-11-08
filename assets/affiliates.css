@@ -24,10 +24,6 @@
 	margin-right: 3px;
 	max-width:16px;
 }
-.affiliateLink{
-text-decoration: none;
-    color: black;
-}
 a:hover {
 text-decoration: underline;
 }
