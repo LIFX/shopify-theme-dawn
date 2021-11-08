@@ -1,0 +1,25 @@
+.affiliatesBadge {
+    border-radius: 0rem;
+    width: -webkit-fill-available;
+    margin-top: 0px;
+    text-align: left;
+    padding-bottom: 10px;
+    background: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid transparent;;
+    display: inline-block;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    line-height: 1;
+    padding: 0.6rem 1.3rem;
+    border-color: rgba(var(--color-badge-border),var(--alpha-badge-border));
+    color: rgb(var(--color-foreground));
+    word-break: break-word;
+    margin: 1.5rem 0;
+}
+
+.affiliateLogo {
+	vertical-align: text-bottom;
+	margin-right: 3px;
+}
