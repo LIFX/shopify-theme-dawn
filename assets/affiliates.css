@@ -26,6 +26,8 @@
 }
 .affiliateLink{
 margin-right:1rem;
+text-decoration: none;
+color: black;
 }
 a.affiliateLink:hover {
 text-decoration: underline;
