@@ -1,7 +1,7 @@
 {{ 'affiliates.css' | asset_url | stylesheet_tag }}
 {% if product.metafields.my_fields.amazon_affiliate != blank %}
 <div class="affiliatesBadge">
-  <p class="product__text caption-with-letter-spacing" style="margin-bottom:5px;">Available at:</p>
+  <p class="product__text caption-with-letter-spacing" style="margin-bottom:5px;color: rgba(var(--color-foreground),.75);">Available at:</p>
 <a href="{{ product.metafields.my_fields.amazon_affiliate }}" class="mobile_external" target="_blank" style="text-decoration: none; color: black;">
     <span class="product__text caption-with-letter-spacing" style="margin-right:1rem">
      Amazon UK</span></a>
