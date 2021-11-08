@@ -24,6 +24,9 @@
 	margin-right: 3px;
 	max-width:16px;
 }
-a:hover {
+.affiliateLink{
+margin-right:1rem;
+}
+a.affiliateLink:hover {
 text-decoration: underline;
 }
