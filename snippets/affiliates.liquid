@@ -2,16 +2,16 @@
 {% if product.metafields.my_fields.amazon_affiliate != blank %}
 <div class="affiliatesBadge">
   <p class="product__text caption-with-letter-spacing" style="margin-bottom:5px;color: rgba(var(--color-foreground),.75);">Available at:</p>
-<a href="{{ product.metafields.my_fields.amazon_affiliate }}" class="mobile_external" target="_blank">
-    <span class="product__text caption-with-letter-spacing affiliateLink">
+<a href="{{ product.metafields.my_fields.amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank">
+    <span class="product__text caption-with-letter-spacing">
      Amazon UK</span></a>
 {% if product.metafields.my_fields.de_amazon_affiliate != blank %}
-<a href="{{ product.metafields.my_fields.de_amazon_affiliate }}" class="mobile_external" target="_blank" >
-    <span class="product__text caption-with-letter-spacing affiliateLink">Amazon DE</span></a>
+<a href="{{ product.metafields.my_fields.de_amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank" >
+    <span class="product__text caption-with-letter-spacing">Amazon DE</span></a>
 {% endif %}
 {% if product.metafields.my_fields.fr_amazon_affiliate != blank %}
-<a href="{{ product.metafields.my_fields.fr_amazon_affiliate }}" class="mobile_external" target="_blank">
-    <span class="product__text caption-with-letter-spacing affiliateLink">Amazon FR</span></a>   
+<a href="{{ product.metafields.my_fields.fr_amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank">
+    <span class="product__text caption-with-letter-spacing">Amazon FR</span></a>   
 {% endif %}
 </div>
 {% endif %}
