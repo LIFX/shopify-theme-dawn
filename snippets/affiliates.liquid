@@ -1,5 +1,5 @@
 {{ 'affiliates.css' | asset_url | stylesheet_tag }}
-{% if product.metafields.my_fields.uk_amazon_affiliate != blank %}
+
 <div class="affiliatesBadge" style="display:none">
   <p class="product__text caption-with-letter-spacing">Available at:</p>
     <span class="product__text caption-with-letter-spacing"><a href="{{ product.metafields.my_fields.uk_amazon_affiliate }}">
@@ -13,4 +13,3 @@
       <img src="https://cdn.shopify.com/s/files/1/0219/0638/t/21/assets/favicon_bestbuy.ico?v=1629853307" class="affiliateLogo">AMAZON FR</span></a>   
 {% endif %}
 </div>
-{% endif %}
