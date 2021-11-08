@@ -3,6 +3,7 @@
     width: -webkit-fill-available;
     margin-top: 0px;
     text-align: left;
+    padding: 0.6rem 1.3rem;
     padding-bottom: 10px;
     background: #ffffff;
     margin-bottom: 5px;
@@ -12,7 +13,6 @@
     font-size: 1.2rem;
     letter-spacing: .1rem;
     line-height: 1;
-    padding: 0.6rem 1.3rem;
     border-color: rgba(var(--color-badge-border),var(--alpha-badge-border));
     color: rgb(var(--color-foreground));
     word-break: break-word;
