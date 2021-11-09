@@ -11,15 +11,6 @@
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
-<script type="text/javascript">
-$(document).ready(function () {
-    if (window.location.href.indexOf(".co.uk") != -1) {
-        $("#AMZ_DE").hide();
-    }
-}
-</script>
-
-
 
 {% comment %}buy buttons for mobile{% endcomment %}
 {% include "buy-buttons-bottom" %}
