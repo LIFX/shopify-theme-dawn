@@ -2014,6 +2014,30 @@
       "presets": {
         "name": "VideoAutoLoop"
       }
+    },
+    "scroller": {
+      "name": "Scroller",
+      "settings": {
+        "tagline1": {
+          "label": "Tagline One",
+          "info": "Write something witty here"
+        },
+        "tagline2": {
+          "label": "Tagline Two",
+          "info": "Write something witty here"
+        },
+        "tagline3": {
+          "label": "Tagline Three",
+          "info": "Write something witty here"
+        },
+        "tagline4": {
+          "label": "Tagline Four",
+          "info": "Write something witty here"
+        }
+      },
+      "presets": {
+        "name": "Scroller"
+      }
     }
   }
 }
