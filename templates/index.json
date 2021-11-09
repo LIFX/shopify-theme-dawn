@@ -99,6 +99,15 @@
         "show_text_below": true
       }
     },
+    "16364397572cc0a070": {
+      "type": "scroller",
+      "settings": {
+        "tagline1": "get the lights from bed when you’re comfy",
+        "tagline2": "flash the bat signal when you need help",
+        "tagline3": "get the party going",
+        "tagline4": "become a bedtime story master"
+      }
+    },
     "1634272858fde070af": {
       "type": "image-with-text",
       "disabled": true,
@@ -350,21 +359,13 @@
       "settings": {
         "custom_liquid": "<div id=\"shopify-section-16261098162a388779\" class=\"shopify-section\"><style>\n    .pdp-marquee {\n      background-color:#121216;\n      color: #EB7BDD\n    }\n    \n    .pdp-marquee__ellipse {\n        color: #EB7BDD \n    }\n.pdp-marquee {\n  background-color:#121216;\n  padding: 16px 0;\n  color: #fff;\n  font-style: normal;\n  font-weight: normal;\n  font-size: 16px;\n  line-height: 24px;\n  letter-spacing: 0.12em;\n  text-transform: uppercase;\n  overflow: hidden;\n  white-space: nowrap; }\n  @media screen and (min-width: 750px) {\n    .pdp-marquee {\n      font-size: 20px;\n      line-height: 28px;\n      padding: 24px 0; } }\n  .pdp-marquee__ellipse {\n    display: inline-block;\n    margin: 5px 24px; }\n  .pdp-marquee .marq-1 {\n    display: inline-block;\n    -webkit-animation: marquee 20s linear infinite;\n            animation: marquee 20s linear infinite; }\n  .pdp-marquee .marq-2 {\n    display: inline-block;\n    -webkit-animation: marquee2 20s linear infinite;\n            animation: marquee2 20s linear infinite;\n    -webkit-animation-delay: 10s;\n            animation-delay: 10s; }\n\n.scroll {\n  width: 100%;\n  display: flex;\n  background: #121216; }\n  .scroll div {\n    color: #EB7BDD;\n    background: #121216;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 16px;\n    line-height: 24px;\n    letter-spacing: 0.12em;\n    text-transform: uppercase;\n    white-space: nowrap;\n    -webkit-animation: scroll1 30s linear infinite;\n            animation: scroll1 30s linear infinite;\n    -webkit-animation-delay: -40s;\n            animation-delay: -40s;\n    padding: 24px 0; }\n    .scroll div:nth-child(2) {\n      -webkit-animation: scroll2 30s linear infinite;\n              animation: scroll2 30s linear infinite;\n      -webkit-animation-delay: -25s;\n              animation-delay: -25s; }\n    .scroll div span {\n      font-weight: 100; }\n  .scroll:nth-child(even) div {\n    animation-direction: reverse; }\n    .scroll:nth-child(even) div:nth-child(2) {\n      animation-direction: reverse; }\n\n.scroll.text-1 {\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }\n\n@-webkit-keyframes scroll1 {\n  0% {\n    transform: translate(100%); }\n  100% {\n    transform: translate(-100%); } }\n\n@keyframes scroll1 {\n  0% {\n    transform: translate(100%); }\n  100% {\n    transform: translate(-100%); } }\n\n@-webkit-keyframes scroll2 {\n  0% {\n    transform: translate(0); }\n  100% {\n    transform: translate(-200%); } }\n\n@keyframes scroll2 {\n  0% {\n    transform: translate(0); }\n  100% {\n    transform: translate(-200%); } }\n<\/style>\n\n<div class=\"scroll text-1\">\n  <div>\n    \n      <span class=\"pdp-marquee__text\">get the lights from bed when you’re comfy<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n    \n      <span class=\"pdp-marquee__text\">flash the bat signal when you need help<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n    \n      <span class=\"pdp-marquee__text\">get the party going<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n    \n      <span class=\"pdp-marquee__text\">become a bedtime story master<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n     \n  <\/div>\n  <div>\n    \n      <span class=\"pdp-marquee__text\">get the lights from bed when you’re comfy<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n    \n      <span class=\"pdp-marquee__text\">flash the bat signal when you need help<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n    \n      <span class=\"pdp-marquee__text\">get the party going<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p> \n    \n      <span class=\"pdp-marquee__text\">become a bedtime story master<\/span>\n      <p class=\"pdp-marquee__ellipse\">\/<\/p>\n     \n  <\/div>\n<\/div>\n\n<\/div>"
       }
-    },
-    "16364397572cc0a070": {
-      "type": "scroller",
-      "settings": {
-        "tagline1": "get the lights from bed when you’re comfy",
-        "tagline2": "flash the bat signal when you need help",
-        "tagline3": "get the party going",
-        "tagline4": "become a bedtime story master"
-      }
     }
   },
   "order": [
     "16360812376e144b22",
     "1634272844a70d2ca1",
     "1632116257dff5145e",
+    "16364397572cc0a070",
     "1634272858fde070af",
     "16321870964a1d4c89",
     "16360916891de3101c",
@@ -372,7 +373,6 @@
     "1632104744140161e0",
     "1632107311c762a72c",
     "163210701498163fc8",
-    "163425881397e06c0a",
-    "16364397572cc0a070"
+    "163425881397e06c0a"
   ]
 }
