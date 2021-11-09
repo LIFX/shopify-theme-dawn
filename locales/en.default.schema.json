@@ -2016,7 +2016,7 @@
       }
     },
     "scroller": {
-      "name": "Scroller",
+      "name": "scroller",
       "settings": {
         "tagline1": {
           "label": "Tagline One",
@@ -2036,7 +2036,7 @@
         }
       },
       "presets": {
-        "name": "Scroller"
+        "name": "scroller"
       }
     }
   }
