@@ -2033,6 +2033,10 @@
         "tagline4": {
           "label": "Tagline Four",
           "info": "Write something witty here"
+        },
+        "fontColor": {
+          "label": "Font Color #EB7BDD",
+          "info": "#EB7BDD"
         }
       },
       "presets": {
