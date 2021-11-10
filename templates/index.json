@@ -105,7 +105,8 @@
         "tagline1": "get the lights from bed when you’re comfy",
         "tagline2": "flash the bat signal when you need help",
         "tagline3": "get the party going",
-        "tagline4": "become a bedtime story master"
+        "tagline4": "become a bedtime story master",
+        "fontColor": "#EB7BDD"
       }
     },
     "1634272858fde070af": {
@@ -178,7 +179,7 @@
         "16321870964a1d4c89-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_Homepage_COLOR_Module-02.jpg",
+        "image": "shopify:\/\/shop_images\/LIFX_Homepage_COLOR_Module-02_1662e267-7446-4ec5-948d-fc633199882b.png",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "right",
@@ -259,7 +260,6 @@
         "16321069914eb48980-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/minis-website-hero-1440x650_1080x_2b0494f2-ab50-49d2-af56-9f16de0726d8.jpg",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
@@ -300,7 +300,6 @@
         "1632104744140161e0-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/00_LIFX_Lightstrip_2m_EU_1080x_fef8c4c2-80c0-4f58-bb70-1cd26972224f.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
