@@ -1,3 +1,27 @@
+@media screen and (max-width: 735px) {
+.bottomBuyButton {
+	position:fixed;
+  	background: #fff;
+  	width: -webkit-fill-available;
+  	max-height: 118px;
+	bottom:0px;
+  	width:100%; 
+  	z-index:3;
+    border-top: #e4e4e9;
+    border-top-style: solid;
+    border-top-width: thin;
+}
+}
+@media screen and (min-width: 736px) {
+.bottomBuyButtonHide {
+	display:none!important;
+}
+}
+@media screen and (max-width: 735px) {
+.mainBuyButton{
+	display:none;
+}
+}
 .product {
   margin: 0;
 }

@@ -7,6 +7,10 @@
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#FFFFFF",
     "colors_background_2": "#F3F3F3",
+<<<<<<< HEAD
+    "type_header_font": "assistant_n4",
+    "type_body_font": "assistant_n4",
+=======
     "type_header_font": "avenir_next_n7",
     "type_body_font": "avenir_next_n5",
     "page_width": "1200",
@@ -16,6 +20,7 @@
     "predictive_search_enabled": false,
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/favicon_331514dd-42ef-40b6-ad13-cdddbf54e944.png",
+>>>>>>> lifx-production
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -23,9 +28,13 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
+<<<<<<< HEAD
+              "color_scheme": "background-1"
+=======
               "text": "Get 15% off your first order with Code:SHINY",
               "color_scheme": "inverse",
               "link": ""
+>>>>>>> lifx-production
             }
           }
         },
@@ -34,6 +43,10 @@
         ],
         "settings": {
         }
+<<<<<<< HEAD
+      }
+    }
+=======
       },
       "header": {
         "type": "header",
@@ -100,6 +113,7 @@
     "content_for_index": [
 
     ]
+>>>>>>> lifx-production
   },
   "presets": {
     "Default": {
