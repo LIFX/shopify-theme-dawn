@@ -1,5 +1,18 @@
 {
   "sections": {
+    "163658915975f2ce2d": {
+      "type": "image-banner",
+      "settings": {
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -17,14 +30,103 @@
         "show_image_outline": true,
         "show_vendor": true,
         "show_rating": false,
-        "enable_filtering": true,
-        "enable_sorting": true,
+        "enable_filtering": false,
+        "enable_sorting": false,
         "collapse_on_larger_devices": false
+      }
+    },
+    "163659042404b146d6": {
+      "type": "image-with-text",
+      "blocks": {
+        "163659042404b146d6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "163659042404b146d6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "163659042404b146d6-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "163659042404b146d6-3": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "163659042404b146d6-0",
+        "163659042404b146d6-1",
+        "163659042404b146d6-2",
+        "163659042404b146d6-3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/04_LIFX-Beam-Scene_Games_1080x_85444ff4-919c-4923-88af-3bf7d2d6edbc.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16365904458bd56849": {
+      "type": "image-with-text",
+      "blocks": {
+        "16365904458bd56849-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "16365904458bd56849-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16365904458bd56849-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "16365904458bd56849-3": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "16365904458bd56849-0",
+        "16365904458bd56849-1",
+        "16365904458bd56849-2",
+        "16365904458bd56849-3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/07_LIFX-Beam_Schedule_DJ-lights_1080x_fa01d1b2-f94f-462d-a25e-5634f98cd1c4.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
       }
     }
   },
   "order": [
+    "163658915975f2ce2d",
     "banner",
-    "product-grid"
+    "product-grid",
+    "163659042404b146d6",
+    "16365904458bd56849"
   ]
 }
