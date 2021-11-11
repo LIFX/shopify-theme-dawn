@@ -122,7 +122,6 @@
       "blocks": {
         "908e81dd-7c6b-4840-a8a3-27181894b54b": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "",
             "button_link_1": "shopify:\/\/products\/lifx-beam",
