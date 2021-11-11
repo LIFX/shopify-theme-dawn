@@ -119,6 +119,23 @@
     },
     "1636668150ce666150": {
       "type": "image-banner",
+      "blocks": {
+        "908e81dd-7c6b-4840-a8a3-27181894b54b": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "shopify:\/\/products\/lifx-beam",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "908e81dd-7c6b-4840-a8a3-27181894b54b"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/11_LIFX-LightStrip-desk_1500x_64740886-e2da-4ae7-84a6-be052460ec34.jpg",
         "adapt_height_first_image": false,
