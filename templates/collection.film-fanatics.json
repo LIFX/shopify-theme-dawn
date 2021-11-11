@@ -50,19 +50,11 @@
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
-        },
-        "163659042404b146d6-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "163659042404b146d6-0",
-        "163659042404b146d6-1",
-        "163659042404b146d6-2"
+        "163659042404b146d6-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/04_LIFX-Beam-Scene_Games_1080x_85444ff4-919c-4923-88af-3bf7d2d6edbc.jpg",
@@ -85,25 +77,58 @@
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
-        },
-        "16365904458bd56849-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "16365904458bd56849-0",
-        "16365904458bd56849-1",
-        "16365904458bd56849-2"
+        "16365904458bd56849-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/07_LIFX-Beam_Schedule_DJ-lights_1080x_fa01d1b2-f94f-462d-a25e-5634f98cd1c4.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
+      }
+    },
+    "1636668145624ae670": {
+      "type": "image-with-text",
+      "blocks": {
+        "1636668145624ae670-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1636668145624ae670-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1636668145624ae670-0",
+        "1636668145624ae670-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_Kitchen_720x_9f8c8812-0ddb-4ba7-8b8f-4fad42633e5c.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1636668150ce666150": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/11_LIFX-LightStrip-desk_1500x_64740886-e2da-4ae7-84a6-be052460ec34.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -112,6 +137,8 @@
     "banner",
     "product-grid",
     "163659042404b146d6",
-    "16365904458bd56849"
+    "16365904458bd56849",
+    "1636668145624ae670",
+    "1636668150ce666150"
   ]
 }
