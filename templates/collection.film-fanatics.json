@@ -73,7 +73,7 @@
         "163659042404b146d6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/04_LIFX-Beam-Scene_Games_1080x_85444ff4-919c-4923-88af-3bf7d2d6edbc.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFF-4.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -100,7 +100,7 @@
         "16365904458bd56849-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/07_LIFX-Beam_Schedule_DJ-lights_1080x_fa01d1b2-f94f-462d-a25e-5634f98cd1c4.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFF.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -127,7 +127,7 @@
         "1636668145624ae670-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2_Kitchen_720x_9f8c8812-0ddb-4ba7-8b8f-4fad42633e5c.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFF-2.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -136,7 +136,7 @@
     "1636669211f74edc9f": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/07_LIFX-Beam_Schedule_DJ-lights_1080x_fa01d1b2-f94f-462d-a25e-5634f98cd1c4.jpg",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Divider_-_placeholder.jpg",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
@@ -169,7 +169,7 @@
         "1636668228a95c58ba-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/02_LIFX-LightStrip-voice_1500x_73da90d5-7f50-4434-81f1-a2a883f615eb.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFF-3.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -196,7 +196,7 @@
         "1636668306eac773e6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/03_LIFX-Beam-App-Paint_1080x_a4444484-af88-44dc-a2e1-7fad20c8f81b.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFF-1.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
