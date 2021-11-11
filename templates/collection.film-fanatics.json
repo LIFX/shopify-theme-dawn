@@ -40,7 +40,7 @@
     "16366705756955a1c7": {
       "type": "image-banner",
       "settings": {
-        "image_2": "shopify:\/\/shop_images\/LIFX_Homepage_APP_Module-01-opt.jpg",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Divider_-_placeholder.jpg",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
