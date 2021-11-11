@@ -117,26 +117,10 @@
         "layout": "text_first"
       }
     },
-    "1636668150ce666150": {
+    "1636669211f74edc9f": {
       "type": "image-banner",
-      "blocks": {
-        "908e81dd-7c6b-4840-a8a3-27181894b54b": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "copy",
-            "button_link_1": "shopify:\/\/products\/lifx-beam",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "908e81dd-7c6b-4840-a8a3-27181894b54b"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/11_LIFX-LightStrip-desk_1500x_64740886-e2da-4ae7-84a6-be052460ec34.jpg",
+        "image": "shopify:\/\/shop_images\/07_LIFX-Beam_Schedule_DJ-lights_1080x_fa01d1b2-f94f-462d-a25e-5634f98cd1c4.jpg",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
@@ -225,7 +209,7 @@
     "163659042404b146d6",
     "16365904458bd56849",
     "1636668145624ae670",
-    "1636668150ce666150",
+    "1636669211f74edc9f",
     "1636668228a95c58ba",
     "1636668306eac773e6",
     "163666830970378b77"
