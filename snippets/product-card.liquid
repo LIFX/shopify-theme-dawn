@@ -16,9 +16,9 @@
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
-{% if product_card_product.vendor != "Amazon" %}
+{% if product_card_product.vendor == "Amazon" %}
 
-{% elsif product_card_product.collection == "Test" %}
+{% else %}
 
                   <product-form class="product-form">
                     <div class="product-form__error-message-wrapper" role="alert" hidden>
@@ -52,11 +52,6 @@
                       </div>
                     {%- endform -%}
                   </product-form>
-
-{% else %}
- <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
-
-
 
 
 {% endif %}
@@ -171,7 +166,7 @@
       </div>
     </div>
 </div>
-</a>
+<!--</a>-->
   {% if product_card_product.vendor == "Amazon" %}
   <a href="https://www.amazon.co.uk/gp/search?ie=UTF8&tag=lifxuk-21&linkCode=ur2&linkId=c349bcd3c20f2581d9f2ba06860861f4&camp=1634&creative=6738&index=aps&keywords=lifx%20echo%20device%20bundles" class="mobile_external" target="_blank" style="color: black;"><span>View on Amazon</span></a>
   {% endif %}
