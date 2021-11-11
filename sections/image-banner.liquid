@@ -28,8 +28,9 @@
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
 {%- endstyle -%}
-	  
-{% if block.settings.button_link_1 != blank %}
+	
+  
+{% if collection.handle == "film-fanatics" %}
 <a href="{{ block.settings.button_link_1 }}">
 {% endif %}
 
@@ -114,7 +115,8 @@
   </div>
 
 </div>
-{% if block.settings.button_link_1 != blank %}
+
+{% if collection.handle == "film-fanatics" %}
 </a>
 {% endif %}
 
