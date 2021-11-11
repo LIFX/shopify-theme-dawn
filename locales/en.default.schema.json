@@ -1003,6 +1003,9 @@
         },
         "adapt_height_first_image": {
           "label": "Adapt section height to first image size"
+        },
+        "banner_url": {
+          "label": "URL for entire banner"
         }
       },
       "blocks": {
