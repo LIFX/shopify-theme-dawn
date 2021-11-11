@@ -58,13 +58,13 @@
         "163659042404b146d6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Lights for movies with the crew."
           }
         },
         "163659042404b146d6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Give the whole gang something to look at next time it’s movie night. With preset Scenes to get the mood lighting just right, vivid colours, and animated Effects, the only thing you’ll have to worry about when entertaining guests is picking the right movie. <\/p>"
           }
         }
       },
@@ -73,7 +73,7 @@
         "163659042404b146d6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFF-4.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFF.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -85,13 +85,13 @@
         "16365904458bd56849-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Lights for full immersion."
           }
         },
         "16365904458bd56849-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Transport yourself into the world of your favourite movie without a trip to the cinema by transforming your space with vibrant colours. Or, for the true cinephiles, match the cinematography style with a variety of shadows and shading to create the fully immersive experience you’ve been waiting for. <\/p>"
           }
         }
       },
@@ -100,7 +100,7 @@
         "16365904458bd56849-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFF.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFF-1.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
