@@ -130,6 +130,33 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1636668228a95c58ba": {
+      "type": "image-with-text",
+      "blocks": {
+        "1636668228a95c58ba-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1636668228a95c58ba-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1636668228a95c58ba-0",
+        "1636668228a95c58ba-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/02_LIFX-LightStrip-voice_1500x_73da90d5-7f50-4434-81f1-a2a883f615eb.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -139,6 +166,7 @@
     "163659042404b146d6",
     "16365904458bd56849",
     "1636668145624ae670",
-    "1636668150ce666150"
+    "1636668150ce666150",
+    "1636668228a95c58ba"
   ]
 }
