@@ -50,11 +50,19 @@
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
+        },
+        "2cee98f1-ae6d-4bd2-aae5-108f5ee47c3a": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": "about-us"
+          }
         }
       },
       "block_order": [
         "163659042404b146d6-0",
-        "163659042404b146d6-1"
+        "163659042404b146d6-1",
+        "2cee98f1-ae6d-4bd2-aae5-108f5ee47c3a"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/04_LIFX-Beam-Scene_Games_1080x_85444ff4-919c-4923-88af-3bf7d2d6edbc.jpg",
