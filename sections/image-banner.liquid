@@ -30,7 +30,7 @@
 {%- endstyle -%}
 	
   
-{% if collection.handle == "film-fanatics" %}
+{% if section.settings.banner_url != blank %}
 <a href="{{ section.settings.banner_url }}}">
 {% endif %}
 
@@ -116,7 +116,7 @@
 
 </div>
 
-{% if collection.handle == "film-fanatics" %}
+{% if section.settings.banner_url != blank %}
 </a>
 {% endif %}
 
