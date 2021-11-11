@@ -40,7 +40,9 @@
           %}
         </li>
 
-
+ <div class="product__info-wrapper grid__item">
+        <div id="ProductInfo-{{ section.id }}" class="product__info-container">
+          {%- assign product_form_id = 'product-form-' | append: section.id -%}
               {%- if product != blank -%}
                 <div {{ block.shopify_attributes }}>
                   {%- form 'product', product -%}
@@ -49,7 +51,7 @@
                   {%- endform -%}
                 </div>
               {%- endif -%}
- <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
+ 				<div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
                 <label class="form__label" for="Quantity-{{ section.id }}">
                   {{ 'products.product.quantity.label' | t }}
                 </label>
@@ -119,7 +121,10 @@
                     </div>
                   </div>
                 {%- endif -%}
-     
+          </product-form>
+   </div>
+      </div>
+
       
       
       {%- else -%}
