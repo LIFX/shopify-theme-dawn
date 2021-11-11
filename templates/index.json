@@ -179,7 +179,6 @@
         "16321870964a1d4c89-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_Homepage_COLOR_Module-02_1662e267-7446-4ec5-948d-fc633199882b.png",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "right",
@@ -223,51 +222,6 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
-      }
-    },
-    "16321069914eb48980": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "16321069914eb48980-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Clearance Sale",
-            "heading_size": "medium"
-          }
-        },
-        "16321069914eb48980-1": {
-          "type": "text",
-          "settings": {
-            "text": "Huge discounts across our older generation products. Till stocks last."
-          }
-        },
-        "16321069914eb48980-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/clearance-products",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16321069914eb48980-0",
-        "16321069914eb48980-1",
-        "16321069914eb48980-2"
-      ],
-      "settings": {
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "1632104744140161e0": {
@@ -368,7 +322,6 @@
     "1634272858fde070af",
     "16321870964a1d4c89",
     "16360916891de3101c",
-    "16321069914eb48980",
     "1632104744140161e0",
     "1632107311c762a72c",
     "163210701498163fc8",
