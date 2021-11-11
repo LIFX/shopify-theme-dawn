@@ -123,7 +123,7 @@
         "908e81dd-7c6b-4840-a8a3-27181894b54b": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "",
+            "button_label_1": "copy",
             "button_link_1": "shopify:\/\/products\/lifx-beam",
             "button_style_secondary_1": false,
             "button_label_2": "",
