@@ -154,13 +154,13 @@
         "1636668228a95c58ba-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Preset the vibe for every genre."
           }
         },
         "1636668228a95c58ba-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>With the LIFX app, set each individual light in your living room to the perfect shade, colour, and brightness, then capture every setting in a single Scene to use for movies to come. Whether the film of the night is drama, comedy or horror, you can get the vibe just right, every time. <\/p>"
           }
         }
       },
@@ -181,13 +181,13 @@
         "1636668306eac773e6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "From videos to video games in a flick."
           }
         },
         "1636668306eac773e6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Your downtime doesn’t have to end when the movie finishes. Take yourself out of the film and back into your favorite game in seconds. With a flick of a button, set the lights in your den to shift from dim theatre ambers to bright, bold blues and purples for an easy transition between two worlds. <br\/><br\/><a href=\"\/collections\/gaming\" title=\"Gaming\">See more lights for gamers here<\/a><\/p>"
           }
         }
       },
@@ -196,7 +196,7 @@
         "1636668306eac773e6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFF-1.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFF-4.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
