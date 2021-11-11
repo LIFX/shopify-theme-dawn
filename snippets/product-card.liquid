@@ -19,7 +19,9 @@
 {% if product_card_product.vendor == "Amazon" %}
 
 {% else %}
-
+ <div class="product__info-wrapper grid__item">
+        <div id="ProductInfo-{{ section.id }}" class="product__info-container">
+          {%- assign product_form_id = 'product-form-' | append: section.id -%}
                   <product-form class="product-form">
                     <div class="product-form__error-message-wrapper" role="alert" hidden>
                       <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
@@ -52,6 +54,8 @@
                       </div>
                     {%- endform -%}
                   </product-form>
+          </div>
+   </div>
 
 
 {% endif %}
