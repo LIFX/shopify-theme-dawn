@@ -57,20 +57,12 @@
             "button_label": "Button label",
             "button_link": ""
           }
-        },
-        "163659042404b146d6-3": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "163659042404b146d6-0",
         "163659042404b146d6-1",
-        "163659042404b146d6-2",
-        "163659042404b146d6-3"
+        "163659042404b146d6-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/04_LIFX-Beam-Scene_Games_1080x_85444ff4-919c-4923-88af-3bf7d2d6edbc.jpg",
@@ -100,20 +92,12 @@
             "button_label": "Button label",
             "button_link": ""
           }
-        },
-        "16365904458bd56849-3": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "16365904458bd56849-0",
         "16365904458bd56849-1",
-        "16365904458bd56849-2",
-        "16365904458bd56849-3"
+        "16365904458bd56849-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/07_LIFX-Beam_Schedule_DJ-lights_1080x_fa01d1b2-f94f-462d-a25e-5634f98cd1c4.jpg",
