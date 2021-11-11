@@ -1,7 +1,14 @@
 {
   "sections": {
+    "1636672526ffc72960": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/0453\/6516\/files\/Hero_Module_-_Full_Span_Header_1500x.jpg?v=1636670877\">"
+      }
+    },
     "163658915975f2ce2d": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Header.jpg",
         "adapt_height_first_image": false,
@@ -220,6 +227,7 @@
     }
   },
   "order": [
+    "1636672526ffc72960",
     "163658915975f2ce2d",
     "banner",
     "product-grid",
