@@ -3,7 +3,7 @@
     "1636672526ffc72960": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"banner__align--center banner__content--center page-width\" style=\"\n    margin-top: 0px;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/0453\/6516\/files\/Hero_Module_-_Full_Span_Header_1500x.jpg?v=1636670877\"><\/div>"
+        "custom_liquid": "<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/0453\/6516\/files\/Hero_Module_-_Full_Span_Header_1500x.jpg?v=1636670877\"><\/div>"
       }
     },
     "163658915975f2ce2d": {
