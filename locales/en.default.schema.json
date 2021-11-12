@@ -1004,6 +1004,9 @@
         "adapt_height_first_image": {
           "label": "Adapt section height to first image size"
         },
+        "banner_height_overide": {
+          "label": "Overide the maximum height on large screens"
+        },
         "banner_url": {
           "label": "URL for entire banner"
         }
