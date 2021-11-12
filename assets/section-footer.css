@@ -511,5 +511,5 @@ noscript .localization-selector.link {
   text-decoration: underline;
 }
 .color-gradient {
- background-image: linear-gradient(#e2fc52, #cdd2d7);
+ background-image: linear-gradient(#e2fc52,#e2fc52,#cdd2d7);
 }
