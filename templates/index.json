@@ -227,12 +227,11 @@
     },
     "16321069914eb48980": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "16321069914eb48980-0": {
           "type": "heading",
           "settings": {
-            "heading": "Clearance Sale",
+            "heading": "kav test",
             "heading_size": "medium"
           }
         },
@@ -393,7 +392,6 @@
         "1636610995d14b7647-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/mcg_test.jpg",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
