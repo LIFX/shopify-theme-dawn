@@ -5,6 +5,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Header.jpg",
         "adapt_height_first_image": true,
+        "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
@@ -42,6 +43,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Divider_-_placeholder.jpg",
         "adapt_height_first_image": true,
+        "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
@@ -138,6 +140,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Divider_-_placeholder.jpg",
         "adapt_height_first_image": true,
+        "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
