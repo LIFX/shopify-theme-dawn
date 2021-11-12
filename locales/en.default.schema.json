@@ -710,6 +710,9 @@
           "options__5": {
             "label": "Inverse"
           },
+          "options__6": {
+            "label": "Gradient"
+          },
           "label": "Color scheme"
         },
         "newsletter_enable": {
