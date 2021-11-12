@@ -106,15 +106,6 @@
             "page": "",
             "icon": "box"
           }
-        },
-        "4ab3b8f5-1a03-4ab7-9fba-756d8ff9675f": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible tab",
-            "content": "",
-            "page": "{{ product.metafields.my_fields.eprel_labels.value }}",
-            "icon": "check_mark"
-          }
         }
       },
       "block_order": [
@@ -132,8 +123,7 @@
         "description",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
-        "76f2877b-9463-4ca3-a71e-982cd31af6da",
-        "4ab3b8f5-1a03-4ab7-9fba-756d8ff9675f"
+        "76f2877b-9463-4ca3-a71e-982cd31af6da"
       ],
       "settings": {
         "enable_sticky_info": true,
