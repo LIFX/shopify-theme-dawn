@@ -510,3 +510,6 @@ noscript .localization-selector.link {
 .footer .disclosure__link--active {
   text-decoration: underline;
 }
+.color-gradient {
+ background-image: linear-gradient(#e2fc52, #cdd2d7);
+}
