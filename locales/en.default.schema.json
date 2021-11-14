@@ -996,7 +996,7 @@
           "info": "Visible when text box displayed"
         },
         "header": {
-          "content": "Mobile Layout"
+          "content": "Mobile Layout & Display Logic"
         },
         "stack_images_on_mobile": {
           "label": "Stack images on mobile"
