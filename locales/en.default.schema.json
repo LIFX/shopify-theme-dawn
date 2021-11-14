@@ -1010,6 +1010,9 @@
         "banner_height_overide": {
           "label": "Overide the maximum height on large screens"
         },
+        "header_websites": {
+          "content": "Mobile Layout"
+        },
         "banner_url": {
           "label": "URL for entire banner"
         },
