@@ -1,3 +1,7 @@
+{% if section.settings.website_ukeu == true and request.host == 'lifxukeu'  %}
+
+
+
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
@@ -118,6 +122,10 @@
 
 {% if section.settings.banner_url != blank %}
 </a>
+{% endif %}
+
+
+
 {% endif %}
 
 {% schema %}
