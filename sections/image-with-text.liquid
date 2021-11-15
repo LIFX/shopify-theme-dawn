@@ -1,3 +1,8 @@
+{% if section.settings.website_ukeu == false and request.host == 'lifxukeu.myshopify.com' %}
+{% elsif section.settings.website_us == false and request.host == 'lifx.myshopify.com' %}
+{% elsif section.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' %}
+{% else %}
+
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 {% if section.settings.image != blank %}
 <div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}">
@@ -57,6 +62,7 @@
 </div>
 {% endif %}
 
+{% endif %}
 
 {% schema %}
 {
