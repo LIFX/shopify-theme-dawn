@@ -5,22 +5,28 @@
 {% if product.metafields.my_fields.amazon_affiliate != blank %}
     <a href="{{ product.metafields.my_fields.amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank">
 	<span class="product__text caption-with-letter-spacing">Amazon UK</span></a>
-{% elsif product.metafields.my_fields.de_amazon_affiliate != blank %}
+{% endif %}
+{% if product.metafields.my_fields.de_amazon_affiliate != blank %}
     <a href="{{ product.metafields.my_fields.de_amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank" >
     <span class="product__text caption-with-letter-spacing">Amazon DE</span></a>
-{% elsif product.metafields.my_fields.fr_amazon_affiliate != blank %}
+{% endif %}
+{% if product.metafields.my_fields.fr_amazon_affiliate != blank %}
 	<a href="{{ product.metafields.my_fields.fr_amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">Amazon FR</span></a>   
-{% elsif product.metafields.my_fields.us_amazon_affiliate != blank %}
+{% endif %}
+{% if product.metafields.my_fields.us_amazon_affiliate != blank %}
 	<a href="{{ product.metafields.my_fields.us_amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">Amazon</span></a>   
-{% elsif product.metafields.my_fields.us_bestbuy_affiliate != blank %}
+{% endif %}
+{% if product.metafields.my_fields.us_bestbuy_affiliate != blank %}
 	<a href="{{ product.metafields.my_fields.us_bestbuy_affiliate }}" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">Best Buy</span></a>   
-{% elsif product.metafields.my_fields.au_amazon_affiliate != blank %}
+{% endif %}
+{% if product.metafields.my_fields.au_amazon_affiliate != blank %}
 	<a href="{{ product.metafields.my_fields.au_amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">Amazon</span></a>   
-{% elsif product.metafields.my_fields.au_jbhifi_affiliate != blank %}
+{% endif %}
+{% if product.metafields.my_fields.au_jbhifi_affiliate != blank %}
 	<a href="{{ product.metafields.my_fields.au_jbhifi_affiliate }}" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">JB Hi-Fi</span></a>   
 {% endif %}
