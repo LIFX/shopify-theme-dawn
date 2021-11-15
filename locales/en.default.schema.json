@@ -216,13 +216,13 @@
       "name": "Announcement bar",
       "settings": {
         "website_au": {
-          "label": "Show Module on AU Website"
+          "label": "Show on AU Website"
         },
         "website_ukeu": {
-          "label": "Show Module on UK ane EU Websites"
+          "label": "Show on UK ane EU Websites"
         },
         "website_us": {
-          "label": "Show Module on US Website"
+          "label": "Show on US Website"
         }
       },
       "blocks": {
