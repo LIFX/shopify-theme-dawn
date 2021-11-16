@@ -34,6 +34,14 @@ opacity: .5;
   {% endif %}
 {% endfor %}
 
+{% elsif product.metafields.my_fields.product_family == "Color" %}
+
+{% for product in collections.color.products %}
+  {% if activeHandle != product.handle %}
+      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+  {% endif %}
+{% endfor %}
+
 {% elsif product.metafields.my_fields.product_family == "White to Warm" %}
 
 {% for product in collections.white-to-warm.products %}
@@ -61,6 +69,14 @@ opacity: .5;
 {% elsif product.metafields.my_fields.product_family == "Colour A60" %}
 
 {% for product in collections.colour-a60.products %}
+  {% if activeHandle != product.handle %}
+      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+  {% endif %}
+{% endfor %}
+
+{% elsif product.metafields.my_fields.product_family == "Colour A19" %}
+
+{% for product in collections.colour-a19.products %}
   {% if activeHandle != product.handle %}
       {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
   {% endif %}
