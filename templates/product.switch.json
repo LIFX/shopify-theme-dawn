@@ -493,6 +493,42 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "163704609418aa1efc": {
+      "type": "rich-text",
+      "blocks": {
+        "1637046094ccd70597-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQs",
+            "heading_size": "h1"
+          }
+        },
+        "1637046094ccd70597-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q. Can I install these switches myself?<\/strong><\/p><p>A. No, LIFX Switch requires installation by a licensed electrician.<\/p><p><\/p><p><br\/><\/p><p><\/p><p><strong>Q. Can I replace any existing switch with them?<\/strong><\/p><p>A. Not all switch wiring types are compatible, they require existing neutral wiring. Check with an electrician as to what type you have. If you're planning on a new build or renovation, request this type of wiring.<\/p><p><br\/><\/p><p><strong>Q. Are these switches for outdoor use?<\/strong><\/p><p>A. No, LIFX Switch is intended for indoor use only.<\/p><p><br\/><\/p><p><strong>Q. Are other LIFX devices required to use the switch?<\/strong><\/p><p>A. No<\/p><p><br\/><\/p><p><strong>Q. Can the switch control a group of LIFX lights?<\/strong><\/p><p>A. Yes<\/p><p><br\/><\/p><p><strong>Q. Can the switch control a group of traditional lights (not smart)?<\/strong><\/p><p>A. Yes, the switch can control both LIFX Smart lights and traditional non-smart lights<\/p><p><br\/><strong>Q. Can I control the switch via HomeKit, Alexa or Google Assistant?<\/strong><\/p><p>A. At launch Alexa and Google Assistant will be supported. Homekit is anticipated to be introduced in Q4 2021.<\/p><p><br\/><\/p><p><strong>Q. Will the switch work if my internet connection is disabled?<\/strong><\/p><p>A. Your non-smart lights will still work, but your smart lights require internet connectivity.<br\/><br\/><br\/><strong>Q. Can I dim my lights via the switch?<\/strong><\/p><p>A. You can trigger a dimming of LIFX to a set level (scene) via the app. Smart & non smart lights won’t be dimmable via the Switch.<\/p><p><br\/><\/p><p><strong>Q: Can I use the switch to control other smart devices (including smart lights)?<\/strong><\/p><p>A: At the moment no, but stay tuned!<br\/><br\/><br\/><strong>Q. Can my LIFX switch work with 5Ghz Wi-Fi routers?<\/strong><\/p><p>A. No the LIFX switch will only work on the 2.4Ghz Wi-FI band. Most home routers that support 5Ghz should also support 2.4Ghz.<\/p><p>For more information on wifi requirements, please see <a href=\"https:\/\/support.lifx.com\/hc\/en-us\/articles\/200471335-Wi-Fi-Connectivity-Checklist\" target=\"_blank\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p><p><br\/><\/p><p><strong>Q. I’m running old Halogen lights. How many can I run from one switch channel?<\/strong><\/p><p>A. <strong>4 Gang: <\/strong>Each switch channel will support a total of 625W of lighting So 12 x 50W bulbs could be connected to one channel. Simply sum up all the lights on the circuit and make sure it totals under 625W. If you’re not absolutely sure, consult an electrician.<br\/><br\/>A. <strong>2 Gang: <\/strong>Each switch channel will support a total of 1250W of lighting So 25 x 50W bulbs could be connected to one channel. Simply sum up all the lights on the circuit and make sure it totals under 1250W. If you’re not absolutely sure, consult an electrician.<br\/><\/p><p><br\/><\/p><p><strong>Q. I have a 3 gang switch now. Can I replace it with this?<\/strong><\/p><p>A. Yes, you can, plus you can use the spare button to control other LIFX lights.<\/p><p><br\/><\/p><p><strong>Q. Does LIFX switch support 2-way control? <\/strong><\/p><p>A. Yes, you can control the lights both with the LIFX Switch and with the LIFX app, as well as any other 3rd party integrations you have. <\/p><p>(for clarity though conventional 2-way control isn’t supported)<\/p><p><br\/><\/p><p><strong>Q. Can I set a button to control another light in another room?<\/strong><\/p><p>A.Yes - the buttons can be programmed to control another LIFX light somewhere else in the home.<br\/><br\/><\/p><p><strong>Q. Can I set a delay from the Switch to turn the lights off?<\/strong><\/p><p>A. Yes, if it is a LIFX light only<\/p>"
+          }
+        },
+        "1637046094ccd70597-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1637046094ccd70597-0",
+        "1637046094ccd70597-1",
+        "1637046094ccd70597-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -508,6 +544,7 @@
     "1635139699342ea047",
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
-    "product-recommendations"
+    "product-recommendations",
+    "163704609418aa1efc"
   ]
 }
