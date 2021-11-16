@@ -12,8 +12,7 @@
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
 
-{% comment %}buy buttons for mobile{% endcomment %}
-{% include "buy-buttons-bottom" %}
+
 
 
 {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
@@ -127,7 +126,7 @@
               </details>
             </div>
           {%- when 'quantity_selector' -%}
-<div class="mainBuyButton">
+
             <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
               <label class="form__label" for="Quantity-{{ section.id }}">
                 {{ 'products.product.quantity.label' | t }}
@@ -152,7 +151,7 @@
                 </button>
               </quantity-input>
             </div>
-        </div>
+     
           {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
