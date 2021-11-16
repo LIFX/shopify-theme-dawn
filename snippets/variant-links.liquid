@@ -58,7 +58,7 @@ opacity: .5;
   {% endif %}
 {% endfor %}
 
-{% elsif product.metafields.my_fields.product_family == "Candle Colour" or product.metafields.my_fields.product_family == "Candle White to Warm"%}
+{% elsif product.metafields.my_fields.product_family == "Candle Colour" or product.metafields.my_fields.product_family == "Candle Color" or product.metafields.my_fields.product_family == "Candle White to Warm" %}
 
 {% for product in collections.candles.products %}
   {% if activeHandle != product.handle %}
