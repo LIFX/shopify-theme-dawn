@@ -33,7 +33,10 @@
         "image": "shopify:\/\/shop_images\/08_Indoor_outdoor_Scene_Sunset.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "main": {
