@@ -84,13 +84,14 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Specifications",
-            "content": "<p><strong>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }}W at full brightness<br\/><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/><strong>Voltage Range:<\/strong> AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature:<\/strong> 16 million colours plus daylight tones<br\/><strong>Dimming:<\/strong> Software dimming 1% -100%<br\/><strong>Wi-Fi:<\/strong> 2.4GHz<br\/><strong>Security:<\/strong> WPA, WPA2<br\/><strong>Dims:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
+            "content": "<p><strong>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }}W at full brightness<br\/><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/><strong>Voltage Range:<\/strong> AC 100-240V 50\/60 Hz<br\/><strong>Color Temperature:<\/strong> 16 million colors plus daylight tones<br\/><strong>Dimming:<\/strong> Software dimming 1% -100%<br\/><strong>Wi-Fi:<\/strong> 2.4GHz<br\/><strong>Security:<\/strong> WPA, WPA2<br\/><strong>Dims:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
             "page": "",
             "icon": "question_mark"
           }
         },
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Energy Labels",
             "content": "",
@@ -356,8 +357,6 @@
         "1635139699342ea047-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hey_google.jpg",
-            "workswith": "shopify:\/\/shop_images\/WorksWith_Badge_with_border_HeyGoogle_horizontal_CMYK_color_EN-US.png",
             "title": "",
             "text": "<p>Ask Google to control smart devices in your home. No matter where you are, get things done – whenever you want.<br\/><br\/>\"Hey Google, dim the living room lights and turn on Netflix.\"<\/p>"
           }
@@ -365,8 +364,6 @@
         "1635139699342ea047-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Echo-Dot-with-clock_-Glacier-White_-Bedroom.jpg",
-            "workswith": "shopify:\/\/shop_images\/Amazon_Alexa_Works_With_RGB.png",
             "title": "",
             "text": "<p>LIFX works with Amazon Alexa products to control your lights with your voice. No need to unlock your phone and open the app.<br\/><br\/>\"Alexa... Set the living room to warm white.”<\/p>"
           }
@@ -374,8 +371,6 @@
         "1635139699342ea047-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/07_LIFX-GU10-Kitchen-c1.jpg",
-            "workswith": "shopify:\/\/shop_images\/png_version.png",
             "title": "",
             "text": "<p>Turn your iPhone into a universal remote for your smart home with Apple HomeKit.<br\/><br\/>Say \"Siri, I'm home,\" and have HomeKit unlock your door and set your LIFX lighting to your favourite scene.<\/p>"
           }
@@ -443,7 +438,6 @@
         "1635892427a2cdb2bc-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/t3.png",
             "title": "LIFX smart bulbs deliver excellent smart lighting",
             "text": "<p>\"They're really very good as smart bulbs, nailing the colour aspect perfectly, responding well to commands, and tying in neatly to your choice of smart assistant. The app offers one-touch control of your connected lights, and some very detailed control deeper down, and everything's easy to set up and get running.\"<br\/><a href=\"https:\/\/www.t3.com\/au\/features\/best-smart-bulbs\" target=\"_blank\" title=\"https:\/\/www.t3.com\/au\/features\/best-smart-bulbs\">Read more<\/a><\/p>"
           }
@@ -451,7 +445,6 @@
         "1635892427a2cdb2bc-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cnet_logo.png",
             "title": "Best color-changing smart bulb",
             "text": "<p>\"Like I said, I think Lifx lights belong right at the top of your list if you're looking to add a smart pop of color to your home's lighting systems. The brand sells a variety of bulbs and smart lights that all put out bright, great-looking colors, all of which can connect with Alexa, Siri or Google Assistant with absolutely no need for a hub.\"<\/p><p><a href=\"https:\/\/www.cnet.com\/home\/energy-and-utilities\/best-smart-lights\/\" target=\"_blank\" title=\"https:\/\/www.cnet.com\/home\/energy-and-utilities\/best-smart-lights\/\">Read more<\/a><\/p><p><br\/><\/p>"
           }
@@ -459,7 +452,6 @@
         "601c041a-4aa0-4b40-9501-c18cd7e73170": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/techradar-logo.png",
             "title": "LIFX smart bulbs deliver excellent smart lighting",
             "text": "<p>\"LIFX offers a plethora of smart light options; from color and white bulbs, that come both in full size and the more compact LIFX Mini design, as well as lightstrips, LIFX Beam - the brands own take on smart light wall art and LIFX Clean - a smart light that can also kill bacteria.\"<\/p><p><a href=\"https:\/\/www.techradar.com\/au\/news\/best-smart-lighting\" target=\"_blank\" title=\"https:\/\/www.techradar.com\/au\/news\/best-smart-lighting\">Read more<\/a><\/p>"
           }
