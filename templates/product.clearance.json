@@ -70,18 +70,6 @@
             "share_label": "Share"
           }
         },
-        "88e15617-7a01-4dae-92e8-6e255e65fba0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Specifications",
-            "content": "<p><strong>Brightness:<\/strong> {{ product.metafields.my_fields.lumens.value }} Lumens<br\/><strong>CRI:<\/strong> {{ product.metafields.my_fields.cri.value }}<br\/><strong>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }}W at full brightness<br\/><strong>Wattage Equivalent: <\/strong>{{ product.metafields.my_fields.wattage_equivalent.value }}W Incandescent<br\/><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/><strong>Voltage Range:<\/strong> AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature:<\/strong> {{ product.metafields.my_fields.cct_min.value }}K to {{ product.metafields.my_fields.cct_max.value }}K<br\/><strong>Beam Angle:<\/strong> {{ product.metafields.my_fields.beam_angle.value }}°<br\/><strong>Dimming:<\/strong> Software dimming 1% -100%<br\/><strong>Wi-Fi Router:<\/strong> 802.11b,g,n standards compliant<br\/><strong>Security:<\/strong> WPA, WPA2<br\/><strong>Dimensions:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
-            "page": "",
-            "website_au": true,
-            "website_ukeu": true,
-            "website_us": true,
-            "icon": "question_mark"
-          }
-        },
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
           "type": "collapsible_tab",
           "settings": {
@@ -92,6 +80,18 @@
             "website_ukeu": true,
             "website_us": false,
             "icon": "leaf"
+          }
+        },
+        "88e15617-7a01-4dae-92e8-6e255e65fba0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "content": "<p><strong>Brightness:<\/strong> {{ product.metafields.my_fields.lumens.value }} Lumens<br\/><strong>CRI:<\/strong> {{ product.metafields.my_fields.cri.value }}<br\/><strong>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }}W at full brightness<br\/><strong>Wattage Equivalent: <\/strong>{{ product.metafields.my_fields.wattage_equivalent.value }}W Incandescent<br\/><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/><strong>Voltage Range:<\/strong> AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature:<\/strong> {{ product.metafields.my_fields.cct_min.value }}K to {{ product.metafields.my_fields.cct_max.value }}K<br\/><strong>Beam Angle:<\/strong> {{ product.metafields.my_fields.beam_angle.value }}°<br\/><strong>Dimming:<\/strong> Software dimming 1% -100%<br\/><strong>Wi-Fi Router:<\/strong> 802.11b,g,n standards compliant<br\/><strong>Security:<\/strong> WPA, WPA2<br\/><strong>Dimensions:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
+            "page": "",
+            "website_au": false,
+            "website_ukeu": true,
+            "website_us": false,
+            "icon": "question_mark"
           }
         },
         "76f2877b-9463-4ca3-a71e-982cd31af6da": {
@@ -119,8 +119,8 @@
         "buy_buttons",
         "description",
         "share",
-        "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
+        "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "76f2877b-9463-4ca3-a71e-982cd31af6da"
       ],
       "settings": {
