@@ -107,10 +107,6 @@
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
-          {% if block.settings.website_ukeu == false and request.host == 'lifxukeu.myshopify.com' %}
-          {% elsif block.settings.website_us == false and request.host == 'lifx.myshopify.com' %}
-          {% elsif block.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' %}
-          {% else %}
             <div class="product__accordion accordion" {{ block.shopify_attributes }}>
               <details>
                 <summary>
@@ -128,8 +124,6 @@
                 </div>
               </details>
             </div>
-          {% endif %}
-
           {%- when 'quantity_selector' -%}
 
             <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
@@ -668,25 +662,7 @@
           "type": "page",
           "id": "page",
           "label": "t:sections.main-product.blocks.collapsible_tab.settings.page.label"
-        },
-      	  {
-            "type": "checkbox",
-            "id": "website_au",
-            "default": true,
-            "label": "t:sections.image-banner.settings.website_au.label"
-          },
-          {
-            "type": "checkbox",
-            "id": "website_ukeu",
-            "default": true,
-            "label": "t:sections.image-banner.settings.website_ukeu.label"
-          },
-          {
-            "type": "checkbox",
-            "id": "website_us",
-            "default": true,
-            "label": "t:sections.image-banner.settings.website_us.label"
-          },
+        }, 	  
         {
           "type": "select",
           "id": "icon",
