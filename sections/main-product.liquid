@@ -276,7 +276,7 @@
               </div>
             </noscript>
           {%- when 'buy_buttons' -%}
-<div class="mainBuyButton">
+
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
                 <div class="product-form__error-message-wrapper" role="alert" hidden>
@@ -332,7 +332,7 @@
                 </template>
               </pickup-availability>
             </div>
-  </div>
+
 
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
           {%- when 'rating' -%}
