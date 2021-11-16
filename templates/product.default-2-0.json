@@ -98,7 +98,7 @@
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Energy Labels.",
+            "heading": "Energy Labels",
             "content": "",
             "page": "{{ product.metafields.my_fields.eprel_labels.value }}",
             "website_au": false,
