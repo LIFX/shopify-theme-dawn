@@ -102,7 +102,7 @@
         "16365904458bd56849-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Transport yourself into the world of your favourite movie without a trip to the cinema by transforming your space with vibrant colors. Or, for the true cinephiles, match the cinematography style with a variety of shadows and shading to create the fully immersive experience you’ve been waiting for. <\/p>"
+            "text": "<p>Transport yourself into the world of your favourite movie without a trip to the cinema by transforming your space with vibrant colours. Or, for the true cinephiles, match the cinematography style with a variety of shadows and shading to create the fully immersive experience you’ve been waiting for. <\/p>"
           }
         }
       },
@@ -132,7 +132,7 @@
         "1636668145624ae670-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Bright white light at 6000K has been proven to enhance performance and improve focus. Reach your full potential with lighting that will take you there. Or, for days when it’s just about getting it done, tap into endless color options for a wild ride that’ll have you forget you’re even sweating. <\/p>"
+            "text": "<p>Bright white light at 6000K has been proven to enhance performance and improve focus. Reach your full potential with lighting that will take you there. Or, for days when it’s just about getting it done, tap into endless colour options for a wild ride that’ll have you forget you’re even sweating. <\/p>"
           }
         }
       },
@@ -181,7 +181,7 @@
         "1637130973ad6638f1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Using colored lights can dramatically enhance your flow. Blues and greens have long been thought of as calming and anxiety reducing colors. To help ease you through your session, use LIFX lights to create the perfect blue-green aura soothing Scene.<\/p>"
+            "text": "<p>Using coloured lights can dramatically enhance your flow. Blues and greens have long been thought of as calming and anxiety reducing colours. To help ease you through your session, use LIFX lights to create the perfect blue-green aura soothing Scene.<\/p>"
           }
         },
         "1637130973ad6638f1-2": {
@@ -250,13 +250,21 @@
         "1636668306eac773e6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Your downtime doesn’t have to end when the movie finishes. Take yourself out of the film and back into your favorite game in seconds. With a flick of a button, set the lights in your den to shift from dim theatre ambers to bright, bold blues and purples for an easy transition between two worlds. <\/p>"
+            "text": "<p>Your downtime doesn’t have to end when the movie finishes. Take yourself out of the film and back into your favourite game in seconds. With a flick of a button, set the lights in your den to shift from dim theatre ambers to bright, bold blues and purples for an easy transition between two worlds. <\/p>"
+          }
+        },
+        "9cd8f1fa-6d09-4a72-9b08-b4773cd1a6e0": {
+          "type": "button",
+          "settings": {
+            "button_label": "More lights for sleep",
+            "button_link": "shopify:\/\/collections\/sleep"
           }
         }
       },
       "block_order": [
         "1636668306eac773e6-0",
-        "1636668306eac773e6-1"
+        "1636668306eac773e6-1",
+        "9cd8f1fa-6d09-4a72-9b08-b4773cd1a6e0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image__Half_PageGYM_LandingPage-5.png",
