@@ -139,7 +139,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop LIFX Colour",
-            "button_link_1": "shopify:\/\/collections\/colour",
+            "button_link_1": "shopify:\/\/products\/lifx-colour-e27",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
