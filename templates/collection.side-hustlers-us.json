@@ -3,7 +3,7 @@
     "163658915975f2ce2d": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerSIDEHUSTLERS_LandingPage.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -44,7 +44,7 @@
     "16366705756955a1c7": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-1.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerCONTENTCREATORS_LandingPage-1.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -66,13 +66,13 @@
         "163659042404b146d6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for movies with the crew."
+            "heading": "Lights for fueling your focus."
           }
         },
         "163659042404b146d6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Give the whole gang something to look at next time it’s movie night. With preset Scenes to get the mood lighting just right, vivid colours, and animated Effects, the only thing you’ll have to worry about when entertaining guests is picking the right movie. <\/p>"
+            "text": "<p>Bright white light at 6000K (the same color temperature as the sun) has been proven to enhance performance and improve focus. So put down the third coffee and fuel your work days with lighting that will help you feel wide awake and ready to go naturally. <\/p>"
           }
         }
       },
@@ -81,7 +81,37 @@
         "163659042404b146d6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageSIDEHUSTLERS_LandingPage.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1636668145624ae670": {
+      "type": "image-with-text",
+      "blocks": {
+        "1636668145624ae670-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lights for keeping your space clean."
+          }
+        },
+        "1636668145624ae670-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LIFX Clean can be used as a standard light during the day to illuminate your space with bright, focus-fuelling light. Then, when you’re all finished working, schedule LIFX Clean to switch to HEV wavelengths and battle bacteria so that your space is clean and ready to go for tomorrow. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1636668145624ae670-0",
+        "1636668145624ae670-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image__Half_PageSIDEHUSTLERS_LandingPage-2.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -96,13 +126,13 @@
         "16365904458bd56849-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for full immersion."
+            "heading": "Lights for reducing eye strain."
           }
         },
         "16365904458bd56849-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Transport yourself into the world of your favourite movie without a trip to the cinema by transforming your space with vibrant colors. Or, for the true cinephiles, match the cinematography style with a variety of shadows and shading to create the fully immersive experience you’ve been waiting for. <\/p>"
+            "text": "<p>Staring at screens all day can cause a serious headache. But some of that eye strain and fatigue can easily be reduced with bias lighting. By projecting light behind your monitor, you can not only reduce blue light intensity, but also increase the vibrant contrast of colors on your screen. Your eyes will thank us later. <\/p>"
           }
         }
       },
@@ -111,7 +141,7 @@
         "16365904458bd56849-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-1.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageSIDEHUSTLERS_LandingPage-1.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -120,40 +150,10 @@
         "website_us": true
       }
     },
-    "1636668145624ae670": {
-      "type": "image-with-text",
-      "blocks": {
-        "1636668145624ae670-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Lights for bingeing before bed."
-          }
-        },
-        "1636668145624ae670-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The greatest historical conundrum: to watch another episode, or to get a good night’s sleep? Well we say, porque no los dos. Reduce the pesky effects of blue light keeping you awake long after the show’s over by using red bias lighting. Not only will it help you wind down while you binge another 30 minutes, but it’ll also reduce eye strain. Go on, watch what happens next. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1636668145624ae670-0",
-        "1636668145624ae670-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-2.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "1636669211f74edc9f": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-2.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerSIDEHUSTLERS_LandingPage-2.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -175,13 +175,13 @@
         "1636668228a95c58ba-0": {
           "type": "heading",
           "settings": {
-            "heading": "Preset the vibe for every genre."
+            "heading": "Lights for calling it a day."
           }
         },
         "1636668228a95c58ba-1": {
           "type": "text",
           "settings": {
-            "text": "<p>With the LIFX app, set each individual light in your living room to the perfect shade, colour, and brightness, then capture every setting in a single Scene to use for movies to come. Whether the film of the night is drama, comedy or horror, you can get the vibe just right, every time. <\/p>"
+            "text": "<p>You can’t work 24\/7 (even though we know you’ve tried once or twice). Ensure you’re switching off for the day by scheduling your lights to wind down when it’s time for you to call it. Transition from bright whites to warm ambers to gently ease away from work. Or draw a hard line in the sand by scheduling your lights to flick to red. Close the email and step away from the laptop with your hands up. Or else. <\/p>"
           }
         }
       },
@@ -190,7 +190,7 @@
         "1636668228a95c58ba-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-3.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageSIDEHUSTLERS_LandingPage-3.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -205,22 +205,30 @@
         "1636668306eac773e6-0": {
           "type": "heading",
           "settings": {
-            "heading": "From videos to video games in a flick."
+            "heading": "Lights for squeezing in your workout."
           }
         },
         "1636668306eac773e6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Your downtime doesn’t have to end when the movie finishes. Take yourself out of the film and back into your favorite game in seconds. With a flick of a button, set the lights in your den to shift from dim theatre ambers to bright, bold blues and purples for an easy transition between two worlds. <br\/><br\/><a href=\"\/collections\/gaming\" title=\"Gaming\">See more lights for gamers here<\/a><\/p>"
+            "text": "<p>At the end of a long work day, get yourself in the mood to move with the very same lights that powered you through the meetings. Switch from bright whites to endless blues, purples and pinks to take you for a wild ride that’ll have you forget you’re even sweating.<\/p>"
+          }
+        },
+        "5e51a99a-d61f-450d-a3a3-3a51f4e78b7f": {
+          "type": "button",
+          "settings": {
+            "button_label": "More lights for fitness",
+            "button_link": "shopify:\/\/collections\/cardio-crushers-lifting-legends"
           }
         }
       },
       "block_order": [
         "1636668306eac773e6-0",
-        "1636668306eac773e6-1"
+        "1636668306eac773e6-1",
+        "5e51a99a-d61f-450d-a3a3-3a51f4e78b7f"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-4.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageSIDEHUSTLERS_LandingPage-4.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -252,8 +260,8 @@
     "product-grid",
     "16366705756955a1c7",
     "163659042404b146d6",
-    "16365904458bd56849",
     "1636668145624ae670",
+    "16365904458bd56849",
     "1636669211f74edc9f",
     "1636668228a95c58ba",
     "1636668306eac773e6",
