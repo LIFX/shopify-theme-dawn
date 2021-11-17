@@ -3,7 +3,7 @@
     "163658915975f2ce2d": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Header.jpg",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -13,7 +13,10 @@
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "banner": {
@@ -41,7 +44,7 @@
     "16366705756955a1c7": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Divider_-_placeholder.jpg",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-1.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -51,7 +54,10 @@
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163659042404b146d6": {
@@ -75,10 +81,13 @@
         "163659042404b146d6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFF.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage.png",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "16365904458bd56849": {
@@ -102,10 +111,13 @@
         "16365904458bd56849-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFF-1.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-1.png",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1636668145624ae670": {
@@ -129,16 +141,19 @@
         "1636668145624ae670-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFF-2.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-2.png",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1636669211f74edc9f": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Divider_-_placeholder.jpg",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-2.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -148,7 +163,10 @@
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1636668228a95c58ba": {
@@ -172,10 +190,13 @@
         "1636668228a95c58ba-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFF-3.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-3.png",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1636668306eac773e6": {
@@ -199,10 +220,13 @@
         "1636668306eac773e6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFF-4.jpg",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-4.png",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163666830970378b77": {
