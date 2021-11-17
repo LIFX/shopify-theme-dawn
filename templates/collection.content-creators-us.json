@@ -3,7 +3,7 @@
     "163658915975f2ce2d": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerCONTENTCREATORS_LandingPage.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -44,7 +44,7 @@
     "16366705756955a1c7": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-1.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerCONTENTCREATORS_LandingPage-1.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -66,13 +66,13 @@
         "163659042404b146d6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for movies with the crew."
+            "heading": "Lights for every form of content."
           }
         },
         "163659042404b146d6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Give the whole gang something to look at next time it’s movie night. With preset Scenes to get the mood lighting just right, vivid colours, and animated Effects, the only thing you’ll have to worry about when entertaining guests is picking the right movie. <\/p>"
+            "text": "<p>From studio photography to bedroom TikTok videos, your content deserves a quality spotlight regardless of its context. Wow your audience with captivating visuals through endless color options, a massive range of white to warm shades, animated effects and more. <\/p>"
           }
         }
       },
@@ -81,7 +81,7 @@
         "163659042404b146d6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageCONTENTCREATORS_LandingPage.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -96,13 +96,13 @@
         "16365904458bd56849-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for full immersion."
+            "heading": "Lights for flicker-free filming."
           }
         },
         "16365904458bd56849-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Transport yourself into the world of your favourite movie without a trip to the cinema by transforming your space with vibrant colors. Or, for the true cinephiles, match the cinematography style with a variety of shadows and shading to create the fully immersive experience you’ve been waiting for. <\/p>"
+            "text": "<p>Don’t distract your viewers with poor quality lighting that flickers in the background of your content. By setting LIFX lights to full brightness, you’ll get a flicker fusion rate of 4000 Hz. That means you can even film slow motion content without a flicker of a worry. <\/p>"
           }
         }
       },
@@ -111,7 +111,7 @@
         "16365904458bd56849-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-1.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageCONTENTCREATORS_LandingPage-1.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -126,13 +126,13 @@
         "1636668145624ae670-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for bingeing before bed."
+            "heading": "Lights for customized creativity."
           }
         },
         "1636668145624ae670-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The greatest historical conundrum: to watch another episode, or to get a good night’s sleep? Well we say, porque no los dos. Reduce the pesky effects of blue light keeping you awake long after the show’s over by using red bias lighting. Not only will it help you wind down while you binge another 30 minutes, but it’ll also reduce eye strain. Go on, watch what happens next. <\/p>"
+            "text": "<p>Cut through the noise by showing your unique creativity. With our Polychrome tech, you can customize your lights to transform your space in a way that’s completely your own. Paint colors that work together to create an ombre effect in a single light, then animate the colors to create movement effects like waves or candle light flickers. What will you create?<\/p>"
           }
         }
       },
@@ -141,7 +141,7 @@
         "1636668145624ae670-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-2.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageCONTENTCREATORS_LandingPage-2.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -153,7 +153,7 @@
     "1636669211f74edc9f": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-2.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerCONTENTCREATORS_LandingPage-2.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -175,13 +175,13 @@
         "1636668228a95c58ba-0": {
           "type": "heading",
           "settings": {
-            "heading": "Preset the vibe for every genre."
+            "heading": "Scenes for saving set up time."
           }
         },
         "1636668228a95c58ba-1": {
           "type": "text",
           "settings": {
-            "text": "<p>With the LIFX app, set each individual light in your living room to the perfect shade, colour, and brightness, then capture every setting in a single Scene to use for movies to come. Whether the film of the night is drama, comedy or horror, you can get the vibe just right, every time. <\/p>"
+            "text": "<p>If only content were as quick to create as it is to watch. But those of us who make it know a 5 second video can easily take 5 hours to whip up. The good news is you can cut down on set up time by saving each of your lights’ settings in a Scene. With a single button, have your room lit and ready to film with the perfect colors, brightness and effects for your content.<\/p>"
           }
         }
       },
@@ -190,7 +190,7 @@
         "1636668228a95c58ba-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-3.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageCONTENTCREATORS_LandingPage-3.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -205,22 +205,30 @@
         "1636668306eac773e6-0": {
           "type": "heading",
           "settings": {
-            "heading": "From videos to video games in a flick."
+            "heading": "Vibes for enjoying content."
           }
         },
         "1636668306eac773e6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Your downtime doesn’t have to end when the movie finishes. Take yourself out of the film and back into your favorite game in seconds. With a flick of a button, set the lights in your den to shift from dim theatre ambers to bright, bold blues and purples for an easy transition between two worlds. <br\/><br\/><a href=\"\/collections\/gaming\" title=\"Gaming\">See more lights for gamers here<\/a><\/p>"
+            "text": "<p>Don’t forget to enjoy the content you’ve spent hours creating. Set the vibe in your home theater or living room with bias lighting behind your TV or entertainment unit. Once the mood is right, you can sit back and appreciate your hard work.<\/p>"
+          }
+        },
+        "05a7f6b6-3c20-4767-90ab-0b60b6e49a45": {
+          "type": "button",
+          "settings": {
+            "button_label": "More lights for TV",
+            "button_link": "shopify:\/\/collections\/film-fanatics"
           }
         }
       },
       "block_order": [
         "1636668306eac773e6-0",
-        "1636668306eac773e6-1"
+        "1636668306eac773e6-1",
+        "05a7f6b6-3c20-4767-90ab-0b60b6e49a45"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-4.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageCONTENTCREATORS_LandingPage-4.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
