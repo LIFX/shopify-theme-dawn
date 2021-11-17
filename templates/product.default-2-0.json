@@ -102,9 +102,9 @@
             "content": "",
             "page": "{{ product.metafields.my_fields.eprel_labels.value }}",
             "icon": "leaf",
-            "website_au": false,
+            "website_au": true,
             "website_ukeu": true,
-            "website_us": false
+            "website_us": true
           }
         },
         "76f2877b-9463-4ca3-a71e-982cd31af6da": {
