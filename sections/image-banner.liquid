@@ -1,6 +1,6 @@
-{% if section.settings.website_ukeu == false and request.host == 'lifxukeu.myshopify.com' or request.host == 'lifxshop.co.uk' or request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' %}
-{% elsif section.settings.website_us == false and request.host == 'lifx.myshopify.com' or request.host == 'lifx.com' %}
-{% elsif section.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' or request.host == 'lifx.com.au' %}
+{% if section.settings.website_ukeu == false and request.host == 'lifxukeu.myshopify.com' or request.host == 'www.lifxshop.co.uk' or request.host == 'www.lifxshop.eu' or request.host == 'www.lifxshop.de' or request.host == 'www.lifxshop.fr' %}
+{% elsif section.settings.website_us == false and request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
+{% elsif section.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
 {% else %}
 
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
@@ -39,7 +39,7 @@
 <a href="{{ section.settings.banner_url }}">
 {% endif %}
 
-<div id="Banner-{{ section.id }}" class="banner{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %} {% if section.settings.banner_height_overide == true %}bannerOveride{% endif %}" {{ request.host }} >
+<div id="Banner-{{ section.id }}" class="banner{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %} {% if section.settings.banner_height_overide == true %}bannerOveride{% endif %}" >
 
         {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
