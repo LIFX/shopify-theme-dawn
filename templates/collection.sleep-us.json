@@ -127,13 +127,13 @@
         "1636668145624ae670-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for bingeing before bed."
+            "heading": "Lights for healthy days."
           }
         },
         "1636668145624ae670-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The greatest historical conundrum: to watch another episode, or to get a good night’s sleep? Well we say, porque no los dos. Reduce the pesky effects of blue light keeping you awake long after the show’s over by using red bias lighting. Not only will it help you wind down while you binge another 30 minutes, but it’ll also reduce eye strain. Go on, watch what happens next. <\/p>"
+            "text": "<p>Maintain a healthy circadian rhythm by scheduling your lights to transition like the sun as your day progresses. With a massive range of shades of bright whites for invigorated mornings and rich ambers for relaxing evenings, you can use LIFX lights to work with your internal clock instead of against it.<\/p>"
           }
         }
       },
@@ -142,7 +142,7 @@
         "1636668145624ae670-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-2.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageSLEEP_LandingPage-2.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -154,7 +154,7 @@
     "1636669211f74edc9f": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-2.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerSLEEP_LandingPage-2.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -176,13 +176,13 @@
         "1636668228a95c58ba-0": {
           "type": "heading",
           "settings": {
-            "heading": "Preset the vibe for every genre."
+            "heading": "Whites that fuel your focus."
           }
         },
         "1636668228a95c58ba-1": {
           "type": "text",
           "settings": {
-            "text": "<p>With the LIFX app, set each individual light in your living room to the perfect shade, colour, and brightness, then capture every setting in a single Scene to use for movies to come. Whether the film of the night is drama, comedy or horror, you can get the vibe just right, every time. <\/p>"
+            "text": "<p>Bright white light at 6000K (the same color temperature as the sun) has been proven to enhance performance and improve focus. So put down the third coffee and fuel your work days with lighting that will help you feel wide awake and ready to go naturally. <\/p>"
           }
         }
       },
@@ -191,7 +191,7 @@
         "1636668228a95c58ba-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-3.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageSLEEP_LandingPage-3.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -206,22 +206,30 @@
         "1636668306eac773e6-0": {
           "type": "heading",
           "settings": {
-            "heading": "From videos to video games in a flick."
+            "heading": "Night lights that won't keep the kids up."
           }
         },
         "1636668306eac773e6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Your downtime doesn’t have to end when the movie finishes. Take yourself out of the film and back into your favorite game in seconds. With a flick of a button, set the lights in your den to shift from dim theatre ambers to bright, bold blues and purples for an easy transition between two worlds. <br\/><br\/><a href=\"\/collections\/gaming\" title=\"Gaming\">See more lights for gamers here<\/a><\/p>"
+            "text": "<p>Just because your child wakes up in the middle of the night, doesn’t mean they have to stay up. Set their LIFX light to 5% dimness on the color red to prevent pesky, bright blue light from keeping them from falling back to sleep. Now midnight potty runs don’t have to be a nightmare. <\/p>"
+          }
+        },
+        "eb5024d9-8122-4cc2-9566-d6fdb9e46395": {
+          "type": "button",
+          "settings": {
+            "button_label": "More lights for parents",
+            "button_link": "shopify:\/\/collections\/proud-parents"
           }
         }
       },
       "block_order": [
         "1636668306eac773e6-0",
-        "1636668306eac773e6-1"
+        "1636668306eac773e6-1",
+        "eb5024d9-8122-4cc2-9566-d6fdb9e46395"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-4.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageSLEEP_LandingPage-4.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
