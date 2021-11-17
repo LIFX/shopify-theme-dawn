@@ -3,7 +3,7 @@
     "163658915975f2ce2d": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerSLEEP_LandingPage.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -43,6 +43,7 @@
     },
     "16366705756955a1c7": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-1.png",
         "adapt_height_first_image": true,
@@ -66,13 +67,13 @@
         "163659042404b146d6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for movies with the crew."
+            "heading": "Lights for gentle mornings."
           }
         },
         "163659042404b146d6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Give the whole gang something to look at next time it’s movie night. With preset Scenes to get the mood lighting just right, vivid colours, and animated Effects, the only thing you’ll have to worry about when entertaining guests is picking the right movie. <\/p>"
+            "text": "<p>Say goodbye to blaring alarm clocks and instead wake up gently to soft lighting. By presetting your LIFX bedside light to gradually turn on and increase brightness to wake you up, you can start your day in a healthy, relaxed way.<\/p>"
           }
         }
       },
@@ -81,7 +82,7 @@
         "163659042404b146d6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageSLEEP_LandingPage.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -96,13 +97,13 @@
         "16365904458bd56849-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for full immersion."
+            "heading": "Lights for easy nights."
           }
         },
         "16365904458bd56849-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Transport yourself into the world of your favourite movie without a trip to the cinema by transforming your space with vibrant colors. Or, for the true cinephiles, match the cinematography style with a variety of shadows and shading to create the fully immersive experience you’ve been waiting for. <\/p>"
+            "text": "<p>Take blue light out of the mix and make bedtime a breeze. With voice control or the flick of a single button, dim down every light in your bedroom to warm ambers or even switch to shades of red to signal to your body that it’s time to start making melatonin. Read, stretch or meditate in this calming Scene before dozing off into an easy night’s sleep.<\/p>"
           }
         }
       },
@@ -111,7 +112,7 @@
         "16365904458bd56849-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-1.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageSLEEP_LandingPage-1.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
