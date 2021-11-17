@@ -3,7 +3,7 @@
     "163658915975f2ce2d": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGYM_LandingPage.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -66,13 +66,13 @@
         "163659042404b146d6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for movies with the crew."
+            "heading": "Lights for warming up."
           }
         },
         "163659042404b146d6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Give the whole gang something to look at next time it’s movie night. With preset Scenes to get the mood lighting just right, vivid colours, and animated Effects, the only thing you’ll have to worry about when entertaining guests is picking the right movie. <\/p>"
+            "text": "<p>Schedule your lights to cool down with you by dimming down from bright whites to warm ambers, signaling it’s time to relax. Once you’re all finished in your home gym, switch to a Clean Cycle with LIFX Clean to wipe out the nasties before your next session.<\/p>"
           }
         }
       },
@@ -81,7 +81,7 @@
         "163659042404b146d6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageGYM_LandingPage.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -96,7 +96,7 @@
         "16365904458bd56849-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for full immersion."
+            "heading": "Lights for cooling down."
           }
         },
         "16365904458bd56849-1": {
@@ -126,13 +126,13 @@
         "1636668145624ae670-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for bingeing before bed."
+            "heading": "Lights for staying in the zone."
           }
         },
         "1636668145624ae670-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The greatest historical conundrum: to watch another episode, or to get a good night’s sleep? Well we say, porque no los dos. Reduce the pesky effects of blue light keeping you awake long after the show’s over by using red bias lighting. Not only will it help you wind down while you binge another 30 minutes, but it’ll also reduce eye strain. Go on, watch what happens next. <\/p>"
+            "text": "<p>Bright white light at 6000K has been proven to enhance performance and improve focus. Reach your full potential with lighting that will take you there. Or, for days when it’s just about getting it done, tap into endless color options for a wild ride that’ll have you forget you’re even sweating. <\/p>"
           }
         }
       },
@@ -141,7 +141,7 @@
         "1636668145624ae670-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-2.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageGYM_LandingPage-2.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -153,7 +153,7 @@
     "1636669211f74edc9f": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-2.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGYM_LandingPage-2.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -169,19 +169,58 @@
         "website_us": true
       }
     },
+    "163713097358226e78": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637130973ad6638f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lighting for yoga."
+          }
+        },
+        "1637130973ad6638f1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Using colored lights can dramatically enhance your flow. Blues and greens have long been thought of as calming and anxiety reducing colors. To help ease you through your session, use LIFX lights to create the perfect blue-green aura soothing Scene.<\/p>"
+          }
+        },
+        "1637130973ad6638f1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637130973ad6638f1-0",
+        "1637130973ad6638f1-1",
+        "1637130973ad6638f1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image__Half_PageGYM_LandingPage-3.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "1636668228a95c58ba": {
       "type": "image-with-text",
       "blocks": {
         "1636668228a95c58ba-0": {
           "type": "heading",
           "settings": {
-            "heading": "Preset the vibe for every genre."
+            "heading": "Lighting for HIIT."
           }
         },
         "1636668228a95c58ba-1": {
           "type": "text",
           "settings": {
-            "text": "<p>With the LIFX app, set each individual light in your living room to the perfect shade, colour, and brightness, then capture every setting in a single Scene to use for movies to come. Whether the film of the night is drama, comedy or horror, you can get the vibe just right, every time. <\/p>"
+            "text": "<p>Every bit of contextual motivation helps when it comes to HIIT. Power through your session with bold purples, pinks and blues that will transform a torturous 30 seconds of burpees into an aesthetically awesome, torturous 30 seconds of burpees. Then set a Clean Cycle on your app to wipe out nasty bacteria on your mat while you recover. <\/p>"
           }
         }
       },
@@ -190,7 +229,7 @@
         "1636668228a95c58ba-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-3.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageGYM_LandingPage-4.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -205,13 +244,13 @@
         "1636668306eac773e6-0": {
           "type": "heading",
           "settings": {
-            "heading": "From videos to video games in a flick."
+            "heading": "Lighting for recovery."
           }
         },
         "1636668306eac773e6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Your downtime doesn’t have to end when the movie finishes. Take yourself out of the film and back into your favorite game in seconds. With a flick of a button, set the lights in your den to shift from dim theatre ambers to bright, bold blues and purples for an easy transition between two worlds. <br\/><br\/><a href=\"\/collections\/gaming\" title=\"Gaming\">See more lights for gamers here<\/a><\/p>"
+            "text": "<p>Your downtime doesn’t have to end when the movie finishes. Take yourself out of the film and back into your favorite game in seconds. With a flick of a button, set the lights in your den to shift from dim theatre ambers to bright, bold blues and purples for an easy transition between two worlds. <\/p>"
           }
         }
       },
@@ -220,7 +259,7 @@
         "1636668306eac773e6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-4.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PageGYM_LandingPage-5.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -255,6 +294,7 @@
     "16365904458bd56849",
     "1636668145624ae670",
     "1636669211f74edc9f",
+    "163713097358226e78",
     "1636668228a95c58ba",
     "1636668306eac773e6",
     "163666830970378b77"
