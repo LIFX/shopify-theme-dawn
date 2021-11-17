@@ -90,36 +90,6 @@
         "website_us": true
       }
     },
-    "1636668145624ae670": {
-      "type": "image-with-text",
-      "blocks": {
-        "1636668145624ae670-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Lights for keeping your space clean."
-          }
-        },
-        "1636668145624ae670-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>LIFX Clean can be used as a standard light during the day to illuminate your space with bright, focus-fuelling light. Then, when you’re all finished working, schedule LIFX Clean to switch to HEV wavelengths and battle bacteria so that your space is clean and ready to go for tomorrow. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1636668145624ae670-0",
-        "1636668145624ae670-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageSIDEHUSTLERS_LandingPage-2.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "16365904458bd56849": {
       "type": "image-with-text",
       "blocks": {
@@ -145,6 +115,36 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1636668145624ae670": {
+      "type": "image-with-text",
+      "blocks": {
+        "1636668145624ae670-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lights for keeping your space clean."
+          }
+        },
+        "1636668145624ae670-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LIFX Clean can be used as a standard light during the day to illuminate your space with bright, focus-fueling light. Then, when you’re all finished working, schedule LIFX Clean to switch to HEV wavelengths and battle bacteria so that your space is clean and ready to go for tomorrow. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1636668145624ae670-0",
+        "1636668145624ae670-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image__Half_PageSIDEHUSTLERS_LandingPage-2.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -260,8 +260,8 @@
     "product-grid",
     "16366705756955a1c7",
     "163659042404b146d6",
-    "1636668145624ae670",
     "16365904458bd56849",
+    "1636668145624ae670",
     "1636669211f74edc9f",
     "1636668228a95c58ba",
     "1636668306eac773e6",
