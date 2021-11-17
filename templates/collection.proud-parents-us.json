@@ -3,7 +3,7 @@
     "163658915975f2ce2d": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerPARENTS_LandingPage.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -44,7 +44,7 @@
     "16366705756955a1c7": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-1.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerPARENTS_LandingPage-1.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -66,13 +66,13 @@
         "163659042404b146d6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for movies with the crew."
+            "heading": "Lights for bedtime."
           }
         },
         "163659042404b146d6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Give the whole gang something to look at next time it’s movie night. With preset Scenes to get the mood lighting just right, vivid colours, and animated Effects, the only thing you’ll have to worry about when entertaining guests is picking the right movie. <\/p>"
+            "text": "<p>Use LIFX lights to create a consistent bedtime routine that makes winding down a breeze. With schedules that are preset to dim to warm ambers before bed, blue lights causing sleepless nights are a thing of the past. But first, don’t forget to set vivid purples and greens to splash the walls for the ultimate story time.<\/p>"
           }
         }
       },
@@ -81,7 +81,7 @@
         "163659042404b146d6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Image__Half_PagePARENTS_LandingPage.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
