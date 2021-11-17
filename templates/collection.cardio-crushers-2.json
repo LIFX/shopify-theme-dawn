@@ -43,6 +43,7 @@
     },
     "16366705756955a1c7": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-1.png",
         "adapt_height_first_image": true,
