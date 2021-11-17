@@ -66,13 +66,13 @@
         "163659042404b146d6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lights for fueling your focus."
+            "heading": "Lights for fuelling your focus."
           }
         },
         "163659042404b146d6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Bright white light at 6000K (the same color temperature as the sun) has been proven to enhance performance and improve focus. So put down the third coffee and fuel your work days with lighting that will help you feel wide awake and ready to go naturally. <\/p>"
+            "text": "<p>Bright white light at 6000K (the same colour temperature as the sun) has been proven to enhance performance and improve focus. So put down the third coffee and fuel your work days with lighting that will help you feel wide awake and ready to go naturally. <\/p>"
           }
         }
       },
@@ -85,6 +85,36 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "16365904458bd56849": {
+      "type": "image-with-text",
+      "blocks": {
+        "16365904458bd56849-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lights for reducing eye strain."
+          }
+        },
+        "16365904458bd56849-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Staring at screens all day can cause a serious headache. But some of that eye strain and fatigue can easily be reduced with bias lighting. By projecting light behind your monitor, you can not only reduce blue light intensity, but also increase the vibrant contrast of colours on your screen. Your eyes will thank us later. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16365904458bd56849-0",
+        "16365904458bd56849-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image__Half_PageSIDEHUSTLERS_LandingPage-1.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -115,36 +145,6 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "16365904458bd56849": {
-      "type": "image-with-text",
-      "blocks": {
-        "16365904458bd56849-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Lights for reducing eye strain."
-          }
-        },
-        "16365904458bd56849-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Staring at screens all day can cause a serious headache. But some of that eye strain and fatigue can easily be reduced with bias lighting. By projecting light behind your monitor, you can not only reduce blue light intensity, but also increase the vibrant contrast of colors on your screen. Your eyes will thank us later. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16365904458bd56849-0",
-        "16365904458bd56849-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageSIDEHUSTLERS_LandingPage-1.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -260,8 +260,8 @@
     "product-grid",
     "16366705756955a1c7",
     "163659042404b146d6",
-    "1636668145624ae670",
     "16365904458bd56849",
+    "1636668145624ae670",
     "1636669211f74edc9f",
     "1636668228a95c58ba",
     "1636668306eac773e6",
