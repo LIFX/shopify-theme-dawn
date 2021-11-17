@@ -1,6 +1,6 @@
-{% if section.settings.website_ukeu == false and request.host == 'lifxukeu.myshopify.com' %}
-{% elsif section.settings.website_us == false and request.host == 'lifx.myshopify.com' %}
-{% elsif section.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' %}
+{% if section.settings.website_ukeu == false and request.host == 'lifxukeu.myshopify.com' or request.host == 'www.lifxshop.co.uk' or request.host == 'www.lifxshop.eu' or request.host == 'www.lifxshop.de' or request.host == 'www.lifxshop.fr' %}
+{% elsif section.settings.website_us == false and request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
+{% elsif section.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
 {% else %}
 
 {%- for block in section.blocks -%}
