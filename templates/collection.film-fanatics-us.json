@@ -181,7 +181,7 @@
         "1636668228a95c58ba-1": {
           "type": "text",
           "settings": {
-            "text": "<p>With the LIFX app, set each individual light in your living room to the perfect shade, color, and brightness, then capture every setting in a single Scene to use for movies to come. Whether the film of the night is drama, comedy or horror, you can get the vibe just right, every time. <\/p>"
+            "text": "<p>With the LIFX app, set each individual light in your living room to the perfect shade, color and brightness, then capture every setting in a single Scene to use for movies to come. Whether the film of the night is drama, comedy or horror, you can get the vibe just right, every time. <\/p>"
           }
         }
       },
@@ -211,13 +211,21 @@
         "1636668306eac773e6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Your downtime doesn’t have to end when the movie finishes. Take yourself out of the film and back into your favorite game in seconds. With a flick of a button, set the lights in your den to shift from dim theatre ambers to bright, bold blues and purples for an easy transition between two worlds. <br\/><br\/><a href=\"\/collections\/gaming\" title=\"Gaming\">See more lights for gamers here<\/a><\/p>"
+            "text": "<p>Your downtime doesn’t have to end when the movie finishes. Take yourself out of the film and back into your favorite game in seconds. With the flick of a button, set the lights in your den to shift from dim theatre ambers to bright, bold blues and purples for an easy transition between two worlds. <\/p>"
+          }
+        },
+        "33dfc41c-ab0b-45e0-8a97-4c4df9585e2e": {
+          "type": "button",
+          "settings": {
+            "button_label": "More lights for gaming",
+            "button_link": "shopify:\/\/collections\/avid-gamers"
           }
         }
       },
       "block_order": [
         "1636668306eac773e6-0",
-        "1636668306eac773e6-1"
+        "1636668306eac773e6-1",
+        "33dfc41c-ab0b-45e0-8a97-4c4df9585e2e"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-4.png",
