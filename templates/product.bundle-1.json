@@ -45,7 +45,7 @@
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"http:\/\/www.lifx.com\/cart\/add?id[]=41356490440885&id[]=41356490473653&id[]=41356490506421\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>"
+            "custom_liquid": "<a href=\"http:\/\/www.lifx.com\/cart\/41356490440885:1,41356490473653:1,41356490506421:1\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>"
           }
         }
       },
