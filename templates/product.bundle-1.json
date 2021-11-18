@@ -46,7 +46,7 @@
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"https:\/\/www.lifx.com\/cart\/add?id[]=41356490440885&id[]=41356490473653&id[]=41356490506421\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>"
+            "custom_liquid": "{% if product.available%}<a href=\"https:\/\/www.lifx.com\/cart\/add?id[]=41356490440885&id[]=41356490473653&id[]=41356490506421\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<a class=\"button\" style=\"width:100%\">Out of Stock<\/a>{% endif %}"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
