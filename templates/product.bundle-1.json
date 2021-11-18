@@ -43,12 +43,14 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -60,6 +62,7 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true
           }
@@ -82,6 +85,7 @@
         },
         "88e15617-7a01-4dae-92e8-6e255e65fba0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Specifications",
             "content": "<p><strong>Brightness:<\/strong> {{ product.metafields.my_fields.lumens.value }} Lumens<br\/><strong>Colour rendering index<\/strong> (<strong>CRI):<\/strong> {{ product.metafields.my_fields.cri.value }}<br\/><strong>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }}W at full brightness<br\/><strong>Wattage Eq: <\/strong>{{ product.metafields.my_fields.wattage_equivalent.value }}W Incandescent<br\/><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/><strong>Voltage Range:<\/strong> AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature:<\/strong> {{ product.metafields.my_fields.cct_min.value }}K to {{ product.metafields.my_fields.cct_max.value }}K<br\/><strong>Beam Angle:<\/strong> {{ product.metafields.my_fields.beam_angle.value }}°<br\/><strong>Dimming:<\/strong> Software dimming 1% -100%<br\/><strong>Wi-Fi:<\/strong> 2.4GHz<br\/><strong>Security:<\/strong> WPA, WPA2<br\/><strong>Dims:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
@@ -91,6 +95,7 @@
         },
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Energy Labels",
             "content": "",
@@ -100,11 +105,18 @@
         },
         "76f2877b-9463-4ca3-a71e-982cd31af6da": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Bulk Order Enquiry",
             "content": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <a href=\"\/pages\/bulk-order-enquiry\" title=\"Bulk Order Enquiry\">Enquire today<\/a> <\/p>",
             "page": "",
             "icon": "box"
+          }
+        },
+        "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"#\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>"
           }
         }
       },
@@ -123,7 +135,8 @@
         "description",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
-        "76f2877b-9463-4ca3-a71e-982cd31af6da"
+        "76f2877b-9463-4ca3-a71e-982cd31af6da",
+        "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f"
       ],
       "settings": {
         "enable_sticky_info": true,
