@@ -1,3 +1,8 @@
+{% if section.settings.website_ukeu == false and request.host == 'lifxukeu.myshopify.com' or request.host == 'www.lifxshop.co.uk' or request.host == 'www.lifxshop.eu' or request.host == 'www.lifxshop.de' or request.host == 'www.lifxshop.fr' %}
+{% elsif section.settings.website_us == false and request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
+{% elsif section.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
+{% else %}
+
 {{ 'video-section.css' | asset_url | stylesheet_tag }}
 {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
@@ -12,6 +17,8 @@
     <source src="{{ section.settings.video }}" type="video/mp4" alt="{{ 'sections.video.load_video' | t: description: section.settings.description | escape }}">
 </video>
 </div>
+{% endif %}
+
 {% endif %}
 {% schema %}
 {
@@ -42,6 +49,24 @@
       "id": "full_width",
       "label": "t:sections.video.settings.full_width.label",
       "default": false
+    },
+	{
+      "type": "checkbox",
+      "id": "website_au",
+      "default": true,
+      "label": "t:sections.image-banner.settings.website_au.label"
+    },
+	{
+      "type": "checkbox",
+      "id": "website_ukeu",
+      "default": true,
+      "label": "t:sections.image-banner.settings.website_ukeu.label"
+    },
+	{
+      "type": "checkbox",
+      "id": "website_us",
+      "default": true,
+      "label": "t:sections.image-banner.settings.website_us.label"
     }
   ],
   "presets": [
