@@ -109,9 +109,13 @@
           {%- when 'collapsible_tab' -%}
 
 {% if section.settings.website_ukeu == false and request.host == 'lifxukeu.myshopify.com' or request.host == 'www.lifxshop.co.uk' or request.host == 'www.lifxshop.eu' or request.host == 'www.lifxshop.de' or request.host == 'www.lifxshop.fr' %}
+<!-Comment 1-->
 {% elsif section.settings.website_us == false and request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
+<!-Comment 2-->
 {% elsif section.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
+<!-Comment 3-->
 {% else %}
+<!-Comment 4-->
             <div class="product__accordion accordion" {{ block.shopify_attributes }}>
               <details>
                 <summary>
