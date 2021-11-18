@@ -6,7 +6,10 @@
         "heading": "",
         "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/lifx_low.mp4?v=1620198850",
         "description": "Just another smart light?",
-        "full_width": true
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1634272844a70d2ca1": {
@@ -116,7 +119,10 @@
         "tagline2": "flash the bat signal when you need help",
         "tagline3": "get the party going",
         "tagline4": "become a bedtime story master",
-        "fontColor": "#EB7BDD"
+        "fontColor": "#EB7BDD",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "16321870964a1d4c89": {
@@ -171,6 +177,7 @@
     },
     "16371499188aae96be": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "16371499187c462ace-0": {
           "type": "heading",
