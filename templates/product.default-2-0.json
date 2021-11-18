@@ -99,7 +99,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Energy Labels",
-            "website_au": true,
+            "website_au": false,
             "website_ukeu": true,
             "website_us": false,
             "content": "",
