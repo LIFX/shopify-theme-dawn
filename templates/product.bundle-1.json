@@ -116,6 +116,25 @@
         "swipe_on_mobile": false
       }
     },
+    "163727672724969a9b": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGAMING_LandingPage-1.png",
+        "adapt_height_first_image": true,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "1635139699342ea047": {
       "type": "multicolumn",
       "blocks": {
@@ -263,6 +282,7 @@
   "order": [
     "main",
     "16372767243e83d044",
+    "163727672724969a9b",
     "1635139699342ea047",
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
