@@ -32,8 +32,15 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$189.97<\/s>   <span class=\"price-item price-item--sale\">$109<\/span>",
+            "text": "$189.97   $109",
             "text_style": "subtitle"
+          }
+        },
+        "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
+          "type": "text",
+          "settings": {
+            "text": "Text <b>block<\/b>",
+            "text_style": "body"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
@@ -55,6 +62,7 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
+        "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f"
       ],
@@ -70,7 +78,10 @@
         "heading": "",
         "video": "{{ product.metafields.my_fields.video1.value }}",
         "description": "{{ product.vendor }} {{ product.title }}",
-        "full_width": false
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163514216916abed30": {
@@ -245,7 +256,10 @@
         "heading": "",
         "video": "{{ product.metafields.my_fields.video2.value }}",
         "description": "{{ product.vendor }} {{ product.title }} Product Video",
-        "full_width": false
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "16360008950381c4a6": {
