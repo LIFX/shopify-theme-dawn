@@ -72,222 +72,41 @@
         "enable_video_looping": true
       }
     },
-    "16360050346d3b64a8": {
-      "type": "video2",
-      "settings": {
-        "heading": "",
-        "video": "{{ product.metafields.my_fields.video1.value }}",
-        "description": "{{ product.vendor }} {{ product.title }}",
-        "full_width": false,
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "163514216916abed30": {
-      "type": "image-with-text",
-      "blocks": {
-        "163514216916abed30-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.headline1.value }}"
-          }
-        },
-        "a2c0573f-6c35-4b00-b26c-831499d35180": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "163514216916abed30-0",
-        "a2c0573f-6c35-4b00-b26c-831499d35180"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image1.value }}",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "163520046949622558": {
-      "type": "image-with-text",
-      "blocks": {
-        "163520046949622558-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.headline2.value }}"
-          }
-        },
-        "163520046949622558-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph2 | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "163520046949622558-0",
-        "163520046949622558-1"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image2.value }}",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "16352007448c39f051": {
-      "type": "image-with-text",
-      "blocks": {
-        "16352007448c39f051-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.headline3.value }}"
-          }
-        },
-        "16352007448c39f051-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16352007448c39f051-0",
-        "16352007448c39f051-1"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image3.value }}",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "163591479253a6c41d": {
-      "type": "image-banner-interactive",
-      "blocks": {
-        "163591479253a6c41d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.headline4.value }}",
-            "heading_size": "medium"
-          }
-        },
-        "163591479253a6c41d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }}<\/p>"
-          }
-        },
-        "163591479253a6c41d-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Saturday Breakfast",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Dinner Party",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "163591479253a6c41d-0",
-        "163591479253a6c41d-1",
-        "163591479253a6c41d-2"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image4.value }}",
-        "image_2": "{{ product.metafields.my_fields.image5.value }}",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "1636000353893885f5": {
-      "type": "image-with-text",
-      "blocks": {
-        "1636000353893885f5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.headline6.value }}"
-          }
-        },
-        "1636000353893885f5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph6 | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1636000353893885f5-0",
-        "1636000353893885f5-1"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image6.value }}",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "1636083188021f8436": {
-      "type": "video2",
-      "settings": {
-        "heading": "",
-        "video": "{{ product.metafields.my_fields.video2.value }}",
-        "description": "{{ product.vendor }} {{ product.title }} Product Video",
-        "full_width": false,
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "16360008950381c4a6": {
+    "16372767243e83d044": {
       "type": "multicolumn",
       "blocks": {
-        "16360008950381c4a6-0": {
+        "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.my_fields.image7.value }}",
-            "title": "{{ product.metafields.my_fields.headline7.value }}",
-            "text": "<p>{{ product.metafields.my_fields.paragraph7 | metafield_tag }}<\/p>"
+            "image": "shopify:\/\/shop_images\/00_Clean-US-with-pack_2_1500x_e22f79bf-43c2-4d3a-b73f-be3745f7d10c.jpg",
+            "title": "LIFX Clean",
+            "text": ""
           }
         },
-        "16360008950381c4a6-1": {
+        "1637276724eb92fe7d-1": {
           "type": "column",
           "settings": {
-            "image": "{{ product.metafields.my_fields.image8.value }}",
-            "title": "{{ product.metafields.my_fields.headline8.value }}",
-            "text": "<p>{{ product.metafields.my_fields.paragraph8 | metafield_tag }}<\/p>"
+            "image": "shopify:\/\/shop_images\/00_Lightstrip_2m_Packaging_US_1100x_ae108fc6-5dd2-4a58-b838-3b0c682e29fd.jpg",
+            "title": "LIFX Lightstrip 80\"",
+            "text": ""
+          }
+        },
+        "1637276724eb92fe7d-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/00_LIFX_Lightstrip_Extension_40_US_1500x_7112e6a4-0867-4c41-a91a-a9d333b24095.jpg",
+            "title": "LIFX Lightstrip Extension 40\"",
+            "text": ""
           }
         }
       },
       "block_order": [
-        "16360008950381c4a6-0",
-        "16360008950381c4a6-1"
+        "1637276724eb92fe7d-0",
+        "1637276724eb92fe7d-1",
+        "1637276724eb92fe7d-2"
       ],
       "settings": {
-        "title": "",
+        "title": "What's included",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -443,14 +262,7 @@
   },
   "order": [
     "main",
-    "16360050346d3b64a8",
-    "163514216916abed30",
-    "163520046949622558",
-    "16352007448c39f051",
-    "163591479253a6c41d",
-    "1636000353893885f5",
-    "1636083188021f8436",
-    "16360008950381c4a6",
+    "16372767243e83d044",
     "1635139699342ea047",
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
