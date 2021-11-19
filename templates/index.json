@@ -1,5 +1,58 @@
 {
   "sections": {
+    "1637303605c96e1715": {
+      "type": "image-banner",
+      "blocks": {
+        "163730360579fec9c4-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "163730360579fec9c4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "163730360579fec9c4-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "163730360579fec9c4-0",
+        "163730360579fec9c4-1",
+        "163730360579fec9c4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BlackFridayBanner-05.png",
+        "adapt_height_first_image": false,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "shopify:\/\/pages\/black-friday",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
     "16360812376e144b22": {
       "type": "video2",
       "settings": {
@@ -309,62 +362,10 @@
         "color_scheme": "inverse",
         "full_width": true
       }
-    },
-    "1637303605c96e1715": {
-      "type": "image-banner",
-      "blocks": {
-        "163730360579fec9c4-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "163730360579fec9c4-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "163730360579fec9c4-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "163730360579fec9c4-0",
-        "163730360579fec9c4-1",
-        "163730360579fec9c4-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/BlackFridayBanner-05.png",
-        "adapt_height_first_image": false,
-        "banner_height_overide": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "banner_url": "shopify:\/\/pages\/black-friday",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": true
-      }
     }
   },
   "order": [
+    "1637303605c96e1715",
     "16360812376e144b22",
     "1634272844a70d2ca1",
     "1632116257dff5145e",
@@ -373,7 +374,6 @@
     "16371499188aae96be",
     "16360916891de3101c",
     "1632107311c762a72c",
-    "163210701498163fc8",
-    "1637303605c96e1715"
+    "163210701498163fc8"
   ]
 }
