@@ -26,7 +26,7 @@
         "collection": "homepage",
         "products_to_show": 8,
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": true,
