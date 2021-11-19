@@ -328,6 +328,25 @@
         "color_scheme": "inverse",
         "full_width": true
       }
+    },
+    "1637308459c735f146": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BlackFridayBanner-06.png",
+        "adapt_height_first_image": true,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "shopify:\/\/pages\/black-friday",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
     }
   },
   "order": [
@@ -340,6 +359,7 @@
     "16321870964a1d4c89",
     "16371499188aae96be",
     "16360916891de3101c",
-    "163210701498163fc8"
+    "163210701498163fc8",
+    "1637308459c735f146"
   ]
 }
