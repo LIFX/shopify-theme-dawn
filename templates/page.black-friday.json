@@ -8,44 +8,10 @@
     },
     "1637305247ab6fe722": {
       "type": "image-banner",
-      "blocks": {
-        "163730524603eef426-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "163730524603eef426-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "163730524603eef426-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "163730524603eef426-0",
-        "163730524603eef426-1",
-        "163730524603eef426-2"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/BlackFridayBanner-05.png",
-        "adapt_height_first_image": false,
-        "banner_height_overide": false,
+        "adapt_height_first_image": true,
+        "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": false,
