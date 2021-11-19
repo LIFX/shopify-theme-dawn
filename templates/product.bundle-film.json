@@ -78,22 +78,25 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "title": "LIFX Clean",
-            "text": "<p>Let's be honest, manual cleaning is a drag. Which is why we made LIFX Clean. By using our app to schedule a Clean Cycle, LIFX Clean can make your daily routine a bit more automatic. <\/p>"
+            "image": "shopify:\/\/shop_images\/00_1PACK_LIFX_Color_Image_Hero_US_1100x_2b4cbf98-20bc-40e6-9d82-34e8825d70a1.jpg",
+            "title": "LIFX Color",
+            "text": "<p>A compact smart light that packs a serious 800 lumen punch. The LIFX Color features billions of colors as well as a huge cool-to-warm range of whites. And for anyone who loves an upgrade, take advantage of endless integration options.<\/p>"
           }
         },
         "1637276724eb92fe7d-1": {
           "type": "column",
           "settings": {
-            "title": "LIFX Lightstrip 80\"",
-            "text": "<p>A flexible 80\" lightstrip, for highlights and multicoloured layouts. Features Polychrome Technology: 8 addressable color zones per light strip, and millions of colours.<\/p>"
+            "image": "shopify:\/\/shop_images\/Single_flic.png",
+            "title": "Flic Button",
+            "text": "<p>Instead of apps or voice commands; push a button. The new Flic 2 Smart Button is simple to set-up in the app and even simpler to use. Connect to the Flic App or to the Flic Hub for thousands of possibilities.<\/p>"
           }
         },
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
-            "title": "LIFX Lightstrip Extension 40\"",
-            "text": "<p>Extend and customise your existing LIFX Lightstrip or LIFX Z up to 33 feet in length. Compatible with all LIFX LED lightstrips.<\/p>"
+            "image": "shopify:\/\/shop_images\/00_Lightstrip_ZTV_Packaging_Hero_1500x_e96a7aa0-2457-43ac-9113-23c0ee4951b5.jpg",
+            "title": "LIFX Z-TV Lightstrip",
+            "text": "<p>A flexible 40\" lightstrip, for highlights and color zone layouts. Features Polychrome Technology: 8 addressable zones per light strip, and millions of colors. Add more 40\" lightstrip extensions for the perfect installation.<\/p>"
           }
         }
       },
@@ -116,7 +119,7 @@
     "163727672724969a9b": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGAMING_LandingPage-1.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-2.png",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
