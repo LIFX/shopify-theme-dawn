@@ -112,7 +112,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-1.png",
-        "height": "small",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
         "website_au": true,
@@ -142,7 +142,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-2.png",
-        "height": "small",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
         "website_au": true,
