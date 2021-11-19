@@ -2,11 +2,97 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "1637305247ab6fe722": {
+      "type": "image-banner",
+      "blocks": {
+        "163730524603eef426-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "163730524603eef426-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "163730524603eef426-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "163730524603eef426-0",
+        "163730524603eef426-1",
+        "163730524603eef426-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BlackFridayBanner-05.png",
+        "adapt_height_first_image": false,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": false,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "163730514086a2e8b9": {
+      "type": "newsletter",
+      "blocks": {
+        "163730514038d10879-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sign up for exclusive deals and offers fro Black Friday"
+          }
+        },
+        "163730514038d10879-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Make sure you are signed up to our mailing list to be the first to know when our Black Friday deals go live.<\/p>"
+          }
+        },
+        "163730514038d10879-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "163730514038d10879-0",
+        "163730514038d10879-1",
+        "163730514038d10879-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1637305247ab6fe722",
+    "163730514086a2e8b9"
   ]
 }
