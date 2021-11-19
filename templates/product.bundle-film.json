@@ -32,14 +32,14 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$189.97<\/s> <span class=\"price-item price-item--sale\">$109.00<\/span><br><strong><span style=\"color:red\">Save $80.97<\/span><\/strong>",
+            "text": "<s class=\"price-item price-item--regular\">$169.96<\/s> <span class=\"price-item price-item--sale\">$99.00<\/span><br><strong><span style=\"color:red\">Save $70.96<\/span><\/strong>",
             "text_style": "subtitle"
           }
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>1 x LIFX Clean E26<br>1 x LIFX Lightstrip 80\"<br>1 x LIFX Lightstrip Extension 40\"<br>",
+            "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Color E26<br>1 x Flic Button<br>1 x LIFX Z-TV Lightstrip<br>",
             "text_style": "body"
           }
         },
@@ -78,7 +78,6 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_Clean-US-with-pack_2_1500x_e22f79bf-43c2-4d3a-b73f-be3745f7d10c.jpg",
             "title": "LIFX Clean",
             "text": "<p>Let's be honest, manual cleaning is a drag. Which is why we made LIFX Clean. By using our app to schedule a Clean Cycle, LIFX Clean can make your daily routine a bit more automatic. <\/p>"
           }
@@ -86,7 +85,6 @@
         "1637276724eb92fe7d-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_Lightstrip_2m_Packaging_US_1100x_ae108fc6-5dd2-4a58-b838-3b0c682e29fd.jpg",
             "title": "LIFX Lightstrip 80\"",
             "text": "<p>A flexible 80\" lightstrip, for highlights and multicoloured layouts. Features Polychrome Technology: 8 addressable color zones per light strip, and millions of colours.<\/p>"
           }
@@ -94,7 +92,6 @@
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_LIFX_Lightstrip_Extension_40_US_1500x_7112e6a4-0867-4c41-a91a-a9d333b24095.jpg",
             "title": "LIFX Lightstrip Extension 40\"",
             "text": "<p>Extend and customise your existing LIFX Lightstrip or LIFX Z up to 33 feet in length. Compatible with all LIFX LED lightstrips.<\/p>"
           }
