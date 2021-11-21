@@ -2,6 +2,7 @@
   "sections": {
     "1637303605c96e1715": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/BlackFridayBanner-05.png",
         "adapt_height_first_image": true,
@@ -22,10 +23,10 @@
     "1632107311c762a72c": {
       "type": "featured-collection",
       "settings": {
-        "title": "Most Popular Products",
-        "collection": "homepage",
-        "products_to_show": 8,
-        "show_view_all": false,
+        "title": "Black Friday Sales",
+        "collection": "all",
+        "products_to_show": 12,
+        "show_view_all": true,
         "swipe_on_mobile": true,
         "image_ratio": "adapt",
         "show_secondary_image": false,
