@@ -151,25 +151,6 @@
         "website_us": true
       }
     },
-    "1636669211f74edc9f": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGYM_LandingPage-1.png",
-        "adapt_height_first_image": true,
-        "banner_height_overide": true,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "banner_url": "shopify:\/\/products\/lifx-beam",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "163713097358226e78": {
       "type": "image-with-text",
       "blocks": {
@@ -203,7 +184,26 @@
         "image": "shopify:\/\/shop_images\/Image__Half_PageGYM_LandingPage-3.png",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1636669211f74edc9f": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGYM_LandingPage-1.png",
+        "adapt_height_first_image": true,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "shopify:\/\/products\/lifx-beam",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -233,7 +233,7 @@
         "image": "shopify:\/\/shop_images\/Image__Half_PageGYM_LandingPage-4.png",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first",
+        "layout": "text_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -271,7 +271,7 @@
         "image": "shopify:\/\/shop_images\/Image__Half_PageGYM_LandingPage-5.png",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first",
+        "layout": "image_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -302,8 +302,8 @@
     "163659042404b146d6",
     "16365904458bd56849",
     "1636668145624ae670",
-    "1636669211f74edc9f",
     "163713097358226e78",
+    "1636669211f74edc9f",
     "1636668228a95c58ba",
     "1636668306eac773e6",
     "163666830970378b77"
