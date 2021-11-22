@@ -35,7 +35,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/BlackFridayBanner-02.png",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
@@ -48,6 +48,18 @@
         "website_au": true,
         "website_ukeu": false,
         "website_us": false
+      }
+    },
+    "16360812376e144b22": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/lifx_low.mp4?v=1620198850",
+        "description": "Just another smart light?",
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1637303605c96e1715": {
@@ -83,18 +95,6 @@
         "show_image_outline": true,
         "show_vendor": true,
         "show_rating": false
-      }
-    },
-    "16360812376e144b22": {
-      "type": "video2",
-      "settings": {
-        "heading": "",
-        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/lifx_low.mp4?v=1620198850",
-        "description": "Just another smart light?",
-        "full_width": true,
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
       }
     },
     "1634272844a70d2ca1": {
@@ -382,9 +382,9 @@
   },
   "order": [
     "1637546869f1304ff3",
+    "16360812376e144b22",
     "1637303605c96e1715",
     "1632107311c762a72c",
-    "16360812376e144b22",
     "1634272844a70d2ca1",
     "1632116257dff5145e",
     "16364397572cc0a070",
