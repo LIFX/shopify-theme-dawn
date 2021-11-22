@@ -9,13 +9,13 @@
     "16373030558c092280": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGAMING_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Hero-Module---Full-Span-Image-DividerAll-Collection-2.png",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
-        "banner_url": "",
+        "banner_url": "shopify:\/\/collections\/avid-gamers",
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -27,48 +27,14 @@
     },
     "1637542426fa15b390": {
       "type": "image-banner",
-      "blocks": {
-        "16375424260a108a75-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "16375424260a108a75-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "16375424260a108a75-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16375424260a108a75-0",
-        "16375424260a108a75-1",
-        "16375424260a108a75-2"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGYM_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Hero-Module---Full-Span-Image-DividerAll-Collection-4.png",
         "adapt_height_first_image": false,
-        "banner_height_overide": false,
+        "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
-        "banner_url": "",
+        "banner_url": "shopify:\/\/collections\/cardio-crushers-lifting-legends",
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -80,48 +46,14 @@
     },
     "16375423794b421698": {
       "type": "image-banner",
-      "blocks": {
-        "1637542379d799d814-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "1637542379d799d814-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "1637542379d799d814-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1637542379d799d814-0",
-        "1637542379d799d814-1",
-        "1637542379d799d814-2"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerCONTENTCREATORS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Hero-Module---Full-Span-Image-DividerAll-Collection-6.png",
         "adapt_height_first_image": false,
-        "banner_height_overide": false,
+        "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
-        "banner_url": "",
+        "banner_url": "shopify:\/\/collections\/content-creators",
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -152,48 +84,14 @@
     },
     "163730288419cba2d0": {
       "type": "image-banner",
-      "blocks": {
-        "586a81dc-3c47-4a97-822b-9feb30e35494": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Proud Parents",
-            "heading_size": "medium"
-          }
-        },
-        "cb39cd25-2be7-42f3-84dc-c8596fc60413": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "6a747d29-758c-4e45-b505-2a96000f75d0": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Gift Guide",
-            "button_link_1": "shopify:\/\/collections\/proud-parents",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "586a81dc-3c47-4a97-822b-9feb30e35494",
-        "cb39cd25-2be7-42f3-84dc-c8596fc60413",
-        "6a747d29-758c-4e45-b505-2a96000f75d0"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerPARENTS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Hero-Module---Full-Span-Image-DividerAll-Collection-7.png",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "left",
         "show_text_box": true,
-        "banner_url": "",
+        "banner_url": "shopify:\/\/collections\/proud-parents",
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -206,13 +104,13 @@
     "163754194679258e0b": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerSIDEHUSTLERS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Hero-Module---Full-Span-Image-DividerAll-Collection-5.png",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
-        "banner_url": "",
+        "banner_url": "shopify:\/\/collections\/side-hustlers",
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -224,44 +122,10 @@
     },
     "1637542338caaf2594": {
       "type": "image-banner",
-      "blocks": {
-        "163754233816ce81f9-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "163754233816ce81f9-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "163754233816ce81f9-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "163754233816ce81f9-0",
-        "163754233816ce81f9-1",
-        "163754233816ce81f9-2"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerSLEEP_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Hero-Module---Full-Span-Image-DividerAll-Collection-1.png",
         "adapt_height_first_image": false,
-        "banner_height_overide": false,
+        "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
