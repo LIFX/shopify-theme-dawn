@@ -54,7 +54,6 @@
         "1637546869530fc25f-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_Homepage_BLACKFRIDAYSALE_Module-05.png",
         "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
@@ -134,8 +133,8 @@
         "show_text_below": true,
         "crop_image_alignment": "center",
         "website_au": true,
-        "website_ukeu": false,
-        "website_us": false
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "16360916891de3101c": {
