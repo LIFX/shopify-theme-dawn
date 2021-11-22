@@ -13,7 +13,7 @@
         "1637546869530fc25f-1": {
           "type": "text",
           "settings": {
-            "text": "Save 20% off the entire LIFX Range. Shop products below or browse the LIFX Gift Guides."
+            "text": "Save 20% off the entire LIFX Range."
           }
         },
         "1637546869530fc25f-2": {
@@ -22,8 +22,8 @@
             "button_label_1": "Shop Now",
             "button_link_1": "shopify:\/\/collections\/black-friday-sale",
             "button_style_secondary_1": false,
-            "button_label_2": "Gift Guides",
-            "button_link_2": "shopify:\/\/pages\/gift-guide",
+            "button_label_2": "",
+            "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
