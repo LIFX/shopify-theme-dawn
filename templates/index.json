@@ -112,8 +112,8 @@
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
+        "website_ukeu": false,
+        "website_us": false
       }
     },
     "16360916891de3101c": {
