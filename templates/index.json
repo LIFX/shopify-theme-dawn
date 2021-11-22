@@ -1,10 +1,41 @@
 {
   "sections": {
-    "163754045210f74bbd": {
+    "1637546869f1304ff3": {
       "type": "image-banner",
+      "blocks": {
+        "1637546869530fc25f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Black Friday Sale",
+            "heading_size": "medium"
+          }
+        },
+        "1637546869530fc25f-1": {
+          "type": "text",
+          "settings": {
+            "text": "Save 20% off the entire LIFX Range. Shop products below or browse the LIFX Gift Guides."
+          }
+        },
+        "1637546869530fc25f-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View Sale",
+            "button_link_1": "shopify:\/\/collections\/black-friday-sale",
+            "button_style_secondary_1": false,
+            "button_label_2": "Gift Guides",
+            "button_link_2": "shopify:\/\/pages\/gift-guide",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1637546869530fc25f-0",
+        "1637546869530fc25f-1",
+        "1637546869530fc25f-2"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_Homepage_BLACKFRIDAYSALE_20Percent_Module-01.png",
-        "adapt_height_first_image": true,
+        "image": "shopify:\/\/shop_images\/BlackFridayBanner-02.png",
+        "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
@@ -350,7 +381,7 @@
     }
   },
   "order": [
-    "163754045210f74bbd",
+    "1637546869f1304ff3",
     "1637303605c96e1715",
     "1632107311c762a72c",
     "16360812376e144b22",
