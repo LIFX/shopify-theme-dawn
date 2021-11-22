@@ -60,7 +60,8 @@
         width="{{ section.settings.image.width }}"
         height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
         {% if section.settings.image_2 != blank %}class="banner__media-image-half"{% endif %}
-      >
+ {% if section.settings.crop_image_alignment == 'left' %}style="object-position: left center;"{% elsif section.settings.crop_image_alignment == 'right' %}style="object-position: left center;"{%endif%}
+>
 
     </div>
 
