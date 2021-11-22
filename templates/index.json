@@ -21,7 +21,6 @@
     },
     "1637303605c96e1715": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/BlackFridayBanner-05.png",
         "adapt_height_first_image": true,
