@@ -35,7 +35,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/BlackFridayBanner-02.png",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
@@ -270,7 +270,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX_Homepage_EYES_Module-01.jpg",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "left",
@@ -333,7 +333,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX_Homepage_COLOR_Module-02.jpg",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "right",
