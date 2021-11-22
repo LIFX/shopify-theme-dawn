@@ -6,6 +6,42 @@
       "settings": {
       }
     },
+    "1637549199979b37c9": {
+      "type": "rich-text",
+      "blocks": {
+        "1637549199321dd93b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gift guides tailored to your loved ones",
+            "heading_size": "h0"
+          }
+        },
+        "1637549199321dd93b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don't stress over what to get your special someone this year - we've done the heavy lifting for you. Whether they love a movie night or a restful night, we've got great deals on gifts that'll light up their worlds. Just dive into the guide that suits their interests best for the perfect gift this holiday season. <\/p>"
+          }
+        },
+        "1637549199321dd93b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1637549199321dd93b-0",
+        "1637549199321dd93b-1",
+        "1637549199321dd93b-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "16373030558c092280": {
       "type": "image-banner",
       "settings": {
@@ -142,6 +178,7 @@
   },
   "order": [
     "main",
+    "1637549199979b37c9",
     "16373030558c092280",
     "1637542426fa15b390",
     "16375423794b421698",
