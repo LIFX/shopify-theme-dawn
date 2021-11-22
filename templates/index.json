@@ -34,7 +34,7 @@
         "1637546869530fc25f-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BlackFridayBanner-02.png",
+        "image": "shopify:\/\/shop_images\/LIFX_Homepage_BLACKFRIDAYSALE_Module-05.png",
         "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
@@ -45,6 +45,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "left",
         "website_au": true,
         "website_ukeu": false,
         "website_us": false
@@ -111,6 +112,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": false,
         "website_us": false
@@ -180,6 +182,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": false,
         "website_ukeu": true,
         "website_us": true
@@ -230,6 +233,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -280,6 +284,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -343,6 +348,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
         "website_us": false
@@ -393,6 +399,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": false,
         "website_ukeu": false,
         "website_us": true
