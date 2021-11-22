@@ -107,7 +107,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Gift Guides",
-            "button_link_1": "shopify:\/\/pages\/gift-guide",
+            "button_link_1": "shopify:\/\/pages\/gift-guides",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
