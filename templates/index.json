@@ -38,7 +38,7 @@
         "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
+        "desktop_box_alignment": "right",
         "show_text_box": true,
         "banner_url": "",
         "image_overlay_opacity": 0,
