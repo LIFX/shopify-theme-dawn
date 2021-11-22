@@ -969,6 +969,18 @@
         "image_2": {
           "label": "Second image"
         },
+        "crop_image_alignment": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Image Banner crop alignment for Mobile"
+        },
         "desktop_text_box_position": {
           "options__1": {
             "label": "Top"
