@@ -3,7 +3,7 @@
     "16373095444a38a2cb": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BlackFridayBanner-05.png",
+        "image": "shopify:\/\/shop_images\/BlackFridayBanner-05.jpg",
         "adapt_height_first_image": true,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
@@ -14,6 +14,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
