@@ -64,6 +64,13 @@
             "show_dynamic_checkout": true
           }
         },
+        "6ff3d714-2463-4ba6-b88c-0da62d9f2f15": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{% if product.available == false %}\n<span class=\"button\" aria-hidden=\"true\" style=\"margin:0px;width:100%\">Buy at Amazon<\/span>\n{% endif %}"
+          }
+        },
         "cc97d592-9b20-4527-a8a5-12629e27c6cc": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -131,6 +138,7 @@
         "quantity_selector",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "buy_buttons",
+        "6ff3d714-2463-4ba6-b88c-0da62d9f2f15",
         "cc97d592-9b20-4527-a8a5-12629e27c6cc",
         "description",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
@@ -149,7 +157,10 @@
         "heading": "",
         "video": "{{ product.metafields.my_fields.video1.value }}",
         "description": "{{ product.vendor }} {{ product.title }}",
-        "full_width": false
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163514216916abed30": {
@@ -324,7 +335,10 @@
         "heading": "",
         "video": "{{ product.metafields.my_fields.video2.value }}",
         "description": "{{ product.vendor }} {{ product.title }} Product Video",
-        "full_width": false
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "16360008950381c4a6": {
