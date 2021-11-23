@@ -32,21 +32,21 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$169.96<\/s> <span class=\"price-item price-item--sale\">$99.00<\/span><br><strong><span style=\"color:red\">Save $70.96<\/span><\/strong>",
+            "text": "<s class=\"price-item price-item--regular\">$194.97<\/s> <span class=\"price-item price-item--sale\">$109.00<\/span><br><strong><span style=\"color:red\">Save $85.97<\/span><\/strong>",
             "text_style": "subtitle"
           }
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Color E26<br>1 x Flic Button<br>1 x LIFX Z-TV Lightstrip<br>",
+            "text": "<strong>Bundle Includes:<\/strong><br>1 x LIFX Clean 1100lm E26<br>1 x LIFX Lightstrip 80\"<br>1 x LIFX Color 800lm E26<br>",
             "text_style": "body"
           }
         },
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.available%}<a href=\"https:\/\/www.lifx.com\/cart\/add?id[]=41356490440885&id[]=41356490473653&id[]=41356490506421\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out\n<\/button>{% endif %}"
+            "custom_liquid": "{% if product.available%}<a href=\"https:\/\/www.lifx.com\/cart\/add?id[]= 41356490440885&id[]=41356490473653&id[]=41356490506421\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
@@ -130,6 +130,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
