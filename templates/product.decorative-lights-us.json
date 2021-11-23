@@ -34,13 +34,6 @@
           "settings": {
           }
         },
-        "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{%assign amazon_affiliate = product.metafields.my_fields.amazon_affiliate %} {%assign amazon_affiliate_fr = product.metafields.my_fields.fr_amazon_affiliate %} {%assign amazon_affiliate_de = product.metafields.my_fields.de_amazon_affiliate %}  <div id=\"AMZ_UK\" style=\"display:none\">\n  {% if amazon_affiliate %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\"> Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate }}\" class=\"mobile_external\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n<\/div>\n\n<div id=\"AMZ_DE\" style=\"display:none\"> \n  {% if amazon_affiliate_de %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\">Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate_de }}\" class=\"mobile_external\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n <\/div>  \n<div id=\"AMZ_FR\" style=\"display:none\"> \n  {% if amazon_affiliate_fr %}\n  <label class=\"form__label\" style=\"margin-bottom:0px\">Available at:<\/label>\n  <label>\n    <a href=\"{{ amazon_affiliate_fr }}\" class=\"mobile_external\" target=\"_blank\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/t\/21\/assets\/favicon_amazon.ico?v=1629853280\" width=\"16px\" height=\"16px\" style=\"vertical-align:middle;margin-right:5px\"><span class=\"form__label\" style=\"display:inherit\">Amazon<\/span><\/span><\/a>\n<span class=\"form__label\" style=\"display:inherit\">\n     {{ product.price | money_with_currency }}\n  <\/label>\n  {% endif %}\n  <\/div>\n     \n<script type=\"text\/javascript\">\nif(location.hostname == \"lifxshop.co.uk\"){ document.getElementById(\"AMZ_UK\").style.display = \"\";\n} else if (location.hostname == \"lifxshop.de\") { document.getElementById(\"AMZ_DE\").style.display = \"\";\n} else if (location.hostname == \"lifxshop.fr\") { document.getElementById(\"AMZ_FR\").style.display = \"\";\n}\n<\/script>"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -64,45 +57,31 @@
             "show_dynamic_checkout": true
           }
         },
-        "cc97d592-9b20-4527-a8a5-12629e27c6cc": {
-          "type": "collapsible_tab",
-          "disabled": true,
+        "4fbfe244-48ae-4528-bfcd-83e94a326141": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Available at Amazon",
-            "content": "",
-            "page": "amazon-colour-1000-links",
-            "icon": "price_tag"
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
+            "custom_liquid": "{% if product.available == false and request.host == 'lifx.myshopify.com' or  request.host == 'www.lifx.com'  %}\n{% if product.metafields.my_fields.us_amazon_affiliate %}<a href=\"{{ product.metafields.my_fields.us_amazon_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin:0px;width:100%\">Buy at Amazon<\/span><\/a>{% endif %}\n{% if product.metafields.my_fields.us_bestbuy_affiliate %}<a href=\"{{ product.metafields.my_fields.us_bestbuy_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-top:10px;width:100%\">Buy at Best Buy<\/span><\/a>{% endif %}\n{% endif %}"
           }
         },
         "88e15617-7a01-4dae-92e8-6e255e65fba0": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Specifications",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
             "content": "<p><strong>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }}W at full brightness<br\/><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/><strong>Voltage Range:<\/strong> AC 100-240V 50\/60 Hz<br\/><strong>Color Temperature:<\/strong> 16 million colors plus daylight tones<br\/><strong>Dimming:<\/strong> Software dimming 1% -100%<br\/><strong>Wi-Fi:<\/strong> 2.4GHz<br\/><strong>Security:<\/strong> WPA, WPA2<br\/><strong>Dims:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
             "page": "",
             "icon": "question_mark"
-          }
-        },
-        "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Energy Labels",
-            "content": "",
-            "page": "{{ product.metafields.my_fields.eprel_labels.value }}",
-            "icon": "leaf"
           }
         },
         "76f2877b-9463-4ca3-a71e-982cd31af6da": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Bulk Order Enquiry",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
             "content": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <a href=\"\/pages\/bulk-order-enquiry\" title=\"Bulk Order Enquiry\">Enquire today<\/a> <\/p>",
             "page": "",
             "icon": "box"
@@ -115,15 +94,12 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "price",
-        "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf",
         "variant_picker",
         "quantity_selector",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "buy_buttons",
-        "cc97d592-9b20-4527-a8a5-12629e27c6cc",
-        "description",
+        "4fbfe244-48ae-4528-bfcd-83e94a326141",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
-        "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
         "76f2877b-9463-4ca3-a71e-982cd31af6da"
       ],
       "settings": {
@@ -138,7 +114,10 @@
         "heading": "",
         "video": "{{ product.metafields.my_fields.video1.value }}",
         "description": "{{ product.vendor }} {{ product.title }}",
-        "full_width": false
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163514216916abed30": {
@@ -313,7 +292,10 @@
         "heading": "",
         "video": "{{ product.metafields.my_fields.video2.value }}",
         "description": "{{ product.vendor }} {{ product.title }} Product Video",
-        "full_width": false
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "16360008950381c4a6": {
