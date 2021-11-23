@@ -118,6 +118,18 @@
             "page": "",
             "icon": "box"
           }
+        },
+        "71c921ba-4926-4ef1-bef7-25d6a457fac7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Antimicrobial Efficacy Test",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
+            "content": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/QL20343-2A_An_Evaluation_of_the_Antimicrobial_Efficacy_of_HEV_Light_Report_FINAL.pdf?v=1614653165\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/QL20343-2A_An_Evaluation_of_the_Antimicrobial_Efficacy_of_HEV_Light_Report_FINAL.pdf?v=1614653165\">An Evaluation of the Antimicrobial Efficacy of HEV Light<\/a><\/p>",
+            "page": "",
+            "icon": "washing"
+          }
         }
       },
       "block_order": [
@@ -135,7 +147,8 @@
         "description",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
-        "76f2877b-9463-4ca3-a71e-982cd31af6da"
+        "76f2877b-9463-4ca3-a71e-982cd31af6da",
+        "71c921ba-4926-4ef1-bef7-25d6a457fac7"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -149,7 +162,10 @@
         "heading": "",
         "video": "{{ product.metafields.my_fields.video1.value }}",
         "description": "{{ product.vendor }} {{ product.title }}",
-        "full_width": false
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163514216916abed30": {
@@ -324,7 +340,10 @@
         "heading": "",
         "video": "{{ product.metafields.my_fields.video2.value }}",
         "description": "{{ product.vendor }} {{ product.title }} Product Video",
-        "full_width": false
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "16360008950381c4a6": {
