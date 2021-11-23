@@ -15,7 +15,7 @@
     "social_youtube_link": "https:\/\/www.youtube.com\/c\/LifxCo",
     "predictive_search_enabled": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/favicon_331514dd-42ef-40b6-ad13-cdddbf54e944.png",
+    "favicon": "shopify:\/\/shop_images\/LIFX_Favicon.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -34,13 +34,16 @@
           "announcement-bar-0"
         ],
         "settings": {
+          "website_au": true,
+          "website_ukeu": true,
+          "website_us": true
         }
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/LIFX_logo.png",
+          "logo": "shopify:\/\/shop_images\/lifx_logo.png",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
