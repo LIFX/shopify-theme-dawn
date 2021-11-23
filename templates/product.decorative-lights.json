@@ -57,12 +57,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "311c2b9f-534f-4079-abea-f4387155912f": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.available == false and request.host == 'lifx.myshopify.com' or  request.host == 'www.lifx.com'  %}\n{% if product.metafields.my_fields.us_amazon_affiliate %}<a href=\"{{ product.metafields.my_fields.us_amazon_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin:0px;width:100%\">Buy at Amazon<\/span><\/a>{% endif %}\n{% if product.metafields.my_fields.us_bestbuy_affiliate %}<a href=\"{{ product.metafields.my_fields.us_bestbuy_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-top:10px;width:100%\">Buy at Best Buy<\/span><\/a>{% endif %}\n{% endif %}"
-          }
-        },
         "88e15617-7a01-4dae-92e8-6e255e65fba0": {
           "type": "collapsible_tab",
           "settings": {
@@ -110,7 +104,6 @@
         "quantity_selector",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "buy_buttons",
-        "311c2b9f-534f-4079-abea-f4387155912f",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
         "76f2877b-9463-4ca3-a71e-982cd31af6da"
