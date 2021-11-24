@@ -51,20 +51,7 @@
          {% if product.tags contains "BFCM" %}
          {% if product.handle == "bundle" %}
 
-  <div class="price  price--on-sale ">
-  <dl>
-    <div class="price__sale">
-      
-      <dd class="price__compare">
-        <s class="price-item price-item--regular">€80,00</s>
-      </dd>
-      
-      <dd>
-        <span class="price-item price-item--sale">€50,00</span>
-      </dd>
-    </div>
-    
-  </dl></div>
+{{ product.price | money }} {{ compare_at_price | money }}
           
           
           
