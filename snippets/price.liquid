@@ -51,8 +51,8 @@
          {% if product.tags contains "BFCM" %}
          {% if product.handle == "bundle" %}
 
-        {% for variant in product.variants %}
- {{ variant.price }}
+        {% for variant in product.variants limit:1 %}
+ {{ variant.price | money }} {{ variant.compare_at_price | money }}
 {% endfor %}
           
           
