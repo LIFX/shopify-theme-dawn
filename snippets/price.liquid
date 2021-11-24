@@ -48,7 +48,49 @@
       </dt>
       <dd {% if show_badges == false %}class="price__last"{% endif %}>
         <span class="price-item price-item--regular">
-         {% if product.tags contains "BFCM" %}{{ target.compare_at_price | money }} {{ product.price_max | money }}
+         {% if product.tags contains "BFCM" %}
+         {% if product.handle == "bundle" %}
+         <div class="price__regular">
+      <dt>
+        <span class="visually-hidden visually-hidden--inline">Regular price</span>
+      </dt>
+      <dd>
+        <span class="price-item price-item--regular">
+         €80,00 €50,00
+         
+        </span>
+      </dd>
+    </div> 
+     <div class="price__sale">
+      <dt class="price__compare">
+        <span class="visually-hidden visually-hidden--inline">Regular price</span>
+      </dt>
+      <dd class="price__compare">
+        <s class="price-item price-item--regular">
+          
+            €80,00
+          
+        </s>
+      </dd>
+      <dt>
+        <span class="visually-hidden visually-hidden--inline">Sale price</span>
+      </dt>
+      <dd>
+        <span class="price-item price-item--sale">
+          €50,00
+        </span>
+      </dd>
+    </div>     
+          
+          
+          
+          
+          
+          {% endif %}
+          
+          
+          
+          
          {% elsif product.vendor != "Amazon" %}{{ money_price }}{% endif %}
         </span>
       </dd>
