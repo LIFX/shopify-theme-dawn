@@ -51,8 +51,14 @@
          {% if product.tags contains "BFCM" %}
          {% if product.handle == "bundle" %}
 
-{{ product.variant.price }}
-          
+
+{% for variant in product %}
+  {% if forloop.first == true %}
+    First time through!
+  {% else %}
+    Not the first time.
+  {% endif %}
+{% endfor %}          
           
           
           
