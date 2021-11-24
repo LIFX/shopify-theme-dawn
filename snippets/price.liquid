@@ -52,7 +52,7 @@
          {% if product.handle == "bundle" %}
 
         {% for variant in product.variants limit:1 %}
-          <span style="text-decoration:line-through">{{ variant.price | money }}</span> {{ variant.compare_at_price | money }}
+          <span style="text-decoration:line-through">{{ variant.compare_at_price | money }}</span> {{ variant.price | money }}
 		{% endfor %}
           
           
