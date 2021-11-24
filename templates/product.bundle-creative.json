@@ -78,31 +78,22 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_1PACK_LIFX_Color_Image_Hero_US.jpg",
-            "title": "LIFX Color",
-            "text": "<p>A compact smart light that packs a serious 800 lumen punch. The LIFX Color features billions of colors as well as a huge cool-to-warm range of whites. And for anyone who loves an upgrade, take advantage of endless integration options.<\/p>"
-          }
-        },
-        "1637276724eb92fe7d-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Single_flic.png",
-            "title": "Flic Button",
-            "text": "<p>Instead of apps or voice commands; push a button. The new Flic 2 Smart Button is simple to set-up in the app and even simpler to use. Connect to the Flic App or to the Flic Hub for thousands of possibilities.<\/p>"
+            "image": "shopify:\/\/shop_images\/00_A19_COLOR_PDP_US_E26_500px.jpg",
+            "title": "2 x LIFX Color 1100lm E26",
+            "text": "<p>copy required<\/p>"
           }
         },
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_Lightstrip_ZTV_Packaging_Hero.jpg",
-            "title": "LIFX Z-TV Lightstrip",
-            "text": "<p>A flexible 40\" lightstrip, for highlights and color zone layouts. Features Polychrome Technology: 8 addressable zones per light strip, and millions of colors. Add more 40\" lightstrip extensions for the perfect installation.<\/p>"
+            "image": "shopify:\/\/shop_images\/00_Lightstrip_40in_Packaging_US_1100x_183f3afd-1ab0-4c71-be0b-34004e333e26.jpg",
+            "title": "LIFX Lightstrip 40\"",
+            "text": "<p>copy required<\/p>"
           }
         }
       },
       "block_order": [
         "1637276724eb92fe7d-0",
-        "1637276724eb92fe7d-1",
         "1637276724eb92fe7d-2"
       ],
       "settings": {
