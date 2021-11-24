@@ -51,7 +51,9 @@
          {% if product.tags contains "BFCM" %}
          {% if product.handle == "bundle" %}
 
-        
+        {% for variant in product.variants %}
+  - {{ variant }}
+{% endfor %}
           
           
           
