@@ -39,7 +39,7 @@
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>4 x LIFX Color 800lm E26<br>3 x Flic Buttons<br>",
+            "text": "Bundle Includes:4 x LIFX Color 800lm E263 x Flic Buttons",
             "text_style": "body"
           }
         },
@@ -88,7 +88,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Single_flic.png",
             "title": "3 x Flic Buttons",
-            "text": "<p>Copy required<\/p>"
+            "text": "<p>The Flic 2 Smart Button is simple to set up and even simpler to use. Connect Flic with your LIFX lights and in one small click activate your entire morning routine; two clicks – transition the lights to a perfect movie night; three clicks and eliminate all blue light for bed. The possibilities are endless. <\/p>"
           }
         }
       },
