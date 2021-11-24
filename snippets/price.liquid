@@ -48,7 +48,8 @@
       </dt>
       <dd {% if show_badges == false %}class="price__last"{% endif %}>
         <span class="price-item price-item--regular">
-          {% if product.vendor != "Amazon" %}{{ money_price }}{% endif %}
+         {% if product.tags contains "BFCM" %}xx
+         {% elsif product.vendor != "Amazon" %}{{ money_price }}{% endif %}
         </span>
       </dd>
     </div>
