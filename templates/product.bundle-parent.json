@@ -32,21 +32,21 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$169.96<\/s> <span class=\"price-item price-item--sale\">$99.00<\/span><br><strong><span style=\"color:red\">Save $70.96<\/span><\/strong>",
+            "text": "<s class=\"price-item price-item--regular\">$109.95<\/s> <span class=\"price-item price-item--sale\">$69.00<\/span><br><strong><span style=\"color:red\">Save $40.95<\/span><\/strong>",
             "text_style": "subtitle"
           }
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Color E26<br>1 x Flic Button<br>1 x LIFX Z-TV Lightstrip<br>",
+            "text": "<strong>Bundle Includes:<\/strong><br>4 x LIFX White 650lm E26<br>1 x LIFX Clean 1100lm E26<br>",
             "text_style": "body"
           }
         },
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.available%}<a href=\"https:\/\/www.lifx.com\/cart\/add?id[]=41356490440885&id[]=41356490473653&id[]=41356490506421\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out\n<\/button>{% endif %}"
+            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/add?id[]=41359654453429&id[]=41359654453429&id[]=41359654453429&id[]=41359654453429&id[]=41359614116021\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
@@ -79,30 +79,21 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/00_1PACK_LIFX_Color_Image_Hero_US.jpg",
-            "title": "LIFX Color",
-            "text": "<p>A compact smart light that packs a serious 800 lumen punch. The LIFX Color features billions of colors as well as a huge cool-to-warm range of whites. And for anyone who loves an upgrade, take advantage of endless integration options.<\/p>"
-          }
-        },
-        "1637276724eb92fe7d-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Single_flic.png",
-            "title": "Flic Button",
-            "text": "<p>Instead of apps or voice commands; push a button. The new Flic 2 Smart Button is simple to set-up in the app and even simpler to use. Connect to the Flic App or to the Flic Hub for thousands of possibilities.<\/p>"
+            "title": "4 x LIFX White 650lm E26",
+            "text": "<p>copy required<\/p>"
           }
         },
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/00_Lightstrip_ZTV_Packaging_Hero.jpg",
-            "title": "LIFX Z-TV Lightstrip",
-            "text": "<p>A flexible 40\" lightstrip, for highlights and color zone layouts. Features Polychrome Technology: 8 addressable zones per light strip, and millions of colors. Add more 40\" lightstrip extensions for the perfect installation.<\/p>"
+            "title": "1 x LIFX Clean 1100lm E26",
+            "text": "<p>copy required<\/p>"
           }
         }
       },
       "block_order": [
         "1637276724eb92fe7d-0",
-        "1637276724eb92fe7d-1",
         "1637276724eb92fe7d-2"
       ],
       "settings": {
