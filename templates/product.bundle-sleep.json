@@ -32,21 +32,21 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$199.97<\/s> <span class=\"price-item price-item--sale\">$119.00<\/span><br><strong><span style=\"color:red\">Save $80.97<\/span><\/strong>",
+            "text": "<s class=\"price-item price-item--regular\">$219.95<\/s> <span class=\"price-item price-item--sale\">$129.00<\/span><br><strong><span style=\"color:red\">Save $90.95<\/span><\/strong>",
             "text_style": "subtitle"
           }
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Color 800lm E26<br>3 x Flic 2 Buttons<br>",
+            "text": "<strong>Bundle Includes:<\/strong><br>4 x LIFX Color 800lm E26<br>3 x Flic 2 Buttons<br>",
             "text_style": "body"
           }
         },
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/add?id[]=41371331428533&id[]=41371331395765&id[]=41371331395765\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
+            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41371331395765]=4&updates[41371331428533]=1\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
