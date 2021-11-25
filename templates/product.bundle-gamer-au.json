@@ -43,10 +43,30 @@
             "text_style": "body"
           }
         },
+        "21a99ffa-fe04-4e71-9c06-3441a017d24f": {
+          "type": "text",
+          "settings": {
+            "text": "E27 Screw bundle option:",
+            "text_style": "body"
+          }
+        },
+        "a9e5b0c8-d664-4631-bc62-61f44ac01f74": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41356490506421]=1&updates[41356490440885]=1&updates[41356490473653]=1\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
+          }
+        },
+        "1563508b-890b-494b-b50c-174bf0dc9f36": {
+          "type": "text",
+          "settings": {
+            "text": "B22 Bayonet bundle option:",
+            "text_style": "body"
+          }
+        },
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41356490506421]=1&updates[41356490440885]=1&updates[41356490473653]=1\" class=\"button\" style=\"width:100%\">E27 Screw - Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}\n{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41356490506421]=1&updates[41356490440885]=1&updates[41356490473653]=1\" class=\"button\" style=\"width:100%\">B22 Bayonet - Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
+            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41356490506421]=1&updates[41356490440885]=1&updates[41356490473653]=1\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
@@ -75,6 +95,9 @@
         "subtitle",
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
+        "21a99ffa-fe04-4e71-9c06-3441a017d24f",
+        "a9e5b0c8-d664-4631-bc62-61f44ac01f74",
+        "1563508b-890b-494b-b50c-174bf0dc9f36",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "23c27ce0-623f-4053-a182-025876e06583"
