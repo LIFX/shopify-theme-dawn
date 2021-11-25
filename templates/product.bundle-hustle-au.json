@@ -32,21 +32,21 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$189.98<\/s> <span class=\"price-item price-item--sale\">$109.00<\/span><br><strong><span style=\"color:red\">Save $80.98<\/span><\/strong>",
+            "text": "<s class=\"price-item price-item--regular\">$279.97<\/s> <span class=\"price-item price-item--sale\">$179.00<\/span><br><strong><span style=\"color:red\">Save $100.97<\/span><\/strong>",
             "text_style": "subtitle"
           }
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Clean 1100lm E26<br>1 x LIFX Lightstrip 40”<br>",
+            "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Clean 1200lm E27 or B22<br>1 x LIFX Lightstrip 1m<br>",
             "text_style": "body"
           }
         },
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41359570108597]=1&updates[41359570043061]=1\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
+            "custom_liquid": "{% if product.tags contains \"BFOOS\" %}\n<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>\n{% else %}\n<style>\ninput:checked + label {\n  color: white;background-color:black;border-color:black;\n}\n.radio-button {\n  display: none;\n}\n.productFamily{     border: 1px solid; border-radius:50px; background-color:white;color:black; display: inline-block; margin-top: 5px\n; margin-bottom: 0px\n; padding: 10px 20px 10px 20px;font-size: 1.4rem; letter-spacing: .1rem; line-height: 1;text-align: center;margin-right: 6px;\n; }\n<\/style>\n\n<script>\n  function OpenWindow(){\n    for(i=0;i<document.FormName[\"RB1\"].length;i++){\n      if(document.FormName[\"RB1\"][i].checked){\n    window.open(document.FormName[\"RB1\"][i].value,\"_self\");\n    break;\n  }\n}\n  }\n<\/script>\n\n<p style=\"margin-bottom:0px\">Select fitting type:<\/p>\n\n\n\n<form name=\"FormName\" style=\"margin-top:5px\">\n    <input class=\"radio-button\" id=\"rad1\" type=\"radio\" name=\"RB1\" value=\"https:\/\/www.lifx.com.au\/cart\/update?updates[40260732551215]=1&updates[40260732518447]=2\" checked><label for=\"rad1\" class=\"productFamily\">E27 Screw<\/label>\n\n<input class=\"radio-button\" id=\"rad2\" type=\"radio\" name=\"RB1\" value=\"https:\/\/www.lifx.com.au\/cart\/update?updates[40261525012527]=1&updates[40260750770223]=2\"><label for=\"rad2\" class=\"productFamily\">B22 Bayonet<\/label>\n\n<input class=\"button\" type=\"button\" value=\"Add to Cart\" name=\"butt\" onclick=\"OpenWindow()\" style=\"width:100%;margin-top:25px\">\n  <\/form>\n\n{% endif %}"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
@@ -104,7 +104,6 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_Clean-US-with-pack-2PACK_1500x_1c671822-e126-442a-b851-52162e8db35a.jpg",
             "title": "2 x LIFX Clean 1100lm E26",
             "text": "<p>LIFX Clean is a powerful smart light that doubles as a daily disinfectant bulb. During the day, power through your workload by setting LIFX Clean to a bright white 6000K – a color temperature proven to enhance performance and improve focus. Then schedule a Clean Cycle to wipe out bacteria on your keyboard, desk, and mouse overnight while you recharge.<\/p>"
           }
@@ -112,7 +111,6 @@
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_Lightstrip_40in_Packaging_US_1100x_183f3afd-1ab0-4c71-be0b-34004e333e26.jpg",
             "title": "1 x LIFX Lightstrip 40”",
             "text": "<p>LIFX Lightstrip is a flexible LED strip with endless color options and a massive white to warm range. Place LIFX Lightstrip behind your computer for a smoother workday with bias lighting. By projecting light behind your monitor, you can not only reduce blue light intensity, but also increase the vibrant contrast of colors on your screen, and reduce eye strain, soreness, and dryness.<\/p>"
           }
