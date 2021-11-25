@@ -87,6 +87,13 @@
             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.on_sale' | t }}</span>
           {%- endif -%}
         </div>
+
+		{% if product.tags contains "BFCM" %}
+        <div class="card__badge">
+            <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.on_sale' | t }}</span>
+        </div>
+		{% endif %}
+
       </div>
     </div>
 
