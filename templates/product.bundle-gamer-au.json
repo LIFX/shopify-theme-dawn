@@ -43,30 +43,10 @@
             "text_style": "body"
           }
         },
-        "21a99ffa-fe04-4e71-9c06-3441a017d24f": {
-          "type": "text",
-          "settings": {
-            "text": "E27 Screw bundle option:",
-            "text_style": "body"
-          }
-        },
         "a9e5b0c8-d664-4631-bc62-61f44ac01f74": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41356490506421]=1&updates[41356490440885]=1&updates[41356490473653]=1\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
-          }
-        },
-        "1563508b-890b-494b-b50c-174bf0dc9f36": {
-          "type": "text",
-          "settings": {
-            "text": "B22 Bayonet bundle option:",
-            "text_style": "body"
-          }
-        },
-        "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41356490506421]=1&updates[41356490440885]=1&updates[41356490473653]=1\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
+            "custom_liquid": "<p>Select fitting type:<\/p>\n\n<script>\n  function OpenWindow(){\n    for(i=0;i<document.FormName[\"RB1\"].length;i++){\n      if(document.FormName[\"RB1\"][i].checked){\n    window.open(document.FormName[\"RB1\"][i].value);\n    break;\n  }\n}\n  }\n<\/script>\n\n<form name=\"FormName\">\n    <input type=\"radio\" name=\"RB1\" value=\"https:\/\/www.lifx.com.au\/\" checked>E27 Screw\n<input class=\"productFamily\" type=\"radio\" name=\"RB1\" value=\"https:\/\/www.lifx.com.au\/collections\/black-friday-sale\">B22 Bayonet\n\n<input class=\"button\" type=\"button\" value=\"Add to Cart\" name=\"butt\" style=\"width:100%;margin-top:10px\">\n  <\/form>"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
@@ -95,10 +75,7 @@
         "subtitle",
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
-        "21a99ffa-fe04-4e71-9c06-3441a017d24f",
         "a9e5b0c8-d664-4631-bc62-61f44ac01f74",
-        "1563508b-890b-494b-b50c-174bf0dc9f36",
-        "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "23c27ce0-623f-4053-a182-025876e06583"
       ],
