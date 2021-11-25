@@ -54,6 +54,30 @@
           "settings": {
             "custom_liquid": "{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}"
           }
+        },
+        "70dccf89-beae-492a-88a3-a39a6b6d1565": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
+            "content": "<p><span style=\"text-decoration:underline\"><strong>LIFX Clean 1100lm E26<\/strong><\/span><\/p><p><strong>Brightness: <\/strong>1100 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>11.5W at full brightness<br\/><strong>Wattage Eq: <\/strong>75W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>210°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>2.48in x 2.48in x 4.53in<br\/><br\/><span style=\"text-decoration:underline\"><strong>LIFX Lightstrip 80\"<br\/><\/strong><\/span><strong>Brightness: <\/strong>700 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use:<\/strong> 8.0W at full brightness<br\/><strong>Wattage Eq: <\/strong>45W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>120°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>39.37in x 0.47in x 0.16in<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "4c466455-4f50-46c4-b5ea-24b383c23526": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Antimicrobial Efficacy Test",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
+            "content": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/QL20343-2A_An_Evaluation_of_the_Antimicrobial_Efficacy_of_HEV_Light_Report_FINAL.pdf?v=1614653165\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/QL20343-2A_An_Evaluation_of_the_Antimicrobial_Efficacy_of_HEV_Light_Report_FINAL.pdf?v=1614653165\">An Evaluation of the Antimicrobial Efficacy of HEV Light<\/a><\/p>",
+            "page": "",
+            "icon": "washing"
+          }
         }
       },
       "block_order": [
@@ -64,7 +88,9 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
-        "855ad892-8e71-400d-9280-f8bc7696049f"
+        "855ad892-8e71-400d-9280-f8bc7696049f",
+        "70dccf89-beae-492a-88a3-a39a6b6d1565",
+        "4c466455-4f50-46c4-b5ea-24b383c23526"
       ],
       "settings": {
         "enable_sticky_info": true,
