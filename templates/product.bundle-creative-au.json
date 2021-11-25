@@ -32,14 +32,14 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$169.97<\/s> <span class=\"price-item price-item--sale\">$99.00<\/span><br><strong><span style=\"color:red\">Save $70.97<\/span><\/strong>",
+            "text": "<s class=\"price-item price-item--regular\">$239.97<\/s> <span class=\"price-item price-item--sale\">$149.00<\/span><br><strong><span style=\"color:red\">Save $90.97<\/span><\/strong>",
             "text_style": "subtitle"
           }
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Color 1100lm E26<br>1 x LIFX Lightstrip 40”<br>",
+            "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Colour 1200lm E27 or B22<br>1 x LIFX Lightstrip 1m<br>",
             "text_style": "body"
           }
         },
@@ -91,8 +91,8 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "title": "2 x LIFX Color 1100lm E26",
-            "text": "<p>Spotlight your branded content with the quality lighting it deserves. LIFX Color 19 is the brightest LIFX product, packing a serious 1100 lumen punch. Wow your audience with captivating visuals through endless color options, a massive range of white to warm shades, animated effects and more. <\/p>"
+            "title": "2 x LIFX Colour 1200lm",
+            "text": "<p>Spotlight your branded content with the quality lighting it deserves. LIFX Colour A60 is the brightest LIFX product, packing a serious 1200 lumen punch. Wow your audience with captivating visuals through endless colour options, a massive range of white to warm shades, animated effects and more. <\/p>"
           }
         },
         "1637276724eb92fe7d-2": {
