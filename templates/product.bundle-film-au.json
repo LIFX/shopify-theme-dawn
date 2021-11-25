@@ -32,14 +32,14 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$239.94<\/s> <span class=\"price-item price-item--sale\">$139.00<\/span><br><strong><span style=\"color:red\">Save $100.94<\/span><\/strong>",
+            "text": "<s class=\"price-item price-item--regular\">$219.97<\/s> <span class=\"price-item price-item--sale\">$129.00<\/span><br><strong><span style=\"color:red\">Save $90.97<\/span><\/strong>",
             "text_style": "subtitle"
           }
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>4 x LIFX Color 800lm E26<br>1 x Flic Buttons<br>1 x LIFX Lightstrip 40\"<br>",
+            "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Colour 1000lm E27 or B22<br>1 x LIFX Lightstrip 1m<br>",
             "text_style": "body"
           }
         },
@@ -92,22 +92,13 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/00_1PACK_LIFX_Color_Image_Hero_US.jpg",
-            "title": "4 x LIFX Color 800lm E26",
-            "text": "<p>A compact smart light that packs a serious 800 lumen punch. Use vibrant colors transport yourself into the world of your favorite movie without a trip to the cinema. Or match the cinematography style with a variety of shadows and shading to create fully immersive experience. <\/p>"
-          }
-        },
-        "1637276724eb92fe7d-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Single_flic.png",
-            "title": "1 x Flic Button",
-            "text": "<p>The Flic 2 Smart Button is simple to set up and even simpler to use. Connect Flic with your LIFX lights and in one small click, dim  for a cinematic movie night; two clicks to set colors to match the movie's genre; three clicks to turn off all lights to avoid getting out of bed. <\/p>"
+            "title": "2 x LIFX Colour 1000lm",
+            "text": "<p>A compact smart light that packs a serious 1000 lumen punch. Use vibrant colours transport yourself into the world of your favorite movie without a trip to the cinema. Or match the cinematography style with a variety of shadows and shading to create fully immersive experience. <\/p>"
           }
         },
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_Lightstrip_40in_Packaging_US_1100x_183f3afd-1ab0-4c71-be0b-34004e333e26.jpg",
             "title": "1 x LIFX Lightstrip 40\"",
             "text": "<p>A flexible LED strip with endless color options to set the mood to whatever movie you choose. Place LIFX Lightstrip behind your TV screen or entertainment unit for bias lighting that immerses you into the narrative, enhances colors and contrasts, and reduces eye strain and dryness. <\/p>"
           }
@@ -115,7 +106,6 @@
       },
       "block_order": [
         "1637276724eb92fe7d-0",
-        "1637276724eb92fe7d-1",
         "1637276724eb92fe7d-2"
       ],
       "settings": {
