@@ -497,7 +497,7 @@
       ],
       "settings": {
         "title": "Testimonials & Awards",
-        "image_width": "half",
+        "image_width": "full",
         "image_ratio": "square",
         "column_alignment": "left",
         "background_style": "primary",
