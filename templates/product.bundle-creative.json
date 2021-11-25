@@ -46,7 +46,7 @@
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41359593177269]=1&updates[41359593144501]=2\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
+            "custom_liquid": "{% if product.tags contains \"BFOOS\" %}\n<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% else %}<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41359593177269]=1&updates[41359593144501]=2\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% endif %}"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
@@ -91,7 +91,6 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_A19_COLOR_PDP_US_E26_500px.jpg",
             "title": "2 x LIFX Color 1100lm E26",
             "text": "<p>Spotlight your branded content with the quality lighting it deserves. LIFX Color 19 is the brightest LIFX product, packing a serious 1100 lumen punch. Wow your audience with captivating visuals through endless color options, a massive range of white to warm shades, animated effects and more. <\/p>"
           }
@@ -99,7 +98,6 @@
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_Lightstrip_40in_Packaging_US_1100x_183f3afd-1ab0-4c71-be0b-34004e333e26.jpg",
             "title": "1 x LIFX Lightstrip 40\"",
             "text": "<p>A flexible LED strip with endless color options to set the mood to whatever content you choose to create. With our Polychrome tech, you can customize this strip to transform your space in a way that’s completely your own. Paint colors that work together to create an ombre effect in a single light, then animate the colors to create movement effects like waves or flickers.<\/p>"
           }
