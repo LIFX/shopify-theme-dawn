@@ -54,6 +54,18 @@
           "settings": {
             "custom_liquid": "{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}"
           }
+        },
+        "e912799b-13cc-4208-a31d-9932548571da": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
+            "content": "<p><span style=\"text-decoration:underline\"><strong>LIFX Lightstrip 40\"<\/strong><\/span><\/p><p><strong>Brightness: <\/strong>700 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>8.0W at full brightness<br\/><strong>Wattage Eq: <\/strong>45W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>120°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims:<\/strong>39.37in x 0.47in x 0.16in<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
         }
       },
       "block_order": [
@@ -64,7 +76,8 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
-        "855ad892-8e71-400d-9280-f8bc7696049f"
+        "855ad892-8e71-400d-9280-f8bc7696049f",
+        "e912799b-13cc-4208-a31d-9932548571da"
       ],
       "settings": {
         "enable_sticky_info": true,
