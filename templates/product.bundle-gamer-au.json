@@ -32,21 +32,21 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$194.97<\/s> <span class=\"price-item price-item--sale\">$109.00<\/span><br><strong><span style=\"color:red\">Save $85.97<\/span><\/strong>",
+            "text": "<s class=\"price-item price-item--regular\">$259.97<\/s> <span class=\"price-item price-item--sale\">$149.00<\/span><br><strong><span style=\"color:red\">Save $110.97<\/span><\/strong>",
             "text_style": "subtitle"
           }
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>1 x LIFX Color 800lm E26<br>1 x LIFX Clean 1100lm E26<br>1 x LIFX Lightstrip 80\"<br>",
+            "text": "<strong>Bundle Includes:<\/strong><br>1 x LIFX Clean E27 Screw or B22 Bayonet<br>1 x LIFX Lightstrip 2m<br>1 x LIFX Lightstrip Extension 1m<br>",
             "text_style": "body"
           }
         },
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41356490506421]=1&updates[41356490440885]=1&updates[41356490473653]=1\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
+            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41356490506421]=1&updates[41356490440885]=1&updates[41356490473653]=1\" class=\"button\" style=\"width:100%\">E27 Screw - Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}\n{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41356490506421]=1&updates[41356490440885]=1&updates[41356490473653]=1\" class=\"button\" style=\"width:100%\">B22 Bayonet - Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
@@ -66,18 +66,6 @@
             "page": "",
             "icon": "question_mark"
           }
-        },
-        "f4b5d257-efae-4654-bac7-978a9ecd3abb": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Antimicrobial Efficacy Test",
-            "website_au": true,
-            "website_ukeu": true,
-            "website_us": true,
-            "content": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/QL20343-2A_An_Evaluation_of_the_Antimicrobial_Efficacy_of_HEV_Light_Report_FINAL.pdf?v=1614653165\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/QL20343-2A_An_Evaluation_of_the_Antimicrobial_Efficacy_of_HEV_Light_Report_FINAL.pdf?v=1614653165\">An Evaluation of the Antimicrobial Efficacy of HEV Light<\/a><\/p>",
-            "page": "",
-            "icon": "washing"
-          }
         }
       },
       "block_order": [
@@ -89,8 +77,7 @@
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
         "855ad892-8e71-400d-9280-f8bc7696049f",
-        "23c27ce0-623f-4053-a182-025876e06583",
-        "f4b5d257-efae-4654-bac7-978a9ecd3abb"
+        "23c27ce0-623f-4053-a182-025876e06583"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -112,7 +99,6 @@
         "1637276724eb92fe7d-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_Clean-US-with-pack_2_1500x_e22f79bf-43c2-4d3a-b73f-be3745f7d10c.jpg",
             "title": "1 x LIFX Clean 1100lm E26",
             "text": "<p>LIFX Clean is a powerful smart light that doubles as a daily disinfectant bulb. Use its bright white light at 6000K (the same color temperature as the sun) to enhance your gaming performance and improve focus. Then schedule a Clean Cycle to wipe out bacteria on your keyboard, controllers and headphones while you take a break. <\/p>"
           }
@@ -120,7 +106,6 @@
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_Lightstrip_40in_Packaging_US_1100x_183f3afd-1ab0-4c71-be0b-34004e333e26.jpg",
             "title": "1 x LIFX Lightstrip 40\"",
             "text": "<p>A flexible LED strip with endless color options to set the mood to whatever movie you choose. Place LIFX Lightstrip behind your monitor, TV screen or entertainment unit for bias lighting that immerses you into the narrative of your game, enhances colors and contrasts on the screen, and reduces eye strain and dryness.<\/p>"
           }
