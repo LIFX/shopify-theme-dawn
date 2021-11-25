@@ -66,18 +66,6 @@
             "page": "",
             "icon": "question_mark"
           }
-        },
-        "a6a917be-f4cb-4579-9ffb-89fa19989ea4": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Antimicrobial Efficacy Test",
-            "website_au": true,
-            "website_ukeu": true,
-            "website_us": true,
-            "content": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/QL20343-2A_An_Evaluation_of_the_Antimicrobial_Efficacy_of_HEV_Light_Report_FINAL.pdf?v=1614653165\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/QL20343-2A_An_Evaluation_of_the_Antimicrobial_Efficacy_of_HEV_Light_Report_FINAL.pdf?v=1614653165\">An Evaluation of the Antimicrobial Efficacy of HEV Light<\/a><\/p>",
-            "page": "",
-            "icon": "washing"
-          }
         }
       },
       "block_order": [
@@ -89,8 +77,7 @@
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
         "855ad892-8e71-400d-9280-f8bc7696049f",
-        "74c7d911-e5cc-43a6-a405-adc88094b840",
-        "a6a917be-f4cb-4579-9ffb-89fa19989ea4"
+        "74c7d911-e5cc-43a6-a405-adc88094b840"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -104,15 +91,15 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "title": "2 x LIFX Clean 1100lm E26",
-            "text": "<p>LIFX Clean is a powerful smart light that doubles as a daily disinfectant bulb. During the day, power through your workload by setting LIFX Clean to a bright white 6000K – a color temperature proven to enhance performance and improve focus. Then schedule a Clean Cycle to wipe out bacteria on your keyboard, desk, and mouse overnight while you recharge.<\/p>"
+            "title": "2 x LIFX Clean 1200lm",
+            "text": "<p>LIFX Clean is a powerful smart light that doubles as a daily disinfectant bulb. During the day, power through your workload by setting LIFX Clean to a bright white 6000K – a colour temperature proven to enhance performance and improve focus. Then schedule a Clean Cycle to wipe out bacteria on your keyboard, desk, and mouse overnight while you recharge.<\/p>"
           }
         },
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
-            "title": "1 x LIFX Lightstrip 40”",
-            "text": "<p>LIFX Lightstrip is a flexible LED strip with endless color options and a massive white to warm range. Place LIFX Lightstrip behind your computer for a smoother workday with bias lighting. By projecting light behind your monitor, you can not only reduce blue light intensity, but also increase the vibrant contrast of colors on your screen, and reduce eye strain, soreness, and dryness.<\/p>"
+            "title": "1 x LIFX Lightstrip 1m",
+            "text": "<p>LIFX Lightstrip is a flexible LED strip with endless colour options and a massive white to warm range. Place LIFX Lightstrip behind your computer for a smoother workday with bias lighting. By projecting light behind your monitor, you can not only reduce blue light intensity, but also increase the vibrant contrast of colours on your screen, and reduce eye strain, soreness, and dryness.<\/p>"
           }
         }
       },
