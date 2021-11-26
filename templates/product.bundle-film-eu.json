@@ -94,6 +94,7 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/LIFX-MiniColor-Hero-image-bulb_pack-INT-E27_2.jpg",
             "title": "1 x LIFX Mini Colour E27",
             "text": "<p>A compact smart light that packs a serious 1000 lumen punch. Use vibrant colours transport yourself into the world of your favourite movie without a trip to the cinema. Or match the cinematography style with a variety of shadows and shading to create fully immersive experience. <\/p>"
           }
@@ -101,6 +102,7 @@
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/00_LIFX_Lightstrip_1m_EU_1.jpg",
             "title": "1 x LIFX Lightstrip 1m",
             "text": "<p>A flexible LED strip with endless colour options to set the mood to whatever movie you choose. Place LIFX Lightstrip behind your TV screen or entertainment unit for bias lighting that immerses you into the narrative, enhances colours and contrasts, and reduces eye strain and dryness. <\/p>"
           }
