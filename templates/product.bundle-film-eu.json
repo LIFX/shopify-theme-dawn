@@ -59,6 +59,7 @@
         },
         "f383ad9d-082e-4a51-9432-aa7bfea67c53": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Specifications",
             "website_au": true,
@@ -93,8 +94,8 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "title": "2 x LIFX Colour 1000lm",
-            "text": "<p>A compact smart light that packs a serious 1000 lumen punch. Use vibrant colours transport yourself into the world of your favorite movie without a trip to the cinema. Or match the cinematography style with a variety of shadows and shading to create fully immersive experience. <\/p>"
+            "title": "1 x LIFX Mini Colour E27",
+            "text": "<p>A compact smart light that packs a serious 1000 lumen punch. Use vibrant colours transport yourself into the world of your favourite movie without a trip to the cinema. Or match the cinematography style with a variety of shadows and shading to create fully immersive experience. <\/p>"
           }
         },
         "1637276724eb92fe7d-2": {
