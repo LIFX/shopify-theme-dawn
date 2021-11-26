@@ -33,20 +33,20 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$239.97<\/s> <span class=\"price-item price-item--sale\">$149.00<\/span><br><strong><span style=\"color:red\">Save $90.97<\/span><\/strong>",
+            "text": "$239.97 $149.00Save $90.97",
             "text_style": "subtitle"
           }
         },
         "d1c74dea-bde3-476b-9b1d-b3e666905e52": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if request.host == 'lifxukeu.myshopify.com' or request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' %}\n<s class=\"price-item price-item--regular\">€129,98<\/s>  <span class=\"price-item price-item--sale\">€77,99<\/span><br> <strong><span style=\"color:red\">Save €51,99<\/span><\/strong>\n{% else %}\n<s class=\"price-item price-item--regular\">£119.98<\/s>  <span class=\"price-item price-item--sale\">£71.98<\/span><br>\n<strong><span style=\"color:red\">Save £50.00<\/span><\/strong>\n{% endif %}"
+            "custom_liquid": "{% if request.host == 'lifxukeu.myshopify.com' or request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' %}\n<s class=\"price-item price-item--regular\">€129,98<\/s>  <span class=\"price-item price-item--sale\">€77,98<\/span><br> <strong><span style=\"color:red\">Save €52,00<\/span><\/strong>\n{% else %}\n<s class=\"price-item price-item--regular\">£119.98<\/s>  <span class=\"price-item price-item--sale\">£71.98<\/span><br>\n<strong><span style=\"color:red\">Save £50.00<\/span><\/strong>\n{% endif %}"
           }
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>1 x LIFX Colour 1200lm E27 or B22<br>1 x LIFX Lightstrip 1m<br>",
+            "text": "Bundle Includes:1 x LIFX Colour 1200lm E27 or B221 x LIFX Lightstrip 1m",
             "text_style": "body"
           }
         },
