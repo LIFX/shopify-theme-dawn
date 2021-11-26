@@ -55,7 +55,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "description": {
@@ -74,6 +74,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Specifications",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
             "content": "<p><strong>Brightness:<\/strong> {{ product.metafields.my_fields.lumens.value }} Lumens<br\/><strong>CRI:<\/strong> {{ product.metafields.my_fields.cri.value }}<br\/><strong>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }}W at full brightness<br\/><strong>Wattage Equivalent: <\/strong>{{ product.metafields.my_fields.wattage_equivalent.value }}W Incandescent<br\/><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/><strong>Voltage Range:<\/strong> AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature:<\/strong> {{ product.metafields.my_fields.cct_min.value }}K to {{ product.metafields.my_fields.cct_max.value }}K<br\/><strong>Beam Angle:<\/strong> {{ product.metafields.my_fields.beam_angle.value }}°<br\/><strong>Dimming:<\/strong> Software dimming 1% -100%<br\/><strong>Wi-Fi Router:<\/strong> 802.11b,g,n standards compliant<br\/><strong>Security:<\/strong> WPA, WPA2<br\/><strong>Dimensions:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
             "page": "",
             "icon": "question_mark"
@@ -83,6 +86,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Energy Labels",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
             "content": "",
             "page": "{{ product.metafields.my_fields.eprel_labels.value }}",
             "icon": "leaf"
@@ -92,6 +98,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Bulk Order Enquiry",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
             "content": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <a href=\"\/pages\/bulk-order-enquiry\" title=\"Bulk Order Enquiry\">Enquire today<\/a> <\/p>",
             "page": "",
             "icon": "box"
@@ -266,7 +275,10 @@
         "image": "{{ product.metafields.my_fields.image6.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "16321895063b55d15b": {
@@ -294,7 +306,10 @@
         "image": "{{ product.metafields.my_fields.image7.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1632189680ad62966a": {
@@ -322,7 +337,10 @@
         "image": "{{ product.metafields.my_fields.image8.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "product-recommendations": {
