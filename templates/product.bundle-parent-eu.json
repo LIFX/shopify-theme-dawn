@@ -1,0 +1,305 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.lumens.value }} {{ product.metafields.my_fields.subtitle_lumens.value }}",
+            "text_style": "uppercase"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
+          "type": "text",
+          "settings": {
+            "text": "<s class=\"price-item price-item--regular\">$204.97<\/s> <span class=\"price-item price-item--sale\">$129.00<\/span><br><strong><span style=\"color:red\">Save $75.97<\/span><\/strong>",
+            "text_style": "subtitle"
+          }
+        },
+        "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Bundle Includes:<\/strong><br>1 x LIFX Candle Colour E14<br>1 x LIFX White to Warm E27 or B22<br>1 x LIFX Nightvision E27 or B22",
+            "text_style": "body"
+          }
+        },
+        "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.tags contains \"BFOOS\" %}\n<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>\n{% else %}\n<style>\ninput:checked + label {\n  color: white;background-color:black;border-color:black;\n}\n.radio-button {\n  display: none;\n}\n.productFamily{     border: 1px solid; border-radius:50px; background-color:white;color:black; display: inline-block; margin-top: 5px\n; margin-bottom: 0px\n; padding: 10px 20px 10px 20px;font-size: 1.4rem; letter-spacing: .1rem; line-height: 1;text-align: center;margin-right: 6px;\n; }\n<\/style>\n\n<script>\n  function OpenWindow(){\n    for(i=0;i<document.FormName[\"RB1\"].length;i++){\n      if(document.FormName[\"RB1\"][i].checked){\n    window.open(document.FormName[\"RB1\"][i].value,\"_self\");\n    break;\n  }\n}\n  }\n<\/script>\n\n<p style=\"margin-bottom:0px\">Select fitting type:<\/p>\n\n\n\n<form name=\"FormName\" style=\"margin-top:5px\">\n    <input class=\"radio-button\" id=\"rad1\" type=\"radio\" name=\"RB1\" value=\"https:\/\/www.lifx.com.au\/cart\/update?updates[40260732911663]=1&updates[40260761550895]=1&updates[40260732878895]=1\" checked><label for=\"rad1\" class=\"productFamily\">E27 Screw<\/label>\n\n<input class=\"radio-button\" id=\"rad2\" type=\"radio\" name=\"RB1\" value=\"https:\/\/www.lifx.com.au\/cart\/update?updates[40260758077487]=1&updates[40260758405167]=1&updates[40261162631215]=1\"><label for=\"rad2\" class=\"productFamily\">B22 Bayonet<\/label>\n\n<input class=\"button\" type=\"button\" value=\"Add to Cart\" name=\"butt\" onclick=\"OpenWindow()\" style=\"width:100%;margin-top:25px\">\n  <\/form>\n\n{% endif %} "
+          }
+        },
+        "855ad892-8e71-400d-9280-f8bc7696049f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}"
+          }
+        },
+        "a077f5dd-483a-4492-aff7-6bcb80c5d0d5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
+            "content": "<p><span style=\"text-decoration:underline\"><strong>LIFX Candle Colour<br\/><\/strong><\/span><strong>Wattage Use: <\/strong>5.0W at full brightness<br\/><strong>Wattage on Standby: <\/strong>Less than 1.0W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>16 million colours plus daylight tones<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>40mm x 40mm x 115mm<span style=\"text-decoration:underline\"><strong><br\/><br\/>LIFX White to Warm 1000lm<br\/><\/strong><\/span><strong>Brightness: <\/strong>1000 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>9.0W at full brightness<br\/><strong>Wattage Eq: <\/strong>70W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.4W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>235°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>60mm x 60mm x 105mm<br\/><\/p><p><span style=\"text-decoration:underline\"><strong>LIFX Nightvision 1200lm<br\/><\/strong><\/span><strong>Brightness: <\/strong>1200 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>11.5W at full brightness<br\/><strong>Wattage Eq: <\/strong>80W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>135°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>63mm x 63mm x 116mm<span style=\"text-decoration:underline\"><strong><br\/><\/strong><\/span><\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
+        "subtitle",
+        "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
+        "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
+        "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
+        "855ad892-8e71-400d-9280-f8bc7696049f",
+        "a077f5dd-483a-4492-aff7-6bcb80c5d0d5"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": true,
+        "enable_video_looping": true
+      }
+    },
+    "16372767243e83d044": {
+      "type": "multicolumn",
+      "blocks": {
+        "1637276724eb92fe7d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/00_LIFX_Candle_Colour_E14_INT_1_1500x_1fe5dd51-d52a-4cb1-bfe0-508e0dc4df16.jpg",
+            "title": "1 x LIFX Candle Colour E14",
+            "text": "<p>LIFX Candle Colour is a powerful smart light wrapped up in a charming design. During the day, use LIFX Candle to illuminate your kid's space with bright white light for active playtime. During bedtime, choose from endless colours and flicker Effects to make story time magical. While they sleep, dim down to 5% on the colour red for a gentle night light that doesn't keep the kids awake after getting up for a midnight potty break. <\/p>"
+          }
+        },
+        "1637276724eb92fe7d-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/00_WW-Image-Hero-AU-E27_1500x_f49a82f3-19d1-4b45-b4b8-5bafb675451d.jpg",
+            "title": "1 x LIFX White to Warm",
+            "text": "<p>A compact smart light with a massive range of white shades for quality illumination in your child’s room at your command. The LIFX White to Warm features cost effective, energy efficient, dimmable LED lighting for the perfect homework setup. Fuel your child's focus after a long day of school with bright white light. Then dim down to warm ambers for downtime that doesn't get in the way of bedtime later.<\/p>"
+          }
+        },
+        "97e73931-a107-4e58-95ab-3fcfe24ea668": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/00-A60NightvisionAUE27bulbpackhero_1500x_2d6e6b55-ffc3-4f47-b70e-1c9f28b92cda.jpg",
+            "title": "1 x LIFX Nightvision",
+            "text": "<p>Along with endless colour options and white to warm shades for daily use, LIFX Nightvision emits infrared wavelengths for enhanced home security. When the baby monitor just isn’t enough, LIFX Nightvision can help you keep tabs on your sleeping child without waking them up. Use its convenient Nightvision mode to keep your lights turned off to the naked eye while enhancing your security camera’s vision.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1637276724eb92fe7d-0",
+        "1637276724eb92fe7d-2",
+        "97e73931-a107-4e58-95ab-3fcfe24ea668"
+      ],
+      "settings": {
+        "title": "What's included",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "163727672724969a9b": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerPARENTS_LandingPage-2.png",
+        "adapt_height_first_image": false,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1635139699342ea047": {
+      "type": "multicolumn",
+      "blocks": {
+        "1635139699342ea047-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hey_google.jpg",
+            "workswith": "shopify:\/\/shop_images\/WorksWith_Badge_with_border_HeyGoogle_horizontal_CMYK_color_EN-US.png",
+            "title": "",
+            "text": "<p>Ask Google to control smart devices in your home. No matter where you are, get things done – whenever you want.<br\/><br\/>\"Hey Google, dim the living room lights and turn on Netflix.\"<\/p>"
+          }
+        },
+        "1635139699342ea047-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Echo-Dot-with-clock_-Glacier-White_-Bedroom.jpg",
+            "workswith": "shopify:\/\/shop_images\/Amazon_Alexa_Works_With_RGB.png",
+            "title": "",
+            "text": "<p>LIFX works with Amazon Alexa products to control your lights with your voice. No need to unlock your phone and open the app.<br\/><br\/>\"Alexa... Set the living room to warm white.”<\/p>"
+          }
+        },
+        "1635139699342ea047-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/07_LIFX-GU10-Kitchen-c1.jpg",
+            "workswith": "shopify:\/\/shop_images\/png_version.png",
+            "title": "",
+            "text": "<p>Turn your iPhone into a universal remote for your smart home with Apple HomeKit.<br\/><br\/>Say \"Siri, I'm home,\" and have HomeKit unlock your door and set your LIFX lighting to your favourite scene.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635139699342ea047-0",
+        "1635139699342ea047-1",
+        "1635139699342ea047-2"
+      ],
+      "settings": {
+        "title": "Hey Google, Alexa, Siri...",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16359041219d05cf7f": {
+      "type": "collage",
+      "blocks": {
+        "16359041219d05cf7f-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/WHITE-WHEEL-TOUR-_KELVINS_-HD720P_2.jpg",
+            "video_url": "https:\/\/youtu.be\/Ka3PzXyktHc",
+            "description": "Good morning",
+            "image_padding": false
+          }
+        },
+        "e09ecd8f-3a0e-499e-95bf-0dae8081c7ba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LIFX_Color_LiveInColor-AppPage-HR-Square.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "16359041219d05cf7f-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "lightbulbs",
+            "image_padding": false,
+            "color_scheme": "accent-1"
+          }
+        }
+      },
+      "block_order": [
+        "16359041219d05cf7f-0",
+        "e09ecd8f-3a0e-499e-95bf-0dae8081c7ba",
+        "16359041219d05cf7f-2"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1635892427a2cdb2bc": {
+      "type": "multicolumn",
+      "blocks": {
+        "1635892427a2cdb2bc-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/t3.png",
+            "title": "LIFX smart bulbs deliver excellent smart lighting",
+            "text": "<p>\"They're really very good as smart bulbs, nailing the colour aspect perfectly, responding well to commands, and tying in neatly to your choice of smart assistant. The app offers one-touch control of your connected lights, and some very detailed control deeper down, and everything's easy to set up and get running.\"<br\/><a href=\"https:\/\/www.t3.com\/au\/features\/best-smart-bulbs\" target=\"_blank\" title=\"https:\/\/www.t3.com\/au\/features\/best-smart-bulbs\">Read more<\/a><\/p>"
+          }
+        },
+        "1635892427a2cdb2bc-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cnet_logo.png",
+            "title": "Best color-changing smart bulb",
+            "text": "<p>\"Like I said, I think Lifx lights belong right at the top of your list if you're looking to add a smart pop of color to your home's lighting systems. The brand sells a variety of bulbs and smart lights that all put out bright, great-looking colors, all of which can connect with Alexa, Siri or Google Assistant with absolutely no need for a hub.\"<\/p><p><a href=\"https:\/\/www.cnet.com\/home\/energy-and-utilities\/best-smart-lights\/\" target=\"_blank\" title=\"https:\/\/www.cnet.com\/home\/energy-and-utilities\/best-smart-lights\/\">Read more<\/a><\/p><p><br\/><\/p>"
+          }
+        },
+        "601c041a-4aa0-4b40-9501-c18cd7e73170": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/techradar-logo.png",
+            "title": "LIFX smart bulbs deliver excellent smart lighting",
+            "text": "<p>\"LIFX offers a plethora of smart light options; from color and white bulbs, that come both in full size and the more compact LIFX Mini design, as well as lightstrips, LIFX Beam - the brands own take on smart light wall art and LIFX Clean - a smart light that can also kill bacteria.\"<\/p><p><a href=\"https:\/\/www.techradar.com\/au\/news\/best-smart-lighting\" target=\"_blank\" title=\"https:\/\/www.techradar.com\/au\/news\/best-smart-lighting\">Read more<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635892427a2cdb2bc-0",
+        "1635892427a2cdb2bc-1",
+        "601c041a-4aa0-4b40-9501-c18cd7e73170"
+      ],
+      "settings": {
+        "title": "Testimonials & Awards",
+        "image_width": "half",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16372767243e83d044",
+    "163727672724969a9b",
+    "1635139699342ea047",
+    "16359041219d05cf7f",
+    "1635892427a2cdb2bc",
+    "product-recommendations"
+  ]
+}
