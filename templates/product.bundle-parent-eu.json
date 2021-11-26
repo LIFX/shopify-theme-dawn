@@ -59,6 +59,7 @@
         },
         "a077f5dd-483a-4492-aff7-6bcb80c5d0d5": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Specifications",
             "website_au": true,
@@ -93,22 +94,22 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "title": "1 x LIFX Candle Colour E14",
-            "text": "<p>LIFX Candle Colour is a powerful smart light wrapped up in a charming design. During the day, use LIFX Candle to illuminate your kid's space with bright white light for active playtime. During bedtime, choose from endless colours and flicker Effects to make story time magical. While they sleep, dim down to 5% on the colour red for a gentle night light that doesn't keep the kids awake after getting up for a midnight potty break. <\/p>"
+            "title": "1 x LIFX Mini Colour E27",
+            "text": "<p>LIFX Mini Colour is a powerful smart light wrapped up in a charming design. During the day, use Mini Colour to illuminate your kid's space with bright white light for active playtime. During bedtime, choose from endless colours and flicker Effects to make story time magical. While they sleep, dim down to 5% on the colour red for a gentle night light that doesn't keep the kids awake after getting up for a midnight potty break. <\/p>"
           }
         },
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
-            "title": "1 x LIFX White to Warm",
-            "text": "<p>A compact smart light with a massive range of white shades for quality illumination in your child’s room at your command. The LIFX White to Warm features cost effective, energy efficient, dimmable LED lighting for the perfect homework setup. Fuel your child's focus after a long day of school with bright white light. Then dim down to warm ambers for downtime that doesn't get in the way of bedtime later.<\/p>"
+            "title": "4 x LIFX Mini Day Dusk E27",
+            "text": "<p>A compact smart light with a massive range of white shades for quality illumination in your child’s room at your command. The LIFX Mini Day Dusk features cost effective, energy efficient, dimmable LED lighting for the perfect homework setup. Fuel your child's focus after a long day of school with bright white light. Then dim down to warm ambers for downtime that doesn't get in the way of bedtime later.<\/p>"
           }
         },
         "97e73931-a107-4e58-95ab-3fcfe24ea668": {
           "type": "column",
           "settings": {
-            "title": "1 x LIFX Nightvision",
-            "text": "<p>Along with endless colour options and white to warm shades for daily use, LIFX Nightvision emits infrared wavelengths for enhanced home security. When the baby monitor just isn’t enough, LIFX Nightvision can help you keep tabs on your sleeping child without waking them up. Use its convenient Nightvision mode to keep your lights turned off to the naked eye while enhancing your security camera’s vision.<\/p>"
+            "title": "1 x LIFX Clean A60 E27",
+            "text": "<p>The only thing better than a light that enforces clean-up time is a light that actually does some of the cleaning. Good thing LIFX Clean can do both. Schedule LIFX Clean to brighten up or change colours to signal playtime is over. Then, set LIFX Clean to finish the job by safely tackling harmful bacteria on toys with UV-free disinfecting wavelengths.<\/p>"
           }
         }
       },
