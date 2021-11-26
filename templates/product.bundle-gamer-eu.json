@@ -56,18 +56,6 @@
           "settings": {
             "custom_liquid": "{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}"
           }
-        },
-        "23c27ce0-623f-4053-a182-025876e06583": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Specifications",
-            "website_au": true,
-            "website_ukeu": true,
-            "website_us": true,
-            "content": "<p><span style=\"text-decoration:underline\"><strong>LIFX Clean 1200lm<br\/><\/strong><\/span><strong>Brightness: <\/strong>1200 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>11.5W at full brightness<br\/><strong>Wattage Eq: <\/strong>80W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>135°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>63mm x 63mm x 116mm<\/p><p><\/p><p><span style=\"text-decoration:underline\"><strong>LIFX Lightstrip 2m<\/strong><\/span><strong><br\/>Brightness: <\/strong>1400 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>17.0W at full brightness<br\/><strong>Wattage Eq: <\/strong>90W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>120°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>2000mm x 12mm x 4mm<\/p><p><br\/><span style=\"text-decoration:underline\"><strong>LIFX Lightstrip Extension 1m<\/strong><\/span><\/p><p><strong>Brightness: <\/strong>700 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>8.0W at full brightness<br\/><strong>Wattage Eq: <\/strong>50W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>120°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>1000mm x 12mm x 4mm<\/p>",
-            "page": "",
-            "icon": "question_mark"
-          }
         }
       },
       "block_order": [
@@ -78,8 +66,7 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
         "a9e5b0c8-d664-4631-bc62-61f44ac01f74",
-        "855ad892-8e71-400d-9280-f8bc7696049f",
-        "23c27ce0-623f-4053-a182-025876e06583"
+        "855ad892-8e71-400d-9280-f8bc7696049f"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -108,7 +95,7 @@
           "type": "column",
           "settings": {
             "title": "2 x LIFX Mini Colour E27",
-            "text": "<p>copy<\/p>"
+            "text": "<p>A compact smart light that packs a serious 800 lumen punch. Transport yourself into the world of your game by transforming your space. With vibrant colours, smart features like Scenes and Schedules, and integrations for voice control, you can create the fully immersive experience you’ve been waiting for.<\/p>"
           }
         }
       },
