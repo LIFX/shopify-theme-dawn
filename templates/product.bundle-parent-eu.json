@@ -31,6 +31,7 @@
         },
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<s class=\"price-item price-item--regular\">$204.97<\/s> <span class=\"price-item price-item--sale\">$129.00<\/span><br><strong><span style=\"color:red\">Save $75.97<\/span><\/strong>",
             "text_style": "subtitle"
@@ -38,6 +39,7 @@
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>Bundle Includes:<\/strong><br>1 x LIFX Candle Colour E14<br>1 x LIFX White to Warm E27 or B22<br>1 x LIFX Nightvision E27 or B22",
             "text_style": "body"
@@ -91,7 +93,6 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_LIFX_Candle_Colour_E14_INT_1_1500x_1fe5dd51-d52a-4cb1-bfe0-508e0dc4df16.jpg",
             "title": "1 x LIFX Candle Colour E14",
             "text": "<p>LIFX Candle Colour is a powerful smart light wrapped up in a charming design. During the day, use LIFX Candle to illuminate your kid's space with bright white light for active playtime. During bedtime, choose from endless colours and flicker Effects to make story time magical. While they sleep, dim down to 5% on the colour red for a gentle night light that doesn't keep the kids awake after getting up for a midnight potty break. <\/p>"
           }
@@ -99,7 +100,6 @@
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_WW-Image-Hero-AU-E27_1500x_f49a82f3-19d1-4b45-b4b8-5bafb675451d.jpg",
             "title": "1 x LIFX White to Warm",
             "text": "<p>A compact smart light with a massive range of white shades for quality illumination in your child’s room at your command. The LIFX White to Warm features cost effective, energy efficient, dimmable LED lighting for the perfect homework setup. Fuel your child's focus after a long day of school with bright white light. Then dim down to warm ambers for downtime that doesn't get in the way of bedtime later.<\/p>"
           }
@@ -107,7 +107,6 @@
         "97e73931-a107-4e58-95ab-3fcfe24ea668": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00-A60NightvisionAUE27bulbpackhero_1500x_2d6e6b55-ffc3-4f47-b70e-1c9f28b92cda.jpg",
             "title": "1 x LIFX Nightvision",
             "text": "<p>Along with endless colour options and white to warm shades for daily use, LIFX Nightvision emits infrared wavelengths for enhanced home security. When the baby monitor just isn’t enough, LIFX Nightvision can help you keep tabs on your sleeping child without waking them up. Use its convenient Nightvision mode to keep your lights turned off to the naked eye while enhancing your security camera’s vision.<\/p>"
           }
