@@ -100,6 +100,7 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/A60_COLOR_PDPfixEU_E27.jpg",
             "title": "1 x LIFX Colour A60 1200lm",
             "text": "<p>Spotlight your branded content with the quality lighting it deserves. LIFX Colour A60 is the brightest LIFX product, packing a serious 1200 lumen punch. Wow your audience with captivating visuals through endless colour options, a massive range of white to warm shades, animated effects and more. <\/p>"
           }
@@ -107,6 +108,7 @@
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/00_LIFX_Lightstrip_1m_EU.jpg",
             "title": "1 x LIFX Lightstrip 1m",
             "text": "<p>A flexible LED strip with endless colour options to set the mood to whatever content you choose to create. With our Polychrome tech, you can customize this strip to transform your space in a way that’s completely your own. Paint colours that work together to create an ombre effect in a single light, then animate the colours to create movement effects like waves or flickers. <\/p>"
           }
