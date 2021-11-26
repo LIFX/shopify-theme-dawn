@@ -31,22 +31,29 @@
         },
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<s class=\"price-item price-item--regular\">$239.97<\/s> <span class=\"price-item price-item--sale\">$149.00<\/span><br><strong><span style=\"color:red\">Save $90.97<\/span><\/strong>",
             "text_style": "subtitle"
           }
         },
+        "d1c74dea-bde3-476b-9b1d-b3e666905e52": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Colour 1200lm E27 or B22<br>1 x LIFX Lightstrip 1m<br>",
+            "text": "<strong>Bundle Includes:<\/strong><br>1 x LIFX Colour 1200lm E27 or B22<br>1 x LIFX Lightstrip 1m<br>",
             "text_style": "body"
           }
         },
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.tags contains \"BFOOS\" %}\n<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>\n{% else %}\n<style>\ninput:checked + label {\n  color: white;background-color:black;border-color:black;\n}\n.radio-button {\n  display: none;\n}\n.productFamily{     border: 1px solid; border-radius:50px; background-color:white;color:black; display: inline-block; margin-top: 5px\n; margin-bottom: 0px\n; padding: 10px 20px 10px 20px;font-size: 1.4rem; letter-spacing: .1rem; line-height: 1;text-align: center;margin-right: 6px;\n; }\n<\/style>\n\n<script>\n  function OpenWindow(){\n    for(i=0;i<document.FormName[\"RB1\"].length;i++){\n      if(document.FormName[\"RB1\"][i].checked){\n    window.open(document.FormName[\"RB1\"][i].value,\"_self\");\n    break;\n  }\n}\n  }\n<\/script>\n\n<p style=\"margin-bottom:0px\">Select fitting type:<\/p>\n\n\n\n<form name=\"FormName\" style=\"margin-top:5px\">\n    <input class=\"radio-button\" id=\"rad1\" type=\"radio\" name=\"RB1\" value=\"https:\/\/www.lifx.com.au\/cart\/update?updates[40260732747823]=1&updates[40260732715055]=2\" checked><label for=\"rad1\" class=\"productFamily\">E27 Screw<\/label>\n\n<input class=\"radio-button\" id=\"rad2\" type=\"radio\" name=\"RB1\" value=\"https:\/\/www.lifx.com.au\/cart\/update?updates[40261157453871]=1&updates[40260763910191]=2\"><label for=\"rad2\" class=\"productFamily\">B22 Bayonet<\/label>\n\n<input class=\"button\" type=\"button\" value=\"Add to Cart\" name=\"butt\" onclick=\"OpenWindow()\" style=\"width:100%;margin-top:25px\">\n  <\/form>\n\n{% endif %}"
+            "custom_liquid": "{% if product.tags contains \"BFOOS\" %}\n<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>\n{% else %}\n<style>\ninput:checked + label {\n  color: white;background-color:black;border-color:black;\n}\n.radio-button {\n  display: none;\n}\n.productFamily{     border: 1px solid; border-radius:50px; background-color:white;color:black; display: inline-block; margin-top: 5px\n; margin-bottom: 0px\n; padding: 10px 20px 10px 20px;font-size: 1.4rem; letter-spacing: .1rem; line-height: 1;text-align: center;margin-right: 6px;\n; }\n<\/style>\n\n<script>\n  function OpenWindow(){\n    for(i=0;i<document.FormName[\"RB1\"].length;i++){\n      if(document.FormName[\"RB1\"][i].checked){\n    window.open(document.FormName[\"RB1\"][i].value,\"_self\");\n    break;\n  }\n}\n  }\n<\/script>\n\n<p style=\"margin-bottom:0px\">Select fitting type:<\/p>\n\n\n\n<form name=\"FormName\" style=\"margin-top:5px\">\n    <input class=\"radio-button\" id=\"rad1\" type=\"radio\" name=\"RB1\" value=\"https:\/\/www.lifx.com.au\/cart\/update?updates[40928724877508]=1&updates[40928724844740]=1\" checked><label for=\"rad1\" class=\"productFamily\">E27 Screw<\/label>\n\n<input class=\"radio-button\" id=\"rad2\" type=\"radio\" name=\"RB1\" value=\"https:\/\/www.lifx.com.au\/cart\/update?updates[40928724943044]=1&updates[40928724910276]=1\"><label for=\"rad2\" class=\"productFamily\">B22 Bayonet<\/label>\n\n<input class=\"button\" type=\"button\" value=\"Add to Cart\" name=\"butt\" onclick=\"OpenWindow()\" style=\"width:100%;margin-top:25px\">\n  <\/form>\n\n{% endif %}"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
@@ -57,6 +64,7 @@
         },
         "e912799b-13cc-4208-a31d-9932548571da": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Specifications",
             "website_au": true,
@@ -74,6 +82,7 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
+        "d1c74dea-bde3-476b-9b1d-b3e666905e52",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
         "855ad892-8e71-400d-9280-f8bc7696049f",
@@ -91,15 +100,13 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_A60_COLOR_PDP-AU_E27_1500x_455ffd27-8ef0-4e6f-91a6-9dad31ed53fc.jpg",
-            "title": "2 x LIFX Colour A60 1200lm",
+            "title": "1 x LIFX Colour A60 1200lm",
             "text": "<p>Spotlight your branded content with the quality lighting it deserves. LIFX Colour A60 is the brightest LIFX product, packing a serious 1200 lumen punch. Wow your audience with captivating visuals through endless colour options, a massive range of white to warm shades, animated effects and more. <\/p>"
           }
         },
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_Lightstrip_1m_AU_1500x_32feff3c-fb17-4f77-bee4-46084b9ac681.jpg",
             "title": "1 x LIFX Lightstrip 1m",
             "text": "<p>A flexible LED strip with endless colour options to set the mood to whatever content you choose to create. With our Polychrome tech, you can customize this strip to transform your space in a way that’s completely your own. Paint colours that work together to create an ombre effect in a single light, then animate the colours to create movement effects like waves or flickers. <\/p>"
           }
