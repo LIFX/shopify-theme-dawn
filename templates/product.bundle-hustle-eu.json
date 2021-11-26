@@ -39,7 +39,7 @@
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Clean 1200lm E27 or B22<br>1 x LIFX Lightstrip 1m<br>",
+            "text": "Bundle Includes:2 x LIFX Clean 1200lm E27 or B221 x LIFX Lightstrip 1m",
             "text_style": "body"
           }
         },
@@ -91,7 +91,7 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "title": "2 x LIFX Clean 1200lm",
+            "title": "1 x LIFX Clean 1200lm",
             "text": "<p>LIFX Clean is a powerful smart light that doubles as a daily disinfectant bulb. During the day, power through your workload by setting LIFX Clean to a bright white 6000K – a colour temperature proven to enhance performance and improve focus. Then schedule a Clean Cycle to wipe out bacteria on your keyboard, desk, and mouse overnight while you recharge.<\/p>"
           }
         },
