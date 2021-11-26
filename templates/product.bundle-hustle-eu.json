@@ -40,7 +40,7 @@
         "c01a3e36-b76d-48dc-8b8e-3a97ddf85355": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if request.host == 'lifxukeu.myshopify.com' or request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' %}\n<s class=\"price-item price-item--regular\">€149.98<\/s>  <span class=\"price-item price-item--sale\">€89.99<\/span><br> <strong><span style=\"color:red\">Save €59.99<\/span><\/strong>\n{% else %}\n<s class=\"price-item price-item--regular\">£134.98<\/s> <span class=\"price-item price-item--sale\">£80.99<\/span><br><strong><span style=\"color:red\">Save £53.99<\/span><\/strong>\n{% endif %}"
+            "custom_liquid": "{% if request.host == 'lifxukeu.myshopify.com' or request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' %}\n<s class=\"price-item price-item--regular\">€149.98<\/s>  <span class=\"price-item price-item--sale\">€89.98<\/span><br> <strong><span style=\"color:red\">Save €59.00<\/span><\/strong>\n{% else %}\n<s class=\"price-item price-item--regular\">£134.98<\/s> <span class=\"price-item price-item--sale\">£80.99<\/span><br><strong><span style=\"color:red\">Save £53.99<\/span><\/strong>\n{% endif %}"
           }
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
