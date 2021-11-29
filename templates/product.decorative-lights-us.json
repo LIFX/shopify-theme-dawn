@@ -348,6 +348,8 @@
         "1635139699342ea047-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Echo-Dot-with-clock_-Glacier-White_-Bedroom.jpg",
+            "workswith": "shopify:\/\/shop_images\/Amazon_Alexa_Works_With_RGB.png",
             "title": "",
             "text": "<p>LIFX works with Amazon Alexa products to control your lights with your voice. No need to unlock your phone and open the app.<br\/><br\/>\"Alexa... Set the living room to warm white.”<\/p>"
           }
@@ -355,6 +357,8 @@
         "1635139699342ea047-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/07_LIFX-GU10-Kitchen-c1.jpg",
+            "workswith": "shopify:\/\/shop_images\/png_version.png",
             "title": "",
             "text": "<p>Turn your iPhone into a universal remote for your smart home with Apple HomeKit.<br\/><br\/>Say \"Siri, I'm home,\" and have HomeKit unlock your door and set your LIFX lighting to your favourite scene.<\/p>"
           }
