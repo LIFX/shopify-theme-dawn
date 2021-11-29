@@ -69,6 +69,9 @@
           "disabled": true,
           "settings": {
             "heading": "Available at Amazon",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
             "content": "",
             "page": "amazon-colour-1000-links",
             "icon": "price_tag"
@@ -84,6 +87,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Specifications",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
             "content": "<p><strong>Installation: <\/strong>Professional installation required by a licensed electrician<br\/><strong>Neutral Wire:<\/strong> Required<br\/><strong>Safety Notice:<\/strong> Electrical power must be cut off before installation\/repair <br\/><strong>Maximum load: <\/strong>2500W per switch. 2-Gang: 1250W per gang. 4-Gang: 625W per gang.<br\/><strong>Dims: <\/strong>120mm x 72mm x 37mm<br\/><strong>Installation Guide:<\/strong> <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0443\/8041\/files\/1.0_LIFX_Switch_2_gang_Manual_booklet_AU.pdf?v=1632808871\" target=\"_blank\">2 Gang<\/a>, <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0443\/8041\/files\/2.0_LIFX_Switch_4_gang_Manual_booklet_AU.pdf?v=1632808871\" target=\"_blank\">4 Gang<\/a><br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<\/p>",
             "page": "",
             "icon": "question_mark"
@@ -94,6 +100,9 @@
           "disabled": true,
           "settings": {
             "heading": "Energy Labels",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
             "content": "",
             "page": "{{ product.metafields.my_fields.eprel_labels.value }}",
             "icon": "leaf"
@@ -103,6 +112,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Bulk Order Enquiry",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
             "content": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <a href=\"\/pages\/bulk-order-enquiry\" title=\"Bulk Order Enquiry\">Enquire today<\/a> <\/p>",
             "page": "",
             "icon": "box"
@@ -138,7 +150,10 @@
         "heading": "",
         "video": "{{ product.metafields.my_fields.video1.value }}",
         "description": "{{ product.vendor }} {{ product.title }}",
-        "full_width": false
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163514216916abed30": {
@@ -313,7 +328,10 @@
         "heading": "",
         "video": "{{ product.metafields.my_fields.video2.value }}",
         "description": "{{ product.vendor }} {{ product.title }} Product Video",
-        "full_width": false
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "16360008950381c4a6": {
@@ -473,7 +491,7 @@
       ],
       "settings": {
         "title": "Testimonials & Awards",
-        "image_width": "half",
+        "image_width": "full",
         "image_ratio": "square",
         "column_alignment": "left",
         "background_style": "primary",
