@@ -1,12 +1,406 @@
 {
   "sections": {
+    "16383217506b4b1779": {
+      "type": "image-banner",
+      "blocks": {
+        "1638321750b848c614-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "1638321750b848c614-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1638321750b848c614-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1638321750b848c614-0",
+        "1638321750b848c614-1",
+        "1638321750b848c614-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_LIFX_Header_Image_grid_2.jpg",
+        "adapt_height_first_image": false,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "163832220762afb32d": {
+      "type": "rich-text",
+      "blocks": {
+        "16383222071f346d79-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "16383222071f346d79-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16383222071f346d79-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16383222071f346d79-0",
+        "16383222071f346d79-1",
+        "16383222071f346d79-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1638321904a9d889a4": {
+      "type": "rich-text",
+      "blocks": {
+        "1638321904ffa632b9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What we do",
+            "heading_size": "h1"
+          }
+        },
+        "1638321904ffa632b9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At LIFX, we don't make gadgets.<br\/><br\/>We take light (a basic tool needed by people everywhere) and we make it life-changing. We make light that improves your health. Light that helps you work, and light that helps you play. Light for socialising, and light for me-time.<br\/><br\/>A rainbow of colour options, bacteria eliminating wavelengths, endless integrations all help our customers personalise their spaces so that they can do whatever it is that they do best.<br\/><br\/>That's not a gadget, or a toy, or a gizmo – that's smarter way of life... ex. <strong>It's pronounced LIFE-ex.<\/strong><\/p>"
+          }
+        },
+        "1638321904ffa632b9-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1638321904ffa632b9-0",
+        "1638321904ffa632b9-1",
+        "1638321904ffa632b9-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "163832194761d9b2bb": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/lifx_low.mp4?v=1620198850",
+        "description": "",
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1638321994ea21a2eb": {
+      "type": "multicolumn",
+      "blocks": {
+        "163832199442fde20c-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_LIFX_Quality_1.png",
+            "title": "Quality",
+            "text": "<p>We're dedicated to bringing you the brightest, boldest lights on the market.<\/p>"
+          }
+        },
+        "163832199442fde20c-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_LIFX_Innovation_1.png",
+            "title": "Innovation",
+            "text": "<p>We're committed to shaping the future of smart tech and IoT.<\/p>"
+          }
+        },
+        "163832199442fde20c-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_LIFX_Originality_1.png",
+            "title": "Originality",
+            "text": "<p>We're not afraid to push the boundaries of what comes next.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163832199442fde20c-0",
+        "163832199442fde20c-1",
+        "163832199442fde20c-2"
+      ],
+      "settings": {
+        "title": "What we value",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1638322040eca40f4b": {
+      "type": "rich-text",
+      "blocks": {
+        "16383220405ad1f100-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who we are",
+            "heading_size": "h1"
+          }
+        },
+        "16383220405ad1f100-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're a tight-knit team of creatives, engineers, and digital wizards spread across the globe who share a common goal – create really cool stuff that makes your life better. The size of our company may not be the biggest, but our goals sure are.<\/p>"
+          }
+        },
+        "16383220405ad1f100-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16383220405ad1f100-0",
+        "16383220405ad1f100-1",
+        "16383220405ad1f100-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16383220699b87651c": {
+      "type": "rich-text",
+      "blocks": {
+        "1638322069df7b2920-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where we work",
+            "heading_size": "h1"
+          }
+        },
+        "1638322069df7b2920-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Why root a company in a single spot when the best talent is sprinkled all over the world? With employees from Seattle, USA to Melbourne, Australia to Dublin, Ireland and more, we pride ourselves on being diverse, multi-cultural, and international. At LIFX, we believe each person who works with us makes up our culture rather than the company dictating the culture.<\/p>"
+          }
+        },
+        "1638322069df7b2920-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1638322069df7b2920-0",
+        "1638322069df7b2920-1",
+        "1638322069df7b2920-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1638322073a9668f91": {
+      "type": "image-banner",
+      "blocks": {
+        "163832207299b56a0e-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "163832207299b56a0e-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "163832207299b56a0e-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "163832207299b56a0e-0",
+        "163832207299b56a0e-1",
+        "163832207299b56a0e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/6_LIFX_Where_We_Work.png",
+        "adapt_height_first_image": false,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "163832218488772bcf": {
+      "type": "rich-text",
+      "blocks": {
+        "1638322184386b6186-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1638322184386b6186-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1638322184386b6186-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1638322184386b6186-0",
+        "1638322184386b6186-1",
+        "1638322184386b6186-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1638322134e1f32bcf": {
+      "type": "rich-text",
+      "blocks": {
+        "16383221343ee191ce-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Interested in joining our team?",
+            "heading_size": "h1"
+          }
+        },
+        "16383221343ee191ce-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Want a chance to be part of our super sweet team? Check back regularly for upcoming open positions below.<\/p>"
+          }
+        },
+        "16383221343ee191ce-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Open positions here",
+            "button_link": "https:\/\/www.lifx.com\/pages\/careers-with-lifx",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16383221343ee191ce-0",
+        "16383221343ee191ce-1",
+        "16383221343ee191ce-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     }
   },
   "order": [
-    "main"
+    "16383217506b4b1779",
+    "main",
+    "163832220762afb32d",
+    "1638321904a9d889a4",
+    "163832194761d9b2bb",
+    "1638321994ea21a2eb",
+    "1638322040eca40f4b",
+    "16383220699b87651c",
+    "1638322073a9668f91",
+    "163832218488772bcf",
+    "1638322134e1f32bcf"
   ]
 }
