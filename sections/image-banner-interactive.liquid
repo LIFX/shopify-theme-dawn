@@ -141,9 +141,9 @@ function button2() {
             <div class="image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
           {%- when 'buttons' -%}
 
-                 <img style="cursor:pointer" src="{{ section.settings.button_image_1 | img_url: '400x250' }}" onclick="button1()">
+                 <img style="opacity:70%;cursor:pointer" style="cursor:pointer" src="{{ section.settings.button_image_1 | img_url: '400x250' }}" onclick="button1()">
 
-                <img style="cursor:pointer"src="{{ section.settings.button_image_2 | img_url : '400x250' }}" onclick="button2()">
+                <img style="opacity:100%;cursor:revert" style="cursor:pointer"src="{{ section.settings.button_image_2 | img_url : '400x250' }}" onclick="">
 
         {%- endcase -%}
       {%- endfor -%}
