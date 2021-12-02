@@ -415,6 +415,57 @@
         "color_scheme": "inverse",
         "full_width": true
       }
+    },
+    "16384196305c466122": {
+      "type": "image-banner-interactive",
+      "disabled": true,
+      "blocks": {
+        "1638419630c85b232d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "1638419630c85b232d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1638419630c85b232d-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1638419630c85b232d-0",
+        "1638419630c85b232d-1",
+        "1638419630c85b232d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_28.png",
+        "image_2": "shopify:\/\/shop_images\/image_30.png",
+        "button_image_1": "shopify:\/\/shop_images\/Scenes-1.png",
+        "button_image_2": "shopify:\/\/shop_images\/Scenes-2.png",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-2",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -428,6 +479,7 @@
     "16364397572cc0a070",
     "16321870964a1d4c89",
     "16371499188aae96be",
-    "163210701498163fc8"
+    "163210701498163fc8",
+    "16384196305c466122"
   ]
 }
