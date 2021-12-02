@@ -439,10 +439,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "x",
-            "button_link_1": "\/",
+            "button_link_1": "#",
             "button_style_secondary_1": false,
             "button_label_2": "y",
-            "button_link_2": "\/",
+            "button_link_2": "#",
             "button_style_secondary_2": false
           }
         }
@@ -453,8 +453,8 @@
         "1638419630c85b232d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_28.png",
-        "image_2": "shopify:\/\/shop_images\/image_30.png",
+        "image": "shopify:\/\/shop_images\/image_30.png",
+        "image_2": "shopify:\/\/shop_images\/image_28.png",
         "button_image_1": "shopify:\/\/shop_images\/Scenes-1.png",
         "button_image_2": "shopify:\/\/shop_images\/Scenes-2.png",
         "adapt_height_first_image": false,
