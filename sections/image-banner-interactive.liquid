@@ -147,11 +147,11 @@ function button2() {
               {%- if block.settings.button_label_1 != blank -%}
                 <button id="button1" style="background:white;color:black;cursor:pointer" onclick="button1()" class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_1 | escape }}</button>
               
-             <img style="cursor:pointer" src="{{ section.settings.button_image_1 | img_url }}" onclick="button1()">
+             <img style="cursor:pointer" src="{{ section.settings.button_image_1 | img_url }}" onclick="buttoni1()">
 {%- endif -%}
               {%- if block.settings.button_label_2 != blank -%}
                 <button id="button2" style="background:black;color:white;cursor:revert" onclick="" class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</button>
-              <img style="cursor:pointer"src="{{ section.settings.button_image_2 | img_url }}" onclick="button2()">
+              <img style="cursor:pointer"src="{{ section.settings.button_image_2 | img_url }}" onclick="buttoni2()">
               {%- endif -%}
             </div>
         {%- endcase -%}
