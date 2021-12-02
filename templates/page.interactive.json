@@ -29,7 +29,7 @@
         "button_image_1": "shopify:\/\/shop_images\/Dunes.png",
         "button_image_2": "shopify:\/\/shop_images\/LA.png",
         "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
+        "desktop_text_box_position": "flex-start",
         "desktop_box_alignment": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
