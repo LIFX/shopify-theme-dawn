@@ -99,7 +99,7 @@ function button2() {
 
     
 
-  {%- if section.settings.image_2 != blank -%}
+
 <img id="interactiveBanner" style="transition: all 2s"
         srcset="{%- if section.settings.image_2.width >= 375 -%}{{ section.settings.image_2 | img_url: '375x' }} 375w,{%- endif -%}
           {%- if section.settings.image_2.width >= 750 -%}{{ section.settings.image_2 | img_url: '750x' }} 750w,{%- endif -%}
@@ -118,7 +118,6 @@ function button2() {
         {% if section.settings.image != blank %}class="banner__media-image-half"{% endif %}
       >
 
-  {%- endif -%}
 
 </div>
   {%- elsif section.settings.image_2 == blank -%}
