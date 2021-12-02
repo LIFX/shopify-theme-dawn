@@ -894,6 +894,9 @@
           "options__5": {
             "label": "Inverse"
           },
+          "options__6": {
+            "label": "Transparent"
+          },
           "label": "Color scheme",
           "info": "Visible when text box displayed"
         },
