@@ -135,7 +135,7 @@
   display: flex;
   position: relative;
   width: 100%;
-  align-items: end;
+  align-items: center;
   justify-content: center;
   z-index: 2;
 }
@@ -180,7 +180,7 @@
     padding-top: 5rem;
   }
   .banner__content--center {
-    align-items: center;
+    align-items: end;
   }
 
   .banner__content--flex-start {
