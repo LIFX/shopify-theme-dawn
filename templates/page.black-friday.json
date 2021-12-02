@@ -9,7 +9,7 @@
     "1637305247ab6fe722": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BlackFridayBanner-05.png",
+        "image": "shopify:\/\/shop_images\/1_LIFX_Header_Image_grid_2.jpg",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -20,6 +20,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -31,13 +32,13 @@
         "163730514038d10879-0": {
           "type": "heading",
           "settings": {
-            "heading": "Sign up for exclusive deals and offers for Black Friday"
+            "heading": "Sign up for exclusive deals and offers"
           }
         },
         "163730514038d10879-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Make sure you are signed up to our mailing list to be the first to know when our Black Friday deals go live.<\/p>"
+            "text": "<p>Be sure to check your inbox and confirm your signup.<\/p>"
           }
         },
         "163730514038d10879-2": {
