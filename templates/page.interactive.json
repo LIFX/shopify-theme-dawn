@@ -26,6 +26,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/image_30.png",
         "image_2": "shopify:\/\/shop_images\/image_28.png",
+        "button_image_1": "shopify:\/\/shop_images\/Scenes.png",
+        "button_image_2": "shopify:\/\/shop_images\/Scenes-2.png",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
