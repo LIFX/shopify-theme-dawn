@@ -828,7 +828,10 @@
           "label": "First image"
         },
         "image_2": {
-          "label": "Second image"
+          "label": "Second button image"
+        },
+        "button_image_1": {
+          "label": "First button image"
         },
         "desktop_text_box_position": {
           "options__1": {
