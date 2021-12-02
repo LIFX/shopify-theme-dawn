@@ -125,7 +125,7 @@ function button2() {
 
 
 
-  <div class="banner__align--{{ section.settings.desktop_box_alignment }} banner__content--{{ section.settings.desktop_text_box_position }} page-width box--{{ section.settings.color_scheme }}">
+  <div class="banner__align--{{ section.settings.desktop_box_alignment }} banner__content--{{ section.settings.desktop_text_box_position }} page-width box--{{ section.settings.color_scheme }}" style="margin: 40px 40px 25px 40px;">
     <div class="color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -136,11 +136,11 @@ function button2() {
           {%- when 'text' -%}
             <div class="image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
           {%- when 'buttons' -%}
-			<div style="margin: 40px 40px 25px 40px;">
+
                   <div style="float: left; width: 50%; padding-right: 15px; height: 100%;"> <img style="transition: all 2s;opacity:70%;cursor:pointer" id="button1" src="{{ section.settings.button_image_1 | img_url: '300x200' }}" onclick="button1()" width="100%"></div>
  
                   <div style="float: left; width: 50%; padding-left: 15px; height: 100%;"><img style="transition: all 2s;opacity:100%;cursor:revert" id="button2" src="{{ section.settings.button_image_2 | img_url : '300x200' }}" onclick="" width="100%"></div>
-      		</div>
+
         {%- endcase -%}
       {%- endfor -%}
     </div>
