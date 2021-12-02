@@ -129,7 +129,7 @@ function button2() {
 
 
 
-  <div class="banner__align--{{ section.settings.desktop_box_alignment }} banner__content--{{ section.settings.desktop_text_box_position }} page-width box--{{ section.settings.color_scheme }}">
+  <div class="banner__align--{{ section.settings.desktop_box_alignment }} banner__content--{{ section.settings.desktop_text_box_position }} page-width">
     <div class="banner__box color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -146,12 +146,9 @@ function button2() {
             <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_link_1 != blank and block.settings.button_label_2 != blank and block.settings.button_link_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
               {%- if block.settings.button_label_1 != blank -%}
                 <button id="button1" style="background:white;color:black;cursor:pointer" onclick="button1()" class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_1 | escape }}</button>
-              
-             <img style="cursor:pointer" src="{{ section.settings.button_image_1 | img_url }}" onclick="buttoni1()">
-{%- endif -%}
+              {%- endif -%}
               {%- if block.settings.button_label_2 != blank -%}
                 <button id="button2" style="background:black;color:white;cursor:revert" onclick="" class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</button>
-              <img style="cursor:pointer"src="{{ section.settings.button_image_2 | img_url }}" onclick="buttoni2()">
               {%- endif -%}
             </div>
         {%- endcase -%}
@@ -176,16 +173,6 @@ function button2() {
       "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner-interactive.settings.image_2.label"
-    },
-    {
-      "type": "image_picker",
-      "id": "button_image_1",
-      "label": "t:sections.image-banner-interactive.settings.button_image_1.label"
-    },
-    {
-      "type": "image_picker",
-      "id": "button_image_2",
-      "label": "t:sections.image-banner-interactive.settings.button_image_2.label"
     },
     {
       "type": "checkbox",
@@ -272,10 +259,6 @@ function button2() {
         {
           "value": "inverse",
           "label": "t:sections.image-banner-interactive.settings.color_scheme.options__5.label"
-        },
-        {
-          "value": "transparent",
-          "label": "t:sections.image-banner-interactive.settings.color_scheme.options__6.label"
         }
       ],
       "default": "background-1",
