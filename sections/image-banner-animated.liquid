@@ -1,5 +1,20 @@
 {{ 'section-image-banner-animated.css' | asset_url | stylesheet_tag }}
 
+<script>
+  const checkpoint = 300;
+ 
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll <= checkpoint) {
+    opacity = 1 - currentScroll / checkpoint;
+  } else {
+    opacity = 0;
+  }
+  document.querySelector(".front").style.opacity = opacity;
+});
+</script>
+
+
 
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
@@ -30,85 +45,16 @@
   }
 {%- endstyle -%}
 
-{% if section.settings.image != blank %}	  
-<div id="Banner-{{ section.id }}" class="banner{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
 
-        {%- if section.settings.image != blank -%}
-    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}">
-     
-      <img
-        srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image | img_url: '375x' }} 375w,{%- endif -%}
-          {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | img_url: '750x' }} 750w,{%- endif -%}
-          {%- if section.settings.image.width >= 1100 -%}{{ section.settings.image | img_url: '1100x' }} 1100w,{%- endif -%}
-          {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}
-          {%- if section.settings.image.width >= 1780 -%}{{ section.settings.image | img_url: '1780x' }} 1780w,{%- endif -%}
-          {%- if section.settings.image.width >= 2000 -%}{{ section.settings.image | img_url: '2000x' }} 2000w,{%- endif -%}
-          {%- if section.settings.image.width >= 3000 -%}{{ section.settings.image | img_url: '3000x' }} 3000w,{%- endif -%}
-          {%- if section.settings.image.width >= 3840 -%}{{ section.settings.image | img_url: '3840x' }} 3840w,{%- endif -%}"
-        sizes="{% if section.settings.image_2 != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image_2 != blank %}50vw{% else %}100vw{% endif %}"
-        src="{{ section.settings.image | img_url: '1500x' }}"
-        loading="lazy"
-        alt="{{ section.settings.image.alt | escape }}"
-        width="{{ section.settings.image.width }}"
-        height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
-        {% if section.settings.image_2 != blank %}class="banner__media-image-half"{% endif %}
-      >
-
-    
-
-  {%- if section.settings.image_2 != blank -%}
-<img
-        srcset="{%- if section.settings.image_2.width >= 375 -%}{{ section.settings.image_2 | img_url: '375x' }} 375w,{%- endif -%}
-          {%- if section.settings.image_2.width >= 750 -%}{{ section.settings.image_2 | img_url: '750x' }} 750w,{%- endif -%}
-          {%- if section.settings.image_2.width >= 1100 -%}{{ section.settings.image_2 | img_url: '1100x' }} 1100w,{%- endif -%}
-          {%- if section.settings.image_2.width >= 1500 -%}{{ section.settings.image_2 | img_url: '1500x' }} 1500w,{%- endif -%}
-          {%- if section.settings.image_2.width >= 1780 -%}{{ section.settings.image_2 | img_url: '1780x' }} 1780w,{%- endif -%}
-          {%- if section.settings.image_2.width >= 2000 -%}{{ section.settings.image_2 | img_url: '2000x' }} 2000w,{%- endif -%}
-          {%- if section.settings.image_2.width >= 3000 -%}{{ section.settings.image_2 | img_url: '3000x' }} 3000w,{%- endif -%}
-          {%- if section.settings.image_2.width >= 3840 -%}{{ section.settings.image_2 | img_url: '3840x' }} 3840w,{%- endif -%}"
-        sizes="{% if section.settings.image != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image != blank %}50vw{% else %}100vw{% endif %}"
-        src="{{ section.settings.image_2 | img_url: '1500x' }}"
-        loading="lazy"
-        alt="{{ section.settings.image_2.alt | escape }}"
-        width="{{ section.settings.image_2.width }}"
-        height="{{ section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio }}"
-        {% if section.settings.image != blank %}class="banner__media-image-half"{% endif %}
-      >
-
-  {%- endif -%}
-
-</div>
-  {%- elsif section.settings.image_2 == blank -%}
-    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
-      {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
-    </div>
-  {%- endif -%}
-
-
-
-  <div class="banner__align--{{ section.settings.desktop_box_alignment }} banner__content--{{ section.settings.desktop_text_box_position }} page-width box--{{ section.settings.color_scheme }}" >
-    <div class="color-{{ section.settings.color_scheme }}" style="margin: 40px 40px 25px 40px;">
-      {%- for block in section.blocks -%}
-        {%- case block.type -%}
-          {%- when 'heading' -%}
-            <h2 class="banner__heading {% if block.settings.heading_size == 'medium' %}h1{% else %}h0{% endif %}" {{ block.shopify_attributes }}>
-              <span>{{ block.settings.heading | escape }}</span>
-            </h2>
-          {%- when 'text' -%}
-            <div class="image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
-          {%- when 'buttons' -%}
-
-                  <div style="float: left; width: 50%; padding-right: 15px; height: 100%;"> <img style="transition: all 2s;opacity:70%;cursor:pointer" id="button1" src="{{ section.settings.button_image_1 | img_url: '250x167' }}" onclick="button1()" width="100%"></div>
- 
-                  <div style="float: left; width: 50%; padding-left: 15px; height: 100%;"><img style="transition: all 2s;opacity:100%;cursor:revert" id="button2" src="{{ section.settings.button_image_2 | img_url : '250x167' }}" onclick="" width="100%"></div>
-
-        {%- endcase -%}
-      {%- endfor -%}
-    </div>
+<section>
+  <div class="img-wrapper">
+    <div style="background-image: url({{ section.settings.image | img_url: '1500x' }});"></div>
+    <div class="front" style="background-image: url({{ section.settings.image_2 | img_url: '1500x' }});"></div>
   </div>
+</section>
 
-</div>
-{% endif %}
+
+
 {% schema %}
 {
   "name": "t:sections.image-banner-animated.name",
