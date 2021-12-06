@@ -324,4 +324,5 @@
   background-repeat: no-repeat;
   background-color: var(--gray);
   transition: opacity 0.1s;
+  display:revert;
 }
