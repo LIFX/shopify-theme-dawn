@@ -5,39 +5,6 @@
       "settings": {
       }
     },
-    "1638423446c63baaca": {
-      "type": "image-banner-interactive",
-      "blocks": {
-        "163842344653a0a68c-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "163842344653a0a68c-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_30.png",
-        "image_2": "shopify:\/\/shop_images\/image_28.png",
-        "button_image_1": "shopify:\/\/shop_images\/Dunes.png",
-        "button_image_2": "shopify:\/\/shop_images\/LA.png",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "flex-start",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "transparent",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "1638761547f6670550": {
       "type": "image-banner-animated",
       "blocks": {
@@ -83,11 +50,44 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1638423446c63baaca": {
+      "type": "image-banner-interactive",
+      "blocks": {
+        "163842344653a0a68c-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "163842344653a0a68c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_30.png",
+        "image_2": "shopify:\/\/shop_images\/image_28.png",
+        "button_image_1": "shopify:\/\/shop_images\/Dunes.png",
+        "button_image_2": "shopify:\/\/shop_images\/LA.png",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "flex-start",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "transparent",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
-    "1638423446c63baaca",
-    "1638761547f6670550"
+    "1638761547f6670550",
+    "1638423446c63baaca"
   ]
 }
