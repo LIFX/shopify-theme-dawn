@@ -311,7 +311,7 @@
 
 /*CUSTOM VARIABLES HERE*/
  
-img-wrapper {
+.img-wrapper {
   display: grid;
   height: 100vh;
 }
