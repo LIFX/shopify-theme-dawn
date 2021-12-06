@@ -51,6 +51,7 @@
       </div>
     </div>
     <div class="grid__item">
+<FadeInSection>
       <div class="image-with-text__content image-with-text__content--{{ section.settings.height }}">
         {%- for block in section.blocks -%}
           {% case block.type %}
@@ -81,6 +82,7 @@
         {%- endfor -%}
 
       </div>
+      </FadeInSection>
     </div>
   </div>
 </div>
