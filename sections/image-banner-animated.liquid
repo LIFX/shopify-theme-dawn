@@ -46,11 +46,17 @@ window.addEventListener("scroll", () => {
 {%- endstyle -%}
 
 
+
+	  
 <section>
   <div class="img-wrapper">
-    <div style="background-image: url({{ section.settings.image | img_url: '1500x' }});"></div>
-    <div class="front" style="background-image: url({{ section.settings.image_2 | img_url: '1500x' }});"></div>
-  </div>
+        {%- if section.settings.image != blank -%}
+       <div style="background-image: url({{ section.settings.image | img_url: '1500x' }});"></div>
+ {%- endif -%}
+  {%- if section.settings.image_2 != blank -%}
+ <div class="front" style="background-image: url({{ section.settings.image_2 | img_url: '1500x' }});"></div>
+  {%- endif -%}
+ </div>
 </section>
 
 
