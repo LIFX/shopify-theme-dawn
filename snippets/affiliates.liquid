@@ -22,13 +22,15 @@
 	<a href="{{ product.metafields.my_fields.us_bestbuy_affiliate }}" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">Best Buy</span></a>   
 {% endif %}
-{% if product.metafields.my_fields.au_amazon_affiliate != blank %}
-	<a href="{{ product.metafields.my_fields.au_amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank">
-    <span class="product__text caption-with-letter-spacing">Amazon</span></a>   
-{% endif %}
 {% if product.metafields.my_fields.au_jbhifi_affiliate != blank %}
 	<a href="{{ product.metafields.my_fields.au_jbhifi_affiliate }}" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">JB Hi-Fi</span></a>   
+{% endif %}
+{% if request.host == 'lifxaustralia.myshopify.com' or request.host == 'lifx.com.au' %}
+	<a href="https://www.bunnings.com.au/search/products?q=lifx&sort=BoostOrder&page=1&pageSize=36&brandname=LIFX" class="mobile_external affiliateLink" target="_blank">
+    <span class="product__text caption-with-letter-spacing">Bunnings</span></a>  
+	<a href="/pages/where-to-buy">
+    <span class="product__text caption-with-letter-spacing">View All</span></a>   
 {% endif %}
 </div>
 {% endif %}
