@@ -61,19 +61,7 @@
         {{ 'customer.register.last_name' | t }}
       </label>
     </div>
-    <div class="field">
-      <input
-        type="text"
-        name="customer[company]"
-        id="RegisterForm-Company"
-        {% if form.company %}value="{{ form.company }}"{% endif %}
-        autocomplete="company"
-        placeholder="Company"
-      >
-      <label for="RegisterForm-LastName">
-        Company
-      </label>
-    </div>
+    
     <div class="field">      
       <input
         type="email"
