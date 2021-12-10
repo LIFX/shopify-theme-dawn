@@ -20,7 +20,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify:\/\/collections\/candles",
+            "button_link_1": "shopify:\/\/collections\/sale",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -34,10 +34,11 @@
         "163911487375092ccd-2"
       ],
       "settings": {
+        "image_2": "shopify:\/\/shop_images\/LIFX_Homepage_BLACKFRIDAYSALE_Module-05.png",
         "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
+        "desktop_box_alignment": "right",
         "show_text_box": true,
         "banner_url": "",
         "image_overlay_opacity": 0,
@@ -47,7 +48,7 @@
         "crop_image_alignment": "center",
         "website_au": false,
         "website_ukeu": false,
-        "website_us": false
+        "website_us": true
       }
     },
     "1637546869f1304ff3": {
@@ -98,7 +99,7 @@
         "crop_image_alignment": "left",
         "website_au": true,
         "website_ukeu": true,
-        "website_us": true
+        "website_us": false
       }
     },
     "1632107311c762a72c": {
