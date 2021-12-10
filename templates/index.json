@@ -2,7 +2,6 @@
   "sections": {
     "16391303748a4dd42c": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "1639130374def0fd15-0": {
           "type": "heading",
@@ -39,7 +38,7 @@
         "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
+        "desktop_box_alignment": "right",
         "show_text_box": true,
         "banner_url": "",
         "image_overlay_opacity": 0,
@@ -148,7 +147,7 @@
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "crop_image_alignment": "left",
-        "website_au": true,
+        "website_au": false,
         "website_ukeu": true,
         "website_us": false
       }
