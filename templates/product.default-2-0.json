@@ -68,7 +68,7 @@
         "6ff3d714-2463-4ba6-b88c-0da62d9f2f15": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.available == false and request.host == 'lifx.myshopify.com' or  request.host == 'www.lifx.com'  %}\n{% if product.metafields.my_fields.us_amazon_affiliate %}<a href=\"{{ product.metafields.my_fields.us_amazon_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin:0px;width:100%\">Buy at Amazon<\/span><\/a>{% endif %}\n{% if product.metafields.my_fields.us_bestbuy_affiliate %}<a href=\"{{ product.metafields.my_fields.us_bestbuy_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-top:10px;width:100%\">Buy at Best Buy<\/span><\/a>{% endif %}\n{% endif %}"
+            "custom_liquid": "{% if product.available == false and request.host == 'lifx.myshopify.com' or  request.host == 'www.lifx.com'  %}\n{% if product.metafields.my_fields.us_amazon_affiliate %}<a href=\"{{ product.metafields.my_fields.us_amazon_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin:0px;width:100%\">$34.99 at Amazon<\/span><\/a>{% endif %}\n{% if product.metafields.my_fields.us_bestbuy_affiliate %}<a href=\"{{ product.metafields.my_fields.us_bestbuy_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-top:10px;width:100%;background-color:blue\">$34.99 at Best Buy<\/span><\/a>{% endif %}\n{% endif %}"
           }
         },
         "cc97d592-9b20-4527-a8a5-12629e27c6cc": {
