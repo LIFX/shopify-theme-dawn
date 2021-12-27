@@ -2,6 +2,7 @@
   "sections": {
     "16391303748a4dd42c": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "1639130374def0fd15-0": {
           "type": "heading",
@@ -53,6 +54,7 @@
     },
     "1639114873808e553c": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "163911487375092ccd-0": {
           "type": "heading",
@@ -155,6 +157,7 @@
     },
     "1632107311c762a72c": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured Products",
         "collection": "homepage",
@@ -171,6 +174,7 @@
     },
     "16375504211534ace0": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "16375504216e4b37f8-0": {
           "type": "heading",
@@ -220,6 +224,18 @@
         "website_us": true
       }
     },
+    "16360812376e144b22": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/lifx_low.mp4?v=1620198850",
+        "description": "Just another smart light?",
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "16360916891de3101c": {
       "type": "image-with-text",
       "blocks": {
@@ -253,18 +269,6 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "16360812376e144b22": {
-      "type": "video2",
-      "settings": {
-        "heading": "",
-        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/lifx_low.mp4?v=1620198850",
-        "description": "Just another smart light?",
-        "full_width": true,
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -525,8 +529,8 @@
     "1637546869f1304ff3",
     "1632107311c762a72c",
     "16375504211534ace0",
-    "16360916891de3101c",
     "16360812376e144b22",
+    "16360916891de3101c",
     "1634272844a70d2ca1",
     "1632116257dff5145e",
     "16364397572cc0a070",
