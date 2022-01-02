@@ -61,6 +61,12 @@
             "page": "",
             "icon": "question_mark"
           }
+        },
+        "0b4ca9e4-c1ba-48bd-9a6e-468eb110a1a5": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com.au\/cart\/update?updates[40384123699247]=1&updates[40384107053103]=4\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
+          }
         }
       },
       "block_order": [
@@ -71,7 +77,8 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
         "855ad892-8e71-400d-9280-f8bc7696049f",
-        "23c27ce0-623f-4053-a182-025876e06583"
+        "23c27ce0-623f-4053-a182-025876e06583",
+        "0b4ca9e4-c1ba-48bd-9a6e-468eb110a1a5"
       ],
       "settings": {
         "enable_sticky_info": true,
