@@ -51,11 +51,12 @@
         },
         "23c27ce0-623f-4053-a182-025876e06583": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Specifications",
             "website_au": true,
-            "website_ukeu": true,
-            "website_us": true,
+            "website_ukeu": false,
+            "website_us": false,
             "content": "<p><span style=\"text-decoration:underline\"><strong>LIFX Clean 1200lm<br\/><\/strong><\/span><strong>Brightness: <\/strong>1200 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>11.5W at full brightness<br\/><strong>Wattage Eq: <\/strong>80W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>135°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>63mm x 63mm x 116mm<\/p><p><\/p><p><span style=\"text-decoration:underline\"><strong>LIFX Lightstrip 2m<\/strong><\/span><strong><br\/>Brightness: <\/strong>1400 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>17.0W at full brightness<br\/><strong>Wattage Eq: <\/strong>90W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>120°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>2000mm x 12mm x 4mm<\/p><p><br\/><span style=\"text-decoration:underline\"><strong>LIFX Lightstrip Extension 1m<\/strong><\/span><\/p><p><strong>Brightness: <\/strong>700 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>8.0W at full brightness<br\/><strong>Wattage Eq: <\/strong>50W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>120°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>1000mm x 12mm x 4mm<\/p>",
             "page": "",
             "icon": "question_mark"
@@ -84,25 +85,25 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00-LIFX-Clean-AU-E27_1500x_891e8a4b-e45b-48f7-99fb-9a423bfc4062.jpg",
-            "title": "1 x LIFX Clean 1200lm",
-            "text": "<p>LIFX Clean is a powerful smart light that doubles as a daily disinfectant bulb. Use its bright white light at 6000K (the same colour temperature as the sun) to enhance your gaming performance and improve focus. Then schedule a Clean Cycle to wipe out bacteria on your keyboard, controllers and headphones while you take a break. <\/p>"
+            "image": "shopify:\/\/shop_images\/LIFX_100mm_Downlight_lit_grande_810f4cfe-eef6-40a6-96dc-136d989f270d.jpg",
+            "title": "4 x LIFX Downlights (Flex Only)",
+            "text": "<p>A complete lighting fixture delivering you vivid LIFX colour and tunable warm to cool whites everywhere in your home. The LIFX Downlight produces a staggering 700 lumens from just 10 watts.<\/p><p><\/p><p>This product is IC-4 Rated.<\/p>"
           }
         },
         "1637276724eb92fe7d-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_LIFX_Lightstrip_2m_AU_1500x_3b3ac085-ae04-48f7-8534-7ff96d4b6ec1.jpg",
-            "title": "1 x LIFX Lightstrip 2m",
-            "text": "<p>A flexible LED strip with endless colour options to set the mood to whatever game you choose to play. Place LIFX Lightstrip behind your monitor, TV screen or entertainment unit for bias lighting that immerses you into the narrative of your game, enhances colours and contrasts on the screen, and reduces eye strain and dryness.<\/p>"
+            "image": "shopify:\/\/shop_images\/01_LIFX_Switch_AU_2G_7e055bc9-f752-4a70-9fe9-fac1c65fa559.jpg",
+            "title": "1 x LIFX Smart Switch (2 Button)",
+            "text": "<p>New build, renovation, or simple upgrade, this 2-button in-wall switch can control your LIFX smart lights, or make your standard \"dumb\" lights work smart. <\/p><p>You and your family can rest assured that you have the simplicity of a standard switch, with the added smart functionality whenever you want it. <\/p>"
           }
         },
         "1637276724eb92fe7d-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_LIFX_Lightstrip_Extenstion_1m_AU_1500x_b987e17d-a9c8-4eab-af06-4da8de75cc31.jpg",
-            "title": "1 x  Lightstrip Extension 1m",
-            "text": "<p>A flexible LED strip extension to the LIFX Lightstrip. With the same endless colour options, Scenes and Effect as the LIFX Lightstrip, you can extend the vibrant illumination in your gaming room for ultimate immersive play. Place a LIFX Lightstrip around the edges of your floor and ceiling to transform your entire space. <\/p>"
+            "image": "shopify:\/\/shop_images\/06_LIFX_Switch_AU_2G_19152be3-56f2-4c8c-a742-81d1bcb1a335.jpg",
+            "title": "Not just an app",
+            "text": "<p>The LIFX App can not only help give you the best start, but will turn your experience “up to 11”. <\/p><p><\/p><p>Automate your wake up Schedule, or set up your movie-watching Scene (then set up voice control so you don’t even have to leave the sofa), or play with Effects next time you’re entertaining.<\/p>"
           }
         }
       },
