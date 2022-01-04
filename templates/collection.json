@@ -37,7 +37,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX_Homepage_BLACKFRIDAYSALE_Module-05.png",
         "adapt_height_first_image": false,
-        "banner_height_overide": false,
+        "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "right",
         "show_text_box": true,
