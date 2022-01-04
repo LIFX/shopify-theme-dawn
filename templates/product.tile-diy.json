@@ -32,14 +32,14 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$219.95<\/s> <span class=\"price-item price-item--sale\">$153.95<\/span><br><strong><span style=\"color:red\">Save $66.00<\/span><\/strong>",
+            "text": "<s class=\"price-item price-item--regular\">$249.99<\/s> <span class=\"price-item price-item--sale\">$124.99<\/span><br><strong><span style=\"color:red\">Save $125.00<\/span><\/strong>",
             "text_style": "subtitle"
           }
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>4 x LIFX Color 800lm E26<br>3 x Flic Buttons<br>",
+            "text": "<strong>Bundle Includes:<\/strong><br>5 x LIFX Tiles<br>1 x Power Supply with US Plug<br>1 x Long Cable<br>4 x Short Cables<br>",
             "text_style": "body"
           }
         },
