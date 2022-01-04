@@ -52,58 +52,6 @@
         "website_us": false
       }
     },
-    "1639114873808e553c": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "163911487375092ccd-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Time's running out - shop gifts now.",
-            "heading_size": "medium"
-          }
-        },
-        "163911487375092ccd-1": {
-          "type": "text",
-          "settings": {
-            "text": "30% off selected products. Ends December 26th"
-          }
-        },
-        "163911487375092ccd-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop now",
-            "button_link_1": "shopify:\/\/collections\/sale",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "163911487375092ccd-0",
-        "163911487375092ccd-1",
-        "163911487375092ccd-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_Homepage_Gifting_Module.jpg",
-        "adapt_height_first_image": false,
-        "banner_height_overide": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "right",
-        "show_text_box": true,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "crop_image_alignment": "center",
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": true
-      }
-    },
     "1637546869f1304ff3": {
       "type": "image-banner",
       "blocks": {
@@ -233,6 +181,57 @@
         "full_width": true,
         "website_au": true,
         "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1639114873808e553c": {
+      "type": "image-banner",
+      "blocks": {
+        "163911487375092ccd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lifestyle Bundles",
+            "heading_size": "medium"
+          }
+        },
+        "163911487375092ccd-1": {
+          "type": "text",
+          "settings": {
+            "text": "Find the bundle to suit your lifestyle and save."
+          }
+        },
+        "163911487375092ccd-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify:\/\/collections\/sale",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "163911487375092ccd-0",
+        "163911487375092ccd-1",
+        "163911487375092ccd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_Homepage_BLACKFRIDAYSALE_Module-05.png",
+        "adapt_height_first_image": false,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "right",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": false,
+        "website_ukeu": false,
         "website_us": true
       }
     },
@@ -525,11 +524,11 @@
   },
   "order": [
     "16391303748a4dd42c",
-    "1639114873808e553c",
     "1637546869f1304ff3",
     "1632107311c762a72c",
     "16375504211534ace0",
     "16360812376e144b22",
+    "1639114873808e553c",
     "16360916891de3101c",
     "1634272844a70d2ca1",
     "1632116257dff5145e",
