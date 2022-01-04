@@ -32,7 +32,7 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$239.94<\/s> <span class=\"price-item price-item--sale\">$167.94<\/span><br><strong><span style=\"color:red\">Save $72.00<\/span><\/strong>",
+            "text": "<strong>Bundle Includes:<\/strong><br>4 x LIFX Color 800lm E26<br>1 x Flic Buttons<br>1 x LIFX Lightstrip 40\"<br>",
             "text_style": "subtitle"
           }
         },
