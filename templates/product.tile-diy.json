@@ -43,6 +43,11 @@
             "text_style": "body"
           }
         },
+        "fbc55e50-d642-4cfd-b331-75117a91e595": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
@@ -75,6 +80,7 @@
         "subtitle",
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
+        "fbc55e50-d642-4cfd-b331-75117a91e595",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "ed281872-1cd9-46fa-94ad-d5ddb0031d97"
