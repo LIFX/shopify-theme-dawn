@@ -147,6 +147,45 @@
         "website_us": true
       }
     },
+    "1641361651ac926fd5": {
+      "type": "collage",
+      "blocks": {
+        "ebd3f2d2-85e1-488e-9f6d-d26674a3d01c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wall-Tile-Feature_3_7672e4f8-7cb5-4e7d-a30f-0cbc66e666de.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "fdb076ba-f2be-462e-8765-74dd07836124": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bed-Tile-Shelf-Feature-1.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "3ac795f4-4e5f-4cac-a5c0-bec0bea065a5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LIFX_Tile_-_What_s_included_af235b2b-1eed-4bed-a1ab-54e248e3a521.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "ebd3f2d2-85e1-488e-9f6d-d26674a3d01c",
+        "fdb076ba-f2be-462e-8765-74dd07836124",
+        "3ac795f4-4e5f-4cac-a5c0-bec0bea065a5"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
     "1635139699342ea047": {
       "type": "multicolumn",
       "blocks": {
@@ -295,6 +334,7 @@
     "main",
     "16372767243e83d044",
     "163727672724969a9b",
+    "1641361651ac926fd5",
     "1635139699342ea047",
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
