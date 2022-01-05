@@ -129,6 +129,7 @@
     },
     "163727672724969a9b": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Wall-Tile-Feature_3_7672e4f8-7cb5-4e7d-a30f-0cbc66e666de.jpg",
         "adapt_height_first_image": true,
@@ -181,7 +182,7 @@
         "3ac795f4-4e5f-4cac-a5c0-bec0bea065a5"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "LIFX Tile",
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
