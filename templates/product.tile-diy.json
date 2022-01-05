@@ -129,6 +129,7 @@
     },
     "163727672724969a9b": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerSLEEP_LandingPage-1.png",
         "adapt_height_first_image": false,
@@ -145,6 +146,45 @@
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
+      }
+    },
+    "1641361875945388b2": {
+      "type": "collage",
+      "blocks": {
+        "eea15329-8172-49c3-9cdd-1a9b6a9e3597": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wall-Tile-Feature_3_7672e4f8-7cb5-4e7d-a30f-0cbc66e666de.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "cc32d1e5-d4cb-4605-ad89-b3deb0aaa563": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tile-And-Beam_Set-Etched-HighRes-Master-Recovered_copy.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "95e87de3-c97b-4c6e-9f48-363e2a5841d1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LIFX_Tile_-_What_s_included_af235b2b-1eed-4bed-a1ab-54e248e3a521.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "eea15329-8172-49c3-9cdd-1a9b6a9e3597",
+        "cc32d1e5-d4cb-4605-ad89-b3deb0aaa563",
+        "95e87de3-c97b-4c6e-9f48-363e2a5841d1"
+      ],
+      "settings": {
+        "heading": "LIFX Tile",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
       }
     },
     "1635139699342ea047": {
@@ -295,6 +335,7 @@
     "main",
     "16372767243e83d044",
     "163727672724969a9b",
+    "1641361875945388b2",
     "1635139699342ea047",
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
