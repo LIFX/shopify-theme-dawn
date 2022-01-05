@@ -25,7 +25,7 @@
         "subtitle": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text": "",
             "text_style": "subtitle"
           }
         },
@@ -41,6 +41,11 @@
           "settings": {
             "text": "<strong>Includes:<\/strong><br>1 x LIFX Tiles<br>1 x Short Cables<br>",
             "text_style": "body"
+          }
+        },
+        "b83f4d40-61fe-4488-9c09-b3bdfc9a27fd": {
+          "type": "description",
+          "settings": {
           }
         },
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
@@ -75,6 +80,7 @@
         "subtitle",
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
+        "b83f4d40-61fe-4488-9c09-b3bdfc9a27fd",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "ed281872-1cd9-46fa-94ad-d5ddb0031d97"
