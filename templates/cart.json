@@ -9,7 +9,7 @@
     "164152184064165367": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if product.tags contains \"ME\" %}\n<div style=\"border-width:1px;border-color:#eee;border-style: solid;\n    padding: 10px;font-size: 1.3rem;\n    line-height: 1.5;\n    letter-spacing: .04rem;\">\n<strong>Restricted shipping:<\/strong> Product does not ship to USA, Canada and Mexico.\n<br><br>\n<strong>Ships to countries:<\/strong> UAE,\tSaudi Arabia,\tEgypt, Jordan,\tKuwait,\tBahrain,\tQatar and Oman. Shipping rates applied in cart.\n<br><br>\n<strong>Duties & Taxes:<\/strong> All import duties and taxes are the responsibility of the customer. Product ships from Hong Kong via Aramex. \n<\/div>\n{% endif %}"
+        "custom_liquid": "{% for item in cart.items %}\n{% if item.product.tags contains 'ME' %}\n<div class=\"page-width\" style=\"font-size: 1.3rem;\n    line-height: 1.5;\n    letter-spacing: .04rem;\">\n<strong>Restricted shipping:<\/strong> Product does not ship to USA, Canada and Mexico.\n<br><br>\n<strong>Ships to countries:<\/strong> UAE,\tSaudi Arabia,\tEgypt, Jordan,\tKuwait,\tBahrain,\tQatar and Oman. Shipping rates applied at checkout.\n<br><br>\n<strong>Duties & Taxes:<\/strong> All import duties and taxes are the responsibility of the customer. Product ships from Hong Kong via Aramex. \n<\/div>\n{% endif %}\n\n{% endfor %}"
       }
     },
     "cart-footer": {
