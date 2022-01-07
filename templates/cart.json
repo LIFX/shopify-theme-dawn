@@ -3,7 +3,13 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
-        "show_vendor": false
+        "show_vendor": true
+      }
+    },
+    "164152184064165367": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
       }
     },
     "cart-footer": {
@@ -47,6 +53,7 @@
   },
   "order": [
     "cart-items",
+    "164152184064165367",
     "cart-footer",
     "featured-products"
   ]
