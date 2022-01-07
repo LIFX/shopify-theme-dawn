@@ -34,10 +34,9 @@
           "settings": {
           }
         },
-        "f1da6ca5-9156-4723-9a4d-fdfca828c5a6": {
-          "type": "custom_liquid",
+        "description": {
+          "type": "description",
           "settings": {
-            "custom_liquid": "{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}\n\n{% if product.tags contains \"ME\" %}\n<div style=\"border-width:1px;border-color:#eee;border-style: solid;\n    padding: 10px;font-size: 1.3rem;\n    line-height: 1.5;\n    letter-spacing: .04rem;\">\n<strong>Restricted shipping:<\/strong> Product does not ship to USA, Canada and Mexico.\n<br><br>\n<strong>Ships to countries:<\/strong> UAE,\tSaudi Arabia,\tEgypt, Jordan,\tKuwait,\tBahrain,\tQatar and Oman. Shipping rates applied in cart.\n<br><br>\n<strong>Duties & Taxes:<\/strong> All import duties and taxes are the responsibility of the customer. Product ships from Hong Kong via Aramex. \n<\/div>\n{% endif %}"
           }
         },
         "variant_picker": {
@@ -57,9 +56,10 @@
             "show_dynamic_checkout": false
           }
         },
-        "description": {
-          "type": "description",
+        "f1da6ca5-9156-4723-9a4d-fdfca828c5a6": {
+          "type": "custom_liquid",
           "settings": {
+            "custom_liquid": "{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}\n\n{% if product.tags contains \"ME\" %}\n<div style=\"border-width:1px;border-color:#eee;border-style: solid;\n    padding: 10px;font-size: 1.3rem;\n    line-height: 1.5;\n    letter-spacing: .04rem;\">\n<strong>Restricted shipping:<\/strong> Product does not ship to USA, Canada and Mexico.\n<br><br>\n<strong>Ships to countries:<\/strong> UAE,\tSaudi Arabia,\tEgypt, Jordan,\tKuwait,\tBahrain,\tQatar and Oman. Shipping rates applied in cart.\n<br><br>\n<strong>Duties & Taxes:<\/strong> All import duties and taxes are the responsibility of the customer. Product ships from Hong Kong via Aramex. \n<\/div>\n{% endif %}"
           }
         },
         "share": {
@@ -112,11 +112,11 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "price",
-        "f1da6ca5-9156-4723-9a4d-fdfca828c5a6",
+        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
+        "f1da6ca5-9156-4723-9a4d-fdfca828c5a6",
         "share",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
