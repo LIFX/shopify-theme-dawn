@@ -1,3 +1,8 @@
+{% if section.settings.website_ukeu == false and request.host == 'lifxukeu.myshopify.com' or request.host == 'lifxshop.co.uk' or request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' or request.host == 'lifxgb.myshopify.com'%}
+{% elsif section.settings.website_us == false and request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
+{% elsif section.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
+{% else %}
+
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
@@ -72,6 +77,8 @@
     </div>
   {%- endif -%}
 </div>
+
+{% endif %}
 
 {% schema %}
 {
@@ -165,6 +172,24 @@
       "default": false,
       "label": "t:sections.featured-collection.settings.show_rating.label",
       "info": "t:sections.featured-collection.settings.show_rating.info"
+    },
+	{
+      "type": "checkbox",
+      "id": "website_au",
+      "default": true,
+      "label": "t:sections.image-banner.settings.website_au.label"
+    },
+	{
+      "type": "checkbox",
+      "id": "website_ukeu",
+      "default": true,
+      "label": "t:sections.image-banner.settings.website_ukeu.label"
+    },
+	{
+      "type": "checkbox",
+      "id": "website_us",
+      "default": true,
+      "label": "t:sections.image-banner.settings.website_us.label"
     }
   ],
   "presets": [
