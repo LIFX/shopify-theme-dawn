@@ -86,7 +86,6 @@
         "1639130374def0fd15-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_Homepage_Gifting_Module.jpg",
         "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
@@ -156,7 +155,6 @@
     },
     "1632107311c762a72c": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Featured Products",
         "collection": "homepage",
