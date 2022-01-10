@@ -176,6 +176,29 @@
         "button_style_secondary_2": false
       }
     },
+    "16417795474723f926": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "homepage",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
+      }
+    },
     "16375504211534ace0": {
       "type": "image-banner",
       "disabled": true,
@@ -532,6 +555,7 @@
     "16391303748a4dd42c",
     "1637546869f1304ff3",
     "1632107311c762a72c",
+    "16417795474723f926",
     "16375504211534ace0",
     "16360812376e144b22",
     "16360916891de3101c",
