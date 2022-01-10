@@ -59,6 +59,11 @@
             "custom_liquid": "{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}\n\n{% if product.tags contains \"ME\" %}\n<div style=\"border-width:1px;border-color:#eee;border-style: solid;\n    padding: 10px;font-size: 1.3rem;\n    line-height: 1.5;\n    letter-spacing: .04rem;\">\n<strong>Ships to countries:<\/strong> UAE,\tSaudi Arabia,\tEgypt, Jordan,\tKuwait,\tBahrain,\tQatar and Oman. Shipping rates applied in cart.\n<br><br>\n<strong>Duties & Taxes:<\/strong> All import duties and taxes are the responsibility of the customer. Product ships from Hong Kong via Aramex. \n<br><br>\n<strong>Warranty & Returns:<\/strong> LIFX is unable to supply an international warranty outside of the US due to high shipping rates.<\/div>\n{% endif %}"
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -84,14 +89,9 @@
             "icon": "price_tag"
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "88e15617-7a01-4dae-92e8-6e255e65fba0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Specifications",
             "website_au": true,
@@ -104,6 +104,7 @@
         },
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Energy Labels",
             "website_au": false,
@@ -137,10 +138,10 @@
         "variant_picker",
         "quantity_selector",
         "855ad892-8e71-400d-9280-f8bc7696049f",
+        "description",
         "buy_buttons",
         "6ff3d714-2463-4ba6-b88c-0da62d9f2f15",
         "cc97d592-9b20-4527-a8a5-12629e27c6cc",
-        "description",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
         "76f2877b-9463-4ca3-a71e-982cd31af6da"
