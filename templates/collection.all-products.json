@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "1639957642134ac7a8": {
+      "type": "image-banner",
+      "blocks": {
+        "1639957642c63a083c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lightbulb Collection",
+            "heading_size": "medium"
+          }
+        },
+        "1639957642c63a083c-1": {
+          "type": "text",
+          "settings": {
+            "text": "With LIFX, you can design your space like never before. Vibrant, calm, colourful - it's up to you in each moment."
+          }
+        }
+      },
+      "block_order": [
+        "1639957642c63a083c-0",
+        "1639957642c63a083c-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Categories_Header_LightBulbs.jpg",
+        "adapt_height_first_image": false,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "right",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": true,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    }
+  },
+  "order": [
+    "1639957642134ac7a8",
+    "banner",
+    "product-grid"
+  ]
+}
