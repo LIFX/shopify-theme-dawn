@@ -87,6 +87,12 @@
             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.on_sale' | t }}</span>
          {%- elsif product_card_product.tags contains "BFCM" -%}
              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Bundle</span>
+         {%- elsif product_card_product.tags contains "B2S50" -%}
+             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Buy 2+ Save 50%</span>
+         {%- elsif product_card_product.tags contains "B2S30" -%}
+             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Buy 2+ Save 30%</span>
+         {%- elsif product_card_product.tags contains "B10S30" -%}
+             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Buy 10+ Save 30%</span>
          {%- endif -%}
 	
         </div>
