@@ -6,6 +6,7 @@
       "blocks": {
         "164127504662ff1cdb-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Lifestyle Bundles",
             "heading_size": "medium"
