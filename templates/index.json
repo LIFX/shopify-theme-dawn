@@ -363,6 +363,44 @@
         "website_us": true
       }
     },
+    "16419533851bc12f51": {
+      "type": "image-with-text",
+      "blocks": {
+        "1641953385a628864e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bulk Orders"
+          }
+        },
+        "1641953385a628864e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <\/p>"
+          }
+        },
+        "1641953385a628864e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Enquire now",
+            "button_link": "shopify:\/\/pages\/bulk-order-enquiry"
+          }
+        }
+      },
+      "block_order": [
+        "1641953385a628864e-0",
+        "1641953385a628864e-1",
+        "1641953385a628864e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX-Site_Aug_AUS-BulkDeals.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "1632116257dff5145e": {
       "type": "image-banner",
       "blocks": {
@@ -572,6 +610,7 @@
     "16360812376e144b22",
     "16360916891de3101c",
     "1634272844a70d2ca1",
+    "16419533851bc12f51",
     "1632116257dff5145e",
     "16364397572cc0a070",
     "16321870964a1d4c89",
