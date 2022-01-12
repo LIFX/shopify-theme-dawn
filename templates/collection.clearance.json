@@ -36,7 +36,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/clearance.jpg",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "left",
