@@ -1,7 +1,7 @@
 {{ 'affiliates.css' | asset_url | stylesheet_tag }}
 {% if product.metafields.my_fields.amazon_affiliate or product.metafields.my_fields.de_amazon_affiliate or product.metafields.my_fields.fr_amazon_affiliate or product.metafields.my_fields.us_amazon_affiliate or product.metafields.my_fields.us_bestbuy_affiliate or product.metafields.my_fields.au_amazon_affiliate or product.metafields.my_fields.au_jbhifi_affiliate %}
 <div class="affiliatesBadge">
-  <p class="product__text caption-with-letter-spacing" style="margin-bottom:5px;color: rgba(var(--color-foreground),.75);">Available at:</p>
+  <p class="product__text caption-with-letter-spacing" style="margin-bottom:5px;color: rgba(var(--color-foreground),.75);">Also Available at:</p>
 {% if product.metafields.my_fields.amazon_affiliate != blank %}
     <a href="{{ product.metafields.my_fields.amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank">
 	<span class="product__text caption-with-letter-spacing">Amazon UK</span></a>
