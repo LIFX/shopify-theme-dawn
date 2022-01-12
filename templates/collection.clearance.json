@@ -2,19 +2,18 @@
   "sections": {
     "16412750465720996b": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "164127504662ff1cdb-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lifestyle Bundles",
+            "heading": "Clearance",
             "heading_size": "medium"
           }
         },
         "164127504662ff1cdb-1": {
           "type": "text",
           "settings": {
-            "text": "Find the bundle to suit your lifestyle and save."
+            "text": "Older generation products in full retail packaging."
           }
         },
         "164127504662ff1cdb-2": {
@@ -36,7 +35,7 @@
         "164127504662ff1cdb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_Homepage_BLACKFRIDAYSALE_Module-05.png",
+        "image": "shopify:\/\/shop_images\/clearance.jpg",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -55,6 +54,7 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true
