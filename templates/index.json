@@ -169,11 +169,7 @@
         "show_rating": false,
         "website_au": false,
         "website_ukeu": true,
-        "website_us": false,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": false
       }
     },
     "16417795474723f926": {
@@ -182,7 +178,7 @@
         "title": "Featured collection",
         "collection": "homepage",
         "products_to_show": 4,
-        "show_view_all": true,
+        "show_view_all": false,
         "swipe_on_mobile": false,
         "image_ratio": "adapt",
         "show_secondary_image": false,
@@ -192,11 +188,7 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": true
       }
     },
     "16375504211534ace0": {
