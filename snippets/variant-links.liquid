@@ -92,7 +92,7 @@ opacity: .5;
 
 {% elsif product.metafields.my_fields.product_family == "Downlight" %}
 
-{% for product in collections.downlight.products %}
+{% for product in collections.downlights.products %}
   {% if activeHandle != product.handle %}
       {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
   {% endif %}
