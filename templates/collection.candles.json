@@ -6,14 +6,14 @@
         "164127504662ff1cdb-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lightstrip Collection",
+            "heading": "Candle Collection",
             "heading_size": "medium"
           }
         },
         "164127504662ff1cdb-1": {
           "type": "text",
           "settings": {
-            "text": "Our Polychrome™ LED Lightstrips can give a glow to any TV, kitchen island, couch or bedhead."
+            "text": "Endless colour combinations and blended white lights in a compact candelabra form factor."
           }
         },
         "164127504662ff1cdb-2": {
@@ -35,7 +35,7 @@
         "164127504662ff1cdb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Categories_Header_Gamers.jpg",
+        "image": "shopify:\/\/shop_images\/Categories_Header_Z_Candles.jpg",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
