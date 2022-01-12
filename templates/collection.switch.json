@@ -6,14 +6,14 @@
         "164127504662ff1cdb-0": {
           "type": "heading",
           "settings": {
-            "heading": "Candle Collection",
+            "heading": "Switch Collection",
             "heading_size": "medium"
           }
         },
         "164127504662ff1cdb-1": {
           "type": "text",
           "settings": {
-            "text": "Endless colour combinations and blended white lights in a compact candelabra form factor."
+            "text": "With the LIFX Smart Switch you can apply smarts to standard 'dumb' lightbulbs. Add lights to scenes, schedule on or off, or connect to Alexa or Google Assistant for voice control."
           }
         },
         "164127504662ff1cdb-2": {
@@ -35,7 +35,7 @@
         "164127504662ff1cdb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Categories_Header_Z_Candles.jpg",
+        "image": "shopify:\/\/shop_images\/Categories_Header_Switches.jpg",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
