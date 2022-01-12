@@ -6,7 +6,7 @@
         "164127504662ff1cdb-0": {
           "type": "heading",
           "settings": {
-            "heading": "Clearance",
+            "heading": "Clearance Stock",
             "heading_size": "medium"
           }
         },
@@ -39,7 +39,7 @@
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
-        "desktop_box_alignment": "right",
+        "desktop_box_alignment": "left",
         "show_text_box": true,
         "banner_url": "",
         "image_overlay_opacity": 0,
