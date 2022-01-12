@@ -169,7 +169,11 @@
         "show_rating": false,
         "website_au": false,
         "website_ukeu": true,
-        "website_us": false
+        "website_us": false,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "16417795474723f926": {
@@ -188,7 +192,11 @@
         "show_rating": false,
         "website_au": false,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "1641950732cff92509": {
@@ -207,7 +215,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": false
+        "website_us": false,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "16375504211534ace0": {
@@ -392,7 +404,7 @@
         "1641953385a628864e-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX-Site_Aug_AUS-BulkDeals.jpg",
+        "image": "shopify:\/\/shop_images\/07_LIFX-GU10-Kitchen-c1_710x_198f6f9a-322e-48a8-8a27-038e024908db.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
