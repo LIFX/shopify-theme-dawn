@@ -186,9 +186,28 @@
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false,
-        "website_au": true,
+        "website_au": false,
         "website_ukeu": false,
         "website_us": true
+      }
+    },
+    "1641950732cff92509": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Downlight Sale",
+        "collection": "downlights",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
       }
     },
     "16375504211534ace0": {
@@ -548,6 +567,7 @@
     "1637546869f1304ff3",
     "1632107311c762a72c",
     "16417795474723f926",
+    "1641950732cff92509",
     "16375504211534ace0",
     "16360812376e144b22",
     "16360916891de3101c",
