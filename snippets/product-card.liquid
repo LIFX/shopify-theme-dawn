@@ -93,6 +93,8 @@
              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Buy 2+ Save 30%</span>
          {%- elsif product_card_product.tags contains "B10S30" -%}
              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Buy 10+ Save 30%</span>
+         {%- elsif product_card_product.tags contains "softbundle" -%}
+             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Clearance</span>
          {%- endif -%}
 	
         </div>
