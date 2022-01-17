@@ -22,11 +22,10 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Get 15% off your first order with Code:SHINY",
+              "text": "Due to COVID-19 disruptions, delivery and parcel tracking information delays may be experienced.",
               "color_scheme": "inverse",
-              "link": ""
+              "link": "https:\/\/auspost.com.au\/service-updates\/current-covid-19-impacts"
             }
           }
         },
@@ -43,7 +42,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/lifx_logo.png",
+          "logo": "shopify:\/\/shop_images\/LIFX_logo.png",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
