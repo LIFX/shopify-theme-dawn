@@ -3,6 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "aaf53e48-c158-40e3-91a0-58386d9a96b7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.tags contains 'B2S50' %}\n<span class=\"badge color-accent-2\" aria-hidden=\"true\" style=\"float:right;margin:0px\">Buy 2+ Save 50%<\/span><br>\n{% endif %}\n{% if product.tags contains 'B2S30' %}\n<span class=\"badge color-accent-2\" aria-hidden=\"true\" style=\"float:right;margin:0px\">Buy 2+ Save 30%<\/span><br>\n{% endif %}\n{% if product.tags contains 'B10S30' %}\n<span class=\"badge color-accent-2\" aria-hidden=\"true\" style=\"float:right;margin:0px\">Buy 10+ Save 30%<\/span><br>\n{% endif %}"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -122,6 +128,7 @@
         }
       },
       "block_order": [
+        "aaf53e48-c158-40e3-91a0-58386d9a96b7",
         "vendor",
         "title",
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
