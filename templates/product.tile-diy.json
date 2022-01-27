@@ -51,13 +51,13 @@
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.available%}\n<a href=\"https:\/\/www.lifx.com\/cart\/update?updates[41043858981045]=4&updates[41043859800245]=1&updates[41043857670325]=1&updates[30344911519818]=5\" class=\"button\" style=\"width:100%\">Add to Cart<\/a>{% else %}<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>{% endif %}"
+            "custom_liquid": "<button type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--secondary\" disabled=\"\">Sold out<\/button>"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% assign lowest_inventory = product.first_available_variant.inventory_quantity %}\n\n{% for variant in product.variants %}\n  {% if variant.available %}\n    {% if variant.inventory_quantity < lowest_inventory %}\n      {% assign lowest_inventory = variant.inventory_quantity %}\n    {% endif %}\n  {% endif %}\n{% endfor %}\n\n\n{% if product.tags contains \"BFOOS\" or product.tags contains \"bfoos\"%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock - \n\n\n{{ lowest_inventory }} Kits Left\n\n<\/span>\n{% endif %}"
+            "custom_liquid": "<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>"
           }
         },
         "ed281872-1cd9-46fa-94ad-d5ddb0031d97": {
