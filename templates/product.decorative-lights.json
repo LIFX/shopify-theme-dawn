@@ -48,7 +48,7 @@
         "855ad892-8e71-400d-9280-f8bc7696049f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}"
+            "custom_liquid": "{% if request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' or request.host == 'lifxukeu.myshopify.com'%}\n\t\t{% else %}{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}{% endif %}"
           }
         },
         "buy_buttons": {
