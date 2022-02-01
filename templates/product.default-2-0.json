@@ -50,17 +50,20 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}\n\n{% if product.tags contains \"ME\" %}\n<div style=\"border-width:1px;border-color:#eee;border-style: solid;\n    padding: 10px;font-size: 1.3rem;\n    line-height: 1.5;\n    letter-spacing: .04rem;\">\n<strong>Ships to countries:<\/strong> UAE,\tSaudi Arabia,\tEgypt, Jordan,\tKuwait,\tBahrain,\tQatar and Oman. Shipping rates applied in cart.\n<br><br>\n<strong>Duties & Taxes:<\/strong> All import duties and taxes are the responsibility of the customer. Product ships from Hong Kong via Aramex. \n<br><br>\n<strong>Warranty & Returns:<\/strong> LIFX is unable to supply an international warranty outside of the US due to high shipping rates.<\/div>\n{% endif %}"
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false
           }
