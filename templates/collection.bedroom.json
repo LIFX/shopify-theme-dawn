@@ -3,7 +3,6 @@
     "163658915975f2ce2d": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGAMING_LandingPage.png",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -128,7 +127,7 @@
         "163659042404b146d6-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageGAMING_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/LIFX_Collection_Bedroom_1.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -140,7 +139,7 @@
     "1636669211f74edc9f": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGAMING_LandingPage-1.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_Divider-1.jpg",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -178,7 +177,7 @@
         "16365904458bd56849-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageGAMING_LandingPage-1.png",
+        "image": "shopify:\/\/shop_images\/LIFX_Collection_Bedroom_2.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -208,7 +207,7 @@
         "1636668145624ae670-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageGAMING_LandingPage-2.png",
+        "image": "shopify:\/\/shop_images\/LIFX_Collection_Bedroom_3.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -278,7 +277,7 @@
         "1644551147b32e4d4d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bed-Tile-Shelf-Feature-1.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_Divider-2.jpg",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -325,7 +324,7 @@
         "1644551427de3eb0c2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/01_LIFX_Colour_NightVision_1200_Annotated_AU_UK.jpg",
+        "image": "shopify:\/\/shop_images\/LIFX_Collection_Bedroom_4.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -364,7 +363,7 @@
         "1644551456ea62ae84-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/07_LIFX-LightStrip-LED_1500x_820359f6-6c43-4226-8e42-1c5443484cb1.jpg",
+        "image": "shopify:\/\/shop_images\/LIFX_Collection_Bedroom_5.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -410,7 +409,7 @@
         "164455145952603e90-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/06_W2WDownlight_RetailKit-AU-Setup.jpg",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_Divider-3.jpg",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
