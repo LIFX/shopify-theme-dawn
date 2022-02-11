@@ -2,7 +2,6 @@
   "sections": {
     "1644561324229a6a83": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "16445613231a259fe3-0": {
           "type": "heading",
@@ -54,7 +53,6 @@
     },
     "1644561483034220fc": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "20% off Bedroom Lighting",
         "collection": "bedroom-lighting",
