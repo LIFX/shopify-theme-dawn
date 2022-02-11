@@ -22,15 +22,80 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true
       }
     },
+    "164455113993ec924a": {
+      "type": "rich-text",
+      "blocks": {
+        "1644551139fb2f79d4-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1644551139fb2f79d4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1644551139fb2f79d4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1644551139fb2f79d4-0",
+        "1644551139fb2f79d4-1",
+        "1644551139fb2f79d4-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1644551096d2ee59b5": {
+      "type": "rich-text",
+      "blocks": {
+        "1644551096b61147ed-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Designing with light in the Bedroom",
+            "heading_size": "h1"
+          }
+        },
+        "1644551096b61147ed-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>How to light up your space for a romantic night in <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1644551096b61147ed-0",
+        "1644551096b61147ed-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 24,
+        "products_per_page": 8,
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": true,
@@ -67,6 +132,26 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1636669211f74edc9f": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGAMING_LandingPage-1.png",
+        "adapt_height_first_image": true,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -132,11 +217,69 @@
         "website_us": true
       }
     },
-    "1636669211f74edc9f": {
-      "type": "image-banner",
+    "163666830970378b77": {
+      "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGAMING_LandingPage-1.png",
-        "adapt_height_first_image": true,
+        "title": "You might also be interested in",
+        "collection": "lightbulbs",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
+      }
+    },
+    "1644551147872e279c": {
+      "type": "image-banner",
+      "blocks": {
+        "1644551147b32e4d4d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "1644551147b32e4d4d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1644551147b32e4d4d-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1644551147b32e4d4d-0",
+        "1644551147b32e4d4d-1",
+        "1644551147b32e4d4d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bed-Tile-Shelf-Feature-1.png",
+        "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
@@ -152,28 +295,37 @@
         "website_us": true
       }
     },
-    "1636668228a95c58ba": {
+    "16445514275b4c9038": {
       "type": "image-with-text",
       "blocks": {
-        "1636668228a95c58ba-0": {
+        "1644551427de3eb0c2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lighting with every hue to suit any game."
+            "heading": "Image with text"
           }
         },
-        "1636668228a95c58ba-1": {
+        "1644551427de3eb0c2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Why chose one color when you can use our unique Polychrome tech to paint your LIFX colored lights in an array of hues? Transform your space as each individual color works together to create an ombre effect in a single light. Then animate the colors to create movement effects like waves or candle light flickers. What will you create?<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1644551427de3eb0c2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "1636668228a95c58ba-0",
-        "1636668228a95c58ba-1"
+        "1644551427de3eb0c2-0",
+        "1644551427de3eb0c2-1",
+        "1644551427de3eb0c2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageGAMING_LandingPage-3.png",
+        "image": "shopify:\/\/shop_images\/01_LIFX_Colour_NightVision_1200_Annotated_AU_UK.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -182,36 +334,37 @@
         "website_us": true
       }
     },
-    "1636668306eac773e6": {
+    "164455145602a6a1ab": {
       "type": "image-with-text",
       "blocks": {
-        "1636668306eac773e6-0": {
+        "1644551456ea62ae84-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lighting for sharing your skills on socials."
+            "heading": "Image with text"
           }
         },
-        "1636668306eac773e6-1": {
+        "1644551456ea62ae84-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Like sharing your sessions with the community? Give your viewers something to look at with customized colors and animated effects on your LIFX lights. Save each of your light’s setting by creating a Scene on our app to cut down on on future content creation time, and get back to what you love most – the game. <\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "fc808642-6860-4221-8730-9fde3d3f06f4": {
+        "1644551456ea62ae84-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
-            "button_label": "More lights for content creation",
-            "button_link": "shopify:\/\/collections\/content-creators"
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "1636668306eac773e6-0",
-        "1636668306eac773e6-1",
-        "fc808642-6860-4221-8730-9fde3d3f06f4"
+        "1644551456ea62ae84-0",
+        "1644551456ea62ae84-1",
+        "1644551456ea62ae84-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageGAMING_LandingPage-4.png",
+        "image": "shopify:\/\/shop_images\/07_LIFX-LightStrip-LED_1500x_820359f6-6c43-4226-8e42-1c5443484cb1.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -220,33 +373,114 @@
         "website_us": true
       }
     },
-    "163666830970378b77": {
-      "type": "featured-collection",
+    "1644551459a888eab5": {
+      "type": "image-banner",
+      "blocks": {
+        "164455145952603e90-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "164455145952603e90-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "164455145952603e90-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "164455145952603e90-0",
+        "164455145952603e90-1",
+        "164455145952603e90-2"
+      ],
       "settings": {
-        "title": "You might also be interested in",
-        "collection": "lightbulbs",
-        "products_to_show": 4,
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
+        "image": "shopify:\/\/shop_images\/06_W2WDownlight_RetailKit-AU-Setup.jpg",
+        "adapt_height_first_image": false,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1644551339de41d7a5": {
+      "type": "rich-text",
+      "blocks": {
+        "16445513391cf7bd6d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "16445513391cf7bd6d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16445513391cf7bd6d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16445513391cf7bd6d-0",
+        "16445513391cf7bd6d-1",
+        "16445513391cf7bd6d-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     }
   },
   "order": [
     "163658915975f2ce2d",
     "banner",
+    "164455113993ec924a",
+    "1644551096d2ee59b5",
     "product-grid",
     "163659042404b146d6",
+    "1636669211f74edc9f",
     "16365904458bd56849",
     "1636668145624ae670",
-    "1636669211f74edc9f",
-    "1636668228a95c58ba",
-    "1636668306eac773e6",
-    "163666830970378b77"
+    "163666830970378b77",
+    "1644551147872e279c",
+    "16445514275b4c9038",
+    "164455145602a6a1ab",
+    "1644551459a888eab5",
+    "1644551339de41d7a5"
   ]
 }
