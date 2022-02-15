@@ -22,13 +22,19 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Your-Home-Your-Way_-AnimationStillFrame.jpg",
         "adapt_height_first_image": true,
+        "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
+        "banner_url": "",
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163479076457abcba1": {
@@ -52,10 +58,12 @@
         "163479076457abcba1-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX-Dashboard---Swipe-To-Control_27339236-19de-4415-9069-cfac90071eaa.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1634856553aaeb6197": {
@@ -64,13 +72,19 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/WHITE-WHEEL-TOUR-_KELVINS_-HD720P.jpg",
         "adapt_height_first_image": true,
+        "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
+        "banner_url": "",
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163511514557906dec": {
@@ -107,7 +121,10 @@
         "image": "shopify:\/\/shop_images\/LIFX-App---Dashboard-Control.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163485758112729f51": {
@@ -134,7 +151,10 @@
         "image": "shopify:\/\/shop_images\/LIFX-App---Effects.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163485770961c0f1e8": {
@@ -161,7 +181,10 @@
         "image": "shopify:\/\/shop_images\/LIFX-App---Scenes.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1634857822679276a9": {
@@ -188,7 +211,10 @@
         "image": "shopify:\/\/shop_images\/LIFX-App---Schedule-02.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "16348580971fd09f3c": {
@@ -204,7 +230,14 @@
         "add_image_padding": true,
         "show_image_outline": false,
         "show_vendor": false,
-        "show_rating": false
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "1635115148606de747": {
@@ -231,7 +264,10 @@
         "image": "shopify:\/\/shop_images\/LIFX-App---Tunable-white.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "16351154958d0b28bd": {
@@ -263,10 +299,12 @@
         "16351154958d0b28bd-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_Blog_Circadian_Rhythm_Square_cbda7bbc-b31c-42cd-aad0-3e0f278b2fd5.png",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1635115562c7f528cb": {
@@ -293,7 +331,10 @@
         "image": "shopify:\/\/shop_images\/LIFX-App---Special-Features.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163511569468ba9aa7": {
@@ -320,7 +361,10 @@
         "image": "shopify:\/\/shop_images\/LIFX_Color_LiveInColor-AppPage-HR-Square.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1635286726666c2b0c": {
@@ -347,7 +391,10 @@
         "image": "shopify:\/\/shop_images\/LIFX-App---Polychrome-02.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "16360829359b370cf1": {
@@ -356,7 +403,10 @@
         "heading": "Video",
         "video": "",
         "description": "",
-        "full_width": false
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     }
   },
