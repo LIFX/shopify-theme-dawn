@@ -388,13 +388,6 @@
       "print_gift_card": "Print"
     }
   },
-  "shopify": {
-    "checkout": {
-      "order_summary": {
-        "cart_does_not_meet_discount_requirements_notice": "Oops you weren't fast enough! This code has expired, try again later."
-      }
-    }
-  },
   "pagefly": {
     "products": {
       "product": {
