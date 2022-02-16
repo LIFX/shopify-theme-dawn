@@ -134,8 +134,7 @@
 
           {%- when 'quantity_selector' -%}
         
-        {% if request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' or request.host == 'lifxukeu.myshopify.com'%}
-		{% else %}
+   
         
             <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
               <label class="form__label" for="Quantity-{{ section.id }}">
@@ -161,8 +160,7 @@
                 </button>
               </quantity-input>
             </div>
-        
-          {% endif %}
+     
      
           {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
@@ -288,9 +286,7 @@
               </div>
             </noscript>
           {%- when 'buy_buttons' -%}
-        
-        {% if request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' or request.host == 'lifxukeu.myshopify.com'%}
-		{% else %}
+ 
 
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
@@ -351,7 +347,7 @@
 
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
               
-           {% endif %}   
+  
               
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
