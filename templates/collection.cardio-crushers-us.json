@@ -14,6 +14,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -45,7 +46,6 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerFILMFANATICS_LandingPage-1.png",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -56,6 +56,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -103,7 +104,7 @@
         "16365904458bd56849-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Transport yourself into the world of your favourite movie without a trip to the cinema by transforming your space with vibrant colors. Or, for the true cinephiles, match the cinematography style with a variety of shadows and shading to create the fully immersive experience you’ve been waiting for. <\/p>"
+            "text": "<p>Schedule your lights to cool down with you by dimming down from bright whites to warm ambers, signalling it’s time to relax. Once you’re all finished in your home gym, switch to a Clean Cycle with LIFX Clean to wipe out the nasties before your next session. <\/p>"
           }
         }
       },
@@ -165,6 +166,7 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -282,7 +284,14 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
-        "show_rating": false
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     }
   },
