@@ -3,7 +3,7 @@
     "163658915975f2ce2d": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerSIDEHUSTLERS_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerSIDEHUSTLERS_LandingPage_5548e2cc-3c3e-444f-99a3-7e5ea2e819a3.png",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -233,7 +233,14 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
-        "show_rating": false
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     }
   },
