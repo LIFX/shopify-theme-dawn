@@ -74,7 +74,7 @@
         "163659042404b146d6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Schedule your lights to cool down with you by dimming down from bright whites to warm ambers, signaling it’s time to relax. Once you’re all finished in your home gym, switch to a Clean Cycle with LIFX Clean to wipe out the nasties before your next session.<\/p>"
+            "text": "<p>Getting started is the hardest part. Keep yourself consistent with pre-scheduled, visual alerts to signal that it’s time to work out. Then ease your way into your workout by setting warm ambers to transition into bright whites, which will tell to your body it’s time to start bringing your heart rate up. <\/p>"
           }
         }
       },
@@ -295,11 +295,7 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": true,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": true
       }
     }
   },
