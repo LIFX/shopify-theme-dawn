@@ -58,6 +58,12 @@
             "show_dynamic_checkout": false
           }
         },
+        "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:10px\">\n<h2>Quantity Breaks<\/h2>\n2+\t $69.99 <br>\n10+\t $62.99 <br>\n20+\t $55.99 <br>\n40+\t $48.99\n<\/div>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -106,10 +112,10 @@
             "icon": "box"
           }
         },
-        "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726": {
+        "71e148ec-93ba-4974-bb7f-35886d41eb89": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"border:solid;padding:5px;border-radius:10px\">\nQuantity Breaks<br>\n2+\t $69.99 <br>\n10+\t $62.99 <br>\n20+\t $55.99 <br>\n40+\t $48.99 \n\n<\/div>"
+            "custom_liquid": "<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:10px\">\n<h2>Bedroom Bundle<\/h2>\n2 Downlights and 1 Smart Switch<br><br>\n<button class=\"button\">Add to Cart<\/button>\n<\/div>\n\n<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:10px\">\n<h2>Master Bundle<\/h2>\n4 Downlights and 1 Smart Switch<br><br>\n<button class=\"button\">Add to Cart<\/button>\n<\/div>\n\n<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:10px\">\n<h2>Livingroom Bundle<\/h2>\n12 Downlights and 2 Smart Switches<br><br>\n<button class=\"button\">Add to Cart<\/button>\n<\/div>"
           }
         }
       },
@@ -123,12 +129,13 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726",
         "description",
         "share",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
         "76f2877b-9463-4ca3-a71e-982cd31af6da",
-        "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726"
+        "71e148ec-93ba-4974-bb7f-35886d41eb89"
       ],
       "settings": {
         "enable_sticky_info": true,
