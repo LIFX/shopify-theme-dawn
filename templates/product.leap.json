@@ -224,6 +224,36 @@
         "website_ukeu": true,
         "website_us": true
       }
+    },
+    "1645684077e15e9be7": {
+      "type": "image-with-text",
+      "blocks": {
+        "1645684077e7776148-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1645684077e7776148-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1645684077e7776148-0",
+        "1645684077e7776148-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Concept_C_-_Close_2.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
     }
   },
   "order": [
@@ -231,6 +261,7 @@
     "1632375097cddb24cb",
     "product-recommendations",
     "1645683700863a9dcc",
-    "16456840123af963c0"
+    "16456840123af963c0",
+    "1645684077e15e9be7"
   ]
 }
