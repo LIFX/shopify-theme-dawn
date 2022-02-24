@@ -253,6 +253,12 @@
         "website_ukeu": true,
         "website_us": true
       }
+    },
+    "1645684711888aa753": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"product-single__meta\">\n        <div class=\"product-single__description rte\" style=\"border-width: 1px;border-style: ridge;padding: 20px;\">\n                <h4>Early Bird - $39<\/h4>\n                <p>Get a 20% discount on the LIFX Smart Switch ($10 off MSRP $49)<\/p>\n\n<quantity-input class=\"quantity\">\n                <button class=\"quantity__button no-js-hidden\" name=\"minus\" type=\"button\">\n                  <span class=\"visually-hidden\">Decrease quantity for Lightstrip 80&amp;quot;<\/span>\n                  <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-minus\" fill=\"none\" viewBox=\"0 0 10 2\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z\" fill=\"currentColor\">\n<\/path><\/svg>\n\n                <\/button>\n                <input class=\"quantity__input\" type=\"number\" name=\"quantity\" id=\"Quantity-template--15361671725237__main\" min=\"1\" value=\"1\" form=\"product-form-template--15361671725237__main\">\n                <button class=\"quantity__button no-js-hidden\" name=\"plus\" type=\"button\">\n                  <span class=\"visually-hidden\">Increase quantity for Lightstrip 80&amp;quot;<\/span>\n                  <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-plus\" fill=\"none\" viewBox=\"0 0 10 10\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z\" fill=\"currentColor\">\n<\/path><\/svg>\n\n                <\/button>\n              <\/quantity-input>\n\n                <form method=\"post\" action=\"\/cart\/add\" accept-charset=\"UTF-8\" class=\"product-single__form\" enctype=\"multipart\/form-data\">\n                <input type=\"hidden\" name=\"form_type\" value=\"product\" >\n                <input type=\"hidden\" name=\"utf8\" value=\"✓\">\n                {% if template == 'cart.app'%}\n                <input type=\"hidden\" name=\"return_to\" value=\"\/cart?view=app\" \/> \n                <input type=\"hidden\" name=\"attributes[AppOrder]\" value=\"Yes\">\n                {% endif %}\n                <input type=\"hidden\" name=\"id\" value=\"40095669059765\" \/>\n                <input type=\"number\" id=\"Quantity\" value=\"1\"  min=\"1\" max=\"100\" name=\"quantity\">\n                <button class=\"btn button add-to-cart\" style=\"margin-left: 20px; margin-top: 0px;\">Add to cart<\/button>\n<\/form>     \n                \n<br>    \t\t\t<span style=\"font-size:small;margin:0px;background: #ff617242;padding: 5px;border-radius: 5px;width: fit-content\">Limited X left of XXX<\/span>\n     \n<span style=\"font-size:small;margin:0px;background: #eee;padding: 5px;border-radius: 5px;width: fit-content;\">Batch 1: Est. August 2022<\/span>\n\t\t\n<span style=\"font-size:small;margin:0px;background: #eee;padding: 5px;border-radius: 5px;width: fit-content\">Ships to: USA and Canada<\/span>\n\n<\/div>\n<\/div>"
+      }
     }
   },
   "order": [
@@ -261,6 +267,7 @@
     "product-recommendations",
     "1645683700863a9dcc",
     "16456840123af963c0",
-    "1645684077e15e9be7"
+    "1645684077e15e9be7",
+    "1645684711888aa753"
   ]
 }
