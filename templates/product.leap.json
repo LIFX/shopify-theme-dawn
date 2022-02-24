@@ -18,15 +18,8 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.my_fields.lumens.value }} {{ product.metafields.my_fields.subtitle_lumens.value }}",
+            "text": "800 Lumens",
             "text_style": "uppercase"
-          }
-        },
-        "subtitle": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
           }
         },
         "price": {
@@ -43,6 +36,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
@@ -123,7 +117,6 @@
         "vendor",
         "title",
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
-        "subtitle",
         "price",
         "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf",
         "variant_picker",
@@ -181,11 +174,32 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1645683700863a9dcc": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_Divider.png",
+        "adapt_height_first_image": true,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
     }
   },
   "order": [
     "main",
     "1632375097cddb24cb",
-    "product-recommendations"
+    "product-recommendations",
+    "1645683700863a9dcc"
   ]
 }
