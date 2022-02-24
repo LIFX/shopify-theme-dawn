@@ -105,6 +105,12 @@
             "page": "",
             "icon": "box"
           }
+        },
+        "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"border:solid;padding:5px;border-radius:10px\">\nQuantity Breaks<br>\n2+\t $69.99 <br>\n10+\t $62.99 <br>\n20+\t $55.99 <br>\n40+\t $48.99 \n\n<\/div>"
+          }
         }
       },
       "block_order": [
@@ -121,7 +127,8 @@
         "share",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
-        "76f2877b-9463-4ca3-a71e-982cd31af6da"
+        "76f2877b-9463-4ca3-a71e-982cd31af6da",
+        "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726"
       ],
       "settings": {
         "enable_sticky_info": true,
