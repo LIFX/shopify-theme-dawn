@@ -263,7 +263,7 @@
     "1645684711888aa753": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<form method=\"post\" action=\"\/cart\/add\" accept-charset=\"UTF-8\" class=\"product-single__form\" enctype=\"multipart\/form-data\">\n                <input type=\"hidden\" name=\"form_type\" value=\"product\">\n                <input type=\"hidden\" name=\"utf8\" value=\"✓\">\n                {% if template == 'cart.app'%}\n                <input type=\"hidden\" name=\"return_to\" value=\"\/cart?view=app\" \/> \n                <input type=\"hidden\" name=\"attributes[AppOrder]\" value=\"Yes\">\n                {% endif %}\n                <input type=\"hidden\" name=\"id\" value=\"41281616281781\" \/>\n                <input type=\"number\" id=\"Quantity\" value=\"1\"  min=\"1\" max=\"100\" name=\"quantity\">\n                <button class=\"btn button add-to-cart\" style=\"margin-left: 20px; margin-top: 0px;\">Add to cart<\/button>\n<\/form>"
+        "custom_liquid": "<form method=\"post\" action=\"\/cart\/add\" accept-charset=\"UTF-8\" class=\"product-single__form\" enctype=\"multipart\/form-data\">\n                <input type=\"hidden\" name=\"form_type\" value=\"product\">\n                <input type=\"hidden\" name=\"utf8\" value=\"✓\">\n                <input type=\"hidden\" name=\"id\" value=\"41281616281781\" \/>\n                <input type=\"number\" id=\"Quantity\" value=\"1\"  min=\"1\" max=\"100\" name=\"quantity\">\n                <button class=\"btn button add-to-cart\" style=\"margin-left: 20px; margin-top: 0px;\">Add to cart<\/button>\n<\/form>"
       }
     },
     "16457685877e2e9e8b": {
