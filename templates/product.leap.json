@@ -60,7 +60,7 @@
         "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:2rem\">\n<h2>Quantity Breaks<\/h2>\n2+\t $69.99 <br>\n10+\t $62.99 <br>\n20+\t $55.99 <br>\n40+\t $48.99\n<\/div>"
+            "custom_liquid": "<div style=\"border:solid 1px #eee;padding:5px 5px 15px 15px;\">\n<h2>Quantity Breaks<\/h2>\n2-8 lights: $35 each<br>\n10-18 lights: $30 each<br>\n20-38 lights: $25 each<br>\n40+ lights: $22 each\n<\/div>"
           }
         },
         "description": {
