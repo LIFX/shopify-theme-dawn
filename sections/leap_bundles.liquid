@@ -1,0 +1,28 @@
+	<div class="product-single__meta">
+        <div class="product-single__description rte" style="border-width: 1px;border-style: ridge;padding: 20px;">
+                <h4>Early Bird - $39</h4>
+                <p>Get a 20% discount on the LIFX Smart Switch ($10 off MSRP $49)</p>
+                <p>You will be able to choose your preferred color in a post-campaign survey.</p>
+
+                <form method="post" action="/cart/add" accept-charset="UTF-8" class="product-single__form" enctype="multipart/form-data">
+                <input type="hidden" name="form_type" value="product">
+                <input type="hidden" name="utf8" value="✓">
+                {% if template == 'cart.app'%}
+                <input type="hidden" name="return_to" value="/cart?view=app" /> 
+                <input type="hidden" name="attributes[AppOrder]" value="Yes">
+                {% endif %}
+                <input type="hidden" name="id" value="40095669059765" />
+                <input type="number" id="Quantity" value="1"  min="1" max="100" name="quantity">
+                <button class="btn button add-to-cart" style="margin-left: 20px; margin-top: 0px;">Add to cart</button>
+                </form>     
+                
+     			<span style="font-size:small;margin:0px;background: #ff617242;padding: 5px;border-radius: 5px;width: fit-content">Limited 
+          {% for variant in product.variants limit:1 offset:1%}
+          ({{ variant.inventory_quantity }}
+          {% endfor %} left of 1000)
+          </span>
+          <br>
+          <span style="font-size:small;margin:0px;background: #eee;padding: 5px;border-radius: 5px;width: fit-content; text-decoration:line-through">Batch 1: Est. July 2021</span>
+		  <span style="font-size:small;margin:0px;background: #eee;padding: 5px;border-radius: 5px;width: fit-content">Batch 2: Est. August 2021</span>
+		  <span style="font-size:small;margin:0px;background: #eee;padding: 5px;border-radius: 5px;width: fit-content">Ships to: USA and Canada</span></div>
+    </div>
