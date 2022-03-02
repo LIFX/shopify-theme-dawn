@@ -60,7 +60,7 @@
         "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"border:solid 1px #eee;padding:5px 5px 15px 15px;\">\n<h2>Buy more and save:<\/h2>\n1+ Packs: $62.99 - Save 10%<br>\n3+ Packs: $167.98 - Save 20%<br>\n5+ Packs: $244.97 - Save 30%<br><hr style=\"margin-top:10px;margin-bottom:10px;\">\nLooking to order in bulk? <a href=\"#\">Contact us<\/a>\n<\/div>"
+            "custom_liquid": "<div style=\"border:solid 1px #eee;padding:5px 5px 15px 15px;\">\n<h2>Buy more and save:<\/h2>\n1+ Packs: $62.99 - Save 10%<br>\n3+ Packs: $167.98 - Save 20%<br>\n5+ Packs: $244.97 - Save 30%<br><hr style=\"margin-top:10px;margin-bottom:10px;\">\nLooking to order in bulk? <a href=\"https:\/\/lifx.myshopify.com\/pages\/bulk-order-enquiry\">Enquire today<\/a>\n<\/div>"
           }
         },
         "description": {
