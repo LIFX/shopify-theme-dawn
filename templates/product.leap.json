@@ -260,20 +260,105 @@
         "website_us": true
       }
     },
+    "164618304374af30e2": {
+      "type": "image-with-text",
+      "blocks": {
+        "1646183043e5635fce-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1646183043e5635fce-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1646183043e5635fce-0",
+        "1646183043e5635fce-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DownlightUS_Module5_Lifestyle_Half.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "16461833902f21ab30": {
+      "type": "image-with-text",
+      "blocks": {
+        "164618339032590b13-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "164618339032590b13-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164618339032590b13-0",
+        "164618339032590b13-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DownlightUS_Module6_Lifestyle_Half.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "1645684711888aa753": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<h2>Bundle Name<\/h2>\n<form method=\"post\" action=\"\/cart\/add\" accept-charset=\"UTF-8\" class=\"product-single__form\" enctype=\"multipart\/form-data\">\n    <input type=\"hidden\" name=\"form_type\" value=\"product\">\n\t<input type=\"hidden\" name=\"utf8\" value=\"✓\">\n\t<input type=\"hidden\" name=\"id\" value=\"41281616281781\" \/>\n\t\n   <quantity-input class=\"quantity\" style=\"float:left\">\n        <button class=\"quantity__button no-js-hidden\" name=\"minus\" type=\"button\">\n        <span class=\"visually-hidden\">Decrease quantity<\/span>\n        <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-minus\" fill=\"none\" viewBox=\"0 0 10 2\">\n        <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z\" fill=\"currentColor\">\n        <\/path><\/svg><\/button>\n        <input class=\"quantity__input\" type=\"number\" id=\"Quantity\" value=\"1\"  min=\"1\" max=\"100\" name=\"quantity\">\n        <button class=\"quantity__button no-js-hidden\" name=\"plus\" type=\"button\">\n        <span class=\"visually-hidden\">Increase quantity<\/span>\n        <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-plus\" fill=\"none\" viewBox=\"0 0 10 10\">\n        <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z\" fill=\"currentColor\">\n        <\/path><\/svg><\/button>\n   <\/quantity-input>\n   \n\t<button class=\"btn button add-to-cart\" style=\"margin-left: 20px; margin-top: 0px;\">Add to cart<\/button>\n<\/form>     \n<\/div>"
       }
     },
-    "16457685877e2e9e8b": {
-      "type": "video",
+    "164618344833eec8af": {
+      "type": "multicolumn",
+      "blocks": {
+        "16461834488a307bb3-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DownlightUS_Module7_Technical-Drawing_Left.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "16461834488a307bb3-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DownlightUS_Module7_Technical-Drawing_Right.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16461834488a307bb3-0",
+        "16461834488a307bb3-1"
+      ],
       "settings": {
-        "heading": "Video",
-        "cover_image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_Divider.png",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
+        "title": "Dimensions",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     }
   },
@@ -285,7 +370,9 @@
     "1645683700863a9dcc",
     "16456840123af963c0",
     "1645684077e15e9be7",
+    "164618304374af30e2",
+    "16461833902f21ab30",
     "1645684711888aa753",
-    "16457685877e2e9e8b"
+    "164618344833eec8af"
   ]
 }
