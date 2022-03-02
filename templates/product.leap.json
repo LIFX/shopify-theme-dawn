@@ -37,7 +37,7 @@
         "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "Pre-sales delivery window..."
+            "custom_liquid": "<span class=\"form__label\"><strong>Pre-sales<\/strong><br>Please note that these units are on pre-sale and have a delivery window of August 2022. To secure these units at the discounted rates, upfront payment is required.<\/span>"
           }
         },
         "variant_picker": {
