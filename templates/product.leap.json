@@ -112,13 +112,6 @@
             "icon": "box"
           }
         },
-        "71e148ec-93ba-4974-bb7f-35886d41eb89": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:2rem\">\n<h2>Bedroom Bundle<\/h2>\n2 Downlights and 1 Smart Switch<br><br>\n<button class=\"button\">Add to Cart<\/button>\n<\/div>\n\n<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:2rem\">\n<h2>Master Bundle<\/h2>\n4 Downlights and 1 Smart Switch<br><br>\n<button class=\"button\">Add to Cart<\/button>\n<\/div>\n\n<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:2rem\">\n<h2>Livingroom Bundle<\/h2>\n12 Downlights and 2 Smart Switches<br><br>\n<button class=\"button\">Add to Cart<\/button>\n<\/div>"
-          }
-        },
         "2d5eeccb-159f-4d21-b11e-b02eef381e95": {
           "type": "collapsible_tab",
           "settings": {
@@ -129,6 +122,13 @@
             "content": "",
             "page": "",
             "icon": "question_mark"
+          }
+        },
+        "71e148ec-93ba-4974-bb7f-35886d41eb89": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:2rem\">\n<h2>Bedroom Bundle<\/h2>\n2 Downlights and 1 Smart Switch<br><br>\n<button class=\"button\">Add to Cart<\/button>\n<\/div>\n\n<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:2rem\">\n<h2>Master Bundle<\/h2>\n4 Downlights and 1 Smart Switch<br><br>\n<button class=\"button\">Add to Cart<\/button>\n<\/div>\n\n<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:2rem\">\n<h2>Livingroom Bundle<\/h2>\n12 Downlights and 2 Smart Switches<br><br>\n<button class=\"button\">Add to Cart<\/button>\n<\/div>"
           }
         }
       },
@@ -147,8 +147,8 @@
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
         "76f2877b-9463-4ca3-a71e-982cd31af6da",
-        "71e148ec-93ba-4974-bb7f-35886d41eb89",
-        "2d5eeccb-159f-4d21-b11e-b02eef381e95"
+        "2d5eeccb-159f-4d21-b11e-b02eef381e95",
+        "71e148ec-93ba-4974-bb7f-35886d41eb89"
       ],
       "settings": {
         "enable_sticky_info": true,
