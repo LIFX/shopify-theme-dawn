@@ -37,7 +37,13 @@
         "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span class=\"form__label\"><strong>Pre-sales<\/strong><br>Please note that these units are on pre-sale and have a delivery window of August 2022. To secure these units at the discounted rates, upfront payment is required.<\/span>"
+            "custom_liquid": "<span class=\"form__label\"><h4 style=\"margin-bottom:5px\">Pre-sales:<\/h4>Please note that these units are on pre-sale and have a delivery window of August 2022. To secure these units at the discounted rates, upfront payment is required.<\/span>"
+          }
+        },
+        "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span class=\"form__label\"><h4 style=\"margin-bottom:5px\">Buy more and save:<\/h4>\n1+ Packs: $62.99 - Save 10%<br>\n3+ Packs: $167.98 - Save 20%<br>\n5+ Packs: $244.97 - Save 30%<br><hr style=\"margin-top:10px;margin-bottom:10px;\">\nLooking to order in bulk? <a href=\"https:\/\/lifx.myshopify.com\/pages\/bulk-order-enquiry\">Enquire today<\/a><\/span>"
           }
         },
         "variant_picker": {
@@ -55,12 +61,6 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
-          }
-        },
-        "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"border:solid 1px #eee;padding:5px 5px 15px 15px;\">\n<h2>Buy more and save:<\/h2>\n1+ Packs: $62.99 - Save 10%<br>\n3+ Packs: $167.98 - Save 20%<br>\n5+ Packs: $244.97 - Save 30%<br><hr style=\"margin-top:10px;margin-bottom:10px;\">\nLooking to order in bulk? <a href=\"https:\/\/lifx.myshopify.com\/pages\/bulk-order-enquiry\">Enquire today<\/a>\n<\/div>"
           }
         },
         "description": {
@@ -138,10 +138,10 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "price",
         "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf",
+        "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726",
         "description",
         "share",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
