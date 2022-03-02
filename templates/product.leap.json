@@ -390,6 +390,66 @@
         "website_ukeu": true,
         "website_us": true
       }
+    },
+    "16461836199674301e": {
+      "type": "image-with-text",
+      "blocks": {
+        "164618361924da2d89-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "164618361924da2d89-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164618361924da2d89-0",
+        "164618361924da2d89-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DownlightUS_Module9_Lifestyle_Half.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1646183647da5d7446": {
+      "type": "image-with-text",
+      "blocks": {
+        "1646183647a0a673b2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1646183647a0a673b2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1646183647a0a673b2-0",
+        "1646183647a0a673b2-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DownlightUS_Module10_Lifestyle_Half.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
     }
   },
   "order": [
@@ -404,6 +464,8 @@
     "16461833902f21ab30",
     "1645684711888aa753",
     "164618344833eec8af",
-    "16461835976876c703"
+    "16461835976876c703",
+    "16461836199674301e",
+    "1646183647da5d7446"
   ]
 }
