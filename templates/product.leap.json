@@ -141,8 +141,80 @@
         "enable_video_looping": true
       }
     },
+    "16461841485f0f7e1e": {
+      "type": "multicolumn",
+      "blocks": {
+        "1646184148d40bee42-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/room.png",
+            "title": "",
+            "text": "<p>CONTROL YOUR ROOMS WITH VOICE<\/p>"
+          }
+        },
+        "1646184148d40bee42-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CRI.png",
+            "title": "",
+            "text": "<p>CRI 90 FOR ACCURATE COLORS<\/p>"
+          }
+        },
+        "1646184148d40bee42-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pair_Switch.png",
+            "title": "",
+            "text": "<p>PAIR WITH A LIFX SWITCH FOR MORE HOME CONTROL<\/p>"
+          }
+        },
+        "fd8afec9-c63b-474b-92dc-89625d0de8ce": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DownlightUS_Module7_Technical-Drawing_Right.png",
+            "title": "",
+            "text": "<p>CONTROL YOUR ROOMS WITH VOICE<\/p>"
+          }
+        },
+        "8532f789-d579-428b-9f7e-24d90ed72247": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DownlightUS_Module7_Technical-Drawing_Left.png",
+            "title": "",
+            "text": "<p>CONTROL YOUR ROOMS WITH VOICE<\/p>"
+          }
+        },
+        "9282e074-4100-4009-ba5f-0ad5ae46a674": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DownlightUS_Module7_Technical-Drawing_Right.png",
+            "title": "",
+            "text": "<p>CONTROL YOUR ROOMS WITH VOICE<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1646184148d40bee42-0",
+        "1646184148d40bee42-1",
+        "1646184148d40bee42-2",
+        "fd8afec9-c63b-474b-92dc-89625d0de8ce",
+        "8532f789-d579-428b-9f7e-24d90ed72247",
+        "9282e074-4100-4009-ba5f-0ad5ae46a674"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
     "1632375097cddb24cb": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1632375097cddb24cb-0": {
           "type": "heading",
@@ -475,6 +547,7 @@
   "order": [
     "164574621153a3b200",
     "main",
+    "16461841485f0f7e1e",
     "1632375097cddb24cb",
     "product-recommendations",
     "1645683700863a9dcc",
