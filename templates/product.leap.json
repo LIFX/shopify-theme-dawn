@@ -537,7 +537,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/DownlightUS_Module11_Product_FullSpanModule.jpg",
         "adapt_height_first_image": false,
-        "banner_height_overide": true,
+        "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
