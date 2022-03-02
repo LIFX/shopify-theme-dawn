@@ -206,6 +206,22 @@
             "title": "",
             "text": "<p>COMPATIBLE WITH A 5 OR 6 INCH RECESSED LUMINAIRE<\/p>"
           }
+        },
+        "6292883f-4294-41a0-b3eb-72d992635319": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Scheduling.png",
+            "title": "",
+            "text": "<p>EASY SCHEDULING TO SET AND FORGET<\/p>"
+          }
+        },
+        "8e3ee10e-0095-44ab-98f6-318279a9e93e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Flush_Design.png",
+            "title": "",
+            "text": "<p>FLUSH TO CEILING MODERN DESIGN<\/p>"
+          }
         }
       },
       "block_order": [
@@ -214,7 +230,9 @@
         "1646184148d40bee42-2",
         "fd8afec9-c63b-474b-92dc-89625d0de8ce",
         "8532f789-d579-428b-9f7e-24d90ed72247",
-        "9282e074-4100-4009-ba5f-0ad5ae46a674"
+        "9282e074-4100-4009-ba5f-0ad5ae46a674",
+        "6292883f-4294-41a0-b3eb-72d992635319",
+        "8e3ee10e-0095-44ab-98f6-318279a9e93e"
       ],
       "settings": {
         "title": "",
