@@ -60,7 +60,7 @@
         "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"border:solid 1px #eee;padding:5px 5px 15px 15px;\">\n<h2>Quantity Breaks<\/h2>\n2-8 lights: $35 each<br>\n10-18 lights: $30 each<br>\n20-38 lights: $25 each<br>\n40+ lights: $22 each\n<\/div>"
+            "custom_liquid": "<div style=\"border:solid 1px #eee;padding:5px 5px 15px 15px;\">\n<h2>Pre-order and Save:<\/h2>\n1 Pack: $62.99 - Save 10%<br>\n3+ Packs: $167.98 - Save 20%<br>\n5+ Packs: $262.46 - Save 25%<br><hr style=\"margin-top:10px;margin-bottom:10px;\">\nLooking to order in bulk? <a href=\"#\">Contact us<\/a>\n<\/div>"
           }
         },
         "description": {
