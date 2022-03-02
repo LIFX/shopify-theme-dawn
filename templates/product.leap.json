@@ -84,7 +84,7 @@
             "website_us": true,
             "content": "<p><strong>Brightness:<\/strong> 800 Lumens<br\/><strong>Color Rendering Index (CRI):<\/strong> 9<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<\/p><p><strong>Beam Angle: <\/strong>110°<br\/><strong>Dimming:<\/strong> Software dimming 1% -100%<\/p><p><strong>Wattage Use: <\/strong>9W* at full brightness<br\/><strong>Wattage Equivalent: <\/strong>60W Incandescent<br\/><strong>Wattage on Standby:<\/strong> Less than 0.2W<br\/><strong>Voltage Range:<\/strong> AC 100-240V 50\/60 Hz<br\/><br\/><strong>Wi-Fi Router:<\/strong> 802.11b,g,n standards compliant<br\/><strong>Security:<\/strong> WPA, WPA2<br\/><\/p><p><strong>Length:<\/strong> 7.45 in (total length)  <br\/><strong>Recessed distance: <\/strong>2.5 in (recessed distance)<br\/><strong>Recessed width: <\/strong>4.5 in  <br\/><strong>Recessed can: <\/strong>5” - 6” <br\/><strong>Screw adaptor: <\/strong>E26<strong> <\/strong><\/p><p><\/p><p>* Pending final certification<\/p>",
             "page": "",
-            "icon": "question_mark"
+            "icon": "check_mark"
           }
         },
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
@@ -114,8 +114,21 @@
         },
         "71e148ec-93ba-4974-bb7f-35886d41eb89": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:2rem\">\n<h2>Bedroom Bundle<\/h2>\n2 Downlights and 1 Smart Switch<br><br>\n<button class=\"button\">Add to Cart<\/button>\n<\/div>\n\n<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:2rem\">\n<h2>Master Bundle<\/h2>\n4 Downlights and 1 Smart Switch<br><br>\n<button class=\"button\">Add to Cart<\/button>\n<\/div>\n\n<div style=\"border:solid;padding:5px 5px 15px 15px; border-radius:2rem\">\n<h2>Livingroom Bundle<\/h2>\n12 Downlights and 2 Smart Switches<br><br>\n<button class=\"button\">Add to Cart<\/button>\n<\/div>"
+          }
+        },
+        "2d5eeccb-159f-4d21-b11e-b02eef381e95": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "FAQs",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
+            "content": "",
+            "page": "",
+            "icon": "question_mark"
           }
         }
       },
@@ -134,7 +147,8 @@
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
         "76f2877b-9463-4ca3-a71e-982cd31af6da",
-        "71e148ec-93ba-4974-bb7f-35886d41eb89"
+        "71e148ec-93ba-4974-bb7f-35886d41eb89",
+        "2d5eeccb-159f-4d21-b11e-b02eef381e95"
       ],
       "settings": {
         "enable_sticky_info": true,
