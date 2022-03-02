@@ -2,6 +2,7 @@
   "sections": {
     "164574621153a3b200": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width\" style=\"margin-bottom:2rem\"><div class=\"page-width\" style=\"border:solid;padding:5px 5px 15px 15px; border-radius:2rem\">\n<h2>LEAP <\/h2>\nfds af adsf d fds fdasfdasfads fda fdsa fdasf dsa fdsaf dsaf adf adsf.\n<\/div><\/div>"
       }
