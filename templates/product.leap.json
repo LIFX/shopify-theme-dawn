@@ -34,10 +34,9 @@
           "settings": {
           }
         },
-        "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf": {
-          "type": "custom_liquid",
+        "description": {
+          "type": "description",
           "settings": {
-            "custom_liquid": "<span class=\"form__label\"><h4 style=\"margin-bottom:5px\">Pre-sales:<\/h4>Please note that these units are on pre-sale and have a delivery window of August 2022. To secure these units at the discounted rates, upfront payment is required.<\/span>"
           }
         },
         "variant_picker": {
@@ -51,21 +50,22 @@
           "settings": {
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
         "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<span class=\"form__label\">\n\n<table style=\"width:100%\">\n\n  <tr>\n    <td colspan=\"2\" style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\n\"><h4 style=\"margin:0px\">Buy more and save<\/h4><\/td>\n  <\/tr>\n\n  <tr>\n    <td style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\n\">1+ Packs: $62.99<\/td><td style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\n\">Save 10%<\/td>\n  <\/tr>\n  <tr>\n    <td style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\n\">3+ Packs: $167.98<\/td><td style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\n\">Save 20%<\/td>\n  <\/tr>\n  <tr>\n    <td style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\n\">5+ Packs: $244.97<\/td><td style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\n\">Save 30%<\/td>\n  <\/tr>\n<tr>\n    <td colspan=\"2\" style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\n\">Looking to order in bulk? <a href=\"https:\/\/lifx.myshopify.com\/pages\/bulk-order-enquiry\">Enquire today<\/a><\/td>\n  <\/tr>\n<\/table>\n\n\n\n\n<\/span>"
           }
         },
-        "description": {
-          "type": "description",
+        "buy_buttons": {
+          "type": "buy_buttons",
           "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span class=\"form__label\"><h4 style=\"margin-bottom:5px\">Pre-sales:<\/h4>Please note that these units are on pre-sale and have a delivery window of August 2022. To secure these units at the discounted rates, upfront payment is required.<\/span>"
           }
         },
         "share": {
@@ -137,12 +137,12 @@
         "title",
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "price",
-        "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf",
+        "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726",
-        "description",
+        "buy_buttons",
+        "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf",
         "share",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
