@@ -109,6 +109,7 @@
 .multicolumn-list__item.center .media--adapt img {
   left: 50%;
   transform: translateX(-50%);
+  width: auto;
 }
 
 @media screen and (max-width: 749px) {
