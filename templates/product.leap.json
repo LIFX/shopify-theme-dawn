@@ -292,8 +292,8 @@
     "1645683700863a9dcc": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DownlightUS_Module2_Product_FullSpanModule.jpg",
-        "adapt_height_first_image": false,
+        "image": "shopify:\/\/shop_images\/DownlightUS_Module2_Product_FullSpanModule_083dfed1-6caa-4d64-9589-c48b33ecad14.jpg",
+        "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
