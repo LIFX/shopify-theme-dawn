@@ -43,6 +43,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
@@ -60,6 +61,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -72,6 +74,7 @@
         },
         "88e15617-7a01-4dae-92e8-6e255e65fba0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Specifications",
             "website_au": true,
@@ -84,6 +87,7 @@
         },
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Energy Labels",
             "website_au": true,
@@ -96,6 +100,7 @@
         },
         "76f2877b-9463-4ca3-a71e-982cd31af6da": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Bulk Order Enquiry",
             "website_au": true,
@@ -131,6 +136,7 @@
     },
     "163218778740ff4558": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "c74a3e1e-a33e-448d-9ae5-ab09df21104c": {
           "type": "image",
@@ -170,6 +176,7 @@
     },
     "1632375097cddb24cb": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1632375097cddb24cb-0": {
           "type": "heading",
@@ -196,6 +203,7 @@
     },
     "1632374284a540207b": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "bb8e6301-49ac-4fd6-8457-c6e5323c39f9": {
           "type": "image",
@@ -226,6 +234,7 @@
     },
     "163048088405749c6c": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "a06feda4-a693-46f5-b920-d4dc8e897969": {
           "type": "heading",
