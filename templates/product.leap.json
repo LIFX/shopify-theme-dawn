@@ -101,6 +101,7 @@
         },
         "2d5eeccb-159f-4d21-b11e-b02eef381e95": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "FAQs",
             "website_au": true,
