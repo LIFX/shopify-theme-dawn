@@ -41,7 +41,6 @@
     },
     "16466095522eb928e9": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "{% if request.host == 'lifx.com.au' %}\n\n<div class=\"page-width\">Australian Trade Customers: If you have an active ABN and would like to register for our wholesale portal <a href=\"https:\/\/wholesale.lifx.com.au\/accounts\/sign_up\">register here<\/a>.\n<\/div>\n{% endif %}"
       }
