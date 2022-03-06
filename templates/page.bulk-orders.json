@@ -39,6 +39,13 @@
         "website_us": true
       }
     },
+    "16466095522eb928e9": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "Australian Trade Customers: If you have an active ABN and would like to register for our wholesale portal register here"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -54,6 +61,7 @@
   },
   "order": [
     "1634015383475331ac",
+    "16466095522eb928e9",
     "main",
     "16340133676b29fbf5"
   ]
