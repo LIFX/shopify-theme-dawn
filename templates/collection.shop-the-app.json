@@ -1,5 +1,86 @@
 {
   "sections": {
+    "1646693632af51857a": {
+      "type": "featured-product",
+      "blocks": {
+        "1646693632a4557a96-0": {
+          "type": "text",
+          "settings": {
+            "text": "PRE-ORDERS NOW OPEN",
+            "text_style": "uppercase"
+          }
+        },
+        "1646693632a4557a96-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1646693632a4557a96-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "91fcab9a-e3ba-4061-a3db-c6c2ac85c444": {
+          "type": "text",
+          "settings": {
+            "text": "The new LIFX Color Downlight is here; our retro-fit, swap it yourself, multi-color, many-whites, dimmable, automatable wonder-light.",
+            "text_style": "uppercase"
+          }
+        },
+        "1646693632a4557a96-3": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1646693632a4557a96-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1646693632a4557a96-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1646693632a4557a96-6": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1646693632a4557a96-7": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1646693632a4557a96-0",
+        "1646693632a4557a96-1",
+        "1646693632a4557a96-2",
+        "91fcab9a-e3ba-4061-a3db-c6c2ac85c444",
+        "1646693632a4557a96-3",
+        "1646693632a4557a96-4",
+        "1646693632a4557a96-5",
+        "1646693632a4557a96-6",
+        "1646693632a4557a96-7"
+      ],
+      "settings": {
+        "product": "color-downlight-2-pack",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
     "16373095444a38a2cb": {
       "type": "image-banner",
       "settings": {
@@ -17,7 +98,7 @@
         "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
-        "website_us": true
+        "website_us": false
       }
     },
     "banner": {
@@ -44,6 +125,7 @@
     }
   },
   "order": [
+    "1646693632af51857a",
     "16373095444a38a2cb",
     "banner",
     "product-grid"
