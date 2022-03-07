@@ -2,6 +2,7 @@
   "sections": {
     "1646693632af51857a": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "1646693632a4557a96-0": {
           "type": "text",
@@ -98,7 +99,7 @@
         "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
-        "website_us": false
+        "website_us": true
       }
     },
     "banner": {
