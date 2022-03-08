@@ -1,3 +1,8 @@
+{% if section.settings.website_ukeu == false and request.host == 'lifxukeu.myshopify.com' or request.host == 'lifxshop.co.uk' or request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' or request.host == 'lifxgb.myshopify.com'%}
+{% elsif section.settings.website_us == false and request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
+{% elsif section.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
+{% else %}
+
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 {{ 'section-featured-product.css' | asset_url | stylesheet_tag }}
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
@@ -340,6 +345,8 @@
   </div>
 </section>
 
+{% endif %}
+
 {% javascript %}
   if (!customElements.get('product-modal')) {
     customElements.define('product-modal', class ProductModal extends ModalDialog {
@@ -444,6 +451,9 @@
     });
   });
 </script>
+  
+  
+
 
 {% schema %}
 {
@@ -607,6 +617,24 @@
       "id": "enable_video_looping",
       "default": false,
       "label": "t:sections.featured-product.settings.enable_video_looping.label"
+    },
+  	{
+      "type": "checkbox",
+      "id": "website_au",
+      "default": true,
+      "label": "t:sections.image-banner.settings.website_au.label"
+    },
+	{
+      "type": "checkbox",
+      "id": "website_ukeu",
+      "default": true,
+      "label": "t:sections.image-banner.settings.website_ukeu.label"
+    },
+	{
+      "type": "checkbox",
+      "id": "website_us",
+      "default": true,
+      "label": "t:sections.image-banner.settings.website_us.label"
     }
   ],
   "presets": [
