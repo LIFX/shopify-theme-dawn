@@ -1,5 +1,43 @@
 {
   "sections": {
+    "164671195919cf1c24": {
+      "type": "image-with-text",
+      "blocks": {
+        "16467119592e4327ed-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Retrofit Color Downlights"
+          }
+        },
+        "16467119592e4327ed-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This product will transform your whole home—no renovation needed. Pre-sales now open.<\/p>"
+          }
+        },
+        "16467119592e4327ed-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get the deal",
+            "button_link": "shopify:\/\/products\/color-downlight-2-pack"
+          }
+        }
+      },
+      "block_order": [
+        "16467119592e4327ed-0",
+        "16467119592e4327ed-1",
+        "16467119592e4327ed-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_Lifestyle_Interiors_Bathroom_5.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
     "16373095444a38a2cb": {
       "type": "image-banner",
       "settings": {
@@ -17,7 +55,7 @@
         "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
-        "website_us": true
+        "website_us": false
       }
     },
     "banner": {
@@ -44,6 +82,7 @@
     }
   },
   "order": [
+    "164671195919cf1c24",
     "16373095444a38a2cb",
     "banner",
     "product-grid"
