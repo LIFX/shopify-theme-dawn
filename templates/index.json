@@ -29,7 +29,6 @@
         "16463728686ac3dee5-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DownlightUS_Module4_Lifestyle_Half.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -73,7 +72,6 @@
         "1646372557ab6407de-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DownlightUS_HeroModule-Desktop-FullSpan.png",
         "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
@@ -136,7 +134,7 @@
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "crop_image_alignment": "center",
-        "website_au": true,
+        "website_au": false,
         "website_ukeu": true,
         "website_us": true
       }
@@ -157,11 +155,7 @@
         "show_rating": false,
         "website_au": false,
         "website_ukeu": false,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": true
       }
     },
     "1639114873808e553c": {
@@ -333,11 +327,7 @@
         "show_rating": false,
         "website_au": false,
         "website_ukeu": false,
-        "website_us": false,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": false
       }
     },
     "16417795474723f926": {
@@ -356,11 +346,7 @@
         "show_rating": false,
         "website_au": false,
         "website_ukeu": false,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": true
       }
     },
     "1641950732cff92509": {
@@ -379,11 +365,7 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": false,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": false
       }
     },
     "16375504211534ace0": {
