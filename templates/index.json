@@ -1,5 +1,137 @@
 {
   "sections": {
+    "16360812376e144b22": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/lifx_low.mp4?v=1620198850",
+        "description": "Just another smart light?",
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1641950732cff92509": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Downlight Sale",
+        "collection": "downlights",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
+      }
+    },
+    "16417795474723f926": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "homepage",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
+      }
+    },
+    "1634272844a70d2ca1": {
+      "type": "image-banner",
+      "blocks": {
+        "1634272844a70d2ca1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Way more than just a light.",
+            "heading_size": "medium"
+          }
+        },
+        "1634272844a70d2ca1-1": {
+          "type": "text",
+          "settings": {
+            "text": "Beyond all the colors, top notch specs and clever chips, LIFX is also a new way of experiencing a home that changes with your needs. Control it all from the palm of your hand."
+          }
+        },
+        "1634272844a70d2ca1-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Find out more",
+            "button_link_1": "shopify:\/\/pages\/app",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "shopify:\/\/pages\/app",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1634272844a70d2ca1-0",
+        "1634272844a70d2ca1-1",
+        "1634272844a70d2ca1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_Homepage_APP_Module-01-opt.jpg",
+        "adapt_height_first_image": true,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "right",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1632107311c762a72c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Clearance Products",
+        "collection": "clearance-products",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": true,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": false,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
+      }
+    },
     "1646372868498ffa6c": {
       "type": "image-with-text",
       "disabled": true,
@@ -41,6 +173,7 @@
     },
     "1644561324229a6a83": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "16445613231a259fe3-0": {
           "type": "heading",
@@ -92,6 +225,7 @@
     },
     "1644561483034220fc": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Perfect Bedroom Lighting",
         "collection": "bedroom-lighting",
@@ -115,6 +249,7 @@
     },
     "1639114873808e553c": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "163911487375092ccd-0": {
           "type": "heading",
@@ -215,75 +350,6 @@
         "website_us": false
       }
     },
-    "1632107311c762a72c": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Clearance Products",
-        "collection": "clearance-products",
-        "products_to_show": 4,
-        "show_view_all": false,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": true,
-        "show_image_outline": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": false,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
-      }
-    },
-    "16417795474723f926": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "collection": "homepage",
-        "products_to_show": 4,
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
-      }
-    },
-    "1641950732cff92509": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Downlight Sale",
-        "collection": "downlights",
-        "products_to_show": 12,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": false,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
-      }
-    },
     "16375504211534ace0": {
       "type": "image-banner",
       "disabled": true,
@@ -336,18 +402,6 @@
         "website_us": true
       }
     },
-    "16360812376e144b22": {
-      "type": "video2",
-      "settings": {
-        "heading": "",
-        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/lifx_low.mp4?v=1620198850",
-        "description": "Just another smart light?",
-        "full_width": true,
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "16360916891de3101c": {
       "type": "image-with-text",
       "blocks": {
@@ -381,95 +435,6 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "1634272844a70d2ca1": {
-      "type": "image-banner",
-      "blocks": {
-        "1634272844a70d2ca1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Way more than just a light.",
-            "heading_size": "medium"
-          }
-        },
-        "1634272844a70d2ca1-1": {
-          "type": "text",
-          "settings": {
-            "text": "Beyond all the colors, top notch specs and clever chips, LIFX is also a new way of experiencing a home that changes with your needs. Control it all from the palm of your hand."
-          }
-        },
-        "1634272844a70d2ca1-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Find out more",
-            "button_link_1": "shopify:\/\/pages\/app",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "shopify:\/\/pages\/app",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1634272844a70d2ca1-0",
-        "1634272844a70d2ca1-1",
-        "1634272844a70d2ca1-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_Homepage_APP_Module-01-opt.jpg",
-        "adapt_height_first_image": true,
-        "banner_height_overide": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "right",
-        "show_text_box": true,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "crop_image_alignment": "center",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "16419533851bc12f51": {
-      "type": "image-with-text",
-      "blocks": {
-        "1641953385a628864e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bulk Orders"
-          }
-        },
-        "1641953385a628864e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <\/p>"
-          }
-        },
-        "1641953385a628864e-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Enquire now",
-            "button_link": "shopify:\/\/pages\/bulk-order-enquiry"
-          }
-        }
-      },
-      "block_order": [
-        "1641953385a628864e-0",
-        "1641953385a628864e-1",
-        "1641953385a628864e-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/08_Indoor_outdoor_Scene_Sunset.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -521,6 +486,44 @@
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "16419533851bc12f51": {
+      "type": "image-with-text",
+      "blocks": {
+        "1641953385a628864e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bulk Orders"
+          }
+        },
+        "1641953385a628864e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <\/p>"
+          }
+        },
+        "1641953385a628864e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Enquire now",
+            "button_link": "shopify:\/\/pages\/bulk-order-enquiry"
+          }
+        }
+      },
+      "block_order": [
+        "1641953385a628864e-0",
+        "1641953385a628864e-1",
+        "1641953385a628864e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/08_Indoor_outdoor_Scene_Sunset.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -674,20 +677,20 @@
     }
   },
   "order": [
+    "16360812376e144b22",
+    "1641950732cff92509",
+    "16417795474723f926",
+    "1634272844a70d2ca1",
+    "1632107311c762a72c",
     "1646372868498ffa6c",
     "1644561324229a6a83",
     "1644561483034220fc",
     "1639114873808e553c",
     "1637546869f1304ff3",
-    "1632107311c762a72c",
-    "16417795474723f926",
-    "1641950732cff92509",
     "16375504211534ace0",
-    "16360812376e144b22",
     "16360916891de3101c",
-    "1634272844a70d2ca1",
-    "16419533851bc12f51",
     "1632116257dff5145e",
+    "16419533851bc12f51",
     "16364397572cc0a070",
     "16321870964a1d4c89",
     "16371499188aae96be",
