@@ -50,7 +50,7 @@
         "show_vendor": false,
         "show_rating": false,
         "website_au": false,
-        "website_ukeu": false,
+        "website_ukeu": true,
         "website_us": true,
         "button_style_secondary_1": false,
         "button_label_2": "Button label",
@@ -111,6 +111,7 @@
     },
     "1632107311c762a72c": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Clearance Products",
         "collection": "clearance-products",
