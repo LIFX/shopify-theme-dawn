@@ -600,6 +600,59 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "16496523773c41ce35": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1649652377df1aa752-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sleepy Time",
+            "heading_size": "medium"
+          }
+        },
+        "1649652377df1aa752-1": {
+          "type": "text",
+          "settings": {
+            "text": "HomeKit scenes allow you to control multiple devices at once from your LIFX Smart Switch. Dim the lights, set the temperature and play a lullaby with one short (or long) press."
+          }
+        },
+        "1649652377df1aa752-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1649652377df1aa752-0",
+        "1649652377df1aa752-1",
+        "1649652377df1aa752-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_Blog_Parenting_05.png",
+        "adapt_height_first_image": false,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "left",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
     }
   },
   "order": [
@@ -617,6 +670,7 @@
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
     "product-recommendations",
-    "163704609418aa1efc"
+    "163704609418aa1efc",
+    "16496523773c41ce35"
   ]
 }
