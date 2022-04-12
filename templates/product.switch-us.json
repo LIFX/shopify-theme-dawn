@@ -253,6 +253,37 @@
         "website_us": true
       }
     },
+    "164973577337cbdca6": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1649735773a770d8bf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Personalise and fine-tune your Switches."
+          }
+        },
+        "1649735773a770d8bf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can set up your switches to suit you. <br\/>✅   Customise the backlight brightness <br\/>✅   Set you own unique backlight colours for individual buttons <br\/>✅   Tune the haptic ‘vibration’ strength for the right level of non-visual feedback for your home.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1649735773a770d8bf-0",
+        "1649735773a770d8bf-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_Switch_ButtonColor_Image01_Half_Page.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "1649652361ec067e9b": {
       "type": "multicolumn",
       "disabled": true,
@@ -260,7 +291,7 @@
         "164965236123fce0c8-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DownlightUS_Module9_Lifestyle_Half.jpg",
+            "image": "shopify:\/\/shop_images\/HomeKit_Switch_3col_Image1.jpg",
             "title": "Home Automation",
             "text": "<p>Pair with an Apple TV, HomePod or iPad for full HomeKit automation via the Apple Home app.<br\/><br\/>Add single, double and long press functionality to you LIFX Smart Switches for greater control.<\/p>"
           }
@@ -268,17 +299,17 @@
         "164965236123fce0c8-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DownlightUS_Module9_Lifestyle_Half.jpg",
+            "image": "shopify:\/\/shop_images\/HomeKit_Switch_3col_Image2.jpg",
             "title": "Speakers & Soundbars",
-            "text": "<p>Sync your LIFX Smart Switch with your Sonos, Bose or other HomeKit compatible speaker to play, shuffle and listen to your favourite music and podcasts on Apple Music.<br\/><br\/>View <a href=\"https:\/\/support.lifx.com\" title=\"https:\/\/support.lifx.com\">setup instructions<\/a>.<br\/><\/p>"
+            "text": "<p>Sync your LIFX Smart Switch with your Sonos, Bose or other HomeKit compatible speaker to play, shuffle and listen to your favourite music and podcasts on Apple Music.<br\/><\/p>"
           }
         },
         "164965236123fce0c8-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DownlightUS_Module9_Lifestyle_Half.jpg",
+            "image": "shopify:\/\/shop_images\/HomeKit_Switch_3col_Image3.jpg",
             "title": "Garage Doors and Locks",
-            "text": "<p>Connect your LIFX Smart Switch with HomeKit enabled garage door opener and door locks.<br\/><br\/>Placing control at the touch of you light switch as you come and go from your home.<\/p>"
+            "text": "<p>Connect your LIFX Smart Switch with HomeKit enabled garage door opener and door locks.<br\/><br\/>Control locking and other functions at the touch of your light switch as you come and go from your home.<\/p>"
           }
         }
       },
@@ -288,7 +319,7 @@
         "164965236123fce0c8-2"
       ],
       "settings": {
-        "title": "Works with Apple HomeKit",
+        "title": "Now works with Apple HomeKit",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -296,6 +327,46 @@
         "button_label": "Learn more about HomeKit",
         "button_link": "https:\/\/support.lifx.com\/",
         "swipe_on_mobile": false
+      }
+    },
+    "164973589957c5c293": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1649735899ddd3cb80-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1649735899ddd3cb80-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1649735899ddd3cb80-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1649735899ddd3cb80-0",
+        "1649735899ddd3cb80-1",
+        "1649735899ddd3cb80-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DownlightUS_Module2_Product_FullSpanModule_083dfed1-6caa-4d64-9589-c48b33ecad14.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "163591479253a6c41d": {
@@ -389,6 +460,15 @@
     "16360008950381c4a6": {
       "type": "multicolumn",
       "blocks": {
+        "2e21a2eb-96f7-4a37-a085-69e1f710f277": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LIFX_Blog_Parenting_05.png",
+            "title": "Set a sleepy-time button in kid’s rooms.",
+            "text": "<p>HomeKit scenes allow you to control multiple devices at once from your LIFX Smart Switch. Dim the lights, set the temperature and play a lullaby with one short (or long) press.<\/p>"
+          }
+        },
         "16360008950381c4a6-0": {
           "type": "column",
           "settings": {
@@ -407,6 +487,7 @@
         }
       },
       "block_order": [
+        "2e21a2eb-96f7-4a37-a085-69e1f710f277",
         "16360008950381c4a6-0",
         "16360008950381c4a6-1"
       ],
@@ -600,59 +681,6 @@
         "color_scheme": "background-1",
         "full_width": true
       }
-    },
-    "16496523773c41ce35": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "1649652377df1aa752-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Sleepy Time",
-            "heading_size": "medium"
-          }
-        },
-        "1649652377df1aa752-1": {
-          "type": "text",
-          "settings": {
-            "text": "HomeKit scenes allow you to control multiple devices at once from your LIFX Smart Switch. Dim the lights, set the temperature and play a lullaby with one short (or long) press."
-          }
-        },
-        "1649652377df1aa752-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1649652377df1aa752-0",
-        "1649652377df1aa752-1",
-        "1649652377df1aa752-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_Blog_Parenting_05.png",
-        "adapt_height_first_image": false,
-        "banner_height_overide": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "left",
-        "show_text_box": true,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "crop_image_alignment": "center",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
     }
   },
   "order": [
@@ -661,7 +689,9 @@
     "163514216916abed30",
     "163520046949622558",
     "16352007448c39f051",
+    "164973577337cbdca6",
     "1649652361ec067e9b",
+    "164973589957c5c293",
     "163591479253a6c41d",
     "1636000353893885f5",
     "1636083188021f8436",
@@ -670,7 +700,6 @@
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
     "product-recommendations",
-    "163704609418aa1efc",
-    "16496523773c41ce35"
+    "163704609418aa1efc"
   ]
 }
