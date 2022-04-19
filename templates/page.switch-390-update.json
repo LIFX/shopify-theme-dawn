@@ -11,7 +11,7 @@
         "165033077005f39064-0": {
           "type": "heading",
           "settings": {
-            "heading": "Update 3.90 (Switch Adds & Connectivity)",
+            "heading": "Update 3.90(Switch Adds & Connectivity)",
             "heading_size": "h1"
           }
         },
@@ -38,12 +38,13 @@
         "165033077005f39064-2"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "full_width": true
       }
     },
     "16503300061b1b625c": {
       "type": "video2",
+      "disabled": true,
       "settings": {
         "heading": "",
         "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/Switch_US_PDP_Main_Anim_Final.mp4?v=1622434002",
