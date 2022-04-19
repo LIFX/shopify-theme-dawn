@@ -1,0 +1,266 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1650330770d596483f": {
+      "type": "rich-text",
+      "blocks": {
+        "165033077005f39064-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Firmware Update 3.90 +  App Update 4.11",
+            "heading_size": "h2"
+          }
+        },
+        "165033077005f39064-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Launch: iOS April-18 2022, Android April-21 2022.<br\/>Description: LIFX Switch HomeKit support and enhanced personalization. Plus major connectivity Improvements.<br\/><a href=\"https:\/\/apps.apple.com\/us\/app\/lifx\/id657758311\" target=\"_blank\" title=\"https:\/\/apps.apple.com\/us\/app\/lifx\/id657758311\">Apple App Store<\/a>   |   <a href=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx&hl=en_US&gl=US\" title=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx&hl=en_US&gl=US\">Android Play Store<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165033077005f39064-0",
+        "165033077005f39064-1"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
+    "16503300061b1b625c": {
+      "type": "video2",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/Switch_US_PDP_Main_Anim_Final.mp4?v=1622434002",
+        "description": "Smart Switch",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1650330063a1bf5964": {
+      "type": "image-with-text",
+      "blocks": {
+        "16503300637a01dd65-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Now with Apple HomeKit."
+          }
+        },
+        "16503300637a01dd65-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There are lots of great ways to smarten up your home control from the wall, but now it has the power to activate all of your HomeKit compatible devices using the Apple Home app. Play music, tune the lights and get the blinds at the same time with one button when you get home. Set the temperature to ‘juuust right’, the house to lock and the lights to low and warm to help you get to sleep quicker. Your imagination is the limit.<br\/><br\/><a href=\"https:\/\/support.lifx.com\/switch-3-90-update-rk4zYiXVq\" title=\"https:\/\/support.lifx.com\/switch-3-90-update-rk4zYiXVq\">HomeKit pairing instructions<\/a>.<\/p>"
+          }
+        },
+        "16503300637a01dd65-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16503300637a01dd65-0",
+        "16503300637a01dd65-1",
+        "16503300637a01dd65-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_WhatsNew_Switch_1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1650332139cdd297cd": {
+      "type": "multicolumn",
+      "blocks": {
+        "1650332139b28662a0-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HomeKit_Switch_3col_Image1.jpg",
+            "title": "Home Automation",
+            "text": "<p>Pair with an Apple TV, HomePod or iPad for full HomeKit automation via the Apple Home app.<br\/><br\/>Add single, double and long press functionality to you LIFX Smart Switches for greater control.<br\/><br\/><a href=\"https:\/\/support.lifx.com\/switch-3-90-update-rk4zYiXVq\" title=\"https:\/\/support.lifx.com\/switch-3-90-update-rk4zYiXVq\">Set-up instructions.<\/a><\/p>"
+          }
+        },
+        "1650332139b28662a0-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HomeKit_Switch_3col_Image2.jpg",
+            "title": "Speakers & Soundbars",
+            "text": "<p>Sync your LIFX Smart Switch with your Sonos, Bose or other HomeKit compatible speaker to play, shuffle and listen to your favourite music and podcasts on Apple Music.<\/p>"
+          }
+        },
+        "1650332139b28662a0-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HomeKit_Switch_3col_Image3.jpg",
+            "title": "Garage Doors and Locks",
+            "text": "<p>Connect your LIFX Smart Switch with HomeKit enabled garage door opener and door locks.<br\/><br\/>Control locking and other functions at the touch of your light switch as you come and go from your home.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1650332139b28662a0-0",
+        "1650332139b28662a0-1",
+        "1650332139b28662a0-2"
+      ],
+      "settings": {
+        "title": "What can you do with HomeKit?",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16503345201288f4f0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"multicolumn background-primary\">\n<div class=\"page-width\">\n<div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile\">\n<h2 class=\"title\" data-live-text-\">Personalize your switch experience <\/h2><\/div>\n<\/div><\/div>"
+      }
+    },
+    "16503300434472e6de": {
+      "type": "image-with-text",
+      "blocks": {
+        "1650330043fb9fe3a8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Add switch buttons to scenes and schedule your non-smart lights."
+          }
+        },
+        "1650330043fb9fe3a8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your regular old dumb lights are now even smarter. Rather than selecting a whole switch, you can now choose individual buttons when setting up. If you have some fancy neons or pendants attached to a specific button, you can have those turn off in the evening when your smart lights dim. <br\/><br\/><a href=\"https:\/\/support.lifx.com\/switch-3-90-update-rk4zYiXVq\" title=\"https:\/\/support.lifx.com\/switch-3-90-update-rk4zYiXVq\">Set-up instructions.<\/a><\/p>"
+          }
+        },
+        "1650330043fb9fe3a8-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1650330043fb9fe3a8-0",
+        "1650330043fb9fe3a8-1",
+        "1650330043fb9fe3a8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_WhatsNew_Switch_4.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1650330135ba49cbf0": {
+      "type": "image-with-text",
+      "blocks": {
+        "165033013520bec2d7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Customize the backlight brightness and haptic feedback."
+          }
+        },
+        "165033013520bec2d7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We wanted the <a href=\"\/collections\/switches\" title=\"Switches\">LIFX Switch<\/a> to be your perfect control partner in every room, so we made sure we built it with the right hardware for you to fine-tune your experience. With the latest update, you can now adjust the brightness of the button backlights—so your bedroom switch doesn’t have to glow at all, but your bathroom one  can brighten things up from the wall. You can also set the haptic feedback (we’re talking vibration) so you have the right level of non-visual feedback for your specific needs.<\/p>"
+          }
+        },
+        "165033013520bec2d7-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165033013520bec2d7-0",
+        "165033013520bec2d7-1",
+        "165033013520bec2d7-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_WhatsNew_Switch_2.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "165033209332d4bf99": {
+      "type": "image-with-text",
+      "blocks": {
+        "16503320931fe8c65d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Set you own unique backlight colors."
+          }
+        },
+        "16503320931fe8c65d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LIFX is all about personalization, so now you can set your switches to any color backlight to suit your personal style. You can set them to a low neutral glow, or pump up a pop of color to make a statement. Set your kid’s bedroom switch to suit their style, and change it in the app when they get bored. <br\/><br\/><a href=\"https:\/\/support.lifx.com\/switch-3-90-update-rk4zYiXVq\" title=\"https:\/\/support.lifx.com\/switch-3-90-update-rk4zYiXVq\">Set-up instructions.<\/a><\/p>"
+          }
+        },
+        "16503320931fe8c65d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16503320931fe8c65d-0",
+        "16503320931fe8c65d-1",
+        "16503320931fe8c65d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_WhatsNew_Switch_3.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1650330770d596483f",
+    "16503300061b1b625c",
+    "1650330063a1bf5964",
+    "1650332139cdd297cd",
+    "16503345201288f4f0",
+    "16503300434472e6de",
+    "1650330135ba49cbf0",
+    "165033209332d4bf99"
+  ]
+}
