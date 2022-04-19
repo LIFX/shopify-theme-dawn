@@ -253,6 +253,45 @@
         "website_us": true
       }
     },
+    "164973589957c5c293": {
+      "type": "image-with-text",
+      "blocks": {
+        "1649735899ddd3cb80-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Set the scene"
+          }
+        },
+        "1649735899ddd3cb80-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each button could correspond to different custom scenes you have created in the app. With simple taps on the switch you can change the whole room from date-night lighting to movietime, and then to bedtime.<\/p>"
+          }
+        },
+        "1649735899ddd3cb80-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1649735899ddd3cb80-0",
+        "1649735899ddd3cb80-1",
+        "1649735899ddd3cb80-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/07_LIFX_Switch_AU_2G.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "164973577337cbdca6": {
       "type": "image-with-text",
       "blocks": {
@@ -277,7 +316,7 @@
         "image": "shopify:\/\/shop_images\/LIFX_Switch_ButtonColor_Image01_Half_Page.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first",
+        "layout": "image_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -325,46 +364,6 @@
         "button_label": "Learn more about HomeKit",
         "button_link": "https:\/\/support.lifx.com\/switch-3-90-update-rk4zYiXVq",
         "swipe_on_mobile": false
-      }
-    },
-    "164973589957c5c293": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1649735899ddd3cb80-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "1649735899ddd3cb80-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1649735899ddd3cb80-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1649735899ddd3cb80-0",
-        "1649735899ddd3cb80-1",
-        "1649735899ddd3cb80-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DownlightUS_Module2_Product_FullSpanModule_083dfed1-6caa-4d64-9589-c48b33ecad14.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
       }
     },
     "163591479253a6c41d": {
@@ -687,9 +686,9 @@
     "163514216916abed30",
     "163520046949622558",
     "16352007448c39f051",
+    "164973589957c5c293",
     "164973577337cbdca6",
     "1649652361ec067e9b",
-    "164973589957c5c293",
     "163591479253a6c41d",
     "1636000353893885f5",
     "1636083188021f8436",
