@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
@@ -18,7 +19,7 @@
         "165033077005f39064-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Switch uplift for new feature support & major connectivity Improvements.<br\/><a href=\"https:\/\/apps.apple.com\/us\/app\/lifx\/id657758311\" target=\"_blank\" title=\"https:\/\/apps.apple.com\/us\/app\/lifx\/id657758311\">Apple App Store<\/a>   |   <a href=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx&hl=en_US&gl=US\" title=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx&hl=en_US&gl=US\">Android Play Store<\/a><\/p>"
+            "text": "<p>Launch: April 2022<br\/>Description: Switch uplift for new feature support & major connectivity Improvements.<br\/><a href=\"https:\/\/apps.apple.com\/us\/app\/lifx\/id657758311\" target=\"_blank\" title=\"https:\/\/apps.apple.com\/us\/app\/lifx\/id657758311\">Apple App Store<\/a>   |   <a href=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx&hl=en_US&gl=US\" title=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx&hl=en_US&gl=US\">Android Play Store<\/a><\/p>"
           }
         }
       },
@@ -183,6 +184,7 @@
         },
         "165033013520bec2d7-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": ""
@@ -221,6 +223,7 @@
         },
         "16503320931fe8c65d-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": ""
@@ -236,7 +239,7 @@
         "image": "shopify:\/\/shop_images\/LIFX_WhatsNew_Switch_3.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first",
+        "layout": "text_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
