@@ -327,6 +327,50 @@
         "website_us": true
       }
     },
+    "165034211897487019": {
+      "type": "multicolumn",
+      "blocks": {
+        "1650342118136635b5-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HomeKit_Switch_3col_Image1.jpg",
+            "title": "Home Automation",
+            "text": "<p>Pair with an Apple TV, HomePod or iPad for full HomeKit automation via the Apple Home app.<br\/><br\/>Add single, double and long press functionality to you LIFX Smart Switches for greater control.<\/p>"
+          }
+        },
+        "1650342118136635b5-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HomeKit_Switch_3col_Image2.jpg",
+            "title": "Speakers & Soundbars",
+            "text": "<p>Sync your LIFX Smart Switch with your Sonos, Bose or other HomeKit compatible speaker to play, shuffle and listen to your favourite music and podcasts on Apple Music.<\/p>"
+          }
+        },
+        "1650342118136635b5-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HomeKit_Switch_3col_Image3.jpg",
+            "title": "Garage Doors and Locks",
+            "text": "<p>Connect your LIFX Smart Switch with HomeKit enabled garage door opener and door locks.<br\/><br\/>Control locking and other functions at the touch of your light switch as you come and go from your home.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1650342118136635b5-0",
+        "1650342118136635b5-1",
+        "1650342118136635b5-2"
+      ],
+      "settings": {
+        "title": "Now works with Apple HomeKit",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "Learn more about HomeKit",
+        "button_link": "https:\/\/support.lifx.com\/switch-3-90-update-rk4zYiXVq",
+        "swipe_on_mobile": true
+      }
+    },
     "16360008950381c4a6": {
       "type": "multicolumn",
       "blocks": {
@@ -551,6 +595,7 @@
     "1636000353893885f5",
     "1636083188021f8436",
     "165034183488d790d4",
+    "165034211897487019",
     "16360008950381c4a6",
     "1635139699342ea047",
     "16359041219d05cf7f",
