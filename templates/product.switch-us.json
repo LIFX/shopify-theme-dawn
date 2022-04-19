@@ -255,7 +255,6 @@
     },
     "164973577337cbdca6": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1649735773a770d8bf-0": {
           "type": "heading",
@@ -286,7 +285,6 @@
     },
     "1649652361ec067e9b": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "164965236123fce0c8-0": {
           "type": "column",
@@ -325,7 +323,7 @@
         "column_alignment": "left",
         "background_style": "secondary",
         "button_label": "Learn more about HomeKit",
-        "button_link": "https:\/\/support.lifx.com\/",
+        "button_link": "https:\/\/support.lifx.com\/switch-3-90-update-rk4zYiXVq",
         "swipe_on_mobile": false
       }
     },
