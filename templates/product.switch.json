@@ -222,13 +222,13 @@
         "16352007448c39f051-0": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.metafields.my_fields.headline3.value }}"
+            "heading": "On or off, stay connected"
           }
         },
         "16352007448c39f051-1": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
+            "text": "<p>LIFX Smart Switch keeps your lights in standby mode instead of fully cutting the power source. That means your lights will stay connected, allowing for constant control whether they’re on or off.<\/p>"
           }
         }
       },
@@ -237,7 +237,7 @@
         "16352007448c39f051-1"
       ],
       "settings": {
-        "image": "{{ product.metafields.my_fields.image3.value }}",
+        "image": "shopify:\/\/shop_images\/HomeKit_Switch_3col_Image1.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
