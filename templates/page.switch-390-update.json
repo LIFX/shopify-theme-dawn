@@ -11,30 +11,20 @@
         "165033077005f39064-0": {
           "type": "heading",
           "settings": {
-            "heading": "Update 3.90",
-            "heading_size": "h1"
+            "heading": "Firmware Update 3.90 +  App Update 4.11",
+            "heading_size": "h2"
           }
         },
         "165033077005f39064-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Switch uplift & connectivity Improvements<\/p>"
-          }
-        },
-        "165033077005f39064-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "text": "<p>Switch uplift for new feature support & major connectivity Improvements.<br\/><a href=\"https:\/\/apps.apple.com\/us\/app\/lifx\/id657758311\" target=\"_blank\" title=\"https:\/\/apps.apple.com\/us\/app\/lifx\/id657758311\">Apple App Store<\/a>   |   <a href=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx&hl=en_US&gl=US\" title=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx&hl=en_US&gl=US\">Android Play Store<\/a><\/p>"
           }
         }
       },
       "block_order": [
         "165033077005f39064-0",
-        "165033077005f39064-1",
-        "165033077005f39064-2"
+        "165033077005f39064-1"
       ],
       "settings": {
         "color_scheme": "inverse",
