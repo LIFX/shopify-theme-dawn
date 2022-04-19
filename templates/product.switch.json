@@ -334,6 +334,45 @@
         "website_us": true
       }
     },
+    "165034183488d790d4": {
+      "type": "image-with-text",
+      "blocks": {
+        "165034183465cb84fd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Personalise and fine-tune your Switches."
+          }
+        },
+        "165034183465cb84fd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can set up your switches to suit you.<br\/>✅   Customise the backlight brightness<br\/>✅   Set you own unique backlight colours<br\/>✅   Tune the haptic ‘vibration’ strength for the right level of non-visual feedback for your home.<\/p>"
+          }
+        },
+        "165034183465cb84fd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165034183465cb84fd-0",
+        "165034183465cb84fd-1",
+        "165034183465cb84fd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_Switch_ButtonColor_Image01_Half_Page.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "16360008950381c4a6": {
       "type": "multicolumn",
       "blocks": {
@@ -558,6 +597,7 @@
     "163591479253a6c41d",
     "1636000353893885f5",
     "1636083188021f8436",
+    "165034183488d790d4",
     "16360008950381c4a6",
     "1635139699342ea047",
     "16359041219d05cf7f",
