@@ -131,7 +131,7 @@
     "16503345201288f4f0": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"multicolumn background-primary\">\n<div class=\"page-width\">\n<div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile\">\n<h2 class=\"title\" data-live-text-\">Get creative and customize your Switch <\/h2><\/div>\n<\/div><\/div>"
+        "custom_liquid": "<div class=\"multicolumn background-primary\">\n<div class=\"page-width\">\n<div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile\">\n<h2 class=\"title\" data-live-text-\">Personalize your switch experience <\/h2><\/div>\n<\/div><\/div>"
       }
     },
     "16503300434472e6de": {
@@ -224,7 +224,7 @@
         "16503320931fe8c65d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>LIFX is all about personalization, so now you can set your switches to any color backlight to suit your personal style. You can set them to a low neutral glow, or pump up a pop of color to make a statement. Set your kid’s bedroom switch to suit their style, and change it in the app when they get bored.<\/p>"
           }
         },
         "16503320931fe8c65d-2": {
