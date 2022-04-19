@@ -457,10 +457,10 @@
     },
     "16360008950381c4a6": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "2e21a2eb-96f7-4a37-a085-69e1f710f277": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/LIFX_Blog_Parenting_05.png",
             "title": "Set a sleepy-time button in kid’s rooms.",
