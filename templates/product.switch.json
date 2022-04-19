@@ -278,6 +278,7 @@
     },
     "1636083188021f8436": {
       "type": "video2",
+      "disabled": true,
       "settings": {
         "heading": "",
         "video": "{{ product.metafields.my_fields.video2.value }}",
@@ -369,41 +370,6 @@
         "button_label": "Learn more about HomeKit",
         "button_link": "https:\/\/support.lifx.com\/switch-3-90-update-rk4zYiXVq",
         "swipe_on_mobile": true
-      }
-    },
-    "16360008950381c4a6": {
-      "type": "multicolumn",
-      "blocks": {
-        "16360008950381c4a6-0": {
-          "type": "column",
-          "settings": {
-            "image": "{{ product.metafields.my_fields.image7.value }}",
-            "title": "{{ product.metafields.my_fields.headline7.value }}",
-            "text": "<p>{{ product.metafields.my_fields.paragraph7 | metafield_tag }}<\/p>"
-          }
-        },
-        "16360008950381c4a6-1": {
-          "type": "column",
-          "settings": {
-            "image": "{{ product.metafields.my_fields.image8.value }}",
-            "title": "{{ product.metafields.my_fields.headline8.value }}",
-            "text": "<p>{{ product.metafields.my_fields.paragraph8 | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16360008950381c4a6-0",
-        "16360008950381c4a6-1"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
       }
     },
     "1635139699342ea047": {
@@ -596,7 +562,6 @@
     "1636083188021f8436",
     "165034183488d790d4",
     "165034211897487019",
-    "16360008950381c4a6",
     "1635139699342ea047",
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
