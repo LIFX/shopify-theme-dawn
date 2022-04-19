@@ -1,5 +1,44 @@
 {
   "sections": {
+    "1650336354e8efe75b": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "16503363545ae2e1ef-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The LIFX Switch range just got a whole lot smarter."
+          }
+        },
+        "16503363545ae2e1ef-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve just added some cool new tricks to our range of switches. Now you can: <br\/>👉  Use with Apple HomeKit and all your compatible HomeKit products.<br\/>👉  Fine tune a bunch of style options  and settings to suit your vibe.<br\/>👉  Have more control over specific automation of things wired to your switches from your LIFX app.<\/p>"
+          }
+        },
+        "16503363545ae2e1ef-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/whats-new"
+          }
+        }
+      },
+      "block_order": [
+        "16503363545ae2e1ef-0",
+        "16503363545ae2e1ef-1",
+        "16503363545ae2e1ef-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_WhatsNew_Switch_3.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
     "16360812376e144b22": {
       "type": "video2",
       "settings": {
@@ -10,29 +49,6 @@
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
-      }
-    },
-    "1641950732cff92509": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Downlight Sale",
-        "collection": "downlights",
-        "products_to_show": 12,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": false,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
       }
     },
     "16417795474723f926": {
@@ -52,6 +68,29 @@
         "website_au": false,
         "website_ukeu": true,
         "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
+      }
+    },
+    "1641950732cff92509": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Downlight Sale",
+        "collection": "downlights",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false,
         "button_style_secondary_1": false,
         "button_label_2": "Button label",
         "button_link_2": "",
@@ -679,9 +718,10 @@
     }
   },
   "order": [
+    "1650336354e8efe75b",
     "16360812376e144b22",
-    "1641950732cff92509",
     "16417795474723f926",
+    "1641950732cff92509",
     "1634272844a70d2ca1",
     "1632107311c762a72c",
     "1646372868498ffa6c",
