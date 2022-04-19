@@ -45,45 +45,6 @@
         "website_us": true
       }
     },
-    "16503300434472e6de": {
-      "type": "image-with-text",
-      "blocks": {
-        "1650330043fb9fe3a8-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Add Switch buttons to scenes and schedule your non-smart lights."
-          }
-        },
-        "1650330043fb9fe3a8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Your regular old dumb lights are now even smarter. Rather than selecting a whole switch, you can now choose individual buttons when setting up. If you have some fancy neons or pendants attached to a specific button, you can have those turn off in the evening when your smart lights dim.<\/p>"
-          }
-        },
-        "1650330043fb9fe3a8-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1650330043fb9fe3a8-0",
-        "1650330043fb9fe3a8-1",
-        "1650330043fb9fe3a8-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_WhatsNew_Switch_4.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "1650330063a1bf5964": {
       "type": "image-with-text",
       "blocks": {
@@ -157,14 +118,59 @@
         "1650332139b28662a0-2"
       ],
       "settings": {
-        "title": "Works with Apple HomeKit.",
+        "title": "What can you do with HomeKit?",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Learn more about HomeKit",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
+      }
+    },
+    "16503345201288f4f0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"multicolumn background-primary\">\n<div class=\"page-width\">\n<div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile\">\n<h2 class=\"title\" data-live-text-\">Get creative and customize your Switch <\/h2><\/div>\n<\/div><\/div>"
+      }
+    },
+    "16503300434472e6de": {
+      "type": "image-with-text",
+      "blocks": {
+        "1650330043fb9fe3a8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Add switch buttons to scenes and schedule your non-smart lights."
+          }
+        },
+        "1650330043fb9fe3a8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your regular old dumb lights are now even smarter. Rather than selecting a whole switch, you can now choose individual buttons when setting up. If you have some fancy neons or pendants attached to a specific button, you can have those turn off in the evening when your smart lights dim.<\/p>"
+          }
+        },
+        "1650330043fb9fe3a8-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1650330043fb9fe3a8-0",
+        "1650330043fb9fe3a8-1",
+        "1650330043fb9fe3a8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_WhatsNew_Switch_4.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1650330135ba49cbf0": {
@@ -173,7 +179,7 @@
         "165033013520bec2d7-0": {
           "type": "heading",
           "settings": {
-            "heading": "Customise the backlight brightness and haptic feedback."
+            "heading": "Customize the backlight brightness and haptic feedback."
           }
         },
         "165033013520bec2d7-1": {
@@ -200,7 +206,7 @@
         "image": "shopify:\/\/shop_images\/LIFX_WhatsNew_Switch_2.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first",
+        "layout": "text_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -212,7 +218,7 @@
         "16503320931fe8c65d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Set you own unique backlight colours"
+            "heading": "Set you own unique backlight colors."
           }
         },
         "16503320931fe8c65d-1": {
@@ -239,7 +245,7 @@
         "image": "shopify:\/\/shop_images\/LIFX_WhatsNew_Switch_3.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first",
+        "layout": "image_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -250,9 +256,10 @@
     "main",
     "1650330770d596483f",
     "16503300061b1b625c",
-    "16503300434472e6de",
     "1650330063a1bf5964",
     "1650332139cdd297cd",
+    "16503345201288f4f0",
+    "16503300434472e6de",
     "1650330135ba49cbf0",
     "165033209332d4bf99"
   ]
