@@ -192,13 +192,13 @@
         "163520046949622558-0": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.metafields.my_fields.headline2.value }}"
+            "heading": "Don’t sacrifice beauty for brains"
           }
         },
         "163520046949622558-1": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph2 | metafield_tag }}<\/p>"
+            "text": "<p>With LIFX Smart Switch, you can have it all – beauty and brains. Keep your home looking and feeling elevated with advanced smart tech capabilities as well as quality aesthetic and design. Available in white or black finishes.<\/p>"
           }
         }
       },
@@ -207,7 +207,7 @@
         "163520046949622558-1"
       ],
       "settings": {
-        "image": "{{ product.metafields.my_fields.image2.value }}",
+        "image": "shopify:\/\/shop_images\/LIFX_WhatsNew_Switch_4.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
