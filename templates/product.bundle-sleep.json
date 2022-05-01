@@ -36,8 +36,14 @@
             "text_style": "subtitle"
           }
         },
+        "eb58cf06-12c0-46aa-8606-f94463c705e3": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Color 800lm E26<br>1 x LIFX Lightstrip 40”",
             "text_style": "body"
@@ -74,6 +80,7 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
+        "eb58cf06-12c0-46aa-8606-f94463c705e3",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
         "855ad892-8e71-400d-9280-f8bc7696049f",
