@@ -32,7 +32,7 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "$139.97 $109.99 Save $29.98",
+            "text": "<s class=\"price-item price-item--regular\">$139.97<\/s> <span class=\"price-item price-item--sale\">$109.99<\/span><br><strong><span style=\"color:red\">Save $29.98<\/span><\/strong>",
             "text_style": "subtitle"
           }
         },
