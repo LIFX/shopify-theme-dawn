@@ -32,14 +32,14 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
           "settings": {
-            "text": "<s class=\"price-item price-item--regular\">$219.95<\/s> <span class=\"price-item price-item--sale\">$153.95<\/span><br><strong><span style=\"color:red\">Save $66.00<\/span><\/strong>",
+            "text": "$139.97 $109.99 Save $29.98",
             "text_style": "subtitle"
           }
         },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "settings": {
-            "text": "<strong>Bundle Includes:<\/strong><br>4 x LIFX Color 800lm E26<br>3 x Flic Buttons<br>",
+            "text": "Bundle Includes:2 x LIFX Color 800lm E2, 1 x LIFX Lightstrip 40\" Kit",
             "text_style": "body"
           }
         },
@@ -92,7 +92,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/00_1PACK_LIFX_Color_Image_Hero_US.jpg",
-            "title": "4 x LIFX Color 800lm E26",
+            "title": "2 x LIFX Color 800lm E26",
             "text": "<p>A compact smart light that features a massive range of colors and shades of whites. With one simple schedule, LIFX Color can transition from bright whites in the mornings to dim ambers in the evening, which will maintain your circadian rhythm for a healthier sleep-wake cycle. At night, avoid all blue light by setting your lights to red. <\/p>"
           }
         },
