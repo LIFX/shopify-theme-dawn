@@ -18,8 +18,13 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.my_fields.lumens.value }} {{ product.metafields.my_fields.subtitle_lumens.value }}",
+            "text": "",
             "text_style": "uppercase"
+          }
+        },
+        "ef6d3984-5032-4c7c-acf4-b2d20b27db2a": {
+          "type": "price",
+          "settings": {
           }
         },
         "subtitle": {
@@ -31,6 +36,7 @@
         },
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<s class=\"price-item price-item--regular\">$139.97<\/s> <span class=\"price-item price-item--sale\">$109.99<\/span><br><strong><span style=\"color:red\">Save $29.98<\/span><\/strong>",
             "text_style": "subtitle"
@@ -78,6 +84,7 @@
         "vendor",
         "title",
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
+        "ef6d3984-5032-4c7c-acf4-b2d20b27db2a",
         "subtitle",
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
         "eb58cf06-12c0-46aa-8606-f94463c705e3",
