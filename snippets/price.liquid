@@ -48,7 +48,7 @@
       </dt>
       <dd {% if show_badges == false %}class="price__last"{% endif %}>
         <span class="price-item price-item--regular">
-         {% if product.tags contains "BFCM" %}
+         {% if product.tags contains "BFCM" or product.tags contains "amazon" %}
 
         {% for variant in product.variants limit:1 %}
           <span style="text-decoration:line-through;text-decoration: line-through; color: rgba(var(--color-foreground),.75);font-size: 1.3rem;">{{ variant.compare_at_price | money }}</span> {{ variant.price | money }}
