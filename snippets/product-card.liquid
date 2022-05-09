@@ -89,6 +89,8 @@
              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Bundle</span>
          {%- elsif product_card_product.tags contains "amazon" -%}
              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Amazon Exclusive</span>
+         {%- elsif product_card_product.tags contains "bestbuy" -%}
+             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Best Buy Exclusive</span>
          {%- elsif product_card_product.tags contains "B2S50" -%}
              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Buy 2+ Save 50%</span>
          {%- elsif product_card_product.tags contains "B2S30" -%}
