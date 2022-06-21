@@ -1,5 +1,36 @@
 {
   "sections": {
+    "16360812376e144b22": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/lifx_low.mp4?v=1620198850",
+        "description": "Just another smart light?",
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1641950732cff92509": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Most Popular",
+        "collection": "homepage",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
+      }
+    },
     "1650336354e8efe75b": {
       "type": "image-with-text",
       "blocks": {
@@ -38,18 +69,6 @@
         "website_us": true
       }
     },
-    "16360812376e144b22": {
-      "type": "video2",
-      "settings": {
-        "heading": "",
-        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/lifx_low.mp4?v=1620198850",
-        "description": "Just another smart light?",
-        "full_width": true,
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "16417795474723f926": {
       "type": "featured-collection",
       "settings": {
@@ -67,25 +86,6 @@
         "website_au": false,
         "website_ukeu": true,
         "website_us": true
-      }
-    },
-    "1641950732cff92509": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Downlight Sale",
-        "collection": "downlights",
-        "products_to_show": 12,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": false
       }
     },
     "1634272844a70d2ca1": {
@@ -700,10 +700,10 @@
     }
   },
   "order": [
-    "1650336354e8efe75b",
     "16360812376e144b22",
-    "16417795474723f926",
     "1641950732cff92509",
+    "1650336354e8efe75b",
+    "16417795474723f926",
     "1634272844a70d2ca1",
     "1632107311c762a72c",
     "1646372868498ffa6c",
