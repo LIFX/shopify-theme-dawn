@@ -36,6 +36,7 @@
         },
         "64978e5e-7f3d-45b3-8c87-2fbe19f9860f": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}\n<div\n    data-pp-message\n    data-pp-style-layout=\"text\"\n    data-pp-style-logo-type=\"inline\"\n    data-pp-style-text-color=\"black\"\n    data-pp-amount=\"{{ product.price}}\">\n<\/div>{% endif %}"
           }
