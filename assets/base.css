@@ -2273,3 +2273,6 @@ details-disclosure > details {
 .afterpay-text2 {
  font-size: small;
 }
+.afterpay-paragraph {
+ line-height:initial;
+}
