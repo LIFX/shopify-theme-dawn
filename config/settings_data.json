@@ -16,6 +16,7 @@
     "predictive_search_enabled": false,
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/LIFX_Favicon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/lifx_logo_black.webp",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -43,7 +44,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/lifx_logo.png",
+          "logo": "shopify:\/\/shop_images\/LIFX_logo.png",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
