@@ -34,12 +34,6 @@
           "settings": {
           }
         },
-        "2c3d7ea5-e0ca-428a-8aab-427a08028f29": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<script\n    src=\"https:\/\/www.paypal.com\/sdk\/js?client-id=https:\/\/www.paypal.com\/sdk\/js?client-id=Ad5-aOpbCLCAHUJh-5bprnbRVglJVqWBQoDoyHw42WFHxze2k9i0WDY-B_d8T_3v-Ii7Gf7xpj6DxE39&currency=USD&components=messages\">\n  <\/script>\n\n\n<script>\n    \/\/ Collect all listings inside an array\n    const listings = Array.from(document.querySelectorAll('.listing'));\n\n    \/\/ Set the amount for each Pay later message\n    listings.forEach(listing => {\n      const price = Number(listing.querySelector('.listing__price').textContent.slice(1));\n      const wrapper = listing.querySelector('.pp-message');\n      wrapper.setAttribute('data-pp-amount', price);\n    });\n\n    \/\/ Render each Pay later message\n    paypal\n      .Messages({\n        style: {\n          layout: 'text',\n          logo: {\n            type: 'primary',\n            position: 'top'\n          }\n        }\n      })\n      .render('.pp-message');\n  <\/script>\n\n\n  <div class=\"pp-message\">\n        <!-- Pay later message will be inserted here -->\n      <\/div>"
-          }
-        },
         "31c1d1b5-b3a4-4f4c-8bbb-41d6f2175ef5": {
           "type": "popup",
           "disabled": true,
@@ -140,7 +134,6 @@
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "price",
-        "2c3d7ea5-e0ca-428a-8aab-427a08028f29",
         "31c1d1b5-b3a4-4f4c-8bbb-41d6f2175ef5",
         "variant_picker",
         "quantity_selector",
