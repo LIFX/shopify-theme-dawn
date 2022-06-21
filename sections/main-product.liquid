@@ -90,6 +90,18 @@
             <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
             </div>
+
+        {% if request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
+<div
+    data-pp-message
+    data-pp-style-layout="text"
+    data-pp-style-logo-type="inline"
+    data-pp-style-text-color="black"
+    data-pp-amount="{{ product.price}}">
+</div>
+
+{% endif %}
+
             <!--<div {{ block.shopify_attributes }}>
               {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large' -%}
                 <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
