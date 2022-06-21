@@ -199,7 +199,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </body>
 </html>
 
-{% if block.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
+{% if request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
 
 <!-- Begin Shopify-Afterpay JavaScript Snippet (v1.0.12) -->
 <script type="text/javascript">
