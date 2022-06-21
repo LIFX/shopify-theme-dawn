@@ -1,4 +1,6 @@
-{% if product.available == "false" %}
+{% if product.available %}
+
+{% else %}
 
 {{ 'affiliates.css' | asset_url | stylesheet_tag }}
 {% if product.metafields.my_fields.amazon_affiliate or product.metafields.my_fields.de_amazon_affiliate or product.metafields.my_fields.fr_amazon_affiliate or product.metafields.my_fields.us_amazon_affiliate or product.metafields.my_fields.us_bestbuy_affiliate or product.metafields.my_fields.au_amazon_affiliate or product.metafields.my_fields.au_jbhifi_affiliate %}
