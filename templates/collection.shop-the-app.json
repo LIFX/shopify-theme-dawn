@@ -40,9 +40,8 @@
     },
     "16373095444a38a2cb": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/BlackFridayBanner-05.jpg",
+        "image": "shopify:\/\/shop_images\/LIFX_EDM_EOFY_AU.jpg",
         "adapt_height_first_image": true,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
@@ -55,15 +54,16 @@
         "show_text_below": true,
         "crop_image_alignment": "center",
         "website_au": true,
-        "website_ukeu": true,
+        "website_ukeu": false,
         "website_us": false
       }
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": true
+        "show_collection_image": false
       }
     },
     "product-grid": {
