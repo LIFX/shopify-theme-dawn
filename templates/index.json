@@ -697,6 +697,12 @@
         "color_scheme": "inverse",
         "full_width": true
       }
+    },
+    "social_widget_43671": {
+      "type": "social-widget",
+      "settings": {
+        "social_widget_id": "43671"
+      }
     }
   },
   "order": [
@@ -718,6 +724,7 @@
     "16364397572cc0a070",
     "16321870964a1d4c89",
     "16371499188aae96be",
-    "163210701498163fc8"
+    "163210701498163fc8",
+    "social_widget_43671"
   ]
 }
