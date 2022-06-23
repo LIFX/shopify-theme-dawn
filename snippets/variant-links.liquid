@@ -109,7 +109,7 @@ opacity: .5;
 
 {% elsif product.metafields.my_fields.product_family == "Lightstrip" %}
 
-{% for product in collections.lightstrips.products %}
+{% for product in collections.lightstrip-variants.products %}
   {% if activeHandle != product.handle %}
       {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
   {% endif %}
