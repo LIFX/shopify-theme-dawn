@@ -1,42 +1,73 @@
 {
   "sections": {
-    "16559635514501ea5a": {
-      "type": "image-with-text",
-      "disabled": true,
+    "1655963559536eba1e": {
+      "type": "image-banner",
       "blocks": {
-        "16559635519c8786a1-0": {
+        "1655963559b9929ad1-0": {
           "type": "heading",
           "settings": {
-            "heading": "RGB with EOFY"
+            "heading": "RGB-EOFY",
+            "heading_size": "medium"
           }
         },
-        "16559635519c8786a1-1": {
+        "1655963559b9929ad1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Time to befriend your accountant again and find out how you can best claim back any tax whilst you fit out your business or home office with epic lighting.<\/p>"
+            "text": "Take your video calls up a notch and do a favour for your eyes with a new office lighting fit-out (deductions may apply!)"
           }
         },
-        "16559635519c8786a1-2": {
-          "type": "button",
+        "1655963559b9929ad1-2": {
+          "type": "buttons",
           "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/sale"
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify:\/\/collections\/sale",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "16559635519c8786a1-0",
-        "16559635519c8786a1-1",
-        "16559635519c8786a1-2"
+        "1655963559b9929ad1-0",
+        "1655963559b9929ad1-1",
+        "1655963559b9929ad1-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_EDM_EOFY_AU.jpg",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/LIFX-Homepage__AUS-EOFY.jpg",
+        "adapt_height_first_image": false,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "right",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
         "color_scheme": "background-1",
-        "layout": "image_first",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
+        "website_ukeu": false,
+        "website_us": false
+      }
+    },
+    "165596834877eeaf56": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "sale",
+        "products_to_show": 12,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
       }
     },
     "16360812376e144b22": {
@@ -739,7 +770,8 @@
     }
   },
   "order": [
-    "16559635514501ea5a",
+    "1655963559536eba1e",
+    "165596834877eeaf56",
     "16360812376e144b22",
     "1641950732cff92509",
     "16417795474723f926",
