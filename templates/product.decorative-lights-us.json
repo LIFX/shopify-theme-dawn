@@ -333,6 +333,12 @@
         "swipe_on_mobile": false
       }
     },
+    "165628902910c02cb4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div \n    class=\"social-widget-wrapper\" data-widget-id=\"43838\">\n    <\/div>"
+      }
+    },
     "1635139699342ea047": {
       "type": "multicolumn",
       "blocks": {
@@ -487,6 +493,7 @@
     "1636000353893885f5",
     "1636083188021f8436",
     "16360008950381c4a6",
+    "165628902910c02cb4",
     "1635139699342ea047",
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
