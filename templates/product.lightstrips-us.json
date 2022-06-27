@@ -342,6 +342,12 @@
         "website_us": true
       }
     },
+    "1656294633661b59b9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<h1>Inspiration Gallery<\/h1><div \n    class=\"social-widget-wrapper\" data-widget-id=\"43841\">\n    <\/div>\n<\/div>"
+      }
+    },
     "16360008950381c4a6": {
       "type": "multicolumn",
       "blocks": {
@@ -537,6 +543,7 @@
     "163591479253a6c41d",
     "1636000353893885f5",
     "1636083188021f8436",
+    "1656294633661b59b9",
     "16360008950381c4a6",
     "1635139699342ea047",
     "16466137573d138b1e",
