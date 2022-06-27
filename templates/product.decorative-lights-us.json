@@ -336,7 +336,7 @@
     "165628902910c02cb4": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"grid__item\"><div \n    class=\"social-widget-wrapper\" data-widget-id=\"43838\">\n    <\/div><\/div>"
+        "custom_liquid": "<div class=\"page-width\"><div \n    class=\"social-widget-wrapper\" data-widget-id=\"43838\">\n    <\/div><\/div>"
       }
     },
     "1635139699342ea047": {
