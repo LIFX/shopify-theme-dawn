@@ -2,6 +2,7 @@
   "sections": {
     "1655963559536eba1e": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "1655963559b9929ad1-0": {
           "type": "heading",
@@ -53,6 +54,7 @@
     },
     "165596834877eeaf56": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "collection": "sale",
