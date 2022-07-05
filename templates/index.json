@@ -35,7 +35,6 @@
         "1655963559b9929ad1-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX-Homepage__AUS-EOFY.jpg",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -69,7 +68,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": false
+        "website_us": false,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "16360812376e144b22": {
@@ -100,14 +103,18 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": false
+        "website_us": false,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "16417795474723f926": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "collection": "homepage",
+        "title": "20% off Sale (Ends July 10th)",
+        "collection": "sale",
         "products_to_show": 4,
         "show_view_all": false,
         "swipe_on_mobile": false,
@@ -118,8 +125,12 @@
         "show_vendor": false,
         "show_rating": false,
         "website_au": false,
-        "website_ukeu": true,
-        "website_us": true
+        "website_ukeu": false,
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "1634272844a70d2ca1": {
@@ -228,7 +239,11 @@
         "show_rating": false,
         "website_au": false,
         "website_ukeu": false,
-        "website_us": false
+        "website_us": false,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "1646372868498ffa6c": {
@@ -338,7 +353,11 @@
         "show_rating": false,
         "website_au": false,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "1639114873808e553c": {
