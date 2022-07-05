@@ -13,26 +13,13 @@
         "164127504662ff1cdb-1": {
           "type": "text",
           "settings": {
-            "text": "Save 20% off the entire LIFX range."
-          }
-        },
-        "164127504662ff1cdb-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "Save 20% off the all latest generation LIFX products. (Sale ends July 10th)"
           }
         }
       },
       "block_order": [
         "164127504662ff1cdb-0",
-        "164127504662ff1cdb-1",
-        "164127504662ff1cdb-2"
+        "164127504662ff1cdb-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX_Homepage_BLACKFRIDAYSALE_Module-05.png",
