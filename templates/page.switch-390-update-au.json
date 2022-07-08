@@ -28,7 +28,7 @@
         "165033077005f39064-1"
       ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "background-2",
         "full_width": true
       }
     },
@@ -75,7 +75,7 @@
         "16503300637a01dd65-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_WhatsNew_Switch_1.jpg",
+        "image": "shopify:\/\/shop_images\/LIFX_Switch_ButtonColor_Image01_Half_Page.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
