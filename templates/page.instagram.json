@@ -4,9 +4,16 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "16575201903ceb7d02": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div \n    class=\"social-widget-wrapper\" data-widget-id=\"44415\">\n    <\/div>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16575201903ceb7d02"
   ]
 }
