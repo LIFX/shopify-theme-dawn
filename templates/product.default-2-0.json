@@ -386,6 +386,12 @@
         "swipe_on_mobile": false
       }
     },
+    "1657609100de548b3b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<h1>Inspiration Gallery<\/h1>\n<p>Add <a href=\"https:\/\/www.instagram.com\/explore\/tags\/lifx\/\">#lifx<\/a> to your photos on Instagram<\/p><div \n    class=\"social-widget-wrapper\" data-widget-id=\"43841\">\n    <\/div>\n\n<a href=\"https:\/\/www.instagram.com\/lifx\/\" target=\"_blank\" class=\"button\" style=\"margin-top:10px\">FOLLOW US @LIFX<\/a>\n<\/div>"
+      }
+    },
     "1635139699342ea047": {
       "type": "multicolumn",
       "blocks": {
@@ -540,6 +546,7 @@
     "1636000353893885f5",
     "1636083188021f8436",
     "16360008950381c4a6",
+    "1657609100de548b3b",
     "1635139699342ea047",
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
