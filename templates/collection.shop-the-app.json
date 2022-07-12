@@ -55,7 +55,7 @@
         "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": false,
-        "website_us": false
+        "website_us": true
       }
     },
     "banner": {
