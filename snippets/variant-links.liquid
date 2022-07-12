@@ -66,16 +66,14 @@ opacity: .5;
   {% endif %}
 {% endfor %}
 
-{% elsif product.metafields.my_fields.product_family == "Colour A60" or product.metafields.my_fields.product_family == "Nightvision AU" %}
+{% elsif product.metafields.my_fields.product_family == "Colour A60"%}
 
   {% for product in collections.all.products %}
       {% if activeHandle != product.handle %}
           {% for tag in product.tags %}
               	{% if tag contains 'colour_a60' %} 
                   	{% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
-                {% elsif tag contains 'nightvision_a60' %}
-                  	{% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
-				{% endif %}
+               	{% endif %}
           {% endfor %}
       {% endif %}
   {% endfor %}
