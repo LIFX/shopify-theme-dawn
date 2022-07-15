@@ -82,7 +82,7 @@
         "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/lifx_low.mp4?v=1620198850",
         "description": "Just another smart light?",
         "full_width": true,
-        "website_au": false,
+        "website_au": true,
         "website_ukeu": true,
         "website_us": true
       }
@@ -125,7 +125,7 @@
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false,
-        "website_au": false,
+        "website_au": true,
         "website_ukeu": false,
         "website_us": true,
         "button_style_secondary_1": false,
