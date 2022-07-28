@@ -303,6 +303,10 @@
           {%- when 'buy_buttons' -%}
 
                {% if product.tags contains "feit" %}
+
+                 <p class="product__text caption-with-letter-spacing" style="padding-bottom:10px;padding-top:15px">WHERE TO BUY:</p>
+{% if product.metafields.my_fields.us_amazon_affiliate %}<a href="{{ product.metafields.my_fields.us_amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank"><span class="button" aria-hidden="true" style="margin:0px;width:100%">Amazon</span></a>{% endif %}
+{% if product.metafields.my_fields.us_bestbuy_affiliate %}<a href="{{ product.metafields.my_fields.us_bestbuy_affiliate }}" class="mobile_external affiliateLink" target="_blank"><span class="button" aria-hidden="true" style="margin-top:10px;width:100%;">Best Buy</span></a>{% endif %}
 {% else %}
 
             <div {{ block.shopify_attributes }}>
