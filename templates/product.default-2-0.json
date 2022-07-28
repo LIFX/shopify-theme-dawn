@@ -75,8 +75,9 @@
         },
         "6ff3d714-2463-4ba6-b88c-0da62d9f2f15": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
-            "custom_liquid": "{% if product.available == false and request.host == 'lifx.myshopify.com' or  request.host == 'www.lifx.com'  %}\n<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px\">WHERE TO BUY:<\/p>\n{% if product.metafields.my_fields.us_amazon_affiliate %}<a href=\"{{ product.metafields.my_fields.us_amazon_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin:0px;width:100%\">{% if product.handle == \"lifx-color-br30\" %}$34.99 at {% endif %}Amazon<\/span><\/a>{% endif %}\n{% if product.metafields.my_fields.us_bestbuy_affiliate %}<a href=\"{{ product.metafields.my_fields.us_bestbuy_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-top:10px;width:100%;background-color:blue\">{% if product.handle == \"lifx-color-br30\" %}$34.99 at {% endif %}Best Buy<\/span><\/a>{% endif %}\n{% endif %}"
+            "custom_liquid": "{% if product.available == false and request.host == 'lifx.myshopify.com' or  request.host == 'www.lifx.com'  %}\n<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n{% if product.metafields.my_fields.us_amazon_affiliate %}<a href=\"{{ product.metafields.my_fields.us_amazon_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin:0px;width:100%\">Amazon<\/span><\/a>{% endif %}\n{% if product.metafields.my_fields.us_bestbuy_affiliate %}<a href=\"{{ product.metafields.my_fields.us_bestbuy_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-top:10px;width:100%;\">Best Buy<\/span><\/a>{% endif %}\n{% endif %}"
           }
         },
         "cc97d592-9b20-4527-a8a5-12629e27c6cc": {
