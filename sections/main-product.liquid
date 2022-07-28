@@ -144,9 +144,12 @@
 
 {% endif %}
 
+
+            
           {%- when 'quantity_selector' -%}
         
-   
+   {% if product.tags contains "feit" %}
+{% else %}
         
             <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
               <label class="form__label" for="Quantity-{{ section.id }}">
@@ -172,7 +175,7 @@
                 </button>
               </quantity-input>
             </div>
-     
+     {% endif %}
      
           {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
