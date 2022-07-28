@@ -301,7 +301,9 @@
               </div>
             </noscript>
           {%- when 'buy_buttons' -%}
- 
+
+               {% if product.tags contains "feit" %}
+{% else %}
 
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
@@ -362,7 +364,7 @@
 
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
               
-  
+  {% endif %}
               
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
