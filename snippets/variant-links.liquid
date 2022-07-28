@@ -30,7 +30,7 @@ opacity: .5;
 
 {% for product in collections.colour.products %}
   {% if activeHandle != product.handle %}
-      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
@@ -38,7 +38,7 @@ opacity: .5;
 
 {% for product in collections.color.products %}
   {% if activeHandle != product.handle %}
-      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
@@ -46,7 +46,7 @@ opacity: .5;
 
 {% for product in collections.white-to-warm.products %}
   {% if activeHandle != product.handle %}
-      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
@@ -54,7 +54,7 @@ opacity: .5;
 
 {% for product in collections.white.products %}
   {% if activeHandle != product.handle %}
-      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
@@ -62,7 +62,7 @@ opacity: .5;
 
 {% for product in collections.candles.products %}
   {% if activeHandle != product.handle %}
-      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
@@ -70,7 +70,7 @@ opacity: .5;
 
   {% for product in collections.colour-a60.products %}
       {% if activeHandle != product.handle %}
-                  	{% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
       {% endif %}
   {% endfor %}
 
@@ -78,7 +78,7 @@ opacity: .5;
 
   {% for product in collections.nightvision.products %}
       {% if activeHandle != product.handle %}     
-			{% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
       {% endif %}
   {% endfor %}
 
@@ -90,7 +90,7 @@ opacity: .5;
 
 {% for product in collections.color-a19.products %}
   {% if activeHandle != product.handle %}
-      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
@@ -98,7 +98,7 @@ opacity: .5;
 
 {% for product in collections.nightvision.products %}
   {% if activeHandle != product.handle %}
-      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
@@ -106,7 +106,7 @@ opacity: .5;
 
 {% for product in collections.downlights.products %}
   {% if activeHandle != product.handle %}
-      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
@@ -114,7 +114,7 @@ opacity: .5;
 
 {% for product in collections.clean.products %}
   {% if activeHandle != product.handle %}
-      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
@@ -123,7 +123,7 @@ opacity: .5;
 
 {% for product in collections.lightstrip-variants.products %}
   {% if activeHandle != product.handle %}
-      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" alt="Out Of Stock">{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
@@ -131,7 +131,7 @@ opacity: .5;
 
 {% for product in collections.switches.products %}
   {% if activeHandle != product.handle %}
-      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
@@ -139,7 +139,7 @@ opacity: .5;
 
 {% for product in collections.mini.products %}
   {% if activeHandle != product.handle %}
-      {% if product.available %}<a href="{{ product.url }}">{% endif %}{% for variant in product.variants %}<p class="productFamily {% if variant.available == false %}variantSoldOut{% endif %}" >{{ variant.option1 }}</p>{% endfor %}{% if product.available %}</a>{% endif %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
 
