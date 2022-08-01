@@ -60,6 +60,7 @@
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}"
           }
