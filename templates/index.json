@@ -68,7 +68,23 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": false
+        "website_us": false,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
+      }
+    },
+    "165942093296a32cfe": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b073a2860cc4485d836f6fce70808e05.mp4",
+        "description": "",
+        "full_width": true,
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
       }
     },
     "16360812376e144b22": {
@@ -80,7 +96,7 @@
         "full_width": true,
         "website_au": true,
         "website_ukeu": true,
-        "website_us": true
+        "website_us": false
       }
     },
     "1641950732cff92509": {
@@ -100,7 +116,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": false
+        "website_us": false,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "16417795474723f926": {
@@ -119,7 +139,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "1634272844a70d2ca1": {
@@ -228,7 +252,11 @@
         "show_rating": false,
         "website_au": false,
         "website_ukeu": false,
-        "website_us": false
+        "website_us": false,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "1646372868498ffa6c": {
@@ -338,7 +366,11 @@
         "show_rating": false,
         "website_au": false,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "1639114873808e553c": {
@@ -774,6 +806,7 @@
   "order": [
     "1655963559536eba1e",
     "165596834877eeaf56",
+    "165942093296a32cfe",
     "16360812376e144b22",
     "1641950732cff92509",
     "16417795474723f926",
