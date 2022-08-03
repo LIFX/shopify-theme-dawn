@@ -801,6 +801,52 @@
         "color_scheme": "inverse",
         "full_width": true
       }
+    },
+    "1659523741fd7a454b": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1659523741e3857d06-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We’re joining the family at Feit Electric."
+          }
+        },
+        "1659523741e3857d06-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve found a new home to light up! Read what’s next for the LIFX brand.<\/p><p><\/p>"
+          }
+        },
+        "1659523741e3857d06-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Tell me more",
+            "button_link": "shopify:\/\/blogs\/the-latest"
+          }
+        },
+        "3baa3c5e-dcc7-46bf-8514-c7688071a199": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1659523741e3857d06-0",
+        "1659523741e3857d06-1",
+        "1659523741e3857d06-2",
+        "3baa3c5e-dcc7-46bf-8514-c7688071a199"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX-Homepage_ArticleFeature_image.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
+      }
     }
   },
   "order": [
@@ -825,6 +871,7 @@
     "16364397572cc0a070",
     "16321870964a1d4c89",
     "16371499188aae96be",
-    "163210701498163fc8"
+    "163210701498163fc8",
+    "1659523741fd7a454b"
   ]
 }
