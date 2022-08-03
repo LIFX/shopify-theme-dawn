@@ -1201,9 +1201,6 @@
         },
         "description": {
           "name": "Description"
-        },
-        "image_loho": {
-          "label": "Brand logo"
         }
       },
       "presets": {
