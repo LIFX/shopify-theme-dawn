@@ -1201,6 +1201,9 @@
         },
         "description": {
           "name": "Description"
+        },
+        "image_logo": {
+          "label": "Image"
         }
       },
       "presets": {
