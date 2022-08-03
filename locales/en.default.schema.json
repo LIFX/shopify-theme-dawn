@@ -1202,8 +1202,8 @@
         "description": {
           "name": "Description"
         },
-        "image_logo": {
-          "label": "Image"
+        "image_loho": {
+          "label": "Brand logo"
         }
       },
       "presets": {
