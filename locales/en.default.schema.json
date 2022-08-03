@@ -1201,6 +1201,9 @@
         },
         "description": {
           "name": "Description"
+        },
+        "workswith": {
+          "label": "Works with logo"
         }
       },
       "presets": {
