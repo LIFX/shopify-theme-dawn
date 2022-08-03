@@ -40,7 +40,7 @@
             {%- when 'heading' -%}
 
         {%- if block.settings.workswith != blank -%}
-                <img src="{{ block.settings.workswith }}"
+                <img src="{{ block.settings.workswith | img_url }}"
                       alt="{{ block.settings.workswith.alt }}"
                       height="20px" loading="lazy" >
                 {%- endif -%}
