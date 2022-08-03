@@ -809,7 +809,8 @@
         "1659523741e3857d06-0": {
           "type": "heading",
           "settings": {
-            "heading": "We’re joining the family at Feit Electric."
+            "heading": "We’re joining the family at Feit Electric.",
+            "workswith": "shopify:\/\/shop_images\/FeitElectric_Logo_LIFXSite.png"
           }
         },
         "1659523741e3857d06-1": {
@@ -824,19 +825,12 @@
             "button_label": "Tell me more",
             "button_link": "shopify:\/\/blogs\/the-latest"
           }
-        },
-        "3baa3c5e-dcc7-46bf-8514-c7688071a199": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
         }
       },
       "block_order": [
         "1659523741e3857d06-0",
         "1659523741e3857d06-1",
-        "1659523741e3857d06-2",
-        "3baa3c5e-dcc7-46bf-8514-c7688071a199"
+        "1659523741e3857d06-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX-Homepage_ArticleFeature_image.jpg",
