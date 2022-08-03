@@ -36,9 +36,7 @@
         {%- for block in section.blocks -%}
           {% case block.type %}
                 {%- if block.settings.workswith != blank -%}
-                <img src="{{ block.settings.workswith }}"
-                      alt="{{ block.settings.workswith.alt }}"
-                      height="40px" loading="lazy" >
+                <img src="{{ block.settings.workswith | img_url: '550x' }}">
                 {%- endif -%}
         
             {%- when 'heading' -%}
