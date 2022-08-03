@@ -123,6 +123,45 @@
         "button_style_secondary_2": false
       }
     },
+    "1659523741fd7a454b": {
+      "type": "image-with-text",
+      "blocks": {
+        "1659523741e3857d06-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We’re joining the family at Feit Electric.",
+            "workswith": "shopify:\/\/shop_images\/FeitElectric_Logo_LIFXSite.png"
+          }
+        },
+        "1659523741e3857d06-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve found a new home to light up! Read what’s next for the LIFX brand.<\/p><p><\/p>"
+          }
+        },
+        "1659523741e3857d06-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Tell me more",
+            "button_link": "shopify:\/\/blogs\/learn\/we-re-joining-the-family-at-feit-electric"
+          }
+        }
+      },
+      "block_order": [
+        "1659523741e3857d06-0",
+        "1659523741e3857d06-1",
+        "1659523741e3857d06-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX-Homepage_ArticleFeature_image.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
     "16417795474723f926": {
       "type": "featured-collection",
       "settings": {
@@ -801,46 +840,6 @@
         "color_scheme": "inverse",
         "full_width": true
       }
-    },
-    "1659523741fd7a454b": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1659523741e3857d06-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "We’re joining the family at Feit Electric.",
-            "workswith": "shopify:\/\/shop_images\/FeitElectric_Logo_LIFXSite.png"
-          }
-        },
-        "1659523741e3857d06-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We’ve found a new home to light up! Read what’s next for the LIFX brand.<\/p><p><\/p>"
-          }
-        },
-        "1659523741e3857d06-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Tell me more",
-            "button_link": "shopify:\/\/blogs\/the-latest"
-          }
-        }
-      },
-      "block_order": [
-        "1659523741e3857d06-0",
-        "1659523741e3857d06-1",
-        "1659523741e3857d06-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX-Homepage_ArticleFeature_image.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": true
-      }
     }
   },
   "order": [
@@ -849,6 +848,7 @@
     "165942093296a32cfe",
     "16360812376e144b22",
     "1641950732cff92509",
+    "1659523741fd7a454b",
     "16417795474723f926",
     "1634272844a70d2ca1",
     "1650336354e8efe75b",
@@ -865,7 +865,6 @@
     "16364397572cc0a070",
     "16321870964a1d4c89",
     "16371499188aae96be",
-    "163210701498163fc8",
-    "1659523741fd7a454b"
+    "163210701498163fc8"
   ]
 }
