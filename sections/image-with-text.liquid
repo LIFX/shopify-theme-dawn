@@ -35,11 +35,15 @@
       <div class="image-with-text__content image-with-text__content--{{ section.settings.height }}">
         {%- for block in section.blocks -%}
           {% case block.type %}
-                {%- if block.settings.workswith != blank -%}
-                <img src="{{ block.settings.workswith | img_url: '550x' }}">
-                {%- endif -%}
+                
         
             {%- when 'heading' -%}
+
+        {%- if block.settings.workswith != blank -%}
+                <img src="{{ block.settings.workswith }}"
+                      alt="{{ block.settings.workswith.alt }}"
+                      height="20px" loading="lazy" >
+                {%- endif -%}
               <h2 class="image-with-text__heading h1" {{ block.shopify_attributes }}>
                 {{ block.settings.heading | escape }}
               </h2>
