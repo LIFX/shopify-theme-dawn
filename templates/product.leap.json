@@ -54,17 +54,20 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false
           }
         },
         "f088ef00-8cd9-4b87-b07f-b5ef4f6a6726": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128309;\n&nbsp;&nbsp;Batch 2 Pre-sale: Delivery October 2022<\/span>\n\n\n<span class=\"form__label\">\n\n<table style=\"width:100%\">\n\n  <tr>\n    <td colspan=\"2\" style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\n\"><h4 style=\"margin:0px;margin-bottom:4px\">Buy more and save<\/h4><span class=\"form__label\">Batch 2 Pre-sale discounts:<\/span><\/td>\n  <\/tr>\n\n  <tr>\n    <td style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\nbackground:#eee\">5-9 packs: $62.99<br><i>$31.49 per light<\/i><\/td><td style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\nbackground:#eee\">Save 10%<br>&nbsp;<\/td>\n  <\/tr>\n  <tr>\n    <td style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\n\">10+ packs: $55.99<br><i>$27.49 per light<\/i><\/td><td style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\n\">Save 20%<br>&nbsp;<\/td>\n  <\/tr>\n \n<tr>\n    <td colspan=\"2\" style=\"\n    padding-top: 10px;\n    padding-bottom: 10px;\n\">Looking to order in bulk? <a href=\"https:\/\/lifx.myshopify.com\/pages\/bulk-order-enquiry\">Enquire today<\/a><\/td>\n  <\/tr>\n<\/table>\n\n\n\n\n<\/span>"
           }
@@ -72,7 +75,7 @@
         "0366cbcc-6cb4-45c8-af8e-e2b33417e6cf": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span class=\"form__label\"><h4 style=\"margin-bottom:5px\">Pre-sale Delivery Window:<\/h4>Please note that these are batch 2 pre-sale units and have a delivery window of October 2022. To secure these units at the discounted rates, upfront payment is required.<\/span>"
+            "custom_liquid": "<span class=\"form__label\"><h4 style=\"margin-bottom:5px\">Coming Soon\n:<\/h4>With the recent acquisition of LIFX assets by Feit Electric<a href=\"https:\/\/www.lifx.com\/blogs\/learn\/we-re-joining-the-family-at-feit-electric\" target=\"_blank\" style=\"text-decoration:none\"><sup>1<\/sup><\/a>, we are reviewing the manufacturing status of all product lines and will advise on new product launch times when known.<br><br>\nCustomers with existing pre-orders will be contacted directly by the business owners who previously owned the LIFX brand and platform, Lifi Labs Inc.\n<\/span>"
           }
         },
         "88e15617-7a01-4dae-92e8-6e255e65fba0": {
