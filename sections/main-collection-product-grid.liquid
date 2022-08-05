@@ -471,12 +471,28 @@
           {%- endif -%}
         </p>
 
+{% if request.host == 'lifxukeu.myshopify.com' or request.host == 'lifxshop.co.uk' or request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' %}
+
+        <div class="title-wrapper center">
+          <h2 class="title title--primary">
+           LIFX Update</h2>
+<p></p>The LIFX brand and product range has recently been acquired by Feit Electric — as a part of this process we are reviewing our sales strategy in your region, but you can still view our products at <a href="http://www.lifx.com">lifx.com</a> and shop via Amazon or other retail partners.
+          </p>
+        </div>
+        
+{% else %}
+
+        
         <div class="title-wrapper center">
           <h2 class="title title--primary">
             {{ 'sections.collection_template.empty' | t }}<br>
             {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: "underlined-link link" }}
           </h2>
         </div>
+
+
+{% endif %}
+        
       </div>
     {%- else -%}
       <div class="collection page-width">
