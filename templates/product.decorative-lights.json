@@ -73,6 +73,7 @@
         },
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Energy Labels",
             "website_au": true,
@@ -85,6 +86,7 @@
         },
         "76f2877b-9463-4ca3-a71e-982cd31af6da": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Bulk Order Enquiry",
             "website_au": true,
