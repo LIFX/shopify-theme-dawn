@@ -79,6 +79,7 @@
         },
         "76f2877b-9463-4ca3-a71e-982cd31af6da": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Bulk Order Enquiry",
             "website_au": true,
