@@ -78,11 +78,7 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": true
       }
     },
     "1634272844a70d2ca1": {
