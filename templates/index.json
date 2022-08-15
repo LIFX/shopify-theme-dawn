@@ -30,7 +30,8 @@
         "1659523741e3857d06-0": {
           "type": "heading",
           "settings": {
-            "heading": "We’re joining the family at Feit Electric."
+            "heading": "We’re joining the family at Feit Electric.",
+            "workswith": "shopify:\/\/shop_images\/FeitElectric_Logo_LIFXSite.png"
           }
         },
         "1659523741e3857d06-1": {
@@ -78,7 +79,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "1634272844a70d2ca1": {
