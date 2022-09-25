@@ -29,16 +29,15 @@
             "text_style": "subtitle"
           }
         },
+        "64978e5e-7f3d-45b3-8c87-2fbe19f9860f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- for variant in product.variants -%}\n    <p class=\"product__text caption-with-letter-spacing\">SKU: {{ variant.sku }}<\/p>\n  {%- endfor -%}"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
-          }
-        },
-        "64978e5e-7f3d-45b3-8c87-2fbe19f9860f": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{% if request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}\n<div\n    data-pp-message\n    data-pp-style-layout=\"text\"\n    data-pp-style-logo-type=\"inline\"\n    data-pp-style-text-color=\"black\"\n    data-pp-amount=\"{{ product.price}}\">\n<\/div>{% endif %}"
           }
         },
         "31c1d1b5-b3a4-4f4c-8bbb-41d6f2175ef5": {
@@ -143,8 +142,8 @@
         "title",
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
-        "price",
         "64978e5e-7f3d-45b3-8c87-2fbe19f9860f",
+        "price",
         "31c1d1b5-b3a4-4f4c-8bbb-41d6f2175ef5",
         "variant_picker",
         "quantity_selector",
