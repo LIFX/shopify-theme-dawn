@@ -129,6 +129,10 @@
           <div class="caption-with-letter-spacing light">
              {%- if product_card_product.metafields.my_fields.lumens -%} {{ product_card_product.metafields.my_fields.lumens }} lumens
              {%- elsif product_card_product.metafields.my_fields.product_family == "Switch" or product_card_product.metafields.my_fields.product_family == "Tile" or product_card_product.metafields.my_fields.product_family == "Beam" or product_card_product.handle == "lifx-candle-colour-e14" or product_card_product.handle == "candle-color" -%}{{ product_card_product.metafields.my_fields.subtitle_lumens }}{%- else -%}Accessory{%- endif -%}</div>
+
+        <span class="visually-hidden">SKU</span>
+          <div class="caption-with-letter-spacing light">
+          SKU:   </div>
        
 
         {% comment %} TODO: metafield {% endcomment %}
