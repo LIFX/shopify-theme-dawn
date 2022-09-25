@@ -132,7 +132,7 @@
 
         <span class="visually-hidden">SKU</span>
           <div class="caption-with-letter-spacing light">
-          SKU: {{ product_card_product.sku }}</div>
+          SKU: {%- for variant in product_card_product.variants -%}{{ variant.sku }}{%- endfor -%}</div>
 
   
         {% comment %} TODO: metafield {% endcomment %}
