@@ -75,7 +75,7 @@
             "website_au": true,
             "website_ukeu": true,
             "website_us": true,
-            "content": "<p><span style=\"text-decoration:underline\"><strong>LIFX Color 1100lm E26<\/strong><\/span><strong><br\/>Brightness: <\/strong>1100 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>11.5W at full brightness<br\/><strong>Wattage Eq: <\/strong>75W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>210°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>2.48in x 2.48in x 4.53in<br\/><br\/><span style=\"text-decoration:underline\"><strong>LIFX Lightstrip 40\"<br\/><\/strong><\/span><strong>Brightness: <\/strong>700 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>8.0W at full brightness<br\/><strong>Wattage Eq: <\/strong>45W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>120°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>39.37in x 0.47in x 0.16in<\/p>",
+            "content": "<p><span style=\"text-decoration:underline\"><strong>LIFX Color 800lm E26<\/strong><\/span><strong><br\/>Brightness: <\/strong>800 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>9.0W at full brightness<br\/><strong>Wattage Eq: <\/strong>60W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>235°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>2.36in x 2.36in x 4.13in<br\/><br\/><span style=\"text-decoration:underline\"><strong>LIFX Smart Switch<br\/><\/strong><\/span><strong>Installation: <\/strong>The LIFX Switch MUST be installed in accordance with local rules and codes.<br\/><strong>Neutral Wire: <\/strong>Required<br\/><strong>Maximum load: <\/strong>2 Button 1 Gang: 650W.<br\/><strong>Circuit breaker: <\/strong>Must be protected by 15 amps circuit breaker. An important note to remember is that circuit breakers can only handle about 80% of their overall amperage. That means a 15-amp circuit breaker can handle around 12-amps.<br\/><strong>Dimensions: <\/strong>2 Buton 1 Gang: 4.64\" x 2.91\" x 1.40\"<br\/><strong>Voltage Range: <\/strong>AC  120V 60Hz<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<\/p>",
             "page": "",
             "icon": "question_mark"
           }
@@ -106,17 +106,17 @@
         "1637276724eb92fe7d-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_A19_COLOR_PDP_US_E26_1100x_16627720-9ff3-47c4-a9ac-3fb846f3279f.jpg",
-            "title": "2 x LIFX Color 1100lm E26",
-            "text": "<p>Transport yourself into the world of your game by transforming your space with vibrant colors. Bold hues to match the game you’re currently into will help you create the fully immersive experience you’ve been waiting for.<\/p>"
+            "image": "shopify:\/\/shop_images\/1_LIFX_Switch_US_2G_White.jpg",
+            "title": "1 x LIFX Smart Switch",
+            "text": "<p>Where the simplicity of a standard wall switch meets the brilliance of advanced smart tech. This LIFX Smart Switch is installed in-wall and features 2 buttons, haptic touch, and backlit design. With convenience at its core, you can use this Smart Switch to control both your smart lights and average lightbulbs at the source. That means no commitment to a whole home setup – upgrade to a smarter home at your own pace, in your own way.<\/p>"
           }
         },
         "1637276724eb92fe7d-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/00_Lightstrip_40in_Packaging_US_1100x_183f3afd-1ab0-4c71-be0b-34004e333e26.jpg",
-            "title": "1 x LIFX Lightstrip 80\"",
-            "text": "<p>A flexible LED strip with endless color options to set the mood to whatever workout style you choose. Place a LIFX Lightstrip behind your desk or monitor for a multi-color epic setup or fuel your focus and concentration with invigorating, 6000K whites.<\/p>"
+            "image": "shopify:\/\/shop_images\/00_1PACK_LIFX_Color_Image_Hero_US.jpg",
+            "title": "1 x LIFX Color 800lm",
+            "text": "<p>A compact smart light that packs a serious 800 lumen punch. The LIFX Color features billions of colors as well as a huge cool-to-warm range of whites. And for anyone who loves an upgrade, take advantage of endless integration options.<\/p>"
           }
         }
       },
@@ -138,7 +138,7 @@
     "163727672724969a9b": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGAMING_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/07_LIFX_Switch_AU_2G.jpg",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
