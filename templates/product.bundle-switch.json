@@ -139,7 +139,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/07_LIFX_Switch_AU_2G.jpg",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
