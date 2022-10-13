@@ -58,7 +58,7 @@
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"https:\/\/www.bestbuy.com\/site\/lifx-lightstrip-color-zones-120\/6459598.p?skuId=6459598\" class=\"button\" style=\"width:100%\">Exclusive to Best Buy<\/a>"
+            "custom_liquid": "<a href=\"https:\/\/www.amazon.com\/dp\/B0BH8DHRBY\" class=\"button\" style=\"width:100%\">Amazon<\/a><a href=\"https:\/\/www.bestbuy.com\/site\/lifx-lightstrip-color-zones-120\/6459598.p?skuId=6459598\" class=\"button\" style=\"width:100%\">Best Buy<\/a>"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
