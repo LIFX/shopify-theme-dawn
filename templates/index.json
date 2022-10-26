@@ -24,45 +24,6 @@
         "website_us": false
       }
     },
-    "1659523741fd7a454b": {
-      "type": "image-with-text",
-      "blocks": {
-        "1659523741e3857d06-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "We’re joining the family at Feit Electric.",
-            "workswith": "shopify:\/\/shop_images\/FeitElectric_Logo_LIFXSite.png"
-          }
-        },
-        "1659523741e3857d06-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We’ve found a new home to light up! Read what’s next for the LIFX brand.<\/p><p><\/p>"
-          }
-        },
-        "1659523741e3857d06-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Tell me more",
-            "button_link": "https:\/\/www.lifx.com\/blogs\/learn\/we-re-joining-the-family-at-feit-electric"
-          }
-        }
-      },
-      "block_order": [
-        "1659523741e3857d06-0",
-        "1659523741e3857d06-1",
-        "1659523741e3857d06-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX-Homepage_ArticleFeature_image.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": true
-      }
-    },
     "16417795474723f926": {
       "type": "featured-collection",
       "settings": {
@@ -79,7 +40,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "1634272844a70d2ca1": {
@@ -162,6 +127,45 @@
         "16503363545ae2e1ef-2"
       ],
       "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
+    "1659523741fd7a454b": {
+      "type": "image-with-text",
+      "blocks": {
+        "1659523741e3857d06-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We’ve joined the family at Feit Electric.",
+            "workswith": "shopify:\/\/shop_images\/FeitElectric_Logo_LIFXSite.png"
+          }
+        },
+        "1659523741e3857d06-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve found a new home to light up! Read what’s next for the LIFX brand.<\/p><p><\/p>"
+          }
+        },
+        "1659523741e3857d06-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Tell me more",
+            "button_link": "https:\/\/www.lifx.com\/blogs\/learn\/we-re-joining-the-family-at-feit-electric"
+          }
+        }
+      },
+      "block_order": [
+        "1659523741e3857d06-0",
+        "1659523741e3857d06-1",
+        "1659523741e3857d06-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX-Homepage_ArticleFeature_image.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -487,10 +491,10 @@
   "order": [
     "165942093296a32cfe",
     "16360812376e144b22",
-    "1659523741fd7a454b",
     "16417795474723f926",
     "1634272844a70d2ca1",
     "1650336354e8efe75b",
+    "1659523741fd7a454b",
     "16360916891de3101c",
     "1632116257dff5145e",
     "16419533851bc12f51",
