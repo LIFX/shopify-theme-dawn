@@ -486,6 +486,44 @@
         "color_scheme": "inverse",
         "full_width": true
       }
+    },
+    "3f34c514-d05d-462c-9177-5d5aaf495bd9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15167164154037__3f34c514-d05d-462c-9177-5d5aaf495bd9-1666770160bdd17444-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Products that get better with time."
+          }
+        },
+        "template--15167164154037__3f34c514-d05d-462c-9177-5d5aaf495bd9-1666770160bdd17444-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve just launched a new update to super-charge color, connectivity and security! 🎉 <\/p><p>Want to get all the benefits of our latest firmware? Update now in your LIFX app. <\/p>"
+          }
+        },
+        "template--15167164154037__3f34c514-d05d-462c-9177-5d5aaf495bd9-1666770160bdd17444-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15167164154037__3f34c514-d05d-462c-9177-5d5aaf495bd9-1666770160bdd17444-0",
+        "template--15167164154037__3f34c514-d05d-462c-9177-5d5aaf495bd9-1666770160bdd17444-1",
+        "template--15167164154037__3f34c514-d05d-462c-9177-5d5aaf495bd9-1666770160bdd17444-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ColorSolver_Firmware_Announce.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
     }
   },
   "order": [
@@ -502,6 +540,7 @@
     "16321870964a1d4c89",
     "16371499188aae96be",
     "1659683200336d6c1b",
-    "163210701498163fc8"
+    "163210701498163fc8",
+    "3f34c514-d05d-462c-9177-5d5aaf495bd9"
   ]
 }
