@@ -221,9 +221,9 @@ function button1() {
             <div class="image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
           {%- when 'buttons' -%}
 
-                  <div style="float: left; width: 50%; padding-right: 15px; height: 100%;"> <p style="transition: all 2s;opacity:70%;cursor:pointer" id="button1" onclick="button1()" width="100%">{{ section.settings.text_button_1 }}</div>
-                  <div style="float: left; width: 50%; padding-left: 15px; height: 100%;">  <p style="transition: all 2s;opacity:100%;cursor:revert" id="button2" onclick="button2()" width="100%">{{ section.settings.text_button_2 }}</div>
-                  <div style="float: left; width: 50%; padding-left: 15px; height: 100%;">  <p style="transition: all 2s;opacity:100%;cursor:revert" id="button3" onclick="button3()" width="100%">{{ section.settings.text_button_3 }}</div>
+                  <div style="float: left; width: 50%; padding-right: 15px; height: 100%;"> <p style="transition: all 2s;opacity:70%;cursor:pointer" id="button1" onclick="button1()" width="100%" class="button">{{ section.settings.text_button_1 }}</div>
+                  <div style="float: left; width: 50%; padding-left: 15px; height: 100%;">  <p style="transition: all 2s;opacity:100%;cursor:revert" id="button2" onclick="button2()" width="100%" class="button">{{ section.settings.text_button_2 }}</div>
+                  <div style="float: left; width: 50%; padding-left: 15px; height: 100%;">  <p style="transition: all 2s;opacity:100%;cursor:revert" id="button3" onclick="button3()" width="100%" class="button">{{ section.settings.text_button_3 }}</div>
 
         {%- endcase -%}
       {%- endfor -%}
