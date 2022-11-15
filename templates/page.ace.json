@@ -44,7 +44,7 @@
         "image_2": "shopify:\/\/shop_images\/Website_Interactive_Module_Play_3840x2160_c8885e10-0c7e-4c52-9cf6-262fffc5db5b.jpg",
         "button_image_1": "shopify:\/\/shop_images\/Security_Icon_027c4d4c-b40b-4c4d-b1e3-59fe03da0ae3.png",
         "button_image_2": "shopify:\/\/shop_images\/Color_Icon-1.png",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
         "desktop_box_alignment": "center",
         "show_text_box": true,
