@@ -18,7 +18,7 @@ function button1() {
   var zz = document.getElementById("button3");
     zz.style.opacity  = "70%";
 	zz.style.cursor  = "pointer";
-  document.getElementById("button1").setAttribute("onclick","");
+  document.getElementById("button1").setAttribute("onclick","button1()");
   document.getElementById("button2").setAttribute("onclick","button2()");
   document.getElementById("button3").setAttribute("onclick","button3()");
 }
@@ -39,7 +39,7 @@ function button2() {
     zz.style.opacity  = "100%";
 	zz.style.cursor  = "revert";
   document.getElementById("button1").setAttribute("onclick","button1()");
-  document.getElementById("button2").setAttribute("onclick","");
+  document.getElementById("button2").setAttribute("onclick","button2()");
   document.getElementById("button3").setAttribute("onclick","button3()");
 
 }
@@ -61,7 +61,7 @@ function button2() {
 	zz.style.cursor  = "pointer";
   document.getElementById("button1").setAttribute("onclick","button1()");
   document.getElementById("button2").setAttribute("onclick","button2()");
-  document.getElementById("button3").setAttribute("onclick","");
+  document.getElementById("button3").setAttribute("onclick","button3()");
 
 }
 </script>
