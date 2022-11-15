@@ -48,12 +48,22 @@ function button1() {
 
     function button3() {
   var x = document.getElementById("interactiveBanner1");
+  if (x.style.opacity  === "0") {
+    x.style.opacity  = "1";
+  } else {
     x.style.opacity  = "0";
-   var x = document.getElementById("interactiveBanner3");
- x.style.opacity  = "0";
+  }
+  var x = document.getElementById("interactiveBanner3");
+  if (x.style.opacity  === "0") {
+    x.style.opacity  = "1";
+  } else {
+    x.style.opacity  = "0";
+  }
     var xx = document.getElementById("interactiveBanner");
+  if (xx.style.opacity  === "0") {
+    xx.style.opacity  = "1";
+  } else {
     xx.style.opacity  = "0";
- 
   }
 }
   
