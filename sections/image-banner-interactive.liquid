@@ -1,85 +1,29 @@
 {{ 'section-image-banner-interactive.css' | asset_url | stylesheet_tag }}
 
 
-<script>
-function button1() {
-  var x = document.getElementById("interactiveBanner1");
-  if (x.style.opacity  === "0") {
-    x.style.opacity  = "1";
-  } else {
-    x.style.opacity  = "0";
-  }
-  var x = document.getElementById("interactiveBanner3");
-  if (x.style.opacity  === "0") {
-    x.style.opacity  = "1";
-  } else {
-    x.style.opacity  = "0";
-  }
-    var xx = document.getElementById("interactiveBanner2");
-  if (xx.style.opacity  === "0") {
-    xx.style.opacity  = "1";
-  } else {
-    xx.style.opacity  = "0";
-  }
 
-
-}
-
-  function button2() {
-  var x = document.getElementById("interactiveBanner");
-  if (x.style.opacity  === "0") {
-    x.style.opacity  = "1";
-  } else {
-    x.style.opacity  = "0";
-  }
-  var x = document.getElementById("interactiveBanner3");
-  if (x.style.opacity  === "0") {
-    x.style.opacity  = "1";
-  } else {
-    x.style.opacity  = "0";
-  }
-    var xx = document.getElementById("interactiveBanner2");
-  if (xx.style.opacity  === "0") {
-    xx.style.opacity  = "1";
-  } else {
-    xx.style.opacity  = "0";
-  }
-}
-/*
-    function button3() {
-  var x = document.getElementById("interactiveBanner1");
-  if (x.style.opacity  === "0") {
-    x.style.opacity  = "1";
-  } else {
-    x.style.opacity  = "0";
-  }
-  var x = document.getElementById("interactiveBanner3");
-  if (x.style.opacity  === "0") {
-    x.style.opacity  = "1";
-  } else {
-    x.style.opacity  = "0";
-  }
-    var xx = document.getElementById("interactiveBanner");
-  if (xx.style.opacity  === "0") {
-    xx.style.opacity  = "1";
-  } else {
-    xx.style.opacity  = "0";
-  }
-}*/
-
-
-  
-
-
-</script>
 
 <script>
-function hideBanner()
+function hideBanner1()
 {
-    document.getElementById('interactiveBanner').setAttribute("class", "hideBanner");
+  document.getElementById('interactiveBanner1').setAttribute("class", "hideBanner");
+  document.getElementById('interactiveBanner2').setAttribute("class", "hideBanner");
+  document.getElementById('interactiveBanner3').setAttribute("class", "hideBanner");
+}
+  function hideBanner2()
+{
+  document.getElementById('interactiveBanner').setAttribute("class", "hideBanner");
+  document.getElementById('interactiveBanner2').setAttribute("class", "hideBanner");
+  document.getElementById('interactiveBanner3').setAttribute("class", "hideBanner");
+}
+  function hideBanner3()
+{
+  document.getElementById('interactiveBanner').setAttribute("class", "hideBanner");
   document.getElementById('interactiveBanner1').setAttribute("class", "hideBanner");
   document.getElementById('interactiveBanner3').setAttribute("class", "hideBanner");
 }
+
+  
 </script>
 
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
@@ -221,9 +165,9 @@ function hideBanner()
             <div class="image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
           {%- when 'buttons' -%}
 <div style="width:100%;float:left">
-                  <div style="float: left; padding-right: 15px;"> <p style="transition: all 2s;opacity:100%;cursor:pointer;border-width: 2px;background-color: black;color: white;border-style: solid;" id="button1" onclick="button1()" width="100%" class="button">{{ section.settings.text_button_1 }}</div>
-                  <div style="float: left; padding-right: 15px;">  <p style="transition: all 2s;opacity:100%;cursor:pointer;border-width: 2px;background-color: black;color: white;border-style: solid;" id="button2" onclick="button2()" width="100%" class="button">{{ section.settings.text_button_2 }}</div>
-                  <div style="float: left; ">  <p style="transition: all 2s;opacity:100%;cursor:pointer;border-width: 2px;background-color: black;color: white;border-style: solid;" id="button3" onclick="hideBanner()" width="100%" class="button">{{ section.settings.text_button_3 }}</div>
+                  <div style="float: left; padding-right: 15px;"> <p style="transition: all 2s;opacity:100%;cursor:pointer;border-width: 2px;background-color: black;color: white;border-style: solid;" id="button1" onclick="hideBanner1()" width="100%" class="button">{{ section.settings.text_button_1 }}</div>
+                  <div style="float: left; padding-right: 15px;">  <p style="transition: all 2s;opacity:100%;cursor:pointer;border-width: 2px;background-color: black;color: white;border-style: solid;" id="button2" onclick="hideBanner2()" width="100%" class="button">{{ section.settings.text_button_2 }}</div>
+                  <div style="float: left; ">  <p style="transition: all 2s;opacity:100%;cursor:pointer;border-width: 2px;background-color: black;color: white;border-style: solid;" id="button3" onclick="hideBanner3()" width="100%" class="button">{{ section.settings.text_button_3 }}</div>
 </div>
    <div style="width:100">LIFX isn’t just a light—it’s every light in one. Whether you need an extra focussed day or you’re hoping to boost your sense of play, your space can be what you need, when you need it.</div>
 
