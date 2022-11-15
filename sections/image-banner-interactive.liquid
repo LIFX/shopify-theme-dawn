@@ -15,9 +15,12 @@ function button1() {
   var z = document.getElementById("button2");
     z.style.opacity  = "70%";
 	z.style.cursor  = "pointer";
+  var zz = document.getElementById("button3");
+    zz.style.opacity  = "70%";
+	zz.style.cursor  = "pointer";
   document.getElementById("button1").setAttribute("onclick","");
   document.getElementById("button2").setAttribute("onclick","button2()");
-
+  document.getElementById("button3").setAttribute("onclick","button3()");
 }
 function button2() {
   var x = document.getElementById("interactiveBanner");
@@ -32,8 +35,33 @@ function button2() {
   var z = document.getElementById("button1");
     z.style.opacity  = "70%";
 	z.style.cursor  = "pointer";
+  var zz = document.getElementById("button3");
+    zz.style.opacity  = "100%";
+	zz.style.cursor  = "revert";
   document.getElementById("button1").setAttribute("onclick","button1()");
+  document.getElementById("button3").setAttribute("onclick","button3()");
   document.getElementById("button2").setAttribute("onclick","");
+
+}
+  function button3() {
+  var x = document.getElementById("interactiveBanner");
+  if (x.style.opacity  === "0") {
+    x.style.opacity  = "1";
+  } else {
+    x.style.opacity  = "0";
+  }
+  var y = document.getElementById("button3");
+    y.style.opacity  = "100%";
+	y.style.cursor  = "revert";
+  var z = document.getElementById("button1");
+    z.style.opacity  = "70%";
+	z.style.cursor  = "pointer";
+  var zz = document.getElementById("button2");
+    zz.style.opacity  = "70%";
+	zz.style.cursor  = "pointer";
+  document.getElementById("button1").setAttribute("onclick","button1()");
+  document.getElementById("button2").setAttribute("onclick","button2()");
+  document.getElementById("button3").setAttribute("onclick","");
 
 }
 </script>
@@ -138,7 +166,8 @@ function button2() {
           {%- when 'buttons' -%}
 
                   <div style="float: left; width: 50%; padding-right: 15px; height: 100%;"> <p style="transition: all 2s;opacity:70%;cursor:pointer" id="button1" onclick="button1()" width="100%">{{ section.settings.text_button_1 }}</div>
-                  <div style="float: left; width: 50%; padding-left: 15px; height: 100%;">  <p style="transition: all 2s;opacity:100%;cursor:revert" id="button2" onclick="" width="100%">{{ section.settings.text_button_2 }}</div>
+                  <div style="float: left; width: 50%; padding-left: 15px; height: 100%;">  <p style="transition: all 2s;opacity:100%;cursor:revert" id="button2" onclick="button2()" width="100%">{{ section.settings.text_button_2 }}</div>
+                  <div style="float: left; width: 50%; padding-left: 15px; height: 100%;">  <p style="transition: all 2s;opacity:100%;cursor:revert" id="button3" onclick="" width="100%">{{ section.settings.text_button_3 }}</div>
 
         {%- endcase -%}
       {%- endfor -%}
@@ -172,6 +201,11 @@ function button2() {
       "type": "text",
       "id": "text_button_2",
       "label": "t:sections.image-banner-interactive.settings.text_button_2.label"
+    },
+    {
+      "type": "text",
+      "id": "text_button_3",
+      "label": "t:sections.image-banner-interactive.settings.text_button_3.label"
     },
     {
       "type": "checkbox",
