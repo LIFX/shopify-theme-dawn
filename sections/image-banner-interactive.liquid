@@ -21,22 +21,7 @@ function button1() {
   } else {
     xx.style.opacity  = "0";
   }
-  var y = document.getElementById("button1");
-    y.style.opacity  = "100%";
-	y.style.cursor  = "revert";
-  var z = document.getElementById("button2");
-    z.style.opacity  = "70%";
-	z.style.cursor  = "pointer";
-  var zz = document.getElementById("button3");
-    zz.style.opacity  = "70%";
-	zz.style.cursor  = "pointer";
-  document.getElementById("button1").setAttribute("onclick","button1()");
-  document.getElementById("button2").setAttribute("onclick","button2()");
-  document.getElementById("button3").setAttribute("onclick","button3()");
-}
-</script>
 
-<script>
 function button2() {
   var x = document.getElementById("interactiveBanner");
   if (x.style.opacity  === "0") {
@@ -56,8 +41,23 @@ function button2() {
   } else {
     xx.style.opacity  = "0";
   }
+
+  
+  var y = document.getElementById("button1");
+    y.style.opacity  = "100%";
+	y.style.cursor  = "revert";
+  var z = document.getElementById("button2");
+    z.style.opacity  = "70%";
+	z.style.cursor  = "pointer";
+  var zz = document.getElementById("button3");
+    zz.style.opacity  = "70%";
+	zz.style.cursor  = "pointer";
+  document.getElementById("button1").setAttribute("onclick","button1()");
+  document.getElementById("button2").setAttribute("onclick","button2()");
+  document.getElementById("button3").setAttribute("onclick","button3()");
 }
 </script>
+
 
 
 
