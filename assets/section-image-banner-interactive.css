@@ -281,13 +281,13 @@
   flex-grow: 1;
 }
 
-@media screen and (max-width: 1px) {
+@media screen and (max-width: 749px) {
   .banner--stacked .banner__box {
     width: 100%;
   }
 }
 
-@media screen and (min-width: 2px) {
+@media screen and (min-width: 750px) {
   .banner__box {
     padding: 5rem;
     width: auto;
