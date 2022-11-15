@@ -1,7 +1,6 @@
 .aceButton{
  transition: all 2s;
  cursor:pointer;
- border-width: 2px;
  background-color: black;
  color: white;
  border-style: solid;
@@ -9,7 +8,6 @@
 .aceButtonActive{
  transition: all 2s;
  cursor:revert;
- border-width: 2px;
  background-color: #E2FC52;
  color: black;
  border-style: solid;
