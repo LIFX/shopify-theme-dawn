@@ -79,7 +79,8 @@ function hideBanner1()
   }
 {%- endstyle -%}
 
-
+  <div class="banner__align--{{ section.settings.desktop_box_alignment }} banner__content--{{ section.settings.desktop_text_box_position }} page-width box--{{ section.settings.color_scheme }} color-inverse">
+    <div class="color-{{ section.settings.color_scheme }}" style="margin: 40px 40px 25px 40px;">
 
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -89,6 +90,8 @@ function hideBanner1()
             </h2>
         {%- endcase -%}
       {%- endfor -%}
+    </div>
+  </div>
 
 {% if section.settings.image != blank %}	  
 <div id="Banner-{{ section.id }}" class="banner{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %} color-inverse">
