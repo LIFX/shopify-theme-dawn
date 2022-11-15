@@ -45,7 +45,7 @@ function button1() {
     xx.style.opacity  = "0";
   }
 }
-
+/*
     function button3() {
   var x = document.getElementById("interactiveBanner1");
   if (x.style.opacity  === "0") {
@@ -65,7 +65,13 @@ function button1() {
   } else {
     xx.style.opacity  = "0";
   }
-}
+}*/
+
+document.querySelector('#button3').addEventListener('click', () => {
+  document.querySelector('#interactiveBanner').classList.add('hideBanner');
+  document.querySelector('#interactiveBanner1').classList.add('hideBanner');
+  document.querySelector('#interactiveBanner3').classList.add('hideBanner');
+}); 
   
 
 
