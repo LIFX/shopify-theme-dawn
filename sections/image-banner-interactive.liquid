@@ -67,17 +67,19 @@ function button1() {
   }
 }*/
 
-document.querySelector('#button3').addEventListener('click', () => {
-  document.querySelector('#interactiveBanner').classList.add('hideBanner');
-  document.querySelector('#interactiveBanner1').classList.add('hideBanner');
-  document.querySelector('#interactiveBanner3').classList.add('hideBanner');
-}); 
+
   
 
 
 </script>
 
-
+<script>
+  document.querySelector('#button3').addEventListener('click', () => {
+  document.querySelector('#interactiveBanner').classList.add('hideBanner');
+  document.querySelector('#interactiveBanner1').classList.add('hideBanner');
+  document.querySelector('#interactiveBanner3').classList.add('hideBanner');
+}); 
+</script>
 
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
