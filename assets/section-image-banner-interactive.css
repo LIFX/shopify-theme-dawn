@@ -1,5 +1,8 @@
 .hideBanner {
   opacity:0;
+} 
+.showBanner {
+  opacity:1;
 }  
   .banner {
   display: flex;
