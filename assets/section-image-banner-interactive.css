@@ -1,4 +1,7 @@
-.banner {
+.hidebanner {
+  opacity:0;
+}  
+  .banner {
   display: flex;
   position: relative;
   flex-direction: column;
