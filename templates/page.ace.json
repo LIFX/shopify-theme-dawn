@@ -2,11 +2,61 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "edacbef7-ef2b-4d9e-a7db-20852bea7a45": {
+      "type": "image-banner-interactive",
+      "blocks": {
+        "template--15718821331125__edacbef7-ef2b-4d9e-a7db-20852bea7a45-1668475862016db448-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "In The Office",
+            "heading_size": "medium"
+          }
+        },
+        "template--15718821331125__edacbef7-ef2b-4d9e-a7db-20852bea7a45-1668475862016db448-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>See what light can do when...<\/p>"
+          }
+        },
+        "template--15718821331125__edacbef7-ef2b-4d9e-a7db-20852bea7a45-1668475862016db448-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15718821331125__edacbef7-ef2b-4d9e-a7db-20852bea7a45-1668475862016db448-0",
+        "template--15718821331125__edacbef7-ef2b-4d9e-a7db-20852bea7a45-1668475862016db448-1",
+        "template--15718821331125__edacbef7-ef2b-4d9e-a7db-20852bea7a45-1668475862016db448-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Website_Interactive_Module_Work_3840x2160_283a5825-c367-410e-91ad-8ff6c2ca2a62.jpg",
+        "image_2": "shopify:\/\/shop_images\/Website_Interactive_Module_Play_3840x2160_c8885e10-0c7e-4c52-9cf6-262fffc5db5b.jpg",
+        "button_image_1": "shopify:\/\/shop_images\/Security_Icon_027c4d4c-b40b-4c4d-b1e3-59fe03da0ae3.png",
+        "button_image_2": "shopify:\/\/shop_images\/Color_Icon-1.png",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "edacbef7-ef2b-4d9e-a7db-20852bea7a45"
   ]
 }
