@@ -220,12 +220,12 @@ function button1() {
           {%- when 'text' -%}
             <div class="image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
           {%- when 'buttons' -%}
-
+<div style="100%">
                   <div style="float: left; padding-right: 15px;"> <p style="transition: all 2s;opacity:100%;cursor:pointer;border-width: 2px;background-color: black;color: white;border-style: solid;" id="button1" onclick="button1()" width="100%" class="button">{{ section.settings.text_button_1 }}</div>
                   <div style="float: left; padding-right: 15px;">  <p style="transition: all 2s;opacity:100%;cursor:revert;border-width: 2px;background-color: black;color: white;border-style: solid;" id="button2" onclick="button2()" width="100%" class="button">{{ section.settings.text_button_2 }}</div>
                   <div style="float: left; ">  <p style="transition: all 2s;opacity:100%;cursor:revert;border-width: 2px;background-color: black;color: white;border-style: solid;
                                                                                             " id="button3" onclick="button3()" width="100%" class="button">{{ section.settings.text_button_3 }}</div>
- <br>
+ </div>
    <div>LIFX isn’t just a light—it’s every light in one. Whether you need an extra focussed day or you’re hoping to boost your sense of play, your space can be what you need, when you need it.</div>
 
         {%- endcase -%}
