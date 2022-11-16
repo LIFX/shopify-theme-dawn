@@ -1,8 +1,10 @@
 .showSummary{
  display:revert;
+ max-width:400px;
 }
 .hideSummary{
  display:none;
+ max-width:400px;
 }
 .aceButton{
  transition: all 2s;
