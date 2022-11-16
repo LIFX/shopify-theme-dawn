@@ -1,11 +1,13 @@
 .showSummary{
  display:revert;
  max-width:400px;
+ min-width:400px;
  min-height:200px;
 }
 .hideSummary{
  display:none;
  max-width:400px;
+  min-width:400px;
  min-height:200px;
 }
 .aceButton{
