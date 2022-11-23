@@ -88,7 +88,7 @@
          {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available and product_card_product.handle != "color-downlight-2-pack" -%}
             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.on_sale' | t }}</span>
          {%- elsif product_card_product.tags contains "BFCM" -%}
-             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Bundle</span>
+             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Black Friday Sale</span>
          {%- elsif product_card_product.tags contains "amazon" -%}
              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Amazon Exclusive</span>
          {%- elsif product_card_product.tags contains "bestbuy" -%}
