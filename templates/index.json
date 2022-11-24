@@ -20,7 +20,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop the deals",
-            "button_link_1": "",
+            "button_link_1": "shopify:\/\/collections\/black-friday-sale",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -46,7 +46,26 @@
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "crop_image_alignment": "center",
-        "website_au": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
+      }
+    },
+    "1a55c114-935d-4e47-9a5a-1f48aafd1589": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Black Friday Sales",
+        "collection": "black-friday-sale",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": true,
         "website_ukeu": false,
         "website_us": false
       }
@@ -61,25 +80,6 @@
         "website_au": false,
         "website_ukeu": false,
         "website_us": true
-      }
-    },
-    "1a55c114-935d-4e47-9a5a-1f48aafd1589": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "collection": "",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": false
       }
     },
     "16360812376e144b22": {
@@ -631,8 +631,8 @@
   },
   "order": [
     "28b3feaf-057a-4573-b52d-a218166313f4",
-    "165942093296a32cfe",
     "1a55c114-935d-4e47-9a5a-1f48aafd1589",
+    "165942093296a32cfe",
     "16360812376e144b22",
     "d8ba2a35-1d9c-4bf1-9901-3e9b8efaa157",
     "16417795474723f926",
