@@ -2,9 +2,64 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true
+      }
+    },
+    "e4d6b73a-b68c-49ef-a12f-ce5c9972747a": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14708097646639__e4d6b73a-b68c-49ef-a12f-ce5c9972747a-16692693564c0e86db-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "template--14708097646639__e4d6b73a-b68c-49ef-a12f-ce5c9972747a-16692693564c0e86db-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "template--14708097646639__e4d6b73a-b68c-49ef-a12f-ce5c9972747a-16692693564c0e86db-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14708097646639__e4d6b73a-b68c-49ef-a12f-ce5c9972747a-16692693564c0e86db-0",
+        "template--14708097646639__e4d6b73a-b68c-49ef-a12f-ce5c9972747a-16692693564c0e86db-1",
+        "template--14708097646639__e4d6b73a-b68c-49ef-a12f-ce5c9972747a-16692693564c0e86db-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Category-Header---Black-Friday---AU---opt.jpg",
+        "adapt_height_first_image": false,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "product-grid": {
@@ -25,6 +80,7 @@
   },
   "order": [
     "banner",
+    "e4d6b73a-b68c-49ef-a12f-ce5c9972747a",
     "product-grid"
   ]
 }
