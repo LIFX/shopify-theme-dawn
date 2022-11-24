@@ -84,7 +84,7 @@
           {%- if product_card_product.available == false -%}
             <!--<span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.sold_out' | t }}</span>-->
          {%- elsif product_card_product.tags contains "BFCM_2022" -%}
-             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Black Friday Sale</span>
+             <span style="background-color:black;border-color:black" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Black Friday Sale</span>
          {%- endif -%}
 	
         </div>
