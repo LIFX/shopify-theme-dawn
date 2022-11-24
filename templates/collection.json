@@ -2,7 +2,6 @@
   "sections": {
     "16412750465720996b": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "164127504662ff1cdb-0": {
           "type": "heading",
@@ -14,6 +13,7 @@
         },
         "164127504662ff1cdb-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Find the bundle to suit your lifestyle and save."
           }
@@ -37,7 +37,7 @@
         "164127504662ff1cdb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_Homepage_BLACKFRIDAYSALE_Module-05.png",
+        "image": "shopify:\/\/shop_images\/Category-Header---Black-Friday_opt.jpg",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
