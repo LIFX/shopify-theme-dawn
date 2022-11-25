@@ -34,7 +34,6 @@
         "template--15167164154037__2f3c3e92-ccc8-4dad-bb49-750080230d56-1669360713a4c8196f-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Category_Header_-_Black_Friday_resized.jpg",
         "adapt_height_first_image": true,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
@@ -57,7 +56,7 @@
         "template--14684223012911__28b3feaf-057a-4573-b52d-a218166313f4-1669268759154549cc-0": {
           "type": "heading",
           "settings": {
-            "heading": "Black Friday —full-on colour.  Enough said.",
+            "heading": "Black Friday—full-on colour.  Enough said.",
             "heading_size": "medium"
           }
         },
@@ -85,7 +84,7 @@
         "template--14684223012911__28b3feaf-057a-4573-b52d-a218166313f4-1669268759154549cc-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Category_Header_-_Black_Friday_resized.jpg",
+        "image": "shopify:\/\/shop_images\/Category_Header_-_Black_Friday_-_AU_resized.jpg",
         "adapt_height_first_image": true,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
@@ -118,11 +117,7 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": true
       }
     },
     "165942093296a32cfe": {
@@ -202,11 +197,7 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": true
       }
     },
     "1634272844a70d2ca1": {
