@@ -46,8 +46,8 @@
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "crop_image_alignment": "center",
-        "website_au": true,
-        "website_ukeu": true,
+        "website_au": false,
+        "website_ukeu": false,
         "website_us": true
       }
     },
