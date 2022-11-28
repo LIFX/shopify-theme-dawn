@@ -6,14 +6,14 @@
         "template--15167164154037__2f3c3e92-ccc8-4dad-bb49-750080230d56-1669360713a4c8196f-0": {
           "type": "heading",
           "settings": {
-            "heading": "Black Friday—full-on color.  Enough said.",
+            "heading": "Cyber Monday—full-on color.  Enough said.",
             "heading_size": "medium"
           }
         },
         "template--15167164154037__2f3c3e92-ccc8-4dad-bb49-750080230d56-1669360713a4c8196f-1": {
           "type": "text",
           "settings": {
-            "text": "Maybe you’re wondering how good our best-in-class color really is. Or perhaps you already know, and dream of more. Stop. With up to 25% off, now isn’t the time for thinking, it’s time for action."
+            "text": "Maybe you’re wondering how good our best-in-class color really is. Or perhaps you already know, and dream of more. Stop. With up to 54% off, now isn’t the time for thinking, it’s time for action."
           }
         },
         "template--15167164154037__2f3c3e92-ccc8-4dad-bb49-750080230d56-1669360713a4c8196f-2": {
@@ -67,7 +67,11 @@
         "show_rating": false,
         "website_au": false,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "165942093296a32cfe": {
@@ -147,7 +151,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "1634272844a70d2ca1": {
