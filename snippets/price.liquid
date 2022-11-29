@@ -53,7 +53,7 @@
         {% for variant in product.variants limit:1 %}
           <span style="text-decoration:line-through;text-decoration: line-through; color: rgba(var(--color-foreground),.75);font-size: 1.3rem;">{{ variant.compare_at_price | money }}</span> {{ variant.price | money }}
 		{% endfor %}
-         {% elsif product.tags contains "softbundle" %}
+         {% elsif product.tags contains "softbundlexxxx" %}
 
 <span style="text-decoration:line-through;text-decoration: line-through; color: rgba(var(--color-foreground),.75);font-size: 1.3rem;">$249.99</span> $124.99
          {% elsif product.vendor != "Amazon" %}{{ money_price }}{% endif %}
