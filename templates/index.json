@@ -135,6 +135,44 @@
         "website_us": true
       }
     },
+    "322ef79f-97e6-41b4-98c3-94c2c520b0fb": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15167164154037__322ef79f-97e6-41b4-98c3-94c2c520b0fb-16711640110d9d9858-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "App Update"
+          }
+        },
+        "template--15167164154037__322ef79f-97e6-41b4-98c3-94c2c520b0fb-16711640110d9d9858-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A focus on usability improvements with more helpful set-up experience for iOS and a sneaky little delight for the Holidays.<\/p>"
+          }
+        },
+        "template--15167164154037__322ef79f-97e6-41b4-98c3-94c2c520b0fb-16711640110d9d9858-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/software_4_12_0"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167164154037__322ef79f-97e6-41b4-98c3-94c2c520b0fb-16711640110d9d9858-0",
+        "template--15167164154037__322ef79f-97e6-41b4-98c3-94c2c520b0fb-16711640110d9d9858-1",
+        "template--15167164154037__322ef79f-97e6-41b4-98c3-94c2c520b0fb-16711640110d9d9858-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BetterOverTime_APP_4.12.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "1650336354e8efe75b": {
       "type": "image-with-text",
       "blocks": {
@@ -523,43 +561,6 @@
         "color_scheme": "inverse",
         "full_width": true
       }
-    },
-    "3f34c514-d05d-462c-9177-5d5aaf495bd9": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15167164154037__3f34c514-d05d-462c-9177-5d5aaf495bd9-1666770160bdd17444-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Products that get better with time."
-          }
-        },
-        "template--15167164154037__3f34c514-d05d-462c-9177-5d5aaf495bd9-1666770160bdd17444-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We’ve just launched a new update to super-charge color, connectivity and security! 🎉 <\/p><p>Want to get all the benefits of our latest firmware? Update now in your LIFX app. <\/p>"
-          }
-        },
-        "template--15167164154037__3f34c514-d05d-462c-9177-5d5aaf495bd9-1666770160bdd17444-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn more",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15167164154037__3f34c514-d05d-462c-9177-5d5aaf495bd9-1666770160bdd17444-0",
-        "template--15167164154037__3f34c514-d05d-462c-9177-5d5aaf495bd9-1666770160bdd17444-1",
-        "template--15167164154037__3f34c514-d05d-462c-9177-5d5aaf495bd9-1666770160bdd17444-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
     }
   },
   "order": [
@@ -568,6 +569,7 @@
     "d8ba2a35-1d9c-4bf1-9901-3e9b8efaa157",
     "16417795474723f926",
     "1634272844a70d2ca1",
+    "322ef79f-97e6-41b4-98c3-94c2c520b0fb",
     "1650336354e8efe75b",
     "1659523741fd7a454b",
     "16360916891de3101c",
@@ -577,7 +579,6 @@
     "16321870964a1d4c89",
     "16371499188aae96be",
     "1659683200336d6c1b",
-    "163210701498163fc8",
-    "3f34c514-d05d-462c-9177-5d5aaf495bd9"
+    "163210701498163fc8"
   ]
 }
