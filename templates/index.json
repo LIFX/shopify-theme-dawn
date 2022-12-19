@@ -147,14 +147,14 @@
         "template--15167164154037__322ef79f-97e6-41b4-98c3-94c2c520b0fb-16711640110d9d9858-1": {
           "type": "text",
           "settings": {
-            "text": "<p>LIFX products get better over time, with new experiences and improvements in every update. Check out what we added in the latest this December.<\/p>"
+            "text": "<p>LIFX products get better over time, with new experiences and improvements in every update! Check out what's fresh this December...<\/p>"
           }
         },
         "template--15167164154037__322ef79f-97e6-41b4-98c3-94c2c520b0fb-16711640110d9d9858-2": {
           "type": "button",
           "settings": {
             "button_label": "Learn more",
-            "button_link": "shopify:\/\/pages\/software_4_12_0"
+            "button_link": "shopify:\/\/pages\/app-release-4-13-0"
           }
         }
       },
