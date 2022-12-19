@@ -147,7 +147,7 @@
         "template--15167164154037__322ef79f-97e6-41b4-98c3-94c2c520b0fb-16711640110d9d9858-1": {
           "type": "text",
           "settings": {
-            "text": "<p>A focus on usability improvements with more helpful set-up experience for iOS and a sneaky little delight for the Holidays.<\/p>"
+            "text": "<p>LIFX products get better over time, with new experiences and improvements in every update. Check out what we added in the latest this December.<\/p>"
           }
         },
         "template--15167164154037__322ef79f-97e6-41b4-98c3-94c2c520b0fb-16711640110d9d9858-2": {
@@ -164,7 +164,7 @@
         "template--15167164154037__322ef79f-97e6-41b4-98c3-94c2c520b0fb-16711640110d9d9858-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BetterOverTime_APP_4.12.jpg",
+        "image": "shopify:\/\/shop_images\/BetterOverTime_02.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
