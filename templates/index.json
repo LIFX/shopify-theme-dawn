@@ -205,6 +205,12 @@
             "text": "A dynamic light bar for framing your space. 61 customisable zones per pack, exclusive effects, 16 million colors, and Polychrome Tech. Contains 6 Beams + 1 corner per pack.",
             "text_style": "body"
           }
+        },
+        "3859260f-fcf6-4178-bf45-6d61a29092ae": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/www.amazon.com\/gp\/product\/B073177QS8\/\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin:0px;width:100%\">Amazon<\/span><\/a>"
+          }
         }
       },
       "block_order": [
@@ -217,7 +223,8 @@
         "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-6",
         "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-7",
         "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6",
-        "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd"
+        "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd",
+        "3859260f-fcf6-4178-bf45-6d61a29092ae"
       ],
       "settings": {
         "product": "lifx-beam",
