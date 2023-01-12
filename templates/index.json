@@ -135,6 +135,100 @@
         "website_us": true
       }
     },
+    "4d925022-1924-4479-8f3d-9773424662f2": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-1": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-3": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-6": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-7": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2>Meet LIFX Beam<\/h2>"
+          }
+        },
+        "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd": {
+          "type": "text",
+          "settings": {
+            "text": "A dynamic light bar for framing your space. 61 customisable zones per pack, exclusive effects, 16 million colors, and Polychrome Tech. Contains 6 Beams + 1 corner per pack.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-0",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-1",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-2",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-3",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-4",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-5",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-6",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-7",
+        "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6",
+        "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd"
+      ],
+      "settings": {
+        "product": "lifx-beam",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
     "322ef79f-97e6-41b4-98c3-94c2c520b0fb": {
       "type": "image-with-text",
       "blocks": {
@@ -338,45 +432,6 @@
         "website_us": true
       }
     },
-    "16419533851bc12f51": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1641953385a628864e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bulk Orders"
-          }
-        },
-        "1641953385a628864e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <\/p>"
-          }
-        },
-        "1641953385a628864e-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Enquire now",
-            "button_link": "shopify:\/\/pages\/bulk-order-enquiry"
-          }
-        }
-      },
-      "block_order": [
-        "1641953385a628864e-0",
-        "1641953385a628864e-1",
-        "1641953385a628864e-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/08_Indoor_outdoor_Scene_Sunset.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": true
-      }
-    },
     "16364397572cc0a070": {
       "type": "scroller",
       "settings": {
@@ -569,12 +624,12 @@
     "d8ba2a35-1d9c-4bf1-9901-3e9b8efaa157",
     "16417795474723f926",
     "1634272844a70d2ca1",
+    "4d925022-1924-4479-8f3d-9773424662f2",
     "322ef79f-97e6-41b4-98c3-94c2c520b0fb",
     "1650336354e8efe75b",
     "1659523741fd7a454b",
     "16360916891de3101c",
     "1632116257dff5145e",
-    "16419533851bc12f51",
     "16364397572cc0a070",
     "16321870964a1d4c89",
     "16371499188aae96be",
