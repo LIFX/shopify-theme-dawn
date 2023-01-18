@@ -256,6 +256,60 @@
         "website_us": true
       }
     },
+    "59ca5fd8-5aa9-4a65-97b5-413b3cf5a0b0": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14692782473263__59ca5fd8-5aa9-4a65-97b5-413b3cf5a0b0-16740361268fc4c83b-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "template--14692782473263__59ca5fd8-5aa9-4a65-97b5-413b3cf5a0b0-16740361268fc4c83b-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "template--14692782473263__59ca5fd8-5aa9-4a65-97b5-413b3cf5a0b0-16740361268fc4c83b-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14692782473263__59ca5fd8-5aa9-4a65-97b5-413b3cf5a0b0-16740361268fc4c83b-0",
+        "template--14692782473263__59ca5fd8-5aa9-4a65-97b5-413b3cf5a0b0-16740361268fc4c83b-1",
+        "template--14692782473263__59ca5fd8-5aa9-4a65-97b5-413b3cf5a0b0-16740361268fc4c83b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DownlightUS_Module2_Product_FullSpanModule.jpg",
+        "adapt_height_first_image": true,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "163591479253a6c41d": {
       "type": "image-banner-interactive",
       "disabled": true,
@@ -533,6 +587,7 @@
     "163514216916abed30",
     "163520046949622558",
     "16352007448c39f051",
+    "59ca5fd8-5aa9-4a65-97b5-413b3cf5a0b0",
     "163591479253a6c41d",
     "16360008950381c4a6",
     "1636000353893885f5",
