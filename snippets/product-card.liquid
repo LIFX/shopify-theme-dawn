@@ -84,7 +84,7 @@
           {%- if product_card_product.available == false -%}
             <!--<span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.sold_out' | t }}</span>-->
          {%- elsif product_card_product.tags contains "launch" -%}
-             <span style="background-color:black;border-color:black" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">New</span>
+             <span style="background-color:black;border-color:black" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">New Model</span>
          {%- elsif product_card_product.tags contains "B2S30" -%}
              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Buy 2+ Save 30%</span>
        {%- endif -%}
