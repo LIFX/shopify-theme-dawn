@@ -427,7 +427,7 @@
         "image": "shopify:\/\/shop_images\/DownlightUS_Module9_Lifestyle_Half.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first",
+        "layout": "image_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
