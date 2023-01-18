@@ -6,7 +6,7 @@
         "b589f8b1-ae02-44be-ac8b-f57e3f076d11": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.tags contains 'B2S50' %}\n<span class=\"badge color-accent-2\" aria-hidden=\"true\" style=\"float:right;margin:0px\">Buy 2+ Save 50%<\/span><br>\n{% endif %}\n{% if product.tags contains 'B2S30' %}\n<span class=\"badge color-accent-2\" aria-hidden=\"true\" style=\"float:right;margin:0px\">Buy 2+ Save 30%<\/span><br>\n{% endif %}\n{% if product.tags contains 'B10S30' %}\n<span class=\"badge color-accent-2\" aria-hidden=\"true\" style=\"float:right;margin:0px\">Buy 10+ Save 30%<\/span><br>\n{% endif %}"
+            "custom_liquid": "{% if product.tags contains 'B2S50' %}\n<span class=\"badge color-accent-2\" aria-hidden=\"true\" style=\"float:right;margin:0px\">Buy 2+ Save 50%<\/span><br>\n{% endif %}\n{% if product.tags contains 'B2S30' %}\n<span class=\"badge color-accent-2\" aria-hidden=\"true\" style=\"float:right;margin:0px\">Buy 2+ Save 30%<\/span><br>\n{% endif %}\n{% if product.tags contains 'B10S30' %}\n<span class=\"badge color-accent-2\" aria-hidden=\"true\" style=\"float:right;margin:0px\">Buy 10+ Save 30%<\/span><br>\n{% endif %}\n{% if product.tags contains 'launch' %}\n<span class=\"badge color-accent-2\" aria-hidden=\"true\" style=\"float:right;margin:0px\">New Model<\/span><br>\n{% endif %}"
           }
         },
         "vendor": {
