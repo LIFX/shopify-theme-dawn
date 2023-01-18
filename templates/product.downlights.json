@@ -395,6 +395,45 @@
         "swipe_on_mobile": false
       }
     },
+    "26cb2598-85b5-45ff-83a4-10416e39ab42": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14692782473263__26cb2598-85b5-45ff-83a4-10416e39ab42-167403678521370bf3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Perfectly paired with LIFX Smart Switch"
+          }
+        },
+        "template--14692782473263__26cb2598-85b5-45ff-83a4-10416e39ab42-167403678521370bf3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Control the illumination of your entire space by pairing LIFX Colour Downlight with <a href=\"\/collections\/switches\" title=\"Switches\">LIFX Smart Switch<\/a>. Use each button on the Switch to trigger the perfect Scene, dim your Downlights, and of course turn everything off and on whilst always remaining in standby for nonstop voice control.<\/p>"
+          }
+        },
+        "template--14692782473263__26cb2598-85b5-45ff-83a4-10416e39ab42-167403678521370bf3-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14692782473263__26cb2598-85b5-45ff-83a4-10416e39ab42-167403678521370bf3-0",
+        "template--14692782473263__26cb2598-85b5-45ff-83a4-10416e39ab42-167403678521370bf3-1",
+        "template--14692782473263__26cb2598-85b5-45ff-83a4-10416e39ab42-167403678521370bf3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DownlightUS_Module9_Lifestyle_Half.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "1636000353893885f5": {
       "type": "image-with-text",
       "blocks": {
@@ -420,6 +459,45 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "ccc3159e-7440-46f7-a7fd-fcdeac669426": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14692782473263__ccc3159e-7440-46f7-a7fd-fcdeac669426-167403678521370bf3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Energy efficient & planet friendly"
+          }
+        },
+        "template--14692782473263__ccc3159e-7440-46f7-a7fd-fcdeac669426-167403678521370bf3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LEDs use over 75% less energy than standard lights, and last up to 25 times longer. That means less greenhouse gasses, less waste, and less stress on the environment. All while costing you less on your energy bill.<\/p>"
+          }
+        },
+        "template--14692782473263__ccc3159e-7440-46f7-a7fd-fcdeac669426-167403678521370bf3-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14692782473263__ccc3159e-7440-46f7-a7fd-fcdeac669426-167403678521370bf3-0",
+        "template--14692782473263__ccc3159e-7440-46f7-a7fd-fcdeac669426-167403678521370bf3-1",
+        "template--14692782473263__ccc3159e-7440-46f7-a7fd-fcdeac669426-167403678521370bf3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DownlightUS_Module10_Lifestyle_Half.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -590,7 +668,9 @@
     "59ca5fd8-5aa9-4a65-97b5-413b3cf5a0b0",
     "163591479253a6c41d",
     "16360008950381c4a6",
+    "26cb2598-85b5-45ff-83a4-10416e39ab42",
     "1636000353893885f5",
+    "ccc3159e-7440-46f7-a7fd-fcdeac669426",
     "1636083188021f8436",
     "1635139699342ea047",
     "16359041219d05cf7f",
