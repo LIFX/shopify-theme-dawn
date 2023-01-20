@@ -20,6 +20,10 @@
 	<a href="{{ product.metafields.my_fields.fr_amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">Amazon FR</span></a>   
 {% endif %}
+{% if product.metafields.my_fields.us_homedepot_affiliate != blank %}
+	<a href="{{ product.metafields.my_fields.us_homedepot_affiliate }}" class="mobile_external affiliateLink" target="_blank">
+    <span class="product__text caption-with-letter-spacing">The Home Depot</span></a>   
+{% endif %}
 {% if product.metafields.my_fields.us_amazon_affiliate != blank %}
 	<a href="{{ product.metafields.my_fields.us_amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">Amazon</span></a>   
