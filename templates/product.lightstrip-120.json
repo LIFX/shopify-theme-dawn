@@ -47,6 +47,12 @@
           "settings": {
           }
         },
+        "a071728e-20a2-420e-b911-e1fb173577e5": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
           "type": "text",
           "disabled": true,
@@ -96,6 +102,7 @@
         "subtitle",
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
         "eb58cf06-12c0-46aa-8606-f94463c705e3",
+        "a071728e-20a2-420e-b911-e1fb173577e5",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
         "855ad892-8e71-400d-9280-f8bc7696049f",
