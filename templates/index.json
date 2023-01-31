@@ -53,7 +53,6 @@
         "template--14684223012911__51164ae9-7d5d-43ee-beb9-fc2a3195442f-1674190780d919ae77-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Downlight_Launch_AU.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -99,6 +98,44 @@
         "website_us": true
       }
     },
+    "2f60e8cf-0317-436c-91c6-5fd477720a91": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15167164154037__2f60e8cf-0317-436c-91c6-5fd477720a91-1675208366440183c7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet the new LIFX Color Downlight"
+          }
+        },
+        "template--15167164154037__2f60e8cf-0317-436c-91c6-5fd477720a91-1675208366440183c7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Seriously bright and efficient:<\/strong><br\/>800 lumens (65 watt equivalent) from just 9 watts.<\/p><p><strong>Seriously good color:<\/strong><br\/>Superior color handling and calibration.<br\/>Plus the brightest in-market RGB color output.<br\/><br\/>Available now at <a href=\"https:\/\/www.homedepot.com\/s\/323938832?NCNI-5\" title=\"https:\/\/www.homedepot.com\/s\/323938832?NCNI-5\">Home Depot<\/a><\/p>"
+          }
+        },
+        "template--15167164154037__2f60e8cf-0317-436c-91c6-5fd477720a91-1675208366440183c7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/products\/color-downlight-1-pack"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167164154037__2f60e8cf-0317-436c-91c6-5fd477720a91-1675208366440183c7-0",
+        "template--15167164154037__2f60e8cf-0317-436c-91c6-5fd477720a91-1675208366440183c7-1",
+        "template--15167164154037__2f60e8cf-0317-436c-91c6-5fd477720a91-1675208366440183c7-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DownlightUS_Module4_Lifestyle_Half.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
     "16417795474723f926": {
       "type": "featured-collection",
       "settings": {
@@ -115,7 +152,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "1634272844a70d2ca1": {
@@ -663,6 +704,7 @@
     "16360812376e144b22",
     "51164ae9-7d5d-43ee-beb9-fc2a3195442f",
     "d8ba2a35-1d9c-4bf1-9901-3e9b8efaa157",
+    "2f60e8cf-0317-436c-91c6-5fd477720a91",
     "16417795474723f926",
     "1634272844a70d2ca1",
     "4d925022-1924-4479-8f3d-9773424662f2",
