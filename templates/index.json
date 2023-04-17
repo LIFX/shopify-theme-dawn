@@ -284,7 +284,7 @@
         "3859260f-fcf6-4178-bf45-6d61a29092ae": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/www.amazon.com\/gp\/product\/B073177QS8\/\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin:0px;width:100%\">Amazon<\/span><\/a>"
+            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/www.homedepot.com\/s\/323937527?NCNI-5\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">The Home Depot<\/span><\/a>\n<a href=\"https:\/\/www.acehardware.com\/departments\/lighting-and-electrical\/undercabinet-lighting\/accent-lighting\/3011612\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">Ace Hardware<\/span><\/a>\n<a href=\"https:\/\/www.amazon.com\/gp\/product\/B073177QS8\/\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">Amazon<\/span><\/a>"
           }
         }
       },
