@@ -22,6 +22,12 @@
             "text_style": "uppercase"
           }
         },
+        "7387b7de-6305-48b3-b238-86decdf43ea8": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/Polychrome_f4d8a9d7-3290-48a8-98bf-ac4d5603ee0e.png?v=1683175881\" style=\"margin:0;width:150px\" >"
+          }
+        },
         "subtitle": {
           "type": "text",
           "settings": {
@@ -133,6 +139,7 @@
         "vendor",
         "title",
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
+        "7387b7de-6305-48b3-b238-86decdf43ea8",
         "subtitle",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "31c1d1b5-b3a4-4f4c-8bbb-41d6f2175ef5",
