@@ -15,6 +15,12 @@
           "settings": {
           }
         },
+        "98c2b592-144e-44bc-b7bd-b3badf4922bd": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/Polychrome_f4d8a9d7-3290-48a8-98bf-ac4d5603ee0e.png?v=1683175881\" style=\"margin:0;width:150px\" >"
+          }
+        },
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f": {
           "type": "text",
           "settings": {
@@ -92,6 +98,7 @@
       "block_order": [
         "vendor",
         "title",
+        "98c2b592-144e-44bc-b7bd-b3badf4922bd",
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "855ad892-8e71-400d-9280-f8bc7696049f",
@@ -247,6 +254,9 @@
       "settings": {
         "image": "{{ product.metafields.my_fields.image4.value }}",
         "image_2": "{{ product.metafields.my_fields.image5.value }}",
+        "text_button_1": "",
+        "text_button_2": "",
+        "text_button_3": "",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
