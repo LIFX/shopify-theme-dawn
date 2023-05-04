@@ -1,11 +1,11 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 
 {% if request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
-  <h1 id="recover" tabindex="-1">
+  <h1>
     Customer Accounts Not Supported
   </h1>
 {% elsif request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
-    <h1 id="recover" tabindex="-1">
+    <h1>
     Customer Accounts Not Supported
   </h1>
 {% else %}
