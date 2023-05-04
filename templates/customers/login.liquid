@@ -1,13 +1,15 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 
 {% if request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
-  <h1>
+<div class="customer login">  <h1>
     Customer Accounts Not Supported
   </h1>
+</div>
 {% elsif request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
-    <h1>
+<div class="customer login">  <h1>
     Customer Accounts Not Supported
   </h1>
+</div>
 {% else %}
 
 <div class="customer login">
