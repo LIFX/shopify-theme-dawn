@@ -1,7 +1,7 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 
-{% if section.settings.website_us == false and request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
-{% elsif section.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
+{% if request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
+{% elsif request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
 {% else %}
 
 <div class="customer login">
