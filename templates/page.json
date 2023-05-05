@@ -2,11 +2,322 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "f5897998-1b4a-4899-9859-f17c76016660": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/color_hero_banner.png",
+        "adapt_height_first_image": true,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "c0a85f22-b3a0-4bdc-819b-77f8c654ba40": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15167163498677__c0a85f22-b3a0-4bdc-819b-77f8c654ba40-16832625061514dc0d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Good color might be science, but we got it down to a fine art."
+          }
+        },
+        "template--15167163498677__c0a85f22-b3a0-4bdc-819b-77f8c654ba40-16832625061514dc0d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our colors have tested up to 5x more powerful than other smart brands across flagship products. Yep, even that brand you’re thinking of now. How do we know? As part of our process, we do RGB specific Lumen output testing in our spectrometer across products by leading competitors.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167163498677__c0a85f22-b3a0-4bdc-819b-77f8c654ba40-16832625061514dc0d-0",
+        "template--15167163498677__c0a85f22-b3a0-4bdc-819b-77f8c654ba40-16832625061514dc0d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/color_chart_placeholder.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "8d63d1bd-96ce-4b36-aed1-2f27c05b751e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15167163498677__8d63d1bd-96ce-4b36-aed1-2f27c05b751e-16832625061514dc0d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What can more powerful  color do for me?"
+          }
+        },
+        "template--15167163498677__8d63d1bd-96ce-4b36-aed1-2f27c05b751e-16832625061514dc0d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At LIFX, we feel the power of color strongly impacts the usefulness of smart lighting. More power in color means less gimmicky lights in the world that end up in landfill and more atmospheric light you can actually use for real benefits. Benefits like improving sleep, focusing on work, upping the ante on workouts and creating a home full of flexible spaces that would otherwise remain the same, day in, day out). <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167163498677__8d63d1bd-96ce-4b36-aed1-2f27c05b751e-16832625061514dc0d-0",
+        "template--15167163498677__8d63d1bd-96ce-4b36-aed1-2f27c05b751e-16832625061514dc0d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/color_placeholder.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "370710cc-f3f8-494e-bd02-19f278ca5611": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15167163498677__370710cc-f3f8-494e-bd02-19f278ca5611-1683262699bdefaec3-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cnet_7dd1c169-4be9-48c6-95df-d7188d7dbd26.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "template--15167163498677__370710cc-f3f8-494e-bd02-19f278ca5611-1683262699bdefaec3-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wired.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "template--15167163498677__370710cc-f3f8-494e-bd02-19f278ca5611-1683262699bdefaec3-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/t3_8562a596-69b3-4b83-8d01-6d8c2f0512e4.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15167163498677__370710cc-f3f8-494e-bd02-19f278ca5611-1683262699bdefaec3-0",
+        "template--15167163498677__370710cc-f3f8-494e-bd02-19f278ca5611-1683262699bdefaec3-1",
+        "template--15167163498677__370710cc-f3f8-494e-bd02-19f278ca5611-1683262699bdefaec3-2"
+      ],
+      "settings": {
+        "title": "Other people who think our color is tops...",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "0bf6e9e4-1aef-4f2a-9bd6-ef45fa57ec90": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Categories_Header_LightBulbs.jpg",
+        "adapt_height_first_image": true,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "51a9e26c-cf27-4c4a-9aae-8a31cb1aaba9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15167163498677__51a9e26c-cf27-4c4a-9aae-8a31cb1aaba9-16832625061514dc0d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We use superior hardware."
+          }
+        },
+        "template--15167163498677__51a9e26c-cf27-4c4a-9aae-8a31cb1aaba9-16832625061514dc0d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We select premium LEDs specifically to boost color and open up a broader spectrum. Unlike many other smart lights, we don’t use pre-made RGB LED kits (aka ‘the easy way’). We select each individual LED based off very specific performance requirements to create a more potent color experience (what we’d call ‘the LIFX way’.) Deeper primary colors mean you can mix a broader spectrum of richer shades, and we wanted all of them.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167163498677__51a9e26c-cf27-4c4a-9aae-8a31cb1aaba9-16832625061514dc0d-0",
+        "template--15167163498677__51a9e26c-cf27-4c4a-9aae-8a31cb1aaba9-16832625061514dc0d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bulbie.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "52c03ccb-5073-493a-851e-4cc0caf63211": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15167163498677__52c03ccb-5073-493a-851e-4cc0caf63211-16832625061514dc0d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our bulbs self-stabilize their color output."
+          }
+        },
+        "template--15167163498677__52c03ccb-5073-493a-851e-4cc0caf63211-16832625061514dc0d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Colors shift over time as LEDs heat up. So we created an algorithm that uses data from internal heat sensors to actively calibrate color, adjusting the various LEDs over time to counteract this drift. When you turn on a LIFX light, you’re setting off a chain of mathematical calculations that will ensure your flamingo pink is going to stay at maximum flamingo—not slide off into salmon, fuchsia, mink or coral.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167163498677__52c03ccb-5073-493a-851e-4cc0caf63211-16832625061514dc0d-0",
+        "template--15167163498677__52c03ccb-5073-493a-851e-4cc0caf63211-16832625061514dc0d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ColorSolver_Firmware_Announce.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "74c95b4e-d625-4699-8033-fe12e69af1b7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15167163498677__74c95b4e-d625-4699-8033-fe12e69af1b7-16832625061514dc0d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We can blend subtle tones (like our broadest range of whites.)"
+          }
+        },
+        "template--15167163498677__74c95b4e-d625-4699-8033-fe12e69af1b7-16832625061514dc0d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These extra-vibrant LEDs and highly controlled color rendering also gives us other strengths. We blend them in with our white LEDs to get the warmest ambers and the coolest icy whites in the industry. This means more invigorating high-energy whites and deeper relaxing evening tones than any other smart bulb.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167163498677__74c95b4e-d625-4699-8033-fe12e69af1b7-16832625061514dc0d-0",
+        "template--15167163498677__74c95b4e-d625-4699-8033-fe12e69af1b7-16832625061514dc0d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/imgae_placeholder.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "dd3d3d23-76f7-4208-a717-55cde28cc9e7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15167163498677__dd3d3d23-76f7-4208-a717-55cde28cc9e7-16832625061514dc0d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We use a unified color space and calibrate each product."
+          }
+        },
+        "template--15167163498677__dd3d3d23-76f7-4208-a717-55cde28cc9e7-16832625061514dc0d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s not superior color if you set your living room to yellow and the lamp turns gold while the ceiling goes to shades of neon green. But this is exactly what can happen when color handling is tuned for each product without comparisson. We have an entire engineering phase (all in-house) to test and tune each new product to our LIFX color space and blending logic.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167163498677__dd3d3d23-76f7-4208-a717-55cde28cc9e7-16832625061514dc0d-0",
+        "template--15167163498677__dd3d3d23-76f7-4208-a717-55cde28cc9e7-16832625061514dc0d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BetterOverTime_APP_4.12.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "5ebc62f9-022e-4e8f-9699-b03dd827f686": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15167163498677__5ebc62f9-022e-4e8f-9699-b03dd827f686-1683263288d68078c2-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "candles"
+          }
+        },
+        "template--15167163498677__5ebc62f9-022e-4e8f-9699-b03dd827f686-1683263288d68078c2-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lightbulbs"
+          }
+        },
+        "template--15167163498677__5ebc62f9-022e-4e8f-9699-b03dd827f686-1683263288d68078c2-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lightstrips"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167163498677__5ebc62f9-022e-4e8f-9699-b03dd827f686-1683263288d68078c2-0",
+        "template--15167163498677__5ebc62f9-022e-4e8f-9699-b03dd827f686-1683263288d68078c2-1",
+        "template--15167163498677__5ebc62f9-022e-4e8f-9699-b03dd827f686-1683263288d68078c2-2"
+      ],
+      "settings": {
+        "title": "Colored Lighting Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f5897998-1b4a-4899-9859-f17c76016660",
+    "c0a85f22-b3a0-4bdc-819b-77f8c654ba40",
+    "8d63d1bd-96ce-4b36-aed1-2f27c05b751e",
+    "370710cc-f3f8-494e-bd02-19f278ca5611",
+    "0bf6e9e4-1aef-4f2a-9bd6-ef45fa57ec90",
+    "51a9e26c-cf27-4c4a-9aae-8a31cb1aaba9",
+    "52c03ccb-5073-493a-851e-4cc0caf63211",
+    "74c95b4e-d625-4699-8033-fe12e69af1b7",
+    "dd3d3d23-76f7-4208-a717-55cde28cc9e7",
+    "5ebc62f9-022e-4e8f-9699-b03dd827f686"
   ]
 }
