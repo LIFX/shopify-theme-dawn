@@ -94,7 +94,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/cnet_7dd1c169-4be9-48c6-95df-d7188d7dbd26.png",
             "title": "",
-            "text": ""
+            "text": "<p>Quote goes here<\/p>"
           }
         },
         "template--15167163498677__370710cc-f3f8-494e-bd02-19f278ca5611-1683262699bdefaec3-1": {
@@ -102,7 +102,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/wired.png",
             "title": "",
-            "text": ""
+            "text": "<p>Quote goes here<\/p>"
           }
         },
         "template--15167163498677__370710cc-f3f8-494e-bd02-19f278ca5611-1683262699bdefaec3-2": {
