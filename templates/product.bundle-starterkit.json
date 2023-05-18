@@ -1,0 +1,311 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "ef6d3984-5032-4c7c-acf4-b2d20b27db2a": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "8327c308-fc3b-4676-aabf-47fc7c0c7fab": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<s class=\"price-item price-item--regular\">$139.97<\/s> <span class=\"price-item price-item--sale\">$109.99<\/span><br><strong><span style=\"color:red\">Save $29.98<\/span><\/strong>",
+            "text_style": "subtitle"
+          }
+        },
+        "eb58cf06-12c0-46aa-8606-f94463c705e3": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "9f934aea-48a2-4297-8fdc-6750eeb9ae64": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>Bundle Includes:<\/strong><br>2 x LIFX Color 800lm E26<br>1 x LIFX Lightstrip 40”",
+            "text_style": "body"
+          }
+        },
+        "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"https:\/\/www.amazon.com\/dp\/B09XPCYC8L?maas=maas_adg_5A7643CA612C1D516534ECDA05AE4E32_afap_abs&ref_=aa_maas&tag=maas&_encoding=UTF8&tag=l0727-20&linkCode=ur2&linkId=273aacc46bf1ddf56ee0dfb08760476b&camp=1789&creative=9325\" class=\"mobile_external affiliateLink button\" style=\"text-decoration: none;width:100%;color:#fff\">Exclusive to Amazon<\/a>"
+          }
+        },
+        "855ad892-8e71-400d-9280-f8bc7696049f": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{% assign lowest_inventory = product.first_available_variant.inventory_quantity %}\n\n{% for variant in product.variants %}\n  {% if variant.available %}\n    {% if variant.inventory_quantity < lowest_inventory %}\n      {% assign lowest_inventory = variant.inventory_quantity %}\n    {% endif %}\n  {% endif %}\n{% endfor %}\n\n\n{% if product.tags contains \"BFOOS\" or product.tags contains \"bfoos\"%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock\n<\/span>\n{% endif %}"
+          }
+        },
+        "ed281872-1cd9-46fa-94ad-d5ddb0031d97": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
+            "content": "<p><span style=\"text-decoration:underline\"><strong>LIFX Color 800lm E26<\/strong><\/span><strong><br\/>Brightness: <\/strong>800 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>9.0W at full brightness<br\/><strong>Wattage Eq: <\/strong>60W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>235°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>2.36in x 2.36in x 4.13in<br\/><br\/><span style=\"text-decoration:underline\"><strong>LIFX Lightstrip 40\"<br\/><\/strong><\/span><strong>Brightness: <\/strong>700 Lumens<br\/><strong>Colour rendering index<\/strong>(<strong>CRI): <\/strong>80<br\/><strong>Wattage Use: <\/strong>8.0W at full brightness<br\/><strong>Wattage Eq: <\/strong>45W Incandescent<br\/><strong>Wattage on Standby: <\/strong>Less than 0.5W<br\/><strong>Voltage Range: <\/strong>AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature: <\/strong>1500K to 9000K<br\/><strong>Beam Angle: <\/strong>120°<br\/><strong>Dimming: <\/strong>Software dimming 1% -100%<br\/><strong>Wi-Fi: <\/strong>2.4GHz<br\/><strong>Security: <\/strong>WPA, WPA2<br\/><strong>Dims: <\/strong>39.37in x 0.47in x 0.16in<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
+        "ef6d3984-5032-4c7c-acf4-b2d20b27db2a",
+        "subtitle",
+        "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
+        "eb58cf06-12c0-46aa-8606-f94463c705e3",
+        "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
+        "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
+        "855ad892-8e71-400d-9280-f8bc7696049f",
+        "ed281872-1cd9-46fa-94ad-d5ddb0031d97"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": true,
+        "enable_video_looping": true
+      }
+    },
+    "16372767243e83d044": {
+      "type": "multicolumn",
+      "blocks": {
+        "1637276724eb92fe7d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/00_1PACK_LIFX_Color_Image_Hero_US.jpg",
+            "title": "2 x LIFX Color 800lm E26",
+            "text": "<p>A compact smart light that features a massive range of colors and shades of whites. With one simple schedule, LIFX Color can transition from bright whites in the mornings to dim ambers in the evening, which will maintain your circadian rhythm for a healthier sleep-wake cycle. At night, avoid all blue light by setting your lights to red. <\/p>"
+          }
+        },
+        "1637276724eb92fe7d-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/00_Lightstrip_40in_Packaging_US_1100x_183f3afd-1ab0-4c71-be0b-34004e333e26.jpg",
+            "title": "1 x LIFX Lightstrip 40\"",
+            "text": "<p>A flexible LED strip with endless color options to set the mood to whatever workout style you choose. Place a LIFX Lightstrip around the edges of your floor and ceiling, then calm your aura with soothing pinks for your yoga session. Fuel your weight lifting sessions with invigorating, 6000K whites. Or keep HIIT fun with animated rainbows.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1637276724eb92fe7d-0",
+        "1637276724eb92fe7d-1"
+      ],
+      "settings": {
+        "title": "What's included",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "163727672724969a9b": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerSLEEP_LandingPage-1.png",
+        "adapt_height_first_image": false,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1635139699342ea047": {
+      "type": "multicolumn",
+      "blocks": {
+        "1635139699342ea047-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hey_google.jpg",
+            "workswith": "shopify:\/\/shop_images\/WorksWith_Badge_with_border_HeyGoogle_horizontal_CMYK_color_EN-US.png",
+            "title": "",
+            "text": "<p>Ask Google to control smart devices in your home. No matter where you are, get things done – whenever you want.<br\/><br\/>\"Hey Google, dim the living room lights and turn on Netflix.\"<\/p>"
+          }
+        },
+        "1635139699342ea047-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Echo-Dot-with-clock_-Glacier-White_-Bedroom.jpg",
+            "workswith": "shopify:\/\/shop_images\/Amazon_Alexa_Works_With_RGB.png",
+            "title": "",
+            "text": "<p>LIFX works with Amazon Alexa products to control your lights with your voice. No need to unlock your phone and open the app.<br\/><br\/>\"Alexa... Set the living room to warm white.”<\/p>"
+          }
+        },
+        "1635139699342ea047-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/07_LIFX-GU10-Kitchen-c1.jpg",
+            "workswith": "shopify:\/\/shop_images\/png_version.png",
+            "title": "",
+            "text": "<p>Turn your iPhone into a universal remote for your smart home with Apple HomeKit.<br\/><br\/>Say \"Siri, I'm home,\" and have HomeKit unlock your door and set your LIFX lighting to your favourite scene.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635139699342ea047-0",
+        "1635139699342ea047-1",
+        "1635139699342ea047-2"
+      ],
+      "settings": {
+        "title": "Hey Google, Alexa, Siri...",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16359041219d05cf7f": {
+      "type": "collage",
+      "blocks": {
+        "16359041219d05cf7f-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/WHITE-WHEEL-TOUR-_KELVINS_-HD720P_2.jpg",
+            "video_url": "https:\/\/youtu.be\/Ka3PzXyktHc",
+            "description": "Good morning",
+            "image_padding": false
+          }
+        },
+        "e09ecd8f-3a0e-499e-95bf-0dae8081c7ba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LIFX_Color_LiveInColor-AppPage-HR-Square.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "16359041219d05cf7f-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "lightbulbs",
+            "image_padding": false,
+            "color_scheme": "accent-1"
+          }
+        }
+      },
+      "block_order": [
+        "16359041219d05cf7f-0",
+        "e09ecd8f-3a0e-499e-95bf-0dae8081c7ba",
+        "16359041219d05cf7f-2"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1635892427a2cdb2bc": {
+      "type": "multicolumn",
+      "blocks": {
+        "1635892427a2cdb2bc-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/t3.png",
+            "title": "LIFX smart bulbs deliver excellent smart lighting",
+            "text": "<p>\"They're really very good as smart bulbs, nailing the colour aspect perfectly, responding well to commands, and tying in neatly to your choice of smart assistant. The app offers one-touch control of your connected lights, and some very detailed control deeper down, and everything's easy to set up and get running.\"<br\/><a href=\"https:\/\/www.t3.com\/au\/features\/best-smart-bulbs\" target=\"_blank\" title=\"https:\/\/www.t3.com\/au\/features\/best-smart-bulbs\">Read more<\/a><\/p>"
+          }
+        },
+        "1635892427a2cdb2bc-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cnet_logo.png",
+            "title": "Best color-changing smart bulb",
+            "text": "<p>\"Like I said, I think Lifx lights belong right at the top of your list if you're looking to add a smart pop of color to your home's lighting systems. The brand sells a variety of bulbs and smart lights that all put out bright, great-looking colors, all of which can connect with Alexa, Siri or Google Assistant with absolutely no need for a hub.\"<\/p><p><a href=\"https:\/\/www.cnet.com\/home\/energy-and-utilities\/best-smart-lights\/\" target=\"_blank\" title=\"https:\/\/www.cnet.com\/home\/energy-and-utilities\/best-smart-lights\/\">Read more<\/a><\/p><p><br\/><\/p>"
+          }
+        },
+        "601c041a-4aa0-4b40-9501-c18cd7e73170": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/techradar-logo.png",
+            "title": "LIFX smart bulbs deliver excellent smart lighting",
+            "text": "<p>\"LIFX offers a plethora of smart light options; from color and white bulbs, that come both in full size and the more compact LIFX Mini design, as well as lightstrips, LIFX Beam - the brands own take on smart light wall art and LIFX Clean - a smart light that can also kill bacteria.\"<\/p><p><a href=\"https:\/\/www.techradar.com\/au\/news\/best-smart-lighting\" target=\"_blank\" title=\"https:\/\/www.techradar.com\/au\/news\/best-smart-lighting\">Read more<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635892427a2cdb2bc-0",
+        "1635892427a2cdb2bc-1",
+        "601c041a-4aa0-4b40-9501-c18cd7e73170"
+      ],
+      "settings": {
+        "title": "Testimonials & Awards",
+        "image_width": "half",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16372767243e83d044",
+    "163727672724969a9b",
+    "1635139699342ea047",
+    "16359041219d05cf7f",
+    "1635892427a2cdb2bc",
+    "product-recommendations"
+  ]
+}
