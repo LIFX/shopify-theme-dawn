@@ -58,7 +58,7 @@
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"https:\/\/www.amazon.com\/dp\/B09XPCYC8L?maas=maas_adg_5A7643CA612C1D516534ECDA05AE4E32_afap_abs&ref_=aa_maas&tag=maas&_encoding=UTF8&tag=l0727-20&linkCode=ur2&linkId=273aacc46bf1ddf56ee0dfb08760476b&camp=1789&creative=9325\" class=\"mobile_external affiliateLink button\" style=\"text-decoration: none;width:100%;color:#fff\">Exclusive to Amazon<\/a>"
+            "custom_liquid": "<a href=\"#\" class=\"mobile_external affiliateLink button\" style=\"text-decoration: none;width:100%;color:#fff\">Exclusive to The Home Depot<\/a>"
           }
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
@@ -137,6 +137,7 @@
     },
     "163727672724969a9b": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerSLEEP_LandingPage-1.png",
         "adapt_height_first_image": false,
