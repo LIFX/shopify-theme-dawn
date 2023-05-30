@@ -6,8 +6,21 @@
       "settings": {
       }
     },
+    "a5d05206-f49c-48a8-871a-2d85b94d429b": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8c286ce635a64a409c9b4f7ec72420ae.mp4",
+        "description": "",
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "f0ce7e40-bfb1-4bab-b26d-fc141b268b4e": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -17,6 +30,7 @@
     },
     "f5897998-1b4a-4899-9859-f17c76016660": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/color_hero_banner.png",
         "adapt_height_first_image": true,
@@ -356,6 +370,7 @@
   },
   "order": [
     "main",
+    "a5d05206-f49c-48a8-871a-2d85b94d429b",
     "f0ce7e40-bfb1-4bab-b26d-fc141b268b4e",
     "f5897998-1b4a-4899-9859-f17c76016660",
     "c0a85f22-b3a0-4bdc-819b-77f8c654ba40",
