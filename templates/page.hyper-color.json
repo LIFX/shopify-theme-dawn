@@ -86,6 +86,46 @@
         "website_us": true
       }
     },
+    "b80a52a1-e177-4c11-8fbc-8bee1619584c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15812539416757__b80a52a1-e177-4c11-8fbc-8bee1619584c-1685424109367d5f66-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Polychrome Technology™",
+            "workswith": "shopify:\/\/shop_images\/Polychrome_f4d8a9d7-3290-48a8-98bf-ac4d5603ee0e.png"
+          }
+        },
+        "template--15812539416757__b80a52a1-e177-4c11-8fbc-8bee1619584c-1685424109367d5f66-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Why choose one color when you can use our unique Polychrome tech to paint your LIFX colored lights in an array of hues? Transform your space as each individual color works together to create an ombre effect in a single light. Then animate the colors to create movement effects like waves or candlelight flickers. What will you create?<\/p>"
+          }
+        },
+        "template--15812539416757__b80a52a1-e177-4c11-8fbc-8bee1619584c-1685424109367d5f66-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15812539416757__b80a52a1-e177-4c11-8fbc-8bee1619584c-1685424109367d5f66-0",
+        "template--15812539416757__b80a52a1-e177-4c11-8fbc-8bee1619584c-1685424109367d5f66-1",
+        "template--15812539416757__b80a52a1-e177-4c11-8fbc-8bee1619584c-1685424109367d5f66-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/green-orange-and-yellow-ink_ab873a21-9b8d-4a13-bea2-af764270815d.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "370710cc-f3f8-494e-bd02-19f278ca5611": {
       "type": "multicolumn",
       "blocks": {
@@ -312,6 +352,7 @@
     "f5897998-1b4a-4899-9859-f17c76016660",
     "c0a85f22-b3a0-4bdc-819b-77f8c654ba40",
     "8d63d1bd-96ce-4b36-aed1-2f27c05b751e",
+    "b80a52a1-e177-4c11-8fbc-8bee1619584c",
     "370710cc-f3f8-494e-bd02-19f278ca5611",
     "0bf6e9e4-1aef-4f2a-9bd6-ef45fa57ec90",
     "51a9e26c-cf27-4c4a-9aae-8a31cb1aaba9",
