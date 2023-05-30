@@ -6,6 +6,15 @@
       "settings": {
       }
     },
+    "f0ce7e40-bfb1-4bab-b26d-fc141b268b4e": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true
+      }
+    },
     "f5897998-1b4a-4899-9859-f17c76016660": {
       "type": "image-banner",
       "settings": {
@@ -347,6 +356,7 @@
   },
   "order": [
     "main",
+    "f0ce7e40-bfb1-4bab-b26d-fc141b268b4e",
     "f5897998-1b4a-4899-9859-f17c76016660",
     "c0a85f22-b3a0-4bdc-819b-77f8c654ba40",
     "8d63d1bd-96ce-4b36-aed1-2f27c05b751e",
