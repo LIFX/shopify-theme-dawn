@@ -92,8 +92,7 @@
         "template--15812539416757__b80a52a1-e177-4c11-8fbc-8bee1619584c-1685424109367d5f66-0": {
           "type": "heading",
           "settings": {
-            "heading": "Polychrome Technology™",
-            "workswith": "shopify:\/\/shop_images\/Polychrome_f4d8a9d7-3290-48a8-98bf-ac4d5603ee0e.png"
+            "heading": "Polychrome Technology™"
           }
         },
         "template--15812539416757__b80a52a1-e177-4c11-8fbc-8bee1619584c-1685424109367d5f66-1": {
@@ -104,10 +103,9 @@
         },
         "template--15812539416757__b80a52a1-e177-4c11-8fbc-8bee1619584c-1685424109367d5f66-2": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "View Products",
+            "button_link": "shopify:\/\/collections\/polychrome-technology"
           }
         }
       },
