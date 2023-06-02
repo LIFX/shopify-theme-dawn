@@ -136,7 +136,7 @@
         "image": "shopify:\/\/shop_images\/US_downlight.png",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first",
+        "layout": "text_first",
         "website_au": false,
         "website_ukeu": false,
         "website_us": true
