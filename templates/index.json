@@ -393,6 +393,7 @@
     },
     "1659523741fd7a454b": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1659523741e3857d06-0": {
           "type": "heading",
