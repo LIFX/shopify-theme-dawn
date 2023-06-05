@@ -89,6 +89,7 @@
     },
     "163511514557906dec": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "cover_image": "shopify:\/\/shop_images\/WHITE-WHEEL-TOUR-_KELVINS_-HD720P_2.jpg",
