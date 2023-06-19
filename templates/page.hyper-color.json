@@ -285,11 +285,19 @@
           "settings": {
             "text": "<p>These extra-vibrant LEDs and highly controlled color rendering also gives us other strengths. We blend them in with our white LEDs to get the warmest ambers and the coolest icy whites in the industry. This means more invigorating high-energy whites and deeper relaxing evening tones than any other smart bulb.<\/p>"
           }
+        },
+        "39eb5c67-ac58-4324-8497-84cc6625056b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/blogs\/learn\/understanding-kelvin-and-light-temperature"
+          }
         }
       },
       "block_order": [
         "template--15167163498677__74c95b4e-d625-4699-8033-fe12e69af1b7-16832625061514dc0d-0",
-        "template--15167163498677__74c95b4e-d625-4699-8033-fe12e69af1b7-16832625061514dc0d-1"
+        "template--15167163498677__74c95b4e-d625-4699-8033-fe12e69af1b7-16832625061514dc0d-1",
+        "39eb5c67-ac58-4324-8497-84cc6625056b"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Kelvin-Advantage---LIFX-Smart-Lights---Animation2.gif",
