@@ -295,6 +295,9 @@
       "settings": {
         "image": "{{ product.metafields.my_fields.image4.value }}",
         "image_2": "{{ product.metafields.my_fields.image5.value }}",
+        "text_button_1": "",
+        "text_button_2": "",
+        "text_button_3": "",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
@@ -426,7 +429,7 @@
         "background_style": "secondary",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "16359041219d05cf7f": {
