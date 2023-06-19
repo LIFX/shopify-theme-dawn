@@ -263,14 +263,23 @@
           "settings": {
             "text": "<p>Colors shift over time as LEDs heat up. So we created an algorithm that uses data from internal heat sensors to actively calibrate color, adjusting the various LEDs over time to counteract this drift. When you turn on a LIFX light, you’re setting off a chain of mathematical calculations that will ensure your flamingo pink is going to stay at maximum flamingo—not slide off into salmon, fuchsia, mink or coral.<\/p>"
           }
+        },
+        "222f6dd4-3769-4994-b605-d8cc4a931862": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "template--15167163498677__52c03ccb-5073-493a-851e-4cc0caf63211-16832625061514dc0d-0",
-        "template--15167163498677__52c03ccb-5073-493a-851e-4cc0caf63211-16832625061514dc0d-1"
+        "template--15167163498677__52c03ccb-5073-493a-851e-4cc0caf63211-16832625061514dc0d-1",
+        "222f6dd4-3769-4994-b605-d8cc4a931862"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ColorSolver_Firmware_Announce.jpg",
+        "image": "shopify:\/\/shop_images\/Colour-Output-Stability_crop.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
