@@ -13,6 +13,57 @@
         "website_us": true
       }
     },
+    "94f4f55f-c413-408e-948e-20100e62d29e": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unforgettable Color.",
+            "heading_size": "medium"
+          }
+        },
+        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-1": {
+          "type": "text",
+          "settings": {
+            "text": "Good color might be science, but we got it down to a fine art. Learn how the team at LIFX create a color so vivid and immersive that we proudly call it supercolor."
+          }
+        },
+        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Lean more",
+            "button_link_1": "shopify:\/\/pages\/supercolor",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-0",
+        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-1",
+        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/color_hero_banner.png",
+        "adapt_height_first_image": true,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "inverse",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
     "1632116257dff5145e": {
       "type": "image-banner",
       "blocks": {
@@ -842,61 +893,11 @@
         "button_link": "",
         "swipe_on_mobile": true
       }
-    },
-    "94f4f55f-c413-408e-948e-20100e62d29e": {
-      "type": "image-banner",
-      "blocks": {
-        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Unforgettable Color.",
-            "heading_size": "medium"
-          }
-        },
-        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-1": {
-          "type": "text",
-          "settings": {
-            "text": "Good color might be science, but we got it down to a fine art. Learn how the team at LIFX create a color so vivid and immersive that we proudly call it LIFX Supercolor."
-          }
-        },
-        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Lean more",
-            "button_link_1": "shopify:\/\/pages\/supercolor",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-0",
-        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-1",
-        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/color_hero_banner.png",
-        "adapt_height_first_image": true,
-        "banner_height_overide": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "crop_image_alignment": "center",
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": false
-      }
     }
   },
   "order": [
     "165942093296a32cfe",
+    "94f4f55f-c413-408e-948e-20100e62d29e",
     "1632116257dff5145e",
     "ffe2080a-0955-4a2b-80e8-986d8a3396a6",
     "0dd3dcaf-09bf-4cbb-a790-4eff0a126814",
@@ -919,7 +920,6 @@
     "16371499188aae96be",
     "1659683200336d6c1b",
     "163210701498163fc8",
-    "56fcb3dd-693e-4f7e-9107-059d1c49b60a",
-    "94f4f55f-c413-408e-948e-20100e62d29e"
+    "56fcb3dd-693e-4f7e-9107-059d1c49b60a"
   ]
 }
