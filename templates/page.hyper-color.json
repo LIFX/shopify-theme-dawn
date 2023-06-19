@@ -93,11 +93,19 @@
           "settings": {
             "text": "<p>At LIFX, we feel the power of color strongly impacts the usefulness of smart lighting. More power in color means less gimmicky lights in the world that end up in landfill and more atmospheric light you can actually use for real benefits. Benefits like improving sleep, focusing on work, upping the ante on workouts and creating a home full of flexible spaces that would otherwise remain the same, day in, day out). <\/p>"
           }
+        },
+        "fa58397a-a46d-4f46-b25c-b7835e2aa980": {
+          "type": "button",
+          "settings": {
+            "button_label": "Circadian Rhythm",
+            "button_link": "shopify:\/\/blogs\/learn\/circadian-rhythm-how-switching-your-lights-can-improve-your-sleep-routine"
+          }
         }
       },
       "block_order": [
         "template--15167163498677__8d63d1bd-96ce-4b36-aed1-2f27c05b751e-16832625061514dc0d-0",
-        "template--15167163498677__8d63d1bd-96ce-4b36-aed1-2f27c05b751e-16832625061514dc0d-1"
+        "template--15167163498677__8d63d1bd-96ce-4b36-aed1-2f27c05b751e-16832625061514dc0d-1",
+        "fa58397a-a46d-4f46-b25c-b7835e2aa980"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/color_placeholder.png",
