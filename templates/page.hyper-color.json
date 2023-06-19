@@ -97,7 +97,7 @@
         "fa58397a-a46d-4f46-b25c-b7835e2aa980": {
           "type": "button",
           "settings": {
-            "button_label": "Circadian Rhythm",
+            "button_label": "About Circadian Rhythm",
             "button_link": "shopify:\/\/blogs\/learn\/circadian-rhythm-how-switching-your-lights-can-improve-your-sleep-routine"
           }
         }
@@ -135,7 +135,7 @@
         "template--15812539416757__b80a52a1-e177-4c11-8fbc-8bee1619584c-1685424109367d5f66-2": {
           "type": "button",
           "settings": {
-            "button_label": "View Products",
+            "button_label": "View Polychrome Products",
             "button_link": "shopify:\/\/collections\/polychrome-technology"
           }
         }
