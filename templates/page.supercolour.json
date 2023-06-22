@@ -146,7 +146,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Insider-Logo.png",
             "title": "Business Insider",
-            "text": "<p><em>For the brightest, most vivid colours, nothing can compete with the Lifx Lightstrip with Color Zones.<\/em><\/p>"
+            "text": "<p><em>For the brightest, most vivid colours, nothing can compete with the Lifx Lightstrip with Colour Zones.<\/em><\/p>"
           }
         },
         "template--15622049071151__c2228a0d-cc36-421a-8bf6-8c8405ddb45f-1687416840647c4ca7-1": {
@@ -172,7 +172,7 @@
         "template--15622049071151__c2228a0d-cc36-421a-8bf6-8c8405ddb45f-1687416840647c4ca7-2"
       ],
       "settings": {
-        "title": "Other people who think our color is tops...",
+        "title": "Other people who think our colour is tops...",
         "image_width": "third",
         "image_ratio": "adapt",
         "column_alignment": "center",
@@ -180,6 +180,138 @@
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
+      }
+    },
+    "6017bc97-ce15-4e26-8405-8b2c939e4a7b": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15622049071151__6017bc97-ce15-4e26-8405-8b2c939e4a7b-16874173184e562f8a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "template--15622049071151__6017bc97-ce15-4e26-8405-8b2c939e4a7b-16874173184e562f8a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "template--15622049071151__6017bc97-ce15-4e26-8405-8b2c939e4a7b-16874173184e562f8a-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15622049071151__6017bc97-ce15-4e26-8405-8b2c939e4a7b-16874173184e562f8a-0",
+        "template--15622049071151__6017bc97-ce15-4e26-8405-8b2c939e4a7b-16874173184e562f8a-1",
+        "template--15622049071151__6017bc97-ce15-4e26-8405-8b2c939e4a7b-16874173184e562f8a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BlackFriday_HeroModule-Fix.jpg",
+        "adapt_height_first_image": false,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "98f86fc4-f565-4e63-95b2-a8db8abdf0b0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15622049071151__98f86fc4-f565-4e63-95b2-a8db8abdf0b0-16874165812f4eab2a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We use superior hardware."
+          }
+        },
+        "template--15622049071151__98f86fc4-f565-4e63-95b2-a8db8abdf0b0-16874165812f4eab2a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We select premium LEDs specifically to boost colour and open up a broader spectrum. Unlike many other smart lights, we don’t use pre-made RGB LED kits (aka ‘the easy way’). We select each individual LED based off very specific performance requirements to create a more potent colour experience (what we’d call ‘the LIFX way’.) Deeper primary colours mean you can mix a broader spectrum of richer shades, and we wanted all of them.<\/p>"
+          }
+        },
+        "template--15622049071151__98f86fc4-f565-4e63-95b2-a8db8abdf0b0-16874165812f4eab2a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15622049071151__98f86fc4-f565-4e63-95b2-a8db8abdf0b0-16874165812f4eab2a-0",
+        "template--15622049071151__98f86fc4-f565-4e63-95b2-a8db8abdf0b0-16874165812f4eab2a-1",
+        "template--15622049071151__98f86fc4-f565-4e63-95b2-a8db8abdf0b0-16874165812f4eab2a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Internals_LIFX_LEDsAndChip_crop.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "8e1a7c4a-8dba-4940-886d-0c975219ba37": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15622049071151__8e1a7c4a-8dba-4940-886d-0c975219ba37-16874165812f4eab2a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our bulbs self-stabilise their colour output."
+          }
+        },
+        "template--15622049071151__8e1a7c4a-8dba-4940-886d-0c975219ba37-16874165812f4eab2a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Colours shift over time as LEDs heat up. So we created an algorithm that uses data from internal heat sensors to actively calibrate colour, adjusting the various LEDs over time to counteract this drift. When you turn on a LIFX light, you’re setting off a chain of mathematical calculations that will ensure your flamingo pink is going to stay at maximum flamingo—not slide off into salmon, fuchsia, mink or coral.<\/p>"
+          }
+        },
+        "template--15622049071151__8e1a7c4a-8dba-4940-886d-0c975219ba37-16874165812f4eab2a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15622049071151__8e1a7c4a-8dba-4940-886d-0c975219ba37-16874165812f4eab2a-0",
+        "template--15622049071151__8e1a7c4a-8dba-4940-886d-0c975219ba37-16874165812f4eab2a-1",
+        "template--15622049071151__8e1a7c4a-8dba-4940-886d-0c975219ba37-16874165812f4eab2a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Colour-Output-Stability_crop.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     }
   },
@@ -189,6 +321,9 @@
     "a2f75533-b0cd-46df-830a-ab5ba6b33b2d",
     "80e92342-74fa-4768-8461-c413de4aba82",
     "24be6d93-8081-4dc2-be2a-e8987d25c210",
-    "c2228a0d-cc36-421a-8bf6-8c8405ddb45f"
+    "c2228a0d-cc36-421a-8bf6-8c8405ddb45f",
+    "6017bc97-ce15-4e26-8405-8b2c939e4a7b",
+    "98f86fc4-f565-4e63-95b2-a8db8abdf0b0",
+    "8e1a7c4a-8dba-4940-886d-0c975219ba37"
   ]
 }
