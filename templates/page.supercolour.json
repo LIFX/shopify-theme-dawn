@@ -313,6 +313,119 @@
         "website_ukeu": true,
         "website_us": true
       }
+    },
+    "eaf5dd0e-f93e-4bd1-af76-efa250e4d485": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15622049071151__eaf5dd0e-f93e-4bd1-af76-efa250e4d485-16874165812f4eab2a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We can blend subtle tones (like our broadest range of whites.)"
+          }
+        },
+        "template--15622049071151__eaf5dd0e-f93e-4bd1-af76-efa250e4d485-16874165812f4eab2a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These extra-vibrant LEDs and highly controlled colour rendering also gives us other strengths. We blend them in with our white LEDs to get the warmest ambers and the coolest icy whites in the industry. This means more invigorating high-energy whites and deeper relaxing evening tones than any other smart bulb.<\/p>"
+          }
+        },
+        "template--15622049071151__eaf5dd0e-f93e-4bd1-af76-efa250e4d485-16874165812f4eab2a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/blogs\/learn\/understanding-kelvin-and-light-temperature"
+          }
+        }
+      },
+      "block_order": [
+        "template--15622049071151__eaf5dd0e-f93e-4bd1-af76-efa250e4d485-16874165812f4eab2a-0",
+        "template--15622049071151__eaf5dd0e-f93e-4bd1-af76-efa250e4d485-16874165812f4eab2a-1",
+        "template--15622049071151__eaf5dd0e-f93e-4bd1-af76-efa250e4d485-16874165812f4eab2a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Kelvin-Advantage---LIFX-Smart-Lights---Animation2.gif",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "fa87879f-fc55-4c58-873b-bde4f22cfb31": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15622049071151__fa87879f-fc55-4c58-873b-bde4f22cfb31-16874165812f4eab2a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We use a unified colour space and calibrate each product."
+          }
+        },
+        "template--15622049071151__fa87879f-fc55-4c58-873b-bde4f22cfb31-16874165812f4eab2a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s not superior colour if you set your living room to yellow and the lamp turns gold while the ceiling goes to shades of neon green. But this is exactly what can happen when colour handling is tuned for each product without comparison. We have an entire engineering phase (all in-house) to test and tune each new product to our LIFX colour space and blending logic.<\/p>"
+          }
+        },
+        "template--15622049071151__fa87879f-fc55-4c58-873b-bde4f22cfb31-16874165812f4eab2a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15622049071151__fa87879f-fc55-4c58-873b-bde4f22cfb31-16874165812f4eab2a-0",
+        "template--15622049071151__fa87879f-fc55-4c58-873b-bde4f22cfb31-16874165812f4eab2a-1",
+        "template--15622049071151__fa87879f-fc55-4c58-873b-bde4f22cfb31-16874165812f4eab2a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Calibration_LIFX_Greens.gif",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "d99d19da-6f2c-4964-abf1-0d7811e5d631": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15622049071151__d99d19da-6f2c-4964-abf1-0d7811e5d631-1687417886d811c061-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "candles"
+          }
+        },
+        "template--15622049071151__d99d19da-6f2c-4964-abf1-0d7811e5d631-1687417886d811c061-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lightbulbs"
+          }
+        },
+        "template--15622049071151__d99d19da-6f2c-4964-abf1-0d7811e5d631-1687417886d811c061-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lightstrips"
+          }
+        }
+      },
+      "block_order": [
+        "template--15622049071151__d99d19da-6f2c-4964-abf1-0d7811e5d631-1687417886d811c061-0",
+        "template--15622049071151__d99d19da-6f2c-4964-abf1-0d7811e5d631-1687417886d811c061-1",
+        "template--15622049071151__d99d19da-6f2c-4964-abf1-0d7811e5d631-1687417886d811c061-2"
+      ],
+      "settings": {
+        "title": "Coloured Lighting Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
@@ -324,6 +437,9 @@
     "c2228a0d-cc36-421a-8bf6-8c8405ddb45f",
     "6017bc97-ce15-4e26-8405-8b2c939e4a7b",
     "98f86fc4-f565-4e63-95b2-a8db8abdf0b0",
-    "8e1a7c4a-8dba-4940-886d-0c975219ba37"
+    "8e1a7c4a-8dba-4940-886d-0c975219ba37",
+    "eaf5dd0e-f93e-4bd1-af76-efa250e4d485",
+    "fa87879f-fc55-4c58-873b-bde4f22cfb31",
+    "d99d19da-6f2c-4964-abf1-0d7811e5d631"
   ]
 }
