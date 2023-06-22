@@ -2,10 +2,10 @@
   "sections": {
     "165942093296a32cfe": {
       "type": "video2",
-      "disabled": true,
       "settings": {
         "heading": "",
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8c286ce635a64a409c9b4f7ec72420ae.mp4",
+        "click_through": "shopify:\/\/pages\/supercolor",
         "description": "",
         "full_width": true,
         "website_au": false,
@@ -15,6 +15,7 @@
     },
     "94f4f55f-c413-408e-948e-20100e62d29e": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-0": {
           "type": "heading",
