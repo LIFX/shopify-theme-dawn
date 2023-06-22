@@ -2,14 +2,29 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
       }
+    },
+    "8fb264ab-4e68-43ba-a9e1-643d14dcf636": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8c286ce635a64a409c9b4f7ec72420ae.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "8fb264ab-4e68-43ba-a9e1-643d14dcf636"
   ]
 }
