@@ -2061,6 +2061,10 @@
           "label": "Video alt text",
           "info": "Describe the video to make it accessible for customers using screen readers."
         },
+        "ClickThrough": {
+          "label": "URL to click to",
+          "info": "Link URL"
+        },
         "full_width": {
           "label": "Make section full width"
         }
