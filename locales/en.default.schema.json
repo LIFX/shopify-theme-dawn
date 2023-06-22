@@ -2061,7 +2061,7 @@
           "label": "Video alt text",
           "info": "Describe the video to make it accessible for customers using screen readers."
         },
-        "ClickThrough": {
+        "clickThrough": {
           "label": "URL to click to",
           "info": "Link URL"
         },
