@@ -21,10 +21,174 @@
         "website_ukeu": false,
         "website_us": false
       }
+    },
+    "a2f75533-b0cd-46df-830a-ab5ba6b33b2d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15622049071151__a2f75533-b0cd-46df-830a-ab5ba6b33b2d-16874165812f4eab2a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Good colour might be science, but we got it down to a fine art."
+          }
+        },
+        "template--15622049071151__a2f75533-b0cd-46df-830a-ab5ba6b33b2d-16874165812f4eab2a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our colours have tested up to 5x more powerful than other smart brands across flagship products. Yep, even that brand you’re thinking of now. How do we know? As part of our process, we do RGB specific Lumen output testing in our spectrometer across products by leading competitors.<\/p>"
+          }
+        },
+        "template--15622049071151__a2f75533-b0cd-46df-830a-ab5ba6b33b2d-16874165812f4eab2a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15622049071151__a2f75533-b0cd-46df-830a-ab5ba6b33b2d-16874165812f4eab2a-0",
+        "template--15622049071151__a2f75533-b0cd-46df-830a-ab5ba6b33b2d-16874165812f4eab2a-1",
+        "template--15622049071151__a2f75533-b0cd-46df-830a-ab5ba6b33b2d-16874165812f4eab2a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_SuperiorColor-GIF_AnimationOutput.gif",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "80e92342-74fa-4768-8461-c413de4aba82": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15622049071151__80e92342-74fa-4768-8461-c413de4aba82-16874165812f4eab2a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What can more powerful colour do for me?"
+          }
+        },
+        "template--15622049071151__80e92342-74fa-4768-8461-c413de4aba82-16874165812f4eab2a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At LIFX, we feel the power of colour strongly impacts the usefulness of smart lighting. More power in colour means less gimmicky lights in the world that end up in landfill and more atmospheric light you can actually use for real benefits. Benefits like improving sleep, focusing on work, upping the ante on workouts and creating a home full of flexible spaces that would otherwise remain the same, day in, day out.<\/p>"
+          }
+        },
+        "template--15622049071151__80e92342-74fa-4768-8461-c413de4aba82-16874165812f4eab2a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Circadian Rhythm",
+            "button_link": "shopify:\/\/blogs\/learn\/circadian-rhythm-how-switching-your-lights-can-improve-your-sleep-routine"
+          }
+        }
+      },
+      "block_order": [
+        "template--15622049071151__80e92342-74fa-4768-8461-c413de4aba82-16874165812f4eab2a-0",
+        "template--15622049071151__80e92342-74fa-4768-8461-c413de4aba82-16874165812f4eab2a-1",
+        "template--15622049071151__80e92342-74fa-4768-8461-c413de4aba82-16874165812f4eab2a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PowerfulColor_LIFX_1-1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
+      }
+    },
+    "24be6d93-8081-4dc2-be2a-e8987d25c210": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15622049071151__24be6d93-8081-4dc2-be2a-e8987d25c210-16874165812f4eab2a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Polychrome Technology™"
+          }
+        },
+        "template--15622049071151__24be6d93-8081-4dc2-be2a-e8987d25c210-16874165812f4eab2a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At LIFX, we pioneered blended color in the smart home with our first ever LIFX Z lightstrip. We then took this to another level with our Colour Candle that has 27 addressable colour zones. We call this Polychrome Technology™.<\/p><p>Create gradients of complementary colours to accent your space. Or have fun with your team colours on game night.<\/p>"
+          }
+        },
+        "template--15622049071151__24be6d93-8081-4dc2-be2a-e8987d25c210-16874165812f4eab2a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15622049071151__24be6d93-8081-4dc2-be2a-e8987d25c210-16874165812f4eab2a-0",
+        "template--15622049071151__24be6d93-8081-4dc2-be2a-e8987d25c210-16874165812f4eab2a-1",
+        "template--15622049071151__24be6d93-8081-4dc2-be2a-e8987d25c210-16874165812f4eab2a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Polychrome_01_Themes.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "c2228a0d-cc36-421a-8bf6-8c8405ddb45f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15622049071151__c2228a0d-cc36-421a-8bf6-8c8405ddb45f-1687416840647c4ca7-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Insider-Logo.png",
+            "title": "Business Insider",
+            "text": "<p><em>For the brightest, most vivid colours, nothing can compete with the Lifx Lightstrip with Color Zones.<\/em><\/p>"
+          }
+        },
+        "template--15622049071151__c2228a0d-cc36-421a-8bf6-8c8405ddb45f-1687416840647c4ca7-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mashable_128858c8-de0e-424c-9444-e86f6860ebda.webp",
+            "title": "Mashable",
+            "text": "<p><em>Other smart lights I’ve used are disappointingly dim when you switch to a fun colour, but the LIFX bulbs stay bright no matter what colour you choose.<\/em><\/p><p><\/p>"
+          }
+        },
+        "template--15622049071151__c2228a0d-cc36-421a-8bf6-8c8405ddb45f-1687416840647c4ca7-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Better-Homes-and-Gardens.png",
+            "title": "Better Home & Gardens",
+            "text": "<p><em>This means you can create endless colour and intensity options to fit all your lighting needs, from a romantic dinner to an energising workspace.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15622049071151__c2228a0d-cc36-421a-8bf6-8c8405ddb45f-1687416840647c4ca7-0",
+        "template--15622049071151__c2228a0d-cc36-421a-8bf6-8c8405ddb45f-1687416840647c4ca7-1",
+        "template--15622049071151__c2228a0d-cc36-421a-8bf6-8c8405ddb45f-1687416840647c4ca7-2"
+      ],
+      "settings": {
+        "title": "Other people who think our color is tops...",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
     "main",
-    "8fb264ab-4e68-43ba-a9e1-643d14dcf636"
+    "8fb264ab-4e68-43ba-a9e1-643d14dcf636",
+    "a2f75533-b0cd-46df-830a-ab5ba6b33b2d",
+    "80e92342-74fa-4768-8461-c413de4aba82",
+    "24be6d93-8081-4dc2-be2a-e8987d25c210",
+    "c2228a0d-cc36-421a-8bf6-8c8405ddb45f"
   ]
 }
