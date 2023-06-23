@@ -4,8 +4,8 @@
       "type": "video2",
       "settings": {
         "heading": "",
-        "video": "",
-        "click_through": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8c286ce635a64a409c9b4f7ec72420ae.mp4",
+        "click_through": "shopify:\/\/pages\/supercolour",
         "description": "",
         "full_width": true,
         "website_au": true,
@@ -332,7 +332,6 @@
         "template--15167164154037__2f60e8cf-0317-436c-91c6-5fd477720a91-1675208366440183c7-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/US_downlight.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -357,11 +356,7 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": true
       }
     },
     "4d925022-1924-4479-8f3d-9773424662f2": {
