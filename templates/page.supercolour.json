@@ -116,10 +116,9 @@
         },
         "template--15622049071151__24be6d93-8081-4dc2-be2a-e8987d25c210-16874165812f4eab2a-2": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "View Polychrome Products",
+            "button_link": "shopify:\/\/collections\/polychrome-technology-1"
           }
         }
       },
