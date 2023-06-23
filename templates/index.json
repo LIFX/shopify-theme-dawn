@@ -51,19 +51,6 @@
         "website_us": false
       }
     },
-    "3336066d-85ab-496b-be5e-9909acd8f92d": {
-      "type": "video2",
-      "settings": {
-        "heading": "",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8c286ce635a64a409c9b4f7ec72420ae.mp4",
-        "click_through": "shopify:\/\/pages\/supercolour",
-        "description": "",
-        "full_width": true,
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": false
-      }
-    },
     "165942093296a32cfe": {
       "type": "video2",
       "settings": {
@@ -75,6 +62,19 @@
         "website_au": false,
         "website_ukeu": false,
         "website_us": true
+      }
+    },
+    "3336066d-85ab-496b-be5e-9909acd8f92d": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8c286ce635a64a409c9b4f7ec72420ae.mp4",
+        "click_through": "shopify:\/\/pages\/supercolour",
+        "description": "",
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
       }
     },
     "0dd3dcaf-09bf-4cbb-a790-4eff0a126814": {
@@ -864,8 +864,8 @@
   },
   "order": [
     "2c8de4cf-3bab-4dce-9142-656965831db3",
-    "3336066d-85ab-496b-be5e-9909acd8f92d",
     "165942093296a32cfe",
+    "3336066d-85ab-496b-be5e-9909acd8f92d",
     "0dd3dcaf-09bf-4cbb-a790-4eff0a126814",
     "1632116257dff5145e",
     "ffe2080a-0955-4a2b-80e8-986d8a3396a6",
