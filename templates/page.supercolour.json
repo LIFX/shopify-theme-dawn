@@ -118,7 +118,7 @@
           "type": "button",
           "settings": {
             "button_label": "View Polychrome Products",
-            "button_link": "shopify:\/\/collections\/polychrome-technology-1"
+            "button_link": "shopify:\/\/collections\/polychrome-technology"
           }
         }
       },
