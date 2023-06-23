@@ -51,6 +51,25 @@
         "website_us": false
       }
     },
+    "fcd0b722-b8a9-4932-9293-fc51595723eb": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "LIFX\/EOFY",
+        "collection": "sale",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
+      }
+    },
     "165942093296a32cfe": {
       "type": "video2",
       "settings": {
@@ -585,46 +604,6 @@
         "website_us": true
       }
     },
-    "1659523741fd7a454b": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1659523741e3857d06-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "We’ve joined the family at Feit Electric.",
-            "workswith": "shopify:\/\/shop_images\/FeitElectric_Logo_LIFXSite.png"
-          }
-        },
-        "1659523741e3857d06-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We’ve found a new home to light up! Read what’s next for the LIFX brand.<\/p><p><\/p>"
-          }
-        },
-        "1659523741e3857d06-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Tell me more",
-            "button_link": "https:\/\/www.lifx.com\/blogs\/learn\/we-re-joining-the-family-at-feit-electric"
-          }
-        }
-      },
-      "block_order": [
-        "1659523741e3857d06-0",
-        "1659523741e3857d06-1",
-        "1659523741e3857d06-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX-Homepage_ArticleFeature_image.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": true
-      }
-    },
     "16360916891de3101c": {
       "type": "image-with-text",
       "disabled": true,
@@ -791,45 +770,6 @@
         "website_us": true
       }
     },
-    "1659683200336d6c1b": {
-      "type": "image-with-text",
-      "blocks": {
-        "16596832005f17d08b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "LIFX Update"
-          }
-        },
-        "16596832005f17d08b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The LIFX brand and product range has recently been acquired by Feit Electric—as a part of this process we are reviewing our sales strategy in your region, but you can still view our products at <a href=\"https:\/\/www.lifx.com\" title=\"https:\/\/www.lifx.com\">lifx.com<\/a> and shop via Amazon or other retail partners.<\/p>"
-          }
-        },
-        "16596832005f17d08b-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16596832005f17d08b-0",
-        "16596832005f17d08b-1",
-        "16596832005f17d08b-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX-Homepage_ArticleFeature_image.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": false,
-        "website_ukeu": true,
-        "website_us": false
-      }
-    },
     "163210701498163fc8": {
       "type": "newsletter",
       "blocks": {
@@ -864,6 +804,7 @@
   },
   "order": [
     "2c8de4cf-3bab-4dce-9142-656965831db3",
+    "fcd0b722-b8a9-4932-9293-fc51595723eb",
     "165942093296a32cfe",
     "3336066d-85ab-496b-be5e-9909acd8f92d",
     "0dd3dcaf-09bf-4cbb-a790-4eff0a126814",
@@ -879,14 +820,12 @@
     "4d925022-1924-4479-8f3d-9773424662f2",
     "322ef79f-97e6-41b4-98c3-94c2c520b0fb",
     "1650336354e8efe75b",
-    "1659523741fd7a454b",
     "16360916891de3101c",
     "afc8211b-5d23-4d6b-abe9-026a88bbcb55",
     "1f0291ae-fc20-4ab9-8ecc-13f9a04d7d9a",
     "16364397572cc0a070",
     "16321870964a1d4c89",
     "16371499188aae96be",
-    "1659683200336d6c1b",
     "163210701498163fc8"
   ]
 }
