@@ -1,5 +1,18 @@
 {
   "sections": {
+    "3336066d-85ab-496b-be5e-9909acd8f92d": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "",
+        "click_through": "",
+        "description": "",
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
+      }
+    },
     "165942093296a32cfe": {
       "type": "video2",
       "settings": {
@@ -8,58 +21,6 @@
         "click_through": "shopify:\/\/pages\/supercolor",
         "description": "",
         "full_width": true,
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": true
-      }
-    },
-    "94f4f55f-c413-408e-948e-20100e62d29e": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Unforgettable Color.",
-            "heading_size": "medium"
-          }
-        },
-        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-1": {
-          "type": "text",
-          "settings": {
-            "text": "Good color might be science, but we got it down to a fine art. Learn how the team at LIFX create a color so vivid and immersive that we proudly call it supercolor."
-          }
-        },
-        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Learn more",
-            "button_link_1": "shopify:\/\/pages\/supercolor",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-0",
-        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-1",
-        "template--15167164154037__94f4f55f-c413-408e-948e-20100e62d29e-16871523657f4616b4-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/color_hero_banner.png",
-        "adapt_height_first_image": true,
-        "banner_height_overide": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "inverse",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "crop_image_alignment": "center",
         "website_au": false,
         "website_ukeu": false,
         "website_us": true
@@ -856,8 +817,8 @@
     }
   },
   "order": [
+    "3336066d-85ab-496b-be5e-9909acd8f92d",
     "165942093296a32cfe",
-    "94f4f55f-c413-408e-948e-20100e62d29e",
     "0dd3dcaf-09bf-4cbb-a790-4eff0a126814",
     "1632116257dff5145e",
     "ffe2080a-0955-4a2b-80e8-986d8a3396a6",
