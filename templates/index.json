@@ -59,8 +59,8 @@
       "settings": {
         "title": "LIFX\/EOFY",
         "collection": "sale",
-        "products_to_show": 8,
-        "show_view_all": true,
+        "products_to_show": 12,
+        "show_view_all": false,
         "swipe_on_mobile": true,
         "image_ratio": "adapt",
         "show_secondary_image": false,
@@ -91,6 +91,9 @@
     },
     "3336066d-85ab-496b-be5e-9909acd8f92d": {
       "type": "video2",
+      "custom_css": [
+
+      ],
       "settings": {
         "heading": "",
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8c286ce635a64a409c9b4f7ec72420ae.mp4",
