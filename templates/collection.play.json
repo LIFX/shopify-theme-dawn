@@ -47,8 +47,32 @@
         "show_collection_image": true
       }
     },
+    "163666830970378b77": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "play",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 24,
         "image_ratio": "adapt",
@@ -214,30 +238,6 @@
         "website_us": true
       }
     },
-    "163666830970378b77": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "You might also be interested in",
-        "collection": "lightbulbs",
-        "products_to_show": 4,
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
-      }
-    },
     "c7db7c3b-dd0f-45a0-9d82-ad370e0a22c9": {
       "type": "multicolumn",
       "blocks": {
@@ -325,12 +325,12 @@
   "order": [
     "163658915975f2ce2d",
     "banner",
+    "163666830970378b77",
     "product-grid",
     "222e55cc-bee7-4715-ae51-5e8290f7e15a",
     "01557f49-5c49-494e-9f05-2734bd63055e",
     "1636668228a95c58ba",
     "1636669211f74edc9f",
-    "163666830970378b77",
     "c7db7c3b-dd0f-45a0-9d82-ad370e0a22c9",
     "a3fde846-12a7-412c-b6fc-946bd89d6446"
   ]
