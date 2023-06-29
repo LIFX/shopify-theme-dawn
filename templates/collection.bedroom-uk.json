@@ -465,7 +465,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "20% off bedroom lighting",
-        "collection": "bedroom-lighting",
+        "collection": "home",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
