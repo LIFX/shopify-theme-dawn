@@ -22,7 +22,7 @@
         "adc46e2a-430d-4e74-bfa5-190266889df4"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Play_Collection_7c8c278b-02a5-4962-b97a-225af2cf67b4.png",
+        "image": "shopify:\/\/shop_images\/Website_Interactive_Module_Play_3840x2160_c8885e10-0c7e-4c52-9cf6-262fffc5db5b.jpg",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -99,7 +99,8 @@
         "template--15840591478965__222e55cc-bee7-4715-ae51-5e8290f7e15a-16880067534724d138-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Website_Interactive_Module_Play_3840x2160_c8885e10-0c7e-4c52-9cf6-262fffc5db5b.jpg",
+        "image": "shopify:\/\/shop_images\/16_LIFX_StripAndBulb_StarterKitGallery.png",
+        "image_2": "shopify:\/\/shop_images\/12_LIFX_Beam_US_Gallery_6pcs.png",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -194,6 +195,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX_Blog_Entertainment_01.png",
+        "image_2": "shopify:\/\/shop_images\/06_LIFX_StripAndBulb_StarterKitGallery.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
