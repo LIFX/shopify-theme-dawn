@@ -59,7 +59,7 @@
         "show_rating": false,
         "enable_filtering": false,
         "enable_sorting": false,
-        "collapse_on_larger_devices": false
+        "collapse_on_larger_devices": true
       }
     },
     "163659042404b146d6": {
@@ -242,6 +242,7 @@
     },
     "163666830970378b77": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "You might also be interested in",
         "collection": "lightbulbs",
