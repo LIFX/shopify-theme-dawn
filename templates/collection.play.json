@@ -2,12 +2,31 @@
   "sections": {
     "163658915975f2ce2d": {
       "type": "image-banner",
+      "blocks": {
+        "08778964-a560-4132-9487-e89dff08d151": {
+          "type": "heading",
+          "settings": {
+            "heading": "LIFX Play Collection",
+            "heading_size": "medium"
+          }
+        },
+        "adc46e2a-430d-4e74-bfa5-190266889df4": {
+          "type": "text",
+          "settings": {
+            "text": "Enhance your gaming and home entertainment system with LIFX Supercolor lighting."
+          }
+        }
+      },
+      "block_order": [
+        "08778964-a560-4132-9487-e89dff08d151",
+        "adc46e2a-430d-4e74-bfa5-190266889df4"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Module_-_Full_Span_Image_DividerGAMING_LandingPage.png",
+        "image": "shopify:\/\/shop_images\/Play_Collection.png",
         "adapt_height_first_image": false,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
+        "desktop_box_alignment": "right",
         "show_text_box": true,
         "banner_url": "",
         "image_overlay_opacity": 0,
@@ -22,6 +41,7 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true
@@ -200,8 +220,8 @@
         "fc808642-6860-4221-8730-9fde3d3f06f4": {
           "type": "button",
           "settings": {
-            "button_label": "More lights for content creation",
-            "button_link": "shopify:\/\/collections\/studio"
+            "button_label": "The best lighting for creators",
+            "button_link": "shopify:\/\/blogs\/learn\/the-best-lighting-for-tiktoks-reels-and-other-content-creation"
           }
         }
       },
@@ -233,7 +253,14 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
-        "show_rating": false
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     }
   },
