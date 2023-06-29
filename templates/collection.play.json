@@ -190,44 +190,6 @@
         "website_us": true
       }
     },
-    "1636668306eac773e6": {
-      "type": "image-with-text",
-      "blocks": {
-        "1636668306eac773e6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Lighting for sharing your skills on socials."
-          }
-        },
-        "1636668306eac773e6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Like sharing your sessions with the community? Give your viewers something to look at with customized colors and animated effects on your LIFX lights. Save each of your light’s setting by creating a Scene on our app to cut down on on future content creation time, and get back to what you love most – the game. <\/p>"
-          }
-        },
-        "fc808642-6860-4221-8730-9fde3d3f06f4": {
-          "type": "button",
-          "settings": {
-            "button_label": "The best lighting for creators",
-            "button_link": "shopify:\/\/blogs\/learn\/the-best-lighting-for-tiktoks-reels-and-other-content-creation"
-          }
-        }
-      },
-      "block_order": [
-        "1636668306eac773e6-0",
-        "1636668306eac773e6-1",
-        "fc808642-6860-4221-8730-9fde3d3f06f4"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Image__Half_PageGAMING_LandingPage-4.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "1636669211f74edc9f": {
       "type": "image-banner",
       "settings": {
@@ -271,6 +233,89 @@
         "button_link_2": "",
         "button_style_secondary_2": false
       }
+    },
+    "c7db7c3b-dd0f-45a0-9d82-ad370e0a22c9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15840591478965__c7db7c3b-dd0f-45a0-9d82-ad370e0a22c9-16880063934dcfa885-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage.png",
+            "title": "Lights for movies with the crew.",
+            "text": "<p>Host movie nights that are worth staying in for. With preset Scenes to get the mood lighting just right, vivid colors, and animated Effects, the only thing you’ll have to worry about when entertaining guests is picking the right movie.<\/p>"
+          }
+        },
+        "template--15840591478965__c7db7c3b-dd0f-45a0-9d82-ad370e0a22c9-16880063934dcfa885-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-1.png",
+            "title": "Lights for full immersion.",
+            "text": "<p>Transport yourself into the world of your favorite movie without a trip to the cinema by transforming your space with vibrant colors. Or, for the true cinephiles, match the cinematography style with a variety of shadows and shading to create the fully immersive experience you’ve been waiting for.<\/p>"
+          }
+        },
+        "template--15840591478965__c7db7c3b-dd0f-45a0-9d82-ad370e0a22c9-16880063934dcfa885-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-2.png",
+            "title": "Lights for bingeing before bed.",
+            "text": "<p>To watch another episode, or to get a good night’s sleep? Well, we say: why choose? Reduce the pesky effects of blue light keeping you awake long after the show’s over by using red bias lighting. Not only will it help you wind down while you binge another 30 minutes, but it’ll also reduce eye strain. Go on, watch what happens next.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15840591478965__c7db7c3b-dd0f-45a0-9d82-ad370e0a22c9-16880063934dcfa885-0",
+        "template--15840591478965__c7db7c3b-dd0f-45a0-9d82-ad370e0a22c9-16880063934dcfa885-1",
+        "template--15840591478965__c7db7c3b-dd0f-45a0-9d82-ad370e0a22c9-16880063934dcfa885-2"
+      ],
+      "settings": {
+        "title": "Lights for your home entertaiment",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "a3fde846-12a7-412c-b6fc-946bd89d6446": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15840591478965__a3fde846-12a7-412c-b6fc-946bd89d6446-1688007070fc4d67d9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Preset the vibe for every genre."
+          }
+        },
+        "template--15840591478965__a3fde846-12a7-412c-b6fc-946bd89d6446-1688007070fc4d67d9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With the LIFX app, set each individual light in your living room to the perfect shade, color and brightness, then capture every setting in a single Scene to use for movies to come. Whether the film of the night is drama, comedy or horror, you can get the vibe just right, every time.<\/p>"
+          }
+        },
+        "template--15840591478965__a3fde846-12a7-412c-b6fc-946bd89d6446-1688007070fc4d67d9-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15840591478965__a3fde846-12a7-412c-b6fc-946bd89d6446-1688007070fc4d67d9-0",
+        "template--15840591478965__a3fde846-12a7-412c-b6fc-946bd89d6446-1688007070fc4d67d9-1",
+        "template--15840591478965__a3fde846-12a7-412c-b6fc-946bd89d6446-1688007070fc4d67d9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image__Half_PageFILMFANATICS_LandingPage-3.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
     }
   },
   "order": [
@@ -280,8 +325,9 @@
     "222e55cc-bee7-4715-ae51-5e8290f7e15a",
     "01557f49-5c49-494e-9f05-2734bd63055e",
     "1636668228a95c58ba",
-    "1636668306eac773e6",
     "1636669211f74edc9f",
-    "163666830970378b77"
+    "163666830970378b77",
+    "c7db7c3b-dd0f-45a0-9d82-ad370e0a22c9",
+    "a3fde846-12a7-412c-b6fc-946bd89d6446"
   ]
 }
