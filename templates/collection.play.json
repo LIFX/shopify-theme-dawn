@@ -64,6 +64,7 @@
     },
     "222e55cc-bee7-4715-ae51-5e8290f7e15a": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--15840591478965__222e55cc-bee7-4715-ae51-5e8290f7e15a-16880067534724d138-0": {
           "type": "heading",
@@ -193,6 +194,7 @@
     },
     "1636669211f74edc9f": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX_Blog_Entertainment_01.png",
         "image_2": "shopify:\/\/shop_images\/06_LIFX_StripAndBulb_StarterKitGallery.png",
