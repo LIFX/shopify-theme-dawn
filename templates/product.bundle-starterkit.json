@@ -55,8 +55,15 @@
             "text_style": "body"
           }
         },
+        "c72cf980-3ea8-4ace-9d3e-389151c4df15": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<a href=\"#\" class=\"mobile_external affiliateLink button\" style=\"text-decoration: none;width:100%;color:#fff\">Exclusive to The Home Depot<\/a>"
           }
@@ -90,6 +97,7 @@
         "8327c308-fc3b-4676-aabf-47fc7c0c7fab",
         "eb58cf06-12c0-46aa-8606-f94463c705e3",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
+        "c72cf980-3ea8-4ace-9d3e-389151c4df15",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "ed281872-1cd9-46fa-94ad-d5ddb0031d97"
