@@ -627,45 +627,6 @@
         "website_us": true
       }
     },
-    "16360916891de3101c": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "16360916891de3101c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Everything you love + a lil’ extra."
-          }
-        },
-        "16360916891de3101c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>✅   All the colors and white shades<br\/>✅   App and voice control<br\/>✅   Ultra-bright (75-80W equivalent)<br\/>✅   Standard E26, E27 + B22 fitting options <br\/>➕   HEV light for bacteria elimination (UV free!) <\/p>"
-          }
-        },
-        "16360916891de3101c-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop LIFX Clean",
-            "button_link": "shopify:\/\/collections\/clean"
-          }
-        }
-      },
-      "block_order": [
-        "16360916891de3101c-0",
-        "16360916891de3101c-1",
-        "16360916891de3101c-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX_Homepage_CLEAN_Module-01.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": true
-      }
-    },
     "afc8211b-5d23-4d6b-abe9-026a88bbcb55": {
       "type": "custom-liquid",
       "settings": {
@@ -823,6 +784,58 @@
         "color_scheme": "inverse",
         "full_width": true
       }
+    },
+    "c9875869-6142-48a9-80e8-e31f3e657ac0": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fantastical things are coming",
+            "heading_size": "large"
+          }
+        },
+        "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-1": {
+          "type": "text",
+          "settings": {
+            "text": "Sign up to be the first to know"
+          }
+        },
+        "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Notify me",
+            "button_link_1": "shopify:\/\/pages\/100mm-downlight-highlights",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-0",
+        "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-1",
+        "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/neon-banner.png",
+        "adapt_height_first_image": true,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "inverse",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
     }
   },
   "order": [
@@ -844,12 +857,12 @@
     "4d925022-1924-4479-8f3d-9773424662f2",
     "322ef79f-97e6-41b4-98c3-94c2c520b0fb",
     "1650336354e8efe75b",
-    "16360916891de3101c",
     "afc8211b-5d23-4d6b-abe9-026a88bbcb55",
     "1f0291ae-fc20-4ab9-8ecc-13f9a04d7d9a",
     "16364397572cc0a070",
     "16321870964a1d4c89",
     "16371499188aae96be",
-    "163210701498163fc8"
+    "163210701498163fc8",
+    "c9875869-6142-48a9-80e8-e31f3e657ac0"
   ]
 }
