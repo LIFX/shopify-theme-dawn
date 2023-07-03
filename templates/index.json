@@ -147,7 +147,7 @@
         "image": "shopify:\/\/shop_images\/Update421_Announce_Square.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first",
+        "layout": "text_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
