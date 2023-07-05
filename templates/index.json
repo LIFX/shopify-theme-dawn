@@ -1,82 +1,5 @@
 {
   "sections": {
-    "2c8de4cf-3bab-4dce-9142-656965831db3": {
-      "type": "image-banner",
-      "blocks": {
-        "template--14684223012911__2c8de4cf-3bab-4dce-9142-656965831db3-1687489279eeffd7d6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "LIFX\/EOFY",
-            "heading_size": "large"
-          }
-        },
-        "template--14684223012911__2c8de4cf-3bab-4dce-9142-656965831db3-1687489279eeffd7d6-1": {
-          "type": "text",
-          "settings": {
-            "text": "Save up to 50% off selected LIFX products."
-          }
-        },
-        "template--14684223012911__2c8de4cf-3bab-4dce-9142-656965831db3-1687489279eeffd7d6-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "JB Hi-Fi",
-            "button_link_1": "https:\/\/www.jbhifi.com.au\/search?query=lifx&page=1&hitsPerPage=36&toggle%5BonPromotion%5D=false&Brand=LIFX&saleItems=true",
-            "button_style_secondary_1": false,
-            "button_label_2": "Bunnings",
-            "button_link_2": "https:\/\/www.bunnings.com.au\/search\/products?q=lifx",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--14684223012911__2c8de4cf-3bab-4dce-9142-656965831db3-1687489279eeffd7d6-0",
-        "template--14684223012911__2c8de4cf-3bab-4dce-9142-656965831db3-1687489279eeffd7d6-1",
-        "template--14684223012911__2c8de4cf-3bab-4dce-9142-656965831db3-1687489279eeffd7d6-2"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/EOFYHero_Optimised_02.jpg",
-        "adapt_height_first_image": false,
-        "banner_height_overide": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": false,
-        "crop_image_alignment": "center",
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": false
-      }
-    },
-    "fcd0b722-b8a9-4932-9293-fc51595723eb": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "LIFX\/EOFY",
-        "collection": "sale",
-        "products_to_show": 12,
-        "show_view_all": false,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": false,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
-      }
-    },
     "165942093296a32cfe": {
       "type": "video2",
       "custom_css": [
@@ -445,11 +368,7 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": true
       }
     },
     "4d925022-1924-4479-8f3d-9773424662f2": {
@@ -820,7 +739,6 @@
         "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/neon-banner.png",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -839,8 +757,6 @@
     }
   },
   "order": [
-    "2c8de4cf-3bab-4dce-9142-656965831db3",
-    "fcd0b722-b8a9-4932-9293-fc51595723eb",
     "165942093296a32cfe",
     "277239b4-c011-4cfd-ab56-49ab4e33a97c",
     "3336066d-85ab-496b-be5e-9909acd8f92d",
