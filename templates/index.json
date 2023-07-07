@@ -744,20 +744,21 @@
         "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/string2.png",
         "adapt_height_first_image": true,
-        "banner_height_overide": true,
+        "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
-        "show_text_box": true,
+        "show_text_box": false,
         "banner_url": "",
         "image_overlay_opacity": 0,
         "color_scheme": "inverse",
         "stack_images_on_mobile": false,
         "show_text_below": false,
         "crop_image_alignment": "center",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": false
       }
     }
   },
