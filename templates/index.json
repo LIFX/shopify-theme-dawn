@@ -744,7 +744,7 @@
         "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/string2.png",
+        "image": "shopify:\/\/shop_images\/NewThings_Hero_02.jpg",
         "adapt_height_first_image": true,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
@@ -758,7 +758,7 @@
         "crop_image_alignment": "center",
         "website_au": false,
         "website_ukeu": false,
-        "website_us": false
+        "website_us": true
       }
     }
   },
