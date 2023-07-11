@@ -23,11 +23,10 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Due to COVID-19 disruptions, delivery and parcel tracking information delays may be experienced.",
-              "color_scheme": "inverse",
-              "link": ""
+              "text": "Amazon Day deals on LIFX are coming",
+              "color_scheme": "accent-2",
+              "link": "https:\/\/www.amazon.com\/lifx?&_encoding=UTF8&tag=feitelectri00-20&linkCode=ur2&linkId=67f75e006291a5b348d2dc07811bec9b&camp=1789&creative=9325"
             }
           }
         },
@@ -35,8 +34,8 @@
           "announcement-bar-0"
         ],
         "settings": {
-          "website_au": true,
-          "website_ukeu": true,
+          "website_au": false,
+          "website_ukeu": false,
           "website_us": true
         }
       },
