@@ -24,9 +24,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Prime Day deals on LIFX are coming",
+              "text": "The Home Depot deals on LIFX are here",
               "color_scheme": "accent-2",
-              "link": "https:\/\/www.amazon.com\/lifx?&_encoding=UTF8&tag=feitelectri00-20&linkCode=ur2&linkId=67f75e006291a5b348d2dc07811bec9b&camp=1789&creative=9325"
+              "link": "https:\/\/www.homedepot.com\/s\/lifx?NCNI-5"
             }
           }
         },
@@ -34,7 +34,7 @@
           "announcement-bar-0"
         ],
         "custom_css": [
-          ".gradient {background: #1a98ff;}"
+          ".gradient {background: #ee7125;}"
         ],
         "settings": {
           "website_au": false,
