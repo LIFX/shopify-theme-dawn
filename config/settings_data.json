@@ -24,7 +24,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Amazon Day deals on LIFX are coming",
+              "text": "Prime Day deals on LIFX are coming",
               "color_scheme": "accent-2",
               "link": "https:\/\/www.amazon.com\/lifx?&_encoding=UTF8&tag=feitelectri00-20&linkCode=ur2&linkId=67f75e006291a5b348d2dc07811bec9b&camp=1789&creative=9325"
             }
