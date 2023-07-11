@@ -33,6 +33,9 @@
         "block_order": [
           "announcement-bar-0"
         ],
+        "custom_css": [
+          ".gradient {background: #1a98ff;}"
+        ],
         "settings": {
           "website_au": false,
           "website_ukeu": false,
