@@ -24,7 +24,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "The Home Depot deals on LIFX are here",
+              "text": "The Home Depot Special Buys are here",
               "color_scheme": "accent-2",
               "link": "https:\/\/www.homedepot.com\/s\/lifx?NCNI-5"
             }
