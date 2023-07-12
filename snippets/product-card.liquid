@@ -94,7 +94,7 @@
        {%- elsif product_card_product.tags contains "ComingSoon" -%}
              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Coming Soon</span>
        {%- elsif product_card_product.tags contains "primeDay" or product_card_product.tags contains "HomeDepotDeal" -%}
-             <span {% if product.tags contains "HomeDepotDeal" %}style="border:#ee7125;background:#ee7125;"{% endif %}class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">On Sale</span>
+             <span {% if product_card_product.tags contains "HomeDepotDeal" %}style="border:#ee7125;background:#ee7125;"{% endif %}class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">On Sale</span>
       {%- endif -%}
 	
         </div>
