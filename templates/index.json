@@ -16,6 +16,29 @@
         "website_us": true
       }
     },
+    "e0f90f8f-08b0-4c6d-97af-01a599c45691": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "The Home Depot Deals",
+        "collection": "the-home-depot-deals",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
+      }
+    },
     "277239b4-c011-4cfd-ab56-49ab4e33a97c": {
       "type": "custom-liquid",
       "settings": {
@@ -707,62 +730,11 @@
         "color_scheme": "inverse",
         "full_width": true
       }
-    },
-    "c9875869-6142-48a9-80e8-e31f3e657ac0": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Fantastical things are coming",
-            "heading_size": "large"
-          }
-        },
-        "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-1": {
-          "type": "text",
-          "settings": {
-            "text": "Sign up to be the first to know"
-          }
-        },
-        "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Notify me",
-            "button_link_1": "shopify:\/\/pages\/100mm-downlight-highlights",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-0",
-        "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-1",
-        "template--15167164154037__c9875869-6142-48a9-80e8-e31f3e657ac0-168835736031e0956a-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/NewThings_Hero_02.jpg",
-        "adapt_height_first_image": true,
-        "banner_height_overide": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": false,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "inverse",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "crop_image_alignment": "center",
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": true
-      }
     }
   },
   "order": [
     "165942093296a32cfe",
+    "e0f90f8f-08b0-4c6d-97af-01a599c45691",
     "277239b4-c011-4cfd-ab56-49ab4e33a97c",
     "3336066d-85ab-496b-be5e-9909acd8f92d",
     "1632116257dff5145e",
@@ -783,7 +755,6 @@
     "16364397572cc0a070",
     "16321870964a1d4c89",
     "16371499188aae96be",
-    "163210701498163fc8",
-    "c9875869-6142-48a9-80e8-e31f3e657ac0"
+    "163210701498163fc8"
   ]
 }
