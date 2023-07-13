@@ -541,12 +541,6 @@
             "heading_size": "h1"
           }
         },
-        "template--15178372972725__79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b-168921045133a3d8a7-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"\/pages\/test\" title=\"test\">Social<\/a><\/p>"
-          }
-        },
         "template--15178372972725__79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b-168921045133a3d8a7-2": {
           "type": "button",
           "disabled": true,
@@ -559,7 +553,6 @@
       },
       "block_order": [
         "template--15178372972725__79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b-168921045133a3d8a7-0",
-        "template--15178372972725__79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b-168921045133a3d8a7-1",
         "template--15178372972725__79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b-168921045133a3d8a7-2"
       ],
       "settings": {
