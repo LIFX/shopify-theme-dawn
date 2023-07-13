@@ -162,6 +162,7 @@
       "settings": {
         "heading": "",
         "video": "{{ product.metafields.my_fields.video1.value }}",
+        "click_through": "",
         "description": "{{ product.vendor }} {{ product.title }}",
         "full_width": false,
         "website_au": true,
@@ -343,6 +344,7 @@
       "settings": {
         "heading": "",
         "video": "{{ product.metafields.my_fields.video2.value }}",
+        "click_through": "",
         "description": "{{ product.vendor }} {{ product.title }} Product Video",
         "full_width": false,
         "website_au": true,
@@ -527,6 +529,43 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15178372972725__79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b-168921045133a3d8a7-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--15178372972725__79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b-168921045133a3d8a7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/pages\/test\" title=\"test\">Social<\/a><\/p>"
+          }
+        },
+        "template--15178372972725__79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b-168921045133a3d8a7-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15178372972725__79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b-168921045133a3d8a7-0",
+        "template--15178372972725__79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b-168921045133a3d8a7-1",
+        "template--15178372972725__79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b-168921045133a3d8a7-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -542,6 +581,7 @@
     "1635139699342ea047",
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
-    "product-recommendations"
+    "product-recommendations",
+    "79e9c6d4-d88d-4cc9-a07a-6e7a1f15142b"
   ]
 }
