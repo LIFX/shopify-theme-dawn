@@ -2,14 +2,22 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
       }
+    },
+    "8f239a4f-8efb-4c8c-a5a9-a2702d3c3332": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/5A0VR2wmGpMxn9uAVe5JeU?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "8f239a4f-8efb-4c8c-a5a9-a2702d3c3332"
   ]
 }

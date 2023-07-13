@@ -700,6 +700,12 @@
         "website_us": true
       }
     },
+    "b1240678-1cac-46d8-b0e8-b7971f83eb65": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/5A0VR2wmGpMxn9uAVe5JeU?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>"
+      }
+    },
     "163210701498163fc8": {
       "type": "newsletter",
       "blocks": {
@@ -755,6 +761,7 @@
     "16364397572cc0a070",
     "16321870964a1d4c89",
     "16371499188aae96be",
+    "b1240678-1cac-46d8-b0e8-b7971f83eb65",
     "163210701498163fc8"
   ]
 }
