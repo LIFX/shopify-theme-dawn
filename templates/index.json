@@ -18,6 +18,7 @@
     },
     "e0f90f8f-08b0-4c6d-97af-01a599c45691": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "The Home Depot Deals",
         "collection": "the-home-depot-deals",
