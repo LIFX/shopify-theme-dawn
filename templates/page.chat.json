@@ -11,7 +11,7 @@
     "f895b9d0-b0e7-4c4c-ac4d-467f6d30fd4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": ""
+        "custom_liquid": "<!-- Start of lifx-support Zendesk Widget script -->\n<script id=\"ze-snippet\" src=\"https:\/\/static.zdassets.com\/ekr\/snippet.js?key=b50f362e-f5a2-45d4-9b46-c264a8ab7fec\"> <\/script>\n<!-- End of lifx-support Zendesk Widget script -->"
       }
     }
   },
