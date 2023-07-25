@@ -7,9 +7,16 @@
       ],
       "settings": {
       }
+    },
+    "f895b9d0-b0e7-4c4c-ac4d-467f6d30fd4b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f895b9d0-b0e7-4c4c-ac4d-467f6d30fd4b"
   ]
 }
