@@ -19,7 +19,7 @@
     "3336066d-85ab-496b-be5e-9909acd8f92d": {
       "type": "video2",
       "custom_css": [
-        ".spaced-section {margin-top: 5rem;}"
+        ".spaced-section {margin-top: 0rem;}"
       ],
       "settings": {
         "heading": "",
