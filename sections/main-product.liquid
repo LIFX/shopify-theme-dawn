@@ -93,7 +93,10 @@
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
             </div>
 
-         {% if product.tags contains "cleverhouse-buybutton" %}{% include 'cleverhouse' %}{% endif %}
+         {% if product.tags contains "cleverhouse-buybutton" %}
+           <div style="min-width:100%">
+             {% include 'cleverhouse' %}{% endif %}
+           </div>
 
         {% if request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
 <div
