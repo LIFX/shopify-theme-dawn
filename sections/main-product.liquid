@@ -320,10 +320,10 @@
         
                  {% elsif product.tags contains "cleverhouse" %}
                   <p class="product__text caption-with-letter-spacing" style="padding-bottom:10px;padding-top:15px">WHERE TO BUY:</p>
+{% if product.metafields.custom.au_cleverhouse_affiliate %}<a href="{{ product.metafields.custom.au_cleverhouse_affiliate }}" class="mobile_external affiliateLink" style="text-decoration:none" target="_blank" rel="noopener"><span class="productFamily" aria-hidden="true" style="margin-top:10px;width:100%;">Clever House</span></a>{% endif %}
 {% if product.metafields.my_fields.au_jbhifi_affiliate %}<a href="{{ product.metafields.my_fields.au_jbhifi_affiliate }}" class="mobile_external affiliateLink" style="text-decoration:none" target="_blank" rel="noopener"><span class="productFamily" aria-hidden="true" style="margin:0px;width:100%;">JB HiFi</span></a>{% endif %}
 {% if product.metafields.custom.au_bunnings_affiliate %}<a href="{{ product.metafields.custom.au_bunnings_affiliate }}" class="mobile_external affiliateLink" style="text-decoration:none" target="_blank" rel="noopener"><span class="productFamily" aria-hidden="true" style="margin-top:10px;width:100%;">Bunnings</span></a>{% endif %}
 {% if product.metafields.my_fields.au_amazon_affiliate %}<a href="{{ product.metafields.my_fields.au_amazon_affiliate }}" class="mobile_external affiliateLink" style="text-decoration:none" target="_blank" rel="noopener"><span class="productFamily" aria-hidden="true" style="margin-top:10px;width:100%">Amazon</span></a>{% endif %}
-{% if product.metafields.custom.au_cleverhouse_affiliate %}<a href="{{ product.metafields.custom.au_cleverhouse_affiliate }}" class="mobile_external affiliateLink" style="text-decoration:none" target="_blank" rel="noopener"><span class="productFamily" aria-hidden="true" style="margin-top:10px;width:100%;">Clever House</span></a>{% endif %}
 {% if product.metafields.my_fields.au_jbhifi_affiliate == blank and product.metafields.custom.au_bunnings_affiliate == blank and product.metafields.my_fields.au_amazon_affiliate == blank and product.metafields.custom.au_cleverhouse_affiliate == blank %}Not currently stocked.{% endif %}
                  {% else %}
 
