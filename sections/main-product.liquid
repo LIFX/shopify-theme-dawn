@@ -95,8 +95,9 @@
 
          {% if product.tags contains "cleverhouse-buybutton" %}
            <div style="min-width:100%">
-             {% include 'cleverhouse' %}{% endif %}
+             {% include 'cleverhouse' %}
            </div>
+          {% endif %}  
 
         {% if request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
 <div
