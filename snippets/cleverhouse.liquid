@@ -151,7 +151,7 @@ document.onreadystatechange = function(event) {
 if (event.target.readyState === "complete") {
    setTimeout(function() {
        if (!window.navigateNative) {
-          document.querySelector(".cleverhouseBuy").style.display = "block";
+          document.querySelector(".cleverhouseBuy").style.display = "grid";
        }
     }, 150)
   }
