@@ -148,9 +148,12 @@
 
 <script type="text/javascript">
 document.onreadystatechange = function(event) {
-console.log(event, event.target.readyState,window.navigateNative )
-if (event.target.readyState === "complete" && window.navigateNative) {
-    document.querySelector(".cleverhouseBuy").style.display = "none";
+if (event.target.readyState === "complete") {
+   setTimeout(function() {
+       if (window.navigateNative {
+          document.querySelector(".cleverhouseBuy").style.display = "none";
+       }
+    }, 10)
   }
 }
 </script>
