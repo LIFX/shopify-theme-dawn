@@ -327,16 +327,19 @@
                  {% elsif product.tags contains "cleverhouse" %}
 
                 {% if product.tags contains "cleverhouse-buybutton" %}
-           <div style="min-width:100%">
-             {% include 'cleverhouse' %}
-           </div>
-          {% endif %} 
-        
-                  <p class="product__text caption-with-letter-spacing" style="padding-bottom:10px;padding-top:15px">ALSO AVAILABLE AT:</p>
+                   <div style="min-width:100%">
+                     {% include 'cleverhouse' %}
+                   </div>
+                {% endif %} 
+
+{% if product.metafields.my_fields.au_jbhifi_affiliate == blank and product.metafields.custom.au_bunnings_affiliate == blank and product.metafields.my_fields.au_amazon_affiliate == blank and product.metafields.custom.au_cleverhouse_affiliate == blank %}        
+{% else %}
+<p class="product__text caption-with-letter-spacing" style="padding-bottom:10px;padding-top:15px">ALSO AVAILABLE AT:</p>
 {% if product.metafields.my_fields.au_jbhifi_affiliate %}<a href="{{ product.metafields.my_fields.au_jbhifi_affiliate }}" class="mobile_external affiliateLink" style="text-decoration:none" target="_blank" rel="noopener"><span class="productFamily" aria-hidden="true" style="margin-top:10px;width:100%;">JB HiFi</span></a>{% endif %}
 {% if product.metafields.custom.au_bunnings_affiliate %}<a href="{{ product.metafields.custom.au_bunnings_affiliate }}" class="mobile_external affiliateLink" style="text-decoration:none" target="_blank" rel="noopener"><span class="productFamily" aria-hidden="true" style="margin-top:10px;width:100%;">Bunnings</span></a>{% endif %}
 {% if product.metafields.my_fields.au_amazon_affiliate %}<a href="{{ product.metafields.my_fields.au_amazon_affiliate }}" class="mobile_external affiliateLink" style="text-decoration:none" target="_blank" rel="noopener"><span class="productFamily" aria-hidden="true" style="margin-top:10px;width:100%">Amazon</span></a>{% endif %}
-{% if product.metafields.my_fields.au_jbhifi_affiliate == blank and product.metafields.custom.au_bunnings_affiliate == blank and product.metafields.my_fields.au_amazon_affiliate == blank and product.metafields.custom.au_cleverhouse_affiliate == blank %}<p class="product__text caption-with-letter-spacing">Not currently stocked in retail.</p>{% endif %}
+{% endif %}
+
                  {% else %}
 
             <div {{ block.shopify_attributes }}>
