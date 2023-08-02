@@ -147,7 +147,9 @@
 </div>
 
 <script type="text/javascript">
-if (window.navigateNative) {
-   document.querySelector(".cleverhouseBuy").style.display = "none";
+document.onreadystatechange = function(event) {
+if (event.target.readyState === "complete" && window.navigateNative) {
+    document.querySelector(".cleverhouseBuy").style.display = "none";
+  }
 }
 </script>
