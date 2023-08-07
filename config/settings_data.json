@@ -34,7 +34,7 @@
           "announcement-bar-0"
         ],
         "custom_css": [
-          ".gradient {background: linear-gradient(45deg, #1f34a7, #60B4E2, #48E3E3);}"
+          ".gradient {background: linear-gradient(45deg, #000, #1f34a7, violet, #60b4e2, #48e3e3);}"
         ],
         "settings": {
           "website_au": false,
