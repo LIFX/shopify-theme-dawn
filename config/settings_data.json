@@ -24,9 +24,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "The Home Depot Special Buys are here",
+              "text": "Shiny new things are coming - sign up here and we’ll keep you updated on the latest products, fresh from the lab 🧪",
               "color_scheme": "accent-2",
-              "link": "https:\/\/www.homedepot.com\/s\/lifx?NCNI-5"
+              "link": "https:\/\/lifx.typeform.com\/to\/iZsrD80w"
             }
           }
         },
@@ -34,12 +34,12 @@
           "announcement-bar-0"
         ],
         "custom_css": [
-          ".gradient {background: #ee7125;}"
+          ".gradient {background: linear-gradient(45deg, red, blue, cyan, yellow);}"
         ],
         "settings": {
           "website_au": false,
           "website_ukeu": false,
-          "website_us": false
+          "website_us": true
         }
       },
       "header": {
