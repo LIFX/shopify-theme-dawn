@@ -1,5 +1,17 @@
 {
   "sections": {
+    "8611a70d-7f94-47e7-b361-dbea47ebc73f": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".spaced-section,last-child {margin-bottom: 0rem;}",
+        ".element-margin,.spaced-section {margin-top: 0rem;}",
+        ".productFamily {border: 1px solid; border-radius: 50px; color: #000; display: inline-block; margin-top: 5px; margin-bottom: 0px; padding: 10px 20px 10px 20px; font-size: 1.4rem; letter-spacing: 0.1rem; line-height: 1; text-align: center; margin-right: 6px;}",
+        ".productFamily:hover {background-color: #000; color: #fff;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div id=\"Banner-template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2\" class=\"banner banner--mobile-bottom \"><div class=\"banner__media media\">\n     \n      <img srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/ferns_375x.png?v=1690339131 375w,\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/ferns_750x.png?v=1690339131 750w,\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/ferns_1100x.png?v=1690339131 1100w,\" sizes=\"100vw\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/ferns_1500x.png?v=1690339131\" loading=\"lazy\" alt=\"\" width=\"1300\" height=\"732.0\">\n\n    <\/div><div class=\"banner__align--center banner__content--center page-width\">\n    <div class=\"banner__box color-background-1\"><h2 class=\"banner__heading h0\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-heading-1&quot;,&quot;type&quot;:&quot;heading&quot;}\">\n              <span data-live-text-setting=\"section.template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2.block.template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-heading-1.heading\/escape\">Coming Soon<\/span>\n            <\/h2><div class=\"banner__text\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-text-1&quot;,&quot;type&quot;:&quot;text&quot;}\">\n              <span data-live-text-setting=\"section.template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2.block.template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-text-1.text\/escape\">We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈<\/span>\n            <\/div><div class=\"banner__buttons\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-buttons-1&quot;,&quot;type&quot;:&quot;buttons&quot;}\">\n\n\n<span data-tf-popup=\"k7CRVXxh\" data-tf-opacity=\"100\" data-tf-hide-headers data-tf-size=\"50\" data-tf-iframe-props=\"title=Product Launch Signup\" data-tf-transitive-search-params data-tf-medium=\"snippet\" class=\"productFamily\" style=\"text-decoration:none;margin:0px;width:100%;margin-top:10px;cursor:pointer\">Notify me when launched<\/span><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script><\/div><\/div>\n  <\/div>\n\n<\/div>"
+      }
+    },
     "165942093296a32cfe": {
       "type": "video2",
       "custom_css": [
@@ -759,21 +771,10 @@
         "website_ukeu": false,
         "website_us": true
       }
-    },
-    "8611a70d-7f94-47e7-b361-dbea47ebc73f": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".spaced-section,last-child {margin-bottom: 0rem;}",
-        ".element-margin,.spaced-section {margin-top: 0rem;}",
-        ".productFamily {border: 1px solid; border-radius: 50px; color: #000; display: inline-block; margin-top: 5px; margin-bottom: 0px; padding: 10px 20px 10px 20px; font-size: 1.4rem; letter-spacing: 0.1rem; line-height: 1; text-align: center; margin-right: 6px;}",
-        ".productFamily:hover {background-color:#000;color:#fff;}"
-      ],
-      "settings": {
-        "custom_liquid": "<div id=\"Banner-template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2\" class=\"banner banner--mobile-bottom \"><div class=\"banner__media media\">\n     \n      <img srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/ferns_375x.png?v=1690339131 375w,\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/ferns_750x.png?v=1690339131 750w,\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/ferns_1100x.png?v=1690339131 1100w,\" sizes=\"100vw\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/ferns_1500x.png?v=1690339131\" loading=\"lazy\" alt=\"\" width=\"1300\" height=\"732.0\">\n\n    <\/div><div class=\"banner__align--center banner__content--center page-width\">\n    <div class=\"banner__box color-background-1\"><h2 class=\"banner__heading h0\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-heading-1&quot;,&quot;type&quot;:&quot;heading&quot;}\">\n              <span data-live-text-setting=\"section.template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2.block.template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-heading-1.heading\/escape\">Coming Soon<\/span>\n            <\/h2><div class=\"banner__text\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-text-1&quot;,&quot;type&quot;:&quot;text&quot;}\">\n              <span data-live-text-setting=\"section.template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2.block.template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-text-1.text\/escape\">We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈<\/span>\n            <\/div><div class=\"banner__buttons\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-buttons-1&quot;,&quot;type&quot;:&quot;buttons&quot;}\">\n\n\n<span data-tf-popup=\"k7CRVXxh\" data-tf-opacity=\"100\" data-tf-hide-headers data-tf-size=\"50\" data-tf-iframe-props=\"title=Product Launch Signup\" data-tf-transitive-search-params data-tf-medium=\"snippet\" class=\"productFamily\" style=\"text-decoration:none;margin:0px;width:100%;margin-top:10px;cursor:pointer\">Notify me when launched<\/span><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script><\/div><\/div>\n  <\/div>\n\n<\/div>"
-      }
     }
   },
   "order": [
+    "8611a70d-7f94-47e7-b361-dbea47ebc73f",
     "165942093296a32cfe",
     "3336066d-85ab-496b-be5e-9909acd8f92d",
     "277239b4-c011-4cfd-ab56-49ab4e33a97c",
@@ -796,7 +797,6 @@
     "16321870964a1d4c89",
     "16371499188aae96be",
     "163210701498163fc8",
-    "7e3eb869-aefb-4856-bffd-1f99c9824cc2",
-    "8611a70d-7f94-47e7-b361-dbea47ebc73f"
+    "7e3eb869-aefb-4856-bffd-1f99c9824cc2"
   ]
 }
