@@ -2,6 +2,7 @@
   "sections": {
     "8611a70d-7f94-47e7-b361-dbea47ebc73f": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".spaced-section,last-child {margin-bottom: 0rem;}",
         ".element-margin,.spaced-section {margin-top: 0rem;}",
