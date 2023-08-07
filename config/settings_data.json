@@ -37,7 +37,7 @@
           ".gradient {background: linear-gradient(45deg, #000, #1f34a7, violet, #60b4e2, #48e3e3);}"
         ],
         "settings": {
-          "website_au": false,
+          "website_au": true,
           "website_ukeu": false,
           "website_us": true
         }
