@@ -9,7 +9,7 @@
       <div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
-            <a href="{% if section.settings.website_au %}https://lifx.typeform.com/to/j8OKoStV{% else %}{{ block.settings.link }}{% endif %}" class="announcement-bar__link link link--text focus-inset animate-arrow mobile_external" target="_blank">
+            <a href="{% if request.host == 'www.lifx.com.au' %}https://lifx.typeform.com/to/j8OKoStV{% else %}{{ block.settings.link }}{% endif %}" class="announcement-bar__link link link--text focus-inset animate-arrow mobile_external" target="_blank">
           {%- endif -%}
               <p class="announcement-bar__message h5">
                 {{ block.settings.text | escape }}
