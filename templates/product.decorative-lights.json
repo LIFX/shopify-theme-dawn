@@ -110,6 +110,10 @@
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
         "76f2877b-9463-4ca3-a71e-982cd31af6da"
       ],
+      "custom_css": [
+        ".product-media-modal__content > *:not(.active),.product__media-list .deferred-media {display: block;}",
+        ".product__media-item--full .media--transparent {display: none;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "hide_variants": true,
@@ -121,6 +125,7 @@
       "settings": {
         "heading": "",
         "video": "{{ product.metafields.my_fields.video1.value }}",
+        "click_through": "",
         "description": "{{ product.vendor }} {{ product.title }}",
         "full_width": false,
         "website_au": true,
@@ -254,6 +259,9 @@
       "settings": {
         "image": "{{ product.metafields.my_fields.image4.value }}",
         "image_2": "{{ product.metafields.my_fields.image5.value }}",
+        "text_button_1": "",
+        "text_button_2": "",
+        "text_button_3": "",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
@@ -299,6 +307,7 @@
       "settings": {
         "heading": "",
         "video": "{{ product.metafields.my_fields.video2.value }}",
+        "click_through": "",
         "description": "{{ product.vendor }} {{ product.title }} Product Video",
         "full_width": false,
         "website_au": true,
