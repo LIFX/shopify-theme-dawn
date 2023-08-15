@@ -30,7 +30,7 @@
       ],
       "disabled": true,
       "custom_css": [
-        ".image-with-text {background-color: #000; padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
+        ".image-with-text {background-color: #000; padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px; display: contents;}",
         ".image-with-text__content {background-color: #000;}"
       ],
       "settings": {
