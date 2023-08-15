@@ -1,5 +1,48 @@
 {
   "sections": {
+    "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coming Soon"
+          }
+        },
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈<\/p>"
+          }
+        },
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Notify me when launched",
+            "button_link": "https:\/\/lifx.typeform.com\/to\/iZsrD80w"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1",
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1",
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text {background-color: #000; padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
+        ".image-with-text__content {background-color: #000;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image.png",
+        "height": "adapt",
+        "color_scheme": "accent-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "8611a70d-7f94-47e7-b361-dbea47ebc73f": {
       "type": "custom-liquid",
       "custom_css": [
@@ -380,7 +423,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "4d925022-1924-4479-8f3d-9773424662f2": {
@@ -715,60 +762,10 @@
         "color_scheme": "inverse",
         "full_width": true
       }
-    },
-    "7e3eb869-aefb-4856-bffd-1f99c9824cc2": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Coming Soon",
-            "heading_size": "large"
-          }
-        },
-        "template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈"
-          }
-        },
-        "template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Sign up for product info",
-            "button_link_1": "shopify:\/\/products\/beam-4pc-kit",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-heading-1",
-        "template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-text-1",
-        "template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-buttons-1"
-      ],
-      "settings": {
-        "adapt_height_first_image": false,
-        "banner_height_overide": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "crop_image_alignment": "center",
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": true
-      }
     }
   },
   "order": [
+    "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec",
     "8611a70d-7f94-47e7-b361-dbea47ebc73f",
     "165942093296a32cfe",
     "3336066d-85ab-496b-be5e-9909acd8f92d",
@@ -791,7 +788,6 @@
     "16364397572cc0a070",
     "16321870964a1d4c89",
     "16371499188aae96be",
-    "163210701498163fc8",
-    "7e3eb869-aefb-4856-bffd-1f99c9824cc2"
+    "163210701498163fc8"
   ]
 }
