@@ -12,11 +12,12 @@
         "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈<\/p>"
+            "text": "<p>We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈<\/p><p><\/p><p><\/p>"
           }
         },
         "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Notify me when launched",
             "button_link": "https:\/\/lifx.typeform.com\/to\/iZsrD80w"
@@ -762,6 +763,12 @@
         "color_scheme": "inverse",
         "full_width": true
       }
+    },
+    "834ac6a3-eea0-46df-88d4-7b5ff082ca73": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<button data-tf-popup=\"iZsrD80w\" data-tf-opacity=\"100\" data-tf-size=\"100\" data-tf-iframe-props=\"title=Product Launch Signup (New)\" data-tf-transitive-search-params data-tf-medium=\"snippet\" style=\"all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;color:#fff;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;\">Try me!<\/button><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
+      }
     }
   },
   "order": [
@@ -788,6 +795,7 @@
     "16364397572cc0a070",
     "16321870964a1d4c89",
     "16371499188aae96be",
-    "163210701498163fc8"
+    "163210701498163fc8",
+    "834ac6a3-eea0-46df-88d4-7b5ff082ca73"
   ]
 }
