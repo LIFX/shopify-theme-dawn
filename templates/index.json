@@ -34,7 +34,7 @@
         ".image-with-text__content {background-color: #000;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image.png",
+        "image": "shopify:\/\/shop_images\/image_coming_soon.jpg",
         "height": "adapt",
         "color_scheme": "accent-1",
         "layout": "image_first",
