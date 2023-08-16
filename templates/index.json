@@ -29,6 +29,7 @@
         "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1",
         "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".image-with-text {background-color: #000; padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px; display: contents;}",
         ".image-with-text__content {background-color: #000;}",
@@ -46,7 +47,6 @@
     },
     "8611a70d-7f94-47e7-b361-dbea47ebc73f": {
       "type": "custom-liquid",
-      "disabled": true,
       "custom_css": [
         ".spaced-section,last-child {margin-bottom: 0rem;}",
         ".element-margin,.spaced-section {margin-top: 0rem;}",
