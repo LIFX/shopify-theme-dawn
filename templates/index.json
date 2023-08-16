@@ -83,7 +83,7 @@
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/95579764d145420a8d9a0d2d68da3044.mp4",
         "click_through": "shopify:\/\/pages\/supercolour",
         "description": "",
-        "full_width": false,
+        "full_width": true,
         "website_au": true,
         "website_ukeu": false,
         "website_us": false
