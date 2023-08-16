@@ -60,14 +60,14 @@
     "165942093296a32cfe": {
       "type": "video2",
       "custom_css": [
-        ".video-section {padding: 0px;}"
+        ".video-section {padding: 0px; margin-top: 0px;}"
       ],
       "settings": {
         "heading": "",
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07a22412b82445d997f9f43c9bba092d.mp4",
         "click_through": "shopify:\/\/pages\/supercolor",
         "description": "",
-        "full_width": true,
+        "full_width": false,
         "website_au": false,
         "website_ukeu": false,
         "website_us": true
@@ -76,14 +76,14 @@
     "3336066d-85ab-496b-be5e-9909acd8f92d": {
       "type": "video2",
       "custom_css": [
-        ".video-section {padding: 0px;}"
+        ".video-section {padding: 0px; margin-top: 0px;}"
       ],
       "settings": {
         "heading": "",
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/95579764d145420a8d9a0d2d68da3044.mp4",
         "click_through": "shopify:\/\/pages\/supercolour",
         "description": "",
-        "full_width": true,
+        "full_width": false,
         "website_au": true,
         "website_ukeu": false,
         "website_us": false
