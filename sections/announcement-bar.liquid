@@ -9,7 +9,8 @@
       <div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
-            <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow mobile_external" target="_blank">
+           <span data-tf-popup="iZsrD80w" data-tf-opacity="100" data-tf-hide-headers data-tf-size="50" data-tf-iframe-props="title=Product Launch Signup" data-tf-transitive-search-params data-tf-medium="snippet" style="cursor:pointer">
+          <!--  <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow mobile_external" target="_blank">-->
           {%- endif -%}
               <p class="announcement-bar__message h5">
                 {{ block.settings.text | escape }}
@@ -18,7 +19,7 @@
                 {%- endif -%}
               </p>
           {%- if block.settings.link != blank -%}
-            </a>
+            <!--</a>--></span><script src="//embed.typeform.com/next/embed.js"></script>
           {%- endif -%}
         {%- endif -%}
       </div>
