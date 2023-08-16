@@ -30,7 +30,7 @@
         "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1"
       ],
       "custom_css": [
-        ".image-with-text {background-color: #000; padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px; display: contents;}",
+        ".image-with-text {background-color: #000; padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
         ".image-with-text__content {background-color: #000;}",
         ".typeform {display: grid !important;}"
       ],
