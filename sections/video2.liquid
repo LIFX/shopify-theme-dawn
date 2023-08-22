@@ -13,8 +13,19 @@
     <h2 class="title">{{ section.settings.heading }}</h2>
   </div>
 
+<style>
+  @-moz-document url-prefix() {
+  .videoFox {
+    width: -moz-availble;
+  }
+}
+    .videoFox {
+    width: width:-webkit-fill-available;
+  }
+</style>  
 
-<video muted autoplay playsinline loop style="width: -webkit-fill-available;display:flex">
+
+<video muted autoplay playsinline loop style="display:flex" class="videoFox">
     <source src="{{ section.settings.video }}" type="video/mp4" alt="{{ 'sections.video.load_video' | t: description: section.settings.description | escape }}">
 </video>
 </div>
