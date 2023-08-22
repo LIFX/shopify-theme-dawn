@@ -76,7 +76,7 @@
     "3336066d-85ab-496b-be5e-9909acd8f92d": {
       "type": "video2",
       "custom_css": [
-        ".video-section {padding: 0px; margin-top: 0px;}"
+        ".video-section {padding: 0px; margin-top: 0px; width:-moz-availble;}"
       ],
       "settings": {
         "heading": "",
