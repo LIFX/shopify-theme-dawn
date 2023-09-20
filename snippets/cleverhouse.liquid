@@ -158,3 +158,17 @@
 </div>
 {% endif %}
 
+<script type="text/javascript">
+document.onreadystatechange = function(event) {
+if (event.target.readyState === "complete") {
+   setTimeout(function() {
+       if (!window.navigateNative) {
+          document.querySelector(".cleverhouseBuy").style.display = "block";
+       }
+       if (window.navigateNative) {
+          document.querySelector(".cleverhouseApp").style.display = "block";
+       }
+    }, 250)
+  }
+}
+  </script>
