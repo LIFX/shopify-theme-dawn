@@ -167,6 +167,7 @@
       "settings": {
         "heading": "",
         "video": "{{ product.metafields.my_fields.video1.value }}",
+        "click_through": "",
         "description": "{{ product.vendor }} {{ product.title }}",
         "full_width": false,
         "website_au": true,
@@ -301,6 +302,9 @@
       "settings": {
         "image": "{{ product.metafields.my_fields.image4.value }}",
         "image_2": "{{ product.metafields.my_fields.image5.value }}",
+        "text_button_1": "",
+        "text_button_2": "",
+        "text_button_3": "",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
@@ -346,6 +350,7 @@
       "settings": {
         "heading": "",
         "video": "{{ product.metafields.my_fields.video2.value }}",
+        "click_through": "",
         "description": "{{ product.vendor }} {{ product.title }} Product Video",
         "full_width": false,
         "website_au": true,
@@ -536,6 +541,16 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "5dda6f8b-581c-44fc-a692-33138c8f381b": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "cover_image": "{{ product.metafields.my_fields.image3.value }}",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
+      }
     }
   },
   "order": [
@@ -552,6 +567,7 @@
     "1635139699342ea047",
     "16359041219d05cf7f",
     "1635892427a2cdb2bc",
-    "product-recommendations"
+    "product-recommendations",
+    "5dda6f8b-581c-44fc-a692-33138c8f381b"
   ]
 }
