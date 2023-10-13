@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -222,7 +223,6 @@
     },
     "163591479253a6c41d": {
       "type": "image-banner-interactive",
-      "disabled": true,
       "blocks": {
         "163591479253a6c41d-0": {
           "type": "heading",
@@ -254,6 +254,7 @@
         "163591479253a6c41d-1",
         "163591479253a6c41d-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.my_fields.image4.value }}",
         "image_2": "{{ product.metafields.my_fields.image5.value }}",
