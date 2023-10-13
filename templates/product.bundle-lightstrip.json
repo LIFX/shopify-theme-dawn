@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -102,7 +103,6 @@
     },
     "16372767243e83d044": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1637276724eb92fe7d-0": {
           "type": "column",
@@ -125,6 +125,7 @@
         "1637276724eb92fe7d-0",
         "1637276724eb92fe7d-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "What's included",
         "image_width": "full",
