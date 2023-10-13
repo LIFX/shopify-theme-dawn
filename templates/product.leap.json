@@ -18,6 +18,7 @@
         },
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "LIFX",
             "text_style": "uppercase"
@@ -237,7 +238,6 @@
     },
     "1632375097cddb24cb": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1632375097cddb24cb-0": {
           "type": "heading",
@@ -257,6 +257,7 @@
         "1632375097cddb24cb-0",
         "1632375097cddb24cb-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": false
