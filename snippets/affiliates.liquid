@@ -1,6 +1,6 @@
 {% if product.available %}
 
-{% else %}
+  {% else %}
 
 {{ 'affiliates.css' | asset_url | stylesheet_tag }}
 {% if product.metafields.my_fields.amazon_affiliate or product.metafields.my_fields.de_amazon_affiliate or product.metafields.my_fields.fr_amazon_affiliate or product.metafields.my_fields.us_amazon_affiliate or product.metafields.my_fields.us_bestbuy_affiliate or product.metafields.my_fields.au_amazon_affiliate or product.metafields.my_fields.au_jbhifi_affiliate %}
@@ -43,12 +43,15 @@
 	<a href="/pages/where-to-buy" class="affiliateLink">
     <span class="product__text caption-with-letter-spacing">View All</span></a>   
 {% endif %}
+  <p>-</p>
 </div>
 {% endif %}
 
 {% endif %}
 
-<p>-</p>
+
+
+
 {% if product.tags contains "flex" %}
 	<a href="https://lifx.typeform.com/to/iZsrD80w" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">Notify me when launched</span></a>   
