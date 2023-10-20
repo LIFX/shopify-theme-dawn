@@ -6,7 +6,7 @@
         "6ff3d714-2463-4ba6-b88c-0da62d9f2f15": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.handle == \"lifx-white\" %}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/White_Badge_1.png?v=1697605699\" style=\"margin:0;width:66%\">\n{% elsif product.handle contains \"white-to-warm\" %}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/WhiteToWarm_Badge.png?v=1697605256\" style=\"margin:0;width:66%\">\n{% else %}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/sc.png?v=1697601026\" style=\"margin:0;width:66%\">\n{% endif %}"
+            "custom_liquid": "{% if product.handle == \"lifx-white\" or product.handle == \"lifx-white-e27\" or product.handle == \"lifx-white-b22\" %}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/White_Badge_1.png?v=1697605699\" style=\"margin:0;width:66%\">\n{% elsif product.handle contains \"white-to-warm\" %}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/WhiteToWarm_Badge.png?v=1697605256\" style=\"margin:0;width:66%\">\n{% else %}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/sc.png?v=1697601026\" style=\"margin:0;width:66%\">\n{% endif %}"
           }
         },
         "vendor": {
