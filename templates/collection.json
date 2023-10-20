@@ -2,7 +2,6 @@
   "sections": {
     "16412750465720996b": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "164127504662ff1cdb-0": {
           "type": "heading",
@@ -37,6 +36,7 @@
         "164127504662ff1cdb-1",
         "164127504662ff1cdb-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Category_Header_-_Black_Friday_resized.jpg",
         "adapt_height_first_image": true,
@@ -66,8 +66,8 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 24,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "image_ratio": "square",
+        "show_secondary_image": true,
         "add_image_padding": true,
         "show_image_outline": true,
         "show_vendor": false,
