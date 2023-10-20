@@ -25,10 +25,10 @@
     <span class="product__text caption-with-letter-spacing">The Home Depot</span></a>   
 {% endif %}
 
-{% if product.tags contains "flex" %}
+{%- if product.tags contains "flex" -%}
 	<a href="https://lifx.typeform.com/to/iZsrD80w" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">Notify me when launched</span></a>   
-{% endif %}
+{%- endif -%}
 
   {% if product.metafields.my_fields.us_amazon_affiliate != blank %}
 	<a href="{{ product.metafields.my_fields.us_amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank">
