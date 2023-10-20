@@ -24,11 +24,13 @@
 	<a href="{{ product.metafields.custom.us_homedepot_affiliate }}" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">The Home Depot</span></a>   
 {% endif %}
+
 {% if product.metafields.my_fields.product_family == "Flex" %}
 	<a href="https://lifx.typeform.com/to/iZsrD80w" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">Notify me when launched</span></a>   
 {% endif %}
-{% if product.metafields.my_fields.us_amazon_affiliate != blank %}
+
+  {% if product.metafields.my_fields.us_amazon_affiliate != blank %}
 	<a href="{{ product.metafields.my_fields.us_amazon_affiliate }}" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">Amazon</span></a>   
 {% endif %}
