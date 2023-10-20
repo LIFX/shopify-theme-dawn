@@ -3,6 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "6ff3d714-2463-4ba6-b88c-0da62d9f2f15": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/sc.png?v=1697601026\" style=\"margin:0;width:66%\">"
+          }
+        },
         "vendor": {
           "type": "text",
           "disabled": true,
@@ -74,13 +80,6 @@
             "show_dynamic_checkout": false
           }
         },
-        "6ff3d714-2463-4ba6-b88c-0da62d9f2f15": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{% if product.available == false and request.host == 'lifx.myshopify.com' or  request.host == 'www.lifx.com'  %}\n<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n{% if product.metafields.my_fields.us_amazon_affiliate %}<a href=\"{{ product.metafields.my_fields.us_amazon_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin:0px;width:100%\">Amazon<\/span><\/a>{% endif %}\n{% if product.metafields.my_fields.us_bestbuy_affiliate %}<a href=\"{{ product.metafields.my_fields.us_bestbuy_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-top:10px;width:100%;\">Best Buy<\/span><\/a>{% endif %}\n{% endif %}"
-          }
-        },
         "cc97d592-9b20-4527-a8a5-12629e27c6cc": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -139,6 +138,7 @@
         }
       },
       "block_order": [
+        "6ff3d714-2463-4ba6-b88c-0da62d9f2f15",
         "vendor",
         "title",
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
@@ -150,7 +150,6 @@
         "quantity_selector",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "buy_buttons",
-        "6ff3d714-2463-4ba6-b88c-0da62d9f2f15",
         "cc97d592-9b20-4527-a8a5-12629e27c6cc",
         "description",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
