@@ -3,8 +3,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "855ad892-8e71-400d-9280-f8bc7696049f": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>"
+          }
+        },
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -61,13 +69,6 @@
             "custom_liquid": "<a href=\"https:\/\/www.amazon.com\/LIFX-SBUNDLE004-Lightstrip-Bundle-16-4ft\/dp\/B09XPCGHCK?maas=maas_adg_01079BF8BBBA5444B3A53B7B8591C837_afap_abs&ref_=aa_maas&tag=maas&_encoding=UTF8&tag=l0727-20&linkCode=ur2&linkId=0a438b4c51902e8e37075111be16e8d6&camp=1789&creative=9325\" class=\"mobile_external affiliateLink button\" target=\"_blank\"  style=\"text-decoration: none;width:100%;color:#fff\"><span>Exclusive to Amazon<\/span><\/a>"
           }
         },
-        "855ad892-8e71-400d-9280-f8bc7696049f": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>"
-          }
-        },
         "ed281872-1cd9-46fa-94ad-d5ddb0031d97": {
           "type": "collapsible_tab",
           "settings": {
@@ -82,6 +83,7 @@
         }
       },
       "block_order": [
+        "855ad892-8e71-400d-9280-f8bc7696049f",
         "vendor",
         "title",
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
@@ -91,7 +93,6 @@
         "eb58cf06-12c0-46aa-8606-f94463c705e3",
         "9f934aea-48a2-4297-8fdc-6750eeb9ae64",
         "065c6535-5eff-4bc9-afcd-ffaf5b6dc95f",
-        "855ad892-8e71-400d-9280-f8bc7696049f",
         "ed281872-1cd9-46fa-94ad-d5ddb0031d97"
       ],
       "settings": {
