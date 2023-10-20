@@ -129,7 +129,7 @@
 
 {% elsif product.metafields.my_fields.product_family == "Beam" %}
 
-{% for product in collections.flex.products %}
+{% for product in collections.beam.products %}
   {% if activeHandle != product.handle %}
       <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
