@@ -52,15 +52,11 @@
 
 {% elsif product.metafields.my_fields.product_family == "Nightvision AU"%}
 
-  {% for product in collections.nightvision.products %}
+{% for product in collections.nightvision.products %}
       {% if activeHandle != product.handle %}     
       <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
       {% endif %}
-  {% endfor %}
-
-
-
-
+{% endfor %}
 
 {% elsif product.metafields.my_fields.product_family == "Color A19" %}
 
@@ -121,7 +117,7 @@
 
 {% elsif product.metafields.my_fields.product_family == "Flex" %}
 
-{% for product in collections.flex.products %}
+{% for product in collections.neon-flex.products %}
   {% if activeHandle != product.handle %}
       <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
