@@ -451,8 +451,8 @@
         "template--15167869616309__4415bf01-d365-4d69-adb4-66df83e0e820-1687494036ca44677e-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Colour-Output-Stability_crop.jpg",
-        "height": "large",
+        "image": "shopify:\/\/shop_images\/Supercolor.png",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
         "website_au": true,
