@@ -221,54 +221,73 @@
         "website_us": true
       }
     },
-    "163591479253a6c41d": {
-      "type": "image-banner-interactive",
+    "4fd0266a-63b1-4c92-972c-3e90b0f77147": {
+      "type": "image-with-text",
       "blocks": {
-        "163591479253a6c41d-0": {
+        "template--15837732896949__4fd0266a-63b1-4c92-972c-3e90b0f77147-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.metafields.my_fields.headline4.value }}",
-            "heading_size": "medium"
+            "heading": "Image with text"
           }
         },
-        "163591479253a6c41d-1": {
+        "template--15837732896949__4fd0266a-63b1-4c92-972c-3e90b0f77147-text-1": {
           "type": "text",
           "settings": {
             "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }}<\/p>"
           }
         },
-        "163591479253a6c41d-2": {
-          "type": "buttons",
+        "template--15837732896949__4fd0266a-63b1-4c92-972c-3e90b0f77147-button-1": {
+          "type": "button",
+          "disabled": true,
           "settings": {
-            "button_label_1": "Saturday Breakfast",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Dinner Party",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "163591479253a6c41d-0",
-        "163591479253a6c41d-1",
-        "163591479253a6c41d-2"
+        "template--15837732896949__4fd0266a-63b1-4c92-972c-3e90b0f77147-heading-1",
+        "template--15837732896949__4fd0266a-63b1-4c92-972c-3e90b0f77147-text-1",
+        "template--15837732896949__4fd0266a-63b1-4c92-972c-3e90b0f77147-button-1"
       ],
-      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.my_fields.image4.value }}",
-        "image_2": "{{ product.metafields.my_fields.image5.value }}",
-        "text_button_1": "",
-        "text_button_2": "",
-        "text_button_3": "",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
+        "height": "adapt",
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "b8cfbbd7-52d8-4cdf-9e61-58e95944fc49": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15837732896949__b8cfbbd7-52d8-4cdf-9e61-58e95944fc49-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline5.value }}"
+          }
+        },
+        "template--15837732896949__b8cfbbd7-52d8-4cdf-9e61-58e95944fc49-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph5 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15837732896949__b8cfbbd7-52d8-4cdf-9e61-58e95944fc49-heading-1",
+        "template--15837732896949__b8cfbbd7-52d8-4cdf-9e61-58e95944fc49-text-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image5.value }}",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "1636000353893885f5": {
@@ -504,7 +523,8 @@
     "163514216916abed30",
     "163520046949622558",
     "16352007448c39f051",
-    "163591479253a6c41d",
+    "4fd0266a-63b1-4c92-972c-3e90b0f77147",
+    "b8cfbbd7-52d8-4cdf-9e61-58e95944fc49",
     "1636000353893885f5",
     "1636083188021f8436",
     "16360008950381c4a6",
