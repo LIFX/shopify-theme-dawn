@@ -227,7 +227,7 @@
         "template--15837732896949__4fd0266a-63b1-4c92-972c-3e90b0f77147-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "{{ product.metafields.my_fields.headline4.value }}"
           }
         },
         "template--15837732896949__4fd0266a-63b1-4c92-972c-3e90b0f77147-text-1": {
