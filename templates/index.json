@@ -1,5 +1,22 @@
 {
   "sections": {
+    "101239a1-459e-40cc-9764-b747c6519e3e": {
+      "type": "video2",
+      "disabled": true,
+      "custom_css": [
+        ".video-section {padding: 0px; margin-top: 0px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3dbfb3052cc145949fc04ab5a303b060.mp4",
+        "click_through": "shopify:\/\/products\/neon-flex-16ft-indoor",
+        "description": "",
+        "full_width": true,
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
     "ffe2080a-0955-4a2b-80e8-986d8a3396a6": {
       "type": "image-banner",
       "blocks": {
@@ -753,26 +770,10 @@
         "color_scheme": "inverse",
         "full_width": true
       }
-    },
-    "101239a1-459e-40cc-9764-b747c6519e3e": {
-      "type": "video2",
-      "disabled": true,
-      "custom_css": [
-        ".video-section {padding: 0px; margin-top: 0px;}"
-      ],
-      "settings": {
-        "heading": "",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3dbfb3052cc145949fc04ab5a303b060.mp4",
-        "click_through": "shopify:\/\/products\/neon-flex-16ft-indoor",
-        "description": "",
-        "full_width": false,
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": true
-      }
     }
   },
   "order": [
+    "101239a1-459e-40cc-9764-b747c6519e3e",
     "ffe2080a-0955-4a2b-80e8-986d8a3396a6",
     "1632116257dff5145e",
     "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec",
@@ -795,7 +796,6 @@
     "16321870964a1d4c89",
     "16371499188aae96be",
     "1f0291ae-fc20-4ab9-8ecc-13f9a04d7d9a",
-    "163210701498163fc8",
-    "101239a1-459e-40cc-9764-b747c6519e3e"
+    "163210701498163fc8"
   ]
 }
