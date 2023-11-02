@@ -756,6 +756,7 @@
     },
     "101239a1-459e-40cc-9764-b747c6519e3e": {
       "type": "video2",
+      "disabled": true,
       "custom_css": [
         ".video-section {padding: 0px; margin-top: 0px;}"
       ],
