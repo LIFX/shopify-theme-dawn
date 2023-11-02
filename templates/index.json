@@ -148,19 +148,6 @@
         "website_us": true
       }
     },
-    "8611a70d-7f94-47e7-b361-dbea47ebc73f": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "custom_css": [
-        ".spaced-section,last-child {margin-bottom: 0rem;}",
-        ".element-margin,.spaced-section {margin-top: 0rem;}",
-        ".productFamily {border: 1px solid; border-radius: 50px; color: #000; display: inline-block; margin-top: 5px; margin-bottom: 0px; padding: 10px 20px 10px 20px; font-size: 1.4rem; letter-spacing: 0.1rem; line-height: 1; text-align: center; margin-right: 6px;}",
-        ".productFamily:hover {background-color: #000; color: #fff;}"
-      ],
-      "settings": {
-        "custom_liquid": "<div id=\"Banner-template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2\" class=\"banner banner--mobile-bottom \"><div class=\"banner__media media\">\n     \n      <img srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/ferns_375x.png?v=1690339131 375w,\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/ferns_750x.png?v=1690339131 750w,\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/ferns_1100x.png?v=1690339131 1100w,\" sizes=\"100vw\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/ferns_1500x.png?v=1690339131\" loading=\"lazy\" alt=\"\" width=\"1300\" height=\"732.0\">\n\n    <\/div><div class=\"banner__align--center banner__content--center page-width\">\n    <div class=\"banner__box color-background-1\"><h2 class=\"banner__heading h0\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-heading-1&quot;,&quot;type&quot;:&quot;heading&quot;}\">\n              <span data-live-text-setting=\"section.template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2.block.template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-heading-1.heading\/escape\">Coming Soon<\/span>\n            <\/h2><div class=\"banner__text\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-text-1&quot;,&quot;type&quot;:&quot;text&quot;}\">\n              <span data-live-text-setting=\"section.template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2.block.template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-text-1.text\/escape\">We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈<\/span>\n            <\/div><div class=\"banner__buttons\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;template--15167164154037__7e3eb869-aefb-4856-bffd-1f99c9824cc2-buttons-1&quot;,&quot;type&quot;:&quot;buttons&quot;}\">\n\n\n\n<span data-tf-popup=\"iZsrD80w\" data-tf-opacity=\"100\" data-tf-hide-headers data-tf-size=\"50\" data-tf-iframe-props=\"title=Product Launch Signup\" data-tf-transitive-search-params data-tf-medium=\"snippet\" class=\"productFamily\" style=\"text-decoration:none;margin:0px;width:100%;margin-top:10px;cursor:pointer\">Notify me when launched<\/span><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>\n\n<\/div><\/div>\n  <\/div>\n\n<\/div>"
-      }
-    },
     "277239b4-c011-4cfd-ab56-49ab4e33a97c": {
       "type": "custom-liquid",
       "settings": {
@@ -767,11 +754,18 @@
         "full_width": true
       }
     },
-    "834ac6a3-eea0-46df-88d4-7b5ff082ca73": {
-      "type": "custom-liquid",
+    "101239a1-459e-40cc-9764-b747c6519e3e": {
+      "type": "video2",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<button data-tf-popup=\"iZsrD80w\" data-tf-opacity=\"100\" data-tf-size=\"100\" data-tf-iframe-props=\"title=Product Launch Signup (New)\" data-tf-transitive-search-params data-tf-medium=\"snippet\" style=\"all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;color:#fff;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;\">Try me!<\/button><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
+        "heading": "",
+        "video": "shopify:\/\/products\/neon-flex-6-5ft-indoor",
+        "click_through": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3dbfb3052cc145949fc04ab5a303b060.mp4",
+        "description": "",
+        "full_width": false,
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
       }
     }
   },
@@ -779,7 +773,6 @@
     "ffe2080a-0955-4a2b-80e8-986d8a3396a6",
     "1632116257dff5145e",
     "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec",
-    "8611a70d-7f94-47e7-b361-dbea47ebc73f",
     "277239b4-c011-4cfd-ab56-49ab4e33a97c",
     "165942093296a32cfe",
     "3336066d-85ab-496b-be5e-9909acd8f92d",
@@ -800,6 +793,6 @@
     "16371499188aae96be",
     "1f0291ae-fc20-4ab9-8ecc-13f9a04d7d9a",
     "163210701498163fc8",
-    "834ac6a3-eea0-46df-88d4-7b5ff082ca73"
+    "101239a1-459e-40cc-9764-b747c6519e3e"
   ]
 }
