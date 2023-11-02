@@ -30,6 +30,9 @@
   endif
 -%}
 
+{% if product.tags contains "hideprice" %}
+{% else %}
+
 <div class="price
   {%- if price_class %} {{ price_class }}{% endif -%}
   {%- if available == false %} price--sold-out {% endif -%}
@@ -101,5 +104,5 @@
     </span>-->
   {%- endif -%}
 </div>
-
+{% endif %}
 
