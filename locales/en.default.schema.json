@@ -2047,7 +2047,7 @@
         "name": "Video"
       }
     },
-    "videoAutoLoop": {
+    "videoNoAutoLoop": {
       "name": "VideoNoAutoLoop",
       "settings": {
         "heading": {
