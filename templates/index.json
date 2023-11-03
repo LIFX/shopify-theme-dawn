@@ -2,7 +2,6 @@
   "sections": {
     "101239a1-459e-40cc-9764-b747c6519e3e": {
       "type": "video2",
-      "disabled": true,
       "custom_css": [
         ".video-section {padding: 0px; margin-top: 0px;}"
       ],
@@ -50,6 +49,7 @@
         "5035fb2b-a932-46b2-bbb8-319889606b11",
         "0358719c-6ef5-4a8e-b848-d6055c0477a8"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MG_1990-2.jpg",
         "adapt_height_first_image": false,
@@ -64,8 +64,8 @@
         "show_text_below": true,
         "crop_image_alignment": "center",
         "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
+        "website_ukeu": false,
+        "website_us": false
       }
     },
     "1632116257dff5145e": {
