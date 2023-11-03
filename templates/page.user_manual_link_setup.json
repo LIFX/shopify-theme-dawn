@@ -123,6 +123,20 @@
         "website_us": true
       }
     },
+    "d284fc36-08df-4d7d-987b-32ad7fecfb36": {
+      "type": "video3",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0d1c9026150a49aa9ef26e5ff1ef5b91.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "083f4368-4725-4e0b-8aa5-50e48576f84b": {
       "type": "rich-text",
       "blocks": {
@@ -245,6 +259,7 @@
     "84965e73-6ae1-4687-80b1-47340b6df8a1",
     "8b3a956b-24d9-4970-9f26-32bf3d5cc268",
     "90a4e391-3998-4b41-948b-7fe6e7ed0fb5",
+    "d284fc36-08df-4d7d-987b-32ad7fecfb36",
     "083f4368-4725-4e0b-8aa5-50e48576f84b",
     "332a1804-754d-475c-8f99-8c2c0e15083c",
     "84cdb3e9-0567-418f-b49e-fd221dbd318d"
