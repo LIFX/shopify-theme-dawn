@@ -66,20 +66,21 @@
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Choose Your Installation Adventure",
             "heading_size": "h1"
           }
         },
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Decide between the \"Easy Peasy\" 3M adhesive or the \"Rock Solid\" screw-in channels for installation.<\/p><p>For each option you can mount it using the back of the channel OR the side, which is ideal for lighting edges. <\/p><p><strong>Easy Peasy (3M Adhesive):<\/strong> If you're all about convenience and can't wait to get your Neon Flex party started, go for the 3M adhesive. Stick it, and you're good to glow.<\/p><p><strong>Rock Solid (Screw-In Channels):<\/strong> For those who like to commit, opt for the screw-in channels. It's like promising your Neon Flex a lifetime of stability.<\/p>"
           }
         },
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -90,10 +91,60 @@
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1",
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
+      }
+    },
+    "332a1804-754d-475c-8f99-8c2c0e15083c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step 1: Choose Your Installation Adventure"
+          }
+        },
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Decide between the \"Easy Peasy\" 3M adhesive or the \"Rock Solid\" screw-in channels for installation.<\/p><p>For each option you can mount it using the back of the channel OR the side, which is ideal for lighting edges. <\/p><p><strong>Easy Peasy (3M Adhesive):<\/strong> If you're all about convenience and can't wait to get your Neon Flex party started, go for the 3M adhesive. Stick it, and you're good to glow.<\/p><p><strong>Rock Solid (Screw-In Channels):<\/strong> For those who like to commit, opt for the screw-in channels. It's like promising your Neon Flex a lifetime of stability.<\/p>"
+          }
+        },
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-heading-1",
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1",
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "90a4e391-3998-4b41-948b-7fe6e7ed0fb5": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0d1c9026150a49aa9ef26e5ff1ef5b91.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     }
   },
@@ -101,6 +152,8 @@
     "main",
     "53f253c7-5cd9-41aa-81be-357851c1722f",
     "84965e73-6ae1-4687-80b1-47340b6df8a1",
-    "8b3a956b-24d9-4970-9f26-32bf3d5cc268"
+    "8b3a956b-24d9-4970-9f26-32bf3d5cc268",
+    "332a1804-754d-475c-8f99-8c2c0e15083c",
+    "90a4e391-3998-4b41-948b-7fe6e7ed0fb5"
   ]
 }
