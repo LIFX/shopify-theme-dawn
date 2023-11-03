@@ -10,7 +10,7 @@
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8605d66c5c3649faa40abe8c95f478ca.mp4",
         "click_through": "shopify:\/\/products\/neon-flex-16ft-indoor",
         "description": "",
-        "full_width": true,
+        "full_width": false,
         "website_au": false,
         "website_ukeu": false,
         "website_us": true
