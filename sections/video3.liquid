@@ -1,12 +1,98 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% if section.settings.website_ukeu == false and request.host == 'lifxukeu.myshopify.com' or request.host == 'lifxshop.co.uk' or request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' %}
+{% elsif section.settings.website_us == false and request.host == 'lifx.myshopify.com' or request.host == 'www.lifx.com' %}
+{% elsif section.settings.website_au == false and request.host == 'lifxaustralia.myshopify.com' or request.host == 'www.lifx.com.au' %}
+{% else %}
+
+{{ 'video-section.css' | asset_url | stylesheet_tag }}
+{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+
+{% if section.settings.video != blank %}
+{% if section.settings.click_through != blank %}<a href="{{ section.settings.click_through }}">{% endif %}
+<div class="video-section{% unless section.settings.full_width %} page-width{% endunless %}">
+  <div{% if section.settings.full_width %} class="page-width"{% endif %}>
+    <h2 class="title">{{ section.settings.heading }}</h2>
+  </div>
+
+<style>
+  @-moz-document url-prefix() {
+  .videoFox {
+    width: -moz-available;
   }
-{% endschema %}
+}
+    .videoFox {
+    width: -webkit-fill-available;
+  }
+</style>  
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
+<video muted playsinline style="display:flex" class="videoFox">
+    <source src="{{ section.settings.video }}" type="video/mp4" alt="{{ 'sections.video.load_video' | t: description: section.settings.description | escape }}">
+</video>
+</div>
+{% if section.settings.click_through != blank %}</a>{% endif %}
+  
+{% endif %}
+
+{% endif %}
+{% schema %}
+{
+  "name": "t:sections.videoNoAutoLoop.name",
+  "tag": "section",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Video",
+      "label": "t:sections.videoNoAutoLoop.settings.heading.label"
+    },
+	{
+      "type": "url",
+      "id": "video",
+      "label": "t:sections.videoNoAutoLoop.settings.video.label",
+      "info": "t:sections.videoNoAutoLoop.settings.video.info"
+    },
+	{
+      "type": "url",
+      "id": "click_through",
+      "label": "t:sections.videoNoAutoLoop.settings.click_through.label",
+      "info": "t:sections.videoNoAutoLoop.settings.click_through.info"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "t:sections.videoNoAutoLoop.settings.description.label",
+      "info": "t:sections.videoNoAutoLoop.settings.description.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "t:sections.video.settings.full_width.label",
+      "default": false
+    },
+	{
+      "type": "checkbox",
+      "id": "website_au",
+      "default": true,
+      "label": "t:sections.image-banner.settings.website_au.label"
+    },
+	{
+      "type": "checkbox",
+      "id": "website_ukeu",
+      "default": true,
+      "label": "t:sections.image-banner.settings.website_ukeu.label"
+    },
+	{
+      "type": "checkbox",
+      "id": "website_us",
+      "default": true,
+      "label": "t:sections.image-banner.settings.website_us.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.videoNoAutoLoop.presets.name"
+    }
+  ]
+}
+  {% endschema %}
