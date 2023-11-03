@@ -146,6 +146,42 @@
         "website_ukeu": true,
         "website_us": true
       }
+    },
+    "083f4368-4725-4e0b-8aa5-50e48576f84b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Getting the Flex on your wall (or other surfaces)",
+            "heading_size": "h1"
+          }
+        },
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Attach the channels to your chosen surface and press your Neon Flex into the attached channels, bending and shaping it to suit your design. You can wrap it around walls, furniture edges, windows, doors, or any architectural features in your space.<\/p><p><em>Your Flex should bend in one direction naturally, don't force it to bend if you feel resistance.  <\/em><\/p>"
+          }
+        },
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-heading-1",
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-text-1",
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-button-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -154,6 +190,7 @@
     "84965e73-6ae1-4687-80b1-47340b6df8a1",
     "8b3a956b-24d9-4970-9f26-32bf3d5cc268",
     "332a1804-754d-475c-8f99-8c2c0e15083c",
-    "90a4e391-3998-4b41-948b-7fe6e7ed0fb5"
+    "90a4e391-3998-4b41-948b-7fe6e7ed0fb5",
+    "083f4368-4725-4e0b-8aa5-50e48576f84b"
   ]
 }
