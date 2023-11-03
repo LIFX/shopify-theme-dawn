@@ -2048,32 +2048,6 @@
       }
     },
     "videoAutoLoop": {
-      "name": "VideoAutoLoop",
-      "settings": {
-        "heading": {
-          "label": "Heading"
-        },
-        "video": {
-          "label": "Video URL hosted",
-          "info": "Link to hosted Video file not Youtube or Vimeo"
-        },
-        "description": {
-          "label": "Video alt text",
-          "info": "Describe the video to make it accessible for customers using screen readers."
-        },
-        "click_through": {
-          "label": "URL to click to",
-          "info": "Link URL"
-        },
-        "full_width": {
-          "label": "Make section full width"
-        }
-      },
-      "presets": {
-        "name": "VideoAutoLoop"
-      }
-    },
-    "videoNoAutoLoop": {
       "name": "VideoNoAutoLoop",
       "settings": {
         "heading": {
