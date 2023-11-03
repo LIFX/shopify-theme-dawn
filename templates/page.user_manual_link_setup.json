@@ -28,8 +28,7 @@
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "In the Box",
-            "workswith": "shopify:\/\/shop_images\/InTheBox_Photo_Labels.jpg"
+            "heading": "In the Box"
           }
         },
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1": {
@@ -52,9 +51,10 @@
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/InTheBox_Photo_Labels.jpg",
+        "height": "small",
         "color_scheme": "background-1",
-        "layout": "image_first",
+        "layout": "text_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
