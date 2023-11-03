@@ -34,7 +34,7 @@
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Before we dive into the setup process, let's take a look at what you'll find in your LIFX Neon Flex kit:<\/p><ul><li>LIFX Neon Flex LED rope light<\/li><li>LIFX controller<\/li><li>Power supply<\/li><li>Installation channels<\/li><li>3M adhesive (for those who want to stick it up)<\/li><li>Screws (for those who want to affix more permanently)<\/li><\/ul><p>Please note that the Neon Flex LED rope light is not extendable, so make sure to choose the right length to suit your space.<\/p>"
+            "text": "<p>Before we dive into the setup process, let's take a look at what you'll find in your LIFX Neon Flex kit:<\/p><ul><li>LIFX Neon Flex LED rope light<\/li><li>LIFX controller<\/li><li>Power supply<\/li><li>Installation channels<\/li><li>3M adhesive <\/li><li>Screws <\/li><\/ul>"
           }
         },
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1": {
@@ -162,6 +162,7 @@
         },
         "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": ""
@@ -173,8 +174,8 @@
         "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1",
         "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1"
       ],
-      "disabled": true,
       "settings": {
+        "image": "shopify:\/\/shop_images\/App_LIFX.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
