@@ -316,6 +316,7 @@
 {% if product.metafields.my_fields.us_bestbuy_affiliate %}<a href="{{ product.metafields.my_fields.us_bestbuy_affiliate }}" class="mobile_external affiliateLink" style="text-decoration:none" target="_blank" rel="noopener"><span class="productFamily" aria-hidden="true" style="margin-top:10px;width:100%;">Best Buy</span></a>{% endif %}
 {% if product.metafields.custom.us_ace_affiliate %}<a href="{{ product.metafields.custom.us_ace_affiliate }}" class="mobile_external affiliateLink" style="text-decoration:none" target="_blank" rel="noopener"><span class="productFamily" aria-hidden="true" style="margin-top:10px;width:100%;">Ace Hardware</span></a>{% endif %}
 {% if product.metafields.my_fields.us_amazon_affiliate %}<a href="{{ product.metafields.my_fields.us_amazon_affiliate }}" class="mobile_external affiliateLink" style="text-decoration:none" target="_blank" rel="noopener"><span class="productFamily" aria-hidden="true" style="{% if product.tags contains "primeDay" %}color:white;background:#1a98ff;{% endif %}margin-top:10px;width:100%">{% if product.tags contains "primeDay" %}View Prime Day Deal{% else %}Amazon{% endif %}</span></a>{% endif %}
+{% if product.metafields.custom.woot %}<a href="{{ product.metafields.custom.woot }}" class="mobile_external affiliateLink" style="text-decoration:none" target="_blank" rel="noopener"><span class="productFamily" aria-hidden="true" style="margin:0px;width:100%">Woot</span></a>{% endif %}
 	
         
                  {% elsif product.tags contains "cleverhouse" %}
