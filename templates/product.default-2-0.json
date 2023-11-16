@@ -113,6 +113,7 @@
         },
         "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Energy Labels",
             "website_au": false,
@@ -265,69 +266,19 @@
         "website_us": true
       }
     },
-    "163591479253a6c41d": {
-      "type": "image-banner-interactive",
-      "blocks": {
-        "163591479253a6c41d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.headline4.value }}",
-            "heading_size": "medium"
-          }
-        },
-        "163591479253a6c41d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }}<\/p>"
-          }
-        },
-        "163591479253a6c41d-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Saturday Breakfast",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Dinner Party",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "163591479253a6c41d-0",
-        "163591479253a6c41d-1",
-        "163591479253a6c41d-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image4.value }}",
-        "image_2": "{{ product.metafields.my_fields.image5.value }}",
-        "text_button_1": "",
-        "text_button_2": "",
-        "text_button_3": "",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "1636000353893885f5": {
       "type": "image-with-text",
       "blocks": {
         "1636000353893885f5-0": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.metafields.my_fields.headline6.value }}"
+            "heading": "{{ product.metafields.my_fields.headline4.value }}"
           }
         },
         "1636000353893885f5-1": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph6 | metafield_tag }}<\/p>"
+            "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }}<\/p>"
           }
         }
       },
@@ -336,10 +287,40 @@
         "1636000353893885f5-1"
       ],
       "settings": {
-        "image": "{{ product.metafields.my_fields.image6.value }}",
+        "image": "{{ product.metafields.my_fields.image4.value }}",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "68432f33-fae8-4543-a2ba-4dc623ccadb9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14684223799343__68432f33-fae8-4543-a2ba-4dc623ccadb9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline5.value }}"
+          }
+        },
+        "template--14684223799343__68432f33-fae8-4543-a2ba-4dc623ccadb9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph5 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14684223799343__68432f33-fae8-4543-a2ba-4dc623ccadb9-heading-1",
+        "template--14684223799343__68432f33-fae8-4543-a2ba-4dc623ccadb9-text-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image5.value }}",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -549,8 +530,8 @@
     "163514216916abed30",
     "163520046949622558",
     "16352007448c39f051",
-    "163591479253a6c41d",
     "1636000353893885f5",
+    "68432f33-fae8-4543-a2ba-4dc623ccadb9",
     "1636083188021f8436",
     "16360008950381c4a6",
     "1657609100de548b3b",
