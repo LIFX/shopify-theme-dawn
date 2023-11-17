@@ -3,7 +3,7 @@
 {% else %}
 
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-
+{% if section.settings.image != blank %}
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
   @media screen and (max-width: 749px) {
@@ -125,6 +125,7 @@
 </a>
 {% endif %}
 
+{% endif %}
 
 
 {% endif %}
