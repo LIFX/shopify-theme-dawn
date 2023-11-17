@@ -97,7 +97,7 @@
 
   {%- if show_badges -%}
     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">
-      {{ 'products.product.on_sale' | t }}.
+      {%- if product.tags contains "launch" -%}Launch Offer{%- else -%}{{ 'products.product.on_sale' | t }}{%- endif -%}
     </span>
 
     <!--<span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">
