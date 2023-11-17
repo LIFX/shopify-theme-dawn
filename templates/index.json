@@ -22,21 +22,21 @@
         "525c1a9c-2387-4b6f-bab0-37cc7f015fa6": {
           "type": "heading",
           "settings": {
-            "heading": "Coming Soon",
+            "heading": "Hello String Light.",
             "heading_size": "medium"
           }
         },
         "5035fb2b-a932-46b2-bbb8-319889606b11": {
           "type": "text",
           "settings": {
-            "text": "We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈"
+            "text": "Goodbye old-school string light 💡, hello ultra futuristic 🚀 ‘envy-of-your-friends’, vibe setting outdoor lighting. 🌈"
           }
         },
         "0358719c-6ef5-4a8e-b848-d6055c0477a8": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Notify me when launched",
-            "button_link_1": "https:\/\/lifx.typeform.com\/to\/iZsrD80w",
+            "button_label_1": "Learn More",
+            "button_link_1": "shopify:\/\/products\/lifx-string-light",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -50,7 +50,7 @@
         "0358719c-6ef5-4a8e-b848-d6055c0477a8"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MG_1990-2.jpg",
+        "image": "shopify:\/\/shop_images\/string_hero.png",
         "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
@@ -443,11 +443,7 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": true
       }
     },
     "4d925022-1924-4479-8f3d-9773424662f2": {
