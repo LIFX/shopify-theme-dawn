@@ -85,7 +85,9 @@
             <!--<span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.sold_out' | t }}</span>-->
          {%- elsif product_card_product.tags contains "launch" -%}
              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Launch Offer</span>
-         {%- elsif product_card_product.tags contains "B2S30" -%}
+          {%- elsif product_card_product.tags contains "thdexclusive" -%}
+             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Home Depot Exclusive</span>
+        {%- elsif product_card_product.tags contains "B2S30" -%}
              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">Buy 2+ Save 30%</span>
          {%- elsif product_card_product.tags contains "OnSale" -%}
              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">On Sale</span>
