@@ -61,6 +61,12 @@
             "picker_type": "button"
           }
         },
+        "32b39f41-cba0-44e1-86c7-18fb5bf002c3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.handle == \"lifx-string-light\" %}\n<p class=\"product__text caption-with-letter-spacing\"><strong>Shipping Alert:<\/strong> Batch 1 sold out, pre-orders now available. Batch 2 expected to be available for shipping on 9th December 2023.<\/p>\n{% endif %}"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
@@ -148,6 +154,7 @@
         "price",
         "31c1d1b5-b3a4-4f4c-8bbb-41d6f2175ef5",
         "variant_picker",
+        "32b39f41-cba0-44e1-86c7-18fb5bf002c3",
         "quantity_selector",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "buy_buttons",
