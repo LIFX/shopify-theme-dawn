@@ -150,9 +150,9 @@
             <span class="visually-hidden">{{ product_card_product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
           </p>
         {%- endif -%}
-          {% if request.host == 'www.lifx.com.au' %}
+         
              {%  render 'price', product: product_card_product, price_class: '' %}
-          {% endif %}
+          
       </div>
     </div>
 </div>
