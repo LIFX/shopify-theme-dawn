@@ -511,6 +511,7 @@
     },
     "c10b0de7-9349-4ece-b163-e5f04c284764": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "{% if product.handle == \"lifx-string-light\" %}\n\n{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}\n  \n<div class=\"image-with-text page-width color-scheme-background-1\">\n  <div class=\"image-with-text__grid color-background-1 grid grid--gapless grid--1-col grid--2-col-tablet gradient\">\n    <div class=\"grid__item\">\n      <div class=\"image-with-text__media image-with-text__media--adapt media\" style=\"padding-bottom: 100.0%;\">\n        \n        <video muted autoplay playsinline loop style=\"width: 100%; height: 100%;object-fit: cover;\" class=\"videoFox\">\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ad4e399c812c40a582f14503c7f8bda6.mp4\" type=\"video\/mp4\" alt=\"{{ 'sections.video.load_video' | t: description: section.settings.description | escape }}\">\n<\/video>\n      <\/div>\n    <\/div>\n    <div class=\"grid__item\">\n      <div class=\"image-with-text__content image-with-text__content--{{ section.settings.height }}\">\n        \n              <h2 class=\"image-with-text__heading h1\" {{ block.shopify_attributes }}>\n                Heading\n              <\/h2>\n       \n              <div class=\"product__description rte\">\n               Description Description Description\n              <\/div>       \n     \n        \n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n  {% endif%}"
       }
