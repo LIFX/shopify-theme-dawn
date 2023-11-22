@@ -134,7 +134,7 @@
 .productFamily {
 border: 1px solid;
 border-radius: 50px;
-color: #000;
+color: #FFF;
 display: inline-block;
 margin-top: 5px;
 margin-bottom: 0px;
@@ -146,8 +146,8 @@ text-align: center;
 margin-right:6px;
 }
 .productFamily:hover{
-color: #FFF;
-background-color:#000
+color: #000;
+background-color:#FFF
 }
 .variantSoldOut{
 cursor: not-allowed;
