@@ -23,8 +23,8 @@
       "disabled": true,
       "custom_css": [
         ".spaced-section--full-width {background-image: linear-gradient(to bottom right, deeppink, blue, cyan);}",
-        ".image-with-text {padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
-        ".image-with-text__content {background: none;}",
+        ".image-with-text {padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px; border-radius: 2rem;}",
+        ".image-with-text__content {background: #000;}",
         ".typeform {display: grid !important;}"
       ],
       "settings": {
