@@ -33,8 +33,8 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
+        "website_au": false,
+        "website_ukeu": false,
         "website_us": true
       }
     },
