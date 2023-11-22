@@ -60,7 +60,7 @@
         "aadf9e12-41b2-46f4-9805-f8f5f459be0d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "{% if product.handle == \"lifx-string-light\" %}\n<p style=\"font-size:1.2rem\" class=\"product__text caption-with-letter-spacing\">In-stock at:<\/p>\n\n<a href=\"https:\/\/www.jbhifi.com.au\/products\/lifx-string-light-rgbw-7-3m\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\" rel=\"noopener\"><span class=\"productFamily\" aria-hidden=\"true\" style=\"margin-top:10px;width:100%;\">JB HiFi<\/span><\/a>{% endif %}"
           }
         },
         "88e15617-7a01-4dae-92e8-6e255e65fba0": {
