@@ -25,13 +25,14 @@
         ".spaced-section--full-width {background-image: linear-gradient(to bottom right, deeppink, blue, cyan);}",
         ".image-with-text__grid {border-radius: 2rem;}",
         ".image-with-text {padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
-        ".image-with-text__content {background: #000;}",
+        ".image-with-text-media {border-radius: 0px;}",
+        ".image-with-text__content {background: #fff;}",
         ".typeform {display: grid !important;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_coming_soon.jpg",
+        "image": "shopify:\/\/shop_images\/Xmas_Gift_Bulb-3.jpg",
         "height": "adapt",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "layout": "image_first",
         "website_au": true,
         "website_ukeu": true,
