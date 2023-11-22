@@ -3,7 +3,7 @@
     "101239a1-459e-40cc-9764-b747c6519e3e": {
       "type": "video2",
       "custom_css": [
-        ".video-section {padding: 0px; margin-top: 0px;}"
+        ".video-section {padding: 0px; margin-top: 0px; margin-bottom: 0px;}"
       ],
       "settings": {
         "heading": "",
@@ -11,6 +11,186 @@
         "click_through": "shopify:\/\/products\/neon-flex-16ft-indoor",
         "description": "",
         "full_width": false,
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
+    "1632116257dff5145e": {
+      "type": "image-banner",
+      "blocks": {
+        "1632116257dff5145e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Black Friday Sales",
+            "heading_size": "medium"
+          }
+        },
+        "1632116257dff5145e-1": {
+          "type": "text",
+          "settings": {
+            "text": "The sales have started."
+          }
+        }
+      },
+      "block_order": [
+        "1632116257dff5145e-0",
+        "1632116257dff5145e-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Categories_Header_LightBulbs.jpg",
+        "adapt_height_first_image": false,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
+    "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Black Friday Sale"
+          }
+        },
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈<\/p><p><\/p><p><\/p>"
+          }
+        },
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Notify me when launched",
+            "button_link": "https:\/\/lifx.typeform.com\/to\/iZsrD80w"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1",
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1",
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text {background-color: #000; padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
+        ".image-with-text__content {background-color: #000;}",
+        ".typeform {display: grid !important;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_coming_soon.jpg",
+        "height": "adapt",
+        "color_scheme": "accent-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "4d925022-1924-4479-8f3d-9773424662f2": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-1": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-3": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-6": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-7": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2>LIFX Neon Flex<\/h2>"
+          }
+        },
+        "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd": {
+          "type": "text",
+          "settings": {
+            "text": "Get ready for futuristic, flexible linear light. The 16ft LIFX SuperColor Neon Flex is a powerful, ultra-bright rope light. It's bendable, smart, and has blendable PolyChrome color you can change, move or paint with custom art. It's sized to suit abstract framing furniture pieces, shelving o or creating a glowing edge on your desk or other surfaces.",
+            "text_style": "body"
+          }
+        },
+        "3859260f-fcf6-4178-bf45-6d61a29092ae": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/www.homedepot.com\/p\/LIFX-16-ft-Smart-Multi-Color-RGBW-Wi-Fi-Plug-In-Neon-Flex-Integrated-LED-Strip-Light-Works-with-Alexa-Google-HomeKit-Siri-LFXNEON16\/326869658\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">The Home Depot<\/span><\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-1",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-2",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-3",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-4",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-5",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-6",
+        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-7",
+        "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6",
+        "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd",
+        "3859260f-fcf6-4178-bf45-6d61a29092ae"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "product": "neon-flex-16ft-indoor",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false,
         "website_au": false,
         "website_ukeu": false,
         "website_us": true
@@ -50,7 +230,6 @@
         "0358719c-6ef5-4a8e-b848-d6055c0477a8"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/string_hero.png",
         "adapt_height_first_image": false,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
@@ -67,103 +246,6 @@
         "website_us": false
       }
     },
-    "1632116257dff5145e": {
-      "type": "image-banner",
-      "blocks": {
-        "1632116257dff5145e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Supercolor, super smart.",
-            "heading_size": "medium"
-          }
-        },
-        "1632116257dff5145e-1": {
-          "type": "text",
-          "settings": {
-            "text": "Browse the latest generation of LIFX  smart bulbs, lightstrips, downlights and switches."
-          }
-        },
-        "1632116257dff5145e-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1632116257dff5145e-0",
-        "1632116257dff5145e-1",
-        "1632116257dff5145e-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Categories_Header_LightBulbs.jpg",
-        "adapt_height_first_image": false,
-        "banner_height_overide": true,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "crop_image_alignment": "center",
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": true
-      }
-    },
-    "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Coming Soon"
-          }
-        },
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈<\/p><p><\/p><p><\/p>"
-          }
-        },
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Notify me when launched",
-            "button_link": "https:\/\/lifx.typeform.com\/to\/iZsrD80w"
-          }
-        }
-      },
-      "block_order": [
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1",
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1",
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".image-with-text {background-color: #000; padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
-        ".image-with-text__content {background-color: #000;}",
-        ".typeform {display: grid !important;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_coming_soon.jpg",
-        "height": "adapt",
-        "color_scheme": "accent-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "277239b4-c011-4cfd-ab56-49ab4e33a97c": {
       "type": "custom-liquid",
       "settings": {
@@ -173,14 +255,14 @@
     "165942093296a32cfe": {
       "type": "video2",
       "custom_css": [
-        ".video-section {padding: 0px; margin-top: 0px;}"
+        ".video-section {margin-top: -50px;}"
       ],
       "settings": {
         "heading": "",
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07a22412b82445d997f9f43c9bba092d.mp4",
         "click_through": "shopify:\/\/pages\/supercolor",
         "description": "",
-        "full_width": false,
+        "full_width": true,
         "website_au": false,
         "website_ukeu": false,
         "website_us": true
@@ -443,108 +525,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true
-      }
-    },
-    "4d925022-1924-4479-8f3d-9773424662f2": {
-      "type": "featured-product",
-      "blocks": {
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-0": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-1": {
-          "type": "title",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-3": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-4": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-5": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-6": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-7": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<h2>The Iconic LIFX Beam<\/h2>"
-          }
-        },
-        "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd": {
-          "type": "text",
-          "settings": {
-            "text": "A dynamic light bar for framing your space. 61 customisable zones per pack, exclusive effects, 16 million colors, and Polychrome Tech. Contains 6 Beams + 1 corner per pack.",
-            "text_style": "body"
-          }
-        },
-        "3859260f-fcf6-4178-bf45-6d61a29092ae": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/www.homedepot.com\/s\/323937527?NCNI-5\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">The Home Depot<\/span><\/a>\n<a href=\"https:\/\/www.acehardware.com\/departments\/lighting-and-electrical\/undercabinet-lighting\/accent-lighting\/3011612\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">Ace Hardware<\/span><\/a>\n<a href=\"https:\/\/www.amazon.com\/gp\/product\/B073177QS8\/\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">Amazon<\/span><\/a>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-0",
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-1",
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-2",
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-3",
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-4",
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-5",
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-6",
-        "template--15167164154037__4d925022-1924-4479-8f3d-9773424662f2-1673562976ffc15c12-7",
-        "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6",
-        "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd",
-        "3859260f-fcf6-4178-bf45-6d61a29092ae"
-      ],
-      "settings": {
-        "product": "lifx-beam-6pc-kit",
-        "secondary_background": true,
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "322ef79f-97e6-41b4-98c3-94c2c520b0fb": {
@@ -769,9 +754,10 @@
   },
   "order": [
     "101239a1-459e-40cc-9764-b747c6519e3e",
-    "ffe2080a-0955-4a2b-80e8-986d8a3396a6",
     "1632116257dff5145e",
     "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec",
+    "4d925022-1924-4479-8f3d-9773424662f2",
+    "ffe2080a-0955-4a2b-80e8-986d8a3396a6",
     "277239b4-c011-4cfd-ab56-49ab4e33a97c",
     "165942093296a32cfe",
     "3336066d-85ab-496b-be5e-9909acd8f92d",
@@ -784,7 +770,6 @@
     "2f60e8cf-0317-436c-91c6-5fd477720a91",
     "16364397572cc0a070",
     "16417795474723f926",
-    "4d925022-1924-4479-8f3d-9773424662f2",
     "322ef79f-97e6-41b4-98c3-94c2c520b0fb",
     "1650336354e8efe75b",
     "afc8211b-5d23-4d6b-abe9-026a88bbcb55",
