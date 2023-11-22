@@ -22,17 +22,18 @@
       ],
       "disabled": true,
       "custom_css": [
-        ".spaced-section--full-width {background-image: linear-gradient(to bottom right, deeppink, blue, cyan);}",
+        ".image-with-text__heading {background-image: linear-gradient(#93c49f, #7cb98e); padding: 20px;}",
+        ".spaced-section--full-width {background: #f6f6f6;}",
         ".image-with-text__grid {border-radius: 2rem;}",
         ".image-with-text__media {border-radius: 0px;}",
         ".image-with-text {padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
-        ".image-with-text__content {background: #fff;}",
+        ".image-with-text__content {background: ;}",
         ".typeform {display: grid !important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Xmas_Gift_Bulb-3.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "layout": "image_first",
         "website_au": false,
         "website_ukeu": false,
@@ -519,7 +520,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "322ef79f-97e6-41b4-98c3-94c2c520b0fb": {
