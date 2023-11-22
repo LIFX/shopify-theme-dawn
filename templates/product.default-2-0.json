@@ -9,14 +9,6 @@
             "custom_liquid": "{% if product.handle == \"lifx-white\" or product.handle == \"lifx-white-e27\" or product.handle == \"lifx-white-b22\" %}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/White_Badge_1.png?v=1697605699\" style=\"margin:0;width:66%\">\n{% elsif product.handle contains \"white-to-warm\" %}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/WhiteToWarm_Badge.png?v=1697605256\" style=\"margin:0;width:66%\">\n{% else %}\n{% if product.tags contains \"au_store\" -%}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0443\/8041\/files\/SupercolourBadge_AU.png?v=1699249451\" style=\"margin:0;width:66%\">\n{% else %}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/sc.png?v=1697601026\" style=\"margin:0;width:66%\">\n{% endif %}\n{% endif %}"
           }
         },
-        "vendor": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -47,14 +39,6 @@
           "settings": {
           }
         },
-        "31c1d1b5-b3a4-4f4c-8bbb-41d6f2175ef5": {
-          "type": "popup",
-          "disabled": true,
-          "settings": {
-            "text": "Where to Buy",
-            "page": "where-to-buy"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -67,42 +51,16 @@
             "custom_liquid": "{% if product.handle == \"lifx-string-light\" %}\n<p style=\"font-size:1.2rem\" class=\"product__text caption-with-letter-spacing\"><strong>Shipping Alert:<\/strong> Batch 1 sold out, pre-orders now available. Batch 2 expected to be available for shipping on 8th December 2023.<\/p>\n{% endif %}"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "855ad892-8e71-400d-9280-f8bc7696049f": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{% if request.host == 'lifxshop.eu' or request.host == 'lifxshop.de' or request.host == 'lifxshop.fr' or request.host == 'lifxukeu.myshopify.com'%}\n\t\t{% else %}\n{% if product.available%}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128994;&nbsp;&nbsp;In stock<\/span>\n{% else %}\n<span class=\"badge\" aria-hidden=\"true\" style=\"margin:0px\">&#128308;\n&nbsp;&nbsp;Out of stock<\/span>\n{% endif %}\n\n{% if product.tags contains \"ME\" %}\n<div style=\"border-width:1px;border-color:#eee;border-style: solid;\n    padding: 10px;font-size: 1.3rem;\n    line-height: 1.5;\n    letter-spacing: .04rem;\">\n<strong>Ships to countries:<\/strong> UAE,\tSaudi Arabia,\tEgypt, Jordan,\tKuwait,\tBahrain,\tQatar and Oman. Shipping rates applied in cart.\n<br><br>\n<strong>Duties & Taxes:<\/strong> All import duties and taxes are the responsibility of the customer. Product ships from Hong Kong via Aramex. \n<br><br>\n<strong>Warranty & Returns:<\/strong> LIFX is unable to supply an international warranty outside of the US due to high shipping rates.<\/div>\n{% endif %}\n{% endif %}"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
           }
         },
-        "cc97d592-9b20-4527-a8a5-12629e27c6cc": {
-          "type": "collapsible_tab",
-          "disabled": true,
+        "aadf9e12-41b2-46f4-9805-f8f5f459be0d": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Available at Amazon",
-            "website_au": true,
-            "website_ukeu": true,
-            "website_us": true,
-            "content": "",
-            "page": "amazon-colour-1000-links",
-            "icon": "price_tag"
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
+            "custom_liquid": ""
           }
         },
         "88e15617-7a01-4dae-92e8-6e255e65fba0": {
@@ -116,53 +74,20 @@
             "page": "",
             "icon": "question_mark"
           }
-        },
-        "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Energy Labels",
-            "website_au": false,
-            "website_ukeu": true,
-            "website_us": false,
-            "content": "",
-            "page": "{{ product.metafields.my_fields.eprel_labels.value }}",
-            "icon": "leaf"
-          }
-        },
-        "76f2877b-9463-4ca3-a71e-982cd31af6da": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Bulk Order Enquiry",
-            "website_au": true,
-            "website_ukeu": true,
-            "website_us": true,
-            "content": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <a href=\"\/pages\/bulk-order-enquiry\" title=\"Bulk Order Enquiry\">Enquire today<\/a> <\/p>",
-            "page": "",
-            "icon": "box"
-          }
         }
       },
       "block_order": [
         "6ff3d714-2463-4ba6-b88c-0da62d9f2f15",
-        "vendor",
         "title",
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "64978e5e-7f3d-45b3-8c87-2fbe19f9860f",
         "price",
-        "31c1d1b5-b3a4-4f4c-8bbb-41d6f2175ef5",
         "variant_picker",
         "32b39f41-cba0-44e1-86c7-18fb5bf002c3",
-        "quantity_selector",
-        "855ad892-8e71-400d-9280-f8bc7696049f",
         "buy_buttons",
-        "cc97d592-9b20-4527-a8a5-12629e27c6cc",
-        "description",
-        "88e15617-7a01-4dae-92e8-6e255e65fba0",
-        "742b4ce8-7ff7-4ae4-8d03-2bbed47f18f5",
-        "76f2877b-9463-4ca3-a71e-982cd31af6da"
+        "aadf9e12-41b2-46f4-9805-f8f5f459be0d",
+        "88e15617-7a01-4dae-92e8-6e255e65fba0"
       ],
       "settings": {
         "enable_sticky_info": true,
