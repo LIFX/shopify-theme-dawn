@@ -6,27 +6,19 @@
         "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "🚨 Black Friday Sales 🚨"
+            "heading": "Black Friday Shopping List 📝"
           }
         },
         "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈<\/p><p><\/p><p><\/p>"
-          }
-        },
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Notify me when launched",
-            "button_link": "https:\/\/lifx.typeform.com\/to\/iZsrD80w"
+            "text": "<ul><li>Early Christmas shopping 🎁<\/li><li>DIY lighting project 🛠️<\/li><li>LIFX SuperColor fix 🌈 <br\/><\/li><\/ul><p>You'll find our best Black Friday offers online and in-store :<\/p><p><\/p><p><\/p>"
           }
         }
       },
       "block_order": [
         "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1",
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1",
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1"
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1"
       ],
       "disabled": true,
       "custom_css": [
