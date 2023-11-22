@@ -1,5 +1,49 @@
 {
   "sections": {
+    "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "🚨 Black Friday Sales 🚨"
+          }
+        },
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈<\/p><p><\/p><p><\/p>"
+          }
+        },
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Notify me when launched",
+            "button_link": "https:\/\/lifx.typeform.com\/to\/iZsrD80w"
+          }
+        }
+      },
+      "block_order": [
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1",
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1",
+        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text {background-color: #000; padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
+        ".image-with-text__content {background-color: #000;}",
+        ".typeform {display: grid !important;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_coming_soon.jpg",
+        "height": "adapt",
+        "color_scheme": "accent-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "101239a1-459e-40cc-9764-b747c6519e3e": {
       "type": "video2",
       "custom_css": [
@@ -53,51 +97,6 @@
         "crop_image_alignment": "center",
         "website_au": false,
         "website_ukeu": false,
-        "website_us": true
-      }
-    },
-    "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Black Friday Sale"
-          }
-        },
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We've been hard at work in the lab 🔬, working secretly 🤫 on new products. And we can't wait to share them with you. 🌈<\/p><p><\/p><p><\/p>"
-          }
-        },
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Notify me when launched",
-            "button_link": "https:\/\/lifx.typeform.com\/to\/iZsrD80w"
-          }
-        }
-      },
-      "block_order": [
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1",
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1",
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-button-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".image-with-text {background-color: #000; padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
-        ".image-with-text__content {background-color: #000;}",
-        ".typeform {display: grid !important;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/image_coming_soon.jpg",
-        "height": "adapt",
-        "color_scheme": "accent-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
         "website_us": true
       }
     },
@@ -753,9 +752,9 @@
     }
   },
   "order": [
+    "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec",
     "101239a1-459e-40cc-9764-b747c6519e3e",
     "1632116257dff5145e",
-    "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec",
     "4d925022-1924-4479-8f3d-9773424662f2",
     "ffe2080a-0955-4a2b-80e8-986d8a3396a6",
     "277239b4-c011-4cfd-ab56-49ab4e33a97c",

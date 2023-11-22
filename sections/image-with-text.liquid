@@ -50,6 +50,10 @@
             {%- when 'text' -%}
               <div class="image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
 
+        {%- if product.handle == "lifx-string-light"  -%}
+<p>/</p>
+          {%- endif -%}
+
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
                 <a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"{% if block.settings.button_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
@@ -66,7 +70,7 @@
         {%- endfor -%}
 
           <div class="typeform" style="display:none">
-            <span data-tf-popup="iZsrD80w" data-tf-opacity="100" data-tf-hide-headers data-tf-size="50" data-tf-iframe-props="title=Product Launch Signup" data-tf-transitive-search-params data-tf-medium="snippet" class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} style="text-decoration:none;margin:0px;width:100%;margin-top:10px;cursor:pointer">Notify me when launched</span><script src="//embed.typeform.com/next/embed.js"></script>
+            <span class="button button--primary style="text-decoration:none;margin:0px;width:100%;margin-top:10px;cursor:pointer">The Home Depot</span>
           </div> 
         
       </div>
