@@ -22,14 +22,15 @@
       ],
       "disabled": true,
       "custom_css": [
-        ".image-with-text {background-color: #000; padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
-        ".image-with-text__content {background-color: #000;}",
+        ".spaced-section--full-width {background-image: linear-gradient(to bottom right, deeppink, blue, cyan);}",
+        ".image-with-text {padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
+        ".image-with-text__content {background: none;}",
         ".typeform {display: grid !important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/image_coming_soon.jpg",
         "height": "adapt",
-        "color_scheme": "accent-1",
+        "color_scheme": "inverse",
         "layout": "image_first",
         "website_au": true,
         "website_ukeu": true,
