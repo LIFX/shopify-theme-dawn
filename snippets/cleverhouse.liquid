@@ -1,3 +1,5 @@
+{{ 'affiliates.css' | asset_url | stylesheet_tag }}
+
 <style>
   .shopify-buy__layout-vertical {
     max-width:100%!important;
@@ -152,7 +154,7 @@
 </div>
 
 {% if product.handle == "lifx-string-light" %}
-  {{ 'affiliates.css' | asset_url | stylesheet_tag }}
+  
 <div>
   <a href="https://www.jbhifi.com.au/products/lifx-string-light-rgbw-7-3m" class="mobile_external affiliateLink" target="_blank">
     <span class="product__text caption-with-letter-spacing">JB Hi-Fi</span></a>   
