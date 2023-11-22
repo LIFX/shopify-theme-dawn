@@ -20,7 +20,6 @@
         "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1",
         "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1"
       ],
-      "disabled": true,
       "custom_css": [
         ".spaced-section--full-width {background-image: linear-gradient(to bottom right, deeppink, blue, cyan);}",
         ".image-with-text__grid {border-radius: 2rem;}",
