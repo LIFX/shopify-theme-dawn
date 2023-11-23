@@ -1,0 +1,538 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "6ff3d714-2463-4ba6-b88c-0da62d9f2f15": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.handle == \"lifx-white\" or product.handle == \"lifx-white-e27\" or product.handle == \"lifx-white-b22\" %}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/White_Badge_1.png?v=1697605699\" style=\"margin:0;width:66%\">\n{% elsif product.handle contains \"white-to-warm\" %}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/WhiteToWarm_Badge.png?v=1697605256\" style=\"margin:0;width:66%\">\n{% else %}\n{% if product.tags contains \"au_store\" -%}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0443\/8041\/files\/SupercolourBadge_AU.png?v=1699249451\" style=\"margin:0;width:66%\">\n{% else %}\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/sc.png?v=1697601026\" style=\"margin:0;width:66%\">\n{% endif %}\n{% endif %}"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.lumens.value }} {{ product.metafields.my_fields.subtitle_lumens.value }}",
+            "text_style": "uppercase"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "64978e5e-7f3d-45b3-8c87-2fbe19f9860f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- for variant in product.variants -%}\n    <p class=\"product__text caption-with-letter-spacing\">SKU: {{ variant.sku }}<\/p>\n  {%- endfor -%}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "32b39f41-cba0-44e1-86c7-18fb5bf002c3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.handle == \"lifx-string-light\" %}\n<p style=\"font-size:1.2rem\" class=\"product__text caption-with-letter-spacing\"><strong>Shipping Alert:<\/strong> Batch 1 sold out, pre-orders now available. Batch 2 expected to be available for shipping on 8th December 2023.<\/p>\n{% endif %}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "aadf9e12-41b2-46f4-9805-f8f5f459be0d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.handle == \"lifx-string-light\" %}\n<p style=\"font-size:1.2rem\" class=\"product__text caption-with-letter-spacing\">In-stock at:<\/p>\n\n<a href=\"https:\/\/www.jbhifi.com.au\/products\/lifx-string-light-rgbw-7-3m\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\" rel=\"noopener\"><span class=\"productFamily\" aria-hidden=\"true\" style=\"margin-top:10px;width:100%;\">JB HiFi<\/span><\/a>{% endif %}"
+          }
+        },
+        "88e15617-7a01-4dae-92e8-6e255e65fba0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
+            "content": "<p><strong>Brightness:<\/strong> {{ product.metafields.my_fields.lumens.value }} Lumens<br\/><strong>Colour rendering index<\/strong> (<strong>CRI):<\/strong> {{ product.metafields.my_fields.cri.value }}<br\/><strong>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }}W at full brightness<br\/><strong>Wattage Eq: <\/strong>{{ product.metafields.my_fields.wattage_equivalent.value }}W Incandescent<br\/><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/><strong>Voltage Range:<\/strong> AC 100-240V 50\/60 Hz<br\/><strong>Colour Temperature:<\/strong> {{ product.metafields.my_fields.cct_min.value }}K to {{ product.metafields.my_fields.cct_max.value }}K<br\/><strong>Beam Angle:<\/strong> {{ product.metafields.my_fields.beam_angle.value }}°<br\/><strong>Dimming:<\/strong> Software dimming 1% -100%<br\/><strong>Wi-Fi:<\/strong> 2.4GHz<br\/><strong>Security:<\/strong> WPA, WPA2<br\/><strong>Dims:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<br\/><strong>{{ product.metafields.custom.ip_label.value }}<\/strong><strong> <\/strong>{{ product.metafields.custom.ip_rating.value }}<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        }
+      },
+      "block_order": [
+        "6ff3d714-2463-4ba6-b88c-0da62d9f2f15",
+        "title",
+        "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
+        "subtitle",
+        "64978e5e-7f3d-45b3-8c87-2fbe19f9860f",
+        "price",
+        "variant_picker",
+        "32b39f41-cba0-44e1-86c7-18fb5bf002c3",
+        "buy_buttons",
+        "aadf9e12-41b2-46f4-9805-f8f5f459be0d",
+        "88e15617-7a01-4dae-92e8-6e255e65fba0"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": true,
+        "enable_video_looping": true
+      }
+    },
+    "16360050346d3b64a8": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "{{ product.metafields.my_fields.video1.value }}",
+        "click_through": "",
+        "description": "{{ product.vendor }} {{ product.title }}",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "03d16fa4-eff2-49dc-8758-1780ec4098bd": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-heading-1",
+        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-text-1",
+        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-buttons-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.herobanner.value }}",
+        "adapt_height_first_image": false,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "163514216916abed30": {
+      "type": "image-with-text",
+      "blocks": {
+        "163514216916abed30-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline1.value }}"
+          }
+        },
+        "a2c0573f-6c35-4b00-b26c-831499d35180": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph1 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163514216916abed30-0",
+        "a2c0573f-6c35-4b00-b26c-831499d35180"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image1.value }}",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "163520046949622558": {
+      "type": "image-with-text",
+      "blocks": {
+        "163520046949622558-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline2.value }}"
+          }
+        },
+        "163520046949622558-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph2 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163520046949622558-0",
+        "163520046949622558-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image2.value }}",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "16352007448c39f051": {
+      "type": "image-with-text",
+      "blocks": {
+        "16352007448c39f051-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline3.value }}"
+          }
+        },
+        "16352007448c39f051-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph3 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16352007448c39f051-0",
+        "16352007448c39f051-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image3.value }}",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1636000353893885f5": {
+      "type": "image-with-text",
+      "blocks": {
+        "1636000353893885f5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline4.value }}"
+          }
+        },
+        "1636000353893885f5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph4 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1636000353893885f5-0",
+        "1636000353893885f5-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image4.value }}",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "68432f33-fae8-4543-a2ba-4dc623ccadb9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14684223799343__68432f33-fae8-4543-a2ba-4dc623ccadb9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.headline5.value }}"
+          }
+        },
+        "template--14684223799343__68432f33-fae8-4543-a2ba-4dc623ccadb9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.paragraph5 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14684223799343__68432f33-fae8-4543-a2ba-4dc623ccadb9-heading-1",
+        "template--14684223799343__68432f33-fae8-4543-a2ba-4dc623ccadb9-text-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.image5.value }}",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "1636083188021f8436": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "{{ product.metafields.my_fields.video2.value }}",
+        "click_through": "",
+        "description": "{{ product.vendor }} {{ product.title }} Product Video",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "16360008950381c4a6": {
+      "type": "multicolumn",
+      "blocks": {
+        "16360008950381c4a6-0": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image7.value }}",
+            "title": "{{ product.metafields.my_fields.headline7.value }}",
+            "text": "<p>{{ product.metafields.my_fields.paragraph7 | metafield_tag }}<\/p>"
+          }
+        },
+        "16360008950381c4a6-1": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields.image8.value }}",
+            "title": "{{ product.metafields.my_fields.headline8.value }}",
+            "text": "<p>{{ product.metafields.my_fields.paragraph8 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16360008950381c4a6-0",
+        "16360008950381c4a6-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1657609100de548b3b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if section.settings.website_ukeu == false and request.host == 'lifx.myshopify.com' or request.host == 'lifx.com' or request.host == 'www.lifx.com' %}\n<div class=\"page-width\">\n<h1>Inspiration Gallery<\/h1>\n<p>Add <a href=\"https:\/\/www.instagram.com\/explore\/tags\/lifx\/\">#lifx<\/a> to your photos on Instagram<\/p><div \n    class=\"social-widget-wrapper\" data-widget-id=\"43841\">\n    <\/div>\n\n<a href=\"https:\/\/www.instagram.com\/lifx\/\" target=\"_blank\" class=\"button\" style=\"margin-top:10px\">FOLLOW US @LIFX<\/a>\n<\/div>\n\n{% endif %}"
+      }
+    },
+    "1635139699342ea047": {
+      "type": "multicolumn",
+      "blocks": {
+        "1635139699342ea047-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hey_google.jpg",
+            "workswith": "shopify:\/\/shop_images\/WorksWith_Badge_with_border_HeyGoogle_horizontal_CMYK_color_EN-US.png",
+            "title": "",
+            "text": "<p>Ask Google to control smart devices in your home. No matter where you are, get things done – whenever you want.<br\/><br\/>\"Hey Google, dim the living room lights and turn on Netflix.\"<\/p>"
+          }
+        },
+        "1635139699342ea047-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Echo-Dot-with-clock_-Glacier-White_-Bedroom.jpg",
+            "workswith": "shopify:\/\/shop_images\/Amazon_Alexa_Works_With_RGB.png",
+            "title": "",
+            "text": "<p>LIFX works with Amazon Alexa products to control your lights with your voice. No need to unlock your phone and open the app.<br\/><br\/>\"Alexa... Set the living room to warm white.”<\/p>"
+          }
+        },
+        "1635139699342ea047-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/07_LIFX-GU10-Kitchen-c1.jpg",
+            "workswith": "shopify:\/\/shop_images\/png_version.png",
+            "title": "",
+            "text": "<p>Turn your iPhone into a universal remote for your smart home with Apple HomeKit.<br\/><br\/>Say \"Siri, I'm home,\" and have HomeKit unlock your door and set your LIFX lighting to your favourite scene.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635139699342ea047-0",
+        "1635139699342ea047-1",
+        "1635139699342ea047-2"
+      ],
+      "settings": {
+        "title": "Hey Google, Alexa, Siri...",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16359041219d05cf7f": {
+      "type": "collage",
+      "blocks": {
+        "16359041219d05cf7f-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/WHITE-WHEEL-TOUR-_KELVINS_-HD720P_2.jpg",
+            "video_url": "https:\/\/youtu.be\/Ka3PzXyktHc",
+            "description": "Good morning",
+            "image_padding": false
+          }
+        },
+        "e09ecd8f-3a0e-499e-95bf-0dae8081c7ba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LIFX_Color_LiveInColor-AppPage-HR-Square.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "16359041219d05cf7f-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "lightbulbs",
+            "image_padding": false,
+            "color_scheme": "accent-1"
+          }
+        }
+      },
+      "block_order": [
+        "16359041219d05cf7f-0",
+        "e09ecd8f-3a0e-499e-95bf-0dae8081c7ba",
+        "16359041219d05cf7f-2"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1635892427a2cdb2bc": {
+      "type": "multicolumn",
+      "blocks": {
+        "1635892427a2cdb2bc-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/t3.png",
+            "title": "LIFX smart bulbs deliver excellent smart lighting",
+            "text": "<p>\"They're really very good as smart bulbs, nailing the colour aspect perfectly, responding well to commands, and tying in neatly to your choice of smart assistant. The app offers one-touch control of your connected lights, and some very detailed control deeper down, and everything's easy to set up and get running.\"<br\/><a href=\"https:\/\/www.t3.com\/au\/features\/best-smart-bulbs\" target=\"_blank\" title=\"https:\/\/www.t3.com\/au\/features\/best-smart-bulbs\">Read more<\/a><\/p>"
+          }
+        },
+        "1635892427a2cdb2bc-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cnet_logo.png",
+            "title": "Best color-changing smart bulb",
+            "text": "<p>\"Like I said, I think Lifx lights belong right at the top of your list if you're looking to add a smart pop of color to your home's lighting systems. The brand sells a variety of bulbs and smart lights that all put out bright, great-looking colors, all of which can connect with Alexa, Siri or Google Assistant with absolutely no need for a hub.\"<\/p><p><a href=\"https:\/\/www.cnet.com\/home\/energy-and-utilities\/best-smart-lights\/\" target=\"_blank\" title=\"https:\/\/www.cnet.com\/home\/energy-and-utilities\/best-smart-lights\/\">Read more<\/a><\/p><p><br\/><\/p>"
+          }
+        },
+        "601c041a-4aa0-4b40-9501-c18cd7e73170": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/techradar-logo.png",
+            "title": "LIFX smart bulbs deliver excellent smart lighting",
+            "text": "<p>\"LIFX offers a plethora of smart light options; from color and white bulbs, that come both in full size and the more compact LIFX Mini design, as well as lightstrips, LIFX Beam - the brands own take on smart light wall art and LIFX Clean - a smart light that can also kill bacteria.\"<\/p><p><a href=\"https:\/\/www.techradar.com\/au\/news\/best-smart-lighting\" target=\"_blank\" title=\"https:\/\/www.techradar.com\/au\/news\/best-smart-lighting\">Read more<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635892427a2cdb2bc-0",
+        "1635892427a2cdb2bc-1",
+        "601c041a-4aa0-4b40-9501-c18cd7e73170"
+      ],
+      "settings": {
+        "title": "Testimonials & Awards",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "c10b0de7-9349-4ece-b163-e5f04c284764": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{% if product.handle == \"lifx-string-light\" %}\n\n{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}\n  \n<div class=\"image-with-text page-width color-scheme-background-1\">\n  <div class=\"image-with-text__grid color-background-1 grid grid--gapless grid--1-col grid--2-col-tablet gradient\">\n    <div class=\"grid__item\">\n      <div class=\"image-with-text__media image-with-text__media--adapt media\" style=\"padding-bottom: 100.0%;\">\n        \n        <video muted autoplay playsinline loop style=\"width: 100%; height: 100%;object-fit: cover;\" class=\"videoFox\">\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ad4e399c812c40a582f14503c7f8bda6.mp4\" type=\"video\/mp4\" alt=\"{{ 'sections.video.load_video' | t: description: section.settings.description | escape }}\">\n<\/video>\n      <\/div>\n    <\/div>\n    <div class=\"grid__item\">\n      <div class=\"image-with-text__content image-with-text__content--{{ section.settings.height }}\">\n        \n              <h2 class=\"image-with-text__heading h1\" {{ block.shopify_attributes }}>\n                Heading\n              <\/h2>\n       \n              <div class=\"product__description rte\">\n               Description Description Description\n              <\/div>       \n     \n        \n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n  {% endif%}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16360050346d3b64a8",
+    "03d16fa4-eff2-49dc-8758-1780ec4098bd",
+    "163514216916abed30",
+    "163520046949622558",
+    "16352007448c39f051",
+    "1636000353893885f5",
+    "68432f33-fae8-4543-a2ba-4dc623ccadb9",
+    "1636083188021f8436",
+    "16360008950381c4a6",
+    "1657609100de548b3b",
+    "1635139699342ea047",
+    "16359041219d05cf7f",
+    "1635892427a2cdb2bc",
+    "product-recommendations",
+    "c10b0de7-9349-4ece-b163-e5f04c284764"
+  ]
+}
