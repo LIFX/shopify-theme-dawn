@@ -1,5 +1,18 @@
 {
   "sections": {
+    "1fbb87dc-13bb-48f8-8713-5412f2799ad1": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7c074209cf0846e49bafdbf1f9e6631a.mp4",
+        "click_through": "shopify:\/\/products\/neon-flex-2m-indoor",
+        "description": "",
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
+      }
+    },
     "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec": {
       "type": "image-with-text",
       "blocks": {
@@ -445,6 +458,7 @@
         "template--15167164154037__0dd3dcaf-09bf-4cbb-a790-4eff0a126814-1687149700b91e8af7-1",
         "template--15167164154037__0dd3dcaf-09bf-4cbb-a790-4eff0a126814-1687149700b91e8af7-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Update421_Announce_Square.jpg",
         "height": "adapt",
@@ -521,11 +535,7 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": true
       }
     },
     "322ef79f-97e6-41b4-98c3-94c2c520b0fb": {
@@ -749,6 +759,7 @@
     }
   },
   "order": [
+    "1fbb87dc-13bb-48f8-8713-5412f2799ad1",
     "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec",
     "101239a1-459e-40cc-9764-b747c6519e3e",
     "1632116257dff5145e",
