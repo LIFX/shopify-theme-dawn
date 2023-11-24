@@ -109,60 +109,6 @@
         "website_us": true
       }
     },
-    "03d16fa4-eff2-49dc-8758-1780ec4098bd": {
-      "type": "image-banner",
-      "blocks": {
-        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-buttons-1": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-heading-1",
-        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-text-1",
-        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-buttons-1"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.custom.herobanner.value }}",
-        "adapt_height_first_image": false,
-        "banner_height_overide": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "crop_image_alignment": "center",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "163514216916abed30": {
       "type": "image-with-text",
       "blocks": {
@@ -218,6 +164,60 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "03d16fa4-eff2-49dc-8758-1780ec4098bd": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-heading-1",
+        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-text-1",
+        "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-buttons-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.herobanner.value }}",
+        "adapt_height_first_image": false,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -521,9 +521,9 @@
   "order": [
     "main",
     "16360050346d3b64a8",
-    "03d16fa4-eff2-49dc-8758-1780ec4098bd",
     "163514216916abed30",
     "163520046949622558",
+    "03d16fa4-eff2-49dc-8758-1780ec4098bd",
     "16352007448c39f051",
     "1636000353893885f5",
     "68432f33-fae8-4543-a2ba-4dc623ccadb9",
