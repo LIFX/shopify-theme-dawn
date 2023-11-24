@@ -406,6 +406,7 @@
         "1635139699342ea047-1",
         "1635139699342ea047-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Hey Google, Alexa, Siri...",
         "image_width": "full",
@@ -451,6 +452,7 @@
         "e09ecd8f-3a0e-499e-95bf-0dae8081c7ba",
         "16359041219d05cf7f-2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "desktop_layout": "left",
@@ -490,6 +492,7 @@
         "1635892427a2cdb2bc-1",
         "601c041a-4aa0-4b40-9501-c18cd7e73170"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials & Awards",
         "image_width": "full",
