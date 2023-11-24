@@ -205,6 +205,9 @@
         "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-text-1",
         "template--14684223799343__03d16fa4-eff2-49dc-8758-1780ec4098bd-buttons-1"
       ],
+      "custom_css": [
+        ".banner {max-width: 1500px; margin: 0 auto;}"
+      ],
       "settings": {
         "image": "{{ product.metafields.custom.herobanner.value }}",
         "adapt_height_first_image": false,
