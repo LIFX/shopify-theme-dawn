@@ -33,6 +33,7 @@
         "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1",
         "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".image-with-text__heading {background-image: linear-gradient(#93c49f, #7cb98e); padding: 20px;}",
         ".spaced-section--full-width {background: #f6f6f6;}",
@@ -535,7 +536,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "322ef79f-97e6-41b4-98c3-94c2c520b0fb": {
