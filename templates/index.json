@@ -108,56 +108,6 @@
         "website_us": false
       }
     },
-    "ffe2080a-0955-4a2b-80e8-986d8a3396a6": {
-      "type": "image-banner",
-      "blocks": {
-        "525c1a9c-2387-4b6f-bab0-37cc7f015fa6": {
-          "type": "heading",
-          "settings": {
-            "heading": "🥁 Drum roll please....",
-            "heading_size": "medium"
-          }
-        },
-        "5035fb2b-a932-46b2-bbb8-319889606b11": {
-          "type": "text",
-          "settings": {
-            "text": "Goodbye old-school string light 💡, hello ultra futuristic 🚀 ‘envy-of-your-friends’, vibe setting outdoor lighting. 🌈"
-          }
-        },
-        "0358719c-6ef5-4a8e-b848-d6055c0477a8": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Learn More",
-            "button_link_1": "shopify:\/\/products\/lifx-string-light",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "525c1a9c-2387-4b6f-bab0-37cc7f015fa6",
-        "5035fb2b-a932-46b2-bbb8-319889606b11",
-        "0358719c-6ef5-4a8e-b848-d6055c0477a8"
-      ],
-      "settings": {
-        "adapt_height_first_image": false,
-        "banner_height_overide": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "crop_image_alignment": "center",
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": false
-      }
-    },
     "00b30796-509a-4984-b169-bd17f2b746c6": {
       "type": "video2",
       "settings": {
@@ -166,6 +116,44 @@
         "click_through": "shopify:\/\/products\/lifx-string-light",
         "description": "",
         "full_width": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
+      }
+    },
+    "edd529c2-edd9-4364-a6cb-9cbf5be13083": {
+      "type": "featured-product",
+      "blocks": {
+        "0e420b4d-1ebd-4911-9e54-4eb922d0d2b9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2>String Light<\/h2>"
+          }
+        },
+        "7831da6f-d9ed-4314-bded-002a8e9e91a8": {
+          "type": "text",
+          "settings": {
+            "text": "Goodbye old-school string light, hello ultra futuristic ‘envy-of-your-friends’, vibe setting outdoor lighting. Create hypnotic effects to suit the moment, from shifting sunsets or rolling rainbows to gently flowing icy whites–or just set and forget with easy routines.",
+            "text_style": "subtitle"
+          }
+        },
+        "993ef776-0578-437c-81a7-5cbd4a4a0385": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/cleverhouse.cc\/products\/lifx-smart-string-light-7-3m-rgbw\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">Clever House<\/span><\/a>\n<a href=\"https:\/\/www.jbhifi.com.au\/products\/lifx-string-light-rgbw-7-3m\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">JB Hi-Fi<\/span><\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "0e420b4d-1ebd-4911-9e54-4eb922d0d2b9",
+        "7831da6f-d9ed-4314-bded-002a8e9e91a8",
+        "993ef776-0578-437c-81a7-5cbd4a4a0385"
+      ],
+      "settings": {
+        "product": "lifx-string-light",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
         "website_au": true,
         "website_ukeu": false,
         "website_us": false
@@ -505,8 +493,8 @@
     "101239a1-459e-40cc-9764-b747c6519e3e",
     "4d925022-1924-4479-8f3d-9773424662f2",
     "f8c80874-0b7c-487e-a137-c2fda36967a4",
-    "ffe2080a-0955-4a2b-80e8-986d8a3396a6",
     "00b30796-509a-4984-b169-bd17f2b746c6",
+    "edd529c2-edd9-4364-a6cb-9cbf5be13083",
     "277239b4-c011-4cfd-ab56-49ab4e33a97c",
     "165942093296a32cfe",
     "3336066d-85ab-496b-be5e-9909acd8f92d",
