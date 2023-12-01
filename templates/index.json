@@ -13,48 +13,6 @@
         "website_us": false
       }
     },
-    "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Black Friday Shopping List 📝"
-          }
-        },
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Early Christmas shopping 🎁<\/li><li>DIY lighting project 🛠️<\/li><li>LIFX SuperColor fix 🌈 <br\/><\/li><\/ul><p>You'll find our best Black Friday offers online and in-store:<\/p><p><\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-heading-1",
-        "template--15167164154037__b7188a8c-d6b5-4cf4-85ec-025f3fda6fec-text-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".image-with-text__heading {background-image: linear-gradient(#93c49f, #7cb98e); padding: 20px;}",
-        ".spaced-section--full-width {background: #f6f6f6;}",
-        ".image-with-text__grid {border-radius: 2rem;}",
-        ".image-with-text__media {border-radius: 0px;}",
-        ".image-with-text {padding-bottom: 5rem; padding-top: 5rem; margin-bottom: 0px; margin-top: 0px;}",
-        ".image-with-text__content {background: ;}",
-        ".typeform {display: grid !important;}",
-        ".productFamily {color: #fff;}",
-        ".productFamily:hover {color: #000; background-color: #93c49f;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Xmas_Gift_Bulb-3.jpg",
-        "height": "adapt",
-        "color_scheme": "inverse",
-        "layout": "image_first",
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": true
-      }
-    },
     "101239a1-459e-40cc-9764-b747c6519e3e": {
       "type": "video2",
       "custom_css": [
@@ -66,46 +24,6 @@
         "click_through": "shopify:\/\/products\/neon-flex-16ft-indoor",
         "description": "",
         "full_width": false,
-        "website_au": false,
-        "website_ukeu": false,
-        "website_us": true
-      }
-    },
-    "1632116257dff5145e": {
-      "type": "image-banner",
-      "blocks": {
-        "1632116257dff5145e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Black Friday Sales",
-            "heading_size": "medium"
-          }
-        },
-        "1632116257dff5145e-1": {
-          "type": "text",
-          "settings": {
-            "text": "The sales have started."
-          }
-        }
-      },
-      "block_order": [
-        "1632116257dff5145e-0",
-        "1632116257dff5145e-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Categories_Header_LightBulbs.jpg",
-        "adapt_height_first_image": false,
-        "banner_height_overide": false,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "crop_image_alignment": "center",
         "website_au": false,
         "website_ukeu": false,
         "website_us": true
@@ -170,7 +88,7 @@
         "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd": {
           "type": "text",
           "settings": {
-            "text": "Get ready for futuristic, flexible linear light. The 16ft LIFX SuperColor Neon Flex is a powerful, ultra-bright rope light. It's bendable, smart, and has blendable PolyChrome color you can change, move or paint with custom art. It's sized to suit abstract framing furniture pieces, shelving o or creating a glowing edge on your desk or other surfaces.",
+            "text": "Get ready for futuristic, flexible linear light. The 16ft LIFX SuperColor Neon Flex is a powerful, ultra-bright rope light. It's bendable, smart, and has blendable PolyChrome color you can change, move or paint with custom art. It's sized to suit abstract framing furniture pieces, shelving or creating a glowing edge on your desk or other surfaces.",
             "text_style": "body"
           }
         },
@@ -204,6 +122,44 @@
         "website_au": false,
         "website_ukeu": false,
         "website_us": true
+      }
+    },
+    "f8c80874-0b7c-487e-a137-c2fda36967a4": {
+      "type": "featured-product",
+      "blocks": {
+        "cda73385-fec5-4a17-81f6-975cb2db534c": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2>LIFX Neon Flex<\/h2>"
+          }
+        },
+        "template--14684223012911__f8c80874-0b7c-487e-a137-c2fda36967a4-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "Get ready for futuristic, flexible linear light. The 2m LIFX SuperColour Neon Flex is a powerful, ultra-bright rope light. It's bendable, smart, and has blendable PolyChrome colour you can change, move or paint with custom art. It's sized to suit abstract framing furniture pieces, shelving or creating a glowing edge on your desk or other surfaces.",
+            "text_style": "subtitle"
+          }
+        },
+        "050d523b-75f2-4bdb-842b-7a1f1d701e4b": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/cleverhouse.cc\/products\/lifx-neon-flex-indoor-2m\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">Clever House<\/span><\/a>\n<a href=\"https:\/\/www.jbhifi.com.au\/products\/lifx-light-neon-flex-rgbw-lightstrip-2m\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">JB Hi-Fi<\/span><\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "cda73385-fec5-4a17-81f6-975cb2db534c",
+        "template--14684223012911__f8c80874-0b7c-487e-a137-c2fda36967a4-text-2",
+        "050d523b-75f2-4bdb-842b-7a1f1d701e4b"
+      ],
+      "settings": {
+        "product": "neon-flex-2m-indoor",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
       }
     },
     "ffe2080a-0955-4a2b-80e8-986d8a3396a6": {
@@ -433,45 +389,6 @@
         "custom_liquid": "<div class=\"image-with-text page-width color-scheme-background-1\">\n  <div class=\"image-with-text__grid color-background-1 grid grid--gapless grid--1-col grid--2-col-tablet gradient\">\n    <div class=\"grid__item\">\n      <div class=\"image-with-text__media--adapt\" style=\"position:relative\">\n<blockquote class=\"instagram-media\" data-instgrm-permalink=\"https:\/\/www.instagram.com\/reel\/CwU5kvwJ_U8\/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"14\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a href=\"https:\/\/www.instagram.com\/reel\/CwU5kvwJ_U8\/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"><\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"><\/div><\/div><\/div><div style=\"padding: 19% 0;\"><\/div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"https:\/\/www.w3.org\/1999\/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"><\/path><\/g><\/g><\/g><\/svg><\/div><div style=\"padding-top: 8px;\"> <div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\">View this post on Instagram<\/div><\/div><div style=\"padding: 12.5% 0;\"><\/div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\"><div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"><\/div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"><\/div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"><\/div><\/div><div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"><\/div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"><\/div><\/div><div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"><\/div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"><\/div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"><\/div><\/div><\/div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;\"><\/div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;\"><\/div><\/div><\/a><p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"><a href=\"https:\/\/www.instagram.com\/reel\/CwU5kvwJ_U8\/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\">A post shared by LIFX • Smart Lighting (@lifx)<\/a><\/p><\/div><\/blockquote> <script async src=\"\/\/www.instagram.com\/embed.js\"><\/script><\/div><\/div><div class=\"grid__item\">\n      <div class=\"image-with-text__content image-with-text__content--adapt\"><h2 class=\"image-with-text__heading h1\">🌈Supercolor🌈 what is it and better yet why should you care about it? <\/h1><div class=\"image-with-text__text rte\">LIFX colored globes are tested in-house against competitor globes to ensure our smart globes are producing the most vibrant and brightest color range for you 🙌 with our globes' color brightness measuring 5x brighter than our competitors, you have 5x more powerful globes to create your perfect smart lighting set up 🤓💪💡🌈 with Supercolor anything is possible!💪💡🌈<\/div><\/div>"
       }
     },
-    "0dd3dcaf-09bf-4cbb-a790-4eff0a126814": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15167164154037__0dd3dcaf-09bf-4cbb-a790-4eff0a126814-1687149700b91e8af7-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Latest App Update"
-          }
-        },
-        "template--15167164154037__0dd3dcaf-09bf-4cbb-a790-4eff0a126814-1687149700b91e8af7-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>June 2023<\/em><\/p><p>We’ve supercharged Themes! Check out our new blending styles (hello national flags) and explore categories.<\/p><p>Even better: Themes and collections will be coming out across the year, getting more powerful and dynamic as we go.<\/p>"
-          }
-        },
-        "template--15167164154037__0dd3dcaf-09bf-4cbb-a790-4eff0a126814-1687149700b91e8af7-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/pages\/app-release-4-21-0"
-          }
-        }
-      },
-      "block_order": [
-        "template--15167164154037__0dd3dcaf-09bf-4cbb-a790-4eff0a126814-1687149700b91e8af7-0",
-        "template--15167164154037__0dd3dcaf-09bf-4cbb-a790-4eff0a126814-1687149700b91e8af7-1",
-        "template--15167164154037__0dd3dcaf-09bf-4cbb-a790-4eff0a126814-1687149700b91e8af7-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Update421_Announce_Square.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "2f60e8cf-0317-436c-91c6-5fd477720a91": {
       "type": "image-with-text",
       "blocks": {
@@ -538,11 +455,7 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true,
-        "button_style_secondary_1": false,
-        "button_label_2": "Button label",
-        "button_link_2": "",
-        "button_style_secondary_2": false
+        "website_us": true
       }
     },
     "322ef79f-97e6-41b4-98c3-94c2c520b0fb": {
@@ -718,10 +631,9 @@
   },
   "order": [
     "1fbb87dc-13bb-48f8-8713-5412f2799ad1",
-    "b7188a8c-d6b5-4cf4-85ec-025f3fda6fec",
     "101239a1-459e-40cc-9764-b747c6519e3e",
-    "1632116257dff5145e",
     "4d925022-1924-4479-8f3d-9773424662f2",
+    "f8c80874-0b7c-487e-a137-c2fda36967a4",
     "ffe2080a-0955-4a2b-80e8-986d8a3396a6",
     "277239b4-c011-4cfd-ab56-49ab4e33a97c",
     "165942093296a32cfe",
@@ -731,7 +643,6 @@
     "6153791d-4ad6-4062-ac5b-3e67b63d049f",
     "1634272844a70d2ca1",
     "c50b50d0-97a1-401f-9eb4-8441e1ab3129",
-    "0dd3dcaf-09bf-4cbb-a790-4eff0a126814",
     "2f60e8cf-0317-436c-91c6-5fd477720a91",
     "16364397572cc0a070",
     "16417795474723f926",
