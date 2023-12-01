@@ -271,7 +271,7 @@
         "1634272844a70d2ca1-0": {
           "type": "heading",
           "settings": {
-            "heading": "Meet the LIFX App.",
+            "heading": "Explore the App.",
             "heading_size": "medium"
           }
         },
@@ -284,7 +284,7 @@
         "1634272844a70d2ca1-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Find out more",
+            "button_label_1": "Explore",
             "button_link_1": "shopify:\/\/pages\/app",
             "button_style_secondary_1": false,
             "button_label_2": "",
