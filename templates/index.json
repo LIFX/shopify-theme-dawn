@@ -127,7 +127,7 @@
         "0e420b4d-1ebd-4911-9e54-4eb922d0d2b9": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h2>String Light<\/h2>"
+            "custom_liquid": "<h1 style=\"font-size:7rem\">String Light<\/h1>"
           }
         },
         "7831da6f-d9ed-4314-bded-002a8e9e91a8": {
