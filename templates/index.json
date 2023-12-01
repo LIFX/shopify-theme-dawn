@@ -323,7 +323,7 @@
     "16364397572cc0a070": {
       "type": "scroller",
       "custom_css": [
-
+        ".scroll{margin-top:5rem}"
       ],
       "settings": {
         "tagline1": "get the lights from bed when you’re comfy",
