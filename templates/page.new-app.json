@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h1 {font-size: 10rem; margin: auto; line-height:1}"
+        "h1 {font-size: 10rem; margin: auto; line-height: 1;}"
       ],
       "settings": {
       }
@@ -123,7 +123,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX-App---Dashboard-Control.jpg",
-        "height": "large",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
         "website_au": true,
@@ -153,7 +153,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX-App---Effects.jpg",
-        "height": "large",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
         "website_au": true,
@@ -183,7 +183,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX-App---Scenes.jpg",
-        "height": "large",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
         "website_au": true,
@@ -213,7 +213,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX-App---Schedule-02.jpg",
-        "height": "large",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
         "website_au": true,
@@ -243,7 +243,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX-App---Tunable-white.jpg",
-        "height": "large",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
         "website_au": true,
@@ -341,7 +341,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX_Color_LiveInColor-AppPage-HR-Square.jpg",
-        "height": "large",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
         "website_au": true,
@@ -371,7 +371,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX-App---Polychrome-02.jpg",
-        "height": "large",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
         "website_au": true,
