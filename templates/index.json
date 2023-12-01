@@ -323,7 +323,7 @@
     "16364397572cc0a070": {
       "type": "scroller",
       "custom_css": [
-        ".scroll {margin-top: 5rem;}"
+        ".scroll {margin-top: 5rem; max-width: 1500px; overflow: hidden; margin-left:auto; margin-right:auto;}"
       ],
       "settings": {
         "tagline1": "get the lights from bed when you’re comfy",
@@ -492,7 +492,7 @@
         "163210701498163fc8-2"
       ],
       "custom_css": [
-        ".newsletter{margin-top:5rem}"
+        ".newsletter {margin-top: 5rem;}"
       ],
       "settings": {
         "color_scheme": "inverse",
