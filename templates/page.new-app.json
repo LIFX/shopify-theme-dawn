@@ -388,6 +388,29 @@
         "website_ukeu": true,
         "website_us": true
       }
+    },
+    "67d7aa79-6c48-41ac-b651-d890d4986147": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Product Catalogue",
+        "collection": "all",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
+      }
     }
   },
   "order": [
@@ -406,6 +429,7 @@
     "1635115562c7f528cb",
     "163511569468ba9aa7",
     "1635286726666c2b0c",
-    "16360829359b370cf1"
+    "16360829359b370cf1",
+    "67d7aa79-6c48-41ac-b651-d890d4986147"
   ]
 }
