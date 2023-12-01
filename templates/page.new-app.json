@@ -328,6 +328,7 @@
         "1635115562c7f528cb-0",
         "1635115562c7f528cb-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX-App---Special-Features.jpg",
         "height": "adapt",
@@ -362,7 +363,7 @@
         "image": "shopify:\/\/shop_images\/LIFX_Color_LiveInColor-AppPage-HR-Square.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first",
+        "layout": "image_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -392,7 +393,7 @@
         "image": "shopify:\/\/shop_images\/LIFX-App---Polychrome-02.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first",
+        "layout": "text_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
