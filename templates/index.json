@@ -100,7 +100,7 @@
       ],
       "settings": {
         "product": "neon-flex-2m-indoor",
-        "secondary_background": false,
+        "secondary_background": true,
         "hide_variants": false,
         "enable_video_looping": false,
         "website_au": true,
@@ -151,7 +151,7 @@
       ],
       "settings": {
         "product": "lifx-string-light",
-        "secondary_background": false,
+        "secondary_background": true,
         "hide_variants": false,
         "enable_video_looping": false,
         "website_au": true,
@@ -322,6 +322,9 @@
     },
     "16364397572cc0a070": {
       "type": "scroller",
+      "custom_css": [
+
+      ],
       "settings": {
         "tagline1": "get the lights from bed when you’re comfy",
         "tagline2": "flash the bat signal when you need help",
