@@ -298,6 +298,10 @@
         "1634272844a70d2ca1-1",
         "1634272844a70d2ca1-2"
       ],
+      "custom_css": [
+        ".banner {max-width: 1500px; margin: auto;}",
+        "@media screen and (min-width: 750px) {.banner__align--right {padding-right: 150px;}}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX_Homepage_APP_Module-01-opt.jpg",
         "adapt_height_first_image": true,
