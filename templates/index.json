@@ -35,7 +35,7 @@
         "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h1 style=\"font-size:7rem\">Neon Flex<\/h1>"
+            "custom_liquid": "<h1 style=\"margin-bottom:0px\">Meet<\/h1>\n<h1 style=\"font-size:7rem;margin-top:0px\">Neon Flex<\/h1>"
           }
         },
         "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd": {
@@ -76,7 +76,7 @@
         "cda73385-fec5-4a17-81f6-975cb2db534c": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h2>Neon Flex<\/h2>"
+            "custom_liquid": "<h1 style=\"margin-bottom:0px\">Meet<\/h1>\n<h1 style=\"font-size:7rem;margin-top:0px\">Neon Flex<\/h1>"
           }
         },
         "template--14684223012911__f8c80874-0b7c-487e-a137-c2fda36967a4-text-2": {
@@ -127,7 +127,7 @@
         "0e420b4d-1ebd-4911-9e54-4eb922d0d2b9": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h1 style=\"font-size:7rem\">String Light<\/h1>"
+            "custom_liquid": "<h1 style=\"margin-bottom:0px\">Meet<\/h1>\n<h1 style=\"font-size:7rem;margin-top:0px\">String Light<\/h1>"
           }
         },
         "7831da6f-d9ed-4314-bded-002a8e9e91a8": {
