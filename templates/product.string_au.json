@@ -49,7 +49,7 @@
         "32b39f41-cba0-44e1-86c7-18fb5bf002c3": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.handle == \"lifx-string-light\" %}\n<p style=\"font-size:1.2rem\" class=\"product__text caption-with-letter-spacing\"><strong>Shipping Alert:<\/strong> Batch 1 sold out, pre-orders now available. Batch 2 expected to be available for shipping on 8th December 2023.<\/p>\n{% endif %}"
+            "custom_liquid": "{% if product.handle == \"lifx-string-light\" %}\n<p style=\"font-size:1.2rem\" class=\"product__text caption-with-letter-spacing\"><strong>Shipping Alert:<\/strong> Batch 1 sold out, pre-orders now available. Batch 2 expected to be available for shipping on 15th December 2023.<\/p>\n{% endif %}"
           }
         },
         "buy_buttons": {
