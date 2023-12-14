@@ -384,6 +384,15 @@
         "website_us": true
       }
     },
+    "c3341689-d440-4501-8228-23054370e97a": {
+      "type": "video",
+      "settings": {
+        "heading": "How to install",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=OTBjKQ5jeM0",
+        "description": "",
+        "full_width": false
+      }
+    },
     "164618304374af30e2": {
       "type": "image-with-text",
       "blocks": {
@@ -603,6 +612,7 @@
     "1645683700863a9dcc",
     "16456840123af963c0",
     "1645684077e15e9be7",
+    "c3341689-d440-4501-8228-23054370e97a",
     "164618304374af30e2",
     "16461833902f21ab30",
     "164618344833eec8af",
