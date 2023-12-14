@@ -388,6 +388,7 @@
       "type": "video",
       "settings": {
         "heading": "How to install",
+        "cover_image": "shopify:\/\/shop_images\/Installation_DL.png",
         "video_url": "https:\/\/www.youtube.com\/watch?v=OTBjKQ5jeM0",
         "description": "",
         "full_width": false
