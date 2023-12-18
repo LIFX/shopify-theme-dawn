@@ -26,8 +26,8 @@
     "cef3f3db-20e3-4964-abf6-2bc8ed16e435": {
       "type": "video3",
       "settings": {
-        "heading": "Getting Started with your Neon Flex...",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
+        "heading": "Say hello to your new LIFX String Light",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b5c2473cf7044d980dfa3c9cace5ad7.mp4",
         "click_through": "",
         "description": "",
         "full_width": false,
@@ -48,7 +48,7 @@
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Before we dive into the setup process, let's take a look at what you'll find in your LIFX Neon Flex kit:<\/p><ul><li>LIFX Neon Flex LED rope light<\/li><li>LIFX controller<\/li><li>Power supply<\/li><li>Installation channels<\/li><li>3M adhesive <\/li><li>Screws <\/li><\/ul>"
+            "text": "<p>Before we dive into the setup process, let's take a look at what you'll find in your LIFX String Light kit:<\/p><p>💡 7.3m length string light.<br\/>🌈 12 uniquely addressable LED bulbs.<br\/>🌧️ Weather-proof power supply.<br\/>🛜 Outdoor Wi-FI controller.<br\/>🔌 3.2m length power cable.<\/p>"
           }
         },
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1": {
@@ -65,7 +65,7 @@
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/InTheBox_Photo_Labels.jpg",
+        "image": "shopify:\/\/shop_images\/Digital_-_String_-_AU_-_InTheBox_-_notes.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -105,6 +105,7 @@
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1",
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -126,6 +127,7 @@
     },
     "d284fc36-08df-4d7d-987b-32ad7fecfb36": {
       "type": "video3",
+      "disabled": true,
       "settings": {
         "heading": "",
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0d1c9026150a49aa9ef26e5ff1ef5b91.mp4",
@@ -168,6 +170,7 @@
         "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-text-1",
         "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-button-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -185,7 +188,7 @@
         "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Download the LIFX app for iOS or Android to get started. <\/p><ul><li>Open the app<\/li><li>Hit the '+' in the bottom right to add a new product.<\/li><li>Select your LIFX Neon Flex from the list<\/li><li>The app will guide you through the setup process.<\/li><\/ul><p><strong>Having Trouble Connecting? <\/strong>Make sure you're connecting to your 2.4gHz Wi-Fi network. <\/p><p><strong>Still having trouble? <\/strong>You can start a chat with us here at any time.<\/p>"
+            "text": "<p>Download the LIFX app for <a href=\"https:\/\/apps.apple.com\/us\/app\/lifx\/id657758311\" target=\"_blank\" title=\"LIFX iOS App on Apple App Store\">iOS<\/a> or <a href=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx&hl=en_AU&gl=US\" target=\"_blank\" title=\"LIFX Android App on Google Play Store\">Android<\/a> to get started. <\/p><ul><li>Open the app<\/li><li>Hit the '+' in the bottom right to add a new product.<\/li><li>Follow the prompts and the app will guide you through the setup process.<\/li><\/ul><p><strong>Having Trouble Connecting? <\/strong>Make sure you're connecting to your 2.4gHz Wi-Fi network. <\/p><p><strong>Still having trouble? <\/strong>You can start a chat with us <a href=\"https:\/\/support.lifx.com\/hc\/en-us\" title=\"LIFX Support\">here<\/a> at any time.<\/p>"
           }
         },
         "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1": {
