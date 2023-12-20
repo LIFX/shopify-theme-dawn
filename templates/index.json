@@ -1,5 +1,56 @@
 {
   "sections": {
+    "00b30796-509a-4984-b169-bd17f2b746c6": {
+      "type": "video2",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b5c2473cf7044d980dfa3c9cace5ad7.mp4",
+        "click_through": "shopify:\/\/products\/lifx-string-light",
+        "description": "",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
+      }
+    },
+    "edd529c2-edd9-4364-a6cb-9cbf5be13083": {
+      "type": "featured-product",
+      "blocks": {
+        "0e420b4d-1ebd-4911-9e54-4eb922d0d2b9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h1 style=\"margin-bottom:0px\">Meet<\/h1>\n<h1 style=\"font-size:7rem;margin-top:0px\">String Light<\/h1>"
+          }
+        },
+        "7831da6f-d9ed-4314-bded-002a8e9e91a8": {
+          "type": "text",
+          "settings": {
+            "text": "Goodbye old-school string light, hello ultra futuristic ‘envy-of-your-friends’, vibe setting outdoor lighting. Create hypnotic effects to suit the moment, from shifting sunsets or rolling rainbows to gently flowing icy whites–or just set and forget with easy routines.",
+            "text_style": "subtitle"
+          }
+        },
+        "993ef776-0578-437c-81a7-5cbd4a4a0385": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/cleverhouse.cc\/products\/lifx-smart-string-light-7-3m-rgbw\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">Clever House<\/span><\/a>\n<a href=\"https:\/\/www.jbhifi.com.au\/products\/lifx-string-light-rgbw-7-3m\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">JB Hi-Fi<\/span><\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "0e420b4d-1ebd-4911-9e54-4eb922d0d2b9",
+        "7831da6f-d9ed-4314-bded-002a8e9e91a8",
+        "993ef776-0578-437c-81a7-5cbd4a4a0385"
+      ],
+      "settings": {
+        "product": "lifx-string-light",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
+      }
+    },
     "1fbb87dc-13bb-48f8-8713-5412f2799ad1": {
       "type": "video2",
       "settings": {
@@ -100,57 +151,6 @@
       ],
       "settings": {
         "product": "neon-flex-2m-indoor",
-        "secondary_background": true,
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": false
-      }
-    },
-    "00b30796-509a-4984-b169-bd17f2b746c6": {
-      "type": "video2",
-      "settings": {
-        "heading": "",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b5c2473cf7044d980dfa3c9cace5ad7.mp4",
-        "click_through": "shopify:\/\/products\/lifx-string-light",
-        "description": "",
-        "full_width": false,
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": false
-      }
-    },
-    "edd529c2-edd9-4364-a6cb-9cbf5be13083": {
-      "type": "featured-product",
-      "blocks": {
-        "0e420b4d-1ebd-4911-9e54-4eb922d0d2b9": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<h1 style=\"margin-bottom:0px\">Meet<\/h1>\n<h1 style=\"font-size:7rem;margin-top:0px\">String Light<\/h1>"
-          }
-        },
-        "7831da6f-d9ed-4314-bded-002a8e9e91a8": {
-          "type": "text",
-          "settings": {
-            "text": "Goodbye old-school string light, hello ultra futuristic ‘envy-of-your-friends’, vibe setting outdoor lighting. Create hypnotic effects to suit the moment, from shifting sunsets or rolling rainbows to gently flowing icy whites–or just set and forget with easy routines.",
-            "text_style": "subtitle"
-          }
-        },
-        "993ef776-0578-437c-81a7-5cbd4a4a0385": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/cleverhouse.cc\/products\/lifx-smart-string-light-7-3m-rgbw\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">Clever House<\/span><\/a>\n<a href=\"https:\/\/www.jbhifi.com.au\/products\/lifx-string-light-rgbw-7-3m\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">JB Hi-Fi<\/span><\/a>"
-          }
-        }
-      },
-      "block_order": [
-        "0e420b4d-1ebd-4911-9e54-4eb922d0d2b9",
-        "7831da6f-d9ed-4314-bded-002a8e9e91a8",
-        "993ef776-0578-437c-81a7-5cbd4a4a0385"
-      ],
-      "settings": {
-        "product": "lifx-string-light",
         "secondary_background": true,
         "hide_variants": false,
         "enable_video_looping": false,
@@ -323,7 +323,7 @@
     "16364397572cc0a070": {
       "type": "scroller",
       "custom_css": [
-        ".scroll {margin-top: 5rem; max-width: 1500px; overflow: hidden; margin-left:auto; margin-right:auto;}"
+        ".scroll {margin-top: 5rem; max-width: 1500px; overflow: hidden; margin-left: auto; margin-right: auto;}"
       ],
       "settings": {
         "tagline1": "get the lights from bed when you’re comfy",
@@ -501,12 +501,12 @@
     }
   },
   "order": [
+    "00b30796-509a-4984-b169-bd17f2b746c6",
+    "edd529c2-edd9-4364-a6cb-9cbf5be13083",
     "1fbb87dc-13bb-48f8-8713-5412f2799ad1",
     "101239a1-459e-40cc-9764-b747c6519e3e",
     "4d925022-1924-4479-8f3d-9773424662f2",
     "f8c80874-0b7c-487e-a137-c2fda36967a4",
-    "00b30796-509a-4984-b169-bd17f2b746c6",
-    "edd529c2-edd9-4364-a6cb-9cbf5be13083",
     "165942093296a32cfe",
     "3336066d-85ab-496b-be5e-9909acd8f92d",
     "51164ae9-7d5d-43ee-beb9-fc2a3195442f",
