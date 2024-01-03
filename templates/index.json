@@ -1,24 +1,5 @@
 {
   "sections": {
-    "dcb9fb3b-ef85-45a8-bd5c-b911209b194e": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Boxing Day Sale",
-        "collection": "boxing-day-sale",
-        "products_to_show": 12,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": false
-      }
-    },
     "00b30796-509a-4984-b169-bd17f2b746c6": {
       "type": "video2",
       "settings": {
@@ -520,7 +501,6 @@
     }
   },
   "order": [
-    "dcb9fb3b-ef85-45a8-bd5c-b911209b194e",
     "00b30796-509a-4984-b169-bd17f2b746c6",
     "edd529c2-edd9-4364-a6cb-9cbf5be13083",
     "1fbb87dc-13bb-48f8-8713-5412f2799ad1",
