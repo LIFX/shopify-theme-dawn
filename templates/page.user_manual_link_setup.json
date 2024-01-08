@@ -250,6 +250,86 @@
         "website_ukeu": true,
         "website_us": true
       }
+    },
+    "4078028f-ee2a-4587-a2ca-71d8fa39cf2c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Is the LIFX Neon Flex safe to bend?",
+            "heading_size": "h1"
+          }
+        },
+        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Neon Flex is designed to be bent so you can make custom patterns and designs.<\/p><p>When unboxing the Neon Flex, you will notice that it comes package already coiled. You may bend the Neon Flex in line with it’s current curvature.  <\/p><p>Twisting it, bending it too sharply or bending it in the opposite direction may cause damage and you will be doing so at your own risk.<\/p><p><\/p><p><strong>Please be advised that damage caused from misuse will void your LIFX Neon Flex warranty.<\/strong><\/p>"
+          }
+        },
+        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-heading-1",
+        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-text-1",
+        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-button-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "7c867d46-f041-43f4-83df-5162ae1ce129": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ok_bend_neon.jpg",
+            "title": "✅ Looking smooth",
+            "text": "<p>How to correctly bend the LIFX Neon Strip in line with it's curvature.<\/p>"
+          }
+        },
+        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/do_not_twist_neon.jpg",
+            "title": "❌ No twisting",
+            "text": "<p> Do not twist or bend the Neon Flex against it's natural curvature.<\/p>"
+          }
+        },
+        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dont_bend_sharp_neon.jpg",
+            "title": "❌  No sharp angles",
+            "text": "<p>Do not bend the Neon Flex at sharp angles.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-1",
+        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-2",
+        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
@@ -262,6 +342,8 @@
     "d284fc36-08df-4d7d-987b-32ad7fecfb36",
     "083f4368-4725-4e0b-8aa5-50e48576f84b",
     "332a1804-754d-475c-8f99-8c2c0e15083c",
-    "84cdb3e9-0567-418f-b49e-fd221dbd318d"
+    "84cdb3e9-0567-418f-b49e-fd221dbd318d",
+    "4078028f-ee2a-4587-a2ca-71d8fa39cf2c",
+    "7c867d46-f041-43f4-83df-5162ae1ce129"
   ]
 }
