@@ -87,7 +87,7 @@
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Decide between the \"Easy Peasy\" 3M adhesive or the \"Rock Solid\" screw-in channels for installation.<\/p><p>For each option you can mount it using the back of the channel OR the side, which is ideal for lighting edges. <\/p><p><strong>Easy Peasy (3M Adhesive):<\/strong> If you're all about convenience and can't wait to get your Neon Flex party started, go for the 3M adhesive. Stick it, and you're good to glow.<\/p><p><strong>Rock Solid (Screw-In Channels):<\/strong> For those who like to commit, opt for the screw-in channels. It's like promising your Neon Flex a lifetime of stability.<\/p>"
+            "text": "<p>Decide between the \"Easy Peasy\" 3M adhesive or the \"Rock Solid\" screw-in channels for installation.<\/p><p>For each option you can mount it using the back of the channel OR the side, which is ideal for lighting edges. <\/p><p><strong>Easy Peasy (3M Adhesive):<\/strong> If you're all about convenience and can't wait to get your Neon Flex party started, go for the 3M adhesive. Stick it, and you're good to glow.<br\/><\/p><p><strong>Rock Solid (Screw-In Channels):<\/strong> For those who like to commit, opt for the screw-in channels. It's like promising your Neon Flex a lifetime of stability.<\/p><p><\/p><p><strong>Pro Tip:<\/strong> The 3M Adhesive is designed to support the screw-in channels and are not intended to be used directly on the Neon Flex itself.<\/p>"
           }
         },
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1": {
@@ -173,6 +173,45 @@
         "full_width": true
       }
     },
+    "84cdb3e9-0567-418f-b49e-fd221dbd318d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where's my HomeKit Code?"
+          }
+        },
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can find your HomeKit code on the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p>"
+          }
+        },
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1",
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1",
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/InTheBox_SetupCode.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "4078028f-ee2a-4587-a2ca-71d8fa39cf2c": {
       "type": "rich-text",
       "blocks": {
@@ -253,45 +292,6 @@
         "swipe_on_mobile": true
       }
     },
-    "84cdb3e9-0567-418f-b49e-fd221dbd318d": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Where's my HomeKit Code?"
-          }
-        },
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You can find your HomeKit code on the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p>"
-          }
-        },
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1",
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1",
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/InTheBox_SetupCode.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "332a1804-754d-475c-8f99-8c2c0e15083c": {
       "type": "image-with-text",
       "blocks": {
@@ -341,9 +341,9 @@
     "90a4e391-3998-4b41-948b-7fe6e7ed0fb5",
     "d284fc36-08df-4d7d-987b-32ad7fecfb36",
     "083f4368-4725-4e0b-8aa5-50e48576f84b",
+    "84cdb3e9-0567-418f-b49e-fd221dbd318d",
     "4078028f-ee2a-4587-a2ca-71d8fa39cf2c",
     "7c867d46-f041-43f4-83df-5162ae1ce129",
-    "84cdb3e9-0567-418f-b49e-fd221dbd318d",
     "332a1804-754d-475c-8f99-8c2c0e15083c"
   ]
 }
