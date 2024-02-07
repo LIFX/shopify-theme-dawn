@@ -2,14 +2,22 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
       }
+    },
+    "custom_liquid_7TYgpb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<form oninput=\"\ttotalWattage.value=parseFloat(spots.value)*(parseFloat(spotWattage.value))+parseFloat(path.value)*(parseFloat(pathWattage.value)),\n\t\t\t\trecommendedWattage.value=parseFloat((spots.value)*(parseFloat(spotWattage.value))+parseFloat(path.value)*(parseFloat(pathWattage.value)))*1.2,\n\t\t\t\ttotalLights.value=parseFloat(spots.value)+parseFloat(path.value)\">\n                \n            \n                \n<div class=\"slider\">\n\t<label for=\"fader\">Spot Lights <\/label><input type=\"range\" min=\"0\" max=\"15\" value=\"0\" id=\"spots\" step=\"1\" list=\"spotlights\" ><datalist id=\"spotlights\">\n     <option>0<\/option>\n     <option>1<\/option>\n     <option>2<\/option>\n     <option>3<\/option>\n     <option>4<\/option>\n     <option>5<\/option>\n     <option>6<\/option>\n     <option>7<\/option>\n     <option>8<\/option>\n     <option>9<\/option>\n     <option>10<\/option>\n     <option>11<\/option>     \n     <option>12<\/option>\n     <option>13<\/option>\n     <option>14<\/option>\n     <option>15<\/option>\n     <\/datalist>\n     \n     <label for=\"fader\">Path Lights <\/label><input type=\"range\" min=\"0\" max=\"15\" value=\"0\" id=\"path\" step=\"1\" list=\"pathlights\" ><datalist id=\"pathlights\">\n     <option>0<\/option>\n     <option>1<\/option>\n     <option>2<\/option>\n     <option>3<\/option>\n     <option>4<\/option>\n     <option>5<\/option>\n     <option>6<\/option>\n     <option>7<\/option>\n     <option>8<\/option>\n     <option>9<\/option>\n     <option>10<\/option>\n     <option>11<\/option>     \n     <option>12<\/option>\n     <option>13<\/option>\n     <option>14<\/option>\n     <option>15<\/option>\n     <\/datalist>\n   <\/div> \n   \n<input type=\"number\" id=\"spotWattage\" value=\"27\" hidden>\n<input type=\"number\" id=\"pathWattage\" value=\"32\" hidden>\nTotal Lights: <output name=\"totalLights\"><\/output><br>\nTotal Wattage: <output name=\"totalWattage\"><\/output><br>\nRecommended Transformer Wattage: <output name=\"recommendedWattage\"><\/output><br>\n\n\n\n\n<\/form>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_7TYgpb"
   ]
 }
