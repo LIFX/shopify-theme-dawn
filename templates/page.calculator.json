@@ -19,25 +19,15 @@
             "heading_size": "h0"
           }
         },
-        "button_CPkpH7": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Calculator",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
         "text_YDg7ce": {
           "type": "text",
           "settings": {
-            "text": "<p>Quick link: <a href=\"https:\/\/www.lifx.com\/pages\/low-voltage#anchor\" title=\"https:\/\/www.lifx.com\/pages\/low-voltage#anchor\">Distance Calculator<\/a><\/p><p>LIFX Outdoor Lights are not your ordinary low voltage lights. The LIFX Spot, Path and Neon Flex are SuperBright, Polychrome color morphing, lighting installations that will transform your garden.<br\/><br\/>In order to support such state of the art technology, you're going to need a few things to setup:<\/p><ol><li><span style=\"text-decoration:underline\"><strong>A strong WiFi Router<\/strong><\/span> that can reach where you want to place your furthest light. You can test your WiFi range with your mobile phone as guide.<\/li><li><span style=\"text-decoration:underline\"><strong>A 300W Transformer with a 15V Output Terminal.<\/strong><\/span><strong> <\/strong>These lights are SuperBright, so check your transformer can support the number of lights. Use the Wattage Calculator below.<\/li><li><span style=\"text-decoration:underline\"><strong>Quality 12 gauge wiring.<\/strong><\/span> The better quality your wiring is, the longer distance you can run your lights. 14 and 16 gauge wiring can be used but will limit the distance.<\/li><\/ol>"
+            "text": "<p>Quick link: <a href=\"https:\/\/www.lifx.com\/pages\/low-voltage#anchor\" title=\"https:\/\/www.lifx.com\/pages\/low-voltage#anchor\">Distance Calculator<\/a><\/p><p>LIFX Outdoor Lights are not your ordinary low voltage lights. The LIFX Spot, Path and Neon Flex are SuperBright, Polychrome color morphing, lighting installations that will transform your garden.<br\/><br\/>In order to support such state of the art technology, you're going to need a few things to setup:<\/p><ol><li><span style=\"text-decoration:underline\"><strong>Wi-Fi coverage that can reach where you want to place your furthest light.<\/strong><\/span> You can test your routers Wi-Fi range with your mobile phone as a guide.<\/li><li><span style=\"text-decoration:underline\"><strong>A 300W Transformer with a 15V Output Terminal.<\/strong><\/span><strong> <\/strong>These lights are SuperBright, so check your transformer can support the number of lights. Use the Wattage Calculator below.<\/li><li><span style=\"text-decoration:underline\"><strong>12 gauge outdoor wiring.<\/strong><\/span> The better quality your wiring is, the longer distance you can run your lights. 14 and 16 gauge wiring can be used but will limit the distance you can place your lights.<\/li><\/ol>"
           }
         }
       },
       "block_order": [
         "heading_iwwJRm",
-        "button_CPkpH7",
         "text_YDg7ce"
       ],
       "custom_css": [
