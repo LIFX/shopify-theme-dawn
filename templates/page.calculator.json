@@ -41,7 +41,7 @@
         "button_CPkpH7"
       ],
       "custom_css": [
-        "rich-text__blocks {max-wdith: 80%;}"
+        "rich-text__blocks {max-width: 80%;}"
       ],
       "settings": {
         "color_scheme": "background-1",
