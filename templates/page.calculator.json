@@ -30,6 +30,9 @@
         "heading_NprcNJ",
         "text_mQHqC9"
       ],
+      "custom_css": [
+        "rich-text__blocks {max-width: 80%;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
