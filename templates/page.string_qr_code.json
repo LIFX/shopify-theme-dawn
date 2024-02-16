@@ -215,6 +215,45 @@
         "website_us": true
       }
     },
+    "image_with_text_xgDLVw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jxLKNc": {
+          "type": "heading",
+          "settings": {
+            "heading": "All new colour controls"
+          }
+        },
+        "text_rHLYbx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LIFX String is the first of a series of Polychrome products to use our brand new colour wheel. With Solid, Complementary and Custom paint modes.<br\/><br\/><strong>Solid: <\/strong>Like the old wheel, but better, with finer saturation control. Paint your entire string light in the perfect hue. <\/p><p><strong>Complementary:<\/strong> Take the guess work out and allow the app select the perfect accent colours and let that Polychrome shine.<br\/><br\/><strong>Custom: <\/strong>Get creative and select the colours you want and  show off your lighting designer props. <\/p>"
+          }
+        },
+        "button_WQ69Xi": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jxLKNc",
+        "text_rHLYbx",
+        "button_WQ69Xi"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_App_-_Complementary_Paint_String.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "84cdb3e9-0567-418f-b49e-fd221dbd318d": {
       "type": "image-with-text",
       "blocks": {
@@ -265,6 +304,7 @@
     "d284fc36-08df-4d7d-987b-32ad7fecfb36",
     "083f4368-4725-4e0b-8aa5-50e48576f84b",
     "332a1804-754d-475c-8f99-8c2c0e15083c",
+    "image_with_text_xgDLVw",
     "84cdb3e9-0567-418f-b49e-fd221dbd318d"
   ]
 }
