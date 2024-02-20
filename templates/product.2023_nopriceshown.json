@@ -182,11 +182,19 @@
           "settings": {
             "text": "<p>{{ product.metafields.my_fields.paragraph2 | metafield_tag }}<\/p>"
           }
+        },
+        "button_9f8x3T": {
+          "type": "button",
+          "settings": {
+            "button_label": "{{ product.metafields.custom.lowvoltagecalculatorcopy.value }}",
+            "button_link": "{{ product.metafields.custom.lowvoltagecalculatorlink.value }}"
+          }
         }
       },
       "block_order": [
         "163520046949622558-0",
-        "163520046949622558-1"
+        "163520046949622558-1",
+        "button_9f8x3T"
       ],
       "settings": {
         "image": "{{ product.metafields.my_fields.image2.value }}",
