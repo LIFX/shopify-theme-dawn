@@ -91,15 +91,28 @@
         },
         "76f2877b-9463-4ca3-a71e-982cd31af6da": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Bulk Order Enquiry",
+            "heading": "User Manual",
             "website_au": true,
             "website_ukeu": true,
             "website_us": true,
-            "content": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <a href=\"\/pages\/bulk-order-enquiry\" title=\"Bulk Order Enquiry\">Enquire today<\/a> <\/p>",
+            "content": "{{ product.metafields.custom.manual_link_hack | metafield_tag }}<p><br\/><br\/><\/p>",
             "page": "",
-            "icon": "box"
+            "icon": "star"
+          }
+        },
+        "popup_aXXB8M": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
+        },
+        "custom_liquid_MR7bzM": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
           }
         }
       },
@@ -117,7 +130,9 @@
         "buy_buttons",
         "4fbfe244-48ae-4528-bfcd-83e94a326141",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
-        "76f2877b-9463-4ca3-a71e-982cd31af6da"
+        "76f2877b-9463-4ca3-a71e-982cd31af6da",
+        "popup_aXXB8M",
+        "custom_liquid_MR7bzM"
       ],
       "settings": {
         "enable_sticky_info": true,
