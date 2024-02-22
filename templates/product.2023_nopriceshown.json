@@ -92,7 +92,7 @@
         "collapsible_tab_AAQYzP": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible tab{{ product.metafields.custom.collapsible_label.value }}",
+            "heading": "{{ product.metafields.custom.collapsible_label.value }}",
             "website_au": true,
             "website_ukeu": true,
             "website_us": true,
