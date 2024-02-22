@@ -89,6 +89,18 @@
             "icon": "question_mark"
           }
         },
+        "collapsible_tab_AAQYzP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab{{ product.metafields.custom.collapsible_label.value }}",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
+            "content": "{{ product.metafields.custom.collapsible_content | metafield_tag }}",
+            "page": "",
+            "icon": "eye"
+          }
+        },
         "76f2877b-9463-4ca3-a71e-982cd31af6da": {
           "type": "collapsible_tab",
           "settings": {
@@ -99,20 +111,6 @@
             "content": "{{ product.metafields.custom.manual_link_hack | metafield_tag }}<p><br\/><br\/><\/p>",
             "page": "",
             "icon": "star"
-          }
-        },
-        "popup_aXXB8M": {
-          "type": "popup",
-          "disabled": true,
-          "settings": {
-            "text": "Pop-up link text",
-            "page": ""
-          }
-        },
-        "custom_liquid_MR7bzM": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
           }
         }
       },
@@ -130,9 +128,8 @@
         "buy_buttons",
         "4fbfe244-48ae-4528-bfcd-83e94a326141",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
-        "76f2877b-9463-4ca3-a71e-982cd31af6da",
-        "popup_aXXB8M",
-        "custom_liquid_MR7bzM"
+        "collapsible_tab_AAQYzP",
+        "76f2877b-9463-4ca3-a71e-982cd31af6da"
       ],
       "settings": {
         "enable_sticky_info": true,
