@@ -138,5 +138,13 @@
       <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
   {% endif %}
 {% endfor %}
+
+  {% elsif product.metafields.my_fields.product_family == "Path" %}
+
+{% for product in collections.path.products %}
+  {% if activeHandle != product.handle %}
+      <a href="{{ product.url }}">{% for variant in product.variants %}<p class="productFamily" >{{ variant.option1 }}</p>{% endfor %}</a>
+  {% endif %}
+{% endfor %}
   
 {% endif %}
