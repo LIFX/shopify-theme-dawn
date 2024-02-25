@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 749px)
-.multicolumn .title-wrapper-with-link2 {
+  .title-wrapper-with-link2 {
     justify-content: start;
 }
 
