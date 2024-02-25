@@ -550,74 +550,10 @@
         "show_rating": false
       }
     },
-    "multicolumn_UnbFn3": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_PNmwPr": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": ""
-          }
-        },
-        "column_Fh4VJy": {
-          "type": "column",
-          "settings": {
-            "workswith": "shopify:\/\/shop_images\/apple_home_badge.svg",
-            "title": "",
-            "text": ""
-          }
-        },
-        "column_jW6ayQ": {
-          "type": "column",
-          "settings": {
-            "workswith": "shopify:\/\/shop_images\/google_home_badge.svg",
-            "title": "",
-            "text": ""
-          }
-        },
-        "column_UiXc4V": {
-          "type": "column",
-          "settings": {
-            "workswith": "shopify:\/\/shop_images\/smartthings_badge.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "column_8TTdR7": {
-          "type": "column",
-          "settings": {
-            "workswith": "shopify:\/\/shop_images\/alexa_badge.svg",
-            "title": "",
-            "text": ""
-          }
-        },
-        "column_pBXqqi": {
-          "type": "column",
-          "settings": {
-            "workswith": "shopify:\/\/shop_images\/razer_badge.png",
-            "title": "",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_PNmwPr",
-        "column_Fh4VJy",
-        "column_jW6ayQ",
-        "column_UiXc4V",
-        "column_8TTdR7",
-        "column_pBXqqi"
-      ],
+    "custom_liquid_JaW7iF": {
+      "type": "custom-liquid",
       "settings": {
-        "title": "Works with",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "secondary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
+        "custom_liquid": "<div class=\"multicolumn background-secondary\">\n  <div class=\"page-width\">\n    <div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile\">\n      <h2 class=\"title\">\n        Works with\n      <\/h2><\/div>\n<div style=\"display:flex;justify-content:space-between\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/apple_home_badge_550x.svg?v=1708900501\" alt=\"\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/google_home_badge_550x.svg?v=1708900501\" alt=\"\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/smartthings_badge_550x.png?v=1708900501\" alt=\"\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/alexa_badge_550x.svg?v=1708900501\" alt=\"\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/razer_badge_550x.png?v=1708900682\" alt=\"\" height=\"40px\" loading=\"lazy\"><\/div>\n  <\/div>\n<\/div>"
       }
     }
   },
@@ -638,6 +574,6 @@
     "4415bf01-d365-4d69-adb4-66df83e0e820",
     "1635892427a2cdb2bc",
     "product-recommendations",
-    "multicolumn_UnbFn3"
+    "custom_liquid_JaW7iF"
   ]
 }
