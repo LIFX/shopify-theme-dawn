@@ -549,6 +549,76 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "multicolumn_UnbFn3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_PNmwPr": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_Fh4VJy": {
+          "type": "column",
+          "settings": {
+            "workswith": "shopify:\/\/shop_images\/apple_home_badge.svg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_jW6ayQ": {
+          "type": "column",
+          "settings": {
+            "workswith": "shopify:\/\/shop_images\/google_home_badge.svg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_UiXc4V": {
+          "type": "column",
+          "settings": {
+            "workswith": "shopify:\/\/shop_images\/smartthings_badge.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_8TTdR7": {
+          "type": "column",
+          "settings": {
+            "workswith": "shopify:\/\/shop_images\/alexa_badge.svg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "column_pBXqqi": {
+          "type": "column",
+          "settings": {
+            "workswith": "shopify:\/\/shop_images\/razer_badge.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_PNmwPr",
+        "column_Fh4VJy",
+        "column_jW6ayQ",
+        "column_UiXc4V",
+        "column_8TTdR7",
+        "column_pBXqqi"
+      ],
+      "settings": {
+        "title": "Works with",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
@@ -567,6 +637,7 @@
     "1635139699342ea047",
     "4415bf01-d365-4d69-adb4-66df83e0e820",
     "1635892427a2cdb2bc",
-    "product-recommendations"
+    "product-recommendations",
+    "multicolumn_UnbFn3"
   ]
 }
