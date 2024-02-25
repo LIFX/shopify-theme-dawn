@@ -137,6 +137,15 @@
         "website_us": true
       }
     },
+    "custom_liquid_JaW7iF": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"multicolumn background-secondary\">\n  <div class=\"page-width\">\n    <div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile\">\n      <h2 class=\"title\">\n        We play well with others\n      <\/h2><\/div>\n<div class=\"title-wrapper-with-link2 title-wrapper--self-padded-mobile title-wrapper-with-link\">\n{% if product.tags contains \"matter\" %}\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/matter_badge.svg?v=1708903736\" alt=\"Matter\" height=\"40px\" loading=\"lazy\">\n{% endif %}\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/apple_home_badge_550x.svg?v=1708900501\" alt=\"Apple Home\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/google_home_badge_550x.svg?v=1708900501\" alt=\"Google Home\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/smartthings_badge_550x.png?v=1708900501\" alt=\"Samsung SmartThings\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/alexa_badge_550x.svg?v=1708900501\" alt=\"Alexa\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/razer_badge_550x.png?v=1708900682\" alt=\"Razer Chroma\" height=\"40px\" loading=\"lazy\"><\/div>\n  <\/div>\n<\/div>"
+      }
+    },
     "163514216916abed30": {
       "type": "image-with-text",
       "blocks": {
@@ -549,20 +558,12 @@
         "show_vendor": false,
         "show_rating": false
       }
-    },
-    "custom_liquid_JaW7iF": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "custom_liquid": "<div class=\"multicolumn background-secondary\">\n  <div class=\"page-width\">\n    <div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile\">\n      <h2 class=\"title\">\n        Works with\n      <\/h2><\/div>\n<div class=\"title-wrapper-with-link2 title-wrapper--self-padded-mobile title-wrapper-with-link\">\n{% if product.tags contains \"matter\" %}\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/matter_badge.svg?v=1708903736\" alt=\"Matter\" height=\"40px\" loading=\"lazy\">\n{% endif %}\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/apple_home_badge_550x.svg?v=1708900501\" alt=\"Apple Home\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/google_home_badge_550x.svg?v=1708900501\" alt=\"Google Home\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/smartthings_badge_550x.png?v=1708900501\" alt=\"Samsung SmartThings\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/alexa_badge_550x.svg?v=1708900501\" alt=\"Alexa\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/razer_badge_550x.png?v=1708900682\" alt=\"Razer Chroma\" height=\"40px\" loading=\"lazy\"><\/div>\n  <\/div>\n<\/div>"
-      }
     }
   },
   "order": [
     "main",
     "16360050346d3b64a8",
+    "custom_liquid_JaW7iF",
     "163514216916abed30",
     "163520046949622558",
     "image_banner_b9GPAt",
@@ -576,7 +577,6 @@
     "1635139699342ea047",
     "4415bf01-d365-4d69-adb4-66df83e0e820",
     "1635892427a2cdb2bc",
-    "product-recommendations",
-    "custom_liquid_JaW7iF"
+    "product-recommendations"
   ]
 }
