@@ -28,9 +28,14 @@
   }
 }
 
-@media screen and (max-width: 749px)
-  .title-wrapper-with-link2 {
+.multicolumn.background-secondary .title-wrapper-with-link2 {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 749px) {
+  .multicolumn .title-wrapper-with-link2 {
     justify-content: start;
+  }
 }
 
 .multicolumn-card__image-wrapper--third-width {
