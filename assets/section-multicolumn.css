@@ -30,7 +30,6 @@
 
 @media screen and (max-width: 749px)
 .multicolumn .title-wrapper-with-link2 {
-    margin-bottom: 3rem;
     justify-content: start;
 }
 
