@@ -552,8 +552,11 @@
     },
     "custom_liquid_JaW7iF": {
       "type": "custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
-        "custom_liquid": "<div class=\"multicolumn background-secondary\">\n  <div class=\"page-width\">\n    <div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile\">\n      <h2 class=\"title\">\n        Works with\n      <\/h2><\/div>\n<div style=\"display:flex;justify-content:space-between\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/apple_home_badge_550x.svg?v=1708900501\" alt=\"\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/google_home_badge_550x.svg?v=1708900501\" alt=\"\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/smartthings_badge_550x.png?v=1708900501\" alt=\"\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/alexa_badge_550x.svg?v=1708900501\" alt=\"\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/razer_badge_550x.png?v=1708900682\" alt=\"\" height=\"40px\" loading=\"lazy\"><\/div>\n  <\/div>\n<\/div>"
+        "custom_liquid": "<div class=\"multicolumn background-secondary\">\n  <div class=\"page-width\">\n    <div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile\">\n      <h2 class=\"title\">\n        Works with\n      <\/h2><\/div>\n<div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/apple_home_badge_550x.svg?v=1708900501\" alt=\"\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/google_home_badge_550x.svg?v=1708900501\" alt=\"\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/smartthings_badge_550x.png?v=1708900501\" alt=\"\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/alexa_badge_550x.svg?v=1708900501\" alt=\"\" height=\"40px\" loading=\"lazy\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/razer_badge_550x.png?v=1708900682\" alt=\"\" height=\"40px\" loading=\"lazy\"><\/div>\n  <\/div>\n<\/div>"
       }
     }
   },
