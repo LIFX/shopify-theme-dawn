@@ -1,5 +1,40 @@
 {
   "sections": {
+    "rich_text_q6yhbb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Twaayg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get Started",
+            "heading_size": "h1"
+          }
+        },
+        "text_waWTMN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As promised in the iddy biddy manual, here is our much more user friendly guide to getting started with your LIFX Outdoor products.<\/p>"
+          }
+        },
+        "button_xMnkAK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Twaayg",
+        "text_waWTMN",
+        "button_xMnkAK"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -26,7 +61,7 @@
     "cef3f3db-20e3-4964-abf6-2bc8ed16e435": {
       "type": "video3",
       "settings": {
-        "heading": "Getting Started with your Outdoor Neon Flex...",
+        "heading": "Outdoor Neon Flex...",
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
         "click_through": "",
         "description": "",
@@ -305,6 +340,7 @@
     }
   },
   "order": [
+    "rich_text_q6yhbb",
     "main",
     "53f253c7-5cd9-41aa-81be-357851c1722f",
     "cef3f3db-20e3-4964-abf6-2bc8ed16e435",
