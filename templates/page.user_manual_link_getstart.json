@@ -1,0 +1,349 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
+    "53f253c7-5cd9-41aa-81be-357851c1722f": {
+      "type": "video2",
+      "disabled": true,
+      "settings": {
+        "heading": "Getting Started with your Neon Flex...",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
+    "cef3f3db-20e3-4964-abf6-2bc8ed16e435": {
+      "type": "video3",
+      "settings": {
+        "heading": "Getting Started with your Neon Flex...",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "84965e73-6ae1-4687-80b1-47340b6df8a1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "In the Box"
+          }
+        },
+        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Before we dive into the setup process, let's take a look at what you'll find in your LIFX Neon Flex kit:<\/p><ul><li>LIFX Neon Flex LED rope light<\/li><li>LIFX controller<\/li><li>Power supply<\/li><li>Installation channels<\/li><li>3M adhesive <\/li><li>Screws <\/li><\/ul>"
+          }
+        },
+        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-heading-1",
+        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1",
+        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/InTheBox_Photo_Labels.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "8b3a956b-24d9-4970-9f26-32bf3d5cc268": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Choose Your Installation Adventure",
+            "heading_size": "h1"
+          }
+        },
+        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Decide between the \"Easy Peasy\" 3M adhesive or the \"Rock Solid\" screw-in channels for installation.<\/p><p>For each option you can mount it using the back of the channel OR the side, which is ideal for lighting edges. <\/p><p><strong>Easy Peasy (3M Adhesive):<\/strong> If you're all about convenience and can't wait to get your Neon Flex party started, go for the 3M adhesive. Stick it, and you're good to glow.<br\/><\/p><p><strong>Rock Solid (Screw-In Channels):<\/strong> For those who like to commit, opt for the screw-in channels. It's like promising your Neon Flex a lifetime of stability.<\/p><p><\/p><p><strong>Pro Tip:<\/strong> The 3M Adhesive is designed to support the screw-in channels and are not intended to be used directly on the Neon Flex itself.<\/p>"
+          }
+        },
+        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-heading-1",
+        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1",
+        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "90a4e391-3998-4b41-948b-7fe6e7ed0fb5": {
+      "type": "video2",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0d1c9026150a49aa9ef26e5ff1ef5b91.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "d284fc36-08df-4d7d-987b-32ad7fecfb36": {
+      "type": "video3",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0d1c9026150a49aa9ef26e5ff1ef5b91.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "083f4368-4725-4e0b-8aa5-50e48576f84b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Getting the Flex on your wall (or other surfaces)",
+            "heading_size": "h1"
+          }
+        },
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Attach the channels to your chosen surface and press your Neon Flex into the attached channels, bending and shaping it to suit your design. You can wrap it around walls, furniture edges, windows, doors, or any architectural features in your space.<\/p><p><em>Your Flex should bend in one direction naturally, don't force it to bend if you feel resistance.  <\/em><\/p>"
+          }
+        },
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-heading-1",
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-text-1",
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-button-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "84cdb3e9-0567-418f-b49e-fd221dbd318d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where's my HomeKit Code?"
+          }
+        },
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can find your HomeKit code on the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p>"
+          }
+        },
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1",
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1",
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/InTheBox_SetupCode.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "4078028f-ee2a-4587-a2ca-71d8fa39cf2c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Is the LIFX Neon Flex safe to bend?",
+            "heading_size": "h1"
+          }
+        },
+        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Neon Flex is designed to be bent so you can make custom patterns and designs.<\/p><p>When unboxing the Neon Flex, you will notice that it comes package already coiled. You may bend the Neon Flex in line with it’s current curvature.  <\/p><p>Twisting it, bending it too sharply or bending it in the opposite direction may cause damage and you will be doing so at your own risk.<\/p><p><\/p><p><strong>Please be advised that damage caused from misuse will void your LIFX Neon Flex warranty.<\/strong><\/p>"
+          }
+        },
+        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-heading-1",
+        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-text-1",
+        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-button-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "7c867d46-f041-43f4-83df-5162ae1ce129": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ok_bend_neon.jpg",
+            "title": "✅ Looking smooth",
+            "text": "<p>How to correctly bend the LIFX Neon Strip in line with it's curvature.<\/p>"
+          }
+        },
+        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/do_not_twist_neon.jpg",
+            "title": "❌ No twisting",
+            "text": "<p> Do not twist or bend the Neon Flex against it's natural curvature.<\/p>"
+          }
+        },
+        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dont_bend_sharp_neon.jpg",
+            "title": "❌  No sharp angles",
+            "text": "<p>Do not bend the Neon Flex at sharp angles.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-1",
+        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-2",
+        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "332a1804-754d-475c-8f99-8c2c0e15083c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Connect to the LIFX App"
+          }
+        },
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Download the LIFX app for iOS or Android to get started. <\/p><ul><li>Open the app<\/li><li>Hit the '+' in the bottom right to add a new product.<\/li><li>Select your LIFX Neon Flex from the list<\/li><li>The app will guide you through the setup process.<\/li><\/ul><p><strong>Having Trouble Connecting? <\/strong>Make sure you're connecting to your 2.4gHz Wi-Fi network. <\/p><p><strong>Still having trouble? <\/strong>You can start a chat with us here at any time.<\/p>"
+          }
+        },
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-heading-1",
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1",
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/App_LIFX.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "53f253c7-5cd9-41aa-81be-357851c1722f",
+    "cef3f3db-20e3-4964-abf6-2bc8ed16e435",
+    "84965e73-6ae1-4687-80b1-47340b6df8a1",
+    "8b3a956b-24d9-4970-9f26-32bf3d5cc268",
+    "90a4e391-3998-4b41-948b-7fe6e7ed0fb5",
+    "d284fc36-08df-4d7d-987b-32ad7fecfb36",
+    "083f4368-4725-4e0b-8aa5-50e48576f84b",
+    "84cdb3e9-0567-418f-b49e-fd221dbd318d",
+    "4078028f-ee2a-4587-a2ca-71d8fa39cf2c",
+    "7c867d46-f041-43f4-83df-5162ae1ce129",
+    "332a1804-754d-475c-8f99-8c2c0e15083c"
+  ]
+}
