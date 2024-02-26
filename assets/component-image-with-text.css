@@ -163,6 +163,7 @@ line-height: 1;
 text-align: center;
 margin-right:6px;
 background-color:#000;
+  border-color:#000;
 }
 .productFamilyInverse:hover{
 color: #E2FC52;
