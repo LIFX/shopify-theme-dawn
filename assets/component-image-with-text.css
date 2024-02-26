@@ -165,8 +165,8 @@ margin-right:6px;
 background-color:#000;
 }
 .productFamilyInverse:hover{
-color: midnightblue;
-background-color:#fff
+color: #fff;
+background-color:midnightblue;
 }
 .variantSoldOut{
 cursor: not-allowed;
