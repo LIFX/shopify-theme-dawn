@@ -166,6 +166,7 @@ background-color:#000;
 }
 .productFamilyInverse:hover{
 color: #E2FC52;
+border-color:#000;
 }
 .variantSoldOut{
 cursor: not-allowed;
