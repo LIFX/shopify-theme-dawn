@@ -26,7 +26,7 @@
     "cef3f3db-20e3-4964-abf6-2bc8ed16e435": {
       "type": "video3",
       "settings": {
-        "heading": "Getting Started with your Neon Flex...",
+        "heading": "Getting Started with your Outdoor Neon Flex...",
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
         "click_through": "",
         "description": "",
@@ -48,7 +48,7 @@
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Before we dive into the setup process, let's take a look at what you'll find in your LIFX Neon Flex kit:<\/p><ul><li>LIFX Neon Flex LED rope light<\/li><li>LIFX controller<\/li><li>Power supply<\/li><li>Installation channels<\/li><li>3M adhesive <\/li><li>Screws <\/li><\/ul>"
+            "text": "<p>Before we dive into the setup process, let's take a look at what you'll find in your LIFX Outdoor Neon Flex kit:<\/p><ul><li>16ft Neon Flex LED rope light<\/li><li>Smart controller<\/li><li>Power supply<\/li><li>Garden spikes <\/li><\/ul>"
           }
         },
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1": {
@@ -65,7 +65,7 @@
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/InTheBox_Photo_Labels.jpg",
+        "image": "shopify:\/\/shop_images\/beach-sunset-thailand.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -87,7 +87,7 @@
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Decide between the \"Easy Peasy\" 3M adhesive or the \"Rock Solid\" screw-in channels for installation.<\/p><p>For each option you can mount it using the back of the channel OR the side, which is ideal for lighting edges. <\/p><p><strong>Easy Peasy (3M Adhesive):<\/strong> If you're all about convenience and can't wait to get your Neon Flex party started, go for the 3M adhesive. Stick it, and you're good to glow.<br\/><\/p><p><strong>Rock Solid (Screw-In Channels):<\/strong> For those who like to commit, opt for the screw-in channels. It's like promising your Neon Flex a lifetime of stability.<\/p><p><\/p><p><strong>Pro Tip:<\/strong> The 3M Adhesive is designed to support the screw-in channels and are not intended to be used directly on the Neon Flex itself.<\/p>"
+            "text": "<p>Decide between the \"Easy Peasy\" garden spikes or the \"Rock Solid\" screw-in channels for installation.<\/p><p><strong>Garden Spikes:<\/strong> If you're all about convenience and can't wait to get your Neon Flex party started, go for the 3M adhesive. Stick it, and you're good to glow.<br\/><\/p><p><strong>Rock Solid (Screw-In Channels):<\/strong> For those who like to commit, opt for the screw-in channels. It's like promising your Neon Flex a lifetime of stability.<\/p>"
           }
         },
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1": {
@@ -124,35 +124,9 @@
         "website_us": true
       }
     },
-    "d284fc36-08df-4d7d-987b-32ad7fecfb36": {
-      "type": "video3",
-      "settings": {
-        "heading": "",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0d1c9026150a49aa9ef26e5ff1ef5b91.mp4",
-        "click_through": "",
-        "description": "",
-        "full_width": false,
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "083f4368-4725-4e0b-8aa5-50e48576f84b": {
       "type": "rich-text",
       "blocks": {
-        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Getting the Flex on your wall (or other surfaces)",
-            "heading_size": "h1"
-          }
-        },
-        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Attach the channels to your chosen surface and press your Neon Flex into the attached channels, bending and shaping it to suit your design. You can wrap it around walls, furniture edges, windows, doors, or any architectural features in your space.<\/p><p><em>Your Flex should bend in one direction naturally, don't force it to bend if you feel resistance.  <\/em><\/p>"
-          }
-        },
         "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-button-1": {
           "type": "button",
           "disabled": true,
@@ -164,8 +138,6 @@
         }
       },
       "block_order": [
-        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-heading-1",
-        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-text-1",
         "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-button-1"
       ],
       "settings": {
@@ -179,13 +151,13 @@
         "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Where's my HomeKit Code?"
+            "heading": "Where's my Matter QR Code?"
           }
         },
         "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You can find your HomeKit code on the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p>"
+            "text": "<p>You can find your Matter QR code on the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<br\/><br\/>The Matter QR Code is also printed on the back of the Wi-Fi controller.<\/p>"
           }
         },
         "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1": {
@@ -203,7 +175,7 @@
         "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/InTheBox_SetupCode.jpg",
+        "image": "shopify:\/\/shop_images\/beach-sunset-thailand.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -218,7 +190,7 @@
         "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Is the LIFX Neon Flex safe to bend?",
+            "heading": "Is the LIFX Outdoor Neon Flex safe to bend?",
             "heading_size": "h1"
           }
         },
@@ -339,7 +311,6 @@
     "84965e73-6ae1-4687-80b1-47340b6df8a1",
     "8b3a956b-24d9-4970-9f26-32bf3d5cc268",
     "90a4e391-3998-4b41-948b-7fe6e7ed0fb5",
-    "d284fc36-08df-4d7d-987b-32ad7fecfb36",
     "083f4368-4725-4e0b-8aa5-50e48576f84b",
     "84cdb3e9-0567-418f-b49e-fd221dbd318d",
     "4078028f-ee2a-4587-a2ca-71d8fa39cf2c",
