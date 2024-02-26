@@ -103,6 +103,9 @@
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "76f2877b-9463-4ca3-a71e-982cd31af6da"
       ],
+      "custom_css": [
+        ".product__description {font-size: 1.5rem; line-height: 1.8rem;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "hide_variants": true,
