@@ -147,7 +147,26 @@ margin-right:6px;
 }
 .productFamily:hover{
 color: #fff;
-background-color:#000
+background-color:#000;
+}
+.productFamilyInverse {
+border: 1px solid;
+border-radius: 50px;
+color: #fff;
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 0px;
+padding: 10px 20px 10px 20px;
+font-size: 1.4rem;
+letter-spacing: .1rem;
+line-height: 1;
+text-align: center;
+margin-right:6px;
+background-color:#000;
+}
+.productFamilyInverse:hover{
+color: #000;
+background-color:#fff
 }
 .variantSoldOut{
 cursor: not-allowed;
