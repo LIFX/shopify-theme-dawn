@@ -276,55 +276,10 @@
         "swipe_on_mobile": true
       }
     },
-    "332a1804-754d-475c-8f99-8c2c0e15083c": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Connect to the LIFX App"
-          }
-        },
-        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Download the LIFX app for iOS or Android to get started. <\/p><ul><li>Open the app<\/li><li>Hit the '+' in the bottom right to add a new product.<\/li><li>Select your LIFX Neon Flex from the list<\/li><li>The app will guide you through the setup process.<\/li><\/ul><p><strong>Having Trouble Connecting? <\/strong>Make sure you're connecting to your 2.4gHz Wi-Fi network. <\/p><p><strong>Still having trouble? <\/strong>You can start a chat with us here at any time.<\/p>"
-          }
-        },
-        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-heading-1",
-        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1",
-        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/App_LIFX.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "custom_liquid_iAEVa9": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<a id=\"path\"><p class=\"h0\">Supercolor Path<\/p><\/a>\n<\/div>"
-      }
-    },
-    "custom_liquid_tW8Mab": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<a id=\"spot\"><p class=\"h0\">Supercolor Spot<\/p><\/a>\n<\/div>"
       }
     },
     "image_with_text_GaA4VJ": {
@@ -356,6 +311,87 @@
         "website_ukeu": true,
         "website_us": true
       }
+    },
+    "custom_liquid_tW8Mab": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<a id=\"spot\"><p class=\"h0\">Supercolor Spot<\/p><\/a>\n<\/div>"
+      }
+    },
+    "image_with_text_bXKzz9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3kKdXL": {
+          "type": "heading",
+          "settings": {
+            "heading": "In the box."
+          }
+        },
+        "text_FJAmfJ": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>LED spot light<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Attachable ground spike for installation into earth<\/li><li>Alternative base mount and screws for installation on solid surfaces<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3kKdXL",
+        "text_FJAmfJ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/04_LIFX_Spot_Round_Gallery_d9416b34-bbeb-4ea2-a6b7-ab7df6e1753a.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "custom_liquid_iL3d7g": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Connect to the LIFX App<\/p>\n<\/div>"
+      }
+    },
+    "332a1804-754d-475c-8f99-8c2c0e15083c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Download the LIFX app for iOS or Android to get started."
+          }
+        },
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Open the app<\/li><li>Hit the '+' in the bottom right to add a new product.<\/li><li>Select your LIFX Neon Flex from the list<\/li><li>The app will guide you through the setup process.<\/li><\/ul><p><strong>Having Trouble Connecting? <\/strong>Make sure you're connecting to your 2.4gHz Wi-Fi network. <\/p><p><strong>Still having trouble? <\/strong>You can start a chat with us here at any time.<\/p>"
+          }
+        },
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-heading-1",
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1",
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/App_LIFX.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
     }
   },
   "order": [
@@ -371,9 +407,11 @@
     "84cdb3e9-0567-418f-b49e-fd221dbd318d",
     "4078028f-ee2a-4587-a2ca-71d8fa39cf2c",
     "7c867d46-f041-43f4-83df-5162ae1ce129",
-    "332a1804-754d-475c-8f99-8c2c0e15083c",
     "custom_liquid_iAEVa9",
+    "image_with_text_GaA4VJ",
     "custom_liquid_tW8Mab",
-    "image_with_text_GaA4VJ"
+    "image_with_text_bXKzz9",
+    "custom_liquid_iL3d7g",
+    "332a1804-754d-475c-8f99-8c2c0e15083c"
   ]
 }
