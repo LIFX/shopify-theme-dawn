@@ -65,7 +65,6 @@
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Digital_-_String_-_AU_-_InTheBox_-_notes.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first",
@@ -227,13 +226,13 @@
         "heading_jxLKNc": {
           "type": "heading",
           "settings": {
-            "heading": "All new colour controls"
+            "heading": "All new color controls"
           }
         },
         "text_rHLYbx": {
           "type": "text",
           "settings": {
-            "text": "<p>LIFX String is the first of a series of Polychrome products to use our brand new colour wheel. With Solid, Complementary and Custom paint modes.<br\/><br\/><strong>Solid: <\/strong>Like the old wheel, but better, with finer saturation control. Paint your entire string light in the perfect hue. <\/p><p><strong>Complementary:<\/strong> Take the guess work out and allow the app select the perfect accent colours and let that Polychrome shine.<br\/><br\/><strong>Custom: <\/strong>Get creative and select the colours you want and  show off your lighting designer props. <\/p>"
+            "text": "<p>LIFX String is the first of a series of Polychrome products to use our brand new color wheel. With Solid, Complementary and Custom paint modes.<br\/><br\/><strong>Solid: <\/strong>Like the old wheel, but better, with finer saturation control. Paint your entire string light in the perfect hue. <\/p><p><strong>Complementary:<\/strong> Take the guess work out and allow the app select the perfect accent colors and let that Polychrome shine.<br\/><br\/><strong>Custom: <\/strong>Get creative and select the colours you want and  show off your lighting designer props. <\/p>"
           }
         },
         "button_WQ69Xi": {

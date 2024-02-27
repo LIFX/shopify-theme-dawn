@@ -35,19 +35,6 @@
         "custom_liquid": "<div class=\"page-width\">\n<a id=\"flex\"><p class=\"h0\">Supercolor Neon Flex<\/p><\/a>\n<\/div>"
       }
     },
-    "cef3f3db-20e3-4964-abf6-2bc8ed16e435": {
-      "type": "video3",
-      "settings": {
-        "heading": "",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
-        "click_through": "",
-        "description": "",
-        "full_width": false,
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "84965e73-6ae1-4687-80b1-47340b6df8a1": {
       "type": "image-with-text",
       "blocks": {
@@ -80,7 +67,20 @@
         "image": "shopify:\/\/shop_images\/LIFX-Flex_6-5_Gallery_03_79c145b0-c0f6-44e6-a74d-aa8b43017620.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "cef3f3db-20e3-4964-abf6-2bc8ed16e435": {
+      "type": "video3",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": false,
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -330,7 +330,7 @@
         "text_FJAmfJ": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>LED spot light<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Attachable ground spike for installation into earth<\/li><li>Alternative base mount and screws for installation on solid surfaces<\/li><\/ul>"
+            "text": "<ul><li>LED spot light<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Attachable ground spike for in earth installation<\/li><li>Alternative base\/wall mount and screws for solid surface installation<\/li><li>Optional height extender<\/li><\/ul>"
           }
         }
       },
@@ -399,8 +399,8 @@
     "main",
     "53f253c7-5cd9-41aa-81be-357851c1722f",
     "custom_liquid_YfGkqp",
-    "cef3f3db-20e3-4964-abf6-2bc8ed16e435",
     "84965e73-6ae1-4687-80b1-47340b6df8a1",
+    "cef3f3db-20e3-4964-abf6-2bc8ed16e435",
     "8b3a956b-24d9-4970-9f26-32bf3d5cc268",
     "90a4e391-3998-4b41-948b-7fe6e7ed0fb5",
     "083f4368-4725-4e0b-8aa5-50e48576f84b",
