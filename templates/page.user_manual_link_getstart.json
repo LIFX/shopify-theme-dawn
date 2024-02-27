@@ -31,7 +31,7 @@
         "button_xMnkAK"
       ],
       "custom_css": [
-        ".rich-text__blocks {padding-left: 2rem; padding-right: 2rem; margin: 0; width:auto;}"
+        ".rich-text__blocks {margin-top: 5rem; margin-bottom: 5rem; max-width: 1500px;}"
       ],
       "settings": {
         "color_scheme": "background-1",
