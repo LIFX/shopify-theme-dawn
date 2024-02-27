@@ -9,20 +9,6 @@
       "settings": {
       }
     },
-    "53f253c7-5cd9-41aa-81be-357851c1722f": {
-      "type": "video2",
-      "disabled": true,
-      "settings": {
-        "heading": "Getting Started with your Neon Flex...",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
-        "click_through": "",
-        "description": "",
-        "full_width": true,
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": true
-      }
-    },
     "custom_liquid_tW8Mab": {
       "type": "custom-liquid",
       "settings": {
@@ -102,6 +88,29 @@
         "website_us": true
       }
     },
+    "image_with_text_hbr4Bp": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_MUWgYM": {
+          "type": "text",
+          "settings": {
+            "text": "<h1><strong>Height Extender<\/strong><\/h1><p>Want to make your light taller? Add this extension pole between the base and the light. Get the perfect position and position above ground cover and other obstructions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_MUWgYM"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Spot_Extender.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "custom_liquid_kqUYLQ": {
       "type": "custom-liquid",
       "settings": {
@@ -158,20 +167,11 @@
           "settings": {
             "text": "<ul><li>Open the app<\/li><li>Hit the '+' in the bottom right to add a new product.<\/li><li>Select your LIFX Neon Flex from the list<\/li><li>The app will guide you through the setup process.<\/li><\/ul><p><strong>Having Trouble Connecting? <\/strong>Make sure you're connecting to your 2.4gHz Wi-Fi network. <\/p><p><strong>Still having trouble? <\/strong>You can start a chat with us here at any time.<\/p>"
           }
-        },
-        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-heading-1",
-        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1",
-        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1"
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/App_LIFX.jpg",
@@ -186,12 +186,12 @@
   },
   "order": [
     "main",
-    "53f253c7-5cd9-41aa-81be-357851c1722f",
     "custom_liquid_tW8Mab",
     "image_banner_GtN7ye",
     "rich_text_DXtAJy",
     "custom_liquid_AwciFY",
     "image_with_text_LCJf9L",
+    "image_with_text_hbr4Bp",
     "custom_liquid_kqUYLQ",
     "image_with_text_mgq4Q8",
     "custom_liquid_iL3d7g",
