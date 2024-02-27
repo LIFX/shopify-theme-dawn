@@ -324,7 +324,7 @@
     "custom_liquid_tW8Mab": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<a id=\"spot\">"
+        "custom_liquid": "<a id=\"spot\"><"
       }
     }
   },
