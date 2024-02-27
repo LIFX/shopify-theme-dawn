@@ -9,33 +9,6 @@
       "settings": {
       }
     },
-    "53f253c7-5cd9-41aa-81be-357851c1722f": {
-      "type": "video2",
-      "disabled": true,
-      "settings": {
-        "heading": "Getting Started with your Neon Flex...",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
-        "click_through": "",
-        "description": "",
-        "full_width": true,
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": true
-      }
-    },
-    "cef3f3db-20e3-4964-abf6-2bc8ed16e435": {
-      "type": "video3",
-      "settings": {
-        "heading": "Say hello to your new LIFX String Light",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b5c2473cf7044d980dfa3c9cace5ad7.mp4",
-        "click_through": "",
-        "description": "",
-        "full_width": false,
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "image_with_text_hB3ey8": {
       "type": "image-with-text",
       "blocks": {
@@ -61,6 +34,33 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "53f253c7-5cd9-41aa-81be-357851c1722f": {
+      "type": "video2",
+      "disabled": true,
+      "settings": {
+        "heading": "Getting Started with your Neon Flex...",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
+    "cef3f3db-20e3-4964-abf6-2bc8ed16e435": {
+      "type": "video3",
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b5c2473cf7044d980dfa3c9cace5ad7.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": false,
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -333,9 +333,9 @@
   },
   "order": [
     "main",
+    "image_with_text_hB3ey8",
     "53f253c7-5cd9-41aa-81be-357851c1722f",
     "cef3f3db-20e3-4964-abf6-2bc8ed16e435",
-    "image_with_text_hB3ey8",
     "84965e73-6ae1-4687-80b1-47340b6df8a1",
     "8b3a956b-24d9-4970-9f26-32bf3d5cc268",
     "90a4e391-3998-4b41-948b-7fe6e7ed0fb5",
