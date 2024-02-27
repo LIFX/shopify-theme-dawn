@@ -66,17 +66,17 @@
         "text_9y8nmt"
       ],
       "custom_css": [
-        ".rich-text__blocks {max-width:1500px}"
+        ".rich-text__blocks {max-width: 1500px;}"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
       }
     },
-    "custom_liquid_iL3d7g": {
+    "custom_liquid_AwciFY": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Connect to the LIFX App<\/p>\n<\/div>"
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Installation Options<\/p>\n<\/div>"
       }
     },
     "image_with_text_LCJf9L": {
@@ -85,10 +85,46 @@
         "heading_CFWNEN": {
           "type": "heading",
           "settings": {
-            "heading": "Where's my Matter Setup Code?"
+            "heading": "Ground Spike or Surface Mount"
           }
         },
         "text_GcVpDr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>XXX<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CFWNEN",
+        "text_GcVpDr"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/spot_accessories.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "custom_liquid_kqUYLQ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Matter Easy Setup<\/p>\n<\/div>"
+      }
+    },
+    "image_with_text_mgq4Q8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YqpA8X": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where's my Matter Setup Code?"
+          }
+        },
+        "text_CeG9tp": {
           "type": "text",
           "settings": {
             "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p>You can also find the QR code printed on the following parts: <\/p><ul><li>Neon Flex Controllers<\/li><li>Path Lights Base<\/li><li>Spot Light (Matter number only)<\/li><\/ul>"
@@ -96,8 +132,8 @@
         }
       },
       "block_order": [
-        "heading_CFWNEN",
-        "text_GcVpDr"
+        "heading_YqpA8X",
+        "text_CeG9tp"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/matter_code.png",
@@ -107,6 +143,12 @@
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
+      }
+    },
+    "custom_liquid_iL3d7g": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Connect to the LIFX App<\/p>\n<\/div>"
       }
     },
     "332a1804-754d-475c-8f99-8c2c0e15083c": {
@@ -155,8 +197,11 @@
     "custom_liquid_tW8Mab",
     "image_banner_GtN7ye",
     "rich_text_DXtAJy",
-    "custom_liquid_iL3d7g",
+    "custom_liquid_AwciFY",
     "image_with_text_LCJf9L",
+    "custom_liquid_kqUYLQ",
+    "image_with_text_mgq4Q8",
+    "custom_liquid_iL3d7g",
     "332a1804-754d-475c-8f99-8c2c0e15083c"
   ]
 }
