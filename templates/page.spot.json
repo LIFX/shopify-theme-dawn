@@ -32,7 +32,7 @@
     "image_banner_GtN7ye": {
       "type": "image-banner",
       "custom_css": [
-        ".bannerOveride{max-width: 1500px!important; margin: auto; \/* height: fit-content; *\/ min-height: auto!important; max-height: 740px!important;}"
+        ".bannerOveride {max-width: 1500px !important; margin: auto; \/* height: fit-content; *\/ min-height: auto !important; max-height: 740px !important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/spot_flat_lay.png",
@@ -64,6 +64,9 @@
       },
       "block_order": [
         "text_9y8nmt"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width:1500px}"
       ],
       "settings": {
         "color_scheme": "background-1",
