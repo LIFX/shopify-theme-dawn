@@ -1,11 +1,5 @@
 {
   "sections": {
-    "custom_liquid_C7x6gy": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Get Started<\/p>\n<p>As promised in the iddy biddy manual that came with your shiney new lights, here is our much more user friendly guide to getting started with your LIFX Outdoor products.<\/p>\n<br>\n\n<div style=\"width:auto; display:flex; gap:2rem;flex-wrap:wrap;justify-content:space-around\">\n\n<a href=\"\/pages\/flex\" class=\"link\">\n<div style=\"border-style:solid;border-width:1px;border-color:#eee9e9; padding:20px 50px 0px 50px\"><img src=\"https:\/\/iqi5ztrp4574z016-2190638.shopifypreview.com\/cdn\/shop\/files\/LIFX-Flex_16_Gallery_Outdoor_01_200x.jpg?v=1706828337\"><p style=\"text-align:center\">Supercolor Neon Flex<\/p><\/div><\/a>\n\n<a href=\"\/pages\/path\" class=\"link\">\n<div style=\"border-style:solid ;border-color:#eee9e9;border-width:1px;padding:20px 50px 0px 50px\"><img src=\"https:\/\/iqi5ztrp4574z016-2190638.shopifypreview.com\/cdn\/shop\/files\/01_LIFX_Path_Round_Gallery_200x.jpg?v=1706828199\"><br>\n<p style=\"text-align:center\">Supercolor Path<\/p><\/div><\/a>\n\n<a href=\"\/pages\/spot\" class=\"link\"><div style=\"border-style:solid;border-width:1px;border-color:#eee9e9;padding:20px 50px 0px 50px\"><img src=\"https:\/\/x4nnqyjzatwzkwbg-2190638.shopifypreview.com\/cdn\/shop\/files\/00_LIFX_Spot_Round_HERO_Gallery_200x.jpg?v=1707949344\"><p style=\"text-align:center\">Supercolor Spot<\/p><\/div><\/a>\n\n<\/div>"
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -13,20 +7,6 @@
 
       ],
       "settings": {
-      }
-    },
-    "53f253c7-5cd9-41aa-81be-357851c1722f": {
-      "type": "video2",
-      "disabled": true,
-      "settings": {
-        "heading": "Getting Started with your Neon Flex...",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
-        "click_through": "",
-        "description": "",
-        "full_width": true,
-        "website_au": true,
-        "website_ukeu": false,
-        "website_us": true
       }
     },
     "custom_liquid_YfGkqp": {
@@ -276,82 +256,40 @@
         "swipe_on_mobile": true
       }
     },
-    "custom_liquid_iAEVa9": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<a id=\"path\"><p class=\"h0\">Supercolor Path<\/p><\/a>\n<\/div>"
-      }
-    },
-    "image_with_text_GaA4VJ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_DgegQh": {
-          "type": "heading",
-          "settings": {
-            "heading": "In the box."
-          }
-        },
-        "text_tHAkGG": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>LED path light (Round or Square)<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Attachable ground spike for installation into earth<\/li><li>Alternative base mount and screws for installation on solid surfaces<\/li><\/ul>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_DgegQh",
-        "text_tHAkGG"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/04_LIFX_Path_Round_Gallery.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "custom_liquid_tW8Mab": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<a id=\"spot\"><p class=\"h0\">Supercolor Spot<\/p><\/a>\n<\/div>"
-      }
-    },
-    "image_with_text_bXKzz9": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_3kKdXL": {
-          "type": "heading",
-          "settings": {
-            "heading": "In the box."
-          }
-        },
-        "text_FJAmfJ": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>LED spot light<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Attachable ground spike for in earth installation<\/li><li>Alternative base\/wall mount and screws for solid surface installation<\/li><li>Optional height extender<\/li><\/ul>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_3kKdXL",
-        "text_FJAmfJ"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/04_LIFX_Spot_Round_Gallery_d9416b34-bbeb-4ea2-a6b7-ab7df6e1753a.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "custom_liquid_iL3d7g": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Connect to the LIFX App<\/p>\n<\/div>"
+      }
+    },
+    "image_with_text_LCJf9L": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_CFWNEN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where's my Matter Setup Code?"
+          }
+        },
+        "text_GcVpDr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p>You can also find the QR code printed on the following parts: <\/p><ul><li>Neon Flex Controllers<\/li><li>Path Lights Base<\/li><li>Spot Light (Matter number only)<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CFWNEN",
+        "text_GcVpDr"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/matter_code.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "332a1804-754d-475c-8f99-8c2c0e15083c": {
@@ -387,37 +325,7 @@
         "image": "shopify:\/\/shop_images\/App_LIFX.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "image_with_text_LCJf9L": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_CFWNEN": {
-          "type": "heading",
-          "settings": {
-            "heading": "Where's my Matter Setup Code?"
-          }
-        },
-        "text_GcVpDr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p>You can also find the QR code printed on the following parts: <\/p><ul><li>Neon Flex Controllers<\/li><li>Path Lights Base<\/li><li>Spot Light (Matter number only)<\/li><\/ul>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_CFWNEN",
-        "text_GcVpDr"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/matter_code.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
+        "layout": "text_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -425,9 +333,7 @@
     }
   },
   "order": [
-    "custom_liquid_C7x6gy",
     "main",
-    "53f253c7-5cd9-41aa-81be-357851c1722f",
     "custom_liquid_YfGkqp",
     "84965e73-6ae1-4687-80b1-47340b6df8a1",
     "cef3f3db-20e3-4964-abf6-2bc8ed16e435",
@@ -437,12 +343,8 @@
     "84cdb3e9-0567-418f-b49e-fd221dbd318d",
     "4078028f-ee2a-4587-a2ca-71d8fa39cf2c",
     "7c867d46-f041-43f4-83df-5162ae1ce129",
-    "custom_liquid_iAEVa9",
-    "image_with_text_GaA4VJ",
-    "custom_liquid_tW8Mab",
-    "image_with_text_bXKzz9",
     "custom_liquid_iL3d7g",
-    "332a1804-754d-475c-8f99-8c2c0e15083c",
-    "image_with_text_LCJf9L"
+    "image_with_text_LCJf9L",
+    "332a1804-754d-475c-8f99-8c2c0e15083c"
   ]
 }
