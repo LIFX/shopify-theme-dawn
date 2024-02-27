@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "Get Started",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text_waWTMN": {
@@ -29,6 +29,9 @@
         "heading_Twaayg",
         "text_waWTMN",
         "button_xMnkAK"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {padding-left: 2rem; padding-right: 2rem; margin: 0; width:auto;}"
       ],
       "settings": {
         "color_scheme": "background-1",
