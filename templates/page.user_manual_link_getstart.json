@@ -32,7 +32,7 @@
     "custom_liquid_YfGkqp": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<a id=\"flex\">"
+        "custom_liquid": "<a id=\"flex\"><\/a>"
       }
     },
     "cef3f3db-20e3-4964-abf6-2bc8ed16e435": {
@@ -318,7 +318,7 @@
     "custom_liquid_iAEVa9": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<a id=\"path\">"
+        "custom_liquid": "<a id=\"path\"><\/a>"
       }
     },
     "custom_liquid_tW8Mab": {
