@@ -82,21 +82,14 @@
     "image_with_text_LCJf9L": {
       "type": "image-with-text",
       "blocks": {
-        "heading_CFWNEN": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ground Spike or Surface Mount"
-          }
-        },
         "text_GcVpDr": {
           "type": "text",
           "settings": {
-            "text": "<p>XXX<\/p>"
+            "text": "<h1><strong>Ground Spike<\/strong><\/h1><p>Use this to put the Spotlight in garden beds and other in-ground locations. Find the desired location and plant the mounting stake (seen here) by firmly pressing it into the soil.<br\/><br\/><strong>A little tough? <\/strong>Wet the soil or dig a little to soften it up. You can use a rubber mallet if you have one to ensure the entire stake is in the ground.<\/p><h1>Surface Mount<\/h1><p>Use this to mount the LIFX Spot to surfaces using the provided screws.<br\/><br\/>Pick the best place to mount your spotlight. You can adjust the head of the light to get different angles, but you'll want to make sure before you add screws that it'll face the way you want. <br\/><br\/><strong>Attaching to masonry?<\/strong> Position the product then mark where you need your screws. Drill two 1\/4\" holes. Push in the provided anchors. Line up the mount and install the screws into the anchor. Done!<\/p>"
           }
         }
       },
       "block_order": [
-        "heading_CFWNEN",
         "text_GcVpDr"
       ],
       "settings": {
