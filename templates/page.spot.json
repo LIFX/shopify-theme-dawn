@@ -1,11 +1,5 @@
 {
   "sections": {
-    "custom_liquid_C7x6gy": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Get Started<\/p>\n<p>As promised in the iddy biddy manual that came with your shiney new lights, here is our much more user friendly guide to getting started with your LIFX Outdoor products.<\/p>\n<br>\n\n<div style=\"width:auto; display:flex; gap:2rem;flex-wrap:wrap;justify-content:space-around\">\n\n<a href=\"\/pages\/flex\" class=\"link\">\n<div style=\"border-style:solid;border-width:1px;border-color:#eee9e9; padding:20px 50px 0px 50px\"><img src=\"https:\/\/iqi5ztrp4574z016-2190638.shopifypreview.com\/cdn\/shop\/files\/LIFX-Flex_16_Gallery_Outdoor_01_200x.jpg?v=1706828337\"><p style=\"text-align:center\">Supercolor Neon Flex<\/p><\/div><\/a>\n\n<a href=\"\/pages\/path\" class=\"link\">\n<div style=\"border-style:solid ;border-color:#eee9e9;border-width:1px;padding:20px 50px 0px 50px\"><img src=\"https:\/\/iqi5ztrp4574z016-2190638.shopifypreview.com\/cdn\/shop\/files\/01_LIFX_Path_Round_Gallery_200x.jpg?v=1706828199\"><br>\n<p style=\"text-align:center\">Supercolor Path<\/p><\/div><\/a>\n\n<a href=\"\/pages\/spot\" class=\"link\"><div style=\"border-style:solid;border-width:1px;border-color:#eee9e9;padding:20px 50px 0px 50px\"><img src=\"https:\/\/x4nnqyjzatwzkwbg-2190638.shopifypreview.com\/cdn\/shop\/files\/00_LIFX_Spot_Round_HERO_Gallery_200x.jpg?v=1707949344\"><p style=\"text-align:center\">Supercolor Spot<\/p><\/div><\/a>\n\n<\/div>"
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -26,289 +20,6 @@
         "full_width": true,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true
-      }
-    },
-    "custom_liquid_YfGkqp": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<a id=\"flex\"><p class=\"h0\">Supercolor Neon Flex<\/p><\/a>\n<\/div>"
-      }
-    },
-    "84965e73-6ae1-4687-80b1-47340b6df8a1": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "In the box."
-          }
-        },
-        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>16ft LED rope light<\/li><li>LIFX Wi-Fi smart controller<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Alternative mains power supply<\/li><li>10 x spike mounts<\/li><li>10 x screw mounts<\/li><li>10 x adhesive mounts<\/li><\/ul>"
-          }
-        },
-        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-heading-1",
-        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1",
-        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX-Flex_6-5_Gallery_03_79c145b0-c0f6-44e6-a74d-aa8b43017620.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "cef3f3db-20e3-4964-abf6-2bc8ed16e435": {
-      "type": "video3",
-      "settings": {
-        "heading": "",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
-        "click_through": "",
-        "description": "",
-        "full_width": false,
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "8b3a956b-24d9-4970-9f26-32bf3d5cc268": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Choose Your Installation Adventure",
-            "heading_size": "h1"
-          }
-        },
-        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Decide between the \"Easy Peasy\" garden spikes or the \"Rock Solid\" screw-in channels for installation.<\/p><p><strong>Garden Spikes:<\/strong> If you're all about convenience and can't wait to get your Neon Flex party started, go for the 3M adhesive. Stick it, and you're good to glow.<br\/><\/p><p><strong>Rock Solid (Screw-In Channels):<\/strong> For those who like to commit, opt for the screw-in channels. It's like promising your Neon Flex a lifetime of stability.<\/p>"
-          }
-        },
-        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-heading-1",
-        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1",
-        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "90a4e391-3998-4b41-948b-7fe6e7ed0fb5": {
-      "type": "video2",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0d1c9026150a49aa9ef26e5ff1ef5b91.mp4",
-        "click_through": "",
-        "description": "",
-        "full_width": false,
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "083f4368-4725-4e0b-8aa5-50e48576f84b": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-button-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "84cdb3e9-0567-418f-b49e-fd221dbd318d": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Where's my Matter QR Code?"
-          }
-        },
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You can find your Matter QR code on the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<br\/><br\/>The Matter QR Code is also printed on the back of the Wi-Fi controller.<\/p>"
-          }
-        },
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1",
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1",
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/beach-sunset-thailand.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "4078028f-ee2a-4587-a2ca-71d8fa39cf2c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Is the LIFX Outdoor Neon Flex safe to bend?",
-            "heading_size": "h1"
-          }
-        },
-        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The Neon Flex is designed to be bent so you can make custom patterns and designs.<\/p><p>When unboxing the Neon Flex, you will notice that it comes package already coiled. You may bend the Neon Flex in line with it’s current curvature.  <\/p><p>Twisting it, bending it too sharply or bending it in the opposite direction may cause damage and you will be doing so at your own risk.<\/p><p><\/p><p><strong>Please be advised that damage caused from misuse will void your LIFX Neon Flex warranty.<\/strong><\/p>"
-          }
-        },
-        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-heading-1",
-        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-text-1",
-        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-button-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "7c867d46-f041-43f4-83df-5162ae1ce129": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ok_bend_neon.jpg",
-            "title": "✅ Looking smooth",
-            "text": "<p>How to correctly bend the LIFX Neon Strip in line with it's curvature.<\/p>"
-          }
-        },
-        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/do_not_twist_neon.jpg",
-            "title": "❌ No twisting",
-            "text": "<p> Do not twist or bend the Neon Flex against it's natural curvature.<\/p>"
-          }
-        },
-        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/dont_bend_sharp_neon.jpg",
-            "title": "❌  No sharp angles",
-            "text": "<p>Do not bend the Neon Flex at sharp angles.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-1",
-        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-2",
-        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-3"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": true
-      }
-    },
-    "custom_liquid_iAEVa9": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<a id=\"path\"><p class=\"h0\">Supercolor Path<\/p><\/a>\n<\/div>"
-      }
-    },
-    "image_with_text_GaA4VJ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_DgegQh": {
-          "type": "heading",
-          "settings": {
-            "heading": "In the box."
-          }
-        },
-        "text_tHAkGG": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>LED path light (Round or Square)<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Attachable ground spike for installation into earth<\/li><li>Alternative base mount and screws for installation on solid surfaces<\/li><\/ul>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_DgegQh",
-        "text_tHAkGG"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/04_LIFX_Path_Round_Gallery.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
         "website_us": true
       }
     },
@@ -354,6 +65,36 @@
         "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Connect to the LIFX App<\/p>\n<\/div>"
       }
     },
+    "image_with_text_LCJf9L": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_CFWNEN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where's my Matter Setup Code?"
+          }
+        },
+        "text_GcVpDr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p>You can also find the QR code printed on the following parts: <\/p><ul><li>Neon Flex Controllers<\/li><li>Path Lights Base<\/li><li>Spot Light (Matter number only)<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CFWNEN",
+        "text_GcVpDr"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/matter_code.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "332a1804-754d-475c-8f99-8c2c0e15083c": {
       "type": "image-with-text",
       "blocks": {
@@ -387,37 +128,7 @@
         "image": "shopify:\/\/shop_images\/App_LIFX.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
-    "image_with_text_LCJf9L": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_CFWNEN": {
-          "type": "heading",
-          "settings": {
-            "heading": "Where's my Matter Setup Code?"
-          }
-        },
-        "text_GcVpDr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p>You can also find the QR code printed on the following parts: <\/p><ul><li>Neon Flex Controllers<\/li><li>Path Lights Base<\/li><li>Spot Light (Matter number only)<\/li><\/ul>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_CFWNEN",
-        "text_GcVpDr"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/matter_code.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
+        "layout": "text_first",
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
@@ -425,24 +136,12 @@
     }
   },
   "order": [
-    "custom_liquid_C7x6gy",
     "main",
     "53f253c7-5cd9-41aa-81be-357851c1722f",
-    "custom_liquid_YfGkqp",
-    "84965e73-6ae1-4687-80b1-47340b6df8a1",
-    "cef3f3db-20e3-4964-abf6-2bc8ed16e435",
-    "8b3a956b-24d9-4970-9f26-32bf3d5cc268",
-    "90a4e391-3998-4b41-948b-7fe6e7ed0fb5",
-    "083f4368-4725-4e0b-8aa5-50e48576f84b",
-    "84cdb3e9-0567-418f-b49e-fd221dbd318d",
-    "4078028f-ee2a-4587-a2ca-71d8fa39cf2c",
-    "7c867d46-f041-43f4-83df-5162ae1ce129",
-    "custom_liquid_iAEVa9",
-    "image_with_text_GaA4VJ",
     "custom_liquid_tW8Mab",
     "image_with_text_bXKzz9",
     "custom_liquid_iL3d7g",
-    "332a1804-754d-475c-8f99-8c2c0e15083c",
-    "image_with_text_LCJf9L"
+    "image_with_text_LCJf9L",
+    "332a1804-754d-475c-8f99-8c2c0e15083c"
   ]
 }
