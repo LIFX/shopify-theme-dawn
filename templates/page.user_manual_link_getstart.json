@@ -320,6 +320,12 @@
       "settings": {
         "custom_liquid": "<a id=\"path\">"
       }
+    },
+    "custom_liquid_tW8Mab": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a id=\"flex\">"
+      }
     }
   },
   "order": [
@@ -336,6 +342,7 @@
     "4078028f-ee2a-4587-a2ca-71d8fa39cf2c",
     "7c867d46-f041-43f4-83df-5162ae1ce129",
     "332a1804-754d-475c-8f99-8c2c0e15083c",
-    "custom_liquid_iAEVa9"
+    "custom_liquid_iAEVa9",
+    "custom_liquid_tW8Mab"
   ]
 }
