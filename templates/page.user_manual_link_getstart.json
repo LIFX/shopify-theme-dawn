@@ -392,6 +392,36 @@
         "website_ukeu": true,
         "website_us": true
       }
+    },
+    "image_with_text_LCJf9L": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_CFWNEN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where's my Matter Setup Code?"
+          }
+        },
+        "text_GcVpDr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p>You can also find the QR code printed on the following parts: <\/p><ul><li>Neon Flex Controllers<\/li><li>Path Lights Base<\/li><li>Spot Light (Matter number only)<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CFWNEN",
+        "text_GcVpDr"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/matter_code.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
     }
   },
   "order": [
@@ -412,6 +442,7 @@
     "custom_liquid_tW8Mab",
     "image_with_text_bXKzz9",
     "custom_liquid_iL3d7g",
-    "332a1804-754d-475c-8f99-8c2c0e15083c"
+    "332a1804-754d-475c-8f99-8c2c0e15083c",
+    "image_with_text_LCJf9L"
   ]
 }
