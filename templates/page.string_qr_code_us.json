@@ -1,0 +1,318 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
+    "53f253c7-5cd9-41aa-81be-357851c1722f": {
+      "type": "video2",
+      "disabled": true,
+      "settings": {
+        "heading": "Getting Started with your Neon Flex...",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": true,
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
+    "cef3f3db-20e3-4964-abf6-2bc8ed16e435": {
+      "type": "video3",
+      "settings": {
+        "heading": "Say hello to your new LIFX String Light",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b5c2473cf7044d980dfa3c9cace5ad7.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "84965e73-6ae1-4687-80b1-47340b6df8a1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "In the Box"
+          }
+        },
+        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Before we dive into the setup process, let's take a look at what you'll find in your LIFX String Light kit:<\/p><p>💡 7.3m length string light.<br\/>🌈 12 uniquely addressable LED bulbs.<br\/>🌧️ Weather-proof power supply.<br\/>🛜 Outdoor Wi-FI controller.<br\/>🔌 3.2m length power cable.<\/p>"
+          }
+        },
+        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-heading-1",
+        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1",
+        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Digital_-_String_-_AU_-_InTheBox_-_notes.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "8b3a956b-24d9-4970-9f26-32bf3d5cc268": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Choose Your Installation Adventure",
+            "heading_size": "h1"
+          }
+        },
+        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Decide between the \"Easy Peasy\" 3M adhesive or the \"Rock Solid\" screw-in channels for installation.<\/p><p>For each option you can mount it using the back of the channel OR the side, which is ideal for lighting edges. <\/p><p><strong>Easy Peasy (3M Adhesive):<\/strong> If you're all about convenience and can't wait to get your Neon Flex party started, go for the 3M adhesive. Stick it, and you're good to glow.<\/p><p><strong>Rock Solid (Screw-In Channels):<\/strong> For those who like to commit, opt for the screw-in channels. It's like promising your Neon Flex a lifetime of stability.<\/p>"
+          }
+        },
+        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-heading-1",
+        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1",
+        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "90a4e391-3998-4b41-948b-7fe6e7ed0fb5": {
+      "type": "video2",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0d1c9026150a49aa9ef26e5ff1ef5b91.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "d284fc36-08df-4d7d-987b-32ad7fecfb36": {
+      "type": "video3",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0d1c9026150a49aa9ef26e5ff1ef5b91.mp4",
+        "click_through": "",
+        "description": "",
+        "full_width": false,
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "083f4368-4725-4e0b-8aa5-50e48576f84b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Getting the Flex on your wall (or other surfaces)",
+            "heading_size": "h1"
+          }
+        },
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Attach the channels to your chosen surface and press your Neon Flex into the attached channels, bending and shaping it to suit your design. You can wrap it around walls, furniture edges, windows, doors, or any architectural features in your space.<\/p><p><em>Your Flex should bend in one direction naturally, don't force it to bend if you feel resistance.  <\/em><\/p>"
+          }
+        },
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-heading-1",
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-text-1",
+        "template--15996389228725__083f4368-4725-4e0b-8aa5-50e48576f84b-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "332a1804-754d-475c-8f99-8c2c0e15083c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Connect to the LIFX App"
+          }
+        },
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Download the LIFX app for <a href=\"https:\/\/apps.apple.com\/us\/app\/lifx\/id657758311\" target=\"_blank\" title=\"LIFX iOS App on Apple App Store\">iOS<\/a> or <a href=\"https:\/\/play.google.com\/store\/apps\/details?id=com.lifx.lifx&hl=en_AU&gl=US\" target=\"_blank\" title=\"LIFX Android App on Google Play Store\">Android<\/a> to get started. <\/p><ul><li>Open the app<\/li><li>Hit the '+' in the bottom right to add a new product.<\/li><li>Follow the prompts and the app will guide you through the setup process.<\/li><\/ul><p><strong>Having Trouble Connecting? <\/strong>Make sure you're connecting to your 2.4gHz Wi-Fi network. <\/p><p><strong>Still having trouble? <\/strong>You can start a chat with us <a href=\"https:\/\/support.lifx.com\/hc\/en-us\" title=\"LIFX Support\">here<\/a> at any time.<\/p>"
+          }
+        },
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-heading-1",
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1",
+        "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/App_LIFX.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "custom_liquid_erG6iw": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"image-with-text page-width color-scheme-background-1\">\n  <div class=\"image-with-text__grid color-background-1 grid grid--gapless grid--1-col grid--2-col-tablet gradient image-with-text__grid--reverse\">\n    <div class=\"grid__item\">\n      <div class=\"image-with-text__media image-with-text__media--adapt media\" style=\"padding-bottom: 100.0%;\"><video muted autoplay playsinline controls style=\"display:flex\" class=\"videoFox\">\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7171b4f5402c4480b78f6399ad1da2be.mp4\" type=\"video\/mp4\" alt=\"Load video: \">\n<\/video><\/div>\n    <\/div>\n    <div class=\"grid__item\">\n      <div class=\"image-with-text__content image-with-text__content--adapt\"><h2 class=\"image-with-text__heading h1\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;heading_jxLKNc&quot;,&quot;type&quot;:&quot;heading&quot;}\" data-live-text-setting=\"section.template--16013899464751__image_with_text_xgDLVw.block.heading_jxLKNc.heading\/escape\">\n                All new colour controls\n              <\/h2><div class=\"image-with-text__text rte\" data-shopify-editor-block=\"{&quot;id&quot;:&quot;text_rHLYbx&quot;,&quot;type&quot;:&quot;text&quot;}\" data-live-text-setting=\"section.template--16013899464751__image_with_text_xgDLVw.block.text_rHLYbx.text\"><p>LIFX String is the first of a series of Polychrome products to use our brand new colour wheel. With Solid, Complementary and Custom paint modes.<br><br><strong>Solid: <\/strong>Like the old wheel, but better, with finer saturation control. Paint your entire string light in the perfect hue. <\/p><p><strong>Complementary:<\/strong> Take the guess work out and allow the app select the perfect accent colours and let that Polychrome shine.<br><br><strong>Custom: <\/strong>Get creative and select the colours you want and  show off your lighting designer props. <\/p><\/div><div class=\"typeform\" style=\"display:none; width:100%; margin-top:0px\">\n\n            <a href=\"https:\/\/www.homedepot.com\/s\/lifx?NCNI-5\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none;margin-top:30px\" target=\"_blank\" rel=\"noopener\"><span class=\"productFamily\" aria-hidden=\"true\" style=\"margin:0px;width:100%;max-width:400px\">The Home Depot<\/span><\/a>\n <a href=\"https:\/\/www.acehardware.com\/search?query=lifx\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none;margin-top:10px\" target=\"_blank\" rel=\"noopener\"><span class=\"productFamily\" aria-hidden=\"true\" style=\"margin:0px;width:100%;max-width:400px\">Ace Hardware<\/span><\/a>\n<a href=\"https:\/\/www.amazon.com\/lifx?&amp;_encoding=UTF8&amp;tag=feitelectri00-20&amp;linkCode=ur2&amp;linkId=2d75d2837946c1d1231eef9d55676d6d&amp;camp=1789&amp;creative=9325\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none;margin-top:10px\" target=\"_blank\" rel=\"noopener\"><span class=\"productFamily\" aria-hidden=\"true\" style=\"margin:0px;width:100%;max-width:400px\">Amazon<\/span><\/a>\n<a href=\"https:\/\/www.bestbuy.com\/site\/searchpage.jsp?st=lifx\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none;margin-top:10px\" target=\"_blank\" rel=\"noopener\"><span class=\"productFamily\" aria-hidden=\"true\" style=\"margin:0px;width:100%;max-width:400px\">Best Buy<\/span><\/a>\n  <\/div> \n        \n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>"
+      }
+    },
+    "image_with_text_xgDLVw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jxLKNc": {
+          "type": "heading",
+          "settings": {
+            "heading": "All new colour controls"
+          }
+        },
+        "text_rHLYbx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LIFX String is the first of a series of Polychrome products to use our brand new colour wheel. With Solid, Complementary and Custom paint modes.<br\/><br\/><strong>Solid: <\/strong>Like the old wheel, but better, with finer saturation control. Paint your entire string light in the perfect hue. <\/p><p><strong>Complementary:<\/strong> Take the guess work out and allow the app select the perfect accent colours and let that Polychrome shine.<br\/><br\/><strong>Custom: <\/strong>Get creative and select the colours you want and  show off your lighting designer props. <\/p>"
+          }
+        },
+        "button_WQ69Xi": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jxLKNc",
+        "text_rHLYbx",
+        "button_WQ69Xi"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX_App_-_Complementary_Paint_String.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "84cdb3e9-0567-418f-b49e-fd221dbd318d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where's my HomeKit Code?"
+          }
+        },
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can find your HomeKit code on the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p>"
+          }
+        },
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1",
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1",
+        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/InTheBox_SetupCode.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "53f253c7-5cd9-41aa-81be-357851c1722f",
+    "cef3f3db-20e3-4964-abf6-2bc8ed16e435",
+    "84965e73-6ae1-4687-80b1-47340b6df8a1",
+    "8b3a956b-24d9-4970-9f26-32bf3d5cc268",
+    "90a4e391-3998-4b41-948b-7fe6e7ed0fb5",
+    "d284fc36-08df-4d7d-987b-32ad7fecfb36",
+    "083f4368-4725-4e0b-8aa5-50e48576f84b",
+    "332a1804-754d-475c-8f99-8c2c0e15083c",
+    "custom_liquid_erG6iw",
+    "image_with_text_xgDLVw",
+    "84cdb3e9-0567-418f-b49e-fd221dbd318d"
+  ]
+}
