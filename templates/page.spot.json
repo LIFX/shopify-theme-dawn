@@ -31,6 +31,9 @@
     },
     "image_banner_GtN7ye": {
       "type": "image-banner",
+      "custom_css": [
+        ".bannerOveride{max-width: 1500px!important; margin: auto; \/* height: fit-content; *\/ min-height: auto!important; max-height: 740px!important;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/spot_flat_lay.png",
         "adapt_height_first_image": true,
