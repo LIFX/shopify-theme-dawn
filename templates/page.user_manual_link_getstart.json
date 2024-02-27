@@ -1,41 +1,9 @@
 {
   "sections": {
-    "rich_text_q6yhbb": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Twaayg": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get Started",
-            "heading_size": "h0"
-          }
-        },
-        "text_waWTMN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>As promised in the iddy biddy manual, here is our much more user friendly guide to getting started with your LIFX Outdoor products.<\/p>"
-          }
-        },
-        "button_xMnkAK": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_Twaayg",
-        "text_waWTMN",
-        "button_xMnkAK"
-      ],
-      "custom_css": [
-        ".rich-text__blocks {margin-top: 5rem; margin-bottom: 5rem; max-width: 1500px;}"
-      ],
+    "custom_liquid_C7x6gy": {
+      "type": "custom-liquid",
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Get Started<\/p>\n<p>As promised in the iddy biddy manual, here is our much more user friendly guide to getting started with your LIFX Outdoor products.<\/p>\n<\/div>"
       }
     },
     "main": {
@@ -343,7 +311,7 @@
     }
   },
   "order": [
-    "rich_text_q6yhbb",
+    "custom_liquid_C7x6gy",
     "main",
     "53f253c7-5cd9-41aa-81be-357851c1722f",
     "cef3f3db-20e3-4964-abf6-2bc8ed16e435",
