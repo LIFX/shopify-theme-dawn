@@ -60,7 +60,7 @@
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>16ft LED rope light<\/li><li>LIFX Wi-Fi smart controller<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>(Alternative) Mains power supply<\/li><li>10 x spike mounts<\/li><li>10 x screw mounts<\/li><li>10 x adhesive mounts<\/li><\/ul>"
+            "text": "<ul><li>16ft LED rope light<\/li><li>LIFX Wi-Fi smart controller<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Alternative mains power supply<\/li><li>10 x spike mounts<\/li><li>10 x screw mounts<\/li><li>10 x adhesive mounts<\/li><\/ul>"
           }
         },
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1": {
@@ -333,13 +333,13 @@
         "heading_DgegQh": {
           "type": "heading",
           "settings": {
-            "heading": "In the box"
+            "heading": "In the box."
           }
         },
         "text_tHAkGG": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<ul><li>LED path light (Round or Square)<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Attachable ground spike for installation into earth<\/li><li>Alternative base mount and screws for installation on solid surfaces<\/li><\/ul>"
           }
         }
       },
