@@ -31,6 +31,7 @@
     },
     "custom_liquid_YfGkqp": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<a id=\"flex\"><p class=\"h0\">Supercolor Neon Flex<\/p><\/a>\n<\/div>"
       }
@@ -63,6 +64,7 @@
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1",
         "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/LIFX-Flex_6-5_Gallery_03_79c145b0-c0f6-44e6-a74d-aa8b43017620.jpg",
         "height": "adapt",
@@ -75,6 +77,7 @@
     },
     "cef3f3db-20e3-4964-abf6-2bc8ed16e435": {
       "type": "video3",
+      "disabled": true,
       "settings": {
         "heading": "",
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cb4a50c4e79940e48e59e5f927195fd6.mp4",
@@ -117,6 +120,7 @@
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1",
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -157,45 +161,6 @@
         "full_width": true
       }
     },
-    "84cdb3e9-0567-418f-b49e-fd221dbd318d": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Where's my Matter QR Code?"
-          }
-        },
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You can find your Matter QR code on the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<br\/><br\/>The Matter QR Code is also printed on the back of the Wi-Fi controller.<\/p>"
-          }
-        },
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-heading-1",
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-text-1",
-        "template--15996389228725__84cdb3e9-0567-418f-b49e-fd221dbd318d-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/beach-sunset-thailand.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "4078028f-ee2a-4587-a2ca-71d8fa39cf2c": {
       "type": "rich-text",
       "blocks": {
@@ -227,6 +192,7 @@
         "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-text-1",
         "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-button-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -265,6 +231,7 @@
         "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-2",
         "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "image_width": "full",
@@ -278,6 +245,7 @@
     },
     "custom_liquid_iAEVa9": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<a id=\"path\"><p class=\"h0\">Supercolor Path<\/p><\/a>\n<\/div>"
       }
@@ -302,6 +270,7 @@
         "heading_DgegQh",
         "text_tHAkGG"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/04_LIFX_Path_Round_Gallery.jpg",
         "height": "adapt",
@@ -314,6 +283,7 @@
     },
     "custom_liquid_tW8Mab": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<a id=\"spot\"><p class=\"h0\">Supercolor Spot<\/p><\/a>\n<\/div>"
       }
@@ -338,6 +308,7 @@
         "heading_3kKdXL",
         "text_FJAmfJ"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/04_LIFX_Spot_Round_Gallery_d9416b34-bbeb-4ea2-a6b7-ab7df6e1753a.jpg",
         "height": "adapt",
@@ -350,6 +321,7 @@
     },
     "custom_liquid_iL3d7g": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Connect to the LIFX App<\/p>\n<\/div>"
       }
@@ -383,6 +355,7 @@
         "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1",
         "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/App_LIFX.jpg",
         "height": "adapt",
@@ -413,6 +386,7 @@
         "heading_CFWNEN",
         "text_GcVpDr"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/matter_code.png",
         "height": "adapt",
@@ -434,7 +408,6 @@
     "8b3a956b-24d9-4970-9f26-32bf3d5cc268",
     "90a4e391-3998-4b41-948b-7fe6e7ed0fb5",
     "083f4368-4725-4e0b-8aa5-50e48576f84b",
-    "84cdb3e9-0567-418f-b49e-fd221dbd318d",
     "4078028f-ee2a-4587-a2ca-71d8fa39cf2c",
     "7c867d46-f041-43f4-83df-5162ae1ce129",
     "custom_liquid_iAEVa9",
