@@ -63,7 +63,7 @@
         "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-text-1": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Open the app<\/li><li>Hit the '+' in the bottom right to add a new product.<\/li><li>Select your LIFX Neon Flex from the list<\/li><li>The app will guide you through the setup process.<\/li><\/ul><p><strong>Having Trouble Connecting? <\/strong>Make sure you're connecting to your 2.4gHz Wi-Fi network. <\/p><p><strong>Still having trouble? <\/strong>You can start a chat with us here at any time.<\/p>"
+            "text": "<ul><li>Open the app<\/li><li>Hit the '+' in the bottom right to add a new product.<\/li><li>Select your LIFX Path from the list<\/li><li>The app will guide you through the setup process.<\/li><\/ul><p><strong>Having Trouble Connecting? <\/strong>Make sure you're connecting to your 2.4gHz Wi-Fi network. <\/p><p><strong>Still having trouble? <\/strong>You can start a chat with us here at any time.<\/p>"
           }
         },
         "template--15996389228725__332a1804-754d-475c-8f99-8c2c0e15083c-button-1": {
@@ -102,7 +102,7 @@
         "text_GcVpDr": {
           "type": "text",
           "settings": {
-            "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p>You can also find the QR code printed on the following parts: <\/p><ul><li>Neon Flex Controllers<\/li><li>Path Lights Base<\/li><li>Spot Light (Matter number only)<\/li><\/ul>"
+            "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p><strong>Lost your user manual?<\/strong> Don't worry, you can also find the QR Code and 11-digit Matter code printed on the bottom of your Path Light. You can type this code in manually during setup if difficult to access.<\/p>"
           }
         }
       },
