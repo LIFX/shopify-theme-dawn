@@ -36,9 +36,8 @@
         "164127504662ff1cdb-1",
         "164127504662ff1cdb-2"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Category_Header_-_Black_Friday_resized.jpg",
+        "image": "{{ collection.image }}",
         "adapt_height_first_image": true,
         "banner_height_overide": true,
         "desktop_text_box_position": "center",
@@ -59,7 +58,7 @@
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": true
+        "show_collection_image": false
       }
     },
     "product-grid": {
