@@ -183,6 +183,36 @@
         "website_us": true
       }
     },
+    "image_with_text_dTdHYc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XBVJyE": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "text_EQ7f8g": {
+          "type": "text",
+          "settings": {
+            "text": "<h1><strong>Mains powered<\/strong><\/h1><p>We know not everyone has a low voltage outdoor system installed. So, we've included a mains plug.<\/p><p>Just plug it in to an outdoor power outlet and you're ready to go. Easy!<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XBVJyE",
+        "text_EQ7f8g"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Spot_Website_Flat_Lay.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
     "custom_liquid_iL3d7g": {
       "type": "custom-liquid",
       "settings": {
@@ -275,6 +305,7 @@
     "custom_liquid_iCxBi6",
     "image_with_text_yMzCpV",
     "image_with_text_gRg4Hr",
+    "image_with_text_dTdHYc",
     "custom_liquid_iL3d7g",
     "image_with_text_LCJf9L",
     "custom_liquid_aLyr4R",
