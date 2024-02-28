@@ -12,7 +12,7 @@
     "custom_liquid_YfGkqp": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<a class=\"link\" href=\"\/\">Home<\/a> > <a class=\"link\" href=\"\/pages\/getstarted\">Get Started<\/a> > Supercolor Neon Flex\n<a id=\"flex\"><p class=\"h0\">Supercolor Neon Flex<\/p><\/a>\n<\/div>"
+        "custom_liquid": "<div class=\"page-width\">\n<a class=\"link\" href=\"\/\">Home<\/a> > <a class=\"link\" href=\"\/pages\/getstarted\">Get Started<\/a> >\n<a id=\"flex\"><p class=\"h0\" style=\"margin-top:0\">Supercolor Neon Flex<\/p><\/a>\n<\/div>"
       }
     },
     "84965e73-6ae1-4687-80b1-47340b6df8a1": {
