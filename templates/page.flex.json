@@ -69,19 +69,6 @@
     "8b3a956b-24d9-4970-9f26-32bf3d5cc268": {
       "type": "rich-text",
       "blocks": {
-        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Choose Your Installation Adventure",
-            "heading_size": "h1"
-          }
-        },
-        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Decide between the \"Easy Peasy\" garden spikes or the \"Rock Solid\" screw-in channels for installation.<\/p><p><strong>Garden Spikes:<\/strong> If you're all about convenience and can't wait to get your Neon Flex party started, go for the 3M adhesive. Stick it, and you're good to glow.<br\/><\/p><p><strong>Rock Solid (Screw-In Channels):<\/strong> For those who like to commit, opt for the screw-in channels. It's like promising your Neon Flex a lifetime of stability.<\/p>"
-          }
-        },
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1": {
           "type": "button",
           "disabled": true,
@@ -93,8 +80,6 @@
         }
       },
       "block_order": [
-        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-heading-1",
-        "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-text-1",
         "template--15996389228725__8b3a956b-24d9-4970-9f26-32bf3d5cc268-button-1"
       ],
       "settings": {
@@ -137,90 +122,46 @@
         "full_width": true
       }
     },
-    "4078028f-ee2a-4587-a2ca-71d8fa39cf2c": {
-      "type": "rich-text",
+    "image_with_text_yMzCpV": {
+      "type": "image-with-text",
       "blocks": {
-        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-heading-1": {
+        "heading_jtyrDf": {
           "type": "heading",
           "settings": {
-            "heading": "Is the LIFX Outdoor Neon Flex safe to bend?",
-            "heading_size": "h1"
+            "heading": "Where's my Matter Setup Code?"
           }
         },
-        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-text-1": {
+        "text_Ujb7Km": {
           "type": "text",
           "settings": {
-            "text": "<p>The Neon Flex is designed to be bent so you can make custom patterns and designs.<\/p><p>When unboxing the Neon Flex, you will notice that it comes package already coiled. You may bend the Neon Flex in line with it’s current curvature.  <\/p><p>Twisting it, bending it too sharply or bending it in the opposite direction may cause damage and you will be doing so at your own risk.<\/p><p><\/p><p><strong>Please be advised that damage caused from misuse will void your LIFX Neon Flex warranty.<\/strong><\/p>"
-          }
-        },
-        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p><strong>Lost your user manual?<\/strong> Don't worry, you can also find the QR code and 11-digit Matter code printed on the back of your controller.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-heading-1",
-        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-text-1",
-        "template--15996389228725__4078028f-ee2a-4587-a2ca-71d8fa39cf2c-button-1"
+        "heading_jtyrDf",
+        "text_Ujb7Km"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/matter_code.png",
+        "height": "adapt",
         "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "7c867d46-f041-43f4-83df-5162ae1ce129": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ok_bend_neon.jpg",
-            "title": "✅ Looking smooth",
-            "text": "<p>How to correctly bend the LIFX Neon Strip in line with it's curvature.<\/p>"
-          }
-        },
-        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/do_not_twist_neon.jpg",
-            "title": "❌ No twisting",
-            "text": "<p> Do not twist or bend the Neon Flex against it's natural curvature.<\/p>"
-          }
-        },
-        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/dont_bend_sharp_neon.jpg",
-            "title": "❌  No sharp angles",
-            "text": "<p>Do not bend the Neon Flex at sharp angles.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-1",
-        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-2",
-        "template--15996389228725__7c867d46-f041-43f4-83df-5162ae1ce129-column-3"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": true
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "custom_liquid_iL3d7g": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Connect to the LIFX App<\/p>\n<\/div>"
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Matter Easy Setup\n<\/p>\n<\/div>"
+      }
+    },
+    "custom_liquid_iCxBi6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Installation Options<\/p>\n<\/div>"
       }
     },
     "image_with_text_LCJf9L": {
@@ -251,6 +192,12 @@
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
+      }
+    },
+    "custom_liquid_aLyr4R": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Connect to the LIFX App<\/p>\n<\/div>"
       }
     },
     "332a1804-754d-475c-8f99-8c2c0e15083c": {
@@ -301,10 +248,11 @@
     "8b3a956b-24d9-4970-9f26-32bf3d5cc268",
     "90a4e391-3998-4b41-948b-7fe6e7ed0fb5",
     "083f4368-4725-4e0b-8aa5-50e48576f84b",
-    "4078028f-ee2a-4587-a2ca-71d8fa39cf2c",
-    "7c867d46-f041-43f4-83df-5162ae1ce129",
+    "image_with_text_yMzCpV",
     "custom_liquid_iL3d7g",
+    "custom_liquid_iCxBi6",
     "image_with_text_LCJf9L",
+    "custom_liquid_aLyr4R",
     "332a1804-754d-475c-8f99-8c2c0e15083c"
   ]
 }
