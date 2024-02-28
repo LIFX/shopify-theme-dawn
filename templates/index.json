@@ -16,6 +16,70 @@
         "website_us": true
       }
     },
+    "featured_collection_JKCEq7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "outdoor",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_secondary_2": false
+      }
+    },
+    "4d925022-1924-4479-8f3d-9773424662f2": {
+      "type": "featured-product",
+      "blocks": {
+        "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h1 style=\"margin-bottom:0px\">Supercolor<\/h1>\n<h1 style=\"font-size:6rem;margin-top:0px\">String Light<\/h1>"
+          }
+        },
+        "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd": {
+          "type": "text",
+          "settings": {
+            "text": "Goodbye old-school string light, hello ultra futuristic ‘envy-of-your-friends’, vibe setting outdoor lighting. Create hypnotic effects to suit the moment, from shifting sunsets or rolling rainbows to gently flowing icy whites–or just set and forget with easy routines.",
+            "text_style": "body"
+          }
+        },
+        "3859260f-fcf6-4178-bf45-6d61a29092ae": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/www.homedepot.com\/s\/327340658?NCNI-5\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">The Home Depot<\/span><\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6",
+        "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd",
+        "3859260f-fcf6-4178-bf45-6d61a29092ae"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "product": "lifx-string-light",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "website_au": false,
+        "website_ukeu": false,
+        "website_us": true
+      }
+    },
     "00b30796-509a-4984-b169-bd17f2b746c6": {
       "type": "video2",
       "settings": {
@@ -80,23 +144,23 @@
         "website_us": false
       }
     },
-    "4d925022-1924-4479-8f3d-9773424662f2": {
+    "featured_product_8tpj74": {
       "type": "featured-product",
       "blocks": {
-        "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6": {
+        "custom_liquid_G4anY4": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<h1 style=\"margin-bottom:0px\">Supercolor<\/h1>\n<h1 style=\"font-size:6rem;margin-top:0px\">String Light<\/h1>"
           }
         },
-        "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd": {
+        "text_qUtpdb": {
           "type": "text",
           "settings": {
             "text": "Goodbye old-school string light, hello ultra futuristic ‘envy-of-your-friends’, vibe setting outdoor lighting. Create hypnotic effects to suit the moment, from shifting sunsets or rolling rainbows to gently flowing icy whites–or just set and forget with easy routines.",
             "text_style": "body"
           }
         },
-        "3859260f-fcf6-4178-bf45-6d61a29092ae": {
+        "custom_liquid_3FctUE": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/www.homedepot.com\/s\/327340658?NCNI-5\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">The Home Depot<\/span><\/a>"
@@ -104,12 +168,9 @@
         }
       },
       "block_order": [
-        "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6",
-        "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd",
-        "3859260f-fcf6-4178-bf45-6d61a29092ae"
-      ],
-      "custom_css": [
-
+        "custom_liquid_G4anY4",
+        "text_qUtpdb",
+        "custom_liquid_3FctUE"
       ],
       "settings": {
         "product": "lifx-string-light",
@@ -547,10 +608,12 @@
   },
   "order": [
     "101239a1-459e-40cc-9764-b747c6519e3e",
+    "featured_collection_JKCEq7",
+    "4d925022-1924-4479-8f3d-9773424662f2",
     "00b30796-509a-4984-b169-bd17f2b746c6",
     "edd529c2-edd9-4364-a6cb-9cbf5be13083",
     "1fbb87dc-13bb-48f8-8713-5412f2799ad1",
-    "4d925022-1924-4479-8f3d-9773424662f2",
+    "featured_product_8tpj74",
     "f8c80874-0b7c-487e-a137-c2fda36967a4",
     "165942093296a32cfe",
     "3336066d-85ab-496b-be5e-9909acd8f92d",
