@@ -48,7 +48,43 @@
     "custom_liquid_iL3d7g": {
       "type": "custom-liquid",
       "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Installation Options<\/p>\n<\/div>"
+      }
+    },
+    "custom_liquid_BRNt6A": {
+      "type": "custom-liquid",
+      "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Matter Easy Setup<\/p>\n<\/div>"
+      }
+    },
+    "image_with_text_8aMqWy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_434bKK": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "text_bgNebX": {
+          "type": "text",
+          "settings": {
+            "text": "<h1><strong>Ground Spike<\/strong><\/h1><p>Use this to put the Path light in garden beds and other in-ground locations.<\/p><p><strong>Prepare<\/strong><br\/>Slot the wire on the Path light into the spike. Let the wire hang loose.<\/p><p><strong>Attach to the light<br\/><\/strong>Screw the spike into the Path light base until it's securely attached.<\/p><p><strong>Next, put it in position<br\/><\/strong>Find the desired location and plant the light with attached mounting stake by firmly pressing it into the soil.<\/p><p><strong>A little tough?<\/strong><br\/>Wet the soil or dig a little to soften it up. Ensure the entire stake is in the ground, with the Path light sitting on the surface.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_434bKK",
+        "text_bgNebX"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/04_LIFX_Path_Round_Gallery.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
       }
     },
     "image_with_text_LCJf9L": {
@@ -132,6 +168,8 @@
     "custom_liquid_iAEVa9",
     "image_with_text_GaA4VJ",
     "custom_liquid_iL3d7g",
+    "custom_liquid_BRNt6A",
+    "image_with_text_8aMqWy",
     "image_with_text_LCJf9L",
     "custom_liquid_zCCrA7",
     "332a1804-754d-475c-8f99-8c2c0e15083c"
