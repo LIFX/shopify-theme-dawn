@@ -160,7 +160,7 @@
         "text_CeG9tp": {
           "type": "text",
           "settings": {
-            "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p><strong>Lost your user manual?<\/strong> Don't worry, you can also find the 11-digit Matter code printed on the back of your Spot Light. <\/p>"
+            "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p><strong>Lost your user manual?<\/strong> Don't worry, you can also find the 11-digit Matter code printed on the back of your Spot Light. You can type this in manually during setup.<\/p>"
           }
         }
       },
