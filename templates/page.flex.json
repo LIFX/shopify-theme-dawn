@@ -15,42 +15,42 @@
         "custom_liquid": "<div class=\"page-width\">\n<a class=\"link\" href=\"\/\">Home<\/a> > <a class=\"link\" href=\"\/pages\/getstarted\">Get Started<\/a> >\n<a id=\"flex\"><p class=\"h0\" style=\"margin-top:0\">Supercolor Neon Flex<\/p><\/a>\n<\/div>"
       }
     },
-    "84965e73-6ae1-4687-80b1-47340b6df8a1": {
-      "type": "image-with-text",
+    "image_banner_GPJndr": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/flex_lay.png",
+        "adapt_height_first_image": true,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "rich_text_KB64tM": {
+      "type": "rich-text",
       "blocks": {
-        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "In the box."
-          }
-        },
-        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1": {
+        "text_kx9Xme": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>16ft LED rope light<\/li><li>LIFX Wi-Fi smart controller<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Alternative mains power supply<\/li><li>10 x ground spikes<\/li><li>10 x screw mounts<\/li><li>10 x adhesive mounts<\/li><\/ul>"
-          }
-        },
-        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": ""
+            "text": "<h1>In the box.<\/h1><ul><li>16ft LED rope light<\/li><li>LIFX Wi-Fi smart controller<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Alternative mains power supply<\/li><li>10 x ground spikes<\/li><li>10 x screw mounts<\/li><li>10 x adhesive mounts<\/li><\/ul><p><\/p>"
           }
         }
       },
       "block_order": [
-        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-heading-1",
-        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-text-1",
-        "template--15996389228725__84965e73-6ae1-4687-80b1-47340b6df8a1-button-1"
+        "text_kx9Xme"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFX-Flex_6-5_Gallery_03_79c145b0-c0f6-44e6-a74d-aa8b43017620.jpg",
-        "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
+        "full_width": true
       }
     },
     "8b3a956b-24d9-4970-9f26-32bf3d5cc268": {
@@ -298,7 +298,8 @@
   "order": [
     "main",
     "custom_liquid_YfGkqp",
-    "84965e73-6ae1-4687-80b1-47340b6df8a1",
+    "image_banner_GPJndr",
+    "rich_text_KB64tM",
     "8b3a956b-24d9-4970-9f26-32bf3d5cc268",
     "90a4e391-3998-4b41-948b-7fe6e7ed0fb5",
     "083f4368-4725-4e0b-8aa5-50e48576f84b",
