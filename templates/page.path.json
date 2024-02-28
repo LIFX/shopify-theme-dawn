@@ -111,7 +111,45 @@
         "website_us": true
       }
     },
-    "custom_liquid_BRNt6A": {
+    "image_with_text_tYe7kY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LHYGm6": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "text_nB3qHP": {
+          "type": "text",
+          "settings": {
+            "text": "<h1><strong>Low Voltage Clamps<\/strong><\/h1><p><strong>Time to hook this baby up!<\/strong> Clamp the provided cable to your low voltage system wire, as you would any other accessory lighting product for your setup.<\/p><h4>Low Voltage Checklist:<\/h4><ul><li>Wi-Fi coverage that can reach where you want to place your furthest light. You can test your routers Wi-Fi range with your mobile phone as a guide.<\/li><li>A 300W transformer or better, with a 15V output terminal. These lights are SuperBright, so check your transformer can support the number of lights. Review the calculations below under Transformer Requirements.<\/li><li>12 gauge outdoor wiring. The better quality your wiring is, the longer distance you can run your lights. 14 and 16 gauge wiring can be used but will limit the distance you can place your lights.<\/li><\/ul>"
+          }
+        },
+        "button_nPF3q9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Low Voltage Calculator",
+            "button_link": "shopify:\/\/pages\/low-voltage"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LHYGm6",
+        "text_nB3qHP",
+        "button_nPF3q9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Spot_Website_Flat_Lay.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "custom_liquid_bYYcKd": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Matter Easy Setup<\/p>\n<\/div>"
@@ -200,7 +238,8 @@
     "custom_liquid_iL3d7g",
     "image_with_text_8aMqWy",
     "image_with_text_MVXhHH",
-    "custom_liquid_BRNt6A",
+    "image_with_text_tYe7kY",
+    "custom_liquid_bYYcKd",
     "image_with_text_LCJf9L",
     "custom_liquid_zCCrA7",
     "332a1804-754d-475c-8f99-8c2c0e15083c"
