@@ -48,6 +48,42 @@
     "custom_liquid_iL3d7g": {
       "type": "custom-liquid",
       "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Matter Easy Setup<\/p>\n<\/div>"
+      }
+    },
+    "image_with_text_LCJf9L": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_CFWNEN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where's my Matter Setup Code?"
+          }
+        },
+        "text_GcVpDr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p><strong>Lost your user manual?<\/strong> Don't worry, you can also find the QR Code and 11-digit Matter code printed on the bottom of your Path Light. You can type this code in manually during setup if difficult to access.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CFWNEN",
+        "text_GcVpDr"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/matter_code.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "custom_liquid_zCCrA7": {
+      "type": "custom-liquid",
+      "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Connect to the LIFX App<\/p>\n<\/div>"
       }
     },
@@ -89,36 +125,6 @@
         "website_ukeu": true,
         "website_us": true
       }
-    },
-    "image_with_text_LCJf9L": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_CFWNEN": {
-          "type": "heading",
-          "settings": {
-            "heading": "Where's my Matter Setup Code?"
-          }
-        },
-        "text_GcVpDr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You can find your Matter QR code in the back of your product manual. The manual is included in your small kit box, with the attachment accessories, power plug and controller.<\/p><p><strong>Lost your user manual?<\/strong> Don't worry, you can also find the QR Code and 11-digit Matter code printed on the bottom of your Path Light. You can type this code in manually during setup if difficult to access.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_CFWNEN",
-        "text_GcVpDr"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/matter_code.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
     }
   },
   "order": [
@@ -126,7 +132,8 @@
     "custom_liquid_iAEVa9",
     "image_with_text_GaA4VJ",
     "custom_liquid_iL3d7g",
-    "332a1804-754d-475c-8f99-8c2c0e15083c",
-    "image_with_text_LCJf9L"
+    "image_with_text_LCJf9L",
+    "custom_liquid_zCCrA7",
+    "332a1804-754d-475c-8f99-8c2c0e15083c"
   ]
 }
