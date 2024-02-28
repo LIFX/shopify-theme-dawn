@@ -48,6 +48,9 @@
       "block_order": [
         "text_kx9Xme"
       ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 1500px;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
