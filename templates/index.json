@@ -10,7 +10,7 @@
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b85b5c369984401c8faab7dba6704562.mp4",
         "click_through": "shopify:\/\/collections\/outdoor",
         "description": "",
-        "full_width": false,
+        "full_width": true,
         "website_au": false,
         "website_ukeu": false,
         "website_us": true
