@@ -35,34 +35,25 @@
         "website_us": true
       }
     },
-    "image_with_text_GaA4VJ": {
-      "type": "image-with-text",
+    "rich_text_Nrkn9H": {
+      "type": "rich-text",
       "blocks": {
-        "heading_DgegQh": {
-          "type": "heading",
-          "settings": {
-            "heading": "In the box."
-          }
-        },
-        "text_tHAkGG": {
+        "text_mqfGrx": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>LED path light (Round or Square)<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Attachable ground spike for installation into earth<\/li><li>Alternative base mount and screws for installation on solid surfaces<\/li><\/ul>"
+            "text": "<h2>In the box.<\/h2><ul><li>LED path light (Round or Square)<\/li><li><a href=\"\/pages\/low-voltage\" target=\"_blank\" title=\"Low Voltage Calculator\">Low voltage<\/a> clamp connector<\/li><li>Attachable ground spike for installation into earth<\/li><li>Alternative base mount and screws for installation on solid surfaces<\/li><\/ul>"
           }
         }
       },
       "block_order": [
-        "heading_DgegQh",
-        "text_tHAkGG"
+        "text_mqfGrx"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 1500px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/04_LIFX_Path_Round_Gallery.jpg",
-        "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
+        "full_width": true
       }
     },
     "custom_liquid_iL3d7g": {
@@ -255,7 +246,7 @@
     "main",
     "custom_liquid_iAEVa9",
     "image_banner_TwHTQC",
-    "image_with_text_GaA4VJ",
+    "rich_text_Nrkn9H",
     "custom_liquid_iL3d7g",
     "image_with_text_8aMqWy",
     "image_with_text_MVXhHH",
