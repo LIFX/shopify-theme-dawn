@@ -51,12 +51,6 @@
         "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Installation Options<\/p>\n<\/div>"
       }
     },
-    "custom_liquid_BRNt6A": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Matter Easy Setup<\/p>\n<\/div>"
-      }
-    },
     "image_with_text_8aMqWy": {
       "type": "image-with-text",
       "blocks": {
@@ -85,6 +79,42 @@
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
+      }
+    },
+    "image_with_text_MVXhHH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XVyhLY": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "text_BdHqap": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Surface Mount<\/h1><p>Use this to affix the Path light to surfaces.<\/p><p><strong>Prepare<\/strong><br\/>Pick the best place to mount your light and thread the cable through the big hole in the middle of the mount.<\/p><p><strong>Attach the mount<br\/><\/strong>If you're attaching the mount to wood or softer surfaces, simply install it with the provided screws.<\/p><p><strong>Affix the light<br\/><\/strong>Gently feed the cable through as you lower the Path light onto the attached mount. Line up the notches and put it onto the mount. Twist the light carefully to lock in place.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XVyhLY",
+        "text_BdHqap"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/04_LIFX_Path_Round_Gallery.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "custom_liquid_BRNt6A": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h0\">Matter Easy Setup<\/p>\n<\/div>"
       }
     },
     "image_with_text_LCJf9L": {
@@ -168,8 +198,9 @@
     "custom_liquid_iAEVa9",
     "image_with_text_GaA4VJ",
     "custom_liquid_iL3d7g",
-    "custom_liquid_BRNt6A",
     "image_with_text_8aMqWy",
+    "image_with_text_MVXhHH",
+    "custom_liquid_BRNt6A",
     "image_with_text_LCJf9L",
     "custom_liquid_zCCrA7",
     "332a1804-754d-475c-8f99-8c2c0e15083c"
