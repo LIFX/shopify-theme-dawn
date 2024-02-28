@@ -112,7 +112,7 @@
 
       ],
       "settings": {
-        "product": "string-light",
+        "product": "lifx-string-light",
         "secondary_background": true,
         "hide_variants": false,
         "enable_video_looping": false,
