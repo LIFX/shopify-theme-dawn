@@ -86,20 +86,20 @@
         "ec0b39a8-36d9-4ded-8f7e-d59fa5c195b6": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h1 style=\"margin-bottom:0px\">Supercolor<\/h1>\n<h1 style=\"font-size:7rem;margin-top:0px\">Neon Flex<\/h1>"
+            "custom_liquid": "<h1 style=\"margin-bottom:0px\">Supercolor<\/h1>\n<h1 style=\"font-size:6rem;margin-top:0px\">String Light<\/h1>"
           }
         },
         "756e42c1-5bb2-4cfb-9a78-5ad33cfcd4cd": {
           "type": "text",
           "settings": {
-            "text": "Get ready for futuristic, flexible linear light. The 16ft LIFX SuperColor Neon Flex is a powerful, ultra-bright rope light. It's bendable, smart, and has blendable PolyChrome color you can change, move or paint with custom art. It's sized to suit abstract framing furniture pieces, shelving or creating a glowing edge on your desk or other surfaces.",
+            "text": "Goodbye old-school string light, hello ultra futuristic ‘envy-of-your-friends’, vibe setting outdoor lighting. Create hypnotic effects to suit the moment, from shifting sunsets or rolling rainbows to gently flowing icy whites–or just set and forget with easy routines.",
             "text_style": "body"
           }
         },
         "3859260f-fcf6-4178-bf45-6d61a29092ae": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/www.homedepot.com\/p\/LIFX-16-ft-Smart-Multi-Color-RGBW-Wi-Fi-Plug-In-Neon-Flex-Integrated-LED-Strip-Light-Works-with-Alexa-Google-HomeKit-Siri-LFXNEON16\/326869658\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">The Home Depot<\/span><\/a>"
+            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/www.homedepot.com\/s\/327340658?NCNI-5\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">The Home Depot<\/span><\/a>"
           }
         }
       },
@@ -112,7 +112,7 @@
 
       ],
       "settings": {
-        "product": "neon-flex-16ft-indoor",
+        "product": "string-light",
         "secondary_background": true,
         "hide_variants": false,
         "enable_video_looping": false,
