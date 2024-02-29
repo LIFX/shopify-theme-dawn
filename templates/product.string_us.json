@@ -341,41 +341,6 @@
         "website_us": true
       }
     },
-    "16360008950381c4a6": {
-      "type": "multicolumn",
-      "blocks": {
-        "16360008950381c4a6-0": {
-          "type": "column",
-          "settings": {
-            "image": "{{ product.metafields.my_fields.image7.value }}",
-            "title": "{{ product.metafields.my_fields.headline7.value }}",
-            "text": "<p>{{ product.metafields.my_fields.paragraph7 | metafield_tag }}<\/p>"
-          }
-        },
-        "16360008950381c4a6-1": {
-          "type": "column",
-          "settings": {
-            "image": "{{ product.metafields.my_fields.image8.value }}",
-            "title": "{{ product.metafields.my_fields.headline8.value }}",
-            "text": "<p>{{ product.metafields.my_fields.paragraph8 | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16360008950381c4a6-0",
-        "16360008950381c4a6-1"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
     "165628902910c02cb4": {
       "type": "custom-liquid",
       "disabled": true,
@@ -430,7 +395,7 @@
         "background_style": "secondary",
         "button_label": "Recent Press",
         "button_link": "shopify:\/\/pages\/press",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "product-recommendations": {
@@ -458,7 +423,6 @@
     "4fd0266a-63b1-4c92-972c-3e90b0f77147",
     "1636000353893885f5",
     "1636083188021f8436",
-    "16360008950381c4a6",
     "165628902910c02cb4",
     "custom_liquid_9imNqR",
     "1635892427a2cdb2bc",
