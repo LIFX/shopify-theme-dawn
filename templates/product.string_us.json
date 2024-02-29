@@ -292,36 +292,6 @@
         "website_us": true
       }
     },
-    "b8cfbbd7-52d8-4cdf-9e61-58e95944fc49": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15837732896949__b8cfbbd7-52d8-4cdf-9e61-58e95944fc49-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.my_fields.headline5.value }}"
-          }
-        },
-        "template--15837732896949__b8cfbbd7-52d8-4cdf-9e61-58e95944fc49-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.my_fields.paragraph5 | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15837732896949__b8cfbbd7-52d8-4cdf-9e61-58e95944fc49-heading-1",
-        "template--15837732896949__b8cfbbd7-52d8-4cdf-9e61-58e95944fc49-text-1"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.my_fields.image5.value }}",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "1636000353893885f5": {
       "type": "image-with-text",
       "blocks": {
@@ -407,89 +377,10 @@
         "custom_liquid": "<div class=\"page-width\">\n<h1>Inspiration Gallery<\/h1>\n<p>Add <a href=\"https:\/\/www.instagram.com\/explore\/tags\/lifx\/\">#lifx<\/a> to your photos on Instagram<\/p><div \n    class=\"social-widget-wrapper\" data-widget-id=\"43841\">\n    <\/div>\n\n<a href=\"https:\/\/www.instagram.com\/lifx\/\" target=\"_blank\" class=\"button\" style=\"margin-top:10px\">FOLLOW US @LIFX<\/a>\n<\/div>"
       }
     },
-    "1635139699342ea047": {
-      "type": "multicolumn",
-      "blocks": {
-        "1635139699342ea047-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hey_google.jpg",
-            "workswith": "shopify:\/\/shop_images\/WorksWith_Badge_with_border_HeyGoogle_horizontal_CMYK_color_EN-US.png",
-            "title": "",
-            "text": "<p>Ask Google to control smart devices in your home. No matter where you are, get things done – whenever you want.<br\/><br\/>\"Hey Google, dim the living room lights and turn on Netflix.\"<\/p>"
-          }
-        },
-        "1635139699342ea047-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Echo-Dot-with-clock_-Glacier-White_-Bedroom.jpg",
-            "workswith": "shopify:\/\/shop_images\/Amazon_Alexa_Works_With_RGB.png",
-            "title": "",
-            "text": "<p>LIFX works with Amazon Alexa products to control your lights with your voice. No need to unlock your phone and open the app.<br\/><br\/>\"Alexa... Set the living room to warm white.”<\/p>"
-          }
-        },
-        "1635139699342ea047-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/07_LIFX-GU10-Kitchen-c1.jpg",
-            "workswith": "shopify:\/\/shop_images\/png_version.png",
-            "title": "",
-            "text": "<p>Turn your iPhone into a universal remote for your smart home with Apple HomeKit.<br\/><br\/>Say \"Siri, I'm home,\" and have HomeKit unlock your door and set your LIFX lighting to your favourite scene.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1635139699342ea047-0",
-        "1635139699342ea047-1",
-        "1635139699342ea047-2"
-      ],
+    "custom_liquid_9imNqR": {
+      "type": "custom-liquid",
       "settings": {
-        "title": "Hey Google, Alexa, Siri...",
-        "image_width": "full",
-        "image_ratio": "square",
-        "column_alignment": "left",
-        "background_style": "secondary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": true
-      }
-    },
-    "4415bf01-d365-4d69-adb4-66df83e0e820": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15167869616309__4415bf01-d365-4d69-adb4-66df83e0e820-1687494036ca44677e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "What is LIFX SuperColor?"
-          }
-        },
-        "template--15167869616309__4415bf01-d365-4d69-adb4-66df83e0e820-1687494036ca44677e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Good color might be science, but we got it down to a fine art. Find out what makes LIFX the mosts vivid colored smart lights in the world.<\/p>"
-          }
-        },
-        "template--15167869616309__4415bf01-d365-4d69-adb4-66df83e0e820-1687494036ca44677e-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/pages\/supercolor"
-          }
-        }
-      },
-      "block_order": [
-        "template--15167869616309__4415bf01-d365-4d69-adb4-66df83e0e820-1687494036ca44677e-0",
-        "template--15167869616309__4415bf01-d365-4d69-adb4-66df83e0e820-1687494036ca44677e-1",
-        "template--15167869616309__4415bf01-d365-4d69-adb4-66df83e0e820-1687494036ca44677e-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Supercolor.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
+        "custom_liquid": "<hr>"
       }
     },
     "1635892427a2cdb2bc": {
@@ -558,13 +449,11 @@
     "image_banner_b9GPAt",
     "16352007448c39f051",
     "4fd0266a-63b1-4c92-972c-3e90b0f77147",
-    "b8cfbbd7-52d8-4cdf-9e61-58e95944fc49",
     "1636000353893885f5",
     "1636083188021f8436",
     "16360008950381c4a6",
     "165628902910c02cb4",
-    "1635139699342ea047",
-    "4415bf01-d365-4d69-adb4-66df83e0e820",
+    "custom_liquid_9imNqR",
     "1635892427a2cdb2bc",
     "product-recommendations"
   ]
