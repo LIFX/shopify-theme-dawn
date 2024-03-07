@@ -1,6 +1,8 @@
 {{ 'productFamily.css' | asset_url | stylesheet_tag }}
 
-{%- assign activeHandle = product.handle -%}
+{% if request.host != 'www.lifx.com.au' %}
+  
+  {%- assign activeHandle = product.handle -%}
 
 {% if product.metafields.my_fields.product_family == "Colour" %}
 
@@ -148,3 +150,5 @@
 {% endfor %}
   
 {% endif %}
+
+ {% endif %}
