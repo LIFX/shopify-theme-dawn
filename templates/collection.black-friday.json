@@ -2,7 +2,6 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true
@@ -44,6 +43,7 @@
         "template--14708097646639__e4d6b73a-b68c-49ef-a12f-ce5c9972747a-16692693564c0e86db-1",
         "template--14708097646639__e4d6b73a-b68c-49ef-a12f-ce5c9972747a-16692693564c0e86db-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/BlackFriday_HeroModule-SITE-Desktop-FullSpan-opt_3.jpg",
         "adapt_height_first_image": true,
