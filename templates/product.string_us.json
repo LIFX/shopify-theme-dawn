@@ -403,6 +403,14 @@
             "title": "Andrew O'Hara",
             "text": "<p>LIFX is back with a new line of outside smart lights.<br\/><br\/><a href=\"https:\/\/appleinsider.com\/articles\/24\/03\/04\/eve-outdoor-outlet-new-aqara-products-lifx-returns-on-homekit-insider\" target=\"_blank\" title=\"https:\/\/appleinsider.com\/articles\/24\/03\/04\/eve-outdoor-outlet-new-aqara-products-lifx-returns-on-homekit-insider\">Read more<\/a><\/p>"
           }
+        },
+        "column_RiCFax": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/t3_52ede335-c24e-48e2-ab91-6d71d7d09637.png",
+            "title": "Lizzie Wilmot",
+            "text": "<p>LIFX takes on Philips Hue with brand new outdoor smart lighting range<br\/><br\/><a href=\"https:\/\/www.t3.com\/news\/lifx-takes-on-philips-hue-with-brand-new-outdoor-smart-lighting-range\" target=\"_blank\" title=\"https:\/\/www.t3.com\/news\/lifx-takes-on-philips-hue-with-brand-new-outdoor-smart-lighting-range\">Read more<\/a><\/p>"
+          }
         }
       },
       "block_order": [
@@ -410,7 +418,8 @@
         "1635892427a2cdb2bc-1",
         "601c041a-4aa0-4b40-9501-c18cd7e73170",
         "column_L4g4gJ",
-        "column_L8PgGC"
+        "column_L8PgGC",
+        "column_RiCFax"
       ],
       "settings": {
         "title": "Press & Testimonials",
