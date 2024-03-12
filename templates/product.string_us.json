@@ -411,6 +411,14 @@
             "title": "Lizzie Wilmot",
             "text": "<p>LIFX takes on Philips Hue with brand new outdoor smart lighting range<br\/><br\/><a href=\"https:\/\/www.t3.com\/news\/lifx-takes-on-philips-hue-with-brand-new-outdoor-smart-lighting-range\" target=\"_blank\" title=\"https:\/\/www.t3.com\/news\/lifx-takes-on-philips-hue-with-brand-new-outdoor-smart-lighting-range\">Read more<\/a><\/p>"
           }
+        },
+        "column_Q9TfAp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambient.png",
+            "title": "Paul Lamkin",
+            "text": "<p>Lifx is back with a new outdoor range that Matters<br\/><br\/><a href=\"https:\/\/www.the-ambient.com\/news\/lifx-is-back-with-a-new-outdoor-range-that-matters\/\" target=\"_blank\" title=\"https:\/\/www.the-ambient.com\/news\/lifx-is-back-with-a-new-outdoor-range-that-matters\/\">Read more<\/a><\/p>"
+          }
         }
       },
       "block_order": [
@@ -419,7 +427,8 @@
         "601c041a-4aa0-4b40-9501-c18cd7e73170",
         "column_L4g4gJ",
         "column_L8PgGC",
-        "column_RiCFax"
+        "column_RiCFax",
+        "column_Q9TfAp"
       ],
       "settings": {
         "title": "Press & Testimonials",
