@@ -367,7 +367,7 @@
         "1635892427a2cdb2bc-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/verge_c68d62e1-5683-4d5b-8dbb-7266ff98a49b.png",
+            "image": "shopify:\/\/shop_images\/verge_logo.png",
             "title": "Jennifer Pattison Tuohy",
             "text": "<p><em>Smart lighting stalwart LIFX reemerges with a new line of outdoor lights.<br\/><br\/><\/em><a href=\"https:\/\/www.theverge.com\/2024\/2\/28\/24085310\/lifx-outdoor-smart-lights-price-release-date-specs\" target=\"_blank\" title=\"https:\/\/www.theverge.com\/2024\/2\/28\/24085310\/lifx-outdoor-smart-lights-price-release-date-specs\">Read more<\/a><\/p>"
           }
@@ -375,7 +375,7 @@
         "1635892427a2cdb2bc-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/techhive.png",
+            "image": "shopify:\/\/shop_images\/techhive_9a9e8536-22f3-4459-800a-91fd6d4262c1.png",
             "title": "Ben Patterson",
             "text": "<p><em>LIFX is back with new outdoor smart lights.<br\/><br\/><\/em><a href=\"https:\/\/www.techhive.com\/article\/2248395\/lifx-is-back-with-new-outdoor-smart-lights.html\" target=\"_blank\" title=\"https:\/\/www.techhive.com\/article\/2248395\/lifx-is-back-with-new-outdoor-smart-lights.html\">Read more<br\/><\/a><\/p>"
           }
@@ -383,7 +383,7 @@
         "601c041a-4aa0-4b40-9501-c18cd7e73170": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9to5toys.png",
+            "image": "shopify:\/\/shop_images\/9to5toys_logo.png",
             "title": "Rikka Altland",
             "text": "<p><em>LIFX reveals new outdoor HomeKit lights with Matter, its first smart home releases in years.<br\/><br\/><\/em><a href=\"https:\/\/9to5toys.com\/2024\/02\/28\/lifx-outdoor-matter-smart-lights\/\" target=\"_blank\" title=\"https:\/\/9to5toys.com\/2024\/02\/28\/lifx-outdoor-matter-smart-lights\/\">Read more<\/a><\/p>"
           }
@@ -419,6 +419,14 @@
             "title": "Paul Lamkin",
             "text": "<p><em>LIFX is back with a new outdoor range that Matters<\/em><br\/><br\/><a href=\"https:\/\/www.the-ambient.com\/news\/lifx-is-back-with-a-new-outdoor-range-that-matters\/\" target=\"_blank\" title=\"https:\/\/www.the-ambient.com\/news\/lifx-is-back-with-a-new-outdoor-range-that-matters\/\">Read more<\/a><\/p>"
           }
+        },
+        "column_EJrJyJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/imore.png",
+            "title": "Tammy Rogers",
+            "text": "<p><em>These new HomeKit outdoor smart lights bring color to your backyard — and they connect over Matter<br\/><\/em><br\/>Read more<\/p>"
+          }
         }
       },
       "block_order": [
@@ -428,7 +436,8 @@
         "column_L4g4gJ",
         "column_L8PgGC",
         "column_RiCFax",
-        "column_Q9TfAp"
+        "column_Q9TfAp",
+        "column_EJrJyJ"
       ],
       "settings": {
         "title": "Press & Testimonials",
