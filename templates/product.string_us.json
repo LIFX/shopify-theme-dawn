@@ -395,13 +395,22 @@
             "title": "The Editor",
             "text": "<p>What’s more is that the company has now begun to embrace the Matter standard...<br\/><em><br\/><\/em><a href=\"https:\/\/homekitnews.com\/2024\/02\/29\/lifx-introduces-outdoor-lighting-range-w-matter\/\" target=\"_blank\" title=\"https:\/\/homekitnews.com\/2024\/02\/29\/lifx-introduces-outdoor-lighting-range-w-matter\/\">Read more<\/a><\/p>"
           }
+        },
+        "column_L8PgGC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/appleinsider.png",
+            "title": "Andrew O'Hara",
+            "text": "<p>LIFX is back with a new line of outside smart lights.<br\/><br\/><a href=\"https:\/\/appleinsider.com\/articles\/24\/03\/04\/eve-outdoor-outlet-new-aqara-products-lifx-returns-on-homekit-insider\" target=\"_blank\" title=\"https:\/\/appleinsider.com\/articles\/24\/03\/04\/eve-outdoor-outlet-new-aqara-products-lifx-returns-on-homekit-insider\">Read more<\/a><\/p>"
+          }
         }
       },
       "block_order": [
         "1635892427a2cdb2bc-0",
         "1635892427a2cdb2bc-1",
         "601c041a-4aa0-4b40-9501-c18cd7e73170",
-        "column_L4g4gJ"
+        "column_L4g4gJ",
+        "column_L8PgGC"
       ],
       "settings": {
         "title": "Press & Testimonials",
