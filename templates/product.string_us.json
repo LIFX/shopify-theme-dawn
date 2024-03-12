@@ -387,12 +387,21 @@
             "title": "Rikka Altland",
             "text": "<p>LIFX reveals new outdoor HomeKit lights with Matter, its first smart home releases in years<em>.<br\/><br\/><\/em><a href=\"https:\/\/9to5toys.com\/2024\/02\/28\/lifx-outdoor-matter-smart-lights\/\" target=\"_blank\" title=\"https:\/\/9to5toys.com\/2024\/02\/28\/lifx-outdoor-matter-smart-lights\/\">Read more<\/a><\/p>"
           }
+        },
+        "column_L4g4gJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/homekitnews.png",
+            "title": "The Editor",
+            "text": "<p>What’s more is that the company has now begun to embrace the Matter standard...<br\/><em><br\/><\/em><a href=\"https:\/\/homekitnews.com\/2024\/02\/29\/lifx-introduces-outdoor-lighting-range-w-matter\/\" target=\"_blank\" title=\"https:\/\/homekitnews.com\/2024\/02\/29\/lifx-introduces-outdoor-lighting-range-w-matter\/\">Read more<\/a><\/p>"
+          }
         }
       },
       "block_order": [
         "1635892427a2cdb2bc-0",
         "1635892427a2cdb2bc-1",
-        "601c041a-4aa0-4b40-9501-c18cd7e73170"
+        "601c041a-4aa0-4b40-9501-c18cd7e73170",
+        "column_L4g4gJ"
       ],
       "settings": {
         "title": "Press & Testimonials",
