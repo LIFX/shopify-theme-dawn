@@ -571,14 +571,14 @@
         "column_w6KET4"
       ],
       "settings": {
-        "title": "Testimonials & Awards",
+        "title": "Press & Testimonials",
         "image_width": "half",
         "image_ratio": "adapt",
         "column_alignment": "center",
         "background_style": "secondary",
         "button_label": "Recent Press",
         "button_link": "shopify:\/\/pages\/press",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "product-recommendations": {
