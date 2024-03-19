@@ -121,6 +121,9 @@
         "text_RHTeey",
         "button_3GJkLJ"
       ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 1500px;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -198,6 +201,9 @@
     },
     "image_banner_bfya9H": {
       "type": "image-banner",
+      "custom_css": [
+        ".banner__media {max-width: 1500px;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/circadian-rhythm.webp",
         "adapt_height_first_image": true,
@@ -236,6 +242,9 @@
       "block_order": [
         "heading_BRqtFC",
         "text_T9QeLj"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 1500px;}"
       ],
       "settings": {
         "color_scheme": "background-1",
