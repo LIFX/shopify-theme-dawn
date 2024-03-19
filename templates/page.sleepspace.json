@@ -2,14 +2,295 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
       }
+    },
+    "image_banner_zaHPwN": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Dpdzi4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sunset Wind Down & Sunrise Wake Up",
+            "heading_size": "medium"
+          }
+        },
+        "text_VpjEhL": {
+          "type": "text",
+          "settings": {
+            "text": "Powered by SleepSpace"
+          }
+        },
+        "buttons_VcKG8j": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "iOS App",
+            "button_link_1": "https:\/\/apps.apple.com\/us\/app\/sleepspace-wake-up-refreshed\/id1193763939",
+            "button_style_secondary_1": false,
+            "button_label_2": "Android App",
+            "button_link_2": "https:\/\/play.google.com\/store\/apps\/details?id=org.proactivelife.sleepspace",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Dpdzi4",
+        "text_VpjEhL",
+        "buttons_VcKG8j"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/smartLightsExample.webp",
+        "adapt_height_first_image": false,
+        "banner_height_overide": false,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "image_with_text_jCDHPx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JT6MDM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wake up with the sun"
+          }
+        },
+        "text_e3gBAQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Smart Light Features<\/strong><\/p><ul><li>Sunrise wake up<\/li><li>Awaken in lighter sleep<\/li><li>Sunset wind down<\/li><li>Set lights to any color<\/li><li>Save money on electricity<\/li><li>Works in any light fixture<\/li><li>Proven to help with sleep<br\/><br\/><em>Includes a 1-year subscription to <\/em><a href=\"https:\/\/sleepspace.com\/benefits-of-smart-light-bulbs\/\" target=\"_blank\" title=\"https:\/\/sleepspace.com\/benefits-of-smart-light-bulbs\/\"><em>SleepSpace<\/em><\/a><em> <\/em><\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JT6MDM",
+        "text_e3gBAQ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/08_LIFX_Schedules_WakeUp.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "rich_text_RKNiA7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ygLAtH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tutorial of LIFX Integration ",
+            "heading_size": "h1"
+          }
+        },
+        "text_RHTeey": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dr. Dan Gartenberg, CEO of <a href=\"https:\/\/sleepspace.com\/benefits-of-smart-light-bulbs\/\" target=\"_blank\" title=\"https:\/\/sleepspace.com\/benefits-of-smart-light-bulbs\/\">SleepSpace<\/a> describes how to sync the LIFX smart bulbs with SleepSpace in order to adjust colors and seamlessly create regenerative wind down and wake up experiences. <br\/><br\/>Set your smart lights once and unlock the power of light in your sleep environment. <\/p>"
+          }
+        },
+        "button_3GJkLJ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ygLAtH",
+        "text_RHTeey",
+        "button_3GJkLJ"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "video_CDnkid": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/youtube_still.png",
+        "video_url": "https:\/\/youtu.be\/cro3hi_lt2M",
+        "description": "",
+        "full_width": false
+      }
+    },
+    "image_with_text_4aDYi7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qwJHE9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gradual Wake Up"
+          }
+        },
+        "text_KiccCn": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>How to do it<\/strong><\/h3><p>Set your smart wake window anywhere from 1 minute to 30 minutes. This awakens you in a lighter sleep stage during this window. The light bulb ramps up from red to bright white, just like a <strong>morning sunrise<\/strong>. At night, when you start a sleep journey, the lights turn a dim red hue. Unlike blue light, red light results in less melatonin suppression, which helps you fall asleep and is proven in many peer reviewed article.<br\/><br\/>We even validated lights positive impact on sleep in a <a href=\"https:\/\/sleepspace.com\/smart-lights-improve-perceived-sleep-quality\/\">study we did with LIFX and Google<\/a>!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qwJHE9",
+        "text_KiccCn"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rise_Shine.webp",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "image_with_text_mtawJA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_e8rx8k": {
+          "type": "heading",
+          "settings": {
+            "heading": "Soothing Meditations"
+          }
+        },
+        "text_gjeFVQ": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>How it works<\/strong><\/h3><p>Do you have a meditation practice? <br\/><br\/>It is recommended to augment that practice with the right lighting in your relaxation environment. This is especially important if you wake up in the middle of the night and try to meditate. One of the main recommendations from the proven treatment of cognitive behavioral therapy for insomnia is to get out of bed to meditate when you can't sleep for 15 minutes or more. When you do this, your lights should be as dim and as red as possible. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_e8rx8k",
+        "text_gjeFVQ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFX-1600_Gallery_08.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "image_banner_bfya9H": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/circadian-rhythm.webp",
+        "adapt_height_first_image": true,
+        "banner_height_overide": true,
+        "desktop_text_box_position": "center",
+        "desktop_box_alignment": "center",
+        "show_text_box": true,
+        "banner_url": "",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "crop_image_alignment": "center",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
+    },
+    "rich_text_JjNXBf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BRqtFC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Circadian Optimization",
+            "heading_size": "h1"
+          }
+        },
+        "text_T9QeLj": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>How to do it<\/strong><\/h3><p>SleepSpace will analyze your <a href=\"https:\/\/sleepspace.com\/circadian-rhythm-2\/\">circadian rhythm<\/a>. You can get notified about when is best for you to wake up, wind down, and take an afternoon siesta. Your smart light can be programmed to entrain your naturally occurring circadian rhythm. We call this <a href=\"https:\/\/sleepspace.com\/circadian-optimizer\/\">circadian optimization<\/a>. <br\/><br\/>A stronger circadian rhythm, augmented by smart light, means a <strong>deeper night of sleep<\/strong>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BRqtFC",
+        "text_T9QeLj"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "image_with_text_EJUNDU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eENcg9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Try the Free Trial"
+          }
+        },
+        "text_DGMDeU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Deeper sleep starts tonight. Go beyond sleep tracking and improve your sleep quality. SleepSpace uses the science of sound to improve your sleep every night. Get relaxing wind downs, a the deep sleep sound machine, and a smart alarm clock that awakens you in light sleep. Accurately measure and improve your recovery score by simply placing your phone on a nightstand, mattress, or our patented SleepSpace Smart Bed & Phone Charger. Optionally connect to Whoop, Apple Watch, Oura, and many more devices include LIFX Smart Light Bulbs. Dr. Snooze, our AI powered chatbot, and trained coaches provide personalized programs that solve your sleep.<\/p>"
+          }
+        },
+        "button_PfTPmV": {
+          "type": "button",
+          "settings": {
+            "button_label": "iOS App",
+            "button_link": "https:\/\/apps.apple.com\/us\/app\/sleepspace-wake-up-refreshed\/id1193763939"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eENcg9",
+        "text_DGMDeU",
+        "button_PfTPmV"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sleep_app.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": true,
+        "website_us": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_zaHPwN",
+    "image_with_text_jCDHPx",
+    "rich_text_RKNiA7",
+    "video_CDnkid",
+    "image_with_text_4aDYi7",
+    "image_with_text_mtawJA",
+    "image_banner_bfya9H",
+    "rich_text_JjNXBf",
+    "image_with_text_EJUNDU"
   ]
 }
