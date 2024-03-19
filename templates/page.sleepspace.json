@@ -199,29 +199,6 @@
         "website_us": true
       }
     },
-    "image_banner_bfya9H": {
-      "type": "image-banner",
-      "custom_css": [
-        ".banner__media {max-width: 1500px;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/circadian-rhythm.webp",
-        "adapt_height_first_image": true,
-        "banner_height_overide": true,
-        "desktop_text_box_position": "center",
-        "desktop_box_alignment": "center",
-        "show_text_box": true,
-        "banner_url": "",
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "crop_image_alignment": "center",
-        "website_au": true,
-        "website_ukeu": true,
-        "website_us": true
-      }
-    },
     "rich_text_JjNXBf": {
       "type": "rich-text",
       "blocks": {
@@ -249,6 +226,27 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
+      }
+    },
+    "collage_FdKeeh": {
+      "type": "collage",
+      "blocks": {
+        "image_4ixPVB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/circadian-rhythm.webp",
+            "image_padding": true,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "image_4ixPVB"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
       }
     },
     "image_with_text_EJUNDU": {
@@ -298,8 +296,8 @@
     "video_CDnkid",
     "image_with_text_4aDYi7",
     "image_with_text_mtawJA",
-    "image_banner_bfya9H",
     "rich_text_JjNXBf",
+    "collage_FdKeeh",
     "image_with_text_EJUNDU"
   ]
 }
