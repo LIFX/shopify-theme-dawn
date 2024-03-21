@@ -16,7 +16,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": false
+        "website_us": false,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "101239a1-459e-40cc-9764-b747c6519e3e": {
@@ -51,7 +55,11 @@
         "show_rating": false,
         "website_au": false,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "4d925022-1924-4479-8f3d-9773424662f2": {
@@ -105,7 +113,7 @@
         "full_width": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": false
       }
     },
     "edd529c2-edd9-4364-a6cb-9cbf5be13083": {
@@ -434,7 +442,11 @@
         "show_rating": false,
         "website_au": true,
         "website_ukeu": false,
-        "website_us": true
+        "website_us": true,
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false
       }
     },
     "16321870964a1d4c89": {
