@@ -205,10 +205,13 @@
     },
     "image_banner_b9GPAt": {
       "type": "image-banner",
+      "custom_css": [
+        ".bannerOveride {max-width: 1500px !important; margin: auto; \/* height: fit-content; *\/ min-height: auto !important; max-height: 740px !important;}"
+      ],
       "settings": {
         "image": "{{ product.metafields.custom.herobanner.value }}",
-        "adapt_height_first_image": false,
-        "banner_height_overide": false,
+        "adapt_height_first_image": true,
+        "banner_height_overide": true,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
