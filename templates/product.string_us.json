@@ -219,7 +219,8 @@
     "image_banner_b9GPAt": {
       "type": "image-banner",
       "custom_css": [
-        ".bannerOveride {max-width: 1500px !important; margin: auto; \/* height: fit-content; *\/ min-height: auto !important; max-height: 740px !important;}"
+        ".bannerOveride {max-width: 1500px !important; margin: auto; \/* height: fit-content; *\/ min-height: auto !important; max-height: 740px !important;}",
+        ".banner__media {border-radius:2rem}"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.herobanner.value }}",
