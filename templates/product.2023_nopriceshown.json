@@ -443,6 +443,7 @@
         "1635139699342ea047-1",
         "1635139699342ea047-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Hey Google, Alexa, Siri...",
         "image_width": "full",
@@ -482,6 +483,7 @@
         "template--15167869616309__4415bf01-d365-4d69-adb4-66df83e0e820-1687494036ca44677e-1",
         "template--15167869616309__4415bf01-d365-4d69-adb4-66df83e0e820-1687494036ca44677e-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Supercolor.png",
         "height": "adapt",
