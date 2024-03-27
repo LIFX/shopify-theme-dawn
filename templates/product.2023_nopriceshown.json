@@ -32,7 +32,7 @@
         "855ad892-8e71-400d-9280-f8bc7696049f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- for variant in product.variants -%}\n    <div style=\"clear:both\" class=\"product__text caption-with-letter-spacing\">SKU: {{ variant.sku }}<\/div>\n  {%- endfor -%}\n\n\n\n\n\n<p class=\"product__text caption-with-letter-spacing\" style=\"border-style:solid;padding:1rem;padding-right:2rem; float:left;border-radius:0rem 4rem 4rem 0rem;background-color:#eee;border-color:#eee;align-items:top;display:flex\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/brightness_icon_e0d4940f-c3b5-4d66-b96a-643acf6cb272.png?v=1708918257\" style=\"padding-right:1rem;width:34px\">Brightness:<br>{{ product.metafields.my_fields.lumens }} {{ product.metafields.my_fields.subtitle_lumens }}<\/p>\n\n{% if product.tags contains \"matter\" %}\n<p class=\"product__text caption-with-letter-spacing\" style=\"border-style:solid;padding:1rem;padding-right:2rem;float:left;border-radius:0rem 4rem 4rem 0rem;background-color:#eee;border-color:#eee;margin-left:1rem;align-items:top;display:flex\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/matter_logo_blk.svg?v=1708916761\" style=\"padding-right:1rem\">Compatibility:<br>Matter Enabled<\/p>\n{% endif %}\n\n<hr style=\"width:100%;background-color:#fff\">"
+            "custom_liquid": "{%- for variant in product.variants -%}\n    <div style=\"clear:both\" class=\"product__text caption-with-letter-spacing\">SKU: {{ variant.sku }}<\/div>\n  {%- endfor -%}\n\n\n\n\n\n<p class=\"product__text caption-with-letter-spacing\" style=\"border-style:solid;padding:1rem;padding-right:2rem; float:left;border-radius:0rem 4rem 4rem 0rem;background-color:#eee;border-color:#eee;align-items:top;display:flex\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/brightness_icon_e0d4940f-c3b5-4d66-b96a-643acf6cb272.png?v=1708918257\" style=\"padding-right:1rem;width:34px\">{{ product.metafields.my_fields.lumens }} {{ product.metafields.my_fields.subtitle_lumens }}<br>{{ product.metafields.my_fields.cri }} CRI<\/p>\n\n{% if product.tags contains \"matter\" %}\n<p class=\"product__text caption-with-letter-spacing\" style=\"border-style:solid;padding:1rem;padding-right:2rem;float:left;border-radius:0rem 4rem 4rem 0rem;background-color:#eee;border-color:#eee;margin-left:1rem;align-items:top;display:flex\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/matter_logo_blk.svg?v=1708916761\" style=\"padding-right:1rem\">Compatibility:<br>Matter Enabled<\/p>\n{% endif %}\n\n<hr style=\"width:100%;background-color:#fff\">"
           }
         },
         "variant_picker": {
@@ -106,7 +106,7 @@
       "custom_css": [
         ".product__description {font-size: 1.5rem; line-height: 1.8rem;}",
         ".accordion__content {font-size: 1.5rem; line-height: 1.8rem;}",
-        ".accordion__content ul {list-style:none; padding-left:0px}"
+        ".accordion__content ul {list-style: none; padding-left: 0px;}"
       ],
       "settings": {
         "enable_sticky_info": true,
