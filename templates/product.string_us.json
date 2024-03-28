@@ -219,8 +219,9 @@
     "image_banner_b9GPAt": {
       "type": "image-banner",
       "custom_css": [
-        ".bannerOveride {max-width: 1500px !important; margin: auto; \/* height: fit-content; *\/ min-height: auto !important; max-height: 740px !important; padding: 0 1.5rem;}",
-        ".banner__media {border-radius: 2rem;}"
+        ".bannerOveride {max-width: 1500px !important; margin: auto; \/* height: fit-content; *\/ min-height: auto !important; max-height: 740px !important;}",
+        ".banner__media {border-radius: 2rem;}",
+        ".banner__align--center {padding: 0 5rem !important;}"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.herobanner.value }}",
