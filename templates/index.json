@@ -173,20 +173,20 @@
         "custom_liquid_G4anY4": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h1 style=\"margin-bottom:0px\">Supercolor<\/h1>\n<h1 style=\"font-size:6rem;margin-top:0px\">String Light<\/h1>"
+            "custom_liquid": "<h1 style=\"margin-bottom:0px\">Supercolor<\/h1>\n<h1 style=\"font-size:6rem;margin-top:0px\">Smart Light<\/h1>"
           }
         },
         "text_qUtpdb": {
           "type": "text",
           "settings": {
-            "text": "Goodbye old-school string light, hello ultra futuristic ‘envy-of-your-friends’, vibe setting outdoor lighting. Create hypnotic effects to suit the moment, from shifting sunsets or rolling rainbows to gently flowing icy whites–or just set and forget with easy routines.",
+            "text": "The LIFX SuperColor Smart Light is the brightest indoor rated LIFX bulb ever made. Producing a whopping 1600lm (100W equivalent) and wide 210° beam angle. With a Color Rendering Index (CRI) of 90, this is one supercharged smart light.",
             "text_style": "body"
           }
         },
         "custom_liquid_3FctUE": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/www.homedepot.com\/s\/327340658?NCNI-5\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">The Home Depot<\/span><\/a>"
+            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\" style=\"padding-bottom:10px;padding-top:15px\">WHERE TO BUY:<\/p>\n<a href=\"https:\/\/www.homedepot.com\/p\/327940037\" class=\"mobile_external affiliateLink\" style=\"text-decoration:none\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-bottom:10px;width:100%\">The Home Depot<\/span><\/a>"
           }
         }
       },
@@ -196,7 +196,7 @@
         "custom_liquid_3FctUE"
       ],
       "settings": {
-        "product": "lifx-string-light",
+        "product": "supercolor-1600lm-a21",
         "secondary_background": true,
         "hide_variants": false,
         "enable_video_looping": false,
