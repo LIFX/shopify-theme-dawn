@@ -179,7 +179,7 @@
         "text_qUtpdb": {
           "type": "text",
           "settings": {
-            "text": "The LIFX SuperColor Smart Light is the brightest indoor rated LIFX bulb ever made. Producing a whopping 1600lm (100W equivalent) and wide 210° beam angle. With a Color Rendering Index (CRI) of 90, this is one supercharged smart light.",
+            "text": "The LIFX SuperColor Smart Light is the brightest indoor rated LIFX bulb ever made. Producing a whopping 1600lm (100W equivalent) and wide 210° beam angle. With a Color Rendering Index (CRI) of 90, this is one supercharged Matter enabled smart light.",
             "text_style": "body"
           }
         },
