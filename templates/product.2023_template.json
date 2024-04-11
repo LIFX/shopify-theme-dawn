@@ -507,7 +507,7 @@
         "background_style": "secondary",
         "button_label": "Recent Press",
         "button_link": "shopify:\/\/pages\/press",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "product-recommendations": {
