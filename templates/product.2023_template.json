@@ -469,35 +469,35 @@
     "1635892427a2cdb2bc": {
       "type": "multicolumn",
       "blocks": {
-        "1635892427a2cdb2bc-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Insider-Logo.png",
-            "title": "Business Insider",
-            "text": "<p><em>For the brightest, most vivid colors, nothing can compete with the Lifx Lightstrip with Color Zones.<br\/><br\/><\/em><a href=\"https:\/\/www.businessinsider.com\/guides\/tech\/best-led-strip-lights\" target=\"_blank\" title=\"https:\/\/www.businessinsider.com\/guides\/tech\/best-led-strip-lights\">Read more<\/a><\/p>"
-          }
-        },
-        "1635892427a2cdb2bc-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mashable.webp",
-            "title": "Mashable",
-            "text": "<p><em>Other smart lights I’ve used are disappointingly dim when you switch to a fun color, but the LIFX bulbs stay bright no matter what color you choose.<br\/><br\/><\/em><a href=\"https:\/\/mashable.com\/review\/lifx-smart-light-bulbs\" target=\"_blank\" title=\"https:\/\/mashable.com\/review\/lifx-smart-light-bulbs\">Read more<\/a><br\/><\/p>"
-          }
-        },
         "601c041a-4aa0-4b40-9501-c18cd7e73170": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Better-Homes-and-Gardens.png",
             "title": "Better Home & Gardens",
-            "text": "<p><em>2004 Winner Best Color: LIFX Color Zones Lightstrip.<br\/><br\/><\/em>The technology generates vivid color combinations as well as tunable white light so you can select the perfect hue for any occasion, mood, or purpose. <em><br\/><br\/><\/em><a href=\"https:\/\/www.bhg.com\/best-led-strip-lights-8611118#toc-best-colors-lifx-color-zones-lightstrip\" target=\"_blank\" title=\"https:\/\/www.bhg.com\/best-led-strip-lights-8611118#toc-best-colors-lifx-color-zones-lightstrip\">Read more<\/a><\/p>"
+            "text": "<p><em>2004 Winner Best Color: <br\/>LIFX Color Zones Lightstrip.<br\/><br\/>The technology generates vivid color combinations as well as tunable white light so you can select the perfect hue for any occasion, mood, or purpose. <br\/><br\/><\/em><a href=\"https:\/\/www.bhg.com\/best-led-strip-lights-8611118#toc-best-colors-lifx-color-zones-lightstrip\" target=\"_blank\" title=\"https:\/\/www.bhg.com\/best-led-strip-lights-8611118#toc-best-colors-lifx-color-zones-lightstrip\">Read more<\/a><\/p>"
+          }
+        },
+        "1635892427a2cdb2bc-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/techradar.png",
+            "title": "Tech Radar",
+            "text": "<p><em>2024 Winner: Best smart light bulb without a hub.<br\/><br\/>REASONS TO BUY<br\/><\/em><em><strong>+<\/strong><\/em><em>No hub required<br\/><\/em><em><strong>+<\/strong><\/em><em>Wide array of colors and styles<br\/><\/em><em><strong>+<\/strong><\/em><em>Works with Alexa, Google Assistant, and HomeKit<br\/><br\/><\/em><a href=\"https:\/\/www.techradar.com\/news\/best-smart-lighting\" target=\"_blank\" title=\"https:\/\/www.techradar.com\/news\/best-smart-lighting\">Read more<\/a><\/p>"
+          }
+        },
+        "1635892427a2cdb2bc-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/toms_horizontal_logo.png",
+            "title": "Tom's Guide",
+            "text": "<p><em>2024 Winner: Best smart light bulb for smaller fixtures<br\/><br\/>If have smaller fixtures, the LIFX Mini (Color 800lm) is the best choice but not just because it's more compact than the competition.<br\/><br\/><\/em><a href=\"https:\/\/www.tomsguide.com\/us\/best-smart-lights,review-6194.html\" target=\"_blank\" title=\"https:\/\/www.tomsguide.com\/us\/best-smart-lights,review-6194.html\">Read more<\/a><br\/><\/p>"
           }
         }
       },
       "block_order": [
+        "601c041a-4aa0-4b40-9501-c18cd7e73170",
         "1635892427a2cdb2bc-0",
-        "1635892427a2cdb2bc-1",
-        "601c041a-4aa0-4b40-9501-c18cd7e73170"
+        "1635892427a2cdb2bc-1"
       ],
       "settings": {
         "title": "Testimonials & Awards",
