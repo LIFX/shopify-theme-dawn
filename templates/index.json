@@ -117,6 +117,9 @@
         "text_N6NrWr",
         "button_ECGafd"
       ],
+      "custom_css": [
+        ".image-with-text {margin-top: 0px; margin-bottom: 0px;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ch_square.png",
         "height": "small",
