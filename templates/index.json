@@ -89,6 +89,44 @@
         "website_us": false
       }
     },
+    "image_with_text_hCQra9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XzLAbC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sign up and save"
+          }
+        },
+        "text_N6NrWr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Save 10% on your first purchase with Clever House our exclusive Australian distributor for LIFX.<\/p>"
+          }
+        },
+        "button_ECGafd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign Up",
+            "button_link": "https:\/\/cleverhouse.cc\/"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XzLAbC",
+        "text_N6NrWr",
+        "button_ECGafd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ch_square.png",
+        "height": "small",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "website_au": true,
+        "website_ukeu": false,
+        "website_us": false
+      }
+    },
     "edd529c2-edd9-4364-a6cb-9cbf5be13083": {
       "type": "featured-product",
       "blocks": {
@@ -611,6 +649,7 @@
     "featured_collection_JKCEq7",
     "4d925022-1924-4479-8f3d-9773424662f2",
     "00b30796-509a-4984-b169-bd17f2b746c6",
+    "image_with_text_hCQra9",
     "edd529c2-edd9-4364-a6cb-9cbf5be13083",
     "1fbb87dc-13bb-48f8-8713-5412f2799ad1",
     "featured_product_8tpj74",
