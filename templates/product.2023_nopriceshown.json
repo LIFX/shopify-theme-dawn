@@ -60,7 +60,6 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true
           }
@@ -74,6 +73,7 @@
         },
         "855ad892-8e71-400d-9280-f8bc7696049f": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<span data-tf-popup=\"mO0x3Nrt\" data-tf-opacity=\"100\" data-tf-hide-headers data-tf-size=\"50\" data-tf-iframe-props=\"title=Product Launch Signup\" data-tf-transitive-search-params data-tf-medium=\"snippet\" style=\"cursor:pointer;text-decoration:none;margin:0px;width:100%\" rel=\"noopener\" class=\"productFamilyInverse\">Sign Up<\/span><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
           }
@@ -460,7 +460,6 @@
         "column_9FBxKn": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/t3_b1f3c9f2-8894-4539-a7be-48d51c083350.png",
             "title": "Lizzie Wilmot",
             "text": "<p><em>LIFX takes on Philips Hue with brand new outdoor smart lighting range<br\/><br\/><\/em><a href=\"https:\/\/www.t3.com\/news\/lifx-takes-on-philips-hue-with-brand-new-outdoor-smart-lighting-range\" target=\"_blank\" title=\"https:\/\/www.t3.com\/news\/lifx-takes-on-philips-hue-with-brand-new-outdoor-smart-lighting-range\">Read more<\/a><\/p>"
           }
