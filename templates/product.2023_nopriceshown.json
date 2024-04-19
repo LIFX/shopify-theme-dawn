@@ -36,12 +36,6 @@
             "text_style": "subtitle"
           }
         },
-        "855ad892-8e71-400d-9280-f8bc7696049f": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{%- for variant in product.variants -%}\n    <p class=\"product__text caption-with-letter-spacing\">SKU: {{ variant.sku }}<\/p>\n  {%- endfor -%}"
-          }
-        },
         "price": {
           "type": "price",
           "disabled": true,
@@ -66,6 +60,7 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true
           }
@@ -75,6 +70,12 @@
           "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.available == false and request.host == 'lifx.myshopify.com' or  request.host == 'www.lifx.com'  %}\n{% if product.metafields.my_fields.us_amazon_affiliate %}<a href=\"{{ product.metafields.my_fields.us_amazon_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin:0px;width:100%\">Buy at Amazon<\/span><\/a>{% endif %}\n{% if product.metafields.my_fields.us_bestbuy_affiliate %}<a href=\"{{ product.metafields.my_fields.us_bestbuy_affiliate }}\" class=\"mobile_external affiliateLink\" target=\"_blank\"><span class=\"button\" aria-hidden=\"true\" style=\"margin-top:10px;width:100%\">Buy at Best Buy<\/span><\/a>{% endif %}\n{% endif %}"
+          }
+        },
+        "855ad892-8e71-400d-9280-f8bc7696049f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div data-tf-live=\"01HVT3M5TEA39S7DQ2FSV2XY8R\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
           }
         },
         "88e15617-7a01-4dae-92e8-6e255e65fba0": {
@@ -109,13 +110,13 @@
         "title",
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
-        "855ad892-8e71-400d-9280-f8bc7696049f",
         "price",
         "variant_picker",
         "53a8aaa0-19ef-4653-bc90-5e98868170e8",
         "quantity_selector",
         "buy_buttons",
         "4fbfe244-48ae-4528-bfcd-83e94a326141",
+        "855ad892-8e71-400d-9280-f8bc7696049f",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
         "76f2877b-9463-4ca3-a71e-982cd31af6da"
       ],
@@ -539,50 +540,6 @@
         "website_us": true
       }
     },
-    "1635892427a2cdb2bc": {
-      "type": "multicolumn",
-      "blocks": {
-        "1635892427a2cdb2bc-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Insider-Logo.png",
-            "title": "Business Insider",
-            "text": "<p><em>For the brightest, most vivid colors, nothing can compete with the Lifx Lightstrip with Color Zones.<br\/><br\/><\/em><a href=\"https:\/\/www.businessinsider.com\/guides\/tech\/best-led-strip-lights\" target=\"_blank\" title=\"https:\/\/www.businessinsider.com\/guides\/tech\/best-led-strip-lights\">Read more<\/a><\/p>"
-          }
-        },
-        "1635892427a2cdb2bc-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mashable.webp",
-            "title": "Mashable",
-            "text": "<p><em>Other smart lights I’ve used are disappointingly dim when you switch to a fun color, but the LIFX bulbs stay bright no matter what color you choose.<br\/><br\/><\/em><a href=\"https:\/\/mashable.com\/review\/lifx-smart-light-bulbs\" target=\"_blank\" title=\"https:\/\/mashable.com\/review\/lifx-smart-light-bulbs\">Read more<\/a><br\/><\/p>"
-          }
-        },
-        "601c041a-4aa0-4b40-9501-c18cd7e73170": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Better-Homes-and-Gardens.png",
-            "title": "Better Home & Gardens",
-            "text": "<p><em>This means you can create endless color and intensity options to fit all your lighting needs, from a romantic dinner to an energizing workspace.<br\/><br\/><\/em><a href=\"https:\/\/www.bhg.com\/best-smart-light-bulbs-7091417\" target=\"_blank\" title=\"https:\/\/www.bhg.com\/best-smart-light-bulbs-7091417\">Read more<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1635892427a2cdb2bc-0",
-        "1635892427a2cdb2bc-1",
-        "601c041a-4aa0-4b40-9501-c18cd7e73170"
-      ],
-      "settings": {
-        "title": "Testimonials & Awards",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "secondary",
-        "button_label": "Recent Press",
-        "button_link": "shopify:\/\/pages\/press",
-        "swipe_on_mobile": false
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -612,7 +569,6 @@
     "165628902910c02cb4",
     "1635139699342ea047",
     "4415bf01-d365-4d69-adb4-66df83e0e820",
-    "1635892427a2cdb2bc",
     "product-recommendations"
   ]
 }
