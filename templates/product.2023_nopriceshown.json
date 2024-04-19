@@ -109,6 +109,18 @@
             "page": "",
             "icon": "box"
           }
+        },
+        "collapsible_tab_hQaGHc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "User Manual",
+            "website_au": true,
+            "website_ukeu": true,
+            "website_us": true,
+            "content": "{{ product.metafields.custom.manual_link_hack | metafield_tag }}",
+            "page": "",
+            "icon": "star"
+          }
         }
       },
       "block_order": [
@@ -126,7 +138,8 @@
         "4fbfe244-48ae-4528-bfcd-83e94a326141",
         "855ad892-8e71-400d-9280-f8bc7696049f",
         "88e15617-7a01-4dae-92e8-6e255e65fba0",
-        "76f2877b-9463-4ca3-a71e-982cd31af6da"
+        "76f2877b-9463-4ca3-a71e-982cd31af6da",
+        "collapsible_tab_hQaGHc"
       ],
       "custom_css": [
         ".product__description {font-size: 1.5rem; line-height: 1.8rem;}",
