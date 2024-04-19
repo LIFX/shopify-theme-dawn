@@ -75,7 +75,7 @@
         "855ad892-8e71-400d-9280-f8bc7696049f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span data-tf-popup=\"mO0x3Nrt\" data-tf-opacity=\"100\" data-tf-hide-headers data-tf-size=\"50\" data-tf-iframe-props=\"title=Product Launch Signup\" data-tf-transitive-search-params data-tf-medium=\"snippet\" style=\"cursor:pointer;text-decoration:none\" rel=\"noopener\"><span class=\"productFamilyInverse\" aria-hidden=\"true\" style=\"margin:0px;width:100%\">Sign Up<\/span><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
+            "custom_liquid": "<span data-tf-popup=\"mO0x3Nrt\" data-tf-opacity=\"100\" data-tf-hide-headers data-tf-size=\"50\" data-tf-iframe-props=\"title=Product Launch Signup\" data-tf-transitive-search-params data-tf-medium=\"snippet\" style=\"cursor:pointer;text-decoration:none;margin:0px;width:100%\" rel=\"noopener\" class=\"productFamilyInverse\">Sign Up<\/span><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
           }
         },
         "88e15617-7a01-4dae-92e8-6e255e65fba0": {
