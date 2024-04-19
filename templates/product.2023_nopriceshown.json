@@ -9,6 +9,14 @@
             "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/sc.png?v=1697601026\" style=\"margin:0;width:66%\" >"
           }
         },
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -16,7 +24,6 @@
         },
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.my_fields.lumens.value }} {{ product.metafields.my_fields.subtitle_lumens.value }}",
             "text_style": "uppercase"
@@ -32,7 +39,13 @@
         "855ad892-8e71-400d-9280-f8bc7696049f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- for variant in product.variants -%}\n    <div style=\"clear:both\" class=\"product__text caption-with-letter-spacing\">SKU: {{ variant.sku }}<\/div>\n  {%- endfor -%}\n\n\n\n\n\n<p class=\"product__text caption-with-letter-spacing\" style=\"border-style:solid;padding:1rem;padding-right:2rem; float:left;border-radius:0rem 4rem 4rem 0rem;background-color:#eee;border-color:#eee;align-items:top;display:flex\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/brightness_icon_e0d4940f-c3b5-4d66-b96a-643acf6cb272.png?v=1708918257\" style=\"padding-right:1rem;width:34px\">{{ product.metafields.my_fields.lumens }} {{ product.metafields.my_fields.subtitle_lumens }}<br>{{ product.metafields.my_fields.cri }} CRI<\/p>\n\n{% if product.tags contains \"matter\" %}\n<p class=\"product__text caption-with-letter-spacing\" style=\"border-style:solid;padding:1rem;padding-right:2rem;float:left;border-radius:0rem 4rem 4rem 0rem;background-color:#eee;border-color:#eee;margin-left:1rem;align-items:top;display:flex\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0219\/0638\/files\/matter_logo_blk.svg?v=1708916761\" style=\"padding-right:1rem\">Matter<br>Enabled<\/p>\n{% endif %}\n\n<hr style=\"width:100%;background-color:#fff\">"
+            "custom_liquid": "{%- for variant in product.variants -%}\n    <p class=\"product__text caption-with-letter-spacing\">SKU: {{ variant.sku }}<\/p>\n  {%- endfor -%}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
           }
         },
         "variant_picker": {
@@ -71,30 +84,33 @@
             "website_au": true,
             "website_ukeu": true,
             "website_us": true,
-            "content": "<h4><strong>General<\/strong><\/h4><ul><li><strong>Dimensions:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/li><li><strong>Lumens: <\/strong>{{ product.metafields.my_fields.lumens.value }}lm (@ 3500K)<\/li><\/ul><h4>Color<\/h4><ul><li><strong>Color Rendering Index (CRI): <\/strong>{{ product.metafields.my_fields.cri.value }}<\/li><li><strong>Color Temperature:<\/strong> {{ product.metafields.my_fields.cct_min.value }}- {{ product.metafields.my_fields.cct_max.value }}K<\/li><li><strong>Color Channels:<\/strong> RGBW<\/li><li><strong>Red Lumens:<\/strong> {{ product.metafields.custom.lumens_red.value }}lm<\/li><li><strong>Green Lumens: <\/strong>{{ product.metafields.custom.lumens_green.value }}lm<\/li><li><strong>Blue Lumens:<\/strong> {{ product.metafields.custom.lumens_blue.value }}lm<\/li><\/ul><h4>Power<\/h4><ul><li><strong>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }}W at full brightness<\/li><li><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }}W<\/li><li><strong>Voltage Range:<\/strong> {{ product.metafields.custom.voltage.value }}<\/li><\/ul><h4>Control<\/h4><ul><li><strong>Wi-Fi:<\/strong> 2.4GHz<\/li><li><strong>Dimming:<\/strong> Software dimming 1% -100%<\/li><li><strong>Security:<\/strong> WPA, WPA2<br\/><br\/><\/li><\/ul>{{ product.metafields.custom.collapsible_content | metafield_tag }}",
+            "content": "<p><strong>Lumens: <\/strong>{{ product.metafields.my_fields.lumens.value }}lm<strong><br\/>Wattage Use:<\/strong> {{ product.metafields.my_fields.wattage.value }}W at full brightness<br\/><strong>Wattage on Standby:<\/strong> Less than {{ product.metafields.my_fields.standyby_power.value }}W<br\/><strong>Voltage Range:<\/strong> AC 100-240V 50\/60 Hz<br\/><strong>Color Temperature:<\/strong> {{ product.metafields.my_fields.cct_min.value }}K to {{ product.metafields.my_fields.cct_max.value }}K<br\/><strong>Dimming:<\/strong> Software dimming 1% -100%<br\/><strong>Wi-Fi:<\/strong> 2.4GHz<br\/><strong>Security:<\/strong> WPA, WPA2<br\/><strong>Dimensions:<\/strong> {{ product.metafields.my_fields.length | metafield_tag }} x {{ product.metafields.my_fields.width | metafield_tag }} x {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
             "page": "",
             "icon": "question_mark"
           }
         },
         "76f2877b-9463-4ca3-a71e-982cd31af6da": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
-            "heading": "User Manual",
+            "heading": "Bulk Order Enquiry",
             "website_au": true,
             "website_ukeu": true,
             "website_us": true,
-            "content": "{{ product.metafields.custom.manual_link_hack | metafield_tag }}<p><br\/><br\/><\/p>",
+            "content": "<p>New build, renovation, or simple upgrade. If you're looking to add some smarts to your home on a budget, we can help you fit out your home for less with a custom bulk deal. <a href=\"\/pages\/bulk-order-enquiry\" title=\"Bulk Order Enquiry\">Enquire today<\/a> <\/p>",
             "page": "",
-            "icon": "star"
+            "icon": "box"
           }
         }
       },
       "block_order": [
         "98c2b592-144e-44bc-b7bd-b3badf4922bd",
+        "vendor",
         "title",
         "b9505bb0-6f56-4709-9f5b-f2dd9faa9c2f",
         "subtitle",
         "855ad892-8e71-400d-9280-f8bc7696049f",
+        "price",
         "variant_picker",
         "53a8aaa0-19ef-4653-bc90-5e98868170e8",
         "quantity_selector",
@@ -114,6 +130,12 @@
         "enable_video_looping": true
       }
     },
+    "custom_liquid_ac7qkR": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"multicolumn background-secondary\">\n  <div class=\"page-width\">\n    <div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile\">\n      <h2 class=\"title\">\n        We play well with others\n      <\/h2><\/div>\n<div class=\"title-wrapper-with-link2 title-wrapper--self-padded-mobile title-wrapper-with-link\">\n{% if product.tags contains \"matter\" %}\n<a href=\"https:\/\/csa-iot.org\/all-solutions\/matter\/\" target=\"_blank\"><img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/matter_badge.svg?v=1708903736\" alt=\"Matter\" height=\"40px\" loading=\"lazy\"><\/a>\n{% endif %}\n<a href=\"https:\/\/www.apple.com\/home-app\/\" target=\"_blank\"><img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/apple_home_badge_550x.svg?v=1708900501\" alt=\"Apple Home\" height=\"40px\" loading=\"lazy\"><\/a>\n<a href=\"https:\/\/store.google.com\/intl\/en\/ideas\/articles\/curious-about-smart-home-devices-start-here\/\" target=\"_blank\"><img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/google_home_badge_550x.svg?v=1708900501\" alt=\"Google Home\" height=\"40px\" loading=\"lazy\"><\/a>\n\n<a href=\"https:\/\/www.alexa.com\/\" target=\"_blank\"><img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/alexa_badge_550x.svg?v=1708900501\" alt=\"Alexa\" height=\"40px\" loading=\"lazy\"><\/a>\n<a href=\"https:\/\/www.samsung.com\/us\/smartthings\/\" target=\"_blank\"><img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/Works_with_Samsung_SmartThings_logo-07.png?v=1708905280\" alt=\"Samsung SmartThings\" height=\"40px\" loading=\"lazy\"><\/a>\n\n\n\n<a href=\"https:\/\/www.home-assistant.io\/\" target=\"_blank\"><img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/home_assistant_badge.png?v=1708905158\" alt=\"Home Assistant\" height=\"40px\" loading=\"lazy\"><\/a>\n\n<a href=\"https:\/\/www.razer.com\/chroma\" target=\"_blank\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/razer_badge_550x.png?v=1708900682\" alt=\"Razer Chroma\" height=\"40px\" loading=\"lazy\"><\/a><\/div>\n  <\/div>\n<\/div>"
+      }
+    },
     "16360050346d3b64a8": {
       "type": "video2",
       "settings": {
@@ -125,15 +147,6 @@
         "website_au": true,
         "website_ukeu": true,
         "website_us": true
-      }
-    },
-    "custom_liquid_JaW7iF": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "custom_liquid": "<div class=\"multicolumn background-secondary\">\n  <div class=\"page-width\">\n    <div class=\"title-wrapper-with-link title-wrapper--self-padded-mobile\">\n      <h2 class=\"title\">\n        We play well with others\n      <\/h2><\/div>\n<div class=\"title-wrapper-with-link2 title-wrapper--self-padded-mobile title-wrapper-with-link\">\n{% if product.tags contains \"matter\" %}\n<a href=\"https:\/\/csa-iot.org\/all-solutions\/matter\/\" target=\"_blank\"><img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/matter_badge.svg?v=1708903736\" alt=\"Matter\" height=\"40px\" loading=\"lazy\"><\/a>\n{% endif %}\n<a href=\"https:\/\/www.apple.com\/home-app\/\" target=\"_blank\"><img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/apple_home_badge_550x.svg?v=1708900501\" alt=\"Apple Home\" height=\"40px\" loading=\"lazy\"><\/a>\n<a href=\"https:\/\/store.google.com\/intl\/en\/ideas\/articles\/curious-about-smart-home-devices-start-here\/\" target=\"_blank\"><img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/google_home_badge_550x.svg?v=1708900501\" alt=\"Google Home\" height=\"40px\" loading=\"lazy\"><\/a>\n\n<a href=\"https:\/\/www.alexa.com\/\" target=\"_blank\"><img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/alexa_badge_550x.svg?v=1708900501\" alt=\"Alexa\" height=\"40px\" loading=\"lazy\"><\/a>\n<a href=\"https:\/\/www.samsung.com\/us\/smartthings\/\" target=\"_blank\"><img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/Works_with_Samsung_SmartThings_logo-07.png?v=1708905280\" alt=\"Samsung SmartThings\" height=\"40px\" loading=\"lazy\"><\/a>\n\n\n\n<a href=\"https:\/\/www.home-assistant.io\/\" target=\"_blank\"><img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/home_assistant_badge.png?v=1708905158\" alt=\"Home Assistant\" height=\"40px\" loading=\"lazy\"><\/a>\n\n<a href=\"https:\/\/www.razer.com\/chroma\" target=\"_blank\">\n<img src=\"\/\/www.lifx.com\/cdn\/shop\/files\/razer_badge_550x.png?v=1708900682\" alt=\"Razer Chroma\" height=\"40px\" loading=\"lazy\"><\/a><\/div>\n  <\/div>\n<\/div>"
       }
     },
     "163514216916abed30": {
@@ -180,19 +193,11 @@
           "settings": {
             "text": "<p>{{ product.metafields.my_fields.paragraph2 | metafield_tag }}<\/p>"
           }
-        },
-        "button_9f8x3T": {
-          "type": "button",
-          "settings": {
-            "button_label": "{{ product.metafields.custom.lowvoltagecalculatorcopy.value }}",
-            "button_link": "{{ product.metafields.custom.lowvoltagecalculatorlink.value }}"
-          }
         }
       },
       "block_order": [
         "163520046949622558-0",
-        "163520046949622558-1",
-        "button_9f8x3T"
+        "163520046949622558-1"
       ],
       "settings": {
         "image": "{{ product.metafields.my_fields.image2.value }}",
@@ -206,13 +211,10 @@
     },
     "image_banner_b9GPAt": {
       "type": "image-banner",
-      "custom_css": [
-        ".bannerOveride {max-width: 1500px !important; margin: auto; \/* height: fit-content; *\/ min-height: auto !important; max-height: 740px !important;}"
-      ],
       "settings": {
         "image": "{{ product.metafields.custom.herobanner.value }}",
-        "adapt_height_first_image": true,
-        "banner_height_overide": true,
+        "adapt_height_first_image": false,
+        "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
         "show_text_box": true,
@@ -417,39 +419,72 @@
         "1635139699342ea047-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hey_google.jpg",
-            "workswith": "shopify:\/\/shop_images\/WorksWith_Badge_with_border_HeyGoogle_horizontal_CMYK_color_EN-US.png",
-            "title": "",
-            "text": "<p>Ask Google to control smart devices in your home. No matter where you are, get things done – whenever you want.<br\/><br\/>\"Hey Google, dim the living room lights and turn on Netflix.\"<\/p>"
+            "title": "Jennifer Pattison Tuohy",
+            "text": "<p><em>Smart lighting stalwart LIFX reemerges with a new line of outdoor lights.<\/em><\/p><p><br\/><a href=\"https:\/\/www.theverge.com\/2024\/2\/28\/24085310\/lifx-outdoor-smart-lights-price-release-date-specs\" target=\"_blank\" title=\"https:\/\/www.theverge.com\/2024\/2\/28\/24085310\/lifx-outdoor-smart-lights-price-release-date-specs\">Read more<\/a><\/p>"
           }
         },
         "1635139699342ea047-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Echo-Dot-with-clock_-Glacier-White_-Bedroom.jpg",
-            "workswith": "shopify:\/\/shop_images\/Amazon_Alexa_Works_With_RGB.png",
-            "title": "",
-            "text": "<p>LIFX works with Amazon Alexa products to control your lights with your voice. No need to unlock your phone and open the app.<br\/><br\/>\"Alexa... Set the living room to warm white.”<\/p>"
+            "title": "Christopher Null",
+            "text": "<p><em>LIFX String Light review: A pricey pop of outdoor color.<br\/><br\/><\/em><\/p><p><a href=\"https:\/\/www.techhive.com\/article\/2279774\/lifx-string-light-review.html\" target=\"_blank\" title=\"https:\/\/www.techhive.com\/article\/2279774\/lifx-string-light-review.html\">Read more<\/a><\/p>"
           }
         },
         "1635139699342ea047-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/07_LIFX-GU10-Kitchen-c1.jpg",
-            "workswith": "shopify:\/\/shop_images\/png_version.png",
-            "title": "",
-            "text": "<p>Turn your iPhone into a universal remote for your smart home with Apple HomeKit.<br\/><br\/>Say \"Siri, I'm home,\" and have HomeKit unlock your door and set your LIFX lighting to your favourite scene.<\/p>"
+            "title": "Rikka Altland",
+            "text": "<p><em>LIFX reveals new outdoor HomeKit lights with Matter, its first smart home releases in years.<br\/><br\/><\/em><a href=\"https:\/\/9to5toys.com\/2024\/02\/28\/lifx-outdoor-matter-smart-lights\/\" target=\"_blank\" title=\"https:\/\/9to5toys.com\/2024\/02\/28\/lifx-outdoor-matter-smart-lights\/\">Read more<\/a><\/p>"
+          }
+        },
+        "column_7zmT8T": {
+          "type": "column",
+          "settings": {
+            "title": "The Editor",
+            "text": "<p><em>What’s more is that the company has now begun to embrace the Matter standard<br\/><br\/><\/em><\/p><p><a href=\"https:\/\/homekitnews.com\/2024\/02\/29\/lifx-introduces-outdoor-lighting-range-w-matter\/\" target=\"_blank\" title=\"https:\/\/homekitnews.com\/2024\/02\/29\/lifx-introduces-outdoor-lighting-range-w-matter\/\">Read more<\/a><\/p>"
+          }
+        },
+        "column_Gda3NQ": {
+          "type": "column",
+          "settings": {
+            "title": "Andrew O'Hara",
+            "text": "<p><em>LIFX is back with a new line of outside smart lights.<br\/><br\/><\/em><a href=\"https:\/\/appleinsider.com\/articles\/24\/03\/04\/eve-outdoor-outlet-new-aqara-products-lifx-returns-on-homekit-insider\" target=\"_blank\" title=\"https:\/\/appleinsider.com\/articles\/24\/03\/04\/eve-outdoor-outlet-new-aqara-products-lifx-returns-on-homekit-insider\">Read more<\/a><\/p>"
+          }
+        },
+        "column_9FBxKn": {
+          "type": "column",
+          "settings": {
+            "title": "Lizzie Wilmot",
+            "text": "<p><em>LIFX takes on Philips Hue with brand new outdoor smart lighting range<br\/><br\/><\/em><a href=\"https:\/\/www.t3.com\/news\/lifx-takes-on-philips-hue-with-brand-new-outdoor-smart-lighting-range\" target=\"_blank\" title=\"https:\/\/www.t3.com\/news\/lifx-takes-on-philips-hue-with-brand-new-outdoor-smart-lighting-range\">Read more<\/a><\/p>"
+          }
+        },
+        "column_g3QwRm": {
+          "type": "column",
+          "settings": {
+            "title": "Paul Lamkin",
+            "text": "<p><em>LIFX is back with a new outdoor range that Matters<br\/><br\/><\/em><a href=\"https:\/\/www.the-ambient.com\/news\/lifx-is-back-with-a-new-outdoor-range-that-matters\/\" target=\"_blank\" title=\"https:\/\/www.the-ambient.com\/news\/lifx-is-back-with-a-new-outdoor-range-that-matters\/\">Read more<\/a><\/p>"
+          }
+        },
+        "column_xtYkVU": {
+          "type": "column",
+          "settings": {
+            "title": "Tammy Rogers",
+            "text": "<p><em>These new HomeKit outdoor smart lights bring color to your backyard — and they connect over Matter<\/em><\/p><p><br\/><a href=\"https:\/\/www.imore.com\/smart-home\/homekit\/these-new-homekit-outdoor-smart-lights-bring-color-to-your-backyard-and-they-connect-over-matter\" target=\"_blank\" title=\"https:\/\/www.imore.com\/smart-home\/homekit\/these-new-homekit-outdoor-smart-lights-bring-color-to-your-backyard-and-they-connect-over-matter\">Read more<\/a><\/p>"
           }
         }
       },
       "block_order": [
         "1635139699342ea047-0",
         "1635139699342ea047-1",
-        "1635139699342ea047-2"
+        "1635139699342ea047-2",
+        "column_7zmT8T",
+        "column_Gda3NQ",
+        "column_9FBxKn",
+        "column_g3QwRm",
+        "column_xtYkVU"
       ],
-      "disabled": true,
       "settings": {
-        "title": "Hey Google, Alexa, Siri...",
+        "title": "Press & Testimonials",
         "image_width": "full",
         "image_ratio": "square",
         "column_alignment": "left",
@@ -487,9 +522,7 @@
         "template--15167869616309__4415bf01-d365-4d69-adb4-66df83e0e820-1687494036ca44677e-1",
         "template--15167869616309__4415bf01-d365-4d69-adb4-66df83e0e820-1687494036ca44677e-2"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Supercolor.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
@@ -504,87 +537,42 @@
         "1635892427a2cdb2bc-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/verge_logo.png",
-            "title": "Jennifer Pattison Tuohy",
-            "text": "<p><em>Smart lighting stalwart LIFX reemerges with a new line of outdoor lights.<\/em><\/p><p><br\/><a href=\"https:\/\/www.theverge.com\/2024\/2\/28\/24085310\/lifx-outdoor-smart-lights-price-release-date-specs\" target=\"_blank\" title=\"https:\/\/www.theverge.com\/2024\/2\/28\/24085310\/lifx-outdoor-smart-lights-price-release-date-specs\">Read more<\/a><\/p>"
+            "image": "shopify:\/\/shop_images\/Insider-Logo.png",
+            "title": "Business Insider",
+            "text": "<p><em>For the brightest, most vivid colors, nothing can compete with the Lifx Lightstrip with Color Zones.<br\/><br\/><\/em><a href=\"https:\/\/www.businessinsider.com\/guides\/tech\/best-led-strip-lights\" target=\"_blank\" title=\"https:\/\/www.businessinsider.com\/guides\/tech\/best-led-strip-lights\">Read more<\/a><\/p>"
           }
         },
         "1635892427a2cdb2bc-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/techhive_9a9e8536-22f3-4459-800a-91fd6d4262c1.png",
-            "title": "Christopher Null",
-            "text": "<p><em>LIFX String Light review: A pricey pop of outdoor color.<br\/><br\/><\/em><\/p><p><a href=\"https:\/\/www.techhive.com\/article\/2279774\/lifx-string-light-review.html\" target=\"_blank\" title=\"https:\/\/www.techhive.com\/article\/2279774\/lifx-string-light-review.html\">Read more<br\/><\/a><\/p>"
+            "image": "shopify:\/\/shop_images\/mashable.webp",
+            "title": "Mashable",
+            "text": "<p><em>Other smart lights I’ve used are disappointingly dim when you switch to a fun color, but the LIFX bulbs stay bright no matter what color you choose.<br\/><br\/><\/em><a href=\"https:\/\/mashable.com\/review\/lifx-smart-light-bulbs\" target=\"_blank\" title=\"https:\/\/mashable.com\/review\/lifx-smart-light-bulbs\">Read more<\/a><br\/><\/p>"
           }
         },
         "601c041a-4aa0-4b40-9501-c18cd7e73170": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9to5toys_logo.png",
-            "title": "Rikka Altland",
-            "text": "<p><em>LIFX reveals new outdoor HomeKit lights with Matter, its first smart home releases in years.<br\/><br\/><\/em><a href=\"https:\/\/9to5toys.com\/2024\/02\/28\/lifx-outdoor-matter-smart-lights\/\" target=\"_blank\" title=\"https:\/\/9to5toys.com\/2024\/02\/28\/lifx-outdoor-matter-smart-lights\/\">Read more<\/a><\/p>"
-          }
-        },
-        "column_pKzA7w": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/homekitnews.png",
-            "title": "The Editor",
-            "text": "<p><em>What’s more is that the company has now begun to embrace the Matter standard<br\/><br\/><\/em><\/p><p><a href=\"https:\/\/homekitnews.com\/2024\/02\/29\/lifx-introduces-outdoor-lighting-range-w-matter\/\" target=\"_blank\" title=\"https:\/\/homekitnews.com\/2024\/02\/29\/lifx-introduces-outdoor-lighting-range-w-matter\/\">Read more<\/a><\/p>"
-          }
-        },
-        "column_Rqhcnq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/appleinsider.png",
-            "title": "Andrew O'Hara",
-            "text": "<p><em>LIFX is back with a new line of outside smart lights.<br\/><br\/><\/em><a href=\"https:\/\/appleinsider.com\/articles\/24\/03\/04\/eve-outdoor-outlet-new-aqara-products-lifx-returns-on-homekit-insider\" target=\"_blank\" title=\"https:\/\/appleinsider.com\/articles\/24\/03\/04\/eve-outdoor-outlet-new-aqara-products-lifx-returns-on-homekit-insider\">Read more<\/a><\/p>"
-          }
-        },
-        "column_MNYDVP": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/t3_52ede335-c24e-48e2-ab91-6d71d7d09637.png",
-            "title": "Lizzie Wilmot",
-            "text": "<p><em>LIFX takes on Philips Hue with brand new outdoor smart lighting range<br\/><br\/><\/em><a href=\"https:\/\/www.t3.com\/news\/lifx-takes-on-philips-hue-with-brand-new-outdoor-smart-lighting-range\" target=\"_blank\" title=\"https:\/\/www.t3.com\/news\/lifx-takes-on-philips-hue-with-brand-new-outdoor-smart-lighting-range\">Read more<\/a><\/p>"
-          }
-        },
-        "column_G9ywzk": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ambient.png",
-            "title": "Paul Lamkin",
-            "text": "<p><em>LIFX is back with a new outdoor range that Matters<br\/><br\/><\/em><a href=\"https:\/\/www.the-ambient.com\/news\/lifx-is-back-with-a-new-outdoor-range-that-matters\/\" target=\"_blank\" title=\"https:\/\/www.the-ambient.com\/news\/lifx-is-back-with-a-new-outdoor-range-that-matters\/\">Read more<\/a><\/p>"
-          }
-        },
-        "column_w6KET4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/imore.png",
-            "title": "Tammy Rogers",
-            "text": "<p><em>These new HomeKit outdoor smart lights bring color to your backyard — and they connect over Matter<\/em><\/p><p><br\/><a href=\"https:\/\/www.imore.com\/smart-home\/homekit\/these-new-homekit-outdoor-smart-lights-bring-color-to-your-backyard-and-they-connect-over-matter\" target=\"_blank\" title=\"https:\/\/www.imore.com\/smart-home\/homekit\/these-new-homekit-outdoor-smart-lights-bring-color-to-your-backyard-and-they-connect-over-matter\">Read more<\/a><\/p>"
+            "image": "shopify:\/\/shop_images\/Better-Homes-and-Gardens.png",
+            "title": "Better Home & Gardens",
+            "text": "<p><em>This means you can create endless color and intensity options to fit all your lighting needs, from a romantic dinner to an energizing workspace.<br\/><br\/><\/em><a href=\"https:\/\/www.bhg.com\/best-smart-light-bulbs-7091417\" target=\"_blank\" title=\"https:\/\/www.bhg.com\/best-smart-light-bulbs-7091417\">Read more<\/a><\/p>"
           }
         }
       },
       "block_order": [
         "1635892427a2cdb2bc-0",
         "1635892427a2cdb2bc-1",
-        "601c041a-4aa0-4b40-9501-c18cd7e73170",
-        "column_pKzA7w",
-        "column_Rqhcnq",
-        "column_MNYDVP",
-        "column_G9ywzk",
-        "column_w6KET4"
+        "601c041a-4aa0-4b40-9501-c18cd7e73170"
       ],
       "settings": {
-        "title": "Press & Testimonials",
+        "title": "Testimonials & Awards",
         "image_width": "half",
         "image_ratio": "adapt",
         "column_alignment": "center",
         "background_style": "secondary",
         "button_label": "Recent Press",
         "button_link": "shopify:\/\/pages\/press",
-        "swipe_on_mobile": true
+        "swipe_on_mobile": false
       }
     },
     "product-recommendations": {
@@ -602,8 +590,8 @@
   },
   "order": [
     "main",
+    "custom_liquid_ac7qkR",
     "16360050346d3b64a8",
-    "custom_liquid_JaW7iF",
     "163514216916abed30",
     "163520046949622558",
     "image_banner_b9GPAt",
