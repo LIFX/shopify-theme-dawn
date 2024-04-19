@@ -493,12 +493,12 @@
       ],
       "settings": {
         "title": "Press & Testimonials",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "secondary",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Recent Press",
+        "button_link": "shopify:\/\/pages\/press",
         "swipe_on_mobile": true
       }
     },
