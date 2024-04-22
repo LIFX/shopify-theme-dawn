@@ -222,7 +222,7 @@
       "type": "image-banner",
       "settings": {
         "image": "{{ product.metafields.custom.herobanner.value }}",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "banner_height_overide": false,
         "desktop_text_box_position": "center",
         "desktop_box_alignment": "center",
